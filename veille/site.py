@@ -63,6 +63,8 @@ class Site:
         if path == "" or path.endswith("/"):
             target = target / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
+        # French typography: keep guillemets attached to their words
+        html = html.replace("« ", "«&nbsp;").replace(" »", "&nbsp;»")
         target.write_text(html, encoding="utf-8")
         if sitemap:
             self.pages.append((path, self.now.date().isoformat()))
