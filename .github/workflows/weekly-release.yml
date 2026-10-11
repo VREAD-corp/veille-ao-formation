@@ -1,0 +1,38 @@
+name: Export hebdomadaire (release)
+
+on:
+  schedule:
+    # Mondays 06:30 UTC, after the morning data update
+    - cron: "30 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Build CSV + ICS
+        run: python -m veille export --out dist
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=$(cat dist/tag.txt)
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            # Never replace assets: that would reset their download counts (the KPI).
+            echo "Release $TAG already exists; nothing to do."
+          else
+            gh release create "$TAG" dist/ao-formation-ouverts.csv dist/ao-formation-echeances.ics \
+              --title "Appels d'offres formation ouverts – $TAG" --notes-file dist/release-notes.md --latest
+          fi

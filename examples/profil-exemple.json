@@ -1,0 +1,9 @@
+{
+  "name": "Organisme de formation sécurité – Grand Ouest",
+  "regions": ["Bretagne", "Pays de la Loire", "Normandie"],
+  "keywords": ["secourisme", "sst", "incendie", "habilitation", "caces", "gestes et postures"],
+  "exclude_keywords": [],
+  "cpv_prefixes": [],
+  "min_days_left": 5,
+  "include_national": true
+}

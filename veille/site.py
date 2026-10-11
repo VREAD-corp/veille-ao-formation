@@ -1,0 +1,520 @@
+"""Static site generator (no dependencies)."""
+
+from __future__ import annotations
+
+import json
+import shutil
+from collections import defaultdict
+from datetime import datetime, timedelta
+from html import escape
+from pathlib import Path
+from urllib.parse import urlparse
+
+from .digest import NATIONAL_THRESHOLD, Profile, is_national, render, select
+from .exporters import ATTRIBUTION, fmt_date, fmt_deadline, to_atom, to_json, to_rss
+from .geo import REGIONS, slugify
+from .model import PARIS, Notice, fold, iso_week_bounds
+
+REPO = "VREAD-corp/veille-ao-formation"
+REPO_URL = f"https://github.com/{REPO}"
+RELEASE_CSV = f"{REPO_URL}/releases/latest/download/ao-formation-ouverts.csv"
+RELEASE_ICS = f"{REPO_URL}/releases/latest/download/ao-formation-echeances.ics"
+INTEREST_ISSUE = f"{REPO_URL}/issues/1"
+BRAND = "Veille AO Formation"
+STATIC = Path(__file__).resolve().parent.parent / "static"
+
+PUBLISHER = {
+    "name": "READ FRANCE SAS",
+    "siren": "988 741 773",
+    "address": "11 rue Rouvet, 75019 Paris",
+    "president": "Tanguy Warsmann",
+}
+
+FEED_LIMIT = 200
+
+
+def e(text: object) -> str:
+    return escape("" if text is None else str(text), quote=True)
+
+
+def fmt_eur(v: float | None) -> str:
+    if not v:
+        return ""
+    return f"{v:,.0f}".replace(",", " ") + " € HT (estimation)"
+
+
+class Site:
+    def __init__(self, out: Path, site_url: str, now: datetime):
+        self.out = out
+        self.url = site_url if site_url.endswith("/") else site_url + "/"
+        # path prefix for internal links, e.g. "/veille-ao-formation/"
+        self.base = urlparse(self.url).path or "/"
+        self.now = now
+        self.pages: list[tuple[str, str]] = []  # (path, lastmod)
+        self.meta: dict = {}
+
+    # -- helpers -------------------------------------------------------------
+
+    def link(self, path: str = "") -> str:
+        return self.base + path
+
+    def write(self, path: str, html: str, *, sitemap: bool = True) -> None:
+        target = self.out / path
+        if path == "" or path.endswith("/"):
+            target = target / "index.html"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(html, encoding="utf-8")
+        if sitemap:
+            self.pages.append((path, self.now.date().isoformat()))
+
+    def page(self, path: str, title: str, description: str, body: str, *,
+             jsonld: dict | list | None = None, scripts: bool = False, noindex: bool = False) -> str:
+        canonical = self.url + path
+        ld = (f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>'
+              if jsonld else "")
+        nav = [("", "Annonces"), ("semaine/", "Archives"), ("region/", "Régions"),
+               ("alertes/", "Alertes e-mail"), ("methode/", "Méthode")]
+        nav_html = "".join(
+            f'<a href="{self.link(p)}"{" aria-current=\"page\"" if p == path else ""}>{label}</a>'
+            for p, label in nav)
+        return f"""<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{e(title)}</title>
+<meta name="description" content="{e(description)}">
+<link rel="canonical" href="{e(canonical)}">
+{'<meta name="robots" content="noindex">' if noindex else ''}
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="{BRAND}">
+<meta property="og:title" content="{e(title)}">
+<meta property="og:description" content="{e(description)}">
+<meta property="og:url" content="{e(canonical)}">
+<meta property="og:image" content="{e(self.url)}static/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b5c63">
+<link rel="icon" href="{self.link('static/favicon.svg')}" type="image/svg+xml">
+<link rel="alternate" type="application/atom+xml" title="Appels d'offres formation (Atom)" href="{self.link('feed.xml')}">
+<link rel="alternate" type="application/rss+xml" title="Appels d'offres formation (RSS)" href="{self.link('rss.xml')}">
+<link rel="stylesheet" href="{self.link('static/style.css')}">
+{ld}
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="top">
+<div class="wrap top-in">
+<a class="brand" href="{self.link()}"><span class="brand-mark" aria-hidden="true">AO</span>{BRAND}</a>
+<nav aria-label="Navigation principale">{nav_html}</nav>
+</div>
+</header>
+<main id="contenu" class="wrap">
+{body}
+</main>
+<footer class="foot">
+<div class="wrap">
+<p class="attrib">{e(ATTRIBUTION)} Les avis officiels font foi : vérifiez toujours l'avis et le dossier de consultation avant de répondre.</p>
+<nav aria-label="Liens de bas de page">
+<a href="{self.link('methode/')}">Méthode et sources</a>
+<a href="{self.link('mentions-legales/')}">Mentions légales</a>
+<a href="{self.link('confidentialite/')}">Confidentialité</a>
+<a href="{self.link('cgv/')}">CGV (projet)</a>
+<a href="{REPO_URL}">Code source</a>
+</nav>
+<p>{BRAND} — un produit de READ FRANCE SAS.</p>
+</div>
+</footer>
+{f'<script src="{self.link("static/app.js")}" defer></script>' if scripts else ''}
+</body>
+</html>
+"""
+
+    def card(self, t: Notice, *, heading: str = "h3") -> str:
+        days = t.days_left(self.now)
+        open_ = t.is_open(self.now)
+        if t.status == "annule":
+            badge = '<span class="badge closed">Annulé</span>'
+        elif not open_:
+            badge = '<span class="badge closed">Clôturé</span>'
+        elif days is not None and days <= 7:
+            badge = f'<span class="badge urgent">J-{days}</span>'
+        else:
+            badge = f'<span class="badge">J-{days}</span>' if days is not None else ""
+        national = is_national(t)
+        regions = ("National / plusieurs régions" if t.regions and len(t.regions) >= NATIONAL_THRESHOLD
+                   else ", ".join(t.regions) or "Lieu non précisé")
+        deps = f" ({', '.join(t.departments[:6])}{'…' if len(t.departments) > 6 else ''})" if t.departments and not national else ""
+        meta = []
+        if t.cpv_main_label():
+            meta.append(f"<span>{e(t.cpv_main_label())}</span>")
+        if t.procedure:
+            meta.append(f"<span>{e(t.procedure)}</span>")
+        if t.estimated_value:
+            meta.append(f"<span>{e(fmt_eur(t.estimated_value))}</span>")
+        alt = "".join(f' · <a href="{e(u)}" rel="noopener">{e(k.split()[0])}</a>' for k, u in t.alt_urls.items()
+                      if not k.startswith(t.source))
+        upd = (f" · mis à jour le {fmt_date(t.updated)}" if t.updated and t.updated != t.published else "")
+        rect = ' <span class="badge soft">Rectificatif</span>' if t.status == "rectificatif" else ""
+        desc = f'<p class="desc">{e(t.description)}</p>' if t.description else ""
+        if t.lots:
+            shown = " ; ".join(t.lots[:5]) + (f" ; et {len(t.lots) - 5} autre(s)" if len(t.lots) > 5 else "")
+            desc += f'<p class="lots"><span>{len(t.lots)} lots :</span> {e(shown)}</p>'
+        summary = (f'<p class="desc"><em>Résumé automatique :</em> {e(t.summary)}</p>' if t.summary else "")
+        search_text = fold(f"{t.title} {t.buyer} {t.description} {' '.join(t.lots)} {' '.join(t.cpv)} {t.cpv_main_label()} "
+                           f"{' '.join(t.regions)} {' '.join(t.departments)}")
+        return f"""<article class="card" data-regions="{e('|'.join(t.regions))}" data-national="{int(national)}" data-deadline="{e(t.deadline or '')}" data-search="{e(search_text)}" data-source="{e(t.source)}">
+<div class="card-head"><{heading} class="card-title"><a href="{e(t.url)}" rel="noopener">{e(t.title)}</a></{heading}>{badge}</div>
+<p class="buyer">{e(t.buyer)}</p>
+<dl class="facts">
+<div><dt>Date limite</dt><dd>{e(fmt_deadline(t.deadline)) if t.deadline else 'Non précisée'}</dd></div>
+<div><dt>Lieu</dt><dd>{e(regions)}{e(deps)}</dd></div>
+</dl>
+{desc}{summary}
+<p class="meta">{' '.join(meta)}</p>
+<p class="src">Publié le {fmt_date(t.published)}{upd} · <a href="{e(t.url)}" rel="noopener">Avis officiel {e(t.source)}</a>{alt}{rect}</p>
+</article>"""
+
+    def cards(self, items: list[Notice]) -> str:
+        if not items:
+            return '<p class="empty">Aucun appel d\'offres à afficher.</p>'
+        return '<div class="list">' + "\n".join(self.card(t) for t in items) + "</div>"
+
+    # -- pages ---------------------------------------------------------------
+
+    def build(self, tenders: list[Notice], meta: dict) -> None:
+        self.meta = meta
+        if self.out.exists():
+            shutil.rmtree(self.out)
+        self.out.mkdir(parents=True)
+        shutil.copytree(STATIC, self.out / "static")
+
+        open_items = sorted((t for t in tenders if t.is_open(self.now)), key=lambda t: (t.deadline or "", t.id))
+        by_week: dict[str, list[Notice]] = defaultdict(list)
+        for t in tenders:
+            by_week[t.iso_week()].append(t)
+
+        self.index(open_items, meta)
+        self.weeks(by_week)
+        self.regions(open_items)
+        self.alerts(open_items)
+        self.method(meta)
+        self.legal()
+        feed_items = sorted(open_items, key=lambda t: (t.published, t.id), reverse=True)[:FEED_LIMIT]
+        (self.out / "feed.xml").write_text(to_atom(feed_items, self.now, self.url), encoding="utf-8")
+        (self.out / "rss.xml").write_text(to_rss(feed_items, self.now, self.url), encoding="utf-8")
+        (self.out / "data").mkdir(exist_ok=True)
+        (self.out / "data" / "ouverts.json").write_text(to_json(open_items, self.now, self.url), encoding="utf-8")
+        self.not_found()
+        self.sitemap()
+
+    def updated_label(self) -> str:
+        stamp = self.meta.get("updated_at")
+        local = (datetime.fromisoformat(stamp) if stamp else self.now).astimezone(PARIS)
+        return f"{fmt_date(local.date().isoformat())} à {local:%Hh%M}"
+
+    def index(self, items: list[Notice], meta: dict) -> None:
+        n = len(items)
+        soon = sum(1 for t in items if (t.days_left(self.now) or 99) <= 7)
+        new7 = sum(1 for t in items if t.published >= (self.now.date() - timedelta(days=7)).isoformat())
+        region_opts = "".join(f'<option value="{e(r)}">{e(r)}</option>' for r in REGIONS)
+        sources_note = ""
+        failed = [s for s, ok in (meta.get("last_run_ok") or {}).items() if not ok]
+        if failed:
+            sources_note = (f'<p class="warn" role="status">La dernière mise à jour de {", ".join(failed)} a échoué ; '
+                            f'les annonces de cette source peuvent dater de la mise à jour précédente.</p>')
+        body = f"""
+<section class="hero">
+<h1>Appels d'offres formation ouverts</h1>
+<p class="lead"><strong>{n}</strong> appels d'offres publics français en cours pour des prestations de formation, repérés dans le BOAMP et TED. Mis à jour le {self.updated_label()} (deux fois par jour).</p>
+<ul class="stats" aria-label="Chiffres clés">
+<li><strong>{n}</strong><span>ouverts</span></li>
+<li><strong>{new7}</strong><span>publiés ces 7 derniers jours</span></li>
+<li><strong>{soon}</strong><span>clôturent sous 7 jours</span></li>
+</ul>
+<p class="cta">
+<a class="btn" href="{self.link('feed.xml')}">Suivre par flux RSS / Atom</a>
+<a class="btn ghost" href="{RELEASE_CSV}">Export CSV de la semaine</a>
+<a class="btn ghost" href="{RELEASE_ICS}">Dates limites (.ics)</a>
+</p>
+{sources_note}
+</section>
+
+<section aria-labelledby="filtres-titre" class="filters" id="filtres" hidden>
+<h2 id="filtres-titre" class="sr-only">Filtrer les annonces</h2>
+<div class="field"><label for="q">Mot-clé</label><input id="q" type="search" placeholder="ex. secourisme, anglais, CACES, management" autocomplete="off"></div>
+<div class="field"><label for="region">Région</label><select id="region"><option value="">Toutes les régions</option>{region_opts}</select></div>
+<div class="field"><label for="deadline">Date limite</label><select id="deadline">
+<option value="">Toutes</option>
+<option value="lt7">Dans moins de 7 jours</option>
+<option value="lt14">Dans moins de 14 jours</option>
+<option value="lt30">Dans moins de 30 jours</option>
+<option value="gt7">Plus de 7 jours pour répondre</option>
+<option value="gt14">Plus de 14 jours pour répondre</option>
+</select></div>
+<div class="field check"><input id="national" type="checkbox" checked><label for="national">Inclure les annonces nationales ou multi-régions</label></div>
+<p id="count" class="count" aria-live="polite"></p>
+</section>
+
+<section aria-labelledby="liste-titre">
+<h2 id="liste-titre">Annonces en cours, par date limite</h2>
+{self.cards(items)}
+</section>
+
+<section class="panel" aria-labelledby="exports-titre">
+<h2 id="exports-titre">Données gratuites</h2>
+<ul class="links">
+<li><a href="{RELEASE_CSV}">Export CSV hebdomadaire</a> — publié chaque lundi (séparateur « ; », UTF-8, s'ouvre dans Excel). <a href="{REPO_URL}/releases">Toutes les semaines</a>.</li>
+<li><a href="{RELEASE_ICS}">Calendrier des dates limites (.ics)</a> — à importer dans Google Agenda, Outlook ou Apple Calendrier, avec rappel à J-3.</li>
+<li><a href="{self.link('feed.xml')}">Flux Atom</a> ou <a href="{self.link('rss.xml')}">flux RSS</a> — les nouvelles annonces dans votre lecteur de flux, mis à jour deux fois par jour.</li>
+<li><a href="{self.link('data/ouverts.json')}">JSON des annonces ouvertes</a> — pour vos outils internes.</li>
+</ul>
+</section>
+
+<section class="panel soon" aria-labelledby="alertes-titre">
+<h2 id="alertes-titre">Bientôt : alertes e-mail personnalisées</h2>
+<p>Un e-mail par jour ou par semaine avec uniquement les appels d'offres de vos régions et de vos thèmes, à <strong>19&nbsp;€ HT par mois</strong>. <strong>Pas encore disponible</strong> : aucune inscription ni aucun paiement n'est ouvert aujourd'hui. <a href="{self.link('alertes/')}">Voir ce qui est prévu et un exemple d'e-mail</a>.</p>
+</section>
+"""
+        jsonld = [
+            {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": self.url,
+             "inLanguage": "fr-FR"},
+            {"@context": "https://schema.org", "@type": "Dataset",
+             "name": "Appels d'offres publics ouverts pour des prestations de formation (France)",
+             "description": "Sélection quotidienne des avis de marchés publics français ouverts dont l'objet est la "
+                            "formation (CPV 805xxxxx et apparentés, descripteur BOAMP « Formation »), issus du BOAMP et de TED.",
+             "url": self.url, "inLanguage": "fr-FR",
+             "isAccessibleForFree": True,
+             "license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
+             "isBasedOn": ["https://www.data.gouv.fr/datasets/boamp", "https://ted.europa.eu/"],
+             "creator": {"@type": "Organization", "name": "READ FRANCE SAS"},
+             "dateModified": self.now.date().isoformat(),
+             "distribution": [
+                 {"@type": "DataDownload", "encodingFormat": "application/json",
+                  "contentUrl": self.url + "data/ouverts.json"},
+                 {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": RELEASE_CSV},
+             ]},
+        ]
+        self.write("", self.page(
+            "", "Appels d'offres formation ouverts – BOAMP et TED, mis à jour 2 fois par jour",
+            f"{n} appels d'offres publics en cours pour des prestations de formation (organismes de formation, "
+            "formateurs) : date limite, acheteur, région, CPV, lien vers l'avis officiel. Gratuit, RSS et CSV.",
+            body, jsonld=jsonld, scripts=True))
+
+    def weeks(self, by_week: dict[str, list[Notice]]) -> None:
+        weeks = sorted(by_week, reverse=True)
+        rows = []
+        for i, w in enumerate(weeks):
+            items = sorted(by_week[w], key=lambda t: (t.published, t.id), reverse=True)
+            start, end = iso_week_bounds(w)
+            last = end - timedelta(days=1)
+            label = f"du {fmt_date(start.isoformat())} au {fmt_date(last.isoformat())}"
+            still_open = sum(1 for t in items if t.is_open(self.now))
+            rows.append(f'<li><a href="{self.link(f"semaine/{w}/")}">Semaine {w[-2:]} ({label})</a> — '
+                        f'{len(items)} annonce(s), dont {still_open} encore ouverte(s)</li>')
+            nav = []
+            if i + 1 < len(weeks):
+                nav.append(f'<a rel="prev" href="{self.link(f"semaine/{weeks[i + 1]}/")}">← Semaine précédente</a>')
+            if i > 0:
+                nav.append(f'<a rel="next" href="{self.link(f"semaine/{weeks[i - 1]}/")}">Semaine suivante →</a>')
+            body = f"""
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › <a href="{self.link('semaine/')}">Archives</a> › Semaine {w[-2:]}</nav>
+<h1>Appels d'offres formation publiés {label}</h1>
+<p class="lead">{len(items)} avis de marchés publics français pour des prestations de formation ont été publiés au BOAMP ou dans TED cette semaine-là (semaine {w[-2:]} de {w[:4]}). {still_open} sont encore ouverts au {fmt_date(self.now.date().isoformat())}.</p>
+{self.cards(items)}
+<p class="pager">{' '.join(nav)}</p>
+"""
+            jsonld = {"@context": "https://schema.org", "@type": "CollectionPage",
+                      "name": f"Appels d'offres formation – semaine {w}", "url": self.url + f"semaine/{w}/",
+                      "mainEntity": {"@type": "ItemList", "numberOfItems": len(items),
+                                     "itemListElement": [{"@type": "ListItem", "position": k + 1, "url": t.url,
+                                                          "name": t.title} for k, t in enumerate(items[:100])]}}
+            self.write(f"semaine/{w}/", self.page(
+                f"semaine/{w}/", f"Appels d'offres formation – semaine {w[-2:]} ({label})",
+                f"Les {len(items)} appels d'offres publics de formation publiés {label} : acheteurs, dates limites, "
+                "régions et liens vers les avis officiels BOAMP et TED.",
+                body, jsonld=jsonld))
+        body = f"""
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Archives</nav>
+<h1>Archives hebdomadaires des appels d'offres formation</h1>
+<p class="lead">Chaque semaine, les avis publiés au BOAMP et dans TED pour des prestations de formation, avec leur statut (ouvert, clôturé, annulé).</p>
+<ul class="weeks">{''.join(rows)}</ul>
+"""
+        self.write("semaine/", self.page("semaine/", "Archives hebdomadaires – appels d'offres formation",
+                                         "Archives semaine par semaine des appels d'offres publics de formation "
+                                         "publiés au BOAMP et dans TED.", body))
+
+    def regions(self, open_items: list[Notice]) -> None:
+        rows = []
+        national = [t for t in open_items if is_national(t)]
+        for r in REGIONS:
+            slug = slugify(r)
+            local = [t for t in open_items if r in t.regions and not is_national(t)]
+            rows.append(f'<li><a href="{self.link(f"region/{slug}/")}">{e(r)}</a> — {len(local)} ouvert(s)</li>')
+            body = f"""
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › <a href="{self.link('region/')}">Régions</a> › {e(r)}</nav>
+<h1>Appels d'offres formation en {e(r)}</h1>
+<p class="lead">{len(local)} appel(s) d'offres public(s) ouvert(s) pour des prestations de formation en {e(r)}, plus {len(national)} annonce(s) nationale(s) ou multi-régions. Mis à jour le {self.updated_label()}.</p>
+<h2>En {e(r)}</h2>
+{self.cards(local)}
+<h2>Annonces nationales ou multi-régions</h2>
+{self.cards(national)}
+"""
+            self.write(f"region/{slug}/", self.page(
+                f"region/{slug}/", f"Appels d'offres formation {r} – marchés publics ouverts",
+                f"{len(local)} appels d'offres de formation ouverts en {r} (BOAMP, TED) : acheteur, date limite, "
+                "lien vers l'avis officiel. Mis à jour deux fois par jour.", body))
+        body = f"""
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Régions</nav>
+<h1>Appels d'offres formation par région</h1>
+<p class="lead">Lieu d'exécution indiqué dans l'avis (départements BOAMP ou codes NUTS de TED). Les annonces sans lieu précis ou couvrant {NATIONAL_THRESHOLD} régions ou plus sont classées « nationales ».</p>
+<ul class="weeks">{''.join(rows)}<li>National / multi-régions — {len(national)} ouvert(s), affichés sur chaque page régionale</li></ul>
+"""
+        self.write("region/", self.page("region/", "Appels d'offres formation par région",
+                                        "Les appels d'offres publics de formation ouverts, région par région.", body))
+
+    def alerts(self, open_items: list[Notice]) -> None:
+        profile = Profile(name="Exemple : Bretagne + Pays de la Loire, sécurité et secourisme",
+                          regions=["Bretagne", "Pays de la Loire"],
+                          keywords=["secour", "securite", "sst", "incendie", "habilitation", "caces", "gestes et postures"],
+                          min_days_left=5)
+        since = (self.now.date() - timedelta(days=14)).isoformat()
+        picked = select(open_items, profile, self.now, since=since)
+        subject, _text, html = render(picked, profile, self.now, self.url, since=since)
+        (self.out / "alertes").mkdir(parents=True, exist_ok=True)
+        (self.out / "alertes" / "exemple-email.html").write_text(html, encoding="utf-8")
+        body = f"""
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Alertes e-mail</nav>
+<h1>Alertes e-mail personnalisées — bientôt</h1>
+<p class="lead">Recevoir chaque jour ou chaque semaine uniquement les appels d'offres formation qui vous concernent, sans les chercher.</p>
+<div class="panel soon">
+<h2>Statut : pas encore disponible</h2>
+<p>Nous n'acceptons <strong>aucune inscription ni aucun paiement</strong> pour l'instant : l'envoi d'e-mails et le paiement en ligne ne sont pas encore en place. Rien n'est vendu sur ce site aujourd'hui.</p>
+</div>
+<h2>Ce qui est prévu</h2>
+<ul>
+<li>Prix envisagé : <strong>19&nbsp;€ HT par mois</strong>, sans engagement.</li>
+<li>Vos critères : régions, mots-clés (ex. « secourisme », « anglais », « management »), codes CPV, délai minimum pour répondre.</li>
+<li>Un e-mail quotidien ou hebdomadaire avec les nouvelles annonces correspondantes, et le lien vers chaque avis officiel.</li>
+<li>Rappel des dates limites des annonces suivies.</li>
+</ul>
+<h2>Exemple réel, généré à partir des annonces du jour</h2>
+<p>Profil d'exemple : « {e(profile.name)} », annonces publiées depuis le {fmt_date(since)} avec au moins {profile.min_days_left} jours pour répondre. Résultat : <strong>{e(subject)}</strong>.</p>
+<p><a class="btn ghost" href="{self.link('alertes/exemple-email.html')}">Voir l'e-mail d'exemple</a></p>
+<h2>Gratuit dès maintenant</h2>
+<ul>
+<li><a href="{self.link('feed.xml')}">Flux RSS / Atom</a> : toutes les nouvelles annonces, à filtrer dans votre lecteur de flux.</li>
+<li><a href="{RELEASE_CSV}">Export CSV hebdomadaire</a> et <a href="{RELEASE_ICS}">calendrier des dates limites</a>.</li>
+<li>Les <a href="{self.link('region/')}">pages régionales</a> et les <a href="{self.link('#filtres')}">filtres</a> de la page d'accueil.</li>
+</ul>
+<h2>Être prévenu du lancement</h2>
+<p>Pas de formulaire ici, donc aucune donnée personnelle collectée. Si vous avez un compte GitHub, vous pouvez signaler votre intérêt (un 👍 suffit) sur <a href="{INTEREST_ISSUE}">ce ticket public</a> ; nous y annoncerons l'ouverture. Sinon, le lancement sera annoncé dans le flux RSS.</p>
+"""
+        self.write("alertes/", self.page("alertes/", "Alertes e-mail appels d'offres formation (bientôt)",
+                                         "Projet d'alertes e-mail personnalisées sur les appels d'offres formation "
+                                         "(19 € HT/mois) : pas encore disponible, exemple d'e-mail et alternatives "
+                                         "gratuites.", body))
+
+    def method(self, meta: dict) -> None:
+        last = meta.get("last_success") or {}
+        body = f"""
+<nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Méthode</nav>
+<h1>Méthode, sources et limites</h1>
+<h2>Sources</h2>
+<ul>
+<li><strong>BOAMP</strong> (Bulletin officiel des annonces des marchés publics, DILA) via l'<a href="https://boamp-datadila.opendatasoft.com/explore/dataset/boamp/api/">API open data BOAMP</a>. Jeu de données publié sous <a href="https://www.data.gouv.fr/datasets/boamp">Licence Ouverte / Open Licence (Etalab)</a>. Dernière récupération réussie : {e(last.get('BOAMP', 'inconnue'))}.</li>
+<li><strong>TED</strong> (Tenders Electronic Daily, Office des publications de l'Union européenne) via l'<a href="https://docs.ted.europa.eu/api/latest/search.html">API de recherche TED</a>, pour les avis d'acheteurs français. Les avis publiés au Supplément au JOUE sont librement réutilisables (<a href="https://ted.europa.eu/fr/legal-notice">avis juridique TED</a>, décision 2011/833/UE). Ce site n'est ni affilié ni approuvé par l'Office des publications ou la DILA. Dernière récupération réussie : {e(last.get('TED', 'inconnue'))}.</li>
+</ul>
+<h2>Ce qui est sélectionné</h2>
+<p>Un avis est retenu s'il s'agit d'un appel à la concurrence (pas d'un avis d'attribution) et s'il remplit au moins une condition :</p>
+<ul>
+<li>un code CPV de formation : 805xxxxx (services de formation), 804xxxxx (éducation des adultes, e-learning, auto-école), 806xxxxx, 80000000, 79632000 ou 79633000 (formation et perfectionnement du personnel) ;</li>
+<li>le descripteur BOAMP « Formation » ;</li>
+<li>un mot-clé de formation dans l'objet ou l'intitulé d'un lot (ex. « formation », « formateur », « e-learning », « CACES ») <em>lorsque l'avis n'a aucun code CPV</em>.</li>
+</ul>
+<p>Les marchés de travaux ou de fournitures sont écartés (ex. construction d'un centre de formation, machine livrée avec formation des utilisateurs).</p>
+<h2>Traitement</h2>
+<ul>
+<li>Mise à jour automatique deux fois par jour (GitHub Actions). Le BOAMP publie ses données deux fois par jour, sept jours sur sept.</li>
+<li>Doublons : un même marché publié au BOAMP et dans TED, ou modifié par un rectificatif, n'apparaît qu'une fois (identifiant de procédure eForms), avec les liens vers chaque avis.</li>
+<li>Date limite : date et heure telles qu'écrites dans l'avis (heure de Paris en métropole). Pour un marché alloti, la plus proche date limite encore à venir.</li>
+<li>Région : départements indiqués par le BOAMP ; pour TED, lieu d'exécution (codes NUTS) ou, à défaut, code postal de l'acheteur.</li>
+<li>Aucune intelligence artificielle : les textes affichés sont des extraits des avis officiels. Les noms et coordonnées de personnes figurant dans les avis ne sont pas repris.</li>
+</ul>
+<h2>Limites</h2>
+<ul>
+<li>Ce n'est pas une liste exhaustive : beaucoup de marchés à procédure adaptée (MAPA) ne sont publiés que sur le profil d'acheteur ou dans la presse locale, et n'apparaissent ni au BOAMP ni dans TED.</li>
+<li>Le classement dépend des codes et descripteurs choisis par les acheteurs ; des annonces pertinentes peuvent manquer et quelques annonces peu pertinentes passer.</li>
+<li>Les informations sont fournies à titre indicatif. Seuls l'avis officiel et le dossier de consultation font foi.</li>
+</ul>
+<h2>Code et données</h2>
+<p>Le code est public sur <a href="{REPO_URL}">GitHub</a>. Les exports CSV et ICS de chaque semaine sont publiés dans les <a href="{REPO_URL}/releases">releases</a>.</p>
+"""
+        self.write("methode/", self.page("methode/", "Méthode et sources – Veille AO Formation",
+                                         "Sources (BOAMP, TED), licences, critères de sélection (CPV 805, descripteur "
+                                         "Formation), fréquence de mise à jour et limites.", body))
+
+    def legal(self) -> None:
+        p = PUBLISHER
+        mentions = f"""
+<h1>Mentions légales</h1>
+<h2>Éditeur</h2>
+<p>{e(p['name'])} (société par actions simplifiée), SIREN {e(p['siren'])}, siège social : {e(p['address'])}. Informations issues du <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/988741773">registre public</a>.</p>
+<p>Directeur de la publication : {e(p['president'])}, président.</p>
+<p>Contact : en attendant l'ouverture d'une adresse e-mail dédiée, par un <a href="{REPO_URL}/issues">ticket sur le dépôt GitHub</a> du projet.</p>
+<h2>Hébergement</h2>
+<p>GitHub Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis — <a href="https://github.com">github.com</a>.</p>
+<h2>Données et propriété intellectuelle</h2>
+<p>Les annonces proviennent du BOAMP (DILA, Licence Ouverte / Open Licence Etalab) et de TED (Office des publications de l'Union européenne, réutilisation autorisée par la décision 2011/833/UE). Elles sont sélectionnées, raccourcies et normalisées par nos soins. Les logos de TED et du BOAMP ne sont pas utilisés. Les avis officiels font foi.</p>
+<p>Les informations publiées ne constituent pas un conseil juridique. Vérifiez toujours l'avis officiel et le dossier de consultation avant de répondre à un marché.</p>
+"""
+        self.write("mentions-legales/", self.page("mentions-legales/", "Mentions légales – Veille AO Formation",
+                                                  "Éditeur, hébergeur et sources de Veille AO Formation.", mentions))
+        privacy = f"""
+<h1>Confidentialité</h1>
+<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie, pas d'outil de mesure d'audience ni de traceur tiers. Aucun bandeau cookies n'est donc nécessaire.</p>
+<ul>
+<li><strong>Hébergement</strong> : GitHub Pages traite des journaux techniques (adresse IP notamment) pour servir le site et le sécuriser, selon la <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité de GitHub</a>.</li>
+<li><strong>Téléchargements</strong> : les exports CSV/ICS sont servis par GitHub Releases, qui ne nous communique qu'un nombre total de téléchargements, sans aucune information sur les personnes.</li>
+<li><strong>Annonces</strong> : nous ne reprenons pas les noms ni les coordonnées des personnes de contact figurant dans les avis publics ; seul le nom de l'acheteur public est affiché.</li>
+<li><strong>Ticket GitHub</strong> : si vous réagissez au ticket public d'intérêt, votre pseudonyme GitHub est visible publiquement, selon les règles de GitHub.</li>
+</ul>
+<p>Contact : par un <a href="{REPO_URL}/issues">ticket GitHub</a>.</p>
+"""
+        self.write("confidentialite/", self.page("confidentialite/", "Confidentialité – Veille AO Formation",
+                                                 "Aucune donnée personnelle collectée, aucun cookie ni traceur.", privacy))
+        cgv = f"""
+<h1>Conditions générales de vente — projet</h1>
+<div class="panel soon"><p><strong>Projet non applicable, en attente de validation par la direction de READ FRANCE SAS.</strong> Aucun abonnement n'est vendu à ce jour ; ce texte décrit les conditions envisagées pour les futures alertes e-mail.</p></div>
+<h2>1. Objet</h2>
+<p>Abonnement mensuel à un service d'alertes e-mail signalant des appels d'offres publics de formation selon des critères choisis par l'abonné (régions, mots-clés, CPV).</p>
+<h2>2. Prix et paiement</h2>
+<p>19&nbsp;€ HT par mois (TVA applicable en sus), payable d'avance par carte bancaire via le prestataire de paiement Stripe. Abonnement sans engagement, résiliable à tout moment avec effet à la fin de la période mensuelle en cours.</p>
+<h2>3. Nature du service</h2>
+<p>Service d'information : sélection automatique d'avis publiés au BOAMP et dans TED. Il n'est pas exhaustif et ne remplace pas la consultation des avis officiels et des dossiers de consultation. READ FRANCE SAS ne garantit pas l'obtention d'un marché.</p>
+<h2>4. Droit de rétractation</h2>
+<p>Le service s'adresse principalement aux professionnels. Lorsque l'abonné est un consommateur (ou un professionnel employant au plus cinq salariés, hors champ de son activité principale, art. L221-3 du Code de la consommation), il dispose d'un délai de 14 jours pour se rétracter. S'il demande expressément que le service commence avant la fin de ce délai, il doit, en cas de rétractation, le montant correspondant au service fourni jusqu'à la rétractation (art. L221-25).</p>
+<h2>5. Responsabilité</h2>
+<p>La responsabilité de READ FRANCE SAS est limitée au montant des sommes versées au cours des trois derniers mois. Elle ne saurait être engagée du fait d'une erreur ou omission dans les données publiées par les sources officielles.</p>
+<h2>6. Données personnelles</h2>
+<p>L'adresse e-mail et les critères de l'abonné seront utilisés uniquement pour l'envoi des alertes et la facturation, conservés pendant la durée de l'abonnement puis pour la durée légale de conservation des pièces comptables.</p>
+<h2>7. Droit applicable</h2>
+<p>Droit français. Médiation de la consommation : à désigner avant l'ouverture de la vente aux consommateurs.</p>
+<p>Éditeur : {e(p['name'])}, SIREN {e(p['siren'])}, {e(p['address'])}.</p>
+"""
+        self.write("cgv/", self.page("cgv/", "CGV (projet) – Veille AO Formation",
+                                     "Projet de conditions générales de vente des futures alertes e-mail, non applicable.",
+                                     cgv, noindex=True), sitemap=False)
+
+    def not_found(self) -> None:
+        body = f"""<h1>Page introuvable</h1><p>Cette page n'existe pas ou plus. <a href="{self.link()}">Voir les appels d'offres formation ouverts</a>.</p>"""
+        self.write("404.html", self.page("404.html", "Page introuvable – Veille AO Formation",
+                                         "Page introuvable.", body, noindex=True), sitemap=False)
+
+    def sitemap(self) -> None:
+        urls = "".join(f"<url><loc>{e(self.url + p)}</loc><lastmod>{m}</lastmod></url>" for p, m in self.pages)
+        (self.out / "sitemap.xml").write_text(
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n', encoding="utf-8")
+        (self.out / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {self.url}sitemap.xml\n",
+                                             encoding="utf-8")
