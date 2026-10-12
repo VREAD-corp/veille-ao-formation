@@ -1,7 +1,7 @@
 """Paid alerts (prepaid 3- or 12-month periods): order page, Stripe return page, B2B terms, privacy section.
 
 Only built while sales.config.json has SALES_OPEN=true. Payment: Stripe Payment Element through the shared
-octave-pay-gas checkout scripts (veille/checkout/pay.js and order.js are verbatim copies of
+octave-pay-gas checkout scripts (veille/checkout/pay.js, devis.js and order.js are verbatim copies of
 VREAD-corp/octave-checkout gas/web/); the backend (Apps Script) holds the prices, sends the alerts every
 morning and the invoice. CGV drafted by Octave (assistant IA de READ FRANCE SAS) on 12 October 2026: NOT legal
 advice, to be reviewed by a lawyer.
@@ -77,7 +77,7 @@ def pay_button_text(cents: int) -> str:
 def copy_assets(site) -> None:
     out = site.out / "checkout"
     out.mkdir(parents=True, exist_ok=True)
-    for f in ("pay.js", "order.js", "alerts-form.js"):
+    for f in ("pay.js", "devis.js", "order.js", "alerts-form.js"):
         shutil.copyfile(CHECKOUT / f, out / f)
     s = site.sales
     cfg = {
@@ -91,6 +91,7 @@ def copy_assets(site) -> None:
         "termsVersion": TERMS_VERSION,
         "payLabel": PAY_LABEL,
         "termsUrl": site.link("cgv-pro/"),
+        "quotesEnabled": s.quotes_enabled,
         "orderPage": "commande.html",
         "laterText": "Si vous fermez cette page, votre abonnement est tout de même activé automatiquement "
                      "dans les 10 minutes, avec l'e-mail de bienvenue et la facture.",
@@ -140,20 +141,94 @@ def product_jsonld(site, organization: dict) -> list[dict]:
     ]
 
 
-def order_body(site, sample_subject: str, sample_desc: str) -> str:
+def plan_radios(site) -> str:
+    """input[name="product"] radios (no id), shared by the card form and the quote form."""
     p = site.sales.products
-    regions = "\n".join(
-        f'<label class="opt"><input type="checkbox" name="regions" value="{slugify(r)}" data-octave-extra> {e(r)}</label>'
-        for r in REGIONS)
-    cpv = "\n".join(
-        f'<label class="opt"><input type="checkbox" name="cpv" value="{code}" data-octave-extra> {e(label)} <span class="muted">({code})</span></label>'
-        for code, label in CPV_FAMILIES)
     plans = []
     for pid, months, checked in (("veille-ao-12m", 12, True), ("veille-ao-3m", 3, False)):
         plans.append(
             f'<label class="plan"><input type="radio" name="product" value="{pid}"{" checked" if checked else ""}> '
             f'<span><strong>{months} mois</strong> — <span data-price-for="{pid}">{e(price_label(p[pid]))}</span>'
             f'<br><span class="muted">soit {e(per_month(p[pid], months))} par mois, payé une fois, sans renouvellement automatique</span></span></label>')
+    return "".join(plans)
+
+
+def criteria_fields(suffix: str = "") -> str:
+    """The [data-octave-extra] order fields (regions, keywords, CPV families). The quote form gets the same
+    fields (same name / data-octave-extra) with every id suffixed (suffix="-devis"); alerts-form.js binds both."""
+    regions = "\n".join(
+        f'<label class="opt"><input type="checkbox" name="regions" value="{slugify(r)}" data-octave-extra> {e(r)}</label>'
+        for r in REGIONS)
+    cpv = "\n".join(
+        f'<label class="opt"><input type="checkbox" name="cpv" value="{code}" data-octave-extra> {e(label)} <span class="muted">({code})</span></label>'
+        for code, label in CPV_FAMILIES)
+    return f"""<fieldset class="field-group" id="regions-group{suffix}"><legend>Régions (au moins une)</legend>
+<p class="small muted">Les avis nationaux (sans région ou couvrant au moins 10 régions) sont toujours inclus.</p>
+<p><button type="button" class="btn ghost small-btn" id="regions-all{suffix}">Tout cocher</button> <button type="button" class="btn ghost small-btn" id="regions-none{suffix}">Tout décocher</button></p>
+<div class="opts">
+{regions}
+</div>
+</fieldset>
+<fieldset class="field-group"><legend>Thèmes (facultatif)</legend>
+<label class="field"><span>Mots-clés, séparés par des virgules (10 au maximum)</span>
+<input type="text" name="keywords" data-octave-extra maxlength="450" placeholder="ex. secourisme, anglais, management, CACES" aria-describedby="kw-help{suffix}"></label>
+<p id="kw-help{suffix}" class="small muted">Un avis est retenu s'il contient au moins un des mots-clés (titre, description, acheteur, lots ; accents et majuscules ignorés). Laissez vide pour recevoir tous les avis de formation de vos régions.</p>
+<details><summary>Familles CPV (facultatif)</summary>
+<p class="small muted">Si vous en cochez, seuls les avis portant un de ces codes sont retenus (les avis sans code CPV sont alors exclus).</p>
+<div class="opts">
+{cpv}
+</div>
+</details>
+</fieldset>"""
+
+
+def devis_box(site) -> str:
+    """Quote / bank-transfer block (octave-checkout gas/web/devis-form.html, adapted: same offers, order fields,
+    terms link and terms version as the card form). Only built with sales.config.json quotesEnabled=true."""
+    if not site.sales.quotes_enabled:
+        return ""
+    return f"""
+<details id="octave-devis-box" class="card devis-box" hidden>
+  <summary><strong>Besoin d’un devis ou paiement par virement ?</strong></summary>
+  <p class="small muted">Recevez immédiatement par e-mail un devis PDF (valable 30 jours) avec les coordonnées bancaires et la référence de virement propres à votre commande. La livraison et la facture partent automatiquement dès réception du virement. Pour un bon de commande ou une demande particulière, répondez à l’e-mail du devis.</p>
+  <form id="octave-devis" class="checkout-form" novalidate>
+    <fieldset class="field-group"><legend>Durée</legend>
+{plan_radios(site)}
+    </fieldset>
+{criteria_fields("-devis")}
+    <label class="field"><span>E-mail professionnel (réception du devis, puis du produit et de la facture)</span>
+      <input type="email" name="email" autocomplete="email" required maxlength="254"></label>
+    <label class="field"><span>Raison sociale</span>
+      <input type="text" name="company" autocomplete="organization" required minlength="2" maxlength="200"></label>
+    <label class="field"><span>SIREN (9 chiffres)</span>
+      <input type="text" name="siren" inputmode="numeric" required pattern="\\s*(\\d\\s*){{9}}" maxlength="11"></label>
+    <fieldset class="field-group"><legend>Adresse de facturation (figure sur le devis et la facture)</legend>
+      <label class="field"><span>Adresse</span>
+        <input type="text" name="addressLine1" autocomplete="address-line1" required minlength="3" maxlength="200"></label>
+      <label class="field"><span>Complément d’adresse (facultatif)</span>
+        <input type="text" name="addressLine2" autocomplete="address-line2" maxlength="200"></label>
+      <label class="field"><span>Code postal</span>
+        <input type="text" name="postalCode" autocomplete="postal-code" inputmode="numeric" required pattern="\\s*\\d{{5}}\\s*" maxlength="7"></label>
+      <label class="field"><span>Ville</span>
+        <input type="text" name="city" autocomplete="address-level2" required maxlength="100"></label>
+      <p class="small muted">Pays : France.</p>
+    </fieldset>
+    <label class="field"><span>Votre référence interne / n° de bon de commande (facultatif, reporté sur le devis et la facture)</span>
+      <input type="text" name="buyerRef" maxlength="60"></label>
+    <!-- Honeypot: hidden from humans, bots fill it; the server drops the request silently. -->
+    <div class="hp" aria-hidden="true"><label>Site web <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+    <label class="check"><input type="checkbox" name="terms" required>
+      <span>Je demande ce devis au nom et pour le compte de l’entreprise ci-dessus, pour un usage professionnel, et j’accepte les <a class="terms-link" href="{site.link('cgv-pro/')}" target="_blank" rel="noopener">conditions générales de vente aux professionnels</a> (version du {TERMS_DATE}). La commande devient ferme au paiement du devis.</span></label>
+    <p id="devis-error" class="status err" role="alert" hidden></p>
+    <p id="devis-ok" class="status ok" role="status" hidden></p>
+    <button type="submit" id="devis-button" class="pay-button secondary">Recevoir mon devis par e-mail</button>
+    <p class="small muted">Paiement par virement SEPA vers un compte dédié à votre commande, ouvert au nom de READ FRANCE SAS chez notre prestataire de paiement Stripe. Aucun paiement n’est demandé à cette étape.</p>
+  </form>
+</details>"""
+
+
+def order_body(site, sample_subject: str, sample_desc: str) -> str:
+    p = site.sales.products
     return f"""
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="{site.link()}">Accueil</a> › Alertes e-mail</nav>
 <h1>Alertes e-mail appels d'offres formation</h1>
@@ -171,27 +246,10 @@ def order_body(site, sample_subject: str, sample_desc: str) -> str:
 <p>Vente réservée aux professionnels (entreprises immatriculées en France, SIREN obligatoire). L'e-mail de bienvenue et la facture acquittée sont envoyés dès le paiement confirmé.</p>
 <form id="octave-pay" class="checkout-form card" novalidate>
 <fieldset class="field-group"><legend>Durée</legend>
-{''.join(plans)}
+{plan_radios(site)}
 <p class="small muted">Prix du jour : <span id="product-price">{e(price_label(p['veille-ao-12m']))}</span></p>
 </fieldset>
-<fieldset class="field-group" id="regions-group"><legend>Régions (au moins une)</legend>
-<p class="small muted">Les avis nationaux (sans région ou couvrant au moins 10 régions) sont toujours inclus.</p>
-<p><button type="button" class="btn ghost small-btn" id="regions-all">Tout cocher</button> <button type="button" class="btn ghost small-btn" id="regions-none">Tout décocher</button></p>
-<div class="opts">
-{regions}
-</div>
-</fieldset>
-<fieldset class="field-group"><legend>Thèmes (facultatif)</legend>
-<label class="field"><span>Mots-clés, séparés par des virgules (10 au maximum)</span>
-<input type="text" name="keywords" data-octave-extra maxlength="450" placeholder="ex. secourisme, anglais, management, CACES" aria-describedby="kw-help"></label>
-<p id="kw-help" class="small muted">Un avis est retenu s'il contient au moins un des mots-clés (titre, description, acheteur, lots ; accents et majuscules ignorés). Laissez vide pour recevoir tous les avis de formation de vos régions.</p>
-<details><summary>Familles CPV (facultatif)</summary>
-<p class="small muted">Si vous en cochez, seuls les avis portant un de ces codes sont retenus (les avis sans code CPV sont alors exclus).</p>
-<div class="opts">
-{cpv}
-</div>
-</details>
-</fieldset>
+{criteria_fields()}
 <label class="field"><span>E-mail professionnel (réception des alertes et de la facture)</span>
 <input type="email" name="email" autocomplete="email" required maxlength="254"></label>
 <label class="field"><span>Raison sociale</span>
@@ -218,7 +276,7 @@ def order_body(site, sample_subject: str, sample_desc: str) -> str:
 <button type="submit" id="pay-button" class="pay-button" disabled>{e(pay_button_text(p[DEFAULT_PLAN]))}</button>
 <p class="small muted">Paiement sécurisé par carte bancaire avec Stripe : vos données de carte sont saisies dans un cadre Stripe et ne transitent pas par nos serveurs.</p>
 <noscript><p class="status err">Le paiement nécessite JavaScript.</p></noscript>
-</form>
+</form>{devis_box(site)}
 </section>
 
 <h2>Limites</h2>
@@ -234,7 +292,8 @@ def order_scripts(site) -> str:
     return (f'<script src="{site.link("checkout/checkout-config.js")}"></script>\n'
             '<script src="https://js.stripe.com/v3/"></script>\n'
             f'<script src="{site.link("checkout/pay.js")}"></script>\n'
-            f'<script src="{site.link("checkout/alerts-form.js")}"></script>\n')
+            + (f'<script src="{site.link("checkout/devis.js")}"></script>\n' if site.sales.quotes_enabled else '')
+            + f'<script src="{site.link("checkout/alerts-form.js")}"></script>\n')
 
 
 def return_body(site) -> str:

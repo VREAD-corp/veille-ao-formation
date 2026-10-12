@@ -43,7 +43,9 @@
       if (q && bySlug[q] !== undefined) { select.value = q; show(); }
 
       // Optional: estimate for the regions ticked in the order form (read only).
+      // Card form only (the first one): the optional quote form below repeats the same checkboxes.
       var boxes = Array.prototype.slice.call(document.querySelectorAll('input[name="regions"]'));
+      boxes = boxes.filter(function (b) { return b.form === boxes[0].form; });
       if (formOut && boxes.length) {
         var update = function () {
           var idx = boxes.filter(function (b) { return b.checked && bySlug[b.value] !== undefined; })

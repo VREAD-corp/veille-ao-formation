@@ -1,5 +1,6 @@
 {
   "SALES_OPEN": true,
+  "quotesEnabled": false,
   "products": {
     "veille-ao-3m": 4900,
     "veille-ao-12m": 14900

@@ -340,3 +340,7 @@ label.check { display: flex; gap: 10px; align-items: flex-start; margin: 16px 0;
 .status.ok { color: var(--brand); }
 .status.err { color: var(--urgent); }
 details summary { cursor: pointer; font-weight: 600; margin: 8px 0; }
+/* Quote form honeypot (#octave-devis): off-screen for humans, filled by bots. */
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.devis-box { margin-top: 16px; }
+.pay-button.secondary { background: var(--surface); color: var(--brand); border: 2px solid var(--brand); }

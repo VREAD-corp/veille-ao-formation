@@ -192,3 +192,82 @@ def test_no_ht_ttc_on_our_prices(tmp_path, monkeypatch):
             if (out / f).exists():
                 body = (out / f).read_text().replace("€ HT (estimation)", "")  # buyers' estimated contract values
                 assert "TTC" not in body and "€ HT" not in body and "hors tax" not in body.lower(), f
+
+
+# --- Quote / bank-transfer form (sales.config.json quotesEnabled) ---------------------------------------------
+
+import os  # noqa: E402
+# Canonical scripts: local octave-checkout checkout (absent in CI; OCTAVE_CHECKOUT overrides the location).
+GAS_WEB = Path(os.environ.get("OCTAVE_CHECKOUT") or ROOT.parent / "octave-checkout") / "gas" / "web"
+TEST_OPEN = dict(SALES_OPEN=True, endpoint="https://octave-test.invalid/exec", publishableKey="pk_test_fake123")
+
+
+def form_html(page, form_id):
+    start = page.index(f'<form id="{form_id}"')
+    return page[start:page.index("</form>", start)]
+
+
+def test_quotes_flag_is_boolean_and_off_when_committed(tmp_path):
+    assert json.loads((ROOT / "sales.config.json").read_text())["quotesEnabled"] is False
+    assert sales.load(ROOT / "sales.config.json").quotes_enabled is False
+    with pytest.raises(ValueError):
+        sales.load(cfg(tmp_path, quotesEnabled="true"))
+    c = json.loads((ROOT / "sales.config.json").read_text())
+    c.pop("quotesEnabled")
+    (tmp_path / "legacy.json").write_text(json.dumps(c))
+    assert sales.load(tmp_path / "legacy.json").quotes_enabled is False
+
+
+def test_quotes_off_build_has_no_quote_form(tmp_path, monkeypatch):
+    monkeypatch.setenv("SALES_ALLOW_TEST", "1")
+    out = build(tmp_path, sales.load(cfg(tmp_path, quotesEnabled=False, **TEST_OPEN)))
+    page = (out / "alertes" / "index.html").read_text()
+    assert "octave-devis" not in page and "devis.js" not in page and 'class="hp"' not in page
+    assert '"quotesEnabled": false' in (out / "checkout" / "checkout-config.js").read_text()
+    assert (out / "checkout" / "devis.js").read_bytes() == (ROOT / "veille" / "checkout" / "devis.js").read_bytes()
+
+
+def test_quotes_on_build_adds_quote_form(tmp_path, monkeypatch):
+    import re
+    from collections import Counter
+    monkeypatch.setenv("SALES_ALLOW_TEST", "1")
+    out = build(tmp_path, sales.load(cfg(tmp_path, quotesEnabled=True, **TEST_OPEN)))
+    page = (out / "alertes" / "index.html").read_text()
+    assert '"quotesEnabled": true' in (out / "checkout" / "checkout-config.js").read_text()
+    # block once, right after the card form, inside the order section kept by landing.wrap_order
+    assert page.count('id="octave-devis-box"') == 1 and page.count('<form id="octave-devis"') == 1
+    pay_end = page.index("</form>", page.index('<form id="octave-pay"'))
+    assert page[pay_end:].startswith('</form>\n<details id="octave-devis-box" class="card devis-box" hidden>')
+    assert page.index('id="octave-devis-box"') < page.index("</section>", pay_end) < page.index('id="faq-h"')
+    # script after pay.js (and before alerts-form.js, which binds the duplicated region buttons)
+    pay = page.index('<script src="/veille-ao-formation/checkout/pay.js"></script>')
+    devis = page.index('<script src="/veille-ao-formation/checkout/devis.js"></script>')
+    assert page.count("checkout/devis.js") == 1 and pay < devis < page.index("checkout/alerts-form.js")
+    ids = Counter(re.findall(r'\sid="([^"]+)"', page))
+    assert [i for i, n in ids.items() if n > 1] == []
+    for attr in ("for", "aria-describedby"):
+        for ref in re.findall(rf'\s{attr}="([^"]+)"', page):
+            assert ids[ref] == 1, (attr, ref)
+    card, quote = form_html(page, "octave-pay"), form_html(page, "octave-devis")
+    # same offers and the same [data-octave-extra] fields (name + data-octave-extra) as the card form
+    radios = r'<input type="radio" name="product" value="[^"]+"(?: checked)?>'
+    assert re.findall(radios, quote) == re.findall(radios, card) and len(re.findall(radios, quote)) == 2
+    extra = r'<input [^>]*data-octave-extra[^>]*>'
+    strip_ids = lambda tags: [re.sub(r'\s(?:id|aria-describedby)="[^"]*"', "", t) for t in tags]
+    assert strip_ids(re.findall(extra, quote)) == strip_ids(re.findall(extra, card))
+    assert quote.count('name="regions"') == 14 and quote.count('name="cpv"') == len(shop.CPV_FAMILIES)
+    assert 'aria-describedby="kw-help-devis"' in quote and 'id="regions-all-devis"' in quote
+    for n in ("email", "company", "siren", "addressLine1", "addressLine2", "postalCode", "city", "buyerRef", "website", "terms"):
+        assert f'name="{n}"' in quote, n
+    # honeypot + terms: same CGV link and version date as the card checkbox
+    assert '<div class="hp" aria-hidden="true">' in quote and ".hp{position:absolute;left:-9999px" in (out / "static" / "style.css").read_text()
+    assert 'class="terms-link" href="/veille-ao-formation/cgv-pro/"' in quote and 'id="terms-link" href="/veille-ao-formation/cgv-pro/"' in card
+    assert f"(version du {sales.TERMS_DATE})" in quote and f"(version du {sales.TERMS_DATE})" in card and "{{" not in page
+    for f in ("pay.js", "devis.js", "alerts-form.js"):
+        assert (out / "checkout" / f).read_bytes() == (ROOT / "veille" / "checkout" / f).read_bytes()
+
+
+@pytest.mark.skipif(not GAS_WEB.is_dir(), reason="octave-checkout checkout not next to this repo")
+def test_vendored_checkout_scripts_match_octave_checkout():
+    for f in ("pay.js", "devis.js", "order.js"):
+        assert (ROOT / "veille" / "checkout" / f).read_bytes() == (GAS_WEB / f).read_bytes(), f

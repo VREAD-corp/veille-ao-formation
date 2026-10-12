@@ -3,7 +3,8 @@
 `sales.config.json` (repo root; SALES_CONFIG overrides the path for test builds) holds SALES_OPEN, the
 catalog ids and prices (cents, the backend's Config.js is the authority and the release check compares
 them), the VAT mode, the Apps Script /exec endpoint and the live publishable key. With SALES_OPEN=false the
-build emits no buy UI at all. Same rules as the kit sites' scripts/checkout-pages.mjs loadSalesConfig().
+build emits no buy UI at all. quotesEnabled (default false) adds the quote / bank-transfer form (checkout/devis.js)
+to the order page; the backend has its own QUOTES_ENABLED flag. Same rules as the kit sites' scripts/checkout-pages.mjs loadSalesConfig().
 """
 
 from __future__ import annotations
@@ -33,6 +34,7 @@ class Sales:
     vat: str
     endpoint: str = ""
     publishable_key: str = ""
+    quotes_enabled: bool = False
 
     def months(self, pid: str) -> int:
         return PRODUCTS[pid]
@@ -80,6 +82,8 @@ def load(path: str | os.PathLike | None = None) -> Sales:
 
     if not isinstance(c.get("SALES_OPEN"), bool):
         fail("SALES_OPEN must be true or false")
+    if not isinstance(c.get("quotesEnabled", False), bool):
+        fail("quotesEnabled must be true or false")
     if c.get("VAT") not in ("standard20", "franchise293B"):
         fail("VAT must be 'standard20' or 'franchise293B'")
     products = c.get("products")
@@ -95,4 +99,5 @@ def load(path: str | os.PathLike | None = None) -> Sales:
             fail("SALES_OPEN=true needs endpoint = https://script.google.com/macros/s/<deployment id>/exec")
         if not re.fullmatch(r"pk_live_[A-Za-z0-9]+", pk) and not (test and re.fullmatch(r"pk_test_[A-Za-z0-9]+", pk)):
             fail("SALES_OPEN=true needs a live publishable key (pk_live_…)")
-    return Sales(open=c["SALES_OPEN"], products=dict(products), vat=c["VAT"], endpoint=endpoint, publishable_key=pk)
+    return Sales(open=c["SALES_OPEN"], products=dict(products), vat=c["VAT"], endpoint=endpoint, publishable_key=pk,
+                 quotes_enabled=c.get("quotesEnabled", False))

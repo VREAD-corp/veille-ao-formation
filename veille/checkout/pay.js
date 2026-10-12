@@ -222,6 +222,9 @@
       expectedAmount: o.amount,
       attempt: attempt
     };
+    // Card alternative printed on a quote (?devis=D-YYYY-NNNN): the server cancels the quote's transfer.
+    var devis = /[?&]devis=(D-\d{4}-\d{4,})(?:&|$)/.exec(window.location.search);
+    if (devis) body.quote = devis[1];
     if (form.querySelector('[data-octave-extra]')) body.extra = extraFields();
     var key = JSON.stringify(body);
     elements.submit().then(function (r) {
