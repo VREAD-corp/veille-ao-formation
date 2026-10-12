@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import html
 import re
 import unicodedata
 from dataclasses import asdict, dataclass, field
@@ -97,14 +98,31 @@ def redact(text: str) -> str:
     return PHONE_RE.sub("[…]", EMAIL_RE.sub("[…]", text or ""))
 
 
+ENTITY_RE = re.compile(r"&(?:[a-zA-Z]{2,8}|#\d{1,6}|#x[0-9a-fA-F]{1,6});")
+
+
+def unescape_entities(text: str) -> str:
+    """Decode HTML entities, however many times the source escaped them. BOAMP sends some titles as
+    « &amp;quot;module&amp;quot; » (escaped twice); the site escapes once when it renders, so the stored text
+    must be plain. Stops after 4 rounds or as soon as nothing changes."""
+    for _ in range(4):
+        if not ENTITY_RE.search(text):
+            break
+        text = html.unescape(text)
+    return text
+
+
 def clean_text(text: str | None, limit: int | None = None) -> str:
     if not text:
         return ""
-    text = re.sub(r"\s+", " ", str(text)).strip()
+    text = re.sub(r"\s+", " ", unescape_entities(str(text))).strip()
     if limit and len(text) > limit:
         cut = text[:limit].rsplit(" ", 1)[0]
         text = cut.rstrip(" ,;:.-") + "…"
     return text
+
+
+TEXT_FIELDS = ("title", "buyer", "description", "procedure", "family", "summary")
 
 
 # --- Model -----------------------------------------------------------------
@@ -145,7 +163,14 @@ class Notice:
     @classmethod
     def from_dict(cls, data: dict) -> "Notice":
         known = {f for f in cls.__dataclass_fields__}
-        return cls(**{k: v for k, v in data.items() if k in known})
+        kw = {k: v for k, v in data.items() if k in known}
+        # Notices stored before clean_text() decoded entities still hold « &amp;quot; »: decode on load too.
+        for k in TEXT_FIELDS:
+            if isinstance(kw.get(k), str):
+                kw[k] = unescape_entities(kw[k])
+        if isinstance(kw.get("lots"), list):
+            kw["lots"] = [unescape_entities(x) if isinstance(x, str) else x for x in kw["lots"]]
+        return cls(**kw)
 
     # -- derived values ----------------------------------------------------
 

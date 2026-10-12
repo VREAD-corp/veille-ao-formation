@@ -350,3 +350,49 @@ def test_site_build(tmp_path, boamp_records, ted_notices):
         assert "pas encore disponible" in alerts.lower() and "19&nbsp;€" in alerts
     sitemap = (out / "sitemap.xml").read_text()
     assert "cgv/" not in sitemap and SITE + "semaine/" in sitemap
+
+
+# --- site polish 2026-10-13: entities, plural, weekly noindex, sitemap lastmod ----------------------------
+
+
+def test_entities_decoded_once_however_often_the_source_escaped_them():
+    from veille.model import clean_text
+    assert clean_text("sous-spécialité &amp;amp;quot;MAINTENANCE&amp;quot; d&#039;Ile") == 'sous-spécialité "MAINTENANCE" d\'Ile'
+    assert clean_text("EASA & Qualifications") == "EASA & Qualifications"
+    stored = mk("boamp:9").to_dict() | {"title": "Lot &amp;quot;anglais&amp;quot;", "lots": ["formation &quot;x&quot;"],
+                                       "buyer": "Chambre de Métiers d&#039;Ile-de-France"}
+    t = Notice.from_dict(stored)
+    assert (t.title, t.lots, t.buyer) == ('Lot "anglais"', ['formation "x"'], "Chambre de Métiers d'Ile-de-France")
+
+
+def test_sample_subject_plural():
+    from veille.landing import Sample
+    s = Sample(Profile(regions=["Bretagne"]), "2026-10-01", [mk("boamp:1"), mk("boamp:2")], 1)
+    assert s.subject.startswith("2 nouveaux appels d'offres formation")
+    assert Sample(Profile(regions=["Bretagne"]), "2026-10-01", [mk("boamp:1")], 1).subject.startswith("1 nouvel appel ")
+
+
+def test_weekly_noindex_and_sitemap_content_dates(tmp_path):
+    import veille.site as site_mod
+    items = [mk("boamp:1", published="2026-09-01", regions=["Normandie"]),
+             mk("boamp:2", published="2026-10-09", regions=["Bretagne"]),
+             mk("boamp:3", published="2026-09-20", regions=["Corse"], deadline="2026-10-05T12:00"),
+             mk("boamp:4", title='</script><script>alert(1)</script>', published="2026-09-02", regions=[])]
+    old = site_mod.TEMPLATE_DATE
+    site_mod.TEMPLATE_DATE = "2026-01-01"
+    try:
+        out = tmp_path / "site"
+        Site(out, SITE, NOW).build(items, {"updated_at": "2026-10-11T04:20:00+00:00"})
+    finally:
+        site_mod.TEMPLATE_DATE = old
+    sitemap = (out / "sitemap.xml").read_text()
+    lastmod = dict(__import__("re").findall(r"<loc>([^<]*)</loc><lastmod>([^<]*)</lastmod>", sitemap))
+    assert "/semaine/2026-W" not in sitemap and SITE + "semaine/" in sitemap
+    week = next((out / "semaine").glob("2026-W*/index.html")).read_text()
+    assert '<meta name="robots" content="noindex, follow">' in week
+    assert "</script><script>alert" not in week  # JSON-LD ItemList carries notice titles
+    assert lastmod[SITE] == "2026-10-09"  # newest notice, not the build date (2026-10-11)
+    assert lastmod[SITE + "region/normandie/"] == "2026-09-02"  # its notice + the national one
+    assert lastmod[SITE + "region/corse/"] == "2026-10-05"  # the day its only notice closed
+    assert lastmod[SITE + "methode/"] == "2026-01-01"
+    assert "dans les Hauts-de-France" in (out / "region" / "hauts-de-france" / "index.html").read_text()

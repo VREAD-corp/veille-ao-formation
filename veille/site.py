@@ -9,6 +9,7 @@ from collections import defaultdict
 from datetime import datetime, timedelta
 from html import escape
 from pathlib import Path
+from typing import Iterable
 from urllib.parse import urlparse
 
 from .digest import NATIONAL_THRESHOLD, is_national, render
@@ -45,6 +46,23 @@ ORGANIZATION = {
     "identifier": {"@type": "PropertyValue", "propertyID": "SIREN", "value": "988741773"},
 }
 
+# Date of the last change to the page templates (copy, layout). Pages without notice data use it as their
+# sitemap lastmod; update it by hand when a template changes.
+TEMPLATE_DATE = "2026-10-13"
+
+# "en Normandie", but "dans les Hauts-de-France".
+REGION_IN = {"Grand Est": "dans le Grand Est", "Hauts-de-France": "dans les Hauts-de-France",
+             "Pays de la Loire": "dans les Pays de la Loire", "Outre-mer": "en outre-mer"}
+
+
+def region_in(region: str) -> str:
+    return REGION_IN.get(region, f"en {region}")
+
+
+def plural(n: int, one: str, many: str) -> str:
+    return f"{n} {one if n <= 1 else many}"
+
+
 FEED_LIMIT = 200
 SCRIPT_RE = re.compile(r"(<script\b.*?</script>)", re.S)
 
@@ -80,7 +98,7 @@ class Site:
     def link(self, path: str = "") -> str:
         return self.base + path
 
-    def write(self, path: str, html: str, *, sitemap: bool = True) -> None:
+    def write(self, path: str, html: str, *, sitemap: bool = True, lastmod: str | None = None) -> None:
         target = self.out / path
         if path == "" or path.endswith("/"):
             target = target / "index.html"
@@ -93,14 +111,16 @@ class Site:
             for part in SCRIPT_RE.split(html))
         target.write_text(html, encoding="utf-8")
         if sitemap:
-            self.pages.append((path, self.now.date().isoformat()))
+            self.pages.append((path, lastmod or TEMPLATE_DATE))
 
     def page(self, path: str, title: str, description: str, body: str, *,
-             jsonld: dict | list | None = None, scripts: bool = False, noindex: bool = False,
+             jsonld: dict | list | None = None, scripts: bool = False, noindex: bool | str = False,
              csp: str = "", body_scripts: str = "", sticky: bool = False) -> str:
         canonical = self.url + path
-        ld = (f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>'
-              if jsonld else "")
+        # "<\/" keeps a notice title containing "</script>" from closing the JSON-LD block.
+        ld_json = json.dumps(jsonld, ensure_ascii=False).replace("</", "<\\/")
+        ld = f'<script type="application/ld+json">{ld_json}</script>' if jsonld else ""
+        robots = "noindex" if noindex is True else noindex
         nav = [("", "Annonces"), ("region/", "Régions"), ("semaine/", "Archives"), ("methode/", "Méthode")]
         nav_html = "".join(
             f'<a href="{self.link(p)}"{" aria-current=\"page\"" if p == path else ""}>{label}</a>'
@@ -118,7 +138,7 @@ class Site:
 <title>{text(title)}</title>
 <meta name="description" content="{text(description)}">
 <link rel="canonical" href="{e(canonical)}">
-{'<meta name="robots" content="noindex">' if noindex else ''}
+{f'<meta name="robots" content="{robots}">' if robots else ''}
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="{BRAND}">
@@ -228,6 +248,7 @@ class Site:
         shutil.copytree(STATIC, self.out / "static")
         shutil.copyfile(MESURE, self.out / "mesure.js")
 
+        self.tenders = tenders
         open_items = sorted((t for t in tenders if t.is_open(self.now)), key=lambda t: (t.deadline or "", t.id))
         self.vol = landing.volume(tenders, self.now)
         self.sample = landing.sample(open_items, tenders, self.now)
@@ -256,6 +277,23 @@ class Site:
         local = (datetime.fromisoformat(stamp) if stamp else self.now).astimezone(PARIS)
         return f"{fmt_date(local.date().isoformat())} à {local:%Hh%M}"
 
+    def content_date(self, scope: Iterable[Notice]) -> str:
+        """Sitemap lastmod of a list page: the last day its list changed, i.e. the newest publication or update
+        of a notice still open, or the day a notice of the same scope closed or was cancelled. Never the build
+        date (the site is rebuilt twice a day), never before TEMPLATE_DATE."""
+        today = self.now.astimezone(PARIS).date().isoformat()
+        best = ""
+        for t in scope:
+            if t.is_open(self.now):
+                d = max(t.published, t.updated or "")
+            elif t.status == "annule":
+                d = t.updated or t.published
+            else:
+                dl = t.deadline_dt()
+                d = dl.date().isoformat() if dl else ""
+            best = max(best, d[:10])
+        return min(max(best, TEMPLATE_DATE), today)
+
     def index(self, items: list[Notice], meta: dict) -> None:
         n = len(items)
         soon = sum(1 for t in items if (t.days_left(self.now) or 99) <= 7)
@@ -275,6 +313,7 @@ class Site:
 <li><strong>{new7}</strong><span>publiés ces 7 derniers jours</span></li>
 <li><strong>{soon}</strong><span>clôturent sous 7 jours</span></li>
 </ul>
+{self.region_line(items)}
 
 <section aria-labelledby="filtres-titre" class="filters" id="filtres" hidden>
 <h2 id="filtres-titre" class="sr-only">Filtrer les annonces</h2>
@@ -321,10 +360,19 @@ class Site:
              ]},
         ]
         self.write("", self.page(
-            "", "Appels d'offres formation ouverts – BOAMP et TED, mis à jour 2 fois par jour",
-            f"{n} appels d'offres publics en cours pour des prestations de formation (organismes de formation, "
-            "formateurs) : date limite, acheteur, région, CPV, lien vers l'avis officiel. Gratuit, RSS et CSV.",
-            body, jsonld=jsonld, scripts=True, sticky=True))
+            "", "Appels d'offres formation ouverts – liste gratuite BOAMP + TED",
+            f"{n} appels d'offres publics de formation en cours : acheteur, date limite, région, lien vers l'avis "
+            "officiel. Mis à jour 2 fois par jour, gratuit.",
+            body, jsonld=jsonld, scripts=True, sticky=True), lastmod=self.content_date(self.tenders))
+
+    def region_line(self, items: list[Notice]) -> str:
+        """Home page: one link per region page, with its count of open local notices."""
+        links = []
+        for r in REGIONS:
+            k = sum(1 for t in items if r in t.regions and not is_national(t))
+            links.append(f'<a href="{self.link(f"region/{slugify(r)}/")}">{e(r)}</a>&nbsp;({k})')
+        return f'<p class="region-line"><span>Par région :</span> {", ".join(links)}.</p>'
+
 
     def weeks(self, by_week: dict[str, list[Notice]]) -> None:
         weeks = sorted(by_week, reverse=True)
@@ -358,7 +406,9 @@ class Site:
                 f"semaine/{w}/", f"Appels d'offres formation – semaine {w[-2:]} ({label})",
                 f"Les {len(items)} appels d'offres publics de formation publiés {label} : acheteurs, dates limites, "
                 "régions et liens vers les avis officiels BOAMP et TED.",
-                body, jsonld=jsonld))
+                # Thin (2025-W01 holds 2 notices) and duplicated by the home and region pages: kept for
+                # visitors, out of the index and of the sitemap; "follow" lets crawlers reach the notices.
+                body, jsonld=jsonld, noindex="noindex, follow"), sitemap=False)
         body = f"""
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Archives</nav>
 <h1>Archives hebdomadaires des appels d'offres formation</h1>
@@ -367,36 +417,63 @@ class Site:
 """
         self.write("semaine/", self.page("semaine/", "Archives hebdomadaires – appels d'offres formation",
                                          "Archives semaine par semaine des appels d'offres publics de formation "
-                                         "publiés au BOAMP et dans TED.", body))
+                                         "publiés au BOAMP et dans TED.", body),
+                   lastmod=self.content_date(t for w in weeks for t in by_week[w]))
 
     def regions(self, open_items: list[Notice]) -> None:
         rows = []
         national = [t for t in open_items if is_national(t)]
+        today = fmt_date(self.now.astimezone(PARIS).date().isoformat())
+        local_by = {r: [t for t in open_items if r in t.regions and not is_national(t)] for r in REGIONS}
         for r in REGIONS:
             slug = slugify(r)
-            local = [t for t in open_items if r in t.regions and not is_national(t)]
-            rows.append(f'<li><a href="{self.link(f"region/{slug}/")}">{e(r)}</a> — {len(local)} ouvert(s)</li>')
+            local = local_by[r]
+            where = region_in(r)
+            rows.append(f'<tr><th scope="row"><a href="{self.link(f"region/{slug}/")}">{e(r)}</a></th>'
+                        f'<td>{len(local)}</td><td>{self.vol.local.get(r, 0)}</td></tr>')
+            count = (f"Aucun appel d'offres de formation ouvert {e(where)}" if not local else
+                     f"<strong>{plural(len(local), 'appel', 'appels')}</strong> d'offres de formation "
+                     f"{'ouvert' if len(local) == 1 else 'ouverts'} {e(where)}")
+            cta = ""
+            if self.sales.open:
+                cta = (f' <a href="{self.link(f"alertes/?region={slug}")}">Recevoir les nouveaux avis {e(where)} par e-mail</a>, '
+                       f"chaque matin vers 7&nbsp;h, dès {e(landing.price(self.sales.products['veille-ao-3m']))} pour 3 mois.")
+            others = ", ".join(f'<a href="{self.link(f"region/{slugify(o)}/")}">{e(o)}</a>&nbsp;({len(local_by[o])})'
+                               for o in REGIONS if o != r)
             body = f"""
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › <a href="{self.link('region/')}">Régions</a> › {e(r)}</nav>
-<h1>Appels d'offres formation en {e(r)}</h1>
-<p class="lead">{len(local)} appel(s) d'offres public(s) ouvert(s) pour des prestations de formation en {e(r)}, plus {len(national)} annonce(s) nationale(s) ou multi-régions. Mis à jour le {self.updated_label()}.</p>
-<h2>En {e(r)}</h2>
+<h1>Appels d'offres formation {e(where)}</h1>
+<p class="lead">{count} au {today}, plus {plural(len(national), "annonce nationale ou multi-régions", "annonces nationales ou multi-régions")}. Source : BOAMP et TED, mise à jour le {self.updated_label()}.</p>
+<p>Ces {landing.VOLUME_DAYS} derniers jours, {plural(self.vol.local.get(r, 0), "avis de formation a été publié", "avis de formation ont été publiés")} avec un lieu d'exécution {e(where)}, sans compter les avis nationaux.{cta}</p>
+<h2>Ouverts {e(where)} ({len(local)})</h2>
 {self.cards(local)}
-<h2>Annonces nationales ou multi-régions</h2>
+<h2>Annonces nationales ou multi-régions ({len(national)})</h2>
+<p class="small muted">Avis sans lieu précis, ou dont le lieu couvre {NATIONAL_THRESHOLD} régions ou plus. Ils figurent sur les {len(REGIONS)} pages régionales.</p>
 {self.cards(national)}
+<p class="small muted">Le lieu vient des départements indiqués au BOAMP ou des codes NUTS de TED. Les marchés publiés seulement sur le profil d'acheteur n'y figurent pas. <a href="{self.link('methode/')}">Méthode et sources</a>.</p>
+<p class="region-line"><span>Autres régions :</span> {others}.</p>
 """
+            scope = [t for t in self.tenders if is_national(t) or (r in t.regions)]
+            n = len(local)
             self.write(f"region/{slug}/", self.page(
                 f"region/{slug}/", f"Appels d'offres formation {r} – marchés publics ouverts",
-                f"{len(local)} appels d'offres de formation ouverts en {r} (BOAMP, TED) : acheteur, date limite, "
-                "lien vers l'avis officiel. Mis à jour deux fois par jour.", body, sticky=True))
+                f"{plural(n, 'appel', 'appels')} d'offres de formation {'ouvert' if n == 1 else 'ouverts'} {where} "
+                "(BOAMP, TED) : acheteur, date limite, lien vers l'avis officiel. Mis à jour deux fois par jour.",
+                body, sticky=True), lastmod=self.content_date(scope))
         body = f"""
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Régions</nav>
 <h1>Appels d'offres formation par région</h1>
-<p class="lead">Lieu d'exécution indiqué dans l'avis (départements BOAMP ou codes NUTS de TED). Les annonces sans lieu précis ou couvrant {NATIONAL_THRESHOLD} régions ou plus sont classées « nationales ».</p>
-<ul class="weeks">{''.join(rows)}<li>National / multi-régions — {len(national)} ouvert(s), affichés sur chaque page régionale</li></ul>
+<p class="lead">{len(open_items)} appels d'offres de formation ouverts au {today}, classés selon le lieu d'exécution indiqué dans l'avis (départements BOAMP ou codes NUTS de TED). Les {len(national)} annonces sans lieu précis, ou dont le lieu couvre {NATIONAL_THRESHOLD} régions ou plus, sont classées « nationales » et figurent sur chaque page régionale.</p>
+<div class="table-wrap"><table class="region-table">
+<thead><tr><th scope="col">Région</th><th scope="col">Ouverts aujourd'hui</th><th scope="col">Publiés en {landing.VOLUME_DAYS} jours</th></tr></thead>
+<tbody>{''.join(rows)}<tr><th scope="row">Nationales ou multi-régions</th><td>{len(national)}</td><td>{self.vol.national}</td></tr></tbody>
+</table></div>
+<p class="small muted">Un avis qui couvre deux régions compte dans chacune. « Publiés en {landing.VOLUME_DAYS} jours » : avis publiés depuis le {fmt_date(self.vol.since)}, un par marché, annulés exclus. <a href="{self.link('methode/')}">Méthode et sources</a>.</p>
 """
         self.write("region/", self.page("region/", "Appels d'offres formation par région",
-                                        "Les appels d'offres publics de formation ouverts, région par région.", body))
+                                        f"{len(open_items)} appels d'offres publics de formation ouverts, région par région : "
+                                        f"nombre d'avis ouverts et publiés en {landing.VOLUME_DAYS} jours, BOAMP et TED.", body),
+                   lastmod=self.content_date(self.tenders))
 
     def soon_panel(self) -> str:
         return f"""<section class="panel soon" aria-labelledby="alertes-titre">
@@ -422,7 +499,7 @@ class Site:
                 jsonld=shop.product_jsonld(self, ORGANIZATION),
                 csp=self.sales.checkout_csp(),
                 body_scripts=shop.order_scripts(self) + f'<script src="{self.link("static/landing.js")}" defer></script>\n',
-                sticky=True))
+                sticky=True), lastmod=max([TEMPLATE_DATE] + [t.published for t in picked]))
             self.write("alertes/commande.html", self.page(
                 "alertes/commande.html", "Votre abonnement – Veille AO Formation", "Confirmation d'abonnement.",
                 shop.return_body(self), noindex=True, csp=self.sales.order_csp(), body_scripts=shop.return_scripts(self)),
@@ -531,10 +608,10 @@ class Site:
         if self.sales.open:
             privacy = privacy.replace(
                 "<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure d'audience anonyme est effectuée (voir ci-dessous). Aucun bandeau cookies n'est donc nécessaire.</p>",
-                "<p>La consultation du site ne collecte aucune donnée personnelle : pas de compte, pas de cookie ni de traceur tiers ; la fréquentation est seulement mesurée de façon anonyme (voir ci-dessous). Seul l'abonnement payant aux alertes e-mail traite des données (voir plus bas).</p>")
+                "<p>La consultation du site ne collecte aucune donnée personnelle : pas de compte, pas de cookie ni de traceur tiers ; la fréquentation est seulement mesurée de façon anonyme (voir ci-dessous). Une seule exception : le formulaire d'abonnement aux alertes e-mail, qui charge le module de paiement de Stripe et ses cookies quand vous commencez à le remplir, et qui traite les données de la commande (voir plus bas).</p>")
             privacy = privacy.replace('<p>Contact : <a href="mailto:', shop.privacy_section(self) + '\n<p>Contact : <a href="mailto:')
         self.write("confidentialite/", self.page("confidentialite/", "Confidentialité – Veille AO Formation",
-                                                 "Aucun cookie ni traceur ; données traitées uniquement pour l'abonnement aux alertes."
+                                                 "Aucun cookie ni traceur à la consultation ; cookies de Stripe et données traitées seulement pour l'abonnement aux alertes."
                                                  if self.sales.open else
                                                  "Aucune donnée personnelle collectée, aucun cookie ni traceur.", privacy))
         cgv = f"""

@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import json
 from dataclasses import dataclass
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from html import escape
 from typing import Iterable
 
@@ -46,6 +46,7 @@ class Volume:
     items: list[list[int]]  # region indexes of each non-national notice, for client-side unions
     mapa: int
     ted_only: int
+    median_days: int  # median days between publication and deadline (notices with a deadline)
 
     def for_region(self, region: str) -> int:
         return self.local.get(region, 0) + self.national
@@ -73,7 +74,10 @@ def volume(tenders: Iterable[Notice], now: datetime) -> Volume:
         items.append(sorted(index[r] for r in regs))
     mapa = sum(1 for t in recent if t.family == MAPA_FAMILY)
     ted_only = sum(1 for t in recent if t.source == "TED" and not any(k.startswith("BOAMP") for k in t.alt_urls))
-    return Volume(since, len(recent), national, local, items, mapa, ted_only)
+    delays = sorted((date.fromisoformat(t.deadline[:10]) - date.fromisoformat(t.published)).days
+                    for t in recent if t.deadline)
+    median_days = delays[len(delays) // 2] if delays else 0
+    return Volume(since, len(recent), national, local, items, mapa, ted_only, median_days)
 
 
 @dataclass
@@ -86,7 +90,7 @@ class Sample:
     @property
     def subject(self) -> str:
         n = len(self.items)
-        return (f"{n} nouvel{'s' if n > 1 else ''} appel{'s' if n > 1 else ''} d'offres formation – "
+        return (f"{n} {'nouveaux appels' if n > 1 else 'nouvel appel'} d'offres formation – "
                 f"{', '.join(self.profile.regions)}")
 
 
@@ -258,9 +262,9 @@ def home_bottom(site) -> str:
         return about(site)
     p = site.sales.products
     return f"""<section class="band" aria-labelledby="band-h">
-<div><h2 id="band-h">Ne revenez plus vérifier : les nouveaux avis viennent à vous</h2>
-<p>Chaque matin vers 7&nbsp;h, uniquement les avis de vos régions et de vos mots-clés, avec la date limite et le lien vers l'avis officiel. {e(price(p['veille-ao-12m']))} pour 12 mois, soit {e(per_month(p['veille-ao-12m'], 12))} par mois.</p></div>
-<a class="btn btn-lg btn-light" href="{site.link('alertes/')}">Voir les alertes e-mail →</a>
+<div><h2 id="band-h">Les nouveaux avis de vos régions par e-mail, vers 7&nbsp;h</h2>
+<p>Seulement les avis de vos régions et de vos mots-clés, avec la date limite et le lien vers l'avis officiel. {e(price(p['veille-ao-12m']))} pour 12 mois (soit {e(per_month(p['veille-ao-12m'], 12))} par mois) ou {e(price(p['veille-ao-3m']))} pour 3 mois, payés une fois.</p></div>
+<a class="btn btn-lg btn-light" href="{site.link('alertes/')}">Voir un exemple d'e-mail et les prix →</a>
 </section>
 {about(site)}"""
 
@@ -292,7 +296,7 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 <div class="hero-copy">
 <p class="eyebrow">Alertes e-mail · BOAMP + TED</p>
 <h1>Les appels d'offres formation de votre région, chaque matin dans votre boîte</h1>
-<p class="lead">{e(per_month(y, 12))} par mois, payé une fois, sans renouvellement automatique.</p>
+<p class="lead">Chaque matin vers 7&nbsp;h, les avis BOAMP et TED publiés depuis la veille pour vos régions et vos mots-clés. {e(price(y))} pour 12 mois, soit {e(per_month(y, 12))} par mois, payé une fois, sans renouvellement automatique.</p>
 <div class="cta-block">
 <a class="btn btn-lg" href="#commander-h">Recevoir mes alertes – {e(price(y))} pour 12 mois</a>
 <p class="price-note">ou {e(price(q))} pour 3 mois · réservé aux professionnels · paiement par carte, facture PDF</p>
@@ -303,25 +307,25 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 </section>
 
 <section class="section" aria-labelledby="diff-h">
-<h2 id="diff-h">La liste gratuite ou les alertes : quelle différence ?</h2>
+<h2 id="diff-h">Ce que l'e-mail ajoute à la liste gratuite</h2>
 <div class="compare">
 <div class="compare-col">
 <p class="compare-tag">Liste gratuite</p>
 <p class="compare-title">Vous venez vérifier</p>
 <ul>
-<li>Vous pensez à revenir sur le site, puis vous refaites vos filtres.</li>
-<li>Toutes les régions et tous les thèmes sont mélangés : à vous de trier.</li>
-<li>Un avis manqué une semaine, c'est une semaine de moins pour répondre.</li>
+<li>À chaque visite, vous refaites vos filtres parmi les {vol.total} avis publiés ces {VOLUME_DAYS} derniers jours, toutes régions et tous thèmes.</li>
+<li>Un avis vu une semaine après sa parution vous laisse une semaine de moins pour répondre. Entre parution et date limite, le délai médian est de {vol.median_days} jours (avis publiés depuis le {fmt_date(vol.since)}).</li>
 </ul>
 <a href="{site.link()}">Voir la liste gratuite</a>
 </div>
 <div class="compare-col pro">
 <p class="compare-tag">Alertes e-mail</p>
-<p class="compare-title">Ça vient à vous, filtré par vos mots-clés</p>
+<p class="compare-title">Les nouveaux avis arrivent déjà triés</p>
 <ul>
 <li>Un e-mail vers 7&nbsp;h avec seulement les <strong>nouveaux</strong> avis de vos régions et de vos mots-clés.</li>
-<li>Dès l'inscription, tous les avis encore ouverts qui correspondent.</li>
-<li>Pas de compte, pas d'application : un lien « arrêter les alertes » dans chaque e-mail, aucun pixel de suivi.</li>
+<li>Le premier e-mail, envoyé à l'inscription, liste tous les avis encore ouverts qui correspondent.</li>
+<li>Vos mots-clés sont cherchés jusque dans l'intitulé des lots.</li>
+<li>Pas de compte ni d'application. Chaque e-mail a un lien « arrêter les alertes » et aucun pixel de suivi.</li>
 </ul>
 <a href="#commander-h">Choisir mes critères</a>
 </div>
@@ -334,23 +338,22 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 <div>{mail_mock(s, site.now, compact=False)}
 <p class="caption">{e(sample_caption(s, site.now))} <a href="{site.link('alertes/exemple-email.html')}" data-mesure="free_download">Version texte brut de l'exemple</a>.</p></div>
 <ul class="checks">
-<li><strong>Les deux sources officielles</strong> : le BOAMP et TED, le journal européen des marchés publics, vérifiés deux fois par jour.</li>
-<li><strong>Déjà triés « formation »</strong> : codes de formation, descripteur « Formation » du BOAMP ; travaux et fournitures écartés.</li>
-<li><strong>Un seul exemplaire</strong> quand un marché paraît au BOAMP et dans TED, ou est rectifié.</li>
-<li><strong>L'essentiel par avis</strong> : acheteur, lieu, date limite, montant estimé quand il est publié, lien vers l'avis officiel.</li>
-<li><strong>Vos mots-clés</strong> cherchés dans le titre, la description, l'acheteur et les lots (accents ignorés).</li>
+<li>Les avis du BOAMP et de TED, le journal européen des marchés publics, relevés deux fois par jour.</li>
+<li>Seulement des marchés de formation : codes CPV de formation, descripteur « Formation » du BOAMP, ou mot-clé de formation quand l'avis n'a pas de code. Les marchés de travaux et de fournitures sont écartés.</li>
+<li>Un marché publié au BOAMP et dans TED, ou rectifié, n'arrive qu'une fois.</li>
+<li>Pour chaque avis : acheteur, lieu, date limite, montant estimé s'il est publié, lien vers l'avis officiel.</li>
+<li>Vos mots-clés sont cherchés dans le titre, la description, l'acheteur et les lots, accents ignorés.</li>
 </ul>
 </div>
 </section>
 
 <section class="section" aria-labelledby="pour-h">
-<h2 id="pour-h">Pour qui ?</h2>
+<h2 id="pour-h">Pour qui</h2>
 <div class="who">
-<div class="who-card"><p class="who-title">Organismes de formation</p><p>Repérer les marchés de votre territoire sans y passer vos matinées.</p></div>
-<div class="who-card"><p class="who-title">Formateurs et consultants indépendants</p><p>Ne suivre que vos spécialités : « anglais », « management », « CACES »…</p></div>
-<div class="who-card"><p class="who-title">Cabinets RH et conseil</p><p>Suivre plusieurs régions et thèmes dans un seul e-mail.</p></div>
+<div class="who-card"><p class="who-title">Organismes de formation</p><p>Cochez les régions où vous intervenez et laissez les mots-clés vides : vous recevez tous les avis de formation de ces régions. En {e(hi)}, la région la plus active, cela faisait {vol.for_region(hi)} avis en {VOLUME_DAYS} jours, avis nationaux compris.</p></div>
+<div class="who-card"><p class="who-title">Formateurs indépendants, cabinets de conseil</p><p>Mettez vos spécialités en mots-clés (« anglais », « CACES », « management ») : un avis n'arrive que s'il contient l'un d'eux. Plusieurs régions tiennent dans le même e-mail.</p></div>
+<div class="who-card"><p class="who-title">Moins utile pour les petits marchés locaux</p><p>Beaucoup de MAPA ne paraissent que sur la plateforme de l'acheteur et ne sont donc pas dans les alertes : voir « Et les MAPA ? » plus bas.</p></div>
 </div>
-<p class="small muted">Moins utile si vous visez surtout de petits marchés locaux publiés seulement sur les plateformes des acheteurs : voir « Et les MAPA ? » plus bas.</p>
 </section>
 
 <section class="section offer" aria-labelledby="offre-h">
@@ -360,7 +363,7 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 <div class="plan-card"><p class="plan-tag">Pour essayer sur un trimestre</p><p class="plan-name">3 mois</p><p class="plan-price">{e(price(q))}</p><p class="plan-sub">soit {e(per_month(q, 3))} par mois, payé une fois</p><a class="btn btn-ghost" href="#commander-h">Choisir 3 mois</a></div>
 </div>
 <ul class="checks inline">
-<li>Toutes les régions, mots-clés et thèmes que vous voulez</li>
+<li>Autant de régions que vous voulez, jusqu'à 10 mots-clés</li>
 <li>Pas de renouvellement ni de prélèvement automatique : rappel 7 jours avant la fin</li>
 <li>Facture PDF au nom de votre entreprise</li>
 <li>Envois interrompus plus de 7 jours de notre fait : période prolongée ou remboursée (<a href="{site.link('cgv-pro/')}">CGV</a>, art. 9)</li>

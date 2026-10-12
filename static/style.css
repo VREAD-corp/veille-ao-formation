@@ -344,3 +344,14 @@ details summary { cursor: pointer; font-weight: 600; margin: 8px 0; }
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .devis-box { margin-top: 16px; }
 .pay-button.secondary { background: var(--surface); color: var(--brand); border: 2px solid var(--brand); }
+
+/* Region links (home, region pages) and the region hub table */
+.region-line { font-size: .93rem; color: var(--muted); line-height: 1.7; margin: 14px 0 0; }
+.region-line span { font-weight: 650; color: var(--ink); }
+.table-wrap { overflow-x: auto; margin: 8px 0 12px; }
+.region-table { border-collapse: collapse; width: 100%; max-width: 40rem; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); font-variant-numeric: tabular-nums; }
+.region-table th, .region-table td { padding: 8px 12px; border-bottom: 1px solid var(--line); text-align: left; }
+.region-table td { text-align: right; }
+.region-table thead th { font-size: .86rem; color: var(--muted); font-weight: 650; }
+.region-table thead th + th { text-align: right; }
+.region-table tbody tr:last-child th, .region-table tbody tr:last-child td { border-bottom: 0; font-weight: 650; }

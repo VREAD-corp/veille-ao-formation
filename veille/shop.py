@@ -18,6 +18,7 @@ from .geo import REGIONS, slugify
 from .sales import TERMS_DATE, TERMS_VERSION, eur, eur_short, schema_price
 
 CHECKOUT = Path(__file__).resolve().parent / "checkout"
+STRIPE_LAZY = Path(__file__).resolve().parent / "stripe-lazy.js"  # ours, not a copy from octave-checkout
 
 # Same families as the backend (octave-checkout gas/src/Config.js ALERT_CPV_FAMILIES).
 CPV_FAMILIES = [
@@ -79,12 +80,13 @@ def copy_assets(site) -> None:
     out.mkdir(parents=True, exist_ok=True)
     for f in ("pay.js", "devis.js", "order.js", "alerts-form.js"):
         shutil.copyfile(CHECKOUT / f, out / f)
+    shutil.copyfile(STRIPE_LAZY, out / "stripe-lazy.js")
     s = site.sales
     cfg = {
         "endpoint": s.endpoint,
         "publishableKey": s.publishable_key,
         "product": DEFAULT_PLAN,
-        # Static prices: pay.js mounts the Payment Element at once (display only; the Apps Script catalog
+        # Static prices: pay.js mounts the Payment Element as soon as it runs (display only; the Apps Script catalog
         # stays the price authority and refuses a different expectedAmount).
         "offers": {pid: {"amount": cents} for pid, cents in s.products.items()},
         "currency": "eur",
@@ -289,9 +291,10 @@ def order_body(site, sample_subject: str, sample_desc: str) -> str:
 
 
 def order_scripts(site) -> str:
+    # Stripe.js (about 4 MB with hCaptcha and Google Pay, plus third-party cookies) and pay.js are loaded by
+    # stripe-lazy.js at the first interaction with the order form, not on page load.
     return (f'<script src="{site.link("checkout/checkout-config.js")}"></script>\n'
-            '<script src="https://js.stripe.com/v3/"></script>\n'
-            f'<script src="{site.link("checkout/pay.js")}"></script>\n'
+            f'<script src="{site.link("checkout/stripe-lazy.js")}" data-pay="{site.link("checkout/pay.js")}"></script>\n'
             + (f'<script src="{site.link("checkout/devis.js")}"></script>\n' if site.sales.quotes_enabled else '')
             + f'<script src="{site.link("checkout/alerts-form.js")}"></script>\n')
 
@@ -367,6 +370,6 @@ def privacy_section(site) -> str:
 <li><strong>Destinataires</strong> : Stripe (paiement ; vos données de carte sont saisies chez Stripe et ne nous parviennent jamais) et Google (Apps Script, Gmail, Sheets, Drive : registre des abonnements et des factures, envoi des e-mails). Transferts hors UE encadrés par les garanties du RGPD.</li>
 <li><strong>Durées</strong> : e-mail et critères pendant l'abonnement puis 12 mois après sa fin (suppression automatique) ; factures 10 ans.</li>
 <li><strong>Pas de suivi</strong> : nos e-mails ne contiennent ni pixel ni lien de suivi. Le lien « arrêter les alertes » de chaque e-mail ne sert qu'à cela.</li>
-<li>La page d'abonnement charge le module de paiement de Stripe (js.stripe.com), qui peut déposer des cookies nécessaires à la sécurité du paiement. Aucun autre cookie ni traceur.</li>
+<li><strong>Module de paiement</strong> : la page d'abonnement ne charge le module de paiement de Stripe (js.stripe.com) qu'au moment où vous commencez à remplir le formulaire (clic ou saisie dans le formulaire, ou lien vers la commande). Avant cela, elle ne charge aucun contenu tiers et ne dépose aucun cookie. Une fois chargé, le module contacte les serveurs de Stripe et d'hCaptcha (lutte contre la fraude) et, si votre navigateur le propose, de Google Pay ; il dépose des cookies nécessaires à la sécurité du paiement : __stripe_mid et __stripe_sid sur ce site, d'autres sur les domaines de Stripe et d'hCaptcha. Aucun autre cookie ni traceur.</li>
 <li><strong>Vos droits</strong> (accès, rectification, effacement, limitation, opposition, portabilité) : répondez à l'un de nos e-mails. Réclamation possible auprès de la <a href="https://www.cnil.fr/fr/plaintes">CNIL</a>.</li>
 </ul>"""

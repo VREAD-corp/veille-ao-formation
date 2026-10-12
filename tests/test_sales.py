@@ -84,7 +84,10 @@ def test_open_build_subscription_page(tmp_path, monkeypatch):
         assert f'name="{n}"' in page
     assert 'name="keywords" data-octave-extra' in page
     assert "pas encore disponible" not in page.lower() and "19&nbsp;€" not in page
-    assert 'src="/veille-ao-formation/checkout/pay.js"' in page
+    # Stripe.js and pay.js wait for the first interaction with the order form (stripe-lazy.js).
+    assert '<script src="https://js.stripe.com/v3/">' not in page and 'src="/veille-ao-formation/checkout/pay.js"' not in page
+    assert '<script src="/veille-ao-formation/checkout/stripe-lazy.js" data-pay="/veille-ao-formation/checkout/pay.js"></script>' in page
+    assert (out / "checkout" / "stripe-lazy.js").exists()
     for f in ("pay.js", "order.js", "alerts-form.js"):
         assert (out / "checkout" / f).read_bytes() == (ROOT / "veille" / "checkout" / f).read_bytes()
     conf = (out / "checkout" / "checkout-config.js").read_text()
@@ -101,7 +104,7 @@ def test_open_build_subscription_page(tmp_path, monkeypatch):
     assert 'id="cta-tpl"' in index and 'class="sticky-cta"' in index
     # landing content around the untouched order form
     assert "Les appels d'offres formation de votre région, chaque matin dans votre boîte" in page
-    assert '<p class="lead">12,42\u00a0€ par mois, payé une fois, sans renouvellement automatique.</p>' in page
+    assert "149\u00a0€ pour 12 mois, soit 12,42\u00a0€ par mois, payé une fois, sans renouvellement automatique.</p>" in page
     assert page.count('class="faq-item"') == 6 and 'id="volume" data-volume=' in page
     assert page.index('id="volume"') < page.index('id="octave-pay"') < page.index('id="faq-h"')
     assert 'src="/veille-ao-formation/static/landing.js"' in page and (out / "static" / "landing.js").exists()
@@ -239,8 +242,9 @@ def test_quotes_on_build_adds_quote_form(tmp_path, monkeypatch):
     pay_end = page.index("</form>", page.index('<form id="octave-pay"'))
     assert page[pay_end:].startswith('</form>\n<details id="octave-devis-box" class="card devis-box" hidden>')
     assert page.index('id="octave-devis-box"') < page.index("</section>", pay_end) < page.index('id="faq-h"')
-    # script after pay.js (and before alerts-form.js, which binds the duplicated region buttons)
-    pay = page.index('<script src="/veille-ao-formation/checkout/pay.js"></script>')
+    # script after the pay.js loader (and before alerts-form.js, which binds the duplicated region buttons);
+    # devis.js needs no Stripe.js, so it is not deferred
+    pay = page.index('<script src="/veille-ao-formation/checkout/stripe-lazy.js" data-pay="/veille-ao-formation/checkout/pay.js"></script>')
     devis = page.index('<script src="/veille-ao-formation/checkout/devis.js"></script>')
     assert page.count("checkout/devis.js") == 1 and pay < devis < page.index("checkout/alerts-form.js")
     ids = Counter(re.findall(r'\sid="([^"]+)"', page))
