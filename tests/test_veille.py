@@ -81,6 +81,18 @@ def test_classify_rules():
                     contract_types=["FOURNITURES"]) == []
     assert classify(title="Analyse des pratiques", cpv=[], descriptors=["410"],
                     contract_types=["SERVICES"]) == ["descripteur"]
+    # descriptor "Formation" alone, with only non-training CPV divisions (66, 90, 92): false positive
+    assert classify(title="Gestion de l'animation enfance et jeunesse", cpv=["92000000"], descriptors=["410"],
+                    contract_types=["SERVICES"]) == []
+    assert classify(title="Service de courtage en assurances", cpv=["66518100", "66510000"], descriptors=["410"],
+                    contract_types=["SERVICES"]) == []
+    # ... but a training word, a training CPV or another CPV division keeps it
+    assert classify(title="Formation des animateurs enfance", cpv=["92000000"], descriptors=["410"],
+                    contract_types=["SERVICES"]) == ["descripteur", "mot-cle"]
+    assert classify(title="Animation", cpv=["92000000", "80530000"], descriptors=["410"],
+                    contract_types=["SERVICES"]) == ["cpv", "descripteur"]
+    assert classify(title="Sensibilisation des utilisateurs aux risques cyber", cpv=["48931000"], descriptors=["410"],
+                    contract_types=["SERVICES"]) == ["descripteur"]
     # accents and plural are handled; "information"/"transformation" are not matches
     assert classify(title="Formations à la sécurité", cpv=[]) == ["mot-cle"]
     assert classify(title="Transformation numérique et information", cpv=[]) == []
@@ -219,6 +231,16 @@ def test_store_roundtrip(tmp_path):
     assert again["boamp:1"] == db["boamp:1"]
 
 
+def test_tenders_drop_stored_descriptor_false_positives():
+    db = {}
+    fp = mk("boamp:fp")
+    fp.match, fp.cpv = ["descripteur"], ["92000000"]
+    ok = mk("boamp:ok")
+    ok.match, ok.cpv = ["descripteur"], ["48931000"]
+    store.merge(db, [fp, ok, mk("boamp:1")])
+    assert {t.id for t in store.tenders(db)} == {"boamp:ok", "boamp:1"}
+
+
 def test_open_tenders_sorted():
     items = [mk("boamp:1", deadline="2026-12-01T12:00"), mk("boamp:2", deadline="2026-10-20T12:00"),
              mk("boamp:3", deadline="2026-10-01T12:00")]
@@ -283,7 +305,7 @@ def test_digest_profile_filters():
     p.include_national = False
     assert [t.id for t in select(items, p, NOW)] == ["boamp:1"]
     subject, text, html = render(select(items, p, NOW), p, NOW, SITE)
-    assert subject.startswith("1 appel(s)") and "https://x/boamp:1" in text and "<table" in html
+    assert subject.startswith("1 appel d'offres") and "https://x/boamp:1" in text and "<table" in html
 
 
 def test_summarizer_off_by_default(monkeypatch):

@@ -11,10 +11,10 @@ from html import escape
 from pathlib import Path
 from urllib.parse import urlparse
 
-from .digest import NATIONAL_THRESHOLD, Profile, is_national, render, select
+from .digest import NATIONAL_THRESHOLD, is_national, render
 from .exporters import ATTRIBUTION, fmt_date, fmt_deadline, to_atom, to_json, to_rss
 from . import sales as sales_mod
-from . import shop
+from . import landing, shop
 from .geo import REGIONS, slugify
 from .model import PARIS, Notice, fold, iso_week_bounds
 
@@ -95,15 +95,18 @@ class Site:
 
     def page(self, path: str, title: str, description: str, body: str, *,
              jsonld: dict | list | None = None, scripts: bool = False, noindex: bool = False,
-             csp: str = "", body_scripts: str = "") -> str:
+             csp: str = "", body_scripts: str = "", sticky: bool = False) -> str:
         canonical = self.url + path
         ld = (f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>'
               if jsonld else "")
-        nav = [("", "Annonces"), ("semaine/", "Archives"), ("region/", "Régions"),
-               ("alertes/", "Alertes e-mail"), ("methode/", "Méthode")]
+        nav = [("", "Annonces"), ("region/", "Régions"), ("semaine/", "Archives"), ("methode/", "Méthode")]
         nav_html = "".join(
             f'<a href="{self.link(p)}"{" aria-current=\"page\"" if p == path else ""}>{label}</a>'
             for p, label in nav)
+        alerts_current = ' aria-current="page"' if path == "alertes/" else ""
+        sticky_html = ""
+        if sticky and self.sales.open:
+            sticky_html = landing.sticky_bar(self, "#commander-h" if path == "alertes/" else self.link("alertes/"))
         return f"""<!doctype html>
 <html lang="fr">
 <head>
@@ -129,12 +132,14 @@ class Site:
 <link rel="stylesheet" href="{self.link('static/style.css')}">
 {ld}
 </head>
-<body>
+<body{' class="has-sticky"' if sticky_html else ''}>
 <a class="skip" href="#contenu">Aller au contenu</a>
 <header class="top">
 <div class="wrap top-in">
 <a class="brand" href="{self.link()}"><span class="brand-mark" aria-hidden="true">AO</span>{BRAND}</a>
-<nav aria-label="Navigation principale">{nav_html}</nav>
+<nav class="nav-main" aria-label="Navigation principale">{nav_html}</nav>
+<a class="btn btn-sm nav-cta" href="{self.link('alertes/')}"{alerts_current}>Alertes e-mail</a>
+<details class="nav-menu"><summary>Menu</summary><nav aria-label="Navigation principale (mobile)">{nav_html}<a href="{self.link('alertes/')}"{alerts_current}>Alertes e-mail</a></nav></details>
 </div>
 </header>
 <main id="contenu" class="wrap">
@@ -143,6 +148,7 @@ class Site:
 <footer class="foot">
 <div class="wrap">
 <p class="attrib">{e(ATTRIBUTION)} Les avis officiels font foi : vérifiez toujours l'avis et le dossier de consultation avant de répondre.</p>
+<p>Contact : <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a></p>
 <nav aria-label="Liens de bas de page">
 <a href="{self.link('methode/')}">Méthode et sources</a>
 <a href="{self.link('mentions-legales/')}">Mentions légales</a>
@@ -150,9 +156,10 @@ class Site:
 {f'<a href="{self.link("cgv-pro/")}">CGV</a>' if self.sales.open else f'<a href="{self.link("cgv/")}">CGV (projet)</a>'}
 <a href="{REPO_URL}">Code source</a>
 </nav>
-<p>{BRAND} — un produit de READ FRANCE SAS.</p>
+<p>{BRAND} — un produit de READ FRANCE SAS (SIREN 988 741 773), Paris.</p>
 </div>
 </footer>
+{sticky_html}
 {f'<script src="{self.link("static/app.js")}" defer></script>' if scripts else ''}
 {body_scripts}</body>
 </html>
@@ -218,6 +225,8 @@ class Site:
         shutil.copytree(STATIC, self.out / "static")
 
         open_items = sorted((t for t in tenders if t.is_open(self.now)), key=lambda t: (t.deadline or "", t.id))
+        self.vol = landing.volume(tenders, self.now)
+        self.sample = landing.sample(open_items, tenders, self.now)
         by_week: dict[str, list[Notice]] = defaultdict(list)
         for t in tenders:
             by_week[t.iso_week()].append(t)
@@ -253,24 +262,15 @@ class Site:
         if failed:
             sources_note = (f'<p class="warn" role="status">La dernière mise à jour de {", ".join(failed)} a échoué ; '
                             f'les annonces de cette source peuvent dater de la mise à jour précédente.</p>')
+        vol_attr = e(json.dumps({r: [self.vol.for_region(r), slugify(r)] for r in REGIONS},
+                                ensure_ascii=False, separators=(",", ":")))
         body = f"""
-<section class="hero">
-<h1>Appels d'offres formation ouverts</h1>
-<p class="lead"><strong>{n}</strong> appels d'offres publics français en cours pour des prestations de formation, repérés dans le BOAMP et TED. Mis à jour le {self.updated_label()} (deux fois par jour).</p>
+{landing.home_hero(self, n, self.sample, RELEASE_CSV, RELEASE_ICS, sources_note)}
 <ul class="stats" aria-label="Chiffres clés">
-<li><strong>{n}</strong><span>ouverts</span></li>
+<li><strong>{n}</strong><span>appels d'offres ouverts</span></li>
 <li><strong>{new7}</strong><span>publiés ces 7 derniers jours</span></li>
 <li><strong>{soon}</strong><span>clôturent sous 7 jours</span></li>
 </ul>
-<p class="cta">
-{shop.hero_cta(self) if self.sales.open else ''}
-<a class="btn{' ghost' if self.sales.open else ''}" href="{self.link('feed.xml')}">Suivre par flux RSS / Atom</a>
-<a class="btn ghost" href="{RELEASE_CSV}">Export CSV de la semaine</a>
-<a class="btn ghost" href="{RELEASE_ICS}">Dates limites (.ics)</a>
-</p>
-{shop.hero_note(self) if self.sales.open else ''}
-{sources_note}
-</section>
 
 <section aria-labelledby="filtres-titre" class="filters" id="filtres" hidden>
 <h2 id="filtres-titre" class="sr-only">Filtrer les annonces</h2>
@@ -288,22 +288,13 @@ class Site:
 <p id="count" class="count" aria-live="polite"></p>
 </section>
 
-<section aria-labelledby="liste-titre">
+<section aria-labelledby="liste-titre" id="liste" data-volume="{vol_attr}" data-days="{landing.VOLUME_DAYS}"{' data-sales="1"' if self.sales.open else ''}>
 <h2 id="liste-titre">Annonces en cours, par date limite</h2>
 {self.cards(items)}
+{landing.inline_cta_template(self) if self.sales.open else ''}
 </section>
 
-<section class="panel" aria-labelledby="exports-titre">
-<h2 id="exports-titre">Données gratuites</h2>
-<ul class="links">
-<li><a href="{RELEASE_CSV}">Export CSV hebdomadaire</a> — publié chaque lundi (séparateur « ; », UTF-8, s'ouvre dans Excel). <a href="{REPO_URL}/releases">Toutes les semaines</a>.</li>
-<li><a href="{RELEASE_ICS}">Calendrier des dates limites (.ics)</a> — à importer dans Google Agenda, Outlook ou Apple Calendrier, avec rappel à J-3.</li>
-<li><a href="{self.link('feed.xml')}">Flux Atom</a> ou <a href="{self.link('rss.xml')}">flux RSS</a> — les nouvelles annonces dans votre lecteur de flux, mis à jour deux fois par jour.</li>
-<li><a href="{self.link('data/ouverts.json')}">JSON des annonces ouvertes</a> — pour vos outils internes.</li>
-</ul>
-</section>
-
-{shop.index_panel(self) if self.sales.open else self.soon_panel()}
+{landing.home_bottom(self) if self.sales.open else self.soon_panel() + landing.about(self)}
 """
         jsonld = [
             {"@context": "https://schema.org", **ORGANIZATION},
@@ -329,7 +320,7 @@ class Site:
             "", "Appels d'offres formation ouverts – BOAMP et TED, mis à jour 2 fois par jour",
             f"{n} appels d'offres publics en cours pour des prestations de formation (organismes de formation, "
             "formateurs) : date limite, acheteur, région, CPV, lien vers l'avis officiel. Gratuit, RSS et CSV.",
-            body, jsonld=jsonld, scripts=True))
+            body, jsonld=jsonld, scripts=True, sticky=True))
 
     def weeks(self, by_week: dict[str, list[Notice]]) -> None:
         weeks = sorted(by_week, reverse=True)
@@ -393,7 +384,7 @@ class Site:
             self.write(f"region/{slug}/", self.page(
                 f"region/{slug}/", f"Appels d'offres formation {r} – marchés publics ouverts",
                 f"{len(local)} appels d'offres de formation ouverts en {r} (BOAMP, TED) : acheteur, date limite, "
-                "lien vers l'avis officiel. Mis à jour deux fois par jour.", body))
+                "lien vers l'avis officiel. Mis à jour deux fois par jour.", body, sticky=True))
         body = f"""
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Régions</nav>
 <h1>Appels d'offres formation par région</h1>
@@ -410,12 +401,7 @@ class Site:
 </section>"""
 
     def alerts(self, open_items: list[Notice]) -> None:
-        profile = Profile(name="Exemple : Bretagne + Pays de la Loire, sécurité et secourisme",
-                          regions=["Bretagne", "Pays de la Loire"],
-                          keywords=["secour", "securite", "sst", "incendie", "habilitation", "caces", "gestes et postures"],
-                          min_days_left=5)
-        since = (self.now.date() - timedelta(days=14)).isoformat()
-        picked = select(open_items, profile, self.now, since=since)
+        profile, since, picked = self.sample.profile, self.sample.since, self.sample.items
         subject, _text, html = render(picked, profile, self.now, self.url, since=since)
         (self.out / "alertes").mkdir(parents=True, exist_ok=True)
         (self.out / "alertes" / "exemple-email.html").write_text(html, encoding="utf-8")
@@ -426,9 +412,12 @@ class Site:
                 f"Alerte e-mail des nouveaux appels d'offres formation de vos régions et thèmes : "
                 f"{sales_mod.eur_short(p['veille-ao-3m'])} net/3 mois, {sales_mod.eur_short(p['veille-ao-12m'])} net/12 mois. "
                 f"{shop.VAT_NOTE}.",
-                shop.order_body(self, subject, f"profil d'exemple « {profile.name} »"),
+                landing.wrap_order(shop.order_body(self, subject, f"profil d'exemple « {profile.name} »"),
+                                   landing.alerts_top(self, self.sample, self.vol), landing.alerts_bottom(self, self.vol)),
                 jsonld=shop.product_jsonld(self, ORGANIZATION),
-                csp=self.sales.checkout_csp(), body_scripts=shop.order_scripts(self)))
+                csp=self.sales.checkout_csp(),
+                body_scripts=shop.order_scripts(self) + f'<script src="{self.link("static/landing.js")}" defer></script>\n',
+                sticky=True))
             self.write("alertes/commande.html", self.page(
                 "alertes/commande.html", "Votre abonnement – Veille AO Formation", "Confirmation d'abonnement.",
                 shop.return_body(self), noindex=True, csp=self.sales.order_csp(), body_scripts=shop.return_scripts(self)),
@@ -450,7 +439,7 @@ class Site:
 <li>Rappel des dates limites des annonces suivies.</li>
 </ul>
 <h2>Exemple réel, généré à partir des annonces du jour</h2>
-<p>Profil d'exemple : « {e(profile.name)} », annonces publiées depuis le {fmt_date(since)} avec au moins {profile.min_days_left} jours pour répondre. Résultat : <strong>{e(subject)}</strong>.</p>
+<p>Profil d'exemple : « {e(profile.name)} », annonces publiées depuis le {fmt_date(since)} et encore ouvertes. Résultat : <strong>{e(subject)}</strong>.</p>
 <p><a class="btn ghost" href="{self.link('alertes/exemple-email.html')}">Voir l'e-mail d'exemple</a></p>
 <h2>Gratuit dès maintenant</h2>
 <ul>
@@ -512,7 +501,8 @@ class Site:
 <h2>Éditeur</h2>
 <p>{e(p['name'])} (société par actions simplifiée au capital de 1 000 €), SIREN {e(p['siren'])}, RCS Paris, siège social : {e(p['address'])}. Informations issues du <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/988741773">registre public</a>.</p>
 <p>Directeur de la publication : {e(p['president'])}, président.</p>
-<p>Contact : en attendant l'ouverture d'une adresse e-mail dédiée, par un <a href="{REPO_URL}/issues">ticket sur le dépôt GitHub</a> du projet.</p>
+<p>Contact : <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a>.</p>
+<!-- TODO phone -->
 <h2>Hébergement</h2>
 <p>GitHub Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis — <a href="https://github.com">github.com</a>.</p>
 <h2>Données et propriété intellectuelle</h2>
@@ -530,13 +520,13 @@ class Site:
 <li><strong>Annonces</strong> : nous ne reprenons pas les noms ni les coordonnées des personnes de contact figurant dans les avis publics ; seul le nom de l'acheteur public est affiché.</li>
 <li><strong>Ticket GitHub</strong> : si vous réagissez au ticket public d'intérêt, votre pseudonyme GitHub est visible publiquement, selon les règles de GitHub.</li>
 </ul>
-<p>Contact : par un <a href="{REPO_URL}/issues">ticket GitHub</a>.</p>
+<p>Contact : <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a>.</p>
 """
         if self.sales.open:
             privacy = privacy.replace(
                 "<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie, pas d'outil de mesure d'audience ni de traceur tiers. Aucun bandeau cookies n'est donc nécessaire.</p>",
                 "<p>La consultation du site ne collecte aucune donnée personnelle : pas de compte, pas de cookie, pas d'outil de mesure d'audience ni de traceur tiers. Seul l'abonnement payant aux alertes e-mail traite des données (voir plus bas).</p>")
-            privacy = privacy.replace('<p>Contact : par un <a href="', shop.privacy_section(self) + '\n<p>Contact : par un <a href="')
+            privacy = privacy.replace('<p>Contact : <a href="mailto:', shop.privacy_section(self) + '\n<p>Contact : <a href="mailto:')
         self.write("confidentialite/", self.page("confidentialite/", "Confidentialité – Veille AO Formation",
                                                  "Aucun cookie ni traceur ; données traitées uniquement pour l'abonnement aux alertes."
                                                  if self.sales.open else

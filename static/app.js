@@ -1,4 +1,5 @@
-// Client-side filters for the open-tender list. No tracking, no storage beyond the URL.
+// Client-side filters for the open-tender list, "voir plus" paging and the alert call-to-action cards.
+// No tracking, no storage beyond the URL.
 (function () {
   "use strict";
   var panel = document.getElementById("filtres");
@@ -10,7 +11,45 @@
   var deadline = document.getElementById("deadline");
   var national = document.getElementById("national");
   var count = document.getElementById("count");
-  var cards = Array.prototype.slice.call(document.querySelectorAll(".card"));
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".list > .card"));
+  var list = document.querySelector(".list");
+  var section = document.getElementById("liste");
+  var PAGE = 20;
+  var limit = PAGE;
+  var volume = {};
+  try { volume = JSON.parse(section.getAttribute("data-volume")) || {}; } catch (err) { volume = {}; }
+  var days = section ? section.getAttribute("data-days") : "30";
+  var tpl = document.getElementById("cta-tpl");
+  var more = null;
+  if (list && cards.length > PAGE) {
+    more = document.createElement("button");
+    more.type = "button";
+    more.className = "btn btn-ghost more";
+    more.addEventListener("click", function () { limit += PAGE; apply(true); });
+    list.parentNode.insertBefore(more, list.nextSibling);
+  }
+
+  // Call-to-action card after the 5th shown card, then every 20 cards, tailored to the region filter.
+  function placeCtas(shownCards) {
+    Array.prototype.slice.call(document.querySelectorAll(".list > .inline-cta")).forEach(function (n) { n.remove(); });
+    if (!tpl || !list) return;
+    var r = region.value;
+    var spots = [];
+    for (var at = 5; at <= shownCards.length; at += 20) spots.push(at);
+    if (!spots.length && shownCards.length) spots.push(shownCards.length);
+    spots.forEach(function (at) {
+      var node = tpl.content.firstElementChild.cloneNode(true);
+      if (r && volume[r]) {
+        node.querySelector(".ic-title").textContent = "Les appels d'offres formation en " + r + ", chaque matin dans votre boîte";
+        node.querySelector(".ic-text").textContent = "~" + volume[r][0] + " avis publiés ces " + days +
+          " derniers jours en " + r + " (avis nationaux compris). Recevez seulement les nouveaux, filtrés par vos mots-clés.";
+        var a = node.querySelector("a");
+        a.href = a.getAttribute("href").split("?")[0] + "?region=" + encodeURIComponent(volume[r][1]);
+        a.textContent = "Recevoir les AO formation en " + r + " chaque matin →";
+      }
+      list.insertBefore(node, shownCards[at - 1].nextSibling);
+    });
+  }
 
   function fold(s) {
     return (s || "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase();
@@ -64,7 +103,8 @@
     history.replaceState(null, "", s ? "?" + s + location.hash : location.pathname + location.hash);
   }
 
-  function apply() {
+  function apply(keepLimit) {
+    if (keepLimit !== true) limit = PAGE;
     var words = fold(q.value).split(/\s+/).filter(Boolean);
     var r = region.value;
     var dv = deadline.value;
@@ -88,17 +128,24 @@
         else if (dv.indexOf("lt") === 0 && n > lim) ok = false;
         else if (dv.indexOf("gt") === 0 && n < lim) ok = false;
       }
-      c.hidden = !ok;
       if (ok) shown++;
+      c.hidden = !ok || shown > limit;
     });
-    count.textContent = shown + (shown > 1 ? " appels d'offres affichés" : " appel d'offres affiché") +
-      " sur " + cards.length + ".";
+    var visible = cards.filter(function (c) { return !c.hidden; });
+    placeCtas(visible);
+    if (more) {
+      var rest = shown - visible.length;
+      more.hidden = rest <= 0;
+      more.textContent = "Voir plus d'annonces (" + rest + " de plus)";
+    }
+    count.textContent = shown + (shown > 1 ? " appels d'offres correspondent" : " appel d'offres correspond") +
+      " sur " + cards.length + (shown > visible.length ? ", " + visible.length + " affichés." : ".");
     writeUrl();
   }
 
   readUrl();
   [q, region, deadline, national].forEach(function (el) {
-    el.addEventListener(el === q ? "input" : "change", apply);
+    el.addEventListener(el === q ? "input" : "change", function () { apply(); });
   });
   apply();
 })();

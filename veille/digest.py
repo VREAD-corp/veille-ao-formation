@@ -72,7 +72,8 @@ def render(items: list[Notice], p: Profile, now: datetime, site_url: str,
            since: str | None = None) -> tuple[str, str, str]:
     """Return (subject, plain text, HTML) for one digest."""
     period = f"depuis le {fmt_date(since)}" if since else "ouverts"
-    subject = f"{len(items)} appel(s) d'offres formation {period} – {p.name}"
+    n = len(items)
+    subject = f"{n} appel{'s' if n > 1 else ''} d'offres formation {period} – {p.name}"
     text = [subject, ""]
     rows = []
     for t in items:

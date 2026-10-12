@@ -21,6 +21,17 @@ TRAINING_CPV_EXACT: frozenset[str] = frozenset({"80000000", "79632000", "7963300
 # BOAMP's own subject descriptor "Formation".
 BOAMP_TRAINING_DESCRIPTORS: frozenset[str] = frozenset({"410"})
 
+# CPV divisions that are never a training service: 66 financial and insurance, 90 sewage, refuse, cleaning
+# and environmental, 92 recreational, cultural and sporting services. A notice kept ONLY because the buyer
+# ticked the "Formation" descriptor, whose CPV codes all sit in these divisions, is a false positive
+# (e.g. « Gestion de l'animation enfance et jeunesse », CPV 92000000; « Service de courtage en assurances »).
+UNRELATED_CPV_DIVISIONS: tuple[str, ...] = ("66", "90", "92")
+
+
+def descriptor_only_false_positive(match: list[str], cpv: list[str]) -> bool:
+    """True when the only reason is the BOAMP descriptor and every CPV code is outside training."""
+    return list(match) == ["descripteur"] and bool(cpv) and all(c[:2] in UNRELATED_CPV_DIVISIONS for c in cpv)
+
 # Keywords, matched on accent-free lowercase text, whole words only. A keyword
 # alone only counts for service contracts (so "construction d'un centre de
 # formation", a works contract, is left out).
@@ -189,6 +200,8 @@ def classify(
         reasons.append("descripteur")
     if KEYWORD_RE.search(fold(f"{title} {extra_text}")):
         reasons.append("mot-cle")
+    if descriptor_only_false_positive(reasons, cpv):
+        return []
     if reasons == ["mot-cle"] and cpv:
         # The buyer classified the contract under other CPV codes: a mention of
         # "formation" is then incidental (cleaning of a training centre, etc.).

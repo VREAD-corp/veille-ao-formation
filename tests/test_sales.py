@@ -97,7 +97,14 @@ def test_open_build_subscription_page(tmp_path, monkeypatch):
     ret = (out / "alertes" / "commande.html").read_text()
     assert 'id="order-status"' in ret and "js.stripe.com" not in ret and '<meta name="robots" content="noindex">' in ret
     index = (out / "index.html").read_text()
-    assert "Choisir mes critères et m'abonner" in index and "Bientôt" not in index
+    assert "Recevoir les AO formation de ma région chaque matin →" in index and "Bientôt" not in index
+    assert 'id="cta-tpl"' in index and 'class="sticky-cta"' in index
+    # landing content around the untouched order form
+    assert "Les appels d'offres formation de votre région, chaque matin dans votre boîte" in page
+    assert '<p class="lead">12,42\u00a0€ par mois, payé une fois, sans renouvellement automatique.</p>' in page
+    assert page.count('class="faq-item"') == 6 and 'id="volume" data-volume=' in page
+    assert page.index('id="volume"') < page.index('id="octave-pay"') < page.index('id="faq-h"')
+    assert 'src="/veille-ao-formation/static/landing.js"' in page and (out / "static" / "landing.js").exists()
     sitemap = (out / "sitemap.xml").read_text()
     assert SITE + "alertes/" in sitemap and "cgv-pro" not in sitemap and "commande" not in sitemap
 
@@ -165,7 +172,8 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
     assert next(i for i in home if i["@type"] == "Organization") == org
     assert "&nbsp;" not in json.dumps(home + items, ensure_ascii=False)  # typography fix stays out of JSON-LD
     hero = index.split('<section aria-labelledby="filtres-titre"')[0]
-    assert 'href="/veille-ao-formation/alertes/">Alertes e-mail : 49 € net / 3 mois</a>' in hero
+    assert 'href="/veille-ao-formation/alertes/">Recevoir les AO formation de ma région chaque matin →</a>' in hero
+    assert "49\u00a0€ pour 3 mois" in hero
     assert "TVA non applicable, art. 293 B du CGI" in hero
 
 

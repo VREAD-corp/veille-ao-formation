@@ -9,7 +9,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Iterable
 
-from .model import Notice
+from .model import Notice, descriptor_only_false_positive
 
 SOURCE_PRIORITY = {"BOAMP": 0, "TED": 1}
 
@@ -81,8 +81,9 @@ def tenders(store: dict[str, Notice]) -> list[Notice]:
             if m.url != canon.url:
                 canon.alt_urls[f"{m.source} {m.source_id}"] = m.url
         out.append(canon)
-    # Superseded notices without a procedure id may sit in their own group.
-    return [t for t in out if t.id not in superseded]
+    # Superseded notices without a procedure id may sit in their own group. Notices stored before a
+    # relevance rule was tightened are dropped here too (the store keeps them; the site never shows them).
+    return [t for t in out if t.id not in superseded and not descriptor_only_false_positive(t.match, t.cpv)]
 
 
 def open_tenders(items: Iterable[Notice], now: datetime) -> list[Notice]:
