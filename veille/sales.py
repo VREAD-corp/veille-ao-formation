@@ -19,8 +19,8 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent.parent
 ENDPOINT_RE = re.compile(r"^https://script\.google\.com/macros/s/[A-Za-z0-9_-]{20,}/exec$")
 TEST_ENDPOINT_RE = re.compile(r"^https?://[^\s\"'<>]+/exec$")
-TERMS_VERSION = "cgv-pro-alertes-2026-10-12"
-TERMS_DATE = "12 octobre 2026"
+TERMS_VERSION = "cgv-pro-alertes-2026-10-13"
+TERMS_DATE = "13 octobre 2026"
 PRODUCTS = {  # id -> months
     "veille-ao-3m": 3,
     "veille-ao-12m": 12,

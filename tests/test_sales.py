@@ -97,7 +97,7 @@ def test_open_build_subscription_page(tmp_path, monkeypatch):
     assert '"orderPage": "commande.html"' in conf and '"termsUrl": "/cgv-pro/"' in conf
     # Static prices + terms version: pay.js mounts the Payment Element without waiting for the catalog.
     assert '"offers": {"veille-ao-3m": {"amount": 4900}, "veille-ao-12m": {"amount": 14900}}' in conf
-    assert '"termsVersion": "cgv-pro-alertes-2026-10-12"' in conf and '"payLabel": "Payer {prix} et activer mes alertes"' in conf
+    assert '"termsVersion": "cgv-pro-alertes-2026-10-13"' in conf and '"payLabel": "Payer {prix} et activer mes alertes"' in conf
     assert 'id="pay-button" class="pay-button" data-cta disabled>Payer 149\u00a0€ et activer mes alertes</button>' in page
     assert 'id="payment-loading"' in page and "Chargement du paiement sécurisé…" in page
     ret = (out / "alertes" / "commande.html").read_text()
@@ -120,15 +120,29 @@ def test_open_build_terms_and_privacy(tmp_path, monkeypatch):
     out = build(tmp_path, sales.load(cfg(tmp_path, SALES_OPEN=True, endpoint="https://octave-test.invalid/exec", publishableKey="pk_test_fake123")))
     cgv = (out / "cgv-pro" / "index.html").read_text()
     assert "PAS UN CONSEIL JURIDIQUE" in cgv and '<meta name="robots" content="noindex">' in cgv
-    for needle in ["version du 12 octobre 2026", "cgv-pro-alertes-2026-10-12", "au capital de 1 000 €", "SIREN 988 741 773",
+    for needle in ["version du 13 octobre 2026", "cgv-pro-alertes-2026-10-13", "au capital de 1 000 €", "SIREN 988 741 773",
                    "TVA non applicable, art. 293 B du CGI", "professionnel", "période ferme et prépayée de 3 mois ou de 12 mois",
                    "ni renouvelé ni prélevé automatiquement", "rappel environ 7 jours avant la fin", "49,00 € net pour 3 mois",
                    "149,00 € net pour 12 mois", "arrêter les alertes à tout moment", "plus de 7 jours consécutifs",
                    "n'est pas exhaustive", "ne s'applique pas", "limitée au prix payé", "trois fois le taux d'intérêt légal",
-                   "40 €", "12 mois après sa fin", "10 ans", "CNIL", "tribunaux de Paris", "pixel"]:
-        assert needle in cgv, needle
+                   "40 €", "12 mois après sa fin", "10 ans", "CNIL", "tribunaux de Paris",
+                   # bank transfer on quote (vread-revenue-lab legal/REVUE-CGV-VIREMENT.md §3, Alertes numbering)
+                   "Avant de payer par carte ou de demander un devis", "virement bancaire SEPA en euros",
+                   "Stripe Payments Europe, Limited et Stripe Technology Europe, Limited", "numéro de compte bancaire virtuel",
+                   "valable trente (30) jours", "Un paiement partiel ne forme pas le contrat", "Affectation des paiements",
+                   "par le moyen de paiement utilisé", "la « confirmation du paiement » désigne",
+                   "(article 6). La facture, établie à la confirmation du paiement, est acquittée",
+                   "Escompte pour paiement anticipé : néant", "quatre derniers chiffres de l'IBAN",
+                   "devis non suivis de commande, 1 an après leur expiration", "lors de sa commande ou de sa demande de devis"]:
+        assert needle in cgv.replace("&nbsp;", " "), needle  # the site's typography adds &nbsp; inside « » and before :
+    assert "Ltd." not in cgv and "à réception du devis" not in cgv and "compte de paiement" not in cgv
+    for n, title in ((6, "Commande et paiement"), (13, "Facturation et pénalités de retard"), (14, "Données personnelles"), (16, "Dispositions diverses")):
+        assert f"<h2>{n}. {title}</h2>" in cgv
     privacy = (out / "confidentialite" / "index.html").read_text()
     assert "Abonnement aux alertes e-mail" in privacy and "12 mois après sa fin" in privacy
+    for needle in ("demandez un devis", "quatre derniers chiffres de l'IBAN", "mesures précontractuelles",
+                   "devis non suivis de commande, 1 an après leur expiration", "lutte contre le blanchiment", "ni pixel"):
+        assert needle in privacy.replace("&nbsp;", " "), needle
     assert "Ce site ne collecte aucune donnée personnelle" not in privacy
     assert 'href="/cgv-pro/">CGV</a>' in (out / "index.html").read_text()
     assert "remplacé par les" in (out / "cgv" / "index.html").read_text()
