@@ -164,7 +164,7 @@ def order_body(site, sample_subject: str, sample_desc: str) -> str:
 <li>Période prépayée, <strong>aucun renouvellement ni prélèvement automatique</strong> : un rappel 7 jours avant la fin.</li>
 <li>Un lien « arrêter les alertes » dans chaque e-mail. Pas de pixel de suivi.</li>
 </ul>
-<p><a class="btn ghost" href="{site.link('alertes/exemple-email.html')}">Voir un e-mail d'exemple</a> <span class="muted">({e(sample_desc)} : {e(sample_subject)})</span></p>
+<p><a class="btn ghost" href="{site.link('alertes/exemple-email.html')}" data-mesure="free_download">Voir un e-mail d'exemple</a> <span class="muted">({e(sample_desc)} : {e(sample_subject)})</span></p>
 
 <section class="checkout" aria-labelledby="commander-h">
 <h2 id="commander-h">S'abonner</h2>
@@ -225,7 +225,7 @@ def order_body(site, sample_subject: str, sample_desc: str) -> str:
 <p>La sélection est automatique et n'est pas exhaustive : beaucoup de marchés à procédure adaptée (MAPA) ne sont publiés que sur le profil d'acheteur. Vérifiez toujours l'avis officiel et le dossier de consultation. <a href="{site.link('methode/')}">Méthode et sources</a>.</p>
 <h2>Gratuit, sans inscription</h2>
 <ul>
-<li><a href="{site.link('feed.xml')}">Flux RSS / Atom</a>, <a href="{site.link('region/')}">pages régionales</a> et <a href="{site.link('#filtres')}">filtres</a> de la page d'accueil.</li>
+<li><a href="{site.link('feed.xml')}" data-mesure="free_download">Flux RSS / Atom</a>, <a href="{site.link('region/')}">pages régionales</a> et <a href="{site.link('#filtres')}">filtres</a> de la page d'accueil.</li>
 </ul>
 """
 

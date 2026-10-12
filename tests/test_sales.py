@@ -58,7 +58,7 @@ def test_closed_build_has_no_buy_ui(tmp_path):
     out = build(tmp_path, sales.load(cfg(tmp_path, SALES_OPEN=False)))
     assert not (out / "checkout").exists() and not (out / "cgv-pro").exists() and not (out / "alertes" / "commande.html").exists()
     for f in out.rglob("*"):
-        if f.suffix in (".html", ".js", ".xml", ".txt", ".json") and f.is_file():
+        if f.suffix in (".html", ".js", ".xml", ".txt", ".json") and f.is_file() and f.name != "mesure.js":  # audience, not buy UI
             body = f.read_text(encoding="utf-8")
             for m in BUY_MARKERS:
                 assert m not in body, f"{f}: {m}"

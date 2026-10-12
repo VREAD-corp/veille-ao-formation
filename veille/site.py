@@ -25,6 +25,8 @@ RELEASE_ICS = f"{REPO_URL}/releases/latest/download/ao-formation-echeances.ics"
 INTEREST_ISSUE = f"{REPO_URL}/issues/1"
 BRAND = "Veille AO Formation"
 STATIC = Path(__file__).resolve().parent.parent / "static"
+# Anonymous, cookieless audience measurement (verbatim copy of octave-checkout gas/web/mesure.js).
+MESURE = Path(__file__).resolve().parent / "mesure.js"
 
 PUBLISHER = {
     "name": "READ FRANCE SAS",
@@ -130,6 +132,7 @@ class Site:
 <link rel="alternate" type="application/atom+xml" title="Appels d'offres formation (Atom)" href="{self.link('feed.xml')}">
 <link rel="alternate" type="application/rss+xml" title="Appels d'offres formation (RSS)" href="{self.link('rss.xml')}">
 <link rel="stylesheet" href="{self.link('static/style.css')}">
+<script src="{self.link('mesure.js')}" defer></script>
 {ld}
 </head>
 <body{' class="has-sticky"' if sticky_html else ''}>
@@ -223,6 +226,7 @@ class Site:
             shutil.rmtree(self.out)
         self.out.mkdir(parents=True)
         shutil.copytree(STATIC, self.out / "static")
+        shutil.copyfile(MESURE, self.out / "mesure.js")
 
         open_items = sorted((t for t in tenders if t.is_open(self.now)), key=lambda t: (t.deadline or "", t.id))
         self.vol = landing.volume(tenders, self.now)
@@ -404,6 +408,7 @@ class Site:
         profile, since, picked = self.sample.profile, self.sample.since, self.sample.items
         subject, _text, html = render(picked, profile, self.now, self.url, since=since)
         (self.out / "alertes").mkdir(parents=True, exist_ok=True)
+        html = html.replace("</body>", f'<script src="{self.link("mesure.js")}" defer></script></body>', 1)
         (self.out / "alertes" / "exemple-email.html").write_text(html, encoding="utf-8")
         if self.sales.open:
             p = self.sales.products
@@ -440,11 +445,11 @@ class Site:
 </ul>
 <h2>Exemple réel, généré à partir des annonces du jour</h2>
 <p>Profil d'exemple : « {e(profile.name)} », annonces publiées depuis le {fmt_date(since)} et encore ouvertes. Résultat : <strong>{e(subject)}</strong>.</p>
-<p><a class="btn ghost" href="{self.link('alertes/exemple-email.html')}">Voir l'e-mail d'exemple</a></p>
+<p><a class="btn ghost" href="{self.link('alertes/exemple-email.html')}" data-mesure="free_download">Voir l'e-mail d'exemple</a></p>
 <h2>Gratuit dès maintenant</h2>
 <ul>
-<li><a href="{self.link('feed.xml')}">Flux RSS / Atom</a> : toutes les nouvelles annonces, à filtrer dans votre lecteur de flux.</li>
-<li><a href="{RELEASE_CSV}">Export CSV hebdomadaire</a> et <a href="{RELEASE_ICS}">calendrier des dates limites</a>.</li>
+<li><a href="{self.link('feed.xml')}" data-mesure="free_download">Flux RSS / Atom</a> : toutes les nouvelles annonces, à filtrer dans votre lecteur de flux.</li>
+<li><a href="{RELEASE_CSV}" data-mesure="free_download">Export CSV hebdomadaire</a> et <a href="{RELEASE_ICS}" data-mesure="free_download">calendrier des dates limites</a>.</li>
 <li>Les <a href="{self.link('region/')}">pages régionales</a> et les <a href="{self.link('#filtres')}">filtres</a> de la page d'accueil.</li>
 </ul>
 <h2>Être prévenu du lancement</h2>
@@ -513,19 +518,20 @@ class Site:
                                                   "Éditeur, hébergeur et sources de Veille AO Formation.", mentions))
         privacy = f"""
 <h1>Confidentialité</h1>
-<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie, pas d'outil de mesure d'audience ni de traceur tiers. Aucun bandeau cookies n'est donc nécessaire.</p>
+<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure d'audience anonyme est effectuée (voir ci-dessous). Aucun bandeau cookies n'est donc nécessaire.</p>
 <ul>
 <li><strong>Hébergement</strong> : GitHub Pages traite des journaux techniques (adresse IP notamment) pour servir le site et le sécuriser, selon la <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité de GitHub</a>.</li>
 <li><strong>Téléchargements</strong> : les exports CSV/ICS sont servis par GitHub Releases, qui ne nous communique qu'un nombre total de téléchargements, sans aucune information sur les personnes.</li>
 <li><strong>Annonces</strong> : nous ne reprenons pas les noms ni les coordonnées des personnes de contact figurant dans les avis publics ; seul le nom de l'acheteur public est affiché.</li>
 <li><strong>Ticket GitHub</strong> : si vous réagissez au ticket public d'intérêt, votre pseudonyme GitHub est visible publiquement, selon les règles de GitHub.</li>
 </ul>
+<p><strong>Mesure d'audience.</strong> Nous comptons la fréquentation de ce site de façon anonyme : pages vues, clics vers la page de commande et étapes de la commande, totalisés par jour, avec le domaine du site d'origine et les paramètres de campagne (utm) éventuels. Cette mesure ne dépose aucun cookie, n'utilise aucun identifiant et n'enregistre ni adresse IP ni donnée personnelle ; seuls ces totaux journaliers sont conservés, dans un tableur de READ FRANCE hébergé par Google. Elle respecte le réglage « Do Not Track » de votre navigateur. Strictement limitée à la mesure d'audience, anonyme et non recoupée avec d'autres données, elle remplit les critères d'exemption de consentement de la CNIL.</p>
 <p>Contact : <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a>.</p>
 """
         if self.sales.open:
             privacy = privacy.replace(
-                "<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie, pas d'outil de mesure d'audience ni de traceur tiers. Aucun bandeau cookies n'est donc nécessaire.</p>",
-                "<p>La consultation du site ne collecte aucune donnée personnelle : pas de compte, pas de cookie, pas d'outil de mesure d'audience ni de traceur tiers. Seul l'abonnement payant aux alertes e-mail traite des données (voir plus bas).</p>")
+                "<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure d'audience anonyme est effectuée (voir ci-dessous). Aucun bandeau cookies n'est donc nécessaire.</p>",
+                "<p>La consultation du site ne collecte aucune donnée personnelle : pas de compte, pas de cookie ni de traceur tiers ; la fréquentation est seulement mesurée de façon anonyme (voir ci-dessous). Seul l'abonnement payant aux alertes e-mail traite des données (voir plus bas).</p>")
             privacy = privacy.replace('<p>Contact : <a href="mailto:', shop.privacy_section(self) + '\n<p>Contact : <a href="mailto:')
         self.write("confidentialite/", self.page("confidentialite/", "Confidentialité – Veille AO Formation",
                                                  "Aucun cookie ni traceur ; données traitées uniquement pour l'abonnement aux alertes."

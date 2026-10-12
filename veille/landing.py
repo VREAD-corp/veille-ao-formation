@@ -189,11 +189,11 @@ def about(site) -> str:
 def free_formats(site, release_csv: str, release_ics: str) -> str:
     return f"""<details class="formats"><summary>Autres formats gratuits ▾</summary>
 <ul>
-<li><a href="{site.link('rss.xml')}">Flux RSS</a> : les nouvelles annonces dans votre lecteur de flux.</li>
-<li><a href="{release_csv}">Tableau de la semaine (CSV)</a> : publié chaque lundi, s'ouvre dans Excel.</li>
-<li><a href="{release_ics}">Calendrier des dates limites (.ics)</a> : Google Agenda, Outlook, Apple Calendrier.</li>
+<li><a href="{site.link('rss.xml')}" data-mesure="free_download">Flux RSS</a> : les nouvelles annonces dans votre lecteur de flux.</li>
+<li><a href="{release_csv}" data-mesure="free_download">Tableau de la semaine (CSV)</a> : publié chaque lundi, s'ouvre dans Excel.</li>
+<li><a href="{release_ics}" data-mesure="free_download">Calendrier des dates limites (.ics)</a> : Google Agenda, Outlook, Apple Calendrier.</li>
 <li><a href="{site.link('region/')}">Pages par région</a> et <a href="{site.link('semaine/')}">archives par semaine</a>.</li>
-<li class="muted small">Pour les développeurs : <a href="{site.link('data/ouverts.json')}">fichier de données ouvertes</a>.</li>
+<li class="muted small">Pour les développeurs : <a href="{site.link('data/ouverts.json')}" data-mesure="free_download">fichier de données ouvertes</a>.</li>
 </ul>
 </details>"""
 
@@ -209,7 +209,7 @@ def home_hero(site, n: int, s: Sample, release_csv: str, release_ics: str, sourc
                f'{e(price(p["veille-ao-12m"]))} pour 12 mois, payés une fois, sans renouvellement automatique. '
                f'{VAT_LINE}.</p>')
     else:
-        cta = f'<a class="btn btn-lg" href="{site.link("rss.xml")}">Suivre les nouvelles annonces (flux RSS)</a>'
+        cta = f'<a class="btn btn-lg" href="{site.link("rss.xml")}" data-mesure="free_download">Suivre les nouvelles annonces (flux RSS)</a>'
     return f"""<section class="hero hero-split">
 <div class="hero-copy">
 <p class="eyebrow">Marchés publics · formation professionnelle</p>
@@ -313,7 +313,7 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 <h2 id="recu-h">Ce que vous recevez</h2>
 <div class="get-grid">
 <div>{mail_mock(s, site.now, compact=False)}
-<p class="caption">{e(sample_caption(s, site.now))} <a href="{site.link('alertes/exemple-email.html')}">Version texte brut de l'exemple</a>.</p></div>
+<p class="caption">{e(sample_caption(s, site.now))} <a href="{site.link('alertes/exemple-email.html')}" data-mesure="free_download">Version texte brut de l'exemple</a>.</p></div>
 <ul class="checks">
 <li><strong>Les deux sources officielles</strong> : le BOAMP et TED, le journal européen des marchés publics, vérifiés deux fois par jour.</li>
 <li><strong>Déjà triés « formation »</strong> : codes de formation, descripteur « Formation » du BOAMP ; travaux et fournitures écartés.</li>
