@@ -61,6 +61,16 @@ def eur(cents: int) -> str:
     return f"{cents / 100:.2f}".replace(".", ",") + " €"
 
 
+def eur_short(cents: int) -> str:
+    """'49 €' for whole euros (titles, buttons), else the full '49,50 €'."""
+    return f"{cents // 100} €" if cents % 100 == 0 else eur(cents)
+
+
+def schema_price(cents: int) -> str:
+    """schema.org Offer.price: '49.00'."""
+    return f"{cents // 100}.{cents % 100:02d}"
+
+
 def load(path: str | os.PathLike | None = None) -> Sales:
     file = Path(path or os.environ.get("SALES_CONFIG") or ROOT / "sales.config.json")
     c = json.loads(file.read_text(encoding="utf-8"))

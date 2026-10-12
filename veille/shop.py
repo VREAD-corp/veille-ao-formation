@@ -15,7 +15,7 @@ from html import escape
 from pathlib import Path
 
 from .geo import REGIONS, slugify
-from .sales import TERMS_DATE, TERMS_VERSION, eur
+from .sales import TERMS_DATE, TERMS_VERSION, eur, eur_short, schema_price
 
 CHECKOUT = Path(__file__).resolve().parent / "checkout"
 
@@ -54,8 +54,13 @@ def per_month(cents: int, months: int) -> str:
     return eur(round(cents / months))
 
 
+VAT_NOTE = "TVA non applicable, art. 293 B du CGI"
+PRODUCT_NAME = "Alertes e-mail appels d'offres formation"
+PRODUCT_SKU = "veille-ao-alertes"
+
+
 def price_label(cents: int) -> str:
-    return f"{eur(cents)} net (TVA non applicable, art. 293 B du CGI)"
+    return f"{eur(cents)} net ({VAT_NOTE})"
 
 
 def copy_assets(site) -> None:
@@ -82,8 +87,40 @@ def index_panel(site) -> str:
     p = site.sales.products
     return f"""<section class="panel" aria-labelledby="alertes-titre">
 <h2 id="alertes-titre">Alertes e-mail personnalisées</h2>
-<p>Chaque matin, uniquement les nouveaux appels d'offres de vos régions et de vos thèmes. Période prépayée de <strong>3 mois ({e(eur(p['veille-ao-3m']))} net)</strong> ou <strong>12 mois ({e(eur(p['veille-ao-12m']))} net)</strong>, sans renouvellement automatique. Réservé aux professionnels. <a href="{site.link('alertes/')}">Choisir mes critères et m'abonner</a>.</p>
+<p>Chaque matin, uniquement les nouveaux appels d'offres de vos régions et de vos thèmes. Période prépayée de <strong>3 mois ({e(eur(p['veille-ao-3m']))} net)</strong> ou <strong>12 mois ({e(eur(p['veille-ao-12m']))} net)</strong>, sans renouvellement automatique ({VAT_NOTE}). Réservé aux professionnels. <a href="{site.link('alertes/')}">Choisir mes critères et m'abonner</a>.</p>
 </section>"""
+
+
+def hero_cta(site) -> str:
+    """Home page, top: the paid alerts button with the entry price."""
+    return (f'<a class="btn" href="{site.link("alertes/")}">Alertes e-mail : '
+            f'{e(eur_short(site.sales.products["veille-ao-3m"]))} net / 3 mois</a>')
+
+
+def hero_note(site) -> str:
+    p = site.sales.products
+    return (f'<p class="small muted">Alertes e-mail chaque matin selon vos régions et thèmes : '
+            f'{e(eur_short(p["veille-ao-3m"]))} net pour 3 mois ou {e(eur_short(p["veille-ao-12m"]))} net pour 12 mois, '
+            f'prépayés, sans renouvellement automatique ({VAT_NOTE}). Réservé aux professionnels.</p>')
+
+
+def product_jsonld(site, organization: dict) -> list[dict]:
+    """schema.org Organization + Product with one Offer per prepaid period (prices from sales.config.json)."""
+    p = site.sales.products
+    url = site.url + "alertes/"
+    offers = [{"@type": "Offer", "name": f"{months} mois", "price": schema_price(p[pid]), "priceCurrency": "EUR",
+               "availability": "https://schema.org/InStock", "url": url, "seller": {"@id": organization["@id"]}}
+              for pid, months in (("veille-ao-3m", 3), ("veille-ao-12m", 12))]
+    return [
+        {"@context": "https://schema.org", **organization},
+        {"@context": "https://schema.org", "@type": "Product", "name": PRODUCT_NAME,
+         "description": "Chaque matin, par e-mail, les nouveaux appels d'offres publics de formation (BOAMP, TED) "
+                        "correspondant à vos régions, mots-clés et familles CPV, avec la date limite et le lien vers "
+                        "l'avis officiel. Période prépayée de 3 ou 12 mois, sans renouvellement automatique. "
+                        "Réservé aux professionnels.",
+         "image": site.url + "static/og.png", "url": url,
+         "brand": {"@type": "Brand", "name": "Veille AO Formation"}, "sku": PRODUCT_SKU, "offers": offers},
+    ]
 
 
 def order_body(site, sample_subject: str, sample_desc: str) -> str:

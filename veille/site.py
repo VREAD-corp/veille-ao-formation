@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from collections import defaultdict
 from datetime import datetime, timedelta
@@ -32,11 +33,27 @@ PUBLISHER = {
     "president": "Tanguy Warsmann",
 }
 
+# schema.org publisher, shared by the home page and the /alertes/ Product (same @id everywhere).
+ORG_ID = "https://vread-corp.github.io/#org"
+ORGANIZATION = {
+    "@type": "Organization", "@id": ORG_ID, "name": "READ FRANCE SAS", "legalName": "READ FRANCE",
+    "url": "https://vread-corp.github.io/",
+    "address": {"@type": "PostalAddress", "streetAddress": "11 rue Rouvet", "postalCode": "75019",
+                "addressLocality": "Paris", "addressCountry": "FR"},
+    "identifier": {"@type": "PropertyValue", "propertyID": "SIREN", "value": "988741773"},
+}
+
 FEED_LIMIT = 200
+SCRIPT_RE = re.compile(r"(<script\b.*?</script>)", re.S)
 
 
 def e(text: object) -> str:
     return escape("" if text is None else str(text), quote=True)
+
+
+def text(value: object) -> str:
+    """Escape for <title> and double-quoted attributes, keeping apostrophes literal (d'offres, not d&#x27;offres)."""
+    return escape("" if value is None else str(value), quote=False).replace('"', "&quot;")
 
 
 def fmt_eur(v: float | None) -> str:
@@ -66,8 +83,12 @@ class Site:
         if path == "" or path.endswith("/"):
             target = target / "index.html"
         target.parent.mkdir(parents=True, exist_ok=True)
-        # French typography: keep guillemets attached to their words
-        html = html.replace("« ", "«&nbsp;").replace(" »", "&nbsp;»")
+        # French typography: keep guillemets attached to their words. Not inside <script> (JSON-LD would
+        # carry a literal "&nbsp;"): there, a raw U+00A0 says the same thing.
+        html = "".join(
+            part.replace("« ", "«\u00a0").replace(" »", "\u00a0»") if part.startswith("<script")
+            else part.replace("« ", "«&nbsp;").replace(" »", "&nbsp;»")
+            for part in SCRIPT_RE.split(html))
         target.write_text(html, encoding="utf-8")
         if sitemap:
             self.pages.append((path, self.now.date().isoformat()))
@@ -89,15 +110,15 @@ class Site:
 <meta charset="utf-8">
 {f'<meta http-equiv="Content-Security-Policy" content="{e(csp)}">' if csp else ''}
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{e(title)}</title>
-<meta name="description" content="{e(description)}">
+<title>{text(title)}</title>
+<meta name="description" content="{text(description)}">
 <link rel="canonical" href="{e(canonical)}">
 {'<meta name="robots" content="noindex">' if noindex else ''}
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="{BRAND}">
-<meta property="og:title" content="{e(title)}">
-<meta property="og:description" content="{e(description)}">
+<meta property="og:title" content="{text(title)}">
+<meta property="og:description" content="{text(description)}">
 <meta property="og:url" content="{e(canonical)}">
 <meta property="og:image" content="{e(self.url)}static/og.png">
 <meta name="twitter:card" content="summary_large_image">
@@ -242,10 +263,12 @@ class Site:
 <li><strong>{soon}</strong><span>clôturent sous 7 jours</span></li>
 </ul>
 <p class="cta">
-<a class="btn" href="{self.link('feed.xml')}">Suivre par flux RSS / Atom</a>
+{shop.hero_cta(self) if self.sales.open else ''}
+<a class="btn{' ghost' if self.sales.open else ''}" href="{self.link('feed.xml')}">Suivre par flux RSS / Atom</a>
 <a class="btn ghost" href="{RELEASE_CSV}">Export CSV de la semaine</a>
 <a class="btn ghost" href="{RELEASE_ICS}">Dates limites (.ics)</a>
 </p>
+{shop.hero_note(self) if self.sales.open else ''}
 {sources_note}
 </section>
 
@@ -283,8 +306,9 @@ class Site:
 {shop.index_panel(self) if self.sales.open else self.soon_panel()}
 """
         jsonld = [
+            {"@context": "https://schema.org", **ORGANIZATION},
             {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": self.url,
-             "inLanguage": "fr-FR"},
+             "inLanguage": "fr-FR", "publisher": {"@id": ORG_ID}},
             {"@context": "https://schema.org", "@type": "Dataset",
              "name": "Appels d'offres publics ouverts pour des prestations de formation (France)",
              "description": "Sélection quotidienne des avis de marchés publics français ouverts dont l'objet est la "
@@ -293,7 +317,7 @@ class Site:
              "isAccessibleForFree": True,
              "license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
              "isBasedOn": ["https://www.data.gouv.fr/datasets/boamp", "https://ted.europa.eu/"],
-             "creator": {"@type": "Organization", "name": "READ FRANCE SAS"},
+             "creator": {"@type": "Organization", "@id": ORG_ID, "name": "READ FRANCE SAS"},
              "dateModified": self.now.date().isoformat(),
              "distribution": [
                  {"@type": "DataDownload", "encodingFormat": "application/json",
@@ -382,7 +406,7 @@ class Site:
     def soon_panel(self) -> str:
         return f"""<section class="panel soon" aria-labelledby="alertes-titre">
 <h2 id="alertes-titre">Bientôt : alertes e-mail personnalisées</h2>
-<p>Un e-mail par jour ou par semaine avec uniquement les appels d'offres de vos régions et de vos thèmes, à <strong>19&nbsp;€ HT par mois</strong>. <strong>Pas encore disponible</strong> : aucune inscription ni aucun paiement n'est ouvert aujourd'hui. <a href="{self.link('alertes/')}">Voir ce qui est prévu et un exemple d'e-mail</a>.</p>
+<p>Un e-mail par jour ou par semaine avec uniquement les appels d'offres de vos régions et de vos thèmes, à <strong>19&nbsp;€ net par mois</strong> (TVA non applicable, art. 293 B du CGI). <strong>Pas encore disponible</strong> : aucune inscription ni aucun paiement n'est ouvert aujourd'hui. <a href="{self.link('alertes/')}">Voir ce qui est prévu et un exemple d'e-mail</a>.</p>
 </section>"""
 
     def alerts(self, open_items: list[Notice]) -> None:
@@ -398,11 +422,12 @@ class Site:
         if self.sales.open:
             p = self.sales.products
             self.write("alertes/", self.page(
-                "alertes/", "Alertes e-mail appels d'offres formation – Veille AO Formation",
-                f"Chaque matin, les nouveaux appels d'offres publics de formation de vos régions et thèmes (BOAMP, TED). "
-                f"{sales_mod.eur(p['veille-ao-3m'])} net pour 3 mois, {sales_mod.eur(p['veille-ao-12m'])} net pour 12 mois, "
-                f"sans renouvellement automatique.",
+                "alertes/", "Alerte appels d'offres formation par e-mail – Veille AO Formation",
+                f"Alerte e-mail des nouveaux appels d'offres formation de vos régions et thèmes : "
+                f"{sales_mod.eur_short(p['veille-ao-3m'])} net/3 mois, {sales_mod.eur_short(p['veille-ao-12m'])} net/12 mois. "
+                f"{shop.VAT_NOTE}.",
                 shop.order_body(self, subject, f"profil d'exemple « {profile.name} »"),
+                jsonld=shop.product_jsonld(self, ORGANIZATION),
                 csp=self.sales.checkout_csp(), body_scripts=shop.order_scripts(self)))
             self.write("alertes/commande.html", self.page(
                 "alertes/commande.html", "Votre abonnement – Veille AO Formation", "Confirmation d'abonnement.",
@@ -419,7 +444,7 @@ class Site:
 </div>
 <h2>Ce qui est prévu</h2>
 <ul>
-<li>Prix envisagé : <strong>19&nbsp;€ HT par mois</strong>, sans engagement.</li>
+<li>Prix envisagé : <strong>19&nbsp;€ net par mois</strong> (TVA non applicable, art. 293 B du CGI), sans engagement.</li>
 <li>Vos critères : régions, mots-clés (ex. « secourisme », « anglais », « management »), codes CPV, délai minimum pour répondre.</li>
 <li>Un e-mail quotidien ou hebdomadaire avec les nouvelles annonces correspondantes, et le lien vers chaque avis officiel.</li>
 <li>Rappel des dates limites des annonces suivies.</li>
@@ -438,7 +463,7 @@ class Site:
 """
         self.write("alertes/", self.page("alertes/", "Alertes e-mail appels d'offres formation (bientôt)",
                                          "Projet d'alertes e-mail personnalisées sur les appels d'offres formation "
-                                         "(19 € HT/mois) : pas encore disponible, exemple d'e-mail et alternatives "
+                                         "(19 € net/mois, TVA non applicable, art. 293 B du CGI) : pas encore disponible, exemple d'e-mail et alternatives "
                                          "gratuites.", body))
 
     def method(self, meta: dict) -> None:
@@ -522,7 +547,7 @@ class Site:
 <h2>1. Objet</h2>
 <p>Abonnement mensuel à un service d'alertes e-mail signalant des appels d'offres publics de formation selon des critères choisis par l'abonné (régions, mots-clés, CPV).</p>
 <h2>2. Prix et paiement</h2>
-<p>19&nbsp;€ HT par mois (TVA applicable en sus), payable d'avance par carte bancaire via le prestataire de paiement Stripe. Abonnement sans engagement, résiliable à tout moment avec effet à la fin de la période mensuelle en cours.</p>
+<p>19&nbsp;€ net par mois (TVA non applicable, art. 293 B du CGI), payable d'avance par carte bancaire via le prestataire de paiement Stripe. Abonnement sans engagement, résiliable à tout moment avec effet à la fin de la période mensuelle en cours.</p>
 <h2>3. Nature du service</h2>
 <p>Service d'information : sélection automatique d'avis publiés au BOAMP et dans TED. Il n'est pas exhaustif et ne remplace pas la consultation des avis officiels et des dossiers de consultation. READ FRANCE SAS ne garantit pas l'obtention d'un marché.</p>
 <h2>4. Droit de rétractation</h2>

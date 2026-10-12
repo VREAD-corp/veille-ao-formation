@@ -115,3 +115,67 @@ def test_open_build_terms_and_privacy(tmp_path, monkeypatch):
     assert 'href="/veille-ao-formation/cgv-pro/">CGV</a>' in (out / "index.html").read_text()
     assert "remplacé par les" in (out / "cgv" / "index.html").read_text()
     assert "au capital de 1 000 €" in (out / "mentions-legales" / "index.html").read_text()
+
+
+def jsonld_blocks(html):
+    import re
+    blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', html, re.S)
+    out = []
+    for b in blocks:
+        data = json.loads(b)
+        out.extend(data if isinstance(data, list) else [data])
+    return out
+
+
+def test_open_build_product_jsonld(tmp_path, monkeypatch):
+    monkeypatch.setenv("SALES_ALLOW_TEST", "1")
+    out = build(tmp_path, sales.load(cfg(tmp_path, SALES_OPEN=True, endpoint="https://octave-test.invalid/exec", publishableKey="pk_test_fake123")))
+    page = (out / "alertes" / "index.html").read_text()
+    items = jsonld_blocks(page)
+    org = next(i for i in items if i.get("@type") == "Organization")
+    assert org["@id"] == "https://vread-corp.github.io/#org" and org["legalName"] == "READ FRANCE"
+    assert org["identifier"] == {"@type": "PropertyValue", "propertyID": "SIREN", "value": "988741773"}
+    assert org["address"]["postalCode"] == "75019" and org["address"]["addressCountry"] == "FR"
+    product = next(i for i in items if i.get("@type") == "Product")
+    assert product["@context"] == "https://schema.org" and product["sku"] == "veille-ao-alertes"
+    assert product["url"] == SITE + "alertes/" and product["image"] == SITE + "static/og.png"
+    assert product["brand"] == {"@type": "Brand", "name": "Veille AO Formation"}
+    offers = product["offers"]
+    assert isinstance(offers, list) and len(offers) == 2
+    assert sorted((o["name"], o["price"]) for o in offers) == [("12 mois", "149.00"), ("3 mois", "49.00")]
+    for o in offers:
+        assert o["@type"] == "Offer" and o["priceCurrency"] == "EUR"
+        assert o["availability"] == "https://schema.org/InStock" and o["url"] == SITE + "alertes/"
+        assert o["seller"] == {"@id": org["@id"]} and "valueAddedTaxIncluded" not in o
+    # SEO head: literal apostrophes, net prices with the VAT franchise note, sane lengths
+    import html as htmlmod, re
+    title = htmlmod.unescape(re.search(r"<title>(.*?)</title>", page).group(1))
+    desc = htmlmod.unescape(re.search(r'<meta name="description" content="([^"]*)">', page).group(1))
+    assert "<title>Alerte appels d'offres formation par e-mail" in page and len(title) <= 65
+    assert "49 € net" in desc and "149 € net" in desc and "TVA non applicable, art. 293 B du CGI" in desc and len(desc) <= 158
+    # home page: same Organization, visible priced link to /alertes/ near the top, no Product
+    index = (out / "index.html").read_text()
+    home = jsonld_blocks(index)
+    assert {i["@type"] for i in home} == {"Organization", "WebSite", "Dataset"}
+    assert next(i for i in home if i["@type"] == "Organization") == org
+    assert "&nbsp;" not in json.dumps(home + items, ensure_ascii=False)  # typography fix stays out of JSON-LD
+    hero = index.split('<section aria-labelledby="filtres-titre"')[0]
+    assert 'href="/veille-ao-formation/alertes/">Alertes e-mail : 49 € net / 3 mois</a>' in hero
+    assert "TVA non applicable, art. 293 B du CGI" in hero
+
+
+def test_closed_build_has_no_product_jsonld(tmp_path):
+    out = build(tmp_path, sales.load(cfg(tmp_path, SALES_OPEN=False)))
+    assert not any(i.get("@type") == "Product" for i in jsonld_blocks((out / "alertes" / "index.html").read_text()))
+    assert any(i.get("@type") == "Organization" for i in jsonld_blocks((out / "index.html").read_text()))
+
+
+def test_no_ht_ttc_on_our_prices(tmp_path, monkeypatch):
+    monkeypatch.setenv("SALES_ALLOW_TEST", "1")
+    for s in (sales.load(cfg(tmp_path, SALES_OPEN=False)),
+              sales.load(cfg(tmp_path, SALES_OPEN=True, endpoint="https://octave-test.invalid/exec", publishableKey="pk_test_fake123"))):
+        out = build(tmp_path, s)
+        for f in ("alertes/index.html", "cgv/index.html", "cgv-pro/index.html", "index.html"):
+            if (out / f).exists():
+                body = (out / f).read_text().replace("€ HT (estimation)", "")  # buyers' estimated contract values
+                assert "TTC" not in body and "€ HT" not in body and "hors tax" not in body.lower(), f
