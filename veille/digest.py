@@ -1,8 +1,9 @@
-"""Personalised digest (engine of the planned paid e-mail alerts).
+"""Personalised digest: the selection rules and the sample e-mail of the paid alerts.
 
-Status: the digest is generated, but NOT sent. Sending needs a sender mailbox
-and domain (decision H5) and paid subscriptions need live Stripe (H4). Until
-then the site offers the same data for free via RSS, JSON and weekly CSV/ICS.
+The paid alerts themselves are sent by the octave-pay-gas backend (Apps Script, VREAD-corp/octave-checkout
+gas/src/Alerts.js), which applies the same rules to the public data/ouverts.json every morning. Keep both in
+step: regions + national notices (>= 10 regions or none), keywords on title/description/buyer/lots without
+accents, CPV prefixes, open notices only.
 """
 
 from __future__ import annotations

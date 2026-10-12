@@ -8,7 +8,7 @@ from pathlib import Path
 
 import pytest
 
-from veille import boamp, geo, store, summarize, ted
+from veille import boamp, geo, sales, store, summarize, ted
 from veille.digest import Profile, render, select
 from veille.exporters import fmt_deadline, to_atom, to_csv, to_ics, to_json, to_rss
 from veille.model import Notice, classify, is_training_cpv
@@ -322,6 +322,9 @@ def test_site_build(tmp_path, boamp_records, ted_notices):
     weeks = list((out / "semaine").glob("20*-W*/index.html"))
     assert weeks
     alerts = (out / "alertes" / "index.html").read_text()
-    assert "pas encore disponible" in alerts.lower() and "19&nbsp;€" in alerts
+    if sales.load().open:  # committed sales.config.json: subscription page (details in test_sales.py)
+        assert 'id="octave-pay"' in alerts and "sans renouvellement automatique" in alerts
+    else:
+        assert "pas encore disponible" in alerts.lower() and "19&nbsp;€" in alerts
     sitemap = (out / "sitemap.xml").read_text()
     assert "cgv/" not in sitemap and SITE + "semaine/" in sitemap

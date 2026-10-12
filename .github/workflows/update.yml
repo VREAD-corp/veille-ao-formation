@@ -49,8 +49,13 @@ jobs:
             echo "No data change"
           else
             git commit -m "data: mise à jour $(date -u +'%Y-%m-%d %H:%M') UTC"
-            git pull --rebase origin main
-            git push origin HEAD:main
+            # GitHub sometimes rejects a push transiently ("fatal error in commit_refs", 2026-10-12): retry,
+            # and never block the site deploy (the paid alerts read data/ouverts.json from Pages).
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push origin HEAD:main; then break; fi
+              if [ "$i" = 3 ]; then echo "::warning::data commit not pushed after 3 attempts; the site is still deployed"; break; fi
+              sleep $((i * 15))
+            done
           fi
       - name: Build site
         run: python -m veille build --out _site

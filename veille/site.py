@@ -12,6 +12,8 @@ from urllib.parse import urlparse
 
 from .digest import NATIONAL_THRESHOLD, Profile, is_national, render, select
 from .exporters import ATTRIBUTION, fmt_date, fmt_deadline, to_atom, to_json, to_rss
+from . import sales as sales_mod
+from . import shop
 from .geo import REGIONS, slugify
 from .model import PARIS, Notice, fold, iso_week_bounds
 
@@ -44,7 +46,8 @@ def fmt_eur(v: float | None) -> str:
 
 
 class Site:
-    def __init__(self, out: Path, site_url: str, now: datetime):
+    def __init__(self, out: Path, site_url: str, now: datetime, sales: "sales_mod.Sales | None" = None):
+        self.sales = sales or sales_mod.load()
         self.out = out
         self.url = site_url if site_url.endswith("/") else site_url + "/"
         # path prefix for internal links, e.g. "/veille-ao-formation/"
@@ -70,7 +73,8 @@ class Site:
             self.pages.append((path, self.now.date().isoformat()))
 
     def page(self, path: str, title: str, description: str, body: str, *,
-             jsonld: dict | list | None = None, scripts: bool = False, noindex: bool = False) -> str:
+             jsonld: dict | list | None = None, scripts: bool = False, noindex: bool = False,
+             csp: str = "", body_scripts: str = "") -> str:
         canonical = self.url + path
         ld = (f'<script type="application/ld+json">{json.dumps(jsonld, ensure_ascii=False)}</script>'
               if jsonld else "")
@@ -83,6 +87,7 @@ class Site:
 <html lang="fr">
 <head>
 <meta charset="utf-8">
+{f'<meta http-equiv="Content-Security-Policy" content="{e(csp)}">' if csp else ''}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(description)}">
@@ -121,14 +126,14 @@ class Site:
 <a href="{self.link('methode/')}">Méthode et sources</a>
 <a href="{self.link('mentions-legales/')}">Mentions légales</a>
 <a href="{self.link('confidentialite/')}">Confidentialité</a>
-<a href="{self.link('cgv/')}">CGV (projet)</a>
+{f'<a href="{self.link("cgv-pro/")}">CGV</a>' if self.sales.open else f'<a href="{self.link("cgv/")}">CGV (projet)</a>'}
 <a href="{REPO_URL}">Code source</a>
 </nav>
 <p>{BRAND} — un produit de READ FRANCE SAS.</p>
 </div>
 </footer>
 {f'<script src="{self.link("static/app.js")}" defer></script>' if scripts else ''}
-</body>
+{body_scripts}</body>
 </html>
 """
 
@@ -202,6 +207,8 @@ class Site:
         self.alerts(open_items)
         self.method(meta)
         self.legal()
+        if self.sales.open:
+            shop.copy_assets(self)
         feed_items = sorted(open_items, key=lambda t: (t.published, t.id), reverse=True)[:FEED_LIMIT]
         (self.out / "feed.xml").write_text(to_atom(feed_items, self.now, self.url), encoding="utf-8")
         (self.out / "rss.xml").write_text(to_rss(feed_items, self.now, self.url), encoding="utf-8")
@@ -273,10 +280,7 @@ class Site:
 </ul>
 </section>
 
-<section class="panel soon" aria-labelledby="alertes-titre">
-<h2 id="alertes-titre">Bientôt : alertes e-mail personnalisées</h2>
-<p>Un e-mail par jour ou par semaine avec uniquement les appels d'offres de vos régions et de vos thèmes, à <strong>19&nbsp;€ HT par mois</strong>. <strong>Pas encore disponible</strong> : aucune inscription ni aucun paiement n'est ouvert aujourd'hui. <a href="{self.link('alertes/')}">Voir ce qui est prévu et un exemple d'e-mail</a>.</p>
-</section>
+{shop.index_panel(self) if self.sales.open else self.soon_panel()}
 """
         jsonld = [
             {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": self.url,
@@ -375,6 +379,12 @@ class Site:
         self.write("region/", self.page("region/", "Appels d'offres formation par région",
                                         "Les appels d'offres publics de formation ouverts, région par région.", body))
 
+    def soon_panel(self) -> str:
+        return f"""<section class="panel soon" aria-labelledby="alertes-titre">
+<h2 id="alertes-titre">Bientôt : alertes e-mail personnalisées</h2>
+<p>Un e-mail par jour ou par semaine avec uniquement les appels d'offres de vos régions et de vos thèmes, à <strong>19&nbsp;€ HT par mois</strong>. <strong>Pas encore disponible</strong> : aucune inscription ni aucun paiement n'est ouvert aujourd'hui. <a href="{self.link('alertes/')}">Voir ce qui est prévu et un exemple d'e-mail</a>.</p>
+</section>"""
+
     def alerts(self, open_items: list[Notice]) -> None:
         profile = Profile(name="Exemple : Bretagne + Pays de la Loire, sécurité et secourisme",
                           regions=["Bretagne", "Pays de la Loire"],
@@ -385,6 +395,20 @@ class Site:
         subject, _text, html = render(picked, profile, self.now, self.url, since=since)
         (self.out / "alertes").mkdir(parents=True, exist_ok=True)
         (self.out / "alertes" / "exemple-email.html").write_text(html, encoding="utf-8")
+        if self.sales.open:
+            p = self.sales.products
+            self.write("alertes/", self.page(
+                "alertes/", "Alertes e-mail appels d'offres formation – Veille AO Formation",
+                f"Chaque matin, les nouveaux appels d'offres publics de formation de vos régions et thèmes (BOAMP, TED). "
+                f"{sales_mod.eur(p['veille-ao-3m'])} net pour 3 mois, {sales_mod.eur(p['veille-ao-12m'])} net pour 12 mois, "
+                f"sans renouvellement automatique.",
+                shop.order_body(self, subject, f"profil d'exemple « {profile.name} »"),
+                csp=self.sales.checkout_csp(), body_scripts=shop.order_scripts(self)))
+            self.write("alertes/commande.html", self.page(
+                "alertes/commande.html", "Votre abonnement – Veille AO Formation", "Confirmation d'abonnement.",
+                shop.return_body(self), noindex=True, csp=self.sales.order_csp(), body_scripts=shop.return_scripts(self)),
+                sitemap=False)
+            return
         body = f"""
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Alertes e-mail</nav>
 <h1>Alertes e-mail personnalisées — bientôt</h1>
@@ -461,7 +485,7 @@ class Site:
         mentions = f"""
 <h1>Mentions légales</h1>
 <h2>Éditeur</h2>
-<p>{e(p['name'])} (société par actions simplifiée), SIREN {e(p['siren'])}, siège social : {e(p['address'])}. Informations issues du <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/988741773">registre public</a>.</p>
+<p>{e(p['name'])} (société par actions simplifiée au capital de 1 000 €), SIREN {e(p['siren'])}, RCS Paris, siège social : {e(p['address'])}. Informations issues du <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/988741773">registre public</a>.</p>
 <p>Directeur de la publication : {e(p['president'])}, président.</p>
 <p>Contact : en attendant l'ouverture d'une adresse e-mail dédiée, par un <a href="{REPO_URL}/issues">ticket sur le dépôt GitHub</a> du projet.</p>
 <h2>Hébergement</h2>
@@ -483,7 +507,14 @@ class Site:
 </ul>
 <p>Contact : par un <a href="{REPO_URL}/issues">ticket GitHub</a>.</p>
 """
+        if self.sales.open:
+            privacy = privacy.replace(
+                "<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie, pas d'outil de mesure d'audience ni de traceur tiers. Aucun bandeau cookies n'est donc nécessaire.</p>",
+                "<p>La consultation du site ne collecte aucune donnée personnelle : pas de compte, pas de cookie, pas d'outil de mesure d'audience ni de traceur tiers. Seul l'abonnement payant aux alertes e-mail traite des données (voir plus bas).</p>")
+            privacy = privacy.replace('<p>Contact : par un <a href="', shop.privacy_section(self) + '\n<p>Contact : par un <a href="')
         self.write("confidentialite/", self.page("confidentialite/", "Confidentialité – Veille AO Formation",
+                                                 "Aucun cookie ni traceur ; données traitées uniquement pour l'abonnement aux alertes."
+                                                 if self.sales.open else
                                                  "Aucune donnée personnelle collectée, aucun cookie ni traceur.", privacy))
         cgv = f"""
 <h1>Conditions générales de vente — projet</h1>
@@ -504,7 +535,16 @@ class Site:
 <p>Droit français. Médiation de la consommation : à désigner avant l'ouverture de la vente aux consommateurs.</p>
 <p>Éditeur : {e(p['name'])}, SIREN {e(p['siren'])}, {e(p['address'])}.</p>
 """
-        self.write("cgv/", self.page("cgv/", "CGV (projet) – Veille AO Formation",
+        if self.sales.open:
+            self.write("cgv-pro/", self.page(
+                "cgv-pro/", "Conditions générales de vente aux professionnels – Veille AO Formation",
+                "CGV B2B des alertes e-mail (périodes prépayées de 3 ou 12 mois, sans renouvellement automatique).",
+                shop.cgv_pro_body(self), noindex=True), sitemap=False)
+            cgv = f"""
+<h1>Conditions générales de vente</h1>
+<p>L'ancien projet de conditions publié sur cette page est remplacé par les <a href="{self.link('cgv-pro/')}">conditions générales de vente aux professionnels des alertes e-mail</a> (version du {sales_mod.TERMS_DATE}).</p>
+"""
+        self.write("cgv/", self.page("cgv/", "CGV (projet) – Veille AO Formation" if not self.sales.open else "CGV – Veille AO Formation",
                                      "Projet de conditions générales de vente des futures alertes e-mail, non applicable.",
                                      cgv, noindex=True), sitemap=False)
 

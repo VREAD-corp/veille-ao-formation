@@ -4,7 +4,7 @@ Open French public tenders for **training services** (formation professionnelle)
 
 **Site:** https://vread-corp.github.io/veille-ao-formation/
 
-A product of READ FRANCE SAS. No accounts, no cookies, no trackers, no LLM.
+A product of READ FRANCE SAS. No accounts, no cookies, no trackers, no LLM. Optional paid e-mail alerts (B2B, prepaid periods).
 
 ## What it does
 
@@ -15,7 +15,11 @@ A product of READ FRANCE SAS. No accounts, no cookies, no trackers, no LLM.
 3. Normalises (deadline as written in the notice, regions from departments / NUTS codes, CPV, estimated value, lots), merges into `data/notices.json` and de-duplicates by eForms procedure id (BOAMP + TED copies, rectificatifs).
 4. `python -m veille build` writes the site to `_site/`: open tenders with client-side filters (keyword, region, deadline), weekly archive pages, region pages, Atom + RSS feeds, `data/ouverts.json`, sitemap.
 5. `python -m veille export` writes the weekly release assets `ao-formation-ouverts.csv` and `ao-formation-echeances.ics`.
-6. `python -m veille digest --profile examples/profil-exemple.json` renders a personalised e-mail digest (engine of the planned paid alerts; **not sent**: no mailbox or payments yet).
+6. `python -m veille digest --profile examples/profil-exemple.json` renders a personalised e-mail digest (the sample shown on `/alertes/exemple-email.html`).
+
+## Paid alerts (prepaid periods)
+
+`sales.config.json` gates the paid tier. With `SALES_OPEN: true` the build turns `/alertes/` into the subscription page (3 months 49 € net or 12 months 149 € net, TVA non applicable art. 293 B du CGI, **no automatic renewal**), adds `/alertes/commande.html` (Stripe return page), `/cgv-pro/` (B2B terms, subscription-period clauses) and the privacy section; with `false` nothing of it is built. Payment and delivery run in the shared octave-pay-gas backend (VREAD-corp/octave-checkout, Apps Script, no server of ours): it reads the public `data/ouverts.json` every morning at about 07:00 Paris and e-mails each subscriber the new matching notices (same rules as `veille/digest.py`), with a stop link, a weekly « rien de nouveau », a reminder 7 days before the end and the expiry. `veille/checkout/pay.js` and `order.js` are verbatim copies of `octave-checkout/gas/web/` (checked by `gas/scripts/check-sites.mjs` there). Prices in `sales.config.json` must equal `gas/src/Config.js`.
 
 Personal data minimisation: contact names, e-mails and phone numbers present in notices are never copied; only the buyer organisation is shown.
 
