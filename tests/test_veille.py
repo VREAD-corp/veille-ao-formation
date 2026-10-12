@@ -343,6 +343,12 @@ def test_site_build(tmp_path, boamp_records, ted_notices):
         assert (out / path).exists(), path
     weeks = list((out / "semaine").glob("20*-W*/index.html"))
     assert weeks
+    assert '<meta name="robots" content="noindex">' in (out / "alertes" / "exemple-email.html").read_text()
+    assert "exemple-email" not in (out / "sitemap.xml").read_text()
+    for path in ["index.html", "404.html", "region/bretagne/index.html", weeks[0].relative_to(out).as_posix()]:
+        footer = (out / path).read_text().split('<footer class="foot">')[1]
+        assert '<nav class="rf-network" aria-label="Autres outils READ FRANCE">' in footer, path
+        assert 'href="https://outils.vread.fr/kit-gpsr-vendeurs/pack.html"' in footer, path
     alerts = (out / "alertes" / "index.html").read_text()
     if sales.load().open:  # committed sales.config.json: subscription page (details in test_sales.py)
         assert 'id="octave-pay"' in alerts and "sans renouvellement automatique" in alerts

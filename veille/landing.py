@@ -417,6 +417,7 @@ def faq(site, vol: Volume) -> str:
 def alerts_bottom(site, vol: Volume) -> str:
     return f"""
 {faq(site, vol)}
+<p class="cross-link">Beaucoup d’acheteurs publics exigent la certification Qualiopi. Le nouveau référentiel s’applique au 1er novembre 2026 : <a href="https://outils.vread.fr/kit-qualiopi-v10/">modèles et check-list du Kit Qualiopi V10</a>.</p>
 {about(site)}
 <section class="section legal-note" aria-labelledby="limites-h">
 <h2 id="limites-h">Sources et limites</h2>

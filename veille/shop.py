@@ -125,14 +125,14 @@ def hero_note(site) -> str:
 
 
 def product_jsonld(site, organization: dict) -> list[dict]:
-    """schema.org Organization + Product with one Offer per prepaid period (prices from sales.config.json)."""
+    """schema.org Product with one Offer per prepaid period (prices from sales.config.json), sold by the hub
+    Organization (referenced by @id, not repeated)."""
     p = site.sales.products
     url = site.url + "alertes/"
     offers = [{"@type": "Offer", "name": f"{months} mois", "price": schema_price(p[pid]), "priceCurrency": "EUR",
                "availability": "https://schema.org/InStock", "url": url, "seller": {"@id": organization["@id"]}}
               for pid, months in (("veille-ao-3m", 3), ("veille-ao-12m", 12))]
     return [
-        {"@context": "https://schema.org", **organization},
         {"@context": "https://schema.org", "@type": "Product", "name": PRODUCT_NAME,
          "description": "Chaque matin, par e-mail, les nouveaux appels d'offres publics de formation (BOAMP, TED) "
                         "correspondant à vos régions, mots-clés et familles CPV, avec la date limite et le lien vers "

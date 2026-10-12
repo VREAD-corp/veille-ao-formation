@@ -147,10 +147,10 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
     out = build(tmp_path, sales.load(cfg(tmp_path, SALES_OPEN=True, endpoint="https://octave-test.invalid/exec", publishableKey="pk_test_fake123")))
     page = (out / "alertes" / "index.html").read_text()
     items = jsonld_blocks(page)
-    org = next(i for i in items if i.get("@type") == "Organization")
-    assert org["@id"] == "https://outils.vread.fr/#org" and org["legalName"] == "READ FRANCE"
-    assert org["identifier"] == {"@type": "PropertyValue", "propertyID": "SIREN", "value": "988741773"}
-    assert org["address"]["postalCode"] == "75019" and org["address"]["addressCountry"] == "FR"
+    # the full Organization lives on the hub only: referenced by @id, never repeated here
+    org = {"@id": "https://outils.vread.fr/#org"}
+    assert not any(i.get("@type") == "Organization" for i in items)
+    assert "legalName" not in page and "PostalAddress" not in page
     product = next(i for i in items if i.get("@type") == "Product")
     assert product["@context"] == "https://schema.org" and product["sku"] == "veille-ao-alertes"
     assert product["url"] == SITE + "alertes/" and product["image"] == SITE + "static/og.png"
@@ -168,11 +168,14 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
     desc = htmlmod.unescape(re.search(r'<meta name="description" content="([^"]*)">', page).group(1))
     assert "<title>Alerte appels d'offres formation par e-mail" in page and len(title) <= 65
     assert "49 € net" in desc and "149 € net" in desc and "TVA non applicable, art. 293 B du CGI" in desc and len(desc) <= 158
-    # home page: same Organization, visible priced link to /alertes/ near the top, no Product
+    assert 'href="https://outils.vread.fr/kit-qualiopi-v10/">' in page  # contextual link to the Qualiopi kit
+    # home page: WebSite and Dataset point at the hub Organization, visible priced link to /alertes/ near the top, no Product
     index = (out / "index.html").read_text()
     home = jsonld_blocks(index)
-    assert {i["@type"] for i in home} == {"Organization", "WebSite", "Dataset"}
-    assert next(i for i in home if i["@type"] == "Organization") == org
+    assert {i["@type"] for i in home} == {"WebSite", "Dataset"}
+    ref = {"@type": "Organization", "@id": "https://outils.vread.fr/#org", "name": "READ FRANCE SAS"}
+    assert next(i for i in home if i["@type"] == "WebSite")["publisher"] == ref
+    assert next(i for i in home if i["@type"] == "Dataset")["creator"] == ref
     assert "&nbsp;" not in json.dumps(home + items, ensure_ascii=False)  # typography fix stays out of JSON-LD
     hero = index.split('<section aria-labelledby="filtres-titre"')[0]
     assert 'href="/veille-ao-formation/alertes/">Recevoir les AO formation de ma région chaque matin →</a>' in hero
@@ -183,7 +186,9 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
 def test_closed_build_has_no_product_jsonld(tmp_path):
     out = build(tmp_path, sales.load(cfg(tmp_path, SALES_OPEN=False)))
     assert not any(i.get("@type") == "Product" for i in jsonld_blocks((out / "alertes" / "index.html").read_text()))
-    assert any(i.get("@type") == "Organization" for i in jsonld_blocks((out / "index.html").read_text()))
+    home = jsonld_blocks((out / "index.html").read_text())
+    assert not any(i.get("@type") == "Organization" for i in home)
+    assert next(i for i in home if i["@type"] == "WebSite")["publisher"]["@id"] == "https://outils.vread.fr/#org"
 
 
 def test_no_ht_ttc_on_our_prices(tmp_path, monkeypatch):

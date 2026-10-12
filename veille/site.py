@@ -36,15 +36,23 @@ PUBLISHER = {
     "president": "Tanguy Warsmann",
 }
 
-# schema.org publisher, shared by the home page and the /alertes/ Product (same @id everywhere).
+# schema.org publisher. The full Organization node (logo, founders, SIREN, sameAs) lives only on the hub
+# https://outils.vread.fr/; pages here reference it by @id instead of repeating it.
 ORG_ID = "https://outils.vread.fr/#org"
-ORGANIZATION = {
-    "@type": "Organization", "@id": ORG_ID, "name": "READ FRANCE SAS", "legalName": "READ FRANCE",
-    "url": "https://outils.vread.fr/",
-    "address": {"@type": "PostalAddress", "streetAddress": "11 rue Rouvet", "postalCode": "75019",
-                "addressLocality": "Paris", "addressCountry": "FR"},
-    "identifier": {"@type": "PropertyValue", "propertyID": "SIREN", "value": "988741773"},
-}
+ORG_REF = {"@type": "Organization", "@id": ORG_ID, "name": "READ FRANCE SAS"}
+
+# « Autres outils READ FRANCE »: the same footer block on every outils.vread.fr site (hub + the 4 paid offers).
+NETWORK_LINKS = [
+    ("Tous les outils", "https://outils.vread.fr/"),
+    ("Kit Qualiopi V10", "https://outils.vread.fr/kit-qualiopi-v10/"),
+    ("Pack documentation GPSR", "https://outils.vread.fr/kit-gpsr-vendeurs/pack.html"),
+    ("Alertes appels d’offres formation", "https://outils.vread.fr/veille-ao-formation/alertes/"),
+    ("Audit d’accessibilité", "https://outils.vread.fr/declaration-accessibilite/audit/"),
+]
+NETWORK_HTML = ('<nav class="rf-network" aria-label="Autres outils READ FRANCE">\n'
+                '<p class="rf-network-title">Autres outils READ FRANCE</p>\n<ul>\n'
+                + "\n".join(f'<li><a href="{href}">{label}</a></li>' for label, href in NETWORK_LINKS)
+                + "\n</ul>\n</nav>")
 
 # Date of the last change to the page templates (copy, layout). Pages without notice data use it as their
 # sitemap lastmod; update it by hand when a template changes.
@@ -170,6 +178,7 @@ class Site:
 </main>
 <footer class="foot">
 <div class="wrap">
+{NETWORK_HTML}
 <p class="attrib">{e(ATTRIBUTION)} Les avis officiels font foi : vérifiez toujours l'avis et le dossier de consultation avant de répondre.</p>
 <p>Contact : <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a></p>
 <nav aria-label="Liens de bas de page">
@@ -340,9 +349,8 @@ class Site:
 {landing.home_bottom(self) if self.sales.open else self.soon_panel() + landing.about(self)}
 """
         jsonld = [
-            {"@context": "https://schema.org", **ORGANIZATION},
             {"@context": "https://schema.org", "@type": "WebSite", "name": BRAND, "url": self.url,
-             "inLanguage": "fr-FR", "publisher": {"@id": ORG_ID}},
+             "inLanguage": "fr-FR", "publisher": ORG_REF},
             {"@context": "https://schema.org", "@type": "Dataset",
              "name": "Appels d'offres publics ouverts pour des prestations de formation (France)",
              "description": "Sélection quotidienne des avis de marchés publics français ouverts dont l'objet est la "
@@ -351,7 +359,7 @@ class Site:
              "isAccessibleForFree": True,
              "license": "https://www.etalab.gouv.fr/licence-ouverte-open-licence",
              "isBasedOn": ["https://www.data.gouv.fr/datasets/boamp", "https://ted.europa.eu/"],
-             "creator": {"@type": "Organization", "@id": ORG_ID, "name": "READ FRANCE SAS"},
+             "creator": ORG_REF,
              "dateModified": self.now.date().isoformat(),
              "distribution": [
                  {"@type": "DataDownload", "encodingFormat": "application/json",
@@ -486,6 +494,8 @@ class Site:
         subject, _text, html = render(picked, profile, self.now, self.url, since=since)
         (self.out / "alertes").mkdir(parents=True, exist_ok=True)
         html = html.replace("</body>", f'<script src="{self.link("mesure.js")}" defer></script></body>', 1)
+        # Sample e-mail: linked from /alertes/ for buyers, but not a page to index.
+        html = html.replace('<meta charset="utf-8">', '<meta charset="utf-8"><meta name="robots" content="noindex">', 1)
         (self.out / "alertes" / "exemple-email.html").write_text(html, encoding="utf-8")
         if self.sales.open:
             p = self.sales.products
@@ -496,7 +506,7 @@ class Site:
                 f"{shop.VAT_NOTE}.",
                 landing.wrap_order(shop.order_body(self, subject, f"profil d'exemple « {profile.name} »"),
                                    landing.alerts_top(self, self.sample, self.vol), landing.alerts_bottom(self, self.vol)),
-                jsonld=shop.product_jsonld(self, ORGANIZATION),
+                jsonld=shop.product_jsonld(self, ORG_REF),
                 csp=self.sales.checkout_csp(),
                 body_scripts=shop.order_scripts(self) + f'<script src="{self.link("static/landing.js")}" defer></script>\n',
                 sticky=True), lastmod=max([TEMPLATE_DATE] + [t.published for t in picked]))
