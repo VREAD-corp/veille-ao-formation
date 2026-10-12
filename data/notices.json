@@ -26830,6 +26830,440 @@
     "Mise en place de prestations ARPIJ dans le département du Morbihan"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-98613",
+   "source": "BOAMP",
+   "source_id": "26-98613",
+   "title": "FORMATION A LA CONSULTATION DE PUERICULTURE POUR LES AGENTS DU SERVICE DE LA PMI DU DEPARTEMENT DE L'HERAULT",
+   "buyer": "Conseil départemental de l'Hérault",
+   "published": "2026-10-12",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-98613",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79632000"
+   ],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-98151"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:700346-2026",
+   "source": "TED",
+   "source_id": "700346-2026",
+   "title": "Métiers de l'animation, du sport et de l'aquatique",
+   "buyer": "Région Grand Est",
+   "published": "2026-10-12",
+   "deadline": "2026-11-03T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/700346-2026",
+   "procedure_id": "1084a1ed-3073-4514-96bc-679c618ba654",
+   "description": "Métiers de l'animation, du sport et de l'aquatique",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80530000",
+    "92620000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:700827-2026",
+   "source": "TED",
+   "source_id": "700827-2026",
+   "title": "GROUPEMENT DE COMMANDES DE PRESTATIONS DE FORMATION INITIALE, DE RECYCLAGE ET D'EXAMEN A LA CONDUITE DES DIFFERENTS CACES",
+   "buyer": "COMMUNAUTE D'AGGLOMERATION GRAND CALAIS TERRES & MERS",
+   "published": "2026-10-12",
+   "deadline": "2026-11-12T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/700827-2026",
+   "procedure_id": "41f69fd5-0ba9-4502-adff-7cb48839d936",
+   "description": "Prestations de formation initiale, de recyclage et d'examen à la conduite des différents CACES dans le cadre d'un groupement de commandes.",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80330000",
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:700940-2026",
+   "source": "TED",
+   "source_id": "700940-2026",
+   "title": "QUALIF EMPLOI PROGRAMME 2027",
+   "buyer": "Région Bretagne",
+   "published": "2026-10-12",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/700940-2026",
+   "procedure_id": "7e8455dc-f407-48fd-b83e-7766640ace6b",
+   "description": "Cette consultation a pour objet la réalisation de formations qualifiantes dans le cadre du dispositif QUALIF Emploi programme 2027-2029. QUALIF Emploi Programme est un dispositif de formation qui s’adresse aux personnes en recherche d’emploi souhaitant acquérir des compétences professionnelles et obtenir une certification favorisant leur insertion durable dans l’emploi. Il vise à répondre aux besoins en compétences…",
+   "departments": [],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Chef.fe d'entreprise agricole (orientation Polyculture élevage)",
+    "Chef.fe d'entreprise agricole (orientation Polyculture élevage) - A distance",
+    "Ouvrier.ère agricole (métiers de la polyculture élevage) - CQP",
+    "Ouvrier.ère agricole (métiers de la polyculture élevage) - CAPA",
+    "Métiers de l'apiculture et de la viticulture",
+    "Autoconstructeur.ice d'équipements adaptés à l'agroécologie",
+    "Horticulteur·rice- Côtes-d'Armor et Ille-et-Vilaine",
+    "Horticulteur·rice- Finistère et Morbihan",
+    "Chef.fe d'entreprise agricole (orientation horticulture- maraichage)",
+    "Chef.fe d'entreprise agricole (orientation horticulture-maraichage)",
+    "Ouvrier.ère agricole (métiers de l'horticulture)",
+    "Métiers du paysage (Ouvrier.ère et technicien·ne)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:701230-2026",
+   "source": "TED",
+   "source_id": "701230-2026",
+   "title": "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management.",
+   "buyer": "Ministère de l'Intérieur",
+   "published": "2026-10-12",
+   "deadline": "2026-10-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/701230-2026",
+   "procedure_id": "c7246064-f63d-4331-8549-4b185bf13664",
+   "description": "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80532000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4810000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Bilans (managérial et individuel de compétence), accompagnement managérial individuel (encadrement supérieur) et collectifnistère de l’Intérieur en matière de…",
+    "Formation au management au bénéfice des cadres administratifs et techniques affectés dans les services en administration centrale ou en administration…",
+    "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management."
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:701825-2026",
+   "source": "TED",
+   "source_id": "701825-2026",
+   "title": "Accord-cadre multi-attributaire (2 attributaires maximum) portant sur des prestations de formations&amp;quot;Métiers territoires et Gestion Commerciale dans le logement social&amp;quot;",
+   "buyer": "SEM EUROMETROPOLE METZ HABITAT",
+   "published": "2026-10-12",
+   "deadline": "2026-11-09T11:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/701825-2026",
+   "procedure_id": "cb5d49e0-7f09-4a24-9e6d-60840c432422",
+   "description": "Accord-cadre multi-attributaire (2 attributaires maximum) portant sur des prestations de formations&amp;quot;Métiers territoires et Gestion Commerciale dans le logement social&amp;quot;",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "79632000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:702075-2026",
+   "source": "TED",
+   "source_id": "702075-2026",
+   "title": "Mise en œuvre d’expérimentation de parcours de formation à visée certifiante à destination des ressortissants des pays tiers",
+   "buyer": "IPERIA",
+   "published": "2026-10-12",
+   "deadline": "2026-11-10T18:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/702075-2026",
+   "procedure_id": "f09a0504-dc00-4fbd-8d29-f613ea0bfe61",
+   "description": "Le présent marché s’inscrit dans le cadre du projet PARC’DOM (« Professionnalisation, Accompagnement et Reconnaissance des Compétences vers les métiers du domicile »), financé au titre du FAMI. Il porte exclusivement sur la phase 2 du projet, relative à la mise en œuvre de parcours de formation à visée certifiante destinés aux ressortissants des pays tiers, à partir des outils de positionnement et de valorisation…",
+   "departments": [
+    "61"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Île-de-France : Mise en œuvre d’expérimentation de parcours de formation à visée certifiante à destination des ressortissants des pays tiers",
+    "Auvergne-Rhône-Alpes : Mise en œuvre d’expérimentation de parcours de formation à visée certifiante à destination des ressortissants des pays tiers",
+    "Nouvelle-Aquitaine : Mise en œuvre d’expérimentation de parcours de formation à visée certifiante à destination des ressortissants des pays tiers"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:702932-2026",
+   "source": "TED",
+   "source_id": "702932-2026",
+   "title": "Réalisation d'actions de formations certifiantes et diplômantes au titre du programme territorial de formation professionnelle 2026/2029 - PTFP 2026/2029 -Filière AGRICULTURE - lots 1 à 14",
+   "buyer": "COLLECTIVITE TERRITORIALE DE MARTINIQUE",
+   "published": "2026-10-12",
+   "deadline": "2026-11-06T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/702932-2026",
+   "procedure_id": "bebb8f4c-0597-4595-911c-97f9693bdaed",
+   "description": "Les stipulations du présent Cahier des clauses administratives particulières (CCAP) concernent : Réalisation d'actions de formations certifiantes et diplômantes au titre du programme territorial de formation professionnelle 2026/2029 - PTFP 2026/2029 -Filière AGRICULTURE - lots 1 à 14 Le marché a pour objet la conception, l'organisation et la réalisation d'actions de formation professionnelle certifiantes et…",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Brevet Professionnel Conducteur de Ligne de Production Alimentaire",
+    "Brevet professionnel Responsable de Productions Légumières, Fruitières, Florales et de Pépinière",
+    "Brevet Professionnel Responsable d'Entreprise Agricole - Zone Nord Atlantique",
+    "Brevet Professionnel Responsable d'Entreprise Agricole - zone Nord Caraïbes",
+    "Brevet Professionnel Responsable d'Entreprise Agricole - zone Sud",
+    "Brevet Professionnel Responsable d'Entreprise Agricole - zone Centre",
+    "Certificat de Spécialisation de Jardinier de Golf et Entretien de Sols Sportifs Engazonnés",
+    "Certificat de Spécialisation Production, transformation et commercialisation des produits fermiers",
+    "Certificat de spécialisation Conduite de production en Agriculture Biologique et Commercialisation",
+    "Certificat d'Aptitude Professionnelle Agricole - Opérateur en Industries - zone Nord Caraïbes Alimentaires",
+    "Certificat d'Aptitude Professionnelle Agricole Opérateur en Industries Alimentaires - zone Centre"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:703716-2026",
+   "source": "TED",
+   "source_id": "703716-2026",
+   "title": "Mise en oeuvre d'expérimentation de parcours de formation à visée certifiante à destination des ressortissants des pays tiers",
+   "buyer": "IPERIA",
+   "published": "2026-10-12",
+   "deadline": "2026-11-10T18:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/703716-2026",
+   "procedure_id": "16037d60-ef4f-4cae-8ac0-bee5a9bcca93",
+   "description": "Le présent marché s'inscrit dans le cadre du projet PARC'DOM (\" Professionnalisation, Accompagnement et Reconnaissance des Compétences vers les métiers du domicile \"), financé au titre du FAMI. Il porte exclusivement sur la phase 2 du projet, relative à la mise en oeuvre de parcours de professionnalisation à visée certifiante destinés aux ressortissants des pays tiers, à partir des outils de positionnement et de…",
+   "departments": [
+    "61"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 575640.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "ILE DE FRANCE",
+    "AUVERGNE RHÔNE ALPES",
+    "NOUVELLE AQUITAINE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:703778-2026",
+   "source": "TED",
+   "source_id": "703778-2026",
+   "title": "Formations réglementaires et de prévention des risques liés aux interventions en espaces confinés",
+   "buyer": "AEROPORTS DE PARIS",
+   "published": "2026-10-12",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/703778-2026",
+   "procedure_id": "84878e9d-1a40-4c51-8aeb-11dbfd57d30a",
+   "description": "La présente consultation a pour objet l'attribution d'un accord-cadre mono-attributaire relatif à des prestations de formations réglementaires et de prévention des risques liés aux interventions en espaces confinés.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000",
+    "80550000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:704114-2026",
+   "source": "TED",
+   "source_id": "704114-2026",
+   "title": "Formation travail en hauteur et permis d'échafauder",
+   "buyer": "REGION NORMANDIE",
+   "published": "2026-10-12",
+   "deadline": "2026-11-09T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/704114-2026",
+   "procedure_id": "cd369d3b-2569-4f3c-8578-f188a57d3740",
+   "description": "La formation travail en hauteur s'adresse à tous les agents de la collectivité ayant dans leur fonction un risque de chute en hauteur identifié. L'objectif de ses formations est d'informer les agents concernés sur les risques du travail en hauteur et sur un échafaudage ainsi que de leur donner la possibilité de prévenir ces risques par le biais de formations adaptés à leur besoin et environnement professionnel. Ces…",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 85000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Travail en hauteur sur les départements de la Seine Maritime et de l'Eure",
+    "Travail en hauteur sur les départements du Calvados de la Manche et de l'Orne",
+    "Permis d'échafauder sur les départements de la Seine Maritime et de l'Eure"
+   ],
+   "updated": ""
   }
  ]
 }
