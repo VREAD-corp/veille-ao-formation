@@ -133,7 +133,7 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
     page = (out / "alertes" / "index.html").read_text()
     items = jsonld_blocks(page)
     org = next(i for i in items if i.get("@type") == "Organization")
-    assert org["@id"] == "https://vread-corp.github.io/#org" and org["legalName"] == "READ FRANCE"
+    assert org["@id"] == "https://outils.vread.fr/#org" and org["legalName"] == "READ FRANCE"
     assert org["identifier"] == {"@type": "PropertyValue", "propertyID": "SIREN", "value": "988741773"}
     assert org["address"]["postalCode"] == "75019" and org["address"]["addressCountry"] == "FR"
     product = next(i for i in items if i.get("@type") == "Product")

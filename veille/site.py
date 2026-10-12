@@ -34,10 +34,10 @@ PUBLISHER = {
 }
 
 # schema.org publisher, shared by the home page and the /alertes/ Product (same @id everywhere).
-ORG_ID = "https://vread-corp.github.io/#org"
+ORG_ID = "https://outils.vread.fr/#org"
 ORGANIZATION = {
     "@type": "Organization", "@id": ORG_ID, "name": "READ FRANCE SAS", "legalName": "READ FRANCE",
-    "url": "https://vread-corp.github.io/",
+    "url": "https://outils.vread.fr/",
     "address": {"@type": "PostalAddress", "streetAddress": "11 rue Rouvet", "postalCode": "75019",
                 "addressLocality": "Paris", "addressCountry": "FR"},
     "identifier": {"@type": "PropertyValue", "propertyID": "SIREN", "value": "988741773"},

@@ -2,7 +2,7 @@
 
 Open French public tenders for **training services** (formation professionnelle), refreshed twice a day from free official open data, published as a static site with filters, RSS/Atom, JSON and weekly CSV/ICS exports.
 
-**Site:** https://vread-corp.github.io/veille-ao-formation/
+**Site:** https://outils.vread.fr/veille-ao-formation/
 
 A product of READ FRANCE SAS. No accounts, no cookies, no trackers, no LLM. Optional paid e-mail alerts (B2B, prepaid periods).
 
