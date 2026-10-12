@@ -89,6 +89,11 @@ def test_open_build_subscription_page(tmp_path, monkeypatch):
         assert (out / "checkout" / f).read_bytes() == (ROOT / "veille" / "checkout" / f).read_bytes()
     conf = (out / "checkout" / "checkout-config.js").read_text()
     assert '"orderPage": "commande.html"' in conf and '"termsUrl": "/veille-ao-formation/cgv-pro/"' in conf
+    # Static prices + terms version: pay.js mounts the Payment Element without waiting for the catalog.
+    assert '"offers": {"veille-ao-3m": {"amount": 4900}, "veille-ao-12m": {"amount": 14900}}' in conf
+    assert '"termsVersion": "cgv-pro-alertes-2026-10-12"' in conf and '"payLabel": "Payer {prix} et activer mes alertes"' in conf
+    assert 'id="pay-button" class="pay-button" disabled>Payer 149\u00a0€ et activer mes alertes</button>' in page
+    assert 'id="payment-loading"' in page and "Chargement du paiement sécurisé…" in page
     ret = (out / "alertes" / "commande.html").read_text()
     assert 'id="order-status"' in ret and "js.stripe.com" not in ret and '<meta name="robots" content="noindex">' in ret
     index = (out / "index.html").read_text()

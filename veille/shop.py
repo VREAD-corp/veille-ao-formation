@@ -63,6 +63,17 @@ def price_label(cents: int) -> str:
     return f"{eur(cents)} net ({VAT_NOTE})"
 
 
+# « Commander » button; {prix} = the price, same format as pay.js (« Payer 149 € et activer mes alertes »).
+PAY_LABEL = "Payer {prix} et activer mes alertes"
+DEFAULT_PLAN = "veille-ao-12m"
+
+
+def pay_button_text(cents: int) -> str:
+    whole = cents % 100 == 0
+    s = str(cents // 100) if whole else f"{cents / 100:.2f}".replace(".", ",")
+    return PAY_LABEL.replace("{prix}", s + "\u00a0€")
+
+
 def copy_assets(site) -> None:
     out = site.out / "checkout"
     out.mkdir(parents=True, exist_ok=True)
@@ -72,7 +83,13 @@ def copy_assets(site) -> None:
     cfg = {
         "endpoint": s.endpoint,
         "publishableKey": s.publishable_key,
-        "product": "veille-ao-12m",
+        "product": DEFAULT_PLAN,
+        # Static prices: pay.js mounts the Payment Element at once (display only; the Apps Script catalog
+        # stays the price authority and refuses a different expectedAmount).
+        "offers": {pid: {"amount": cents} for pid, cents in s.products.items()},
+        "currency": "eur",
+        "termsVersion": TERMS_VERSION,
+        "payLabel": PAY_LABEL,
         "termsUrl": site.link("cgv-pro/"),
         "orderPage": "commande.html",
         "laterText": "Si vous fermez cette page, votre abonnement est tout de même activé automatiquement "
@@ -195,9 +212,10 @@ def order_body(site, sample_subject: str, sample_desc: str) -> str:
 </fieldset>
 <label class="check"><input type="checkbox" name="terms" required>
 <span>Je commande au nom et pour le compte de l'entreprise ci-dessus, pour un usage professionnel, et j'accepte les <a id="terms-link" href="{site.link('cgv-pro/')}" target="_blank" rel="noopener">conditions générales de vente aux professionnels</a> (version du {TERMS_DATE}).</span></label>
+<p id="payment-loading" class="small muted" role="status">Chargement du paiement sécurisé…</p>
 <div id="payment-element"></div>
 <p id="pay-error" class="status err" role="alert" hidden></p>
-<button type="submit" id="pay-button" class="pay-button" disabled>Commander avec obligation de paiement</button>
+<button type="submit" id="pay-button" class="pay-button" disabled>{e(pay_button_text(p[DEFAULT_PLAN]))}</button>
 <p class="small muted">Paiement sécurisé par carte bancaire avec Stripe : vos données de carte sont saisies dans un cadre Stripe et ne transitent pas par nos serveurs.</p>
 <noscript><p class="status err">Le paiement nécessite JavaScript.</p></noscript>
 </form>
