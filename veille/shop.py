@@ -275,7 +275,7 @@ def cgv_pro_body(site) -> str:
 <h2>5. Prix</h2>
 <p>Les prix sont de <strong>{eur(p['veille-ao-3m'])} net pour 3 mois</strong> et de <strong>{eur(p['veille-ao-12m'])} net pour 12 mois</strong> (TVA non applicable, art. 293 B du CGI), payables en une fois à la commande. Le prix applicable est celui affiché sur la page de commande au moment de la validation.</p>
 <h2>6. Commande et paiement</h2>
-<p>L'Abonné choisit la durée et ses critères, renseigne son adresse électronique, la raison sociale et le SIREN de l'entreprise et son adresse de facturation, puis ses données de carte, et valide en cliquant sur « Commander avec obligation de paiement ». Le paiement s'effectue <strong>par carte bancaire, au comptant, via le prestataire de paiement Stripe</strong> (Stripe Payments Europe, Ltd.) ; le Vendeur n'a jamais accès aux données de carte. Le contrat est formé à la confirmation du paiement par Stripe.</p>
+<p>L'Abonné choisit la durée et ses critères, renseigne son adresse électronique, la raison sociale et le SIREN de l'entreprise et son adresse de facturation, puis ses données de carte, et valide en cliquant sur le bouton de paiement (par exemple « {e(pay_button_text(p[DEFAULT_PLAN]))} »). Le paiement s'effectue <strong>par carte bancaire, au comptant, via le prestataire de paiement Stripe</strong> (Stripe Payments Europe, Ltd.) ; le Vendeur n'a jamais accès aux données de carte. Le contrat est formé à la confirmation du paiement par Stripe.</p>
 <h2>7. Critères</h2>
 <p>L'Abonné peut demander la modification de ses critères en répondant à l'un des e-mails du Service ; la modification est faite dans un délai de 2 jours ouvrés.</p>
 <h2>8. Arrêt des alertes</h2>

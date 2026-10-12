@@ -174,15 +174,34 @@ def sample_caption(s: Sample, now: datetime) -> str:
             f"environ {s.weekly} par semaine ces {VOLUME_DAYS} derniers jours.")
 
 
+# Founders (facts from vread.fr/presse and Vincent Cance's CV; same block on every outils.vread.fr site).
+FOUNDERS = [
+    ("Tanguy Warsmann", "tanguy-warsmann.webp", "Fondateur &amp; CEO",
+     "Formé aux lettres à la Sorbonne puis à emlyon business school, il a travaillé chez Cartier, puis chez AR/Factory, "
+     "où il a piloté la stratégie de contenus shopping de médias comme Ouest-France, 20 Minutes et Le Figaro."),
+    ("Vincent Cance", "vincent-cance.webp", "Cofondateur &amp; CTO",
+     "Développeur full stack web et mobile, il a été cofondateur et CTO de Genipatient, un logiciel de gestion de cabinet "
+     "pour ostéopathes."),
+]
+
+
 def about(site) -> str:
+    founders = "\n".join(
+        f"""<li class="founder">
+<img class="founder-photo" src="{site.link('static/img/' + photo)}" width="112" height="112" alt="Portrait de {name}" loading="lazy" decoding="async">
+<div><h3 class="founder-name">{name}</h3><p class="founder-role">{role}</p></div>
+<p class="founder-bio">{bio}</p>
+</li>""" for name, photo, role, bio in FOUNDERS)
     return f"""<section class="about" id="qui-sommes-nous" aria-labelledby="about-h">
-<!-- TODO founder photo/name -->
-<div class="about-mark" aria-hidden="true">RF</div>
-<div>
-<h2 id="about-h">Qui sommes-nous</h2>
+<div class="about-intro">
+<p class="eyebrow">Qui sommes-nous</p>
+<h2 id="about-h">READ FRANCE SAS, Paris</h2>
 <p><strong>READ FRANCE SAS</strong>, Paris (SIREN 988 741 773). Nous éditons des kits et des services pour les organismes de formation, les vendeurs en ligne et les PME ; Veille AO Formation en fait partie.</p>
-<p>Une question avant de vous abonner, une suggestion ? Écrivez-nous : <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
 </div>
+<ul class="founders" aria-label="Fondateurs">
+{founders}
+</ul>
+<p class="about-foot">Une question avant de vous abonner, une suggestion ? Écrivez-nous : <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
 </section>"""
 
 
