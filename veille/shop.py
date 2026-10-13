@@ -129,8 +129,20 @@ def product_jsonld(site, organization: dict) -> list[dict]:
     Organization (referenced by @id, not repeated)."""
     p = site.sales.products
     url = site.url + "alertes/"
+    # E-mail service starting on payment (first alert the next morning), French businesses only; B2B sale without
+    # withdrawal right (CGV art. 10): free "shipping" to FR, returns not permitted.
+    shipping = {"@type": "OfferShippingDetails",
+                "shippingRate": {"@type": "MonetaryAmount", "value": "0", "currency": "EUR"},
+                "shippingDestination": {"@type": "DefinedRegion", "addressCountry": "FR"},
+                "deliveryTime": {"@type": "ShippingDeliveryTime",
+                                 "handlingTime": {"@type": "QuantitativeValue", "minValue": 0, "maxValue": 1, "unitCode": "DAY"},
+                                 "transitTime": {"@type": "QuantitativeValue", "minValue": 0, "maxValue": 0, "unitCode": "DAY"}}}
+    returns = {"@type": "MerchantReturnPolicy", "applicableCountry": "FR",
+               "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
+               "merchantReturnLink": site.url + "cgv-pro/"}
     offers = [{"@type": "Offer", "name": f"{months} mois", "price": schema_price(p[pid]), "priceCurrency": "EUR",
-               "availability": "https://schema.org/InStock", "url": url, "seller": {"@id": organization["@id"]}}
+               "availability": "https://schema.org/InStock", "url": url, "seller": {"@id": organization["@id"]},
+               "shippingDetails": shipping, "hasMerchantReturnPolicy": returns}
               for pid, months in (("veille-ao-3m", 3), ("veille-ao-12m", 12))]
     return [
         {"@context": "https://schema.org", "@type": "Product", "name": PRODUCT_NAME,

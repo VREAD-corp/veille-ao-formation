@@ -162,6 +162,10 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
         assert o["@type"] == "Offer" and o["priceCurrency"] == "EUR"
         assert o["availability"] == "https://schema.org/InStock" and o["url"] == SITE + "alertes/"
         assert o["seller"] == {"@id": org["@id"]} and "valueAddedTaxIncluded" not in o
+        assert o["shippingDetails"]["shippingRate"]["value"] == "0"
+        assert o["shippingDetails"]["shippingDestination"]["addressCountry"] == "FR"
+        assert o["hasMerchantReturnPolicy"]["returnPolicyCategory"] == "https://schema.org/MerchantReturnNotPermitted"
+        assert o["hasMerchantReturnPolicy"]["merchantReturnLink"] == SITE + "cgv-pro/"
     # SEO head: literal apostrophes, net prices with the VAT franchise note, sane lengths
     import html as htmlmod, re
     title = htmlmod.unescape(re.search(r"<title>(.*?)</title>", page).group(1))
