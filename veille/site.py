@@ -28,6 +28,13 @@ BRAND = "Veille AO Formation"
 STATIC = Path(__file__).resolve().parent.parent / "static"
 # Anonymous, cookieless audience measurement (verbatim copy of octave-checkout gas/web/mesure.js).
 MESURE = Path(__file__).resolve().parent / "mesure.js"
+# Aggregate behaviour counters and A/B framework (verbatim copy of octave-checkout gas/web/cro.js), same backend.
+CRO = Path(__file__).resolve().parent / "cro.js"
+CRO_SITE = "veille-ao-formation"
+CRO_API = "https://script.google.com/macros/s/AKfycbzD1IRL8QALluKGZxgGiORFP6-DkC_qFJYR9aOxZiimxa06nbCqpzUI-9iLblp6V2VY/exec"
+CRO_HOSTS = "outils.vread.fr"
+# Time to first CTA = first click on a paid-alerts call to action (links to /alertes/ or #commander-h, pay button).
+CRO_CTA = "[data-cta]"
 
 PUBLISHER = {
     "name": "READ FRANCE SAS",
@@ -106,6 +113,12 @@ class Site:
     def link(self, path: str = "") -> str:
         return self.base + path
 
+    def cro_tag(self) -> str:
+        """cro.js (classic deferred script; no A/B experiment on this site, so no OCTAVE_XP), then the goals."""
+        return (f'<script src="{self.link("cro.js")}" data-site="{CRO_SITE}" data-api="{CRO_API}" '
+                f'data-hosts="{CRO_HOSTS}" data-cta="{CRO_CTA}" defer></script>\n'
+                f'<script src="{self.link("static/cro-goals.js")}" defer></script>')
+
     def write(self, path: str, html: str, *, sitemap: bool = True, lastmod: str | None = None) -> None:
         target = self.out / path
         if path == "" or path.endswith("/"):
@@ -161,6 +174,7 @@ class Site:
 <link rel="alternate" type="application/rss+xml" title="Appels d'offres formation (RSS)" href="{self.link('rss.xml')}">
 <link rel="stylesheet" href="{self.link('static/style.css')}">
 <script src="{self.link('mesure.js')}" defer></script>
+{self.cro_tag()}
 {ld}
 </head>
 <body{' class="has-sticky"' if sticky_html else ''}>
@@ -169,7 +183,7 @@ class Site:
 <div class="wrap top-in">
 <a class="brand" href="{self.link()}"><span class="brand-mark" aria-hidden="true">AO</span>{BRAND}</a>
 <nav class="nav-main" aria-label="Navigation principale">{nav_html}</nav>
-<a class="btn btn-sm nav-cta" href="{self.link('alertes/')}"{alerts_current}>Alertes e-mail</a>
+<a class="btn btn-sm nav-cta" href="{self.link('alertes/')}"{alerts_current} data-cta>Alertes e-mail</a>
 <details class="nav-menu"><summary>Menu</summary><nav aria-label="Navigation principale (mobile)">{nav_html}<a href="{self.link('alertes/')}"{alerts_current}>Alertes e-mail</a></nav></details>
 </div>
 </header>
@@ -256,6 +270,7 @@ class Site:
         self.out.mkdir(parents=True)
         shutil.copytree(STATIC, self.out / "static")
         shutil.copyfile(MESURE, self.out / "mesure.js")
+        shutil.copyfile(CRO, self.out / "cro.js")
 
         self.tenders = tenders
         open_items = sorted((t for t in tenders if t.is_open(self.now)), key=lambda t: (t.deadline or "", t.id))
@@ -484,7 +499,7 @@ class Site:
                    lastmod=self.content_date(self.tenders))
 
     def soon_panel(self) -> str:
-        return f"""<section class="panel soon" aria-labelledby="alertes-titre">
+        return f"""<section class="panel soon" id="offre" aria-labelledby="alertes-titre">
 <h2 id="alertes-titre">Bientôt : alertes e-mail personnalisées</h2>
 <p>Un e-mail par jour ou par semaine avec uniquement les appels d'offres de vos régions et de vos thèmes, à <strong>19&nbsp;€ net par mois</strong> (TVA non applicable, art. 293 B du CGI). <strong>Pas encore disponible</strong> : aucune inscription ni aucun paiement n'est ouvert aujourd'hui. <a href="{self.link('alertes/')}">Voir ce qui est prévu et un exemple d'e-mail</a>.</p>
 </section>"""
@@ -493,7 +508,7 @@ class Site:
         profile, since, picked = self.sample.profile, self.sample.since, self.sample.items
         subject, _text, html = render(picked, profile, self.now, self.url, since=since)
         (self.out / "alertes").mkdir(parents=True, exist_ok=True)
-        html = html.replace("</body>", f'<script src="{self.link("mesure.js")}" defer></script></body>', 1)
+        html = html.replace("</body>", f'<script src="{self.link("mesure.js")}" defer></script>\n{self.cro_tag()}</body>', 1)
         # Sample e-mail: linked from /alertes/ for buyers, but not a page to index.
         html = html.replace('<meta charset="utf-8">', '<meta charset="utf-8"><meta name="robots" content="noindex">', 1)
         (self.out / "alertes" / "exemple-email.html").write_text(html, encoding="utf-8")
@@ -605,20 +620,29 @@ class Site:
                                                   "Éditeur, hébergeur et sources de Veille AO Formation.", mentions))
         privacy = f"""
 <h1>Confidentialité</h1>
-<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure d'audience anonyme est effectuée (voir ci-dessous). Aucun bandeau cookies n'est donc nécessaire.</p>
+<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure anonyme et agrégée de la fréquentation et de l'usage du site est effectuée (voir ci-dessous). Aucun bandeau cookies n'est donc nécessaire.</p>
 <ul>
 <li><strong>Hébergement</strong> : GitHub Pages traite des journaux techniques (adresse IP notamment) pour servir le site et le sécuriser, selon la <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité de GitHub</a>.</li>
 <li><strong>Téléchargements</strong> : les exports CSV/ICS sont servis par GitHub Releases, qui ne nous communique qu'un nombre total de téléchargements, sans aucune information sur les personnes.</li>
 <li><strong>Annonces</strong> : nous ne reprenons pas les noms ni les coordonnées des personnes de contact figurant dans les avis publics ; seul le nom de l'acheteur public est affiché.</li>
 {'' if self.sales.open else "<li><strong>Ticket GitHub</strong> : si vous réagissez au ticket public d'intérêt, votre pseudonyme GitHub est visible publiquement, selon les règles de GitHub.</li>"}
 </ul>
-<p><strong>Mesure d'audience.</strong> Nous comptons la fréquentation de ce site de façon anonyme : pages vues, clics vers la page de commande et étapes de la commande, totalisés par jour, avec le domaine du site d'origine et les paramètres de campagne (utm) éventuels. Cette mesure ne dépose aucun cookie, n'utilise aucun identifiant et n'enregistre ni adresse IP ni donnée personnelle ; seuls ces totaux journaliers sont conservés, dans un tableur de READ FRANCE hébergé par Google. Elle respecte le réglage « Do Not Track » de votre navigateur. Les robots d'indexation et les navigateurs automatisés (reconnus dans votre navigateur, sans que sa signature soit transmise) sont comptés à part, et une page préchargée n'est comptée que si vous l'ouvrez. Strictement limitée à la mesure d'audience, anonyme et non recoupée avec d'autres données, elle remplit les critères d'exemption de consentement de la CNIL.</p>
+<h2>Mesure d'audience et de comportement (mise à jour du 13 octobre 2026)</h2>
+<p>Nous mesurons la fréquentation et l'usage de ce site de façon anonyme et agrégée, pour ses seules statistiques et pour l'améliorer. Seuls des totaux journaliers sont conservés, dans un tableur de READ FRANCE hébergé par Google :</p>
+<ul>
+<li><strong>Audience</strong> : pages vues, clics vers la page de commande et étapes de la commande, avec le domaine du site d'origine et les paramètres de campagne (utm) éventuels.</li>
+<li><strong>Comportement</strong> : profondeur de défilement de la page, sections atteintes, temps écoulé avant le premier clic sur un bouton, formulaires commencés et envoyés et le <em>nom</em> du dernier champ touché (jamais son contenu : rien de ce que vous saisissez n'est lu), questions de la FAQ ouvertes, liens sortants (seulement le domaine visé), erreurs techniques (une empreinte anonyme du message), vitesse d'affichage (Core Web Vitals) et clics répétés au même endroit.</li>
+<li><strong>Tests A/B</strong> : une partie des visiteurs peut voir une autre version d'un titre, d'un bouton ou d'un prix. La lettre de la version est gardée dans le stockage de session de l'onglet (sessionStorage, effacé à la fermeture de l'onglet) ou choisie selon la date (sans rien stocker), et n'est jamais rattachée à une personne. Le prix payé est toujours celui affiché. Aucun test n'est en cours aujourd'hui.</li>
+<li><strong>Ce que nous ne faisons pas</strong> : aucun cookie, aucun identifiant, aucune adresse IP conservée, aucune donnée personnelle, aucun suivi d'un site à l'autre, aucun recoupement avec d'autres données ; rien n'est partagé ni vendu.</li>
+<li><strong>Pour refuser</strong> : activez « Do Not Track » ou « Global Privacy Control » dans votre navigateur ; plus rien n'est alors mesuré. Les robots d'indexation et les navigateurs automatisés (reconnus dans votre navigateur, sans que sa signature soit transmise) sont comptés à part ou pas du tout, et une page préchargée n'est comptée que si vous l'ouvrez.</li>
+</ul>
+<p>Strictement agrégée, limitée aux statistiques propres de ce site, sans suivi d'un site à l'autre, sans recoupement avec d'autres traitements et sans transmission à des tiers, cette mesure relève de l'exemption de consentement prévue pour la mesure d'audience (article 82 de la loi Informatique et Libertés, lignes directrices et recommandation de la CNIL du 17 septembre 2020 sur les cookies et autres traceurs) : aucun bandeau de consentement n'est donc nécessaire.</p>
 <p>Contact : <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a>.</p>
 """
         if self.sales.open:
             privacy = privacy.replace(
-                "<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure d'audience anonyme est effectuée (voir ci-dessous). Aucun bandeau cookies n'est donc nécessaire.</p>",
-                "<p>La consultation du site ne collecte aucune donnée personnelle : pas de compte, pas de cookie ni de traceur tiers ; la fréquentation est seulement mesurée de façon anonyme (voir ci-dessous). Une seule exception : le formulaire d'abonnement aux alertes e-mail, qui charge le module de paiement de Stripe et ses cookies quand vous commencez à le remplir, et qui traite les données de la commande (voir plus bas).</p>")
+                "<p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure anonyme et agrégée de la fréquentation et de l'usage du site est effectuée (voir ci-dessous). Aucun bandeau cookies n'est donc nécessaire.</p>",
+                "<p>La consultation du site ne collecte aucune donnée personnelle : pas de compte, pas de cookie ni de traceur tiers ; la fréquentation et l'usage du site sont seulement mesurés de façon anonyme et agrégée (voir ci-dessous). Une seule exception : le formulaire d'abonnement aux alertes e-mail, qui charge le module de paiement de Stripe et ses cookies quand vous commencez à le remplir, et qui traite les données de la commande (voir plus bas).</p>")
             privacy = privacy.replace('<p>Contact : <a href="mailto:', shop.privacy_section(self) + '\n<p>Contact : <a href="mailto:')
         self.write("confidentialite/", self.page("confidentialite/", "Confidentialité – Veille AO Formation",
                                                  "Aucun cookie ni traceur à la consultation ; cookies de Stripe et données traitées seulement pour l'abonnement aux alertes."

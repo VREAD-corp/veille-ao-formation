@@ -26,6 +26,8 @@ MAPA_FAMILY = "Marchés <90 k€ (MAPA)"
 # Sample e-mail: two regions, the shortest recent window giving at least SAMPLE_MIN notices.
 SAMPLE_PAIRS = (("Auvergne-Rhône-Alpes", "Bretagne"), ("Île-de-France", "Normandie"), ("Île-de-France", "Hauts-de-France"))
 SAMPLE_MIN, SAMPLE_MAX = 10, 15
+# Stable ids of the /alertes/ FAQ items, in question order (cro.js counts which ones are opened).
+FAQ_IDS = ("boamp-gratuit", "volume", "criteres", "mapa", "facture-tva", "fin-periode")
 
 
 def e(text: object) -> str:
@@ -227,13 +229,13 @@ def free_formats(site, release_csv: str, release_ics: str) -> str:
 def home_hero(site, n: int, s: Sample, release_csv: str, release_ics: str, sources_note: str) -> str:
     p = site.sales.products
     if site.sales.open:
-        cta = (f'<a class="btn btn-lg" href="{site.link("alertes/")}">Recevoir les AO formation de ma région chaque matin →</a>'
+        cta = (f'<a class="btn btn-lg" href="{site.link("alertes/")}" data-cta>Recevoir les AO formation de ma région chaque matin →</a>'
                f'<p class="price-note">Alertes e-mail : {e(price(p["veille-ao-3m"]))} pour 3 mois ou '
                f'{e(price(p["veille-ao-12m"]))} pour 12 mois, payés une fois, sans renouvellement automatique. '
                f'{VAT_LINE}.</p>')
     else:
         cta = f'<a class="btn btn-lg" href="{site.link("rss.xml")}" data-mesure="free_download">Suivre les nouvelles annonces (flux RSS)</a>'
-    return f"""<section class="hero hero-split">
+    return f"""<section class="hero hero-split" id="hero">
 <div class="hero-copy">
 <p class="eyebrow">Marchés publics · formation professionnelle</p>
 <h1>Appels d'offres formation ouverts</h1>
@@ -253,7 +255,7 @@ def inline_cta_template(site) -> str:
     return f"""<template id="cta-tpl"><aside class="inline-cta" aria-label="Alertes e-mail">
 <div><p class="ic-title">Recevez chaque matin les nouveaux appels d'offres de votre région</p>
 <p class="ic-text">Choisissez vos régions et vos mots-clés : un e-mail par matin, dès {e(price(p['veille-ao-3m']))} pour 3 mois, sans renouvellement automatique.</p></div>
-<a class="btn" href="{site.link('alertes/')}">Recevoir les AO formation de ma région chaque matin →</a>
+<a class="btn" href="{site.link('alertes/')}" data-cta>Recevoir les AO formation de ma région chaque matin →</a>
 </aside></template>"""
 
 
@@ -261,10 +263,10 @@ def home_bottom(site) -> str:
     if not site.sales.open:
         return about(site)
     p = site.sales.products
-    return f"""<section class="band" aria-labelledby="band-h">
+    return f"""<section class="band" id="offre" aria-labelledby="band-h">
 <div><h2 id="band-h">Les nouveaux avis de vos régions par e-mail, vers 7&nbsp;h</h2>
 <p>Seulement les avis de vos régions et de vos mots-clés, avec la date limite et le lien vers l'avis officiel. {e(price(p['veille-ao-12m']))} pour 12 mois (soit {e(per_month(p['veille-ao-12m'], 12))} par mois) ou {e(price(p['veille-ao-3m']))} pour 3 mois, payés une fois.</p></div>
-<a class="btn btn-lg btn-light" href="{site.link('alertes/')}">Voir un exemple d'e-mail et les prix →</a>
+<a class="btn btn-lg btn-light" href="{site.link('alertes/')}" data-cta>Voir un exemple d'e-mail et les prix →</a>
 </section>
 {about(site)}"""
 
@@ -292,13 +294,13 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
                     for r in sorted(REGIONS, key=vol.for_region, reverse=True))
     return f"""
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="{site.link()}">Accueil</a> › Alertes e-mail</nav>
-<section class="hero hero-split">
+<section class="hero hero-split" id="hero">
 <div class="hero-copy">
 <p class="eyebrow">Alertes e-mail · BOAMP + TED</p>
 <h1>Les appels d'offres formation de votre région, chaque matin dans votre boîte</h1>
 <p class="lead">Chaque matin vers 7&nbsp;h, les avis BOAMP et TED publiés depuis la veille pour vos régions et vos mots-clés. {e(price(y))} pour 12 mois, soit {e(per_month(y, 12))} par mois, payé une fois, sans renouvellement automatique.</p>
 <div class="cta-block">
-<a class="btn btn-lg" href="#commander-h">Recevoir mes alertes – {e(price(y))} pour 12 mois</a>
+<a class="btn btn-lg" href="#commander-h" data-cta>Recevoir mes alertes – {e(price(y))} pour 12 mois</a>
 <p class="price-note">ou {e(price(q))} pour 3 mois · réservé aux professionnels · paiement par carte, facture PDF</p>
 </div>
 <p class="hero-links"><a href="{site.link()}">Ou consulter gratuitement la liste des annonces →</a></p>
@@ -306,7 +308,7 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 <div class="hero-visual">{mail_mock(s, site.now, compact=True)}<p class="visual-cap">Un exemple avec de vrais avis récents</p></div>
 </section>
 
-<section class="section" aria-labelledby="diff-h">
+<section class="section" id="difference" aria-labelledby="diff-h">
 <h2 id="diff-h">Ce que l'e-mail ajoute à la liste gratuite</h2>
 <div class="compare">
 <div class="compare-col">
@@ -332,7 +334,7 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 </div>
 </section>
 
-<section class="section" aria-labelledby="recu-h">
+<section class="section" id="exemple" aria-labelledby="recu-h">
 <h2 id="recu-h">Ce que vous recevez</h2>
 <div class="get-grid">
 <div>{mail_mock(s, site.now, compact=False)}
@@ -347,7 +349,7 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 </div>
 </section>
 
-<section class="section" aria-labelledby="pour-h">
+<section class="section" id="pour-qui" aria-labelledby="pour-h">
 <h2 id="pour-h">Pour qui</h2>
 <div class="who">
 <div class="who-card"><p class="who-title">Organismes de formation</p><p>Cochez les régions où vous intervenez et laissez les mots-clés vides : vous recevez tous les avis de formation de ces régions. En {e(hi)}, la région la plus active, cela faisait {vol.for_region(hi)} avis en {VOLUME_DAYS} jours, avis nationaux compris.</p></div>
@@ -356,11 +358,11 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 </div>
 </section>
 
-<section class="section offer" aria-labelledby="offre-h">
+<section class="section offer" id="prix" aria-labelledby="offre-h">
 <h2 id="offre-h">Une seule offre, deux durées</h2>
 <div class="plans">
-<div class="plan-card best"><p class="plan-tag">Pour une année complète de veille</p><p class="plan-name">12 mois</p><p class="plan-price">{e(price(y))}</p><p class="plan-sub">soit {e(per_month(y, 12))} par mois, payé une fois</p><a class="btn" href="#commander-h">Choisir 12 mois</a></div>
-<div class="plan-card"><p class="plan-tag">Pour essayer sur un trimestre</p><p class="plan-name">3 mois</p><p class="plan-price">{e(price(q))}</p><p class="plan-sub">soit {e(per_month(q, 3))} par mois, payé une fois</p><a class="btn btn-ghost" href="#commander-h">Choisir 3 mois</a></div>
+<div class="plan-card best"><p class="plan-tag">Pour une année complète de veille</p><p class="plan-name">12 mois</p><p class="plan-price">{e(price(y))}</p><p class="plan-sub">soit {e(per_month(y, 12))} par mois, payé une fois</p><a class="btn" href="#commander-h" data-cta>Choisir 12 mois</a></div>
+<div class="plan-card"><p class="plan-tag">Pour essayer sur un trimestre</p><p class="plan-name">3 mois</p><p class="plan-price">{e(price(q))}</p><p class="plan-sub">soit {e(per_month(q, 3))} par mois, payé une fois</p><a class="btn btn-ghost" href="#commander-h" data-cta>Choisir 3 mois</a></div>
 </div>
 <ul class="checks inline">
 <li>Autant de régions que vous voulez, jusqu'à 10 mots-clés</li>
@@ -406,8 +408,9 @@ def faq(site, vol: Volume) -> str:
         ("Que se passe-t-il à la fin de la période ?",
          """<p>Rien n'est prélevé. Vous recevez un rappel environ 7 jours avant la fin, puis les alertes s'arrêtent. Pour continuer, vous commandez une nouvelle période ; commandée avant la fin, elle démarre le lendemain de la période en cours.</p>"""),
     ]
-    items = "\n".join(f"<details class=\"faq-item\"><summary>{q}</summary>{a}</details>" for q, a in qa)
-    return f"""<section class="section faq" aria-labelledby="faq-h">
+    items = "\n".join(f"<details class=\"faq-item\" id=\"faq-{fid}\"><summary>{q}</summary>{a}</details>"
+                      for fid, (q, a) in zip(FAQ_IDS, qa, strict=True))
+    return f"""<section class="section faq" id="faq" aria-labelledby="faq-h">
 <h2 id="faq-h">Questions fréquentes</h2>
 {items}
 <p class="small muted">Les règles complètes sont dans les <a href="{site.link('cgv-pro/')}">conditions générales de vente</a>. Une autre question : <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
@@ -419,7 +422,7 @@ def alerts_bottom(site, vol: Volume) -> str:
 {faq(site, vol)}
 <p class="cross-link">Beaucoup d’acheteurs publics exigent la certification Qualiopi. Le nouveau référentiel s’applique au 1er novembre 2026 : <a href="https://outils.vread.fr/kit-qualiopi-v10/">modèles et check-list du Kit Qualiopi V10</a>.</p>
 {about(site)}
-<section class="section legal-note" aria-labelledby="limites-h">
+<section class="section legal-note" id="limites" aria-labelledby="limites-h">
 <h2 id="limites-h">Sources et limites</h2>
 <p>Sélection automatique d'avis publiés au BOAMP (DILA) et dans TED (Office des publications de l'Union européenne), sans intelligence artificielle. Elle n'est pas exhaustive et repose sur les codes choisis par les acheteurs : vérifiez toujours l'avis officiel et le dossier de consultation. <a href="{site.link('methode/')}">Méthode et sources</a>.</p>
 <p class="small muted">Produit indépendant de READ FRANCE SAS, ni affilié ni approuvé par la DILA ou l'Office des publications de l'UE.</p>
@@ -441,4 +444,4 @@ def wrap_order(order_html: str, top: str, bottom: str) -> str:
 def sticky_bar(site, href: str) -> str:
     p = site.sales.products
     return (f'<div class="sticky-cta" id="sticky-cta"><span>Alertes e-mail <strong>dès {e(price(p["veille-ao-3m"]))}</strong></span>'
-            f'<a class="btn" href="{href}">Commander →</a></div>')
+            f'<a class="btn" href="{href}" data-cta>Commander →</a></div>')

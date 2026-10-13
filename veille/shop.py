@@ -105,7 +105,7 @@ def copy_assets(site) -> None:
 
 def index_panel(site) -> str:
     p = site.sales.products
-    return f"""<section class="panel" aria-labelledby="alertes-titre">
+    return f"""<section class="panel" id="offre" aria-labelledby="alertes-titre">
 <h2 id="alertes-titre">Alertes e-mail personnalisées</h2>
 <p>Chaque matin, uniquement les nouveaux appels d'offres de vos régions et de vos thèmes. Période prépayée de <strong>3 mois ({e(eur(p['veille-ao-3m']))} net)</strong> ou <strong>12 mois ({e(eur(p['veille-ao-12m']))} net)</strong>, sans renouvellement automatique ({VAT_NOTE}). Réservé aux professionnels. <a href="{site.link('alertes/')}">Choisir mes critères et m'abonner</a>.</p>
 </section>"""
@@ -113,7 +113,7 @@ def index_panel(site) -> str:
 
 def hero_cta(site) -> str:
     """Home page, top: the paid alerts button with the entry price."""
-    return (f'<a class="btn" href="{site.link("alertes/")}">Alertes e-mail : '
+    return (f'<a class="btn" href="{site.link("alertes/")}" data-cta>Alertes e-mail : '
             f'{e(eur_short(site.sales.products["veille-ao-3m"]))} net / 3 mois</a>')
 
 
@@ -255,7 +255,7 @@ def order_body(site, sample_subject: str, sample_desc: str) -> str:
 </ul>
 <p><a class="btn ghost" href="{site.link('alertes/exemple-email.html')}" data-mesure="free_download">Voir un e-mail d'exemple</a> <span class="muted">({e(sample_desc)} : {e(sample_subject)})</span></p>
 
-<section class="checkout" aria-labelledby="commander-h">
+<section class="checkout" id="commander" aria-labelledby="commander-h">
 <h2 id="commander-h">S'abonner</h2>
 <p>Vente réservée aux professionnels (entreprises immatriculées en France, SIREN obligatoire). L'e-mail de bienvenue et la facture acquittée sont envoyés dès le paiement confirmé.</p>
 <form id="octave-pay" class="checkout-form card" novalidate>
@@ -287,7 +287,7 @@ def order_body(site, sample_subject: str, sample_desc: str) -> str:
 <p id="payment-loading" class="small muted" role="status">Chargement du paiement sécurisé…</p>
 <div id="payment-element"></div>
 <p id="pay-error" class="status err" role="alert" hidden></p>
-<button type="submit" id="pay-button" class="pay-button" disabled>{e(pay_button_text(p[DEFAULT_PLAN]))}</button>
+<button type="submit" id="pay-button" class="pay-button" data-cta disabled>{e(pay_button_text(p[DEFAULT_PLAN]))}</button>
 <p class="small muted">Paiement sécurisé par carte bancaire avec Stripe : vos données de carte sont saisies dans un cadre Stripe et ne transitent pas par nos serveurs.</p>
 <noscript><p class="status err">Le paiement nécessite JavaScript.</p></noscript>
 </form>{devis_box(site)}

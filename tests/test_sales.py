@@ -1,6 +1,7 @@
 """Sales gate of the paid alerts (sales.config.json SALES_OPEN) and the subscription page."""
 
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -14,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 FIX = Path(__file__).parent / "fixtures"
 NOW = datetime(2026, 10, 11, 10, 0, tzinfo=timezone.utc)
 SITE = "https://example.org/veille-ao-formation/"
+CRO_TAG = re.compile(r'<script src="[^"]*/cro\.js" [^>]*></script>')
 BUY_MARKERS = ["js.stripe.com", "checkout-config", "octave-pay", "pk_live_", "pk_test_", "script.google.com", "commande.html"]
 
 
@@ -58,8 +60,9 @@ def test_closed_build_has_no_buy_ui(tmp_path):
     out = build(tmp_path, sales.load(cfg(tmp_path, SALES_OPEN=False)))
     assert not (out / "checkout").exists() and not (out / "cgv-pro").exists() and not (out / "alertes" / "commande.html").exists()
     for f in out.rglob("*"):
-        if f.suffix in (".html", ".js", ".xml", ".txt", ".json") and f.is_file() and f.name != "mesure.js":  # audience, not buy UI
-            body = f.read_text(encoding="utf-8")
+        # audience / behaviour counters (mesure.js, cro.js and its goals script), not buy UI
+        if f.suffix in (".html", ".js", ".xml", ".txt", ".json") and f.is_file() and f.name not in ("mesure.js", "cro.js", "cro-goals.js"):
+            body = CRO_TAG.sub("", f.read_text(encoding="utf-8"))
             for m in BUY_MARKERS:
                 assert m not in body, f"{f}: {m}"
     assert "pas encore disponible" in (out / "alertes" / "index.html").read_text().lower()
@@ -95,7 +98,7 @@ def test_open_build_subscription_page(tmp_path, monkeypatch):
     # Static prices + terms version: pay.js mounts the Payment Element without waiting for the catalog.
     assert '"offers": {"veille-ao-3m": {"amount": 4900}, "veille-ao-12m": {"amount": 14900}}' in conf
     assert '"termsVersion": "cgv-pro-alertes-2026-10-12"' in conf and '"payLabel": "Payer {prix} et activer mes alertes"' in conf
-    assert 'id="pay-button" class="pay-button" disabled>Payer 149\u00a0€ et activer mes alertes</button>' in page
+    assert 'id="pay-button" class="pay-button" data-cta disabled>Payer 149\u00a0€ et activer mes alertes</button>' in page
     assert 'id="payment-loading"' in page and "Chargement du paiement sécurisé…" in page
     ret = (out / "alertes" / "commande.html").read_text()
     assert 'id="order-status"' in ret and "js.stripe.com" not in ret and '<meta name="robots" content="noindex">' in ret
@@ -182,7 +185,7 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
     assert next(i for i in home if i["@type"] == "Dataset")["creator"] == ref
     assert "&nbsp;" not in json.dumps(home + items, ensure_ascii=False)  # typography fix stays out of JSON-LD
     hero = index.split('<section aria-labelledby="filtres-titre"')[0]
-    assert 'href="/veille-ao-formation/alertes/">Recevoir les AO formation de ma région chaque matin →</a>' in hero
+    assert 'href="/veille-ao-formation/alertes/" data-cta>Recevoir les AO formation de ma région chaque matin →</a>' in hero
     assert "49\u00a0€ pour 3 mois" in hero
     assert "TVA non applicable, art. 293 B du CGI" in hero
 
