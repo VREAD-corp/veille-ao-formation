@@ -27264,6 +27264,109 @@
     "Permis d'échafauder sur les départements de la Seine Maritime et de l'Eure"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-99177",
+   "source": "BOAMP",
+   "source_id": "26-99177",
+   "title": "Système d'acquisition dynamique pour l'animation pédagogique et technique de formations continues courtes métiers pour les clients de la CMA Normandie",
+   "buyer": "CMAR Normandie",
+   "published": "2026-10-13",
+   "deadline": "2026-11-16T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99177",
+   "procedure_id": null,
+   "description": "Catégorie de formation métiers : Esthétique massage visage et corps, Esthétique onglerie, Esthétique maquillage et regard, règlementaire coiffure, Coiffure, Fleuriste, Boulangerie, Pâtisserie, Photographie, Couture, Permis exploitation.",
+   "departments": [
+    "14",
+    "27",
+    "50",
+    "61",
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000",
+    "98330000",
+    "98321000",
+    "98322140",
+    "03121200",
+    "15612500",
+    "15812100",
+    "79961000",
+    "98393000",
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 132000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "C1 : Formation métiers en esthétique massage visage et corps",
+    "C2 : Formation métiers en esthétique onglerie",
+    "C3 : Formation en esthétique maquillage et regard",
+    "C4 : Formation règlementation coiffure et esthétique, posture de travail",
+    "C5 : Formation coiffure",
+    "C6 : Formation Fleuriste",
+    "C7 : Formation boulangerie",
+    "C8 : Formation pâtisserie",
+    "C9 : Formation photographie",
+    "C10: Formation couture",
+    "C11 : Permis exploitation"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99221",
+   "source": "BOAMP",
+   "source_id": "26-99221",
+   "title": "Prestations de service de formation à destination de l'ensemble des agents de la Régie Régionale des Transports Publics Haute-Garonne",
+   "buyer": "Régie Régionale des transports Publics Haute-Garonne",
+   "published": "2026-10-13",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99221",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "31"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79632000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-90851"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }
