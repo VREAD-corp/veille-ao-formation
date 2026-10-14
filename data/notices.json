@@ -27367,6 +27367,337 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-98923",
+   "source": "BOAMP",
+   "source_id": "26-98923",
+   "title": "MS2604 - Prestations ARPIJ - Avis d'intention de conclure",
+   "buyer": "CPAM COTES D'ARMOR",
+   "published": "2026-10-14",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-98923",
+   "procedure_id": "8c4417b9-3d50-44c1-bdc7-a551cd1587c2",
+   "description": "",
+   "departments": [
+    "22"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-97982"
+   ],
+   "summary": "",
+   "lots": [
+    "Prestations ARPIJ dans le département des Côtes d'Armor",
+    "Prestations ARPIJ dans le département du Finistère",
+    "Prestations ARPIJ dans le département de l'Ille et vilaine",
+    "Mise en place de prestations ARPIJ dans le département du Morbihan"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99065",
+   "source": "BOAMP",
+   "source_id": "26-99065",
+   "title": "marchés d'assurance - Automobiles, dommages aux biens, responsabilités, protection juridique et cyber risques",
+   "buyer": "CC Pyrénées Vallées des Gaves",
+   "published": "2026-10-14",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99065",
+   "procedure_id": "54b03104-fa2f-4749-b8b9-642fc7cf7d1b",
+   "description": "La présente consultation a pour objet la conclusion de marchés d'assurance couvrant les risques liés aux activités de l'acheteur public",
+   "departments": [
+    "65"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "66510000",
+    "66515000",
+    "66518200",
+    "66514110",
+    "66516400",
+    "66513100",
+    "80550000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Risques Automobiles",
+    "Risques de Dommages aux biens",
+    "Risques de Responsabilités",
+    "Protection Juridique et Protection Fonctionnelle",
+    "Cyber risques"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99525",
+   "source": "BOAMP",
+   "source_id": "26-99525",
+   "title": "Organisation de formations à destination des habitants sur les territoires d’intervention des ORCOD-IN franciliennes",
+   "buyer": "ETABLISSEMENT PUBLIC FONCIER IDF",
+   "published": "2026-10-14",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99525",
+   "procedure_id": null,
+   "description": "Cette consultation porte sur l'organisation d'un dispositif de formations et d'ateliers à destination des habitants des territoires d'intervention des ORCOD-IN franciliennes. Elle vise à accompagner les enjeux en cours et à favoriser l'appropriation, par les habitants, des objectifs de la mission de suivi-animation des plans de sauvegarde, ainsi que de l'élaboration et de la mise en oeuvre des nouveaux dispositifs…",
+   "departments": [
+    "75",
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99542",
+   "source": "BOAMP",
+   "source_id": "26-99542",
+   "title": "Système d'acquisition dynamique pour l'animation pédagogique et technique de formations continues courtes métiers pour les clients de la CMA Normandie",
+   "buyer": "CMAR Normandie",
+   "published": "2026-10-14",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99542",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "14",
+    "27",
+    "50",
+    "61",
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-99177"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99555",
+   "source": "BOAMP",
+   "source_id": "26-99555",
+   "title": "Contrat de délégation de service public pour l'exploitation de la base nautique et du lot n°4 de la plage de la croisette de la commune de Sainte-Maxime (Phase Candidature)",
+   "buyer": "Ville De Sainte-Maxime",
+   "published": "2026-10-14",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99555",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80413000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Délégation de service public",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:708996-2026",
+   "source": "TED",
+   "source_id": "708996-2026",
+   "title": "Actions collectives de formation dans le cadre de campusAtlas « Ingénierie DevOps & Cloud Native »",
+   "buyer": "OPCO Atlas",
+   "published": "2026-10-14",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/708996-2026",
+   "procedure_id": "9153a5f7-b7f1-49cf-96e3-c5be77c88da6",
+   "description": "Actions collectives de formation dans le cadre de campusAtlas « Ingénierie DevOps & Cloud Native »",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Ingénierie DevOps & Cloud Native – Hexagone - Classe virtuelle",
+    "Ingénierie DevOps & Cloud Native – Hexagone - présentiel",
+    "Ingénierie DevOps & Cloud Native – DROM 1",
+    "Ingénierie DevOps & Cloud Native – DROM 2"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:709432-2026",
+   "source": "TED",
+   "source_id": "709432-2026",
+   "title": "ACCORD-CADRE A BON DE COMMANDE MONO-ATTRIBUTAIRE : Conception et Déploiement d'une offre de formations managériales",
+   "buyer": "SEQENS SOCIETE ANONYME D'HLM",
+   "published": "2026-10-14",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/709432-2026",
+   "procedure_id": "f64f35cb-e827-4e5c-a1eb-c2b4b300331a",
+   "description": "La présente consultation a pour objet de sélectionner un partenaire capable d'accompagner Seqens dans la conception, le déploiement, l'animation et l'évaluation de sa future « Académie managériale ».",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:709474-2026",
+   "source": "TED",
+   "source_id": "709474-2026",
+   "title": "marchés d'assurance - Automobiles, dommages aux biens, responsabilités, protection juridique et cyber risques",
+   "buyer": "CC Pyrénées Vallées des Gaves",
+   "published": "2026-10-14",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/709474-2026",
+   "procedure_id": "54b03104-fa2f-4749-b8b9-642fc7cf7d1b",
+   "description": "La présente consultation a pour objet la conclusion de marchés d'assurance couvrant les risques liés aux activités de l'acheteur public",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "66510000",
+    "66515000",
+    "66518200",
+    "66514110",
+    "66516400",
+    "66513100",
+    "80550000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Risques Automobiles",
+    "Risques de Dommages aux biens",
+    "Risques de Responsabilités",
+    "Protection Juridique et Protection Fonctionnelle",
+    "Cyber risques"
+   ],
+   "updated": ""
   }
  ]
 }
