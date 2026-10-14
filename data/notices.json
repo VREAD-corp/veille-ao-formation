@@ -27577,6 +27577,40 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-99839",
+   "source": "BOAMP",
+   "source_id": "26-99839",
+   "title": "Assistance archivage numérique pour la Ville de Paris",
+   "buyer": "Bureau de l'achat, de la comptabilité et de l'approvisionnement",
+   "published": "2026-10-14",
+   "deadline": "2026-11-05T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99839",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:708996-2026",
    "source": "TED",
    "source_id": "708996-2026",
