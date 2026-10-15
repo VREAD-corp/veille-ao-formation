@@ -27769,6 +27769,127 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-100156",
+   "source": "BOAMP",
+   "source_id": "26-100156",
+   "title": "Marché de formation professionnelle continue dans le domaine juridique",
+   "buyer": "Cour d'appel d'Aix-en-Provence",
+   "published": "2026-10-15",
+   "deadline": "2026-11-16T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100156",
+   "procedure_id": null,
+   "description": "Formation professionnelle continue juridique",
+   "departments": [
+    "04",
+    "06",
+    "13",
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 300000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-100379",
+   "source": "BOAMP",
+   "source_id": "26-100379",
+   "title": "Réalisation d'actions de formation pour la sous-spécialité \"B2c - Travail social et développement social\" pour le compte de la Délégation Bretagne du Cnfpt",
+   "buyer": "Cnfpt - Délégation Bretagne",
+   "published": "2026-10-15",
+   "deadline": "2026-11-13T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100379",
+   "procedure_id": null,
+   "description": "Durée 12 mois reconductible 3 fois",
+   "departments": [
+    "35"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80500000",
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Lot n°1 : Le cadre et le contexte des politiques sociales et de l'action sociale. Réalisation d'actions de formation sur le thème : « le cadre et le…",
+    "2 : Mise en oeuvre des méthodes d'intervention, approches individuelles et collectives ; dimension d'accompagnement en termes de compétences émotionnelles et…"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-100454",
+   "source": "BOAMP",
+   "source_id": "26-100454",
+   "title": "Achat de la formation aux outils - Microsoft Office : Word, Excel, et Powerpoint",
+   "buyer": "Collectivite Territoriale De Guyane",
+   "published": "2026-10-15",
+   "deadline": "2026-11-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100454",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "973"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "boamp:26-99214",
    "source": "BOAMP",
    "source_id": "26-99214",
