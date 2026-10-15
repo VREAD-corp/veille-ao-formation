@@ -27732,6 +27732,549 @@
     "Cyber risques"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-100001",
+   "source": "BOAMP",
+   "source_id": "26-100001",
+   "title": "Prestations de formation à la certification C.A.T.E.C pour les personnels du département (SEA, service des eaux et assainissement)",
+   "buyer": "Département du Finistère",
+   "published": "2026-10-15",
+   "deadline": "2026-11-09T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100001",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "29"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99214",
+   "source": "BOAMP",
+   "source_id": "26-99214",
+   "title": "Programme régionale de formation professionnelle continue en faveur des détenus - 2027",
+   "buyer": "Région Grand Est",
+   "published": "2026-10-15",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99214",
+   "procedure_id": "5dbdb53b-8631-4ea3-8dfb-5bf45d297658",
+   "description": "La loi 2004-809 du 13 août 2004 donne compétence aux Régions pour la définition et la mise en oeuvre de la politique régionale de formation professionnelle des jeunes et des adultes à la recherche d'un emploi. Cette compétence a été réaffirmée par la loi du 5 mars 2014 qui a étendu son champ d'application aux personnes sous-main de justice, aux français de l'étranger, au socle de connaissances et de compétences…",
+   "departments": [
+    "08",
+    "10",
+    "51",
+    "52",
+    "54",
+    "57",
+    "67",
+    "68"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°27001 - BTP 5 - ECROUVES",
+    "Lot n°270002 - HOTELLERIE/RESTAURATION/TOURISME 2 - BAR-LE-DUC",
+    "Lot n° 270003 - HOTELLERIE/RESTAURATION/TOURISME 2 - SARREGUEMINES",
+    "Lot n° 270004 - HOTELLERIE/RESTAURATION/TOURISME 2 - SAINT-MIHIEL",
+    "Lot n° 270005 - PROPRETE 2 - VILLENAUXE-LA-GRANDE",
+    "Lot n° 270006 - PROPRETE 2 - CHALONS-EN-CHAMPAGNE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99225",
+   "source": "BOAMP",
+   "source_id": "26-99225",
+   "title": "FORMATIONS MANAGERS ASNR",
+   "buyer": "ASNR FONTENAY",
+   "published": "2026-10-15",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99225",
+   "procedure_id": "49134a3e-6f63-4945-971c-12019b7e3cd9",
+   "description": "Le présent marché a pour objet de couvrir l’ensemble des formations à destination des managers répondant à leurs besoins de montées en compétences dans le domaine managérial.La consultation porte sur la conception et l’animation de formations sur-mesure, en intra-entreprise, dans les domaines du management d’équipe (LOT1) et de l’égalité professionnelle (LOT2) à destination des managers",
+   "departments": [
+    "75",
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Conception et animation de formations sur-mesure à destination des managers dans le domaine du management d’équipe",
+    "Conception et animation de formations sur-mesure à destination des managers dans le domaine de l’égalité professionnelle"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99371",
+   "source": "BOAMP",
+   "source_id": "26-99371",
+   "title": "Réalisation d'actions de formation sur le thème \"maintenance des bâtiments tous corps d'état\" pour la délégation Hauts-de-France du CNFPT",
+   "buyer": "CNFPT - Direction de l'achat public",
+   "published": "2026-10-15",
+   "deadline": "2026-11-13T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99371",
+   "procedure_id": "1366cfb5-7115-4eb5-97b6-e453993d6617",
+   "description": "Les prestations visées au présent marché font partie d'une opération décomposée en 7 lots. Accords-cadres mono attributaires à bons de commande sans montant minimum et avec montants maximums hors taxes Chaque marché est conclu pour une période de deux ans à compter de sa date de notification et pourra être reconduit de manière tacite une fois pour une période de deux ans",
+   "departments": [
+    "02",
+    "59",
+    "60",
+    "62",
+    "75",
+    "80"
+   ],
+   "regions": [
+    "Hauts-de-France",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "- Soudure et travaux de soudage",
+    "- Maintenance des installations sanitaires et thermiques",
+    "- Maintenance et travaux de menuiserie (bois, pvc, aluminium), serrurerie, métallerie",
+    "- Travaux de maçonnerie, plâtrerie, céramique",
+    "- Maintenance des installations et équipements électriques",
+    "- Travaux de peinture, vitrerie, revêtements de sols et muraux",
+    "- Travaux généraux de maintenance des bâtiments publics"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99521",
+   "source": "BOAMP",
+   "source_id": "26-99521",
+   "title": "Prestation de formation à destination de la 51ème promotion de formateurs et de responsables de formation (RF) - ENAP",
+   "buyer": "E.N.A.P",
+   "published": "2026-10-15",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99521",
+   "procedure_id": "ef2f1774-7b54-4f2c-bd99-6d8dbb38dced",
+   "description": "La prestation de formation, objet du présent marché, concerne la formation des personnels pénitentiaires admis à la sélection professionnelle interne pour l’accès aux fonctions de formateurs des personnels ou de responsables de formation, affectés en services déconcentrés sous l’autorité des directeurs interrégionaux ou à l'École Nationale d’Administration Pénitentiaire (ÉNAP). La prestation co",
+   "departments": [
+    "24",
+    "31",
+    "32",
+    "33",
+    "40",
+    "46",
+    "47",
+    "64"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine",
+    "Occitanie"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99565",
+   "source": "BOAMP",
+   "source_id": "26-99565",
+   "title": "Système d'acquisition dynamique pour l'animation pédagogique et technique de formations continues courtes métiers pour les clients de la CMA Normandie",
+   "buyer": "CMAR Normandie",
+   "published": "2026-10-15",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99565",
+   "procedure_id": "9824ea3e-e59e-476a-b37e-e9a6a549cbb4",
+   "description": "Ce SAD d'une durée de 2 ans concerne des prestations de formation selon 11 catégories de formation dans les domaine de l'esthétique, la coiffure, la fleuristerie, la boulangerie, la pâtisserie, la photographie, la couture, le permis d'exploitation. Ces formations se dérouleront sur les sites de la CMA Normandie descentralisés en région normande.",
+   "departments": [
+    "14",
+    "27",
+    "50",
+    "61",
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000",
+    "98330000",
+    "98322140",
+    "98321000",
+    "80510000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 132000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Esthétique massage visage et corps",
+    "Esthétique onglerie",
+    "Esthétique maquillage et regard",
+    "Règlementation coiffure, esthétique, posture de travail",
+    "Coiffure",
+    "Fleuristerie",
+    "Boulangerie",
+    "Pâtisserie",
+    "Photographie",
+    "Couture",
+    "Permis d'exploitation"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99935",
+   "source": "BOAMP",
+   "source_id": "26-99935",
+   "title": "Accord-cadre pour la mise en œuvre de formations dans le domaine du commerce international",
+   "buyer": "CCI de région HAUTS-DE-FRANCE",
+   "published": "2026-10-15",
+   "deadline": "2026-11-13T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99935",
+   "procedure_id": null,
+   "description": "Le présent accord-cadre a pour objet la mise en œuvre de formations dans le domaine du commerce international à destination d'entreprises.",
+   "departments": [
+    "02",
+    "59",
+    "60",
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 90000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Stratégie & Préparation export",
+    "Ventes et relations internationales",
+    "Logistique & Intercoterms",
+    "Douanes & Fiscalité",
+    "Paiements et financements",
+    "Nouvelles technologies pour l'international"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:711317-2026",
+   "source": "TED",
+   "source_id": "711317-2026",
+   "title": "Réalisation d'actions de formation sur le thème \"maintenance des bâtiments tous corps d'état\" pour la délégation Hauts-de-France du CNFPT",
+   "buyer": "CNFPT - Direction de l'achat public",
+   "published": "2026-10-15",
+   "deadline": "2026-11-13T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/711317-2026",
+   "procedure_id": "1366cfb5-7115-4eb5-97b6-e453993d6617",
+   "description": "Les prestations visées au présent marché font partie d'une opération décomposée en 7 lots. Accords-cadres mono attributaires à bons de commande sans montant minimum et avec montants maximums hors taxes Chaque marché est conclu pour une période de deux ans à compter de sa date de notification et pourra être reconduit de manière tacite une fois pour une période de deux ans",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "- Soudure et travaux de soudage",
+    "- Maintenance des installations sanitaires et thermiques",
+    "- Maintenance et travaux de menuiserie (bois, pvc, aluminium), serrurerie, métallerie",
+    "- Travaux de maçonnerie, plâtrerie, céramique",
+    "- Maintenance des installations et équipements électriques",
+    "- Travaux de peinture, vitrerie, revêtements de sols et muraux",
+    "- Travaux généraux de maintenance des bâtiments publics"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:711353-2026",
+   "source": "TED",
+   "source_id": "711353-2026",
+   "title": "Prestations de formations des managers",
+   "buyer": "ASNR FONTENAY",
+   "published": "2026-10-15",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/711353-2026",
+   "procedure_id": "49134a3e-6f63-4945-971c-12019b7e3cd9",
+   "description": "Le présent marché a pour objet de couvrir l’ensemble des formations à destination des managers répondant à leurs besoins de montées en compétences dans le domaine managérial.La consultation porte sur la conception et l’animation de formations sur-mesure, en intra-entreprise, dans les domaines du management d’équipe (LOT1) et de l’égalité professionnelle (LOT2) à destination des managers",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Conception et animation de formations sur-mesure à destination des managers dans le domaine du management d’équipe",
+    "Conception et animation de formations sur-mesure à destination des managers dans le domaine de l’égalité professionnelle"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:713815-2026",
+   "source": "TED",
+   "source_id": "713815-2026",
+   "title": "Programme régionale de formation professionnelle continue en faveur des détenus - 2027",
+   "buyer": "Région Grand Est",
+   "published": "2026-10-15",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/713815-2026",
+   "procedure_id": "5dbdb53b-8631-4ea3-8dfb-5bf45d297658",
+   "description": "La loi 2004-809 du 13 août 2004 donne compétence aux Régions pour la définition et la mise en oeuvre de la politique régionale de formation professionnelle des jeunes et des adultes à la recherche d'un emploi. Cette compétence a été réaffirmée par la loi du 5 mars 2014 qui a étendu son champ d'application aux personnes sous-main de justice, aux français de l'étranger, au socle de connaissances et de compétences…",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°27001 - BTP 5 - ECROUVES",
+    "Lot n°270002 - HOTELLERIE/RESTAURATION/TOURISME 2 - BAR-LE-DUC",
+    "Lot n° 270003 - HOTELLERIE/RESTAURATION/TOURISME 2 - SARREGUEMINES",
+    "Lot n° 270004 - HOTELLERIE/RESTAURATION/TOURISME 2 - SAINT-MIHIEL",
+    "Lot n° 270005 - PROPRETE 2 - VILLENAUXE-LA-GRANDE",
+    "Lot n° 270006 - PROPRETE 2 - CHALONS-EN-CHAMPAGNE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:714027-2026",
+   "source": "TED",
+   "source_id": "714027-2026",
+   "title": "Système d'acquisition dynamique pour l'animation pédagogique et technique de formations continues courtes métiers pour les clients de la CMA Normandie",
+   "buyer": "CMAR Normandie",
+   "published": "2026-10-15",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/714027-2026",
+   "procedure_id": "9824ea3e-e59e-476a-b37e-e9a6a549cbb4",
+   "description": "Ce SAD d'une durée de 2 ans concerne des prestations de formation selon 11 catégories de formation dans les domaine de l'esthétique, la coiffure, la fleuristerie, la boulangerie, la pâtisserie, la photographie, la couture, le permis d'exploitation. Ces formations se dérouleront sur les sites de la CMA Normandie descentralisés en région normande.",
+   "departments": [
+    "14"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000",
+    "98330000",
+    "98322140",
+    "98321000",
+    "80510000"
+   ],
+   "procedure": "Procédure restreinte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 132000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Esthétique massage visage et corps",
+    "Esthétique onglerie",
+    "Esthétique maquillage et regard",
+    "Règlementation coiffure, esthétique, posture de travail",
+    "Coiffure",
+    "Fleuristerie",
+    "Boulangerie",
+    "Pâtisserie",
+    "Photographie",
+    "Couture",
+    "Permis d'exploitation"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:714840-2026",
+   "source": "TED",
+   "source_id": "714840-2026",
+   "title": "Prestation de formation à destination de la 51ème promotion de formateurs et responsables de formation (RF) - ENAP",
+   "buyer": "ENAP",
+   "published": "2026-10-15",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/714840-2026",
+   "procedure_id": "ef2f1774-7b54-4f2c-bd99-6d8dbb38dced",
+   "description": "La prestation de formation, objet du présent marché, concerne la formation des personnels pénitentiaires admis à la sélection professionnelle interne pour l’accès aux fonctions de formateurs des personnels ou de responsables de formation, affectés en services déconcentrés sous l’autorité des directeurs interrégionaux ou à l'École Nationale d’Administration Pénitentiaire (ÉNAP). La prestation co",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }
