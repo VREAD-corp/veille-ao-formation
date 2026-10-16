@@ -301,7 +301,7 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 <p class="lead">Chaque matin vers 7&nbsp;h, les avis BOAMP et TED publiés depuis la veille pour vos régions et vos mots-clés. {e(price(y))} pour 12 mois, soit {e(per_month(y, 12))} par mois, payé une fois, sans renouvellement automatique.</p>
 <div class="cta-block">
 <a class="btn btn-lg" href="#commander-h" data-cta>Recevoir mes alertes – {e(price(y))} pour 12 mois</a>
-<p class="price-note">ou {e(price(q))} pour 3 mois · réservé aux professionnels · paiement par carte, facture PDF</p>
+<p class="price-note">ou {e(price(q))} pour 3 mois · réservé aux professionnels · paiement par carte{' ou virement sur devis' if site.sales.quotes_enabled else ''}, facture PDF</p>
 </div>
 <p class="hero-links"><a href="{site.link()}">Ou consulter gratuitement la liste des annonces →</a></p>
 </div>
@@ -370,7 +370,7 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 <li>Facture PDF au nom de votre entreprise</li>
 <li>Envois interrompus plus de 7 jours de notre fait : période prolongée ou remboursée (<a href="{site.link('cgv-pro/')}">CGV</a>, art. 9)</li>
 </ul>
-<p class="small muted">Prix nets, {VAT_LINE}. Paiement unique par carte bancaire.</p>
+<p class="small muted">Prix nets, {VAT_LINE}. Paiement unique par carte bancaire{' ou par virement sur devis' if site.sales.quotes_enabled else ''}.</p>
 
 <div class="estimator" id="volume" data-volume="{e(vol.json())}">
 <h3>Combien d'avis pour vous ?</h3>
