@@ -28547,6 +28547,200 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-100850",
+   "source": "BOAMP",
+   "source_id": "26-100850",
+   "title": "Formation à l'anglais professionnel",
+   "buyer": "Département de la Seine-Maritime",
+   "published": "2026-10-16",
+   "deadline": "2026-11-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100850",
+   "procedure_id": null,
+   "description": "Le présent accord-cadre a pour objet la conception, l'animation et le suivi de parcours de formation en anglais professionnel à destination des agents du Département de la Seine-Maritime. L'objectif est de permettre aux agents d'acquérir, développer ou renforcer leurs compétences linguistiques afin de communiquer efficacement dans les situations professionnelles rencontrées dans l'exercice de leurs missions. Les…",
+   "departments": [
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-100862",
+   "source": "BOAMP",
+   "source_id": "26-100862",
+   "title": "Accord-cadre à bons de commande de services pour la formation prévention et protection de l'enfance - relance des lots 2 et 3",
+   "buyer": "Conseil Départemental du Nord",
+   "published": "2026-10-16",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100862",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-89745"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101004",
+   "source": "BOAMP",
+   "source_id": "26-101004",
+   "title": "Formation aux langues étrangères",
+   "buyer": "Nantes Métropole",
+   "published": "2026-10-16",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101004",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101065",
+   "source": "BOAMP",
+   "source_id": "26-101065",
+   "title": "Formation initiale et continue des accueillants et assistants familiaux du Conseil départemental du Finistère",
+   "buyer": "Département du Finistère",
+   "published": "2026-10-16",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101065",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "29"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "79632000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Formation initiale et continue des accueillants familiaux de personnes âgées et de personnes handicapées adultes pour la DPAPH",
+    "Lot n°2 : Formation initiale pour les assistants familiaux nouvellement recrutés pour la DEF",
+    "Formation obligatoire aux premiers secours citoyen (PSC) des accueillants familiaux de personnes âgées et de personnes handicapées adultes et des Assistants…"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101066",
+   "source": "BOAMP",
+   "source_id": "26-101066",
+   "title": "Formation initiale et continue des accueillants et assistants familiaux du Conseil départemental du Finistère",
+   "buyer": "Département du Finistère",
+   "published": "2026-10-16",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101066",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "29"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Formation initiale et continue des accueillants familiaux de personnes âgées et de personnes handicapées adultes pour la DPAPH",
+    "Lot n°2 : Formation initiale pour les assistants familiaux nouvellement recrutés pour la DEF",
+    "Formation obligatoire aux premiers secours citoyen (PSC) des accueillants familiaux de personnes âgées et de personnes handicapées adultes et des Assistants…"
+   ],
+   "updated": ""
+  },
+  {
    "id": "boamp:26-99981",
    "source": "BOAMP",
    "source_id": "26-99981",
