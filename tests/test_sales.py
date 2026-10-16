@@ -70,7 +70,8 @@ def test_closed_build_has_no_buy_ui(tmp_path):
 
 def test_open_build_subscription_page(tmp_path, monkeypatch):
     monkeypatch.setenv("SALES_ALLOW_TEST", "1")
-    s = sales.load(cfg(tmp_path, SALES_OPEN=True, endpoint="https://octave-test.invalid/exec", publishableKey="pk_test_fake123"))
+    # Card form only (the quote form repeats the order fields; see test_quotes_on_build_adds_quote_form).
+    s = sales.load(cfg(tmp_path, SALES_OPEN=True, quotesEnabled=False, endpoint="https://octave-test.invalid/exec", publishableKey="pk_test_fake123"))
     out = build(tmp_path, s)
     page = (out / "alertes" / "index.html").read_text()
     assert '<meta http-equiv="Content-Security-Policy" content="default-src &#x27;self&#x27;; script-src &#x27;self&#x27; https://js.stripe.com' in page
@@ -237,9 +238,10 @@ def form_html(page, form_id):
     return page[start:page.index("</form>", start)]
 
 
-def test_quotes_flag_is_boolean_and_off_when_committed(tmp_path):
-    assert json.loads((ROOT / "sales.config.json").read_text())["quotesEnabled"] is False
-    assert sales.load(ROOT / "sales.config.json").quotes_enabled is False
+def test_quotes_flag_is_boolean_and_on_when_committed(tmp_path):
+    # Quotes on since 2026-10-16 (backend QUOTES_ENABLED=true); an absent key still means off.
+    assert json.loads((ROOT / "sales.config.json").read_text())["quotesEnabled"] is True
+    assert sales.load(ROOT / "sales.config.json").quotes_enabled is True
     with pytest.raises(ValueError):
         sales.load(cfg(tmp_path, quotesEnabled="true"))
     c = json.loads((ROOT / "sales.config.json").read_text())
