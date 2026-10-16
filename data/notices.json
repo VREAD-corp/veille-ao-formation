@@ -28396,6 +28396,237 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-100011",
+   "source": "BOAMP",
+   "source_id": "26-100011",
+   "title": "Formations sécurité à destination des agents du Département de la Haute-Savoie",
+   "buyer": "Département de la Haute-Savoie",
+   "published": "2026-10-16",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100011",
+   "procedure_id": "1c0eefaf-2ac2-47c5-93e6-7bf3c435397a",
+   "description": "Dans le cadre de ses obligations légales en matière de santé et de sécurité au travail, la collectivité souhaite renforcer et maintenir les compétences de ses agents dans les domaines suivants : - Prévention des risques professionnels et de secours à la personne ; - Prévention du risque incendie ; - Interventions sur des installations électriques et à proximité des réseaux ; - Conduite d'équipements de travail…",
+   "departments": [
+    "01",
+    "38",
+    "69",
+    "73",
+    "74"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80511000",
+    "75251110",
+    "80550000",
+    "80560000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1240000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Sauveteur Secouriste du Travail (SST)",
+    "Lot n°2 - Gestes et soins d'urgence",
+    "Lot n°3 - Sécurité incendie",
+    "Lot n°4 - Habilitation électriques et AIPR",
+    "Lot n°5 - Habilitations à la conduite d'engins",
+    "Lot n°6 Premiers secours citoyens (PSC) et Gestes qui sauvent (GQS)",
+    "Lot n°7 Gestes et postures"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-100588",
+   "source": "BOAMP",
+   "source_id": "26-100588",
+   "title": "Le présent marché a pour objet la conception, l'animation et l’évaluation de formations relevant de l’action pénale des agents des services patrimoniaux des DRAC.",
+   "buyer": "MINISTERE DE LA CULTURE",
+   "published": "2026-10-16",
+   "deadline": "2026-11-23T12:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100588",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "13",
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 675000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-100620",
+   "source": "BOAMP",
+   "source_id": "26-100620",
+   "title": "Réalisation d'actions de formation pour la sous-spécialité E2 - Voiries et infrastructures pour le compte de la Délégation Pays de la Loire du Cnfpt",
+   "buyer": "Cnfpt - Délégation Pays de la Loire",
+   "published": "2026-10-16",
+   "deadline": "2026-11-13T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100620",
+   "procedure_id": null,
+   "description": "Durée 12 mois reconductible 2 fois",
+   "departments": [
+    "49"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "80500000",
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Lot n°1 : Connaissances fondamentales en voirie : matériaux, structures de chaussées, terrassement, construction. Lot n°1 : Connaissances fondamentales en…",
+    "2 : Lot n°2 : Entretien des chaussées : chaussées bitumeuses, revêtements gravillonnés - stages et chantiers école . Lot n°2 : Entretien des chaussées…",
+    "3 : Lot n°3 : Signalisation permanente, équipements de la route, sécurité routière. Lot n°3 : Signalisation permanente, équipements de la route, sécurité…",
+    "4 : Lot n°4 : Lecture de plans, topographie, marquage piquetage, nivellement et métrés de voirie. Lot n°4 : Lecture de plans, topographie, marquage piquetage…",
+    "5 : Lot n°5 : Techniques de nettoiement de l'espace public. Lot n°5 : Techniques de nettoiement de l'espace public",
+    "6 : Lot n°6 : Eau potable. Lot n°6 : Eau potable",
+    "7 : Lot n°7 : Eaux pluviales. Lot n°7 : Eaux pluviales",
+    "8 : Lot n°8 : Eaux usées et eaux traitées. Lot n°8 : Eaux usées et eaux traitées",
+    "9 : Lot n°9 : Cours d'eau et littoral. Lot n°9 : Cours d'eau et littoral"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-99981",
+   "source": "BOAMP",
+   "source_id": "26-99981",
+   "title": "MARCHE ERASMUS+ BFC",
+   "buyer": "FRANCE TRAVAIL - BFC",
+   "published": "2026-10-16",
+   "deadline": "2026-11-18T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-99981",
+   "procedure_id": "9e6fad4f-19f4-4ad9-b8cb-ae5b1a15f016",
+   "description": "Le marché prend la forme d’un accord-cadre exécuté par émission de bons de commande, conclu avec un unique Titulaire, sans minimum et avec un maximum en quantité, défini en nombre de bénéficiaires à prendre en charge au titre de la période ferme, fixé à 78 pour les bourses EFP, et 64 pour les Bourses EDA. Les prestations comprennent une phase de sélection des candidats, un module de formation linguistique et…",
+   "departments": [
+    "21"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "85312300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:717066-2026",
+   "source": "TED",
+   "source_id": "717066-2026",
+   "title": "Formations sécurité à destination des agents du Département de la Haute-Savoie",
+   "buyer": "Département de la Haute-Savoie",
+   "published": "2026-10-16",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/717066-2026",
+   "procedure_id": "1c0eefaf-2ac2-47c5-93e6-7bf3c435397a",
+   "description": "Dans le cadre de ses obligations légales en matière de santé et de sécurité au travail, la collectivité souhaite renforcer et maintenir les compétences de ses agents dans les domaines suivants : - Prévention des risques professionnels et de secours à la personne ; - Prévention du risque incendie ; - Interventions sur des installations électriques et à proximité des réseaux ; - Conduite d'équipements de travail…",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80511000",
+    "75251110",
+    "80550000",
+    "80560000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1240000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Sauveteur Secouriste du Travail (SST)",
+    "Lot n°2 - Gestes et soins d'urgence",
+    "Lot n°3 - Sécurité incendie",
+    "Lot n°4 - Habilitation électriques et AIPR",
+    "Lot n°5 - Habilitations à la conduite d'engins",
+    "Lot n°6 Premiers secours citoyens (PSC) et Gestes qui sauvent (GQS)",
+    "Lot n°7 Gestes et postures"
+   ],
+   "updated": ""
   }
  ]
 }
