@@ -180,7 +180,7 @@ def sample_caption(s: Sample, now: datetime) -> str:
             f"environ {s.weekly} par semaine ces {VOLUME_DAYS} derniers jours.")
 
 
-# Founders (facts from vread.fr/presse and Vincent Cance's CV; same block on every outils.vread.fr site).
+# Founders (facts from vread.fr/presse and Vincent Cance's CV; same block on every Jalonel site).
 FOUNDERS = [
     ("Tanguy Warsmann", "tanguy-warsmann.webp", "Fondateur &amp; CEO",
      "Formé aux lettres à la Sorbonne puis à emlyon business school, il a travaillé chez Cartier, puis chez AR/Factory, "
@@ -201,8 +201,8 @@ def about(site) -> str:
     return f"""<section class="about" id="qui-sommes-nous" aria-labelledby="about-h">
 <div class="about-intro">
 <p class="eyebrow">Qui sommes-nous</p>
-<h2 id="about-h">READ FRANCE SAS, Paris</h2>
-<p><strong>READ FRANCE SAS</strong>, Paris (SIREN 988 741 773). Nous éditons des kits et des services pour les organismes de formation, les vendeurs en ligne et les PME ; Veille AO Formation en fait partie.</p>
+<h2 id="about-h">Jalonel, Paris</h2>
+<p><strong>Jalonel</strong> est une marque de READ FRANCE SAS, Paris (SIREN 988 741 773). Nous éditons des kits et des services pour les organismes de formation, les vendeurs en ligne et les PME ; Veille AO Formation en fait partie.</p>
 </div>
 <ul class="founders" aria-label="Fondateurs">
 {founders}
@@ -420,12 +420,12 @@ def faq(site, vol: Volume) -> str:
 def alerts_bottom(site, vol: Volume) -> str:
     return f"""
 {faq(site, vol)}
-<p class="cross-link">Beaucoup d’acheteurs publics exigent la certification Qualiopi. Le nouveau référentiel s’applique au 1er novembre 2026 : <a href="https://outils.vread.fr/kit-qualiopi-v10/">modèles et check-list du Kit Qualiopi V10</a>.</p>
+<p class="cross-link">Beaucoup d’acheteurs publics exigent la certification Qualiopi. Le nouveau référentiel s’applique au 1er novembre 2026 : <a href="https://qualiopi.jalonel.com/">modèles et check-list du Kit Qualiopi V10</a>.</p>
 {about(site)}
 <section class="section legal-note" id="limites" aria-labelledby="limites-h">
 <h2 id="limites-h">Sources et limites</h2>
 <p>Sélection automatique d'avis publiés au BOAMP (DILA) et dans TED (Office des publications de l'Union européenne), sans intelligence artificielle. Elle n'est pas exhaustive et repose sur les codes choisis par les acheteurs : vérifiez toujours l'avis officiel et le dossier de consultation. <a href="{site.link('methode/')}">Méthode et sources</a>.</p>
-<p class="small muted">Produit indépendant de READ FRANCE SAS, ni affilié ni approuvé par la DILA ou l'Office des publications de l'UE.</p>
+<p class="small muted">Produit indépendant de Jalonel (marque de READ FRANCE SAS), ni affilié ni approuvé par la DILA ou l'Office des publications de l'UE.</p>
 </section>
 """
 

@@ -17,9 +17,9 @@ ROOT = Path(__file__).resolve().parent.parent
 FIX = Path(__file__).parent / "fixtures"
 GAS_WEB = ROOT.parent / "octave-checkout" / "gas" / "web"
 NOW = datetime(2026, 10, 11, 10, 0, tzinfo=timezone.utc)
-SITE = "https://outils.vread.fr/veille-ao-formation/"
-TAG = re.compile(r'<script src="/veille-ao-formation/cro\.js" data-site="([^"]+)" data-api="([^"]+)" '
-                 r'data-hosts="outils\.vread\.fr" data-cta="\[data-cta\]" defer></script>')
+SITE = "https://ao-formation.jalonel.com/"
+TAG = re.compile(r'<script src="/cro\.js" data-site="([^"]+)" data-api="([^"]+)" '
+                 r'data-hosts="ao-formation\.jalonel\.com outils\.vread\.fr" data-cta="\[data-cta\]" defer></script>')
 
 
 @pytest.mark.skipif(not shutil.which("node"), reason="node not installed")
@@ -59,7 +59,7 @@ def test_every_page_loads_cro_js(tmp_path, monkeypatch, open_):
         html = page.read_text(encoding="utf-8")
         m = TAG.search(html)
         assert m and m.groups() == (CRO_SITE, CRO_API), page
-        assert html.count('src="/veille-ao-formation/cro.js"') == 1, page
+        assert html.count('src="/cro.js"') == 1, page
         assert html.index("/cro.js") < html.index("/static/cro-goals.js"), page
         assert "OCTAVE_XP" not in html, page  # no A/B experiment on this site
         assert 'type="module"' not in TAG.search(html).group(0)

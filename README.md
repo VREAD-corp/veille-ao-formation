@@ -2,9 +2,9 @@
 
 Open French public tenders for **training services** (formation professionnelle), refreshed twice a day from free official open data, published as a static site with filters, RSS/Atom, JSON and weekly CSV/ICS exports.
 
-**Site:** https://outils.vread.fr/veille-ao-formation/
+**Site:** https://ao-formation.jalonel.com/ (served at the root of the subdomain; `--site-url` / `SITE_URL` default)
 
-A product of READ FRANCE SAS. No accounts, no cookies, no trackers, no LLM. Optional paid e-mail alerts (B2B, prepaid periods).
+Brand **Jalonel** (https://jalonel.com/), a brand of READ FRANCE SAS (legal operator, named in the legal notice, CGV and invoices). 2026-10-16: moved from https://outils.vread.fr/veille-ao-formation/ (old URLs redirect). IndexNow key file `5be19f56d46ca3d2553bee28ebfa8edd.txt` is written at the site root by the build. No accounts, no cookies, no trackers, no LLM. Optional paid e-mail alerts (B2B, prepaid periods).
 
 ## What it does
 

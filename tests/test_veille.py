@@ -17,7 +17,7 @@ from veille.site import Site
 FIX = Path(__file__).parent / "fixtures"
 NOW = datetime(2026, 10, 11, 10, 0, tzinfo=timezone.utc)
 TODAY = "2026-10-11"
-SITE = "https://example.org/veille-ao-formation/"
+SITE = "https://example.org/"
 
 
 @pytest.fixture()
@@ -335,20 +335,23 @@ def test_site_build(tmp_path, boamp_records, ted_notices):
     assert "<script>alert(1)</script>" not in index and "&lt;script&gt;" in index
     assert index.count('class="card"') == len([t for t in store.tenders(db) if t.is_open(NOW)])
     assert "11 oct. 2026 à 06h20" in index  # data update time, Paris
-    assert 'href="/veille-ao-formation/feed.xml"' in index
+    assert 'href="/feed.xml"' in index
     for path in ["feed.xml", "rss.xml", "data/ouverts.json", "sitemap.xml", "robots.txt", "404.html",
                  "semaine/index.html", "region/bretagne/index.html", "alertes/index.html",
                  "alertes/exemple-email.html", "methode/index.html", "mentions-legales/index.html",
                  "confidentialite/index.html", "cgv/index.html", "static/style.css", "static/app.js"]:
         assert (out / path).exists(), path
+    assert (out / "5be19f56d46ca3d2553bee28ebfa8edd.txt").read_text() == "5be19f56d46ca3d2553bee28ebfa8edd"  # IndexNow
+    assert "Jalonel est une marque de READ FRANCE SAS." in (out / "mentions-legales" / "index.html").read_text()
     weeks = list((out / "semaine").glob("20*-W*/index.html"))
     assert weeks
     assert '<meta name="robots" content="noindex">' in (out / "alertes" / "exemple-email.html").read_text()
     assert "exemple-email" not in (out / "sitemap.xml").read_text()
     for path in ["index.html", "404.html", "region/bretagne/index.html", weeks[0].relative_to(out).as_posix()]:
         footer = (out / path).read_text().split('<footer class="foot">')[1]
-        assert '<nav class="rf-network" aria-label="Autres outils READ FRANCE">' in footer, path
-        assert 'href="https://outils.vread.fr/kit-gpsr-vendeurs/pack.html"' in footer, path
+        assert '<nav class="rf-network" aria-label="Autres outils Jalonel">' in footer, path
+        assert 'href="https://gpsr.jalonel.com/pack.html"' in footer, path
+        assert '<a href="https://jalonel.com/">Une marque Jalonel</a>' in footer and "READ FRANCE" not in footer, path
     alerts = (out / "alertes" / "index.html").read_text()
     if sales.load().open:  # committed sales.config.json: subscription page (details in test_sales.py)
         assert 'id="octave-pay"' in alerts and "sans renouvellement automatique" in alerts

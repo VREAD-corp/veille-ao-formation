@@ -31,8 +31,9 @@ MESURE = Path(__file__).resolve().parent / "mesure.js"
 # Aggregate behaviour counters and A/B framework (verbatim copy of octave-checkout gas/web/cro.js), same backend.
 CRO = Path(__file__).resolve().parent / "cro.js"
 CRO_SITE = "veille-ao-formation"
+INDEXNOW_KEY = "5be19f56d46ca3d2553bee28ebfa8edd"
 CRO_API = "https://script.google.com/macros/s/AKfycbzD1IRL8QALluKGZxgGiORFP6-DkC_qFJYR9aOxZiimxa06nbCqpzUI-9iLblp6V2VY/exec"
-CRO_HOSTS = "outils.vread.fr"
+CRO_HOSTS = "ao-formation.jalonel.com outils.vread.fr"
 # Time to first CTA = first click on a paid-alerts call to action (links to /alertes/ or #commander-h, pay button).
 CRO_CTA = "[data-cta]"
 
@@ -43,21 +44,22 @@ PUBLISHER = {
     "president": "Tanguy Warsmann",
 }
 
-# schema.org publisher. The full Organization node (logo, founders, SIREN, sameAs) lives only on the hub
-# https://outils.vread.fr/; pages here reference it by @id instead of repeating it.
-ORG_ID = "https://outils.vread.fr/#org"
-ORG_REF = {"@type": "Organization", "@id": ORG_ID, "name": "READ FRANCE SAS"}
+# schema.org publisher/brand: Jalonel (hub https://jalonel.com/), a brand of READ FRANCE SAS (the legal operator).
+ORG_ID = "https://jalonel.com/#org"
+ORG_REF = {"@type": "Organization", "@id": ORG_ID, "name": "Jalonel", "url": "https://jalonel.com/",
+           "parentOrganization": {"@type": "Organization", "name": "READ FRANCE SAS", "identifier": "SIREN 988741773"}}
+JALONEL_URL = "https://jalonel.com/"
 
-# « Autres outils READ FRANCE »: the same footer block on every outils.vread.fr site (hub + the 4 paid offers).
+# « Autres outils Jalonel »: the same footer block on every Jalonel site (hub + the paid offers).
 NETWORK_LINKS = [
-    ("Tous les outils", "https://outils.vread.fr/"),
-    ("Kit Qualiopi V10", "https://outils.vread.fr/kit-qualiopi-v10/"),
-    ("Pack documentation GPSR", "https://outils.vread.fr/kit-gpsr-vendeurs/pack.html"),
-    ("Alertes appels d’offres formation", "https://outils.vread.fr/veille-ao-formation/alertes/"),
-    ("Audit d’accessibilité", "https://outils.vread.fr/declaration-accessibilite/audit/"),
+    ("Tous les outils", "https://jalonel.com/"),
+    ("Kit Qualiopi V10", "https://qualiopi.jalonel.com/"),
+    ("Pack documentation GPSR", "https://gpsr.jalonel.com/pack.html"),
+    ("Alertes appels d’offres formation", "https://ao-formation.jalonel.com/alertes/"),
+    ("Audit d’accessibilité", "https://accessibilite.jalonel.com/audit/"),
 ]
-NETWORK_HTML = ('<nav class="rf-network" aria-label="Autres outils READ FRANCE">\n'
-                '<p class="rf-network-title">Autres outils READ FRANCE</p>\n<ul>\n'
+NETWORK_HTML = ('<nav class="rf-network" aria-label="Autres outils Jalonel">\n'
+                '<p class="rf-network-title">Autres outils Jalonel</p>\n<ul>\n'
                 + "\n".join(f'<li><a href="{href}">{label}</a></li>' for label, href in NETWORK_LINKS)
                 + "\n</ul>\n</nav>")
 
@@ -202,7 +204,7 @@ class Site:
 {f'<a href="{self.link("cgv-pro/")}">CGV</a>' if self.sales.open else f'<a href="{self.link("cgv/")}">CGV (projet)</a>'}
 <a href="{REPO_URL}">Code source</a>
 </nav>
-<p>{BRAND} — un produit de READ FRANCE SAS (SIREN 988 741 773), Paris.</p>
+<p class="jalonel"><a href="{JALONEL_URL}">Une marque Jalonel</a></p>
 </div>
 </footer>
 {sticky_html}
@@ -271,6 +273,9 @@ class Site:
         shutil.copytree(STATIC, self.out / "static")
         shutil.copyfile(MESURE, self.out / "mesure.js")
         shutil.copyfile(CRO, self.out / "cro.js")
+        # IndexNow key (served at the site root) and the custom domain (ignored by Pages workflow builds, kept for clarity).
+        (self.out / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
+        (self.out / "CNAME").write_text(f"{urlparse(self.url).hostname}\n", encoding="utf-8")
 
         self.tenders = tenders
         open_items = sorted((t for t in tenders if t.is_open(self.now)), key=lambda t: (t.deadline or "", t.id))
@@ -607,6 +612,7 @@ class Site:
 <h1>Mentions légales</h1>
 <h2>Éditeur</h2>
 <p>{e(p['name'])} (société par actions simplifiée au capital de 1 000 €), SIREN {e(p['siren'])}, RCS Paris, siège social : {e(p['address'])}. Informations issues du <a href="https://annuaire-entreprises.data.gouv.fr/entreprise/988741773">registre public</a>.</p>
+<p>Jalonel est une marque de READ FRANCE SAS.</p>
 <p>Directeur de la publication : {e(p['president'])}, président.</p>
 <p>Contact : <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a>.</p>
 <!-- TODO phone -->

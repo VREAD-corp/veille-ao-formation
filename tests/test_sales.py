@@ -14,7 +14,7 @@ from veille.site import Site
 ROOT = Path(__file__).resolve().parent.parent
 FIX = Path(__file__).parent / "fixtures"
 NOW = datetime(2026, 10, 11, 10, 0, tzinfo=timezone.utc)
-SITE = "https://example.org/veille-ao-formation/"
+SITE = "https://example.org/"
 CRO_TAG = re.compile(r'<script src="[^"]*/cro\.js" [^>]*></script>')
 BUY_MARKERS = ["js.stripe.com", "checkout-config", "octave-pay", "pk_live_", "pk_test_", "script.google.com", "commande.html"]
 
@@ -88,13 +88,13 @@ def test_open_build_subscription_page(tmp_path, monkeypatch):
     assert 'name="keywords" data-octave-extra' in page
     assert "pas encore disponible" not in page.lower() and "19&nbsp;€" not in page
     # Stripe.js and pay.js wait for the first interaction with the order form (stripe-lazy.js).
-    assert '<script src="https://js.stripe.com/v3/">' not in page and 'src="/veille-ao-formation/checkout/pay.js"' not in page
-    assert '<script src="/veille-ao-formation/checkout/stripe-lazy.js" data-pay="/veille-ao-formation/checkout/pay.js"></script>' in page
+    assert '<script src="https://js.stripe.com/v3/">' not in page and 'src="/checkout/pay.js"' not in page
+    assert '<script src="/checkout/stripe-lazy.js" data-pay="/checkout/pay.js"></script>' in page
     assert (out / "checkout" / "stripe-lazy.js").exists()
     for f in ("pay.js", "order.js", "alerts-form.js"):
         assert (out / "checkout" / f).read_bytes() == (ROOT / "veille" / "checkout" / f).read_bytes()
     conf = (out / "checkout" / "checkout-config.js").read_text()
-    assert '"orderPage": "commande.html"' in conf and '"termsUrl": "/veille-ao-formation/cgv-pro/"' in conf
+    assert '"orderPage": "commande.html"' in conf and '"termsUrl": "/cgv-pro/"' in conf
     # Static prices + terms version: pay.js mounts the Payment Element without waiting for the catalog.
     assert '"offers": {"veille-ao-3m": {"amount": 4900}, "veille-ao-12m": {"amount": 14900}}' in conf
     assert '"termsVersion": "cgv-pro-alertes-2026-10-12"' in conf and '"payLabel": "Payer {prix} et activer mes alertes"' in conf
@@ -110,7 +110,7 @@ def test_open_build_subscription_page(tmp_path, monkeypatch):
     assert "149\u00a0€ pour 12 mois, soit 12,42\u00a0€ par mois, payé une fois, sans renouvellement automatique.</p>" in page
     assert page.count('class="faq-item"') == 6 and 'id="volume" data-volume=' in page
     assert page.index('id="volume"') < page.index('id="octave-pay"') < page.index('id="faq-h"')
-    assert 'src="/veille-ao-formation/static/landing.js"' in page and (out / "static" / "landing.js").exists()
+    assert 'src="/static/landing.js"' in page and (out / "static" / "landing.js").exists()
     sitemap = (out / "sitemap.xml").read_text()
     assert SITE + "alertes/" in sitemap and "cgv-pro" not in sitemap and "commande" not in sitemap
 
@@ -130,7 +130,7 @@ def test_open_build_terms_and_privacy(tmp_path, monkeypatch):
     privacy = (out / "confidentialite" / "index.html").read_text()
     assert "Abonnement aux alertes e-mail" in privacy and "12 mois après sa fin" in privacy
     assert "Ce site ne collecte aucune donnée personnelle" not in privacy
-    assert 'href="/veille-ao-formation/cgv-pro/">CGV</a>' in (out / "index.html").read_text()
+    assert 'href="/cgv-pro/">CGV</a>' in (out / "index.html").read_text()
     assert "remplacé par les" in (out / "cgv" / "index.html").read_text()
     assert "au capital de 1 000 €" in (out / "mentions-legales" / "index.html").read_text()
 
@@ -151,7 +151,7 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
     page = (out / "alertes" / "index.html").read_text()
     items = jsonld_blocks(page)
     # the full Organization lives on the hub only: referenced by @id, never repeated here
-    org = {"@id": "https://outils.vread.fr/#org"}
+    org = {"@id": "https://jalonel.com/#org"}
     assert not any(i.get("@type") == "Organization" for i in items)
     assert "legalName" not in page and "PostalAddress" not in page
     product = next(i for i in items if i.get("@type") == "Product")
@@ -175,17 +175,18 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
     desc = htmlmod.unescape(re.search(r'<meta name="description" content="([^"]*)">', page).group(1))
     assert "<title>Alerte appels d'offres formation par e-mail" in page and len(title) <= 65
     assert "49 € net" in desc and "149 € net" in desc and "TVA non applicable, art. 293 B du CGI" in desc and len(desc) <= 158
-    assert 'href="https://outils.vread.fr/kit-qualiopi-v10/">' in page  # contextual link to the Qualiopi kit
+    assert 'href="https://qualiopi.jalonel.com/">' in page  # contextual link to the Qualiopi kit
     # home page: WebSite and Dataset point at the hub Organization, visible priced link to /alertes/ near the top, no Product
     index = (out / "index.html").read_text()
     home = jsonld_blocks(index)
     assert {i["@type"] for i in home} == {"WebSite", "Dataset"}
-    ref = {"@type": "Organization", "@id": "https://outils.vread.fr/#org", "name": "READ FRANCE SAS"}
+    ref = {"@type": "Organization", "@id": "https://jalonel.com/#org", "name": "Jalonel", "url": "https://jalonel.com/",
+           "parentOrganization": {"@type": "Organization", "name": "READ FRANCE SAS", "identifier": "SIREN 988741773"}}
     assert next(i for i in home if i["@type"] == "WebSite")["publisher"] == ref
     assert next(i for i in home if i["@type"] == "Dataset")["creator"] == ref
     assert "&nbsp;" not in json.dumps(home + items, ensure_ascii=False)  # typography fix stays out of JSON-LD
     hero = index.split('<section aria-labelledby="filtres-titre"')[0]
-    assert 'href="/veille-ao-formation/alertes/" data-cta>Recevoir les AO formation de ma région chaque matin →</a>' in hero
+    assert 'href="/alertes/" data-cta>Recevoir les AO formation de ma région chaque matin →</a>' in hero
     assert "49\u00a0€ pour 3 mois" in hero
     assert "TVA non applicable, art. 293 B du CGI" in hero
 
@@ -195,7 +196,7 @@ def test_closed_build_has_no_product_jsonld(tmp_path):
     assert not any(i.get("@type") == "Product" for i in jsonld_blocks((out / "alertes" / "index.html").read_text()))
     home = jsonld_blocks((out / "index.html").read_text())
     assert not any(i.get("@type") == "Organization" for i in home)
-    assert next(i for i in home if i["@type"] == "WebSite")["publisher"]["@id"] == "https://outils.vread.fr/#org"
+    assert next(i for i in home if i["@type"] == "WebSite")["publisher"]["@id"] == "https://jalonel.com/#org"
 
 
 def test_no_ht_ttc_on_our_prices(tmp_path, monkeypatch):
@@ -256,8 +257,8 @@ def test_quotes_on_build_adds_quote_form(tmp_path, monkeypatch):
     assert page.index('id="octave-devis-box"') < page.index("</section>", pay_end) < page.index('id="faq-h"')
     # script after the pay.js loader (and before alerts-form.js, which binds the duplicated region buttons);
     # devis.js needs no Stripe.js, so it is not deferred
-    pay = page.index('<script src="/veille-ao-formation/checkout/stripe-lazy.js" data-pay="/veille-ao-formation/checkout/pay.js"></script>')
-    devis = page.index('<script src="/veille-ao-formation/checkout/devis.js"></script>')
+    pay = page.index('<script src="/checkout/stripe-lazy.js" data-pay="/checkout/pay.js"></script>')
+    devis = page.index('<script src="/checkout/devis.js"></script>')
     assert page.count("checkout/devis.js") == 1 and pay < devis < page.index("checkout/alerts-form.js")
     ids = Counter(re.findall(r'\sid="([^"]+)"', page))
     assert [i for i, n in ids.items() if n > 1] == []
@@ -277,7 +278,7 @@ def test_quotes_on_build_adds_quote_form(tmp_path, monkeypatch):
         assert f'name="{n}"' in quote, n
     # honeypot + terms: same CGV link and version date as the card checkbox
     assert '<div class="hp" aria-hidden="true">' in quote and ".hp{position:absolute;left:-9999px" in (out / "static" / "style.css").read_text()
-    assert 'class="terms-link" href="/veille-ao-formation/cgv-pro/"' in quote and 'id="terms-link" href="/veille-ao-formation/cgv-pro/"' in card
+    assert 'class="terms-link" href="/cgv-pro/"' in quote and 'id="terms-link" href="/cgv-pro/"' in card
     assert f"(version du {sales.TERMS_DATE})" in quote and f"(version du {sales.TERMS_DATE})" in card and "{{" not in page
     for f in ("pay.js", "devis.js", "alerts-form.js"):
         assert (out / "checkout" / f).read_bytes() == (ROOT / "veille" / "checkout" / f).read_bytes()

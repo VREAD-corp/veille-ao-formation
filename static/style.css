@@ -284,7 +284,7 @@ h3 { font-size: 1.1rem; margin: 0 0 6px; }
 .about p { margin: 6px 0; }
 .about-intro { max-width: 70ch; }
 .about .eyebrow { margin-bottom: 10px; }
-/* Founders (same block on every outils.vread.fr site) */
+/* Founders (same block on every Jalonel site) */
 .founders { list-style: none; margin: 20px 0 0; padding: 0; display: grid; gap: 16px; }
 .founder { display: grid; align-content: start; grid-template-columns: 96px 1fr; gap: 14px 18px; align-items: center; margin: 0; padding: 18px; background: var(--bg); border: 1px solid var(--line); border-radius: 14px; }
 .founder-photo { display: block; width: 96px; height: 96px; border-radius: 50%; object-fit: cover; background: var(--line); box-shadow: 0 0 0 3px var(--surface), 0 0 0 4px var(--line); }
@@ -356,7 +356,7 @@ details summary { cursor: pointer; font-weight: 600; margin: 8px 0; }
 .region-table thead th + th { text-align: right; }
 .region-table tbody tr:last-child th, .region-table tbody tr:last-child td { border-bottom: 0; font-weight: 650; }
 
-/* Cross-site block « Autres outils READ FRANCE » (same markup on every outils.vread.fr site) */
+/* Cross-site block « Autres outils Jalonel » (same markup on every Jalonel site) */
 .foot nav.rf-network { display: block; margin: 0 0 14px; }
 .rf-network-title { margin: 0 0 .3rem; font-weight: 600; color: var(--ink, inherit); }
 .rf-network ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; }
