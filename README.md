@@ -14,6 +14,13 @@ Brand **Jalonel** (https://jalonel.com/), a brand of READ FRANCE SAS (legal oper
 2. Keeps a notice if it is a services contract and has a training CPV (804/805/806xxxxx, 80000000, 79632000, 79633000), or BOAMP's descriptor "Formation" (code 410), or (only when no CPV is given) a training keyword in the title/lot names. See `veille/model.py`.
 3. Normalises (deadline as written in the notice, regions from departments / NUTS codes, CPV, estimated value, lots), merges into `data/notices.json` and de-duplicates by eForms procedure id (BOAMP + TED copies, rectificatifs).
 4. `python -m veille build` writes the site to `_site/`: open tenders with client-side filters (keyword, region, deadline), weekly archive pages, region pages, Atom + RSS feeds, `data/ouverts.json`, sitemap.
+   Data pages (2026-10-17, `veille/datapages.py`, `veille/guides.py`, `veille/stats.py`, `veille/taxonomy.py`):
+   - 14 region pages `/region/<slug>/`: open notices, national ones (collapsed), notices closed in the last 90 days, 12-month figures (monthly counts, top buyers, themes, median days to respond, lots, accords-cadres, median value) and the Qualiopi-certified providers of the region; « Outre-mer » has one section per territory;
+   - 7 theme pages `/theme/<slug>/` + hub: rules on title and lot names only, each published theme hand-checked at ≥ 90 % precision ([evaluation](docs/evaluation-themes.md), labels in `tests/fixtures/theme_labels.json`);
+   - `/acheteur/opco/` (one section per OPCO) and two guides: `/guide/appels-offres-france-travail-formation/`, `/guide/codes-cpv-formation/`;
+   - index rule, recomputed at every build with hysteresis (`stats.index_decision`): a data page is indexed at ≥ 40 notices in 12 months and ≥ 4 open on a typical day (median of the last 180 days), de-indexed under 30 or 3; it then carries `noindex, follow`, leaves the sitemap and stays reachable. Today Corse and Bourgogne-Franche-Comté are out.
+   - `data/of_qualiopi.json`: counts per region from the « Liste publique des organismes de formation » (data.gouv.fr, Licence Ouverte), refreshed monthly by `python -m veille qualiopi` in `update.yml` (the 36 MB CSV is streamed, never stored). `data/cpv_fr.json`: official French CPV 2008 labels.
+   - Editorial blocks cite official sources read on `datapages.EDITORIAL_CHECKED`; the build prints a warning when that date is more than 6 months old.
 5. `python -m veille export` writes the weekly release assets `ao-formation-ouverts.csv` and `ao-formation-echeances.ics`.
 6. `python -m veille digest --profile examples/profil-exemple.json` renders a personalised e-mail digest (the sample shown on `/alertes/exemple-email.html`).
 
@@ -27,7 +34,8 @@ Personal data minimisation: contact names, e-mails and phone numbers present in 
 
 ## Automation (GitHub Actions)
 
-- `update.yml`: twice a day (05:40 and 17:40 UTC) — tests, fetch, commit `data/` if changed, build and deploy GitHub Pages. Manual run accepts `since=YYYY-MM-DD` to backfill.
+- `update.yml`: twice a day (05:40 and 17:40 UTC) — tests, fetch, monthly Qualiopi counts, commit `data/` if changed, build and deploy GitHub Pages. Manual run accepts `since=YYYY-MM-DD` to backfill (the store holds 12 months since 2026-10-17).
+- `tests.yml`: tests and a build on pull requests and on pushes to other branches than `main`.
 - `weekly-release.yml`: Mondays 06:30 UTC — creates the release `export-YYYY-Www` with the CSV and ICS. Assets keep stable names, so `releases/latest/download/ao-formation-ouverts.csv` always points to the latest week. An existing release is never overwritten (download counts are the KPI).
 
 ## Summaries (off)

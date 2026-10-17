@@ -40,6 +40,8 @@ jobs:
           SINCE: ${{ github.event.inputs.since }}
         run: |
           if [ -n "$SINCE" ]; then python -m veille update --since "$SINCE"; else python -m veille update; fi
+      - name: Refresh Qualiopi counts (monthly, never blocks the update)
+        run: python -m veille qualiopi --max-age-days 25 || echo "::warning::Qualiopi counts not refreshed; previous file kept"
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"

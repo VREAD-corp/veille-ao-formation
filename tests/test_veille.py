@@ -391,11 +391,16 @@ def test_weekly_noindex_and_sitemap_content_dates(tmp_path):
     site_mod.TEMPLATE_DATE = "2026-01-01"
     try:
         out = tmp_path / "site"
-        Site(out, SITE, NOW).build(items, {"updated_at": "2026-10-11T04:20:00+00:00"})
+        built = Site(out, SITE, NOW)
+        built.build(items, {"updated_at": "2026-10-11T04:20:00+00:00"})
     finally:
         site_mod.TEMPLATE_DATE = old
     sitemap = (out / "sitemap.xml").read_text()
     lastmod = dict(__import__("re").findall(r"<loc>([^<]*)</loc><lastmod>([^<]*)</lastmod>", sitemap))
+    lastmod.update({SITE + p: m for p, m in built.lastmods.items()})
+    # 4 notices: every region page is below the index rule (40 a year, 4 open on a typical day)
+    assert "/region/normandie/" not in sitemap and SITE + "region/" in sitemap
+    assert '<meta name="robots" content="noindex, follow">' in (out / "region" / "normandie" / "index.html").read_text()
     assert "/semaine/2026-W" not in sitemap and SITE + "semaine/" in sitemap
     week = next((out / "semaine").glob("2026-W*/index.html")).read_text()
     assert '<meta name="robots" content="noindex, follow">' in week

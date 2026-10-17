@@ -10,7 +10,7 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from . import boamp, store, summarize, ted
+from . import boamp, store, summarize, supply, ted
 from .digest import Profile, render, select
 from .exporters import to_csv, to_ics
 from .model import PARIS, iso_week_bounds
@@ -19,6 +19,7 @@ from .site import Site
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data" / "notices.json"
 META = ROOT / "data" / "meta.json"
+QUALIOPI = ROOT / "data" / "of_qualiopi.json"
 DEFAULT_SITE_URL = "https://ao-formation.jalonel.com/"
 RECENT_DAYS = 14
 
@@ -129,6 +130,18 @@ def cmd_export(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_qualiopi(args: argparse.Namespace) -> int:
+    """Monthly: Qualiopi-certified providers per region, from the public list of training providers."""
+    today = now_utc().astimezone(PARIS).date()
+    try:
+        changed = supply.refresh(QUALIOPI, today, max_age_days=args.max_age_days)
+    except Exception as exc:  # keep the previous counts; never block the data update
+        log.error("Qualiopi counts not refreshed: %s", exc)
+        return 1
+    log.info("Qualiopi counts %s", "refreshed" if changed else "still fresh")
+    return 0
+
+
 def cmd_digest(args: argparse.Namespace) -> int:
     now = now_utc()
     profile = Profile.from_dict(json.loads(Path(args.profile).read_text(encoding="utf-8")))
@@ -153,12 +166,15 @@ def main(argv: list[str] | None = None) -> int:
     b.add_argument("--out", default="_site")
     x = sub.add_parser("export", help="weekly CSV + ICS release assets")
     x.add_argument("--out", default="dist")
+    q = sub.add_parser("qualiopi", help="refresh data/of_qualiopi.json (Qualiopi providers per region)")
+    q.add_argument("--max-age-days", type=int, default=25)
     d = sub.add_parser("digest", help="render a personalised digest (not sent)")
     d.add_argument("--profile", required=True)
     d.add_argument("--since")
     d.add_argument("--out", default="dist/digest")
     args = p.parse_args(argv)
-    return {"update": cmd_update, "build": cmd_build, "export": cmd_export, "digest": cmd_digest}[args.cmd](args)
+    return {"update": cmd_update, "build": cmd_build, "export": cmd_export, "digest": cmd_digest,
+            "qualiopi": cmd_qualiopi}[args.cmd](args)
 
 
 if __name__ == "__main__":

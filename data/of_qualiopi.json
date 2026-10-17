@@ -1,0 +1,93 @@
+{
+ "source": "Liste publique des organismes de formation (L.6351-7-1 du Code du travail)",
+ "dataset": "https://www.data.gouv.fr/datasets/582c8978c751df788ec0bb7e/",
+ "licence": "Licence Ouverte / Open Licence (Etalab)",
+ "extracted": "2026-10-17",
+ "rows": 152161,
+ "qualiopi_total": 44395,
+ "unplaced": 0,
+ "regions": {
+  "Auvergne-Rhône-Alpes": {
+   "declared": 21263,
+   "qualiopi": 5893
+  },
+  "Bourgogne-Franche-Comté": {
+   "declared": 4206,
+   "qualiopi": 1212
+  },
+  "Bretagne": {
+   "declared": 5683,
+   "qualiopi": 1604
+  },
+  "Centre-Val de Loire": {
+   "declared": 4191,
+   "qualiopi": 1074
+  },
+  "Corse": {
+   "declared": 522,
+   "qualiopi": 195
+  },
+  "Grand Est": {
+   "declared": 8176,
+   "qualiopi": 2454
+  },
+  "Hauts-de-France": {
+   "declared": 7928,
+   "qualiopi": 2381
+  },
+  "Normandie": {
+   "declared": 5261,
+   "qualiopi": 1394
+  },
+  "Nouvelle-Aquitaine": {
+   "declared": 12584,
+   "qualiopi": 3449
+  },
+  "Occitanie": {
+   "declared": 16086,
+   "qualiopi": 4206
+  },
+  "Outre-mer": {
+   "declared": 5686,
+   "qualiopi": 1643
+  },
+  "Pays de la Loire": {
+   "declared": 8561,
+   "qualiopi": 2226
+  },
+  "Provence-Alpes-Côte d'Azur": {
+   "declared": 12557,
+   "qualiopi": 3769
+  },
+  "Île-de-France": {
+   "declared": 39457,
+   "qualiopi": 12895
+  }
+ },
+ "territories": {
+  "Guadeloupe": {
+   "declared": 1248,
+   "qualiopi": 387
+  },
+  "Guyane": {
+   "declared": 624,
+   "qualiopi": 162
+  },
+  "La Réunion": {
+   "declared": 2675,
+   "qualiopi": 687
+  },
+  "Martinique": {
+   "declared": 961,
+   "qualiopi": 303
+  },
+  "Mayotte": {
+   "declared": 171,
+   "qualiopi": 101
+  },
+  "Saint-Pierre-et-Miquelon": {
+   "declared": 7,
+   "qualiopi": 3
+  }
+ }
+}

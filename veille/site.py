@@ -15,7 +15,7 @@ from urllib.parse import urlparse
 from .digest import NATIONAL_THRESHOLD, is_national, render
 from .exporters import ATTRIBUTION, fmt_date, fmt_deadline, to_atom, to_json, to_rss
 from . import sales as sales_mod
-from . import landing, shop
+from . import datapages, guides, landing, shop, stats
 from .geo import REGIONS, slugify
 from .model import PARIS, Notice, fold, iso_week_bounds
 
@@ -65,7 +65,7 @@ NETWORK_HTML = ('<nav class="rf-network" aria-label="Autres outils Jalonel">\n'
 
 # Date of the last change to the page templates (copy, layout). Pages without notice data use it as their
 # sitemap lastmod; update it by hand when a template changes.
-TEMPLATE_DATE = "2026-10-13"
+TEMPLATE_DATE = "2026-10-17"
 
 # "en Normandie", but "dans les Hauts-de-France".
 REGION_IN = {"Grand Est": "dans le Grand Est", "Hauts-de-France": "dans les Hauts-de-France",
@@ -109,6 +109,11 @@ class Site:
         self.now = now
         self.pages: list[tuple[str, str]] = []  # (path, lastmod)
         self.meta: dict = {}
+        self.org_ref = ORG_REF
+        self.lastmods: dict[str, str] = {}  # every written page, in the sitemap or not
+        self.decisions: dict[str, stats.IndexDecision] = {}  # index rule of each data page
+        self.qualiopi: dict = {}
+        self.theme_pages: dict[str, stats.IndexDecision] = {}
 
     # -- helpers -------------------------------------------------------------
 
@@ -133,6 +138,7 @@ class Site:
             else part.replace("« ", "«&nbsp;").replace(" »", "&nbsp;»")
             for part in SCRIPT_RE.split(html))
         target.write_text(html, encoding="utf-8")
+        self.lastmods[path] = lastmod or TEMPLATE_DATE
         if sitemap:
             self.pages.append((path, lastmod or TEMPLATE_DATE))
 
@@ -144,7 +150,7 @@ class Site:
         ld_json = json.dumps(jsonld, ensure_ascii=False).replace("</", "<\\/")
         ld = f'<script type="application/ld+json">{ld_json}</script>' if jsonld else ""
         robots = "noindex" if noindex is True else noindex
-        nav = [("", "Annonces"), ("region/", "Régions"), ("semaine/", "Archives"), ("methode/", "Méthode")]
+        nav = [("", "Annonces"), ("region/", "Régions"), ("theme/", "Thèmes"), ("semaine/", "Archives"), ("methode/", "Méthode")]
         nav_html = "".join(
             f'<a href="{self.link(p)}"{" aria-current=\"page\"" if p == path else ""}>{label}</a>'
             for p, label in nav)
@@ -285,9 +291,18 @@ class Site:
         for t in tenders:
             by_week[t.iso_week()].append(t)
 
+        self.qualiopi = datapages.load_qualiopi()
+        cpv_labels = guides.load_cpv_labels()
+        self.theme_pages = datapages.theme_pages(self, open_items, cpv_labels)
         self.index(open_items, meta)
         self.weeks(by_week)
         self.regions(open_items)
+        datapages.opco_page(self, open_items)
+        guides.france_travail_guide(self, open_items)
+        guides.cpv_guide(self)
+        warning = datapages.editorial_age_warning(self.now.astimezone(PARIS).date())
+        if warning:
+            print(f"::warning::{warning}")
         self.alerts(open_items)
         self.method(meta)
         self.legal()
@@ -343,6 +358,7 @@ class Site:
 <li><strong>{soon}</strong><span>clôturent sous 7 jours</span></li>
 </ul>
 {self.region_line(items)}
+{datapages.theme_line(self, self.theme_pages, items)}
 
 <section aria-labelledby="filtres-titre" class="filters" id="filtres" hidden>
 <h2 id="filtres-titre" class="sr-only">Filtrer les annonces</h2>
@@ -449,59 +465,14 @@ class Site:
                    lastmod=self.content_date(t for w in weeks for t in by_week[w]))
 
     def regions(self, open_items: list[Notice]) -> None:
-        rows = []
+        """Region pages v2 and the hub (veille/datapages.py)."""
         national = [t for t in open_items if is_national(t)]
-        today = fmt_date(self.now.astimezone(PARIS).date().isoformat())
-        local_by = {r: [t for t in open_items if r in t.regions and not is_national(t)] for r in REGIONS}
+        today = self.now.astimezone(PARIS).date()
+        n12_by = {r: len(stats.last12(datapages.region_scope(self.tenders, r), today)) for r in REGIONS}
+        n12_by["_national"] = len(stats.last12([t for t in self.tenders if is_national(t)], today))
         for r in REGIONS:
-            slug = slugify(r)
-            local = local_by[r]
-            where = region_in(r)
-            rows.append(f'<tr><th scope="row"><a href="{self.link(f"region/{slug}/")}">{e(r)}</a></th>'
-                        f'<td>{len(local)}</td><td>{self.vol.local.get(r, 0)}</td></tr>')
-            count = (f"Aucun appel d'offres de formation ouvert {e(where)}" if not local else
-                     f"<strong>{plural(len(local), 'appel', 'appels')}</strong> d'offres de formation "
-                     f"{'ouvert' if len(local) == 1 else 'ouverts'} {e(where)}")
-            cta = ""
-            if self.sales.open:
-                cta = (f' <a href="{self.link(f"alertes/?region={slug}")}">Recevoir les nouveaux avis {e(where)} par e-mail</a>, '
-                       f"chaque matin vers 7&nbsp;h, dès {e(landing.price(self.sales.products['veille-ao-3m']))} pour 3 mois.")
-            others = ", ".join(f'<a href="{self.link(f"region/{slugify(o)}/")}">{e(o)}</a>&nbsp;({len(local_by[o])})'
-                               for o in REGIONS if o != r)
-            body = f"""
-<nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › <a href="{self.link('region/')}">Régions</a> › {e(r)}</nav>
-<h1>Appels d'offres formation {e(where)}</h1>
-<p class="lead">{count} au {today}, plus {plural(len(national), "annonce nationale ou multi-régions", "annonces nationales ou multi-régions")}. Source : BOAMP et TED, mise à jour le {self.updated_label()}.</p>
-<p>Ces {landing.VOLUME_DAYS} derniers jours, {plural(self.vol.local.get(r, 0), "avis de formation a été publié", "avis de formation ont été publiés")} avec un lieu d'exécution {e(where)}, sans compter les avis nationaux.{cta}</p>
-<h2>Ouverts {e(where)} ({len(local)})</h2>
-{self.cards(local)}
-<h2>Annonces nationales ou multi-régions ({len(national)})</h2>
-<p class="small muted">Avis sans lieu précis, ou dont le lieu couvre {NATIONAL_THRESHOLD} régions ou plus. Ils figurent sur les {len(REGIONS)} pages régionales.</p>
-{self.cards(national)}
-<p class="small muted">Le lieu vient des départements indiqués au BOAMP ou des codes NUTS de TED. Les marchés publiés seulement sur le profil d'acheteur n'y figurent pas. <a href="{self.link('methode/')}">Méthode et sources</a>.</p>
-<p class="region-line"><span>Autres régions :</span> {others}.</p>
-"""
-            scope = [t for t in self.tenders if is_national(t) or (r in t.regions)]
-            n = len(local)
-            self.write(f"region/{slug}/", self.page(
-                f"region/{slug}/", f"Appels d'offres formation {r} – marchés publics ouverts",
-                f"{plural(n, 'appel', 'appels')} d'offres de formation {'ouvert' if n == 1 else 'ouverts'} {where} "
-                "(BOAMP, TED) : acheteur, date limite, lien vers l'avis officiel. Mis à jour deux fois par jour.",
-                body, sticky=True), lastmod=self.content_date(scope))
-        body = f"""
-<nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Régions</nav>
-<h1>Appels d'offres formation par région</h1>
-<p class="lead">{len(open_items)} appels d'offres de formation ouverts au {today}, classés selon le lieu d'exécution indiqué dans l'avis (départements BOAMP ou codes NUTS de TED). Les {len(national)} annonces sans lieu précis, ou dont le lieu couvre {NATIONAL_THRESHOLD} régions ou plus, sont classées « nationales » et figurent sur chaque page régionale.</p>
-<div class="table-wrap"><table class="region-table">
-<thead><tr><th scope="col">Région</th><th scope="col">Ouverts aujourd'hui</th><th scope="col">Publiés en {landing.VOLUME_DAYS} jours</th></tr></thead>
-<tbody>{''.join(rows)}<tr><th scope="row">Nationales ou multi-régions</th><td>{len(national)}</td><td>{self.vol.national}</td></tr></tbody>
-</table></div>
-<p class="small muted">Un avis qui couvre deux régions compte dans chacune. « Publiés en {landing.VOLUME_DAYS} jours » : avis publiés depuis le {fmt_date(self.vol.since)}, un par marché, annulés exclus. <a href="{self.link('methode/')}">Méthode et sources</a>.</p>
-"""
-        self.write("region/", self.page("region/", "Appels d'offres formation par région",
-                                        f"{len(open_items)} appels d'offres publics de formation ouverts, région par région : "
-                                        f"nombre d'avis ouverts et publiés en {landing.VOLUME_DAYS} jours, BOAMP et TED.", body),
-                   lastmod=self.content_date(self.tenders))
+            datapages.region_page(self, r, open_items, national, n12_by, self.theme_pages)
+        datapages.region_hub(self, open_items, national, n12_by)
 
     def soon_panel(self) -> str:
         return f"""<section class="panel soon" id="offre" aria-labelledby="alertes-titre">
@@ -593,6 +564,16 @@ class Site:
 <li>Région : départements indiqués par le BOAMP ; pour TED, lieu d'exécution (codes NUTS) ou, à défaut, code postal de l'acheteur.</li>
 <li>Aucune intelligence artificielle : les textes affichés sont des extraits des avis officiels. Les noms et coordonnées de personnes figurant dans les avis ne sont pas repris.</li>
 </ul>
+<h2>Pages régionales, thématiques et acheteurs</h2>
+<dl class="defs">
+<dt>12 mois</dt><dd>avis publiés au cours des 365 derniers jours, un par marché (copies BOAMP et TED et rectificatifs fusionnés), avis annulés exclus. Une région compte les avis dont le lieu d'exécution est dans la région, hors avis nationaux.</dd>
+<dt>Délai pour répondre</dt><dd>nombre de jours entre la première publication et la date limite, en médiane sur les avis qui donnent une date limite.</dd>
+<dt>Allotis, accords-cadres, montants</dt><dd>un avis est alloti quand il liste des lots ; il compte comme accord-cadre quand son objet le dit (c'est donc un minimum) ; le montant médian n'est donné que si au moins 5 avis publient un montant estimé.</dd>
+<dt>Clôturés ces 90 derniers jours</dt><dd>avis dont la date limite est passée depuis moins de 90 jours, gardés pour montrer qui achète.</dd>
+<dt>Thèmes</dt><dd>un avis est classé dans un thème si son objet ou l'un de ses lots contient une expression du thème (règles publiques dans <a href="{REPO_URL}/blob/main/veille/taxonomy.py">taxonomy.py</a>). Le nom de l'acheteur et la description libre ne sont pas utilisés, sauf pour écarter un acheteur qui forme ses propres conseillers (associations régionales des missions locales, CNFPT) du thème insertion. Avant publication, nous avons relu 337 avis à la main : chaque thème publié dépasse 90 % de précision sur un échantillon qui n'a pas servi à régler ses règles (<a href="{datapages.EVALUATION_URL}">évaluation</a>).</dd>
+<dt>Organismes certifiés Qualiopi</dt><dd>comptés chaque mois dans la <a href="https://www.data.gouv.fr/datasets/582c8978c751df788ec0bb7e/">liste publique des organismes de formation</a> (ministère du Travail, Licence Ouverte), selon le code région de l'adresse déclarée ; « certifié » veut dire certifié pour les actions de formation. Dernière extraction : {e(fmt_date(self.qualiopi.get('extracted', TEMPLATE_DATE)))}.</dd>
+<dt>Pages peu fournies</dt><dd>une page régionale, thématique ou acheteur n'est proposée aux moteurs de recherche que si elle compte au moins 40 avis en 12 mois et au moins 4 avis ouverts un jour type (médiane des 180 derniers jours). Elle en sort sous 30 avis ou 3 avis ouverts, et reste consultable.</dd>
+</dl>
 <h2>Limites</h2>
 <ul>
 <li>Ce n'est pas une liste exhaustive : beaucoup de marchés à procédure adaptée (MAPA) ne sont publiés que sur le profil d'acheteur ou dans la presse locale, et n'apparaissent ni au BOAMP ni dans TED.</li>
@@ -603,8 +584,8 @@ class Site:
 <p>Le code est public sur <a href="{REPO_URL}">GitHub</a>. Les exports CSV et ICS de chaque semaine sont publiés dans les <a href="{REPO_URL}/releases">releases</a>.</p>
 """
         self.write("methode/", self.page("methode/", "Méthode et sources – Veille AO Formation",
-                                         "Sources (BOAMP, TED), licences, critères de sélection (CPV 805, descripteur "
-                                         "Formation), fréquence de mise à jour et limites.", body))
+                                         "Sources (BOAMP, TED, liste des organismes de formation), critères de sélection, "
+                                         "classement par thème et sa précision mesurée, calcul des chiffres, limites.", body))
 
     def legal(self) -> None:
         p = PUBLISHER
