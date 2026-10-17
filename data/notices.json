@@ -28821,6 +28821,51 @@
     "Lot n°7 Gestes et postures"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-100344",
+   "source": "BOAMP",
+   "source_id": "26-100344",
+   "title": "BAMAC_2026-365_IMMO",
+   "buyer": "BAMAC",
+   "published": "2026-10-17",
+   "deadline": "2026-11-12T16:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100344",
+   "procedure_id": "b4fe19fa-fdc1-492f-9f07-3c75ba149b03",
+   "description": "L’accord-cadre a pour objet la conception et l’animation de formations à l’immobilier et la mise à disposition de modules d’autoformations en ligne au profit de l’IGPDE",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000",
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 758000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-96536"
+   ],
+   "summary": "",
+   "lots": [
+    "Formation à l’Immobilier durable et résilient",
+    "Formation à la gestion opérationnelle et maîtrise d’ouvrage",
+    "Formations aux nouveaux espaces de travail"
+   ],
+   "updated": ""
   }
  ]
 }
