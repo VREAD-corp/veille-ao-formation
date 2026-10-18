@@ -130,6 +130,7 @@ class Site:
         if sitemap:
             self.pages.append((path, lastmod or TEMPLATE_DATE))
 
+    # Legal notice and privacy pages are near-identical across the Jalonel subdomains: noindex, follow (2026-10-18).
     def page(self, path: str, title: str, description: str, body: str, *,
              jsonld: dict | list | None = None, scripts: bool = False, noindex: bool | str = False,
              csp: str = "", body_scripts: str = "", sticky: bool = False) -> str:
@@ -591,7 +592,8 @@ class Site:
 <p>Les informations publiées ne constituent pas un conseil juridique. Vérifiez toujours l'avis officiel et le dossier de consultation avant de répondre à un marché.</p>
 """
         self.write("mentions-legales/", self.page("mentions-legales/", "Mentions légales – Veille AO Formation",
-                                                  "Éditeur, hébergeur et sources de Veille AO Formation.", mentions))
+                                                  "Éditeur, hébergeur et sources de Veille AO Formation.", mentions,
+                                                  noindex="noindex, follow"), sitemap=False)
         privacy = f"""
 <h1>Confidentialité</h1>
 <p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure anonyme et agrégée de la fréquentation et de l'usage du site est effectuée (voir ci-dessous). Aucun bandeau cookies n'est donc nécessaire.</p>
@@ -621,7 +623,8 @@ class Site:
         self.write("confidentialite/", self.page("confidentialite/", "Confidentialité – Veille AO Formation",
                                                  "Aucun cookie ni traceur à la consultation ; cookies de Stripe et données traitées seulement pour l'abonnement aux alertes."
                                                  if self.sales.open else
-                                                 "Aucune donnée personnelle collectée, aucun cookie ni traceur.", privacy))
+                                                 "Aucune donnée personnelle collectée, aucun cookie ni traceur.", privacy,
+                                                 noindex="noindex, follow"), sitemap=False)
         cgv = f"""
 <h1>Conditions générales de vente — projet</h1>
 <div class="panel soon"><p><strong>Projet non applicable, en attente de validation par la direction de READ FRANCE SAS.</strong> Aucun abonnement n'est vendu à ce jour ; ce texte décrit les conditions envisagées pour les futures alertes e-mail.</p></div>
