@@ -50,18 +50,6 @@ ORG_REF = {"@type": "Organization", "@id": ORG_ID, "name": "Jalonel", "url": "ht
            "parentOrganization": {"@type": "Organization", "name": "READ FRANCE SAS", "identifier": "SIREN 988741773"}}
 JALONEL_URL = "https://jalonel.com/"
 
-# « Autres outils Jalonel »: the same footer block on every Jalonel site (hub + the paid offers).
-NETWORK_LINKS = [
-    ("Tous les outils", "https://jalonel.com/"),
-    ("Kit Qualiopi V10", "https://qualiopi.jalonel.com/"),
-    ("Pack documentation GPSR", "https://gpsr.jalonel.com/pack.html"),
-    ("Alertes appels d’offres formation", "https://ao-formation.jalonel.com/alertes/"),
-    ("Audit d’accessibilité", "https://accessibilite.jalonel.com/audit/"),
-]
-NETWORK_HTML = ('<nav class="rf-network" aria-label="Autres outils Jalonel">\n'
-                '<p class="rf-network-title">Autres outils Jalonel</p>\n<ul>\n'
-                + "\n".join(f'<li><a href="{href}">{label}</a></li>' for label, href in NETWORK_LINKS)
-                + "\n</ul>\n</nav>")
 
 # Date of the last change to the page templates (copy, layout). Pages without notice data use it as their
 # sitemap lastmod; update it by hand when a template changes.
@@ -200,7 +188,6 @@ class Site:
 </main>
 <footer class="foot">
 <div class="wrap">
-{NETWORK_HTML}
 <p class="attrib">{e(ATTRIBUTION)} Les avis officiels font foi : vérifiez toujours l'avis et le dossier de consultation avant de répondre.</p>
 <p>Contact : <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a></p>
 <nav aria-label="Liens de bas de page">

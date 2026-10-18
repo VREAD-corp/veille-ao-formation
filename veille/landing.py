@@ -268,6 +268,12 @@ def home_bottom(site) -> str:
 <p>Seulement les avis de vos régions et de vos mots-clés, avec la date limite et le lien vers l'avis officiel. {e(price(p['veille-ao-12m']))} pour 12 mois (soit {e(per_month(p['veille-ao-12m'], 12))} par mois) ou {e(price(p['veille-ao-3m']))} pour 3 mois, payés une fois.</p></div>
 <a class="btn btn-lg btn-light" href="{site.link('alertes/')}" data-cta>Voir un exemple d'e-mail et les prix →</a>
 </section>
+<section class="section faq" id="questions" aria-labelledby="questions-h">
+<h2 id="questions-h">Liste gratuite ou alertes payantes : trois questions</h2>
+<details class="faq-item" id="faq-home-gratuit"><summary>Faut-il payer pour consulter la liste ?</summary><p>Non. La liste, les pages par région et par thème, le flux RSS, le tableau CSV du lundi et le calendrier des dates limites restent gratuits et sans inscription. Seul l'envoi d'un e-mail chaque matin, filtré sur vos régions et vos mots-clés, est payant.</p></details>
+<details class="faq-item" id="faq-home-renouvellement"><summary>L'abonnement se renouvelle-t-il tout seul ?</summary><p>Non. Vous payez une fois pour 3 ou 12 mois ; un rappel part environ 7 jours avant la fin, puis les alertes s'arrêtent. Si, de notre fait, aucune alerte ne part pendant plus de 7 jours de suite, la période est prolongée d'autant ou, à votre demande, la part restante est remboursée (<a href="{site.link('cgv-pro/')}">CGV</a>, art. 9). Vente entre professionnels : pas de droit de rétractation (art. 10).</p></details>
+<details class="faq-item" id="faq-home-facture"><summary>Mon service achats veut un devis ou une facture.</summary><p>La facture PDF, au nom et au SIREN de votre entreprise, arrive avec l'e-mail de bienvenue.{' Sur la page des alertes, un devis PDF valable 30 jours, avec IBAN et référence de virement, s’obtient aussi en ligne.' if site.sales.quotes_enabled else ''} Prix nets, {VAT_LINE}.</p></details>
+</section>
 {about(site)}"""
 
 
@@ -301,7 +307,7 @@ def alerts_top(site, s: Sample, vol: Volume) -> str:
 <p class="lead">Chaque matin vers 7&nbsp;h, les avis BOAMP et TED publiés depuis la veille pour vos régions et vos mots-clés. {e(price(y))} pour 12 mois, soit {e(per_month(y, 12))} par mois, payé une fois, sans renouvellement automatique.</p>
 <div class="cta-block">
 <a class="btn btn-lg" href="#commander-h" data-cta>Recevoir mes alertes – {e(price(y))} pour 12 mois</a>
-<p class="price-note">ou {e(price(q))} pour 3 mois · réservé aux professionnels · paiement par carte{' ou virement sur devis' if site.sales.quotes_enabled else ''}, facture PDF</p>
+<p class="price-note">ou {e(price(q))} pour 3 mois · prix nets, {VAT_LINE} · réservé aux professionnels · paiement par carte{' ou virement sur devis' if site.sales.quotes_enabled else ''}, facture PDF</p>
 </div>
 <p class="hero-links"><a href="{site.link()}">Ou consulter gratuitement la liste des annonces →</a></p>
 </div>
@@ -419,6 +425,7 @@ def faq(site, vol: Volume) -> str:
 
 def alerts_bottom(site, vol: Volume) -> str:
     return f"""
+<p class="small order-guarantee">Si, de notre fait, aucune alerte ne part pendant plus de 7 jours de suite, la période est prolongée d'autant ou, à votre demande, la part restante est remboursée (<a href="{site.link('cgv-pro/')}">CGV</a>, art. 9). Vente entre professionnels : pas de droit de rétractation (art. 10).</p>
 {faq(site, vol)}
 <p class="cross-link">Beaucoup d’acheteurs publics exigent la certification Qualiopi. Le nouveau référentiel s’applique au 1er novembre 2026 : <a href="https://qualiopi.jalonel.com/">modèles et check-list du Kit Qualiopi V10</a>.</p>
 {about(site)}

@@ -2,6 +2,7 @@ import copy
 import csv
 import io
 import json
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
@@ -349,8 +350,9 @@ def test_site_build(tmp_path, boamp_records, ted_notices):
     assert "exemple-email" not in (out / "sitemap.xml").read_text()
     for path in ["index.html", "404.html", "region/bretagne/index.html", weeks[0].relative_to(out).as_posix()]:
         footer = (out / path).read_text().split('<footer class="foot">')[1]
-        assert '<nav class="rf-network" aria-label="Autres outils Jalonel">' in footer, path
-        assert 'href="https://gpsr.jalonel.com/pack.html"' in footer, path
+        # One link to the hub only, no sitewide block of links to the other Jalonel subdomains (scaled-content risk).
+        assert "rf-network" not in footer and "Autres outils" not in footer, path
+        assert not re.search(r'href="https://[a-z0-9-]+\.jalonel\.com', footer), path
         assert '<a href="https://jalonel.com/">Une marque Jalonel</a>' in footer and "READ FRANCE" not in footer, path
     alerts = (out / "alertes" / "index.html").read_text()
     if sales.load().open:  # committed sales.config.json: subscription page (details in test_sales.py)
