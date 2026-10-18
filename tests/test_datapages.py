@@ -198,7 +198,7 @@ def test_theme_pages_only_when_they_pass(built):
     assert (out / "theme" / "securite-sst-incendie" / "index.html").exists()
     assert not (out / "theme" / "langues").exists()  # never passed the rule: never built
     page = read(out, "theme/securite-sst-incendie")
-    assert "Ce que les acheteurs commandent" in page and "INRS" in page and datapages.EVALUATION_URL in page
+    assert "Ce que les acheteurs commandent" in page and "INRS" in page and datapages.EVALUATION_PATH in page
     assert 'href="/theme/securite-sst-incendie/"' in read(out, "")  # home links the theme
     assert SITE + "theme/securite-sst-incendie/" in (out / "sitemap.xml").read_text()
 

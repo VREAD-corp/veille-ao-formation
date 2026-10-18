@@ -344,6 +344,13 @@ def test_site_build(tmp_path, boamp_records, ted_notices):
         assert (out / path).exists(), path
     assert (out / "5be19f56d46ca3d2553bee28ebfa8edd.txt").read_text() == "5be19f56d46ca3d2553bee28ebfa8edd"  # IndexNow
     assert "Jalonel est une marque de READ FRANCE SAS." in (out / "mentions-legales" / "index.html").read_text()
+    # Free CSV / ICS downloads served by the site itself (not GitHub Releases); no GitHub repository link anywhere.
+    assert (out / "telechargements" / "ao-formation-ouverts.csv").read_text(encoding="utf-8").startswith("\ufeffid;source;titre")
+    assert (out / "telechargements" / "ao-formation-echeances.ics").read_text(encoding="utf-8").startswith("BEGIN:VCALENDAR")
+    assert 'href="/telechargements/ao-formation-ouverts.csv" data-mesure="free_download"' in index
+    for page in out.rglob("*.html"):
+        html = page.read_text(encoding="utf-8")
+        assert not re.search(r"github\.com/VREAD-corp|/releases/|Code source|vread", html, re.I), page
     weeks = list((out / "semaine").glob("20*-W*/index.html"))
     assert weeks
     assert '<meta name="robots" content="noindex">' in (out / "alertes" / "exemple-email.html").read_text()

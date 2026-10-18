@@ -24,8 +24,8 @@ from .model import CPV_LABELS, PARIS, Notice, fold
 
 ROOT = Path(__file__).resolve().parent.parent
 QUALIOPI_FILE = ROOT / "data" / "of_qualiopi.json"
-REPO_BLOB = "https://github.com/VREAD-corp/veille-ao-formation/blob/main/"
-EVALUATION_URL = REPO_BLOB + "docs/evaluation-themes.md"
+# Hand-checked precision of the theme rules: table on the method page (full protocol: docs/evaluation-themes.md).
+EVALUATION_PATH = "methode/#evaluation-themes"
 
 # Date the official sources quoted in the editorial blocks (themes, OPCO, guides) were last read. The build warns
 # when it is more than EDITORIAL_REVIEW_DAYS old (tests/test_datapages.py checks it is set and not in the future).
@@ -485,7 +485,7 @@ def theme_pages(site, open_items: list[Notice], cpv_labels: dict[str, str]) -> d
                         f'<td>{sum(1 for t in year if is_national(t))}</td></tr>')
         prec = taxonomy.PRECISION.get(slug)
         prec_txt = (f"Sur un échantillon relu à la main, {prec[0]} des {prec[1]} avis classés dans ce thème en relevaient vraiment "
-                    f"({pct(prec[0], prec[1])}) : <a href=\"{EVALUATION_URL}\">évaluation détaillée</a>." if prec else "")
+                    f"({pct(prec[0], prec[1])}) : <a href=\"{site.link(EVALUATION_PATH)}\">évaluation détaillée</a>." if prec else "")
         today_label = fmt_date(today.isoformat())
         cta = alert_cta(site, f"Recevoir les nouveaux avis « {th.keyword} » chaque matin",
                         f"Indiquez « {e(th.keyword)} » (ou vos propres mots-clés) et vos régions dans le formulaire : l'e-mail ne contient que les avis qui les mentionnent, lots compris.",
@@ -553,7 +553,7 @@ def theme_pages(site, open_items: list[Notice], cpv_labels: dict[str, str]) -> d
 <div class="table-wrap"><table class="region-table">
 <thead><tr><th scope="col">Thème</th><th scope="col">Ouverts aujourd'hui</th><th scope="col">Publiés en 12 mois</th></tr></thead>
 <tbody>{''.join(hub_rows)}</tbody></table></div>
-<p class="small muted">Le classement repose sur des règles publiques (mots et expressions de l'objet et des lots, jamais le nom de l'acheteur), sans IA. Avant de publier un thème, nous avons relu à la main des échantillons d'avis : chaque thème publié dépasse 90 % de précision. <a href="{EVALUATION_URL}">Évaluation détaillée</a> · <a href="{site.link('methode/')}">méthode</a>.</p>
+<p class="small muted">Le classement repose sur des règles publiques (mots et expressions de l'objet et des lots, jamais le nom de l'acheteur), sans IA. Avant de publier un thème, nous avons relu à la main des échantillons d'avis : chaque thème publié dépasse 90 % de précision. <a href="{site.link(EVALUATION_PATH)}">Évaluation détaillée</a> · <a href="{site.link('methode/')}">méthode</a>.</p>
 <p class="region-line"><span>Par région :</span> <a href="{site.link('region/')}">les 14 pages régionales</a>. <span>Par acheteur :</span> <a href="{site.link('acheteur/opco/')}">OPCO</a>.</p>
 """
     site.write("theme/", site.page("theme/", "Appels d'offres formation par thème",

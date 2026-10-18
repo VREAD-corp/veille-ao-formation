@@ -13,17 +13,15 @@ from typing import Iterable
 from urllib.parse import urlparse
 
 from .digest import NATIONAL_THRESHOLD, is_national, render
-from .exporters import ATTRIBUTION, fmt_date, fmt_deadline, to_atom, to_json, to_rss
+from .exporters import ATTRIBUTION, fmt_date, fmt_deadline, to_atom, to_csv, to_ics, to_json, to_rss
 from . import sales as sales_mod
-from . import datapages, guides, landing, shop, stats
+from . import datapages, guides, landing, shop, stats, taxonomy
 from .geo import REGIONS, slugify
 from .model import PARIS, Notice, fold, iso_week_bounds
 
-REPO = "VREAD-corp/veille-ao-formation"
-REPO_URL = f"https://github.com/{REPO}"
-RELEASE_CSV = f"{REPO_URL}/releases/latest/download/ao-formation-ouverts.csv"
-RELEASE_ICS = f"{REPO_URL}/releases/latest/download/ao-formation-echeances.ics"
-INTEREST_ISSUE = f"{REPO_URL}/issues/1"
+# Free downloads served by the site itself, rebuilt at every update (open tenders as CSV, deadlines as ICS).
+CSV_FILE = "telechargements/ao-formation-ouverts.csv"
+ICS_FILE = "telechargements/ao-formation-echeances.ics"
 BRAND = "Veille AO Formation"
 STATIC = Path(__file__).resolve().parent.parent / "static"
 # Anonymous, cookieless audience measurement (verbatim copy of octave-checkout gas/web/jalonel/mesure.js).
@@ -196,7 +194,6 @@ class Site:
 <a href="{self.link('mentions-legales/')}">Mentions légales</a>
 <a href="{self.link('confidentialite/')}">Confidentialité</a>
 {f'<a href="{self.link("cgv-pro/")}">CGV</a>' if self.sales.open else f'<a href="{self.link("cgv/")}">CGV (projet)</a>'}
-<a href="{REPO_URL}">Code source</a>
 </nav>
 <p class="jalonel"><a href="{JALONEL_URL}">Une marque Jalonel</a></p>
 </div>
@@ -301,6 +298,9 @@ class Site:
         (self.out / "rss.xml").write_text(to_rss(feed_items, self.now, self.url), encoding="utf-8")
         (self.out / "data").mkdir(exist_ok=True)
         (self.out / "data" / "ouverts.json").write_text(to_json(open_items, self.now, self.url), encoding="utf-8")
+        (self.out / CSV_FILE).parent.mkdir(exist_ok=True)
+        (self.out / CSV_FILE).write_text(to_csv(open_items, self.now), encoding="utf-8")
+        (self.out / ICS_FILE).write_text(to_ics(open_items, self.now, self.url), encoding="utf-8", newline="")
         self.not_found()
         self.sitemap()
 
@@ -339,7 +339,7 @@ class Site:
         vol_attr = e(json.dumps({r: [self.vol.for_region(r), slugify(r)] for r in REGIONS},
                                 ensure_ascii=False, separators=(",", ":")))
         body = f"""
-{landing.home_hero(self, n, self.sample, RELEASE_CSV, RELEASE_ICS, sources_note)}
+{landing.home_hero(self, n, self.sample, self.link(CSV_FILE), self.link(ICS_FILE), sources_note)}
 <ul class="stats" aria-label="Chiffres clés">
 <li><strong>{n}</strong><span>appels d'offres ouverts</span></li>
 <li><strong>{new7}</strong><span>publiés ces 7 derniers jours</span></li>
@@ -388,7 +388,7 @@ class Site:
              "distribution": [
                  {"@type": "DataDownload", "encodingFormat": "application/json",
                   "contentUrl": self.url + "data/ouverts.json"},
-                 {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": RELEASE_CSV},
+                 {"@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": self.url + CSV_FILE},
              ]},
         ]
         self.write("", self.page(
@@ -515,11 +515,11 @@ class Site:
 <h2>Gratuit dès maintenant</h2>
 <ul>
 <li><a href="{self.link('feed.xml')}" data-mesure="free_download">Flux RSS / Atom</a> : toutes les nouvelles annonces, à filtrer dans votre lecteur de flux.</li>
-<li><a href="{RELEASE_CSV}" data-mesure="free_download">Export CSV hebdomadaire</a> et <a href="{RELEASE_ICS}" data-mesure="free_download">calendrier des dates limites</a>.</li>
+<li><a href="{self.link(CSV_FILE)}" data-mesure="free_download">Export CSV</a> et <a href="{self.link(ICS_FILE)}" data-mesure="free_download">calendrier des dates limites</a>.</li>
 <li>Les <a href="{self.link('region/')}">pages régionales</a> et les <a href="{self.link('#filtres')}">filtres</a> de la page d'accueil.</li>
 </ul>
 <h2>Être prévenu du lancement</h2>
-<p>Pas de formulaire ici, donc aucune donnée personnelle collectée. Si vous avez un compte GitHub, vous pouvez signaler votre intérêt (un 👍 suffit) sur <a href="{INTEREST_ISSUE}">ce ticket public</a> ; nous y annoncerons l'ouverture. Sinon, le lancement sera annoncé dans le flux RSS.</p>
+<p>Pas de formulaire ici, donc aucune donnée personnelle collectée. Pour être prévenu, écrivez-nous à <a href="mailto:{landing.CONTACT}">{landing.CONTACT}</a> ; le lancement sera aussi annoncé dans le flux RSS.</p>
 """
         self.write("alertes/", self.page("alertes/", "Alertes e-mail appels d'offres formation (bientôt)",
                                          "Projet d'alertes e-mail personnalisées sur les appels d'offres formation "
@@ -528,6 +528,9 @@ class Site:
 
     def method(self, meta: dict) -> None:
         last = meta.get("last_success") or {}
+        prec_rows = "\n".join(
+            f'<tr><th scope="row">{e(th.label[0].upper() + th.label[1:])}</th><td>{n} / {d}</td><td>{datapages.pct(n, d)}</td></tr>'
+            for slug, (n, d) in taxonomy.PRECISION.items() if (th := taxonomy.THEMES.get(slug)) and th.published)
         body = f"""
 <nav class="crumbs" aria-label="Fil d'Ariane"><a href="{self.link()}">Accueil</a> › Méthode</nav>
 <h1>Méthode, sources et limites</h1>
@@ -558,7 +561,7 @@ class Site:
 <dt>Délai pour répondre</dt><dd>nombre de jours entre la première publication et la date limite, en médiane sur les avis qui donnent une date limite.</dd>
 <dt>Allotis, accords-cadres, montants</dt><dd>un avis est alloti quand il liste des lots ; il compte comme accord-cadre quand son objet le dit (c'est donc un minimum) ; le montant médian n'est donné que si au moins 5 avis publient un montant estimé.</dd>
 <dt>Clôturés ces 90 derniers jours</dt><dd>avis dont la date limite est passée depuis moins de 90 jours, gardés pour montrer qui achète.</dd>
-<dt>Thèmes</dt><dd>un avis est classé dans un thème si son objet ou l'un de ses lots contient une expression du thème (règles publiques dans <a href="{REPO_URL}/blob/main/veille/taxonomy.py">taxonomy.py</a>). Le nom de l'acheteur et la description libre ne sont pas utilisés, sauf pour écarter un acheteur qui forme ses propres conseillers (associations régionales des missions locales, CNFPT) du thème insertion. Avant publication, nous avons relu 337 avis à la main : chaque thème publié dépasse 90 % de précision sur un échantillon qui n'a pas servi à régler ses règles (<a href="{datapages.EVALUATION_URL}">évaluation</a>).</dd>
+<dt>Thèmes</dt><dd>un avis est classé dans un thème si son objet ou l'un de ses lots contient une expression du thème (mots et expressions fixés à l'avance, sans IA). Le nom de l'acheteur et la description libre ne sont pas utilisés, sauf pour écarter un acheteur qui forme ses propres conseillers (associations régionales des missions locales, CNFPT) du thème insertion. Avant publication, nous avons relu 337 avis à la main : chaque thème publié dépasse 90 % de précision sur un échantillon qui n'a pas servi à régler ses règles (<a href="#evaluation-themes">évaluation</a>).</dd>
 <dt>Organismes certifiés Qualiopi</dt><dd>comptés chaque mois dans la <a href="https://www.data.gouv.fr/datasets/582c8978c751df788ec0bb7e/">liste publique des organismes de formation</a> (ministère du Travail, Licence Ouverte), selon le code région de l'adresse déclarée ; « certifié » veut dire certifié pour les actions de formation. Dernière extraction : {e(fmt_date(self.qualiopi.get('extracted', TEMPLATE_DATE)))}.</dd>
 <dt>Pages peu fournies</dt><dd>une page régionale, thématique ou acheteur n'est proposée aux moteurs de recherche que si elle compte au moins 40 avis en 12 mois et au moins 4 avis ouverts un jour type (médiane des 180 derniers jours). Elle en sort sous 30 avis ou 3 avis ouverts, et reste consultable.</dd>
 </dl>
@@ -568,8 +571,13 @@ class Site:
 <li>Le classement dépend des codes et descripteurs choisis par les acheteurs ; des annonces pertinentes peuvent manquer et quelques annonces peu pertinentes passer.</li>
 <li>Les informations sont fournies à titre indicatif. Seuls l'avis officiel et le dossier de consultation font foi.</li>
 </ul>
-<h2>Code et données</h2>
-<p>Le code est public sur <a href="{REPO_URL}">GitHub</a>. Les exports CSV et ICS de chaque semaine sont publiés dans les <a href="{REPO_URL}/releases">releases</a>.</p>
+<h2 id="evaluation-themes">Précision des thèmes, relue à la main</h2>
+<p>Pour chaque thème, part des avis classés dans le thème qui en relevaient vraiment, sur un échantillon tiré au hasard et relu avis par avis, qui n'a pas servi à régler les règles. Un thème sous 90 % n'est pas publié. Le rappel (avis d'un thème que les règles manquent) n'a pas été mesuré.</p>
+<div class="table-wrap"><table class="region-table"><caption class="sr-only">Précision par thème</caption><thead><tr><th scope="col">Thème</th><th scope="col">Avis classés et relus</th><th scope="col">Précision</th></tr></thead><tbody>
+{prec_rows}
+</tbody></table></div>
+<h2>Données</h2>
+<p>Les données sont téléchargeables librement : <a href="{self.link(CSV_FILE)}" data-mesure="free_download">export CSV</a> des appels d'offres ouverts, <a href="{self.link(ICS_FILE)}" data-mesure="free_download">calendrier des dates limites</a> (.ics), <a href="{self.link('data/ouverts.json')}">data/ouverts.json</a> et le <a href="{self.link('feed.xml')}">flux Atom</a>, mis à jour à chaque relevé.</p>
 """
         self.write("methode/", self.page("methode/", "Méthode et sources – Veille AO Formation",
                                          "Sources (BOAMP, TED, liste des organismes de formation), critères de sélection, "
@@ -599,9 +607,8 @@ class Site:
 <p>Ce site ne collecte aucune donnée personnelle : pas de compte, pas de formulaire, pas de cookie ni de traceur tiers ; seule une mesure anonyme et agrégée de la fréquentation et de l'usage du site est effectuée (voir ci-dessous). Aucun bandeau cookies n'est donc nécessaire.</p>
 <ul>
 <li><strong>Hébergement</strong> : GitHub Pages traite des journaux techniques (adresse IP notamment) pour servir le site et le sécuriser, selon la <a href="https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement">déclaration de confidentialité de GitHub</a>.</li>
-<li><strong>Téléchargements</strong> : les exports CSV/ICS sont servis par GitHub Releases, qui ne nous communique qu'un nombre total de téléchargements, sans aucune information sur les personnes.</li>
+<li><strong>Téléchargements</strong> : les exports CSV/ICS sont servis par le site (GitHub Pages) ; seul leur nombre total est compté, par la mesure anonyme décrite ci-dessous.</li>
 <li><strong>Annonces</strong> : nous ne reprenons pas les noms ni les coordonnées des personnes de contact figurant dans les avis publics ; seul le nom de l'acheteur public est affiché.</li>
-{'' if self.sales.open else "<li><strong>Ticket GitHub</strong> : si vous réagissez au ticket public d'intérêt, votre pseudonyme GitHub est visible publiquement, selon les règles de GitHub.</li>"}
 </ul>
 <h2>Mesure d'audience et de comportement (mise à jour du 13 octobre 2026)</h2>
 <p>Nous mesurons la fréquentation et l'usage de ce site de façon anonyme et agrégée, pour ses seules statistiques et pour l'améliorer. Seuls des totaux journaliers sont conservés, dans un tableur de READ FRANCE hébergé par Google :</p>

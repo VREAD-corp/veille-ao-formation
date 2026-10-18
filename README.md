@@ -1,6 +1,6 @@
 # Veille AO Formation
 
-Open French public tenders for **training services** (formation professionnelle), refreshed twice a day from free official open data, published as a static site with filters, RSS/Atom, JSON and weekly CSV/ICS exports.
+Open French public tenders for **training services** (formation professionnelle), refreshed twice a day from free official open data, published as a static site with filters, RSS/Atom, JSON and CSV/ICS downloads.
 
 **Site:** https://ao-formation.jalonel.com/ (served at the root of the subdomain; `--site-url` / `SITE_URL` default)
 
@@ -13,7 +13,7 @@ Brand **Jalonel** (https://jalonel.com/), a brand of READ FRANCE SAS (legal oper
    - **TED** search API v3 (`api.ted.europa.eu/v3/notices/search`, no key): French buyers, CPV 80000000 tree + 79632000/79633000, calls for competition only.
 2. Keeps a notice if it is a services contract and has a training CPV (804/805/806xxxxx, 80000000, 79632000, 79633000), or BOAMP's descriptor "Formation" (code 410), or (only when no CPV is given) a training keyword in the title/lot names. See `veille/model.py`.
 3. Normalises (deadline as written in the notice, regions from departments / NUTS codes, CPV, estimated value, lots), merges into `data/notices.json` and de-duplicates by eForms procedure id (BOAMP + TED copies, rectificatifs).
-4. `python -m veille build` writes the site to `_site/`: open tenders with client-side filters (keyword, region, deadline), weekly archive pages, region pages, Atom + RSS feeds, `data/ouverts.json`, sitemap.
+4. `python -m veille build` writes the site to `_site/`: open tenders with client-side filters (keyword, region, deadline), weekly archive pages, region pages, Atom + RSS feeds, `data/ouverts.json`, the free downloads `telechargements/ao-formation-ouverts.csv` and `telechargements/ao-formation-echeances.ics` (open tenders, rebuilt at every update and served by the site; links carry `data-mesure="free_download"`), sitemap.
    Data pages (2026-10-17, `veille/datapages.py`, `veille/guides.py`, `veille/stats.py`, `veille/taxonomy.py`):
    - 14 region pages `/region/<slug>/`: open notices, national ones (collapsed), notices closed in the last 90 days, 12-month figures (monthly counts, top buyers, themes, median days to respond, lots, accords-cadres, median value) and the Qualiopi-certified providers of the region; « Outre-mer » has one section per territory;
    - 7 theme pages `/theme/<slug>/` + hub: rules on title and lot names only, each published theme hand-checked at ≥ 90 % precision ([evaluation](docs/evaluation-themes.md), labels in `tests/fixtures/theme_labels.json`);
@@ -36,7 +36,7 @@ Personal data minimisation: contact names, e-mails and phone numbers present in 
 
 - `update.yml`: twice a day (05:40 and 17:40 UTC) — tests, fetch, monthly Qualiopi counts, commit `data/` if changed, build and deploy GitHub Pages. Manual run accepts `since=YYYY-MM-DD` to backfill (the store holds 12 months since 2026-10-17).
 - `tests.yml`: tests and a build on pull requests and on pushes to other branches than `main`.
-- `weekly-release.yml`: Mondays 06:30 UTC — creates the release `export-YYYY-Www` with the CSV and ICS. Assets keep stable names, so `releases/latest/download/ao-formation-ouverts.csv` always points to the latest week. An existing release is never overwritten (download counts are the KPI).
+- `weekly-release.yml`: Mondays 06:30 UTC — creates the release `export-YYYY-Www` with the CSV and ICS (archive only since 2026-10-18: the site no longer links to GitHub; its downloads are served from `telechargements/`). An existing release is never overwritten.
 
 ## Summaries (off)
 

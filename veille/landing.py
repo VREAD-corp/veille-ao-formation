@@ -215,7 +215,7 @@ def free_formats(site, release_csv: str, release_ics: str) -> str:
     return f"""<details class="formats"><summary>Autres formats gratuits ▾</summary>
 <ul>
 <li><a href="{site.link('rss.xml')}" data-mesure="free_download">Flux RSS</a> : les nouvelles annonces dans votre lecteur de flux.</li>
-<li><a href="{release_csv}" data-mesure="free_download">Tableau de la semaine (CSV)</a> : publié chaque lundi, s'ouvre dans Excel.</li>
+<li><a href="{release_csv}" data-mesure="free_download">Tableau des avis ouverts (CSV)</a> : mis à jour deux fois par jour, s'ouvre dans Excel.</li>
 <li><a href="{release_ics}" data-mesure="free_download">Calendrier des dates limites (.ics)</a> : Google Agenda, Outlook, Apple Calendrier.</li>
 <li><a href="{site.link('region/')}">Pages par région</a> et <a href="{site.link('semaine/')}">archives par semaine</a>.</li>
 <li class="muted small">Pour les développeurs : <a href="{site.link('data/ouverts.json')}" data-mesure="free_download">fichier de données ouvertes</a>.</li>
@@ -270,7 +270,7 @@ def home_bottom(site) -> str:
 </section>
 <section class="section faq" id="questions" aria-labelledby="questions-h">
 <h2 id="questions-h">Liste gratuite ou alertes payantes : trois questions</h2>
-<details class="faq-item" id="faq-home-gratuit"><summary>Faut-il payer pour consulter la liste ?</summary><p>Non. La liste, les pages par région et par thème, le flux RSS, le tableau CSV du lundi et le calendrier des dates limites restent gratuits et sans inscription. Seul l'envoi d'un e-mail chaque matin, filtré sur vos régions et vos mots-clés, est payant.</p></details>
+<details class="faq-item" id="faq-home-gratuit"><summary>Faut-il payer pour consulter la liste ?</summary><p>Non. La liste, les pages par région et par thème, le flux RSS, le tableau CSV et le calendrier des dates limites restent gratuits et sans inscription. Seul l'envoi d'un e-mail chaque matin, filtré sur vos régions et vos mots-clés, est payant.</p></details>
 <details class="faq-item" id="faq-home-renouvellement"><summary>L'abonnement se renouvelle-t-il tout seul ?</summary><p>Non. Vous payez une fois pour 3 ou 12 mois ; un rappel part environ 7 jours avant la fin, puis les alertes s'arrêtent. Si, de notre fait, aucune alerte ne part pendant plus de 7 jours de suite, la période est prolongée d'autant ou, à votre demande, la part restante est remboursée (<a href="{site.link('cgv-pro/')}">CGV</a>, art. 9). Vente entre professionnels : pas de droit de rétractation (art. 10).</p></details>
 <details class="faq-item" id="faq-home-facture"><summary>Mon service achats veut un devis ou une facture.</summary><p>La facture PDF, au nom et au SIREN de votre entreprise, arrive avec l'e-mail de bienvenue.{' Sur la page des alertes, un devis PDF valable 30 jours, avec IBAN et référence de virement, s’obtient aussi en ligne.' if site.sales.quotes_enabled else ''} Prix nets, {VAT_LINE}.</p></details>
 </section>
