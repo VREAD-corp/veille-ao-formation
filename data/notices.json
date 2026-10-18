@@ -100403,6 +100403,96 @@
     "Formations aux nouveaux espaces de travail"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-100627",
+   "source": "BOAMP",
+   "source_id": "26-100627",
+   "title": "Animations nature, patrimoine et santé/bien être dans les Espaces Naturels Sensibles du Département de la Manche",
+   "buyer": "Département de la Manche",
+   "published": "2026-10-18",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100627",
+   "procedure_id": "2d79ff6b-b60c-4bdd-9c69-3423ddd5209f",
+   "description": "Prestations divisées en 7 lots qui seront traités par marchés séparés. Les prestations des différents lots font l'objet d'un fractionnement en bons de commande. Chaque lot comporte un montant maximum annuel fixé en valeur",
+   "departments": [
+    "50"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "92300000",
+    "80400000",
+    "92331210"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Animations naturalistes et scientifiques Nord Manche",
+    "Animations naturalistes et scientifiques Centre Manche",
+    "Animations naturalistes et scientifiques Sud Manche",
+    "Animations géologie",
+    "Animation valorisation du patrimoine",
+    "Contes, récits et balades contées en milieu naturel",
+    "Animations santé et bien-être en milieu naturel"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-100643",
+   "source": "BOAMP",
+   "source_id": "26-100643",
+   "title": "Conception et animation de formations et d'accompagnement individuels ou collectifs à destination des agents du ministère de l'Intérieur en matière de management",
+   "buyer": "Ministère de l'Intérieur",
+   "published": "2026-10-18",
+   "deadline": "2026-10-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100643",
+   "procedure_id": "c7246064-f63d-4331-8549-4b185bf13664",
+   "description": "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80532000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4810000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-97602"
+   ],
+   "summary": "",
+   "lots": [
+    "Bilans (managérial et individuel de compétence), accompagnement managérial individuel (encadrement supérieur) et collectifnistère de l’Intérieur en matière de…",
+    "Formation au management au bénéfice des cadres administratifs et techniques affectés dans les services en administration centrale ou en administration…",
+    "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management."
+   ],
+   "updated": ""
   }
  ]
 }
