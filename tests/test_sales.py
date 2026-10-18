@@ -200,10 +200,16 @@ def test_open_build_product_jsonld(tmp_path, monkeypatch):
     assert next(i for i in home if i["@type"] == "WebSite")["publisher"] == ref
     assert next(i for i in home if i["@type"] == "Dataset")["creator"] == ref
     assert "&nbsp;" not in json.dumps(home + items, ensure_ascii=False)  # typography fix stays out of JSON-LD
-    hero = index.split('<section aria-labelledby="filtres-titre"')[0]
+    # First screen (JALONEL-HUB-02): H1, one sentence and the alerts link with its starting price, then the filters
+    # and the list; the full price note (both periods, VAT line) and the e-mail preview come after the list.
+    hero, rest = index.split('<section aria-labelledby="filtres-titre"', 1)
     assert 'href="/alertes/" data-cta>Recevoir les AO formation de ma région chaque matin →</a>' in hero
     assert "49\u00a0€ pour 3 mois" in hero
-    assert "TVA non applicable, art. 293 B du CGI" in hero
+    words = lambda h: [w for w in re.sub(r"<[^>]+>", " ", h).split() if re.search(r"\w", w)]
+    assert len(words(hero.split("<h1>", 1)[1].split('class="hero-alert"')[0])) <= 30  # H1 + one sentence
+    assert len(words(hero.split("<h1>", 1)[1])) <= 40  # with the alerts link
+    after = rest.split('id="liste-titre"', 1)[1]
+    assert "TVA non applicable, art. 293 B du CGI" in after and 'id="apercu-alertes"' in after
 
 
 def test_closed_build_has_no_product_jsonld(tmp_path):

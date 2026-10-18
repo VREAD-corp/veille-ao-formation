@@ -1,10 +1,12 @@
 // Client-side filters for the open-tender list, "voir plus" paging and the alert call-to-action cards.
-// No tracking, no storage beyond the URL.
+// No storage beyond the URL. One anonymous `tool_use` hit per page at the first use of a filter (same request and
+// same opt-outs as mesure.js; nothing typed is sent), plus the cro.js goal 'tool'.
 (function () {
   "use strict";
   var panel = document.getElementById("filtres");
   if (!panel) return;
   panel.hidden = false;
+  var landingQuery = new URLSearchParams(location.search); // before writeUrl() rewrites it (octave_notrack, utm_*)
 
   var q = document.getElementById("q");
   var region = document.getElementById("region");
@@ -143,9 +145,31 @@
     writeUrl();
   }
 
+  // tool_use: the payload of mesure.js (gas/web/jalonel/mesure.js), sent once per page, never with what was typed.
+  var usedOnce = false;
+  function toolUse() {
+    if (usedOnce) return;
+    usedOnce = true;
+    if (window.octaveCro) window.octaveCro.goal("tool");
+    var n = navigator, tag = document.querySelector("script[data-site][data-api]");
+    if (!tag || n.doNotTrack == "1" || n.globalPrivacyControl) return;
+    var qs = landingQuery, K = "octave_notrack", x = "";
+    try { if (localStorage.getItem(K) == "1") x = "notrack"; } catch (err) { /* storage blocked */ }
+    x = x || (qs.get(K) == "1" && "notrack") || (n.webdriver && "webdriver") ||
+      (/bot\b|crawl|spider|slurp|headless|lighthouse|pagespeed|inspectiontool|googleother|mediapartners|bingpreview|phantom|puppeteer|playwright|selenium/i.test(n.userAgent) && "bot") || "";
+    var b = { v: 2, site: tag.getAttribute("data-site"), page: location.pathname, ref_domain: document.referrer.split("/")[2],
+      device: innerWidth < 768 ? "mobile" : "desktop", event: "tool_use", ts: Date.now() };
+    if (x) b.excluded = x;
+    ["source", "medium", "campaign"].forEach(function (k) { b["utm_" + k] = qs.get("utm_" + k); });
+    try {
+      fetch(tag.getAttribute("data-api") + "?action=track", { method: "POST", keepalive: true, credentials: "omit", redirect: "manual",
+        body: JSON.stringify(b) }).catch(function () { return 0; });
+    } catch (err) { /* old browser */ }
+  }
+
   readUrl();
   [q, region, deadline, national].forEach(function (el) {
-    el.addEventListener(el === q ? "input" : "change", function () { apply(); });
+    el.addEventListener(el === q ? "input" : "change", function () { toolUse(); apply(); });
   });
   apply();
 })();

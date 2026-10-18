@@ -339,14 +339,7 @@ class Site:
         vol_attr = e(json.dumps({r: [self.vol.for_region(r), slugify(r)] for r in REGIONS},
                                 ensure_ascii=False, separators=(",", ":")))
         body = f"""
-{landing.home_hero(self, n, self.sample, self.link(CSV_FILE), self.link(ICS_FILE), sources_note)}
-<ul class="stats" aria-label="Chiffres clés">
-<li><strong>{n}</strong><span>appels d'offres ouverts</span></li>
-<li><strong>{new7}</strong><span>publiés ces 7 derniers jours</span></li>
-<li><strong>{soon}</strong><span>clôturent sous 7 jours</span></li>
-</ul>
-{self.region_line(items)}
-{datapages.theme_line(self, self.theme_pages, items)}
+{landing.home_hero(self, n, sources_note)}
 
 <section aria-labelledby="filtres-titre" class="filters" id="filtres" hidden>
 <h2 id="filtres-titre" class="sr-only">Filtrer les annonces</h2>
@@ -369,6 +362,15 @@ class Site:
 {self.cards(items)}
 {landing.inline_cta_template(self) if self.sales.open else ''}
 </section>
+
+<ul class="stats" aria-label="Chiffres clés">
+<li><strong>{n}</strong><span>appels d'offres ouverts</span></li>
+<li><strong>{new7}</strong><span>publiés ces 7 derniers jours</span></li>
+<li><strong>{soon}</strong><span>clôturent sous 7 jours</span></li>
+</ul>
+{self.region_line(items)}
+{datapages.theme_line(self, self.theme_pages, items)}
+{landing.home_after_list(self, self.sample, self.link(CSV_FILE), self.link(ICS_FILE))}
 
 {landing.home_bottom(self) if self.sales.open else self.soon_panel() + landing.about(self)}
 """
