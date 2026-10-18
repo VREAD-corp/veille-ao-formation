@@ -52,7 +52,7 @@ def cpv_with_digit() -> dict[str, str]:
 def author_box(site, updated: str) -> str:
     return f"""<aside class="author-box" aria-label="À propos de ce guide">
 <p><strong>Jalonel</strong>, marque de READ FRANCE SAS (Paris). Publié le {fmt_date(GUIDE_PUBLISHED)}, chiffres mis à jour le {fmt_date(updated)} à partir des avis BOAMP et TED de nos données.</p>
-<p class="small">Rédigé avec l'aide d'Octave, l'assistant IA de READ FRANCE, à partir des sources officielles citées, lues le {fmt_date(EDITORIAL_CHECKED)}. Directeur de la publication : Tanguy Warsmann. Ce guide n'est pas un conseil juridique : l'avis officiel et le dossier de consultation font foi.</p>
+<p class="small">Rédigé avec l'aide d'Octave, l'assistant IA de READ FRANCE, à partir des sources officielles citées, lues le {fmt_date(EDITORIAL_CHECKED)}. Directeur de la publication : Tanguy Warsmann. Ce guide ne donne pas de conseil juridique ; l'avis officiel et le dossier de consultation font foi.</p>
 </aside>"""
 
 
