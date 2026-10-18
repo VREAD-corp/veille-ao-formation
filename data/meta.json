@@ -1,11 +1,11 @@
 {
  "last_success": {
-  "BOAMP": "2026-10-18 20:00 (heure de Paris)",
-  "TED": "2026-10-18 20:00 (heure de Paris)"
+  "BOAMP": "2026-10-18 21:41 (heure de Paris)",
+  "TED": "2026-10-18 21:41 (heure de Paris)"
  },
  "last_run_ok": {
   "BOAMP": true,
   "TED": true
  },
- "updated_at": "2026-10-18T18:00:48+00:00"
+ "updated_at": "2026-10-18T19:41:10+00:00"
 }
