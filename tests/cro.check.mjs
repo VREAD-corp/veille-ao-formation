@@ -1,5 +1,6 @@
 // Behaviour of cro.js (Octave aggregate behaviour counters + A/B variants) in a fake browser.
-// Portable, no dependency: node cro.check.mjs [path/to/cro.js]   (exit code 0 = ok). Vendored byte-identical.
+// Portable, no dependency: node cro.check.mjs [path/to/cro.js]   (exit code 0 = ok). Copy of octave-checkout/gas/web/cro.check.mjs
+// for the Jalonel copy (octave-checkout/gas/web/jalonel/cro.js, no default host): page on ao-formation.jalonel.com, listed in data-hosts.
 import fs from 'node:fs';
 import vm from 'node:vm';
 import assert from 'node:assert/strict';
@@ -10,6 +11,7 @@ const file = process.argv[2] || fileURLToPath(new URL('./cro.js', import.meta.ur
 const src = fs.readFileSync(file, 'utf8');
 const CHROME = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36';
 const API = 'https://script.google.com/macros/s/TEST/exec';
+const HOST = 'ao-formation.jalonel.com';
 
 class El {
   constructor(tag, { id = '', cls = [], sels = [], parent = null, attrs = {}, dataset = {}, ...rest } = {}) {
@@ -23,14 +25,14 @@ class El {
   setAttribute(k, v) { this.attrs[k] = String(v); }
 }
 
-function browser({ ua = CHROME, webdriver = false, search = '', local = {}, session = {}, dnt = '', gpc = false, host = 'outils.vread.fr',
+function browser({ ua = CHROME, webdriver = false, search = '', local = {}, session = {}, dnt = '', gpc = false, host = HOST,
   path = '/candadopyme/', xp, prerendering = false, visibility = 'visible', now = Date.UTC(2026, 9, 13, 15), scrollHeight = 800, attrs = {} } = {}) {
   const sent = [], winL = {}, docL = {}, els = [], observed = [];
   const store = (o) => ({ getItem: (k) => (k in o ? o[k] : null), setItem: (k, v) => { o[k] = String(v); }, removeItem: (k) => { delete o[k]; } });
   const html = new El('html');
   const doc = {
     readyState: 'complete', prerendering, visibilityState: visibility, referrer: 'https://www.google.com/', forms: [], documentElement: Object.assign(html, { scrollHeight }),
-    currentScript: { dataset: { site: 'candadopyme', api: API, ...attrs } },
+    currentScript: { dataset: { site: 'candadopyme', api: API, hosts: HOST, ...attrs } },
     addEventListener: (k, f) => { (docL[k] ||= []).push(f); }, removeEventListener: (k, f) => { docL[k] = (docL[k] || []).filter((g) => g !== f); },
     querySelectorAll: (sel) => els.filter((e) => e.matches(sel)),
   };
@@ -115,7 +117,7 @@ assert.ok(has(ev, 'form', 'preventa', 'submit') && !has(ev, 'abandon'), 'submitt
 
 // 4. CTA timing, outbound domain, rage clicks, FAQ items, JS errors (hash only, capped).
 b = browser();
-const cta = b.el('a', { dataset: { cta: '' }, sels: ['a[href]'], hostname: 'outils.vread.fr' });
+const cta = b.el('a', { dataset: { cta: '' }, sels: ['a[href]'], hostname: HOST });
 const out = b.el('a', { sels: ['a[href]'], hostname: 'www.sii.cl' });
 const btn = b.el('button', { id: 'calc', cls: ['big'] });
 b.run();
@@ -137,7 +139,7 @@ assert.ok(ev.filter((e) => e[0] === 'err').every((e) => /^[0-9a-f]{1,8}$/.test(e
 // 5. Never sent: DNT, GPC, other host, our tests, automated browsers, crawlers. Variants still apply.
 const XP = [{ id: 'price', variants: ['a', 'b'], mode: 'day', tz: 'America/Santiago', param: 'precio' }];
 for (const o of [{ dnt: '1' }, { gpc: true }, { host: 'example.com' }, { search: '?octave_notrack=1' }, { local: { octave_notrack: '1' } }, { webdriver: true },
-  { ua: CHROME.replace('Chrome/', 'HeadlessChrome/') }, { ua: 'Googlebot/2.1 (+http://www.google.com/bot.html)' }, { attrs: { api: '' } }]) {
+  { ua: CHROME.replace('Chrome/', 'HeadlessChrome/') }, { ua: 'Googlebot/2.1 (+http://www.google.com/bot.html)' }, { attrs: { api: '' } }, { attrs: { hosts: undefined } }]) {
   b = browser({ ...o, xp: XP });
   b.run(); b.fireWin('click', { target: new El('a', { dataset: { cta: '' } }) }); b.hide(); b.fireWin('pagehide');
   assert.equal(b.sent.length, 0, 'nothing sent for ' + JSON.stringify(o));

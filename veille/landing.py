@@ -19,7 +19,7 @@ from .geo import REGIONS, slugify
 from .model import PARIS, Notice
 from .sales import eur_short
 
-CONTACT = "octave@vread.fr"
+CONTACT = "contact@jalonel.com"
 VOLUME_DAYS = 30
 VAT_LINE = "TVA non applicable, art. 293 B du CGI"
 MAPA_FAMILY = "Marchés <90 k€ (MAPA)"
@@ -180,7 +180,7 @@ def sample_caption(s: Sample, now: datetime) -> str:
             f"environ {s.weekly} par semaine ces {VOLUME_DAYS} derniers jours.")
 
 
-# Founders (facts from vread.fr/presse and Vincent Cance's CV; same block on every Jalonel site).
+# Founders (facts from the press kit and Vincent Cance's CV; same block on every Jalonel site).
 FOUNDERS = [
     ("Tanguy Warsmann", "tanguy-warsmann.webp", "Fondateur &amp; CEO",
      "Formé aux lettres à la Sorbonne puis à emlyon business school, il a travaillé chez Cartier, puis chez AR/Factory, "

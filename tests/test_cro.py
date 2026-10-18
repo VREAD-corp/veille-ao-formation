@@ -15,11 +15,12 @@ from veille.site import CRO_API, CRO_SITE, Site
 
 ROOT = Path(__file__).resolve().parent.parent
 FIX = Path(__file__).parent / "fixtures"
-GAS_WEB = ROOT.parent / "octave-checkout" / "gas" / "web"
+# Jalonel copies of the tracking scripts (no reading-site host or prefix).
+GAS_WEB = ROOT.parent / "octave-checkout" / "gas" / "web" / "jalonel"
 NOW = datetime(2026, 10, 11, 10, 0, tzinfo=timezone.utc)
 SITE = "https://ao-formation.jalonel.com/"
 TAG = re.compile(r'<script src="/cro\.js" data-site="([^"]+)" data-api="([^"]+)" '
-                 r'data-hosts="ao-formation\.jalonel\.com outils\.vread\.fr" data-cta="\[data-cta\]" defer></script>')
+                 r'data-hosts="ao-formation\.jalonel\.com" data-cta="\[data-cta\]" defer></script>')
 
 
 @pytest.mark.skipif(not shutil.which("node"), reason="node not installed")
@@ -32,7 +33,8 @@ def test_cro_js_behaviour():
 @pytest.mark.skipif(not GAS_WEB.is_dir(), reason="octave-checkout checkout not next to this repo")
 def test_cro_files_match_octave_checkout():
     assert (ROOT / "veille" / "cro.js").read_bytes() == (GAS_WEB / "cro.js").read_bytes()
-    assert (Path(__file__).with_name("cro.check.mjs")).read_bytes() == (GAS_WEB / "cro.check.mjs").read_bytes()
+    assert (ROOT / "veille" / "mesure.js").read_bytes() == (GAS_WEB / "mesure.js").read_bytes()
+    # tests/cro.check.mjs: gas/web/cro.check.mjs adapted to the Jalonel cro.js (no default host).
 
 
 def test_cro_backend_is_the_mesure_backend():

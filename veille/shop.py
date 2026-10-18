@@ -326,7 +326,7 @@ def cgv_pro_body(site) -> str:
     s, p = SELLER, site.sales.products
     return f"""<!--
   CGV B2B rédigées par Octave (assistant IA de READ FRANCE SAS) le 12 octobre 2026 ; paiement par virement sur devis
-  ajouté le 13 octobre 2026 (vread-revenue-lab legal/REVUE-CGV-VIREMENT.md §3).
+  ajouté le 13 octobre 2026 (revue IA interne REVUE-CGV-VIREMENT, §3).
   CE N'EST PAS UN CONSEIL JURIDIQUE : texte à faire relire par un avocat ou un juriste.
 -->
 <h1>Conditions générales de vente aux professionnels – alertes e-mail</h1>

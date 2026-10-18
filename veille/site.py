@@ -26,14 +26,14 @@ RELEASE_ICS = f"{REPO_URL}/releases/latest/download/ao-formation-echeances.ics"
 INTEREST_ISSUE = f"{REPO_URL}/issues/1"
 BRAND = "Veille AO Formation"
 STATIC = Path(__file__).resolve().parent.parent / "static"
-# Anonymous, cookieless audience measurement (verbatim copy of octave-checkout gas/web/mesure.js).
+# Anonymous, cookieless audience measurement (verbatim copy of octave-checkout gas/web/jalonel/mesure.js).
 MESURE = Path(__file__).resolve().parent / "mesure.js"
-# Aggregate behaviour counters and A/B framework (verbatim copy of octave-checkout gas/web/cro.js), same backend.
+# Aggregate behaviour counters and A/B framework (verbatim copy of octave-checkout gas/web/jalonel/cro.js), same backend.
 CRO = Path(__file__).resolve().parent / "cro.js"
 CRO_SITE = "veille-ao-formation"
 INDEXNOW_KEY = "5be19f56d46ca3d2553bee28ebfa8edd"
 CRO_API = "https://script.google.com/macros/s/AKfycbzD1IRL8QALluKGZxgGiORFP6-DkC_qFJYR9aOxZiimxa06nbCqpzUI-9iLblp6V2VY/exec"
-CRO_HOSTS = "ao-formation.jalonel.com outils.vread.fr"
+CRO_HOSTS = "ao-formation.jalonel.com"
 # Time to first CTA = first click on a paid-alerts call to action (links to /alertes/ or #commander-h, pay button).
 CRO_CTA = "[data-cta]"
 

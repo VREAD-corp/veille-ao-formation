@@ -127,7 +127,7 @@ def test_open_build_terms_and_privacy(tmp_path, monkeypatch):
                    "149,00 € net pour 12 mois", "arrêter les alertes à tout moment", "plus de 7 jours consécutifs",
                    "n'est pas exhaustive", "ne s'applique pas", "limitée au prix payé", "trois fois le taux d'intérêt légal",
                    "40 €", "12 mois après sa fin", "10 ans", "CNIL", "tribunaux de Paris",
-                   # bank transfer on quote (vread-revenue-lab legal/REVUE-CGV-VIREMENT.md §3, Alertes numbering)
+                   # bank transfer on quote (internal legal review REVUE-CGV-VIREMENT.md §3, Alertes numbering)
                    "Avant de payer par carte ou de demander un devis", "virement bancaire SEPA en euros",
                    "Stripe Payments Europe, Limited et Stripe Technology Europe, Limited", "numéro de compte bancaire virtuel",
                    "valable trente (30) jours", "Un paiement partiel ne forme pas le contrat", "Affectation des paiements",
