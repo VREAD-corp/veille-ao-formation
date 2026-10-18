@@ -100493,6 +100493,177 @@
     "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management."
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-100818",
+   "source": "BOAMP",
+   "source_id": "26-100818",
+   "title": "Formation obligatoire des assistant(e)s maternel(le)s agréé(e)s-.",
+   "buyer": "DAFAP - Service de l'Achat Public",
+   "published": "2026-10-18",
+   "deadline": "2026-11-09T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100818",
+   "procedure_id": "bd73a527-113a-437d-9239-64b572b2652f",
+   "description": "",
+   "departments": [
+    "02"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-100942",
+   "source": "BOAMP",
+   "source_id": "26-100942",
+   "title": "Définition, mise en oeuvre et déploiement opérationnel de la stratégie d'intelligence artificielle du groupe ALTEMED",
+   "buyer": "ALTEMED",
+   "published": "2026-10-18",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-100942",
+   "procedure_id": "af06c3da-480f-42e1-8d3b-b70b6f0673ed",
+   "description": "Le marché est alloti. Lot n° 1 : Assistance à maîtrise d'ouvrage IA pour la définition, la mise en oeuvre et le déploiement opérationnel de la stratégie Nature et étendue des prestations : Poste 1: Définition et mise en oeuvre opérationnelle de la feuille de route IA (prix global et forfaitaire) Poste 2: Prestations d'expertise et d'accompagnement à la demande (prix unitaires avec émission de bons de commande) Poste…",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "72222000",
+    "72220000",
+    "72224000",
+    "80510000",
+    "72268000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Assistance à maîtrise d'ouvrage IA pour la définition, la mise en oeuvre et le déploiement opérationnel de la stratégie",
+    "La fourniture et la gestion des licences IA"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101002",
+   "source": "BOAMP",
+   "source_id": "26-101002",
+   "title": "Formations à destination des demandeurs d’emploi (dans le cadre du dispositif SFER) - Formations de création et de reprise d’entreprises – Relance",
+   "buyer": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE REGION HAUTS-DE-FRANCE",
+   "published": "2026-10-18",
+   "deadline": "2026-11-16T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101002",
+   "procedure_id": "72a24f3a-1392-401f-9884-0b3de39f3ee0",
+   "description": "",
+   "departments": [
+    "02",
+    "59",
+    "62",
+    "80"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101095",
+   "source": "BOAMP",
+   "source_id": "26-101095",
+   "title": "Réalisation d'actions de formation sur le thème \"Espaces verts\" pour la délégation Hauts-de-France du CNFPT",
+   "buyer": "CNFPT - Direction de l'achat public",
+   "published": "2026-10-18",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101095",
+   "procedure_id": "9b073c28-3334-42b3-82b6-82aa704f0225",
+   "description": "Les prestations visées au présent marché font partie d'une opération décomposée en 4 lots. Chaque marché est conclu pour une période de deux ans à compter de sa date de notification et pourra être reconduit de manière tacite, une fois pour une période de deux ans. Accords-cadres mono-attributaires sans montant minimum et avec montants maximums fixés sur 2 ans;",
+   "departments": [
+    "02",
+    "59",
+    "60",
+    "62",
+    "75",
+    "80"
+   ],
+   "regions": [
+    "Hauts-de-France",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2190000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "- Conception paysagère et projets d'aménagement d'espaces verts",
+    "- Interventions techniques sur les arbres",
+    "- Théorie et pratique horticole de base",
+    "- Maintenance du matériel horticole"
+   ],
+   "updated": ""
   }
  ]
 }
