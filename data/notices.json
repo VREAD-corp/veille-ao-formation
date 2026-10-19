@@ -100664,6 +100664,205 @@
     "- Maintenance du matériel horticole"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-101317",
+   "source": "BOAMP",
+   "source_id": "26-101317",
+   "title": "Accompagnement au Développement du Potentiel Managérial - Promotions 66-67-68",
+   "buyer": "ECOLE NATIONALE SUPERIEURE DE SECURITE SOCIALE",
+   "published": "2026-10-19",
+   "deadline": "2026-11-18T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101317",
+   "procedure_id": null,
+   "description": "La présente consultation concerne des prestations de formation sur le thème : Accompagnement au Développement du Potentiel Managérial des élèves en Formation Initiale à l'EN3S (Promotion 66 à 68)",
+   "departments": [
+    "42"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:718891-2026",
+   "source": "TED",
+   "source_id": "718891-2026",
+   "title": "Conception et animation de formations à l’immobilier et mise à disposition de modules d'autoformation en ligne au profit de l’Institut de la Gestion Publique et du Développement Économique, destinées à professionnaliser les agents de l’État et des organismes publics.",
+   "buyer": "Ministère de l'économie, des finances et de la souveraineté industrielle, énergétique et numérique",
+   "published": "2026-10-19",
+   "deadline": "2026-11-12T16:30",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/718891-2026",
+   "procedure_id": "b4fe19fa-fdc1-492f-9f07-3c75ba149b03",
+   "description": "L’accord-cadre a pour objet la conception et l’animation de formations à l’immobilier et la mise à disposition de modules d’autoformations en ligne au profit de l’IGPDE",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000",
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 758000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formation à l’Immobilier durable et résilient",
+    "Formation à la gestion opérationnelle et maîtrise d’ouvrage",
+    "Formations aux nouveaux espaces de travail"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:719287-2026",
+   "source": "TED",
+   "source_id": "719287-2026",
+   "title": "Formation obligatoire des assistant(e)s maternel(le)s agréé(e)s-.",
+   "buyer": "Département de l'Aisne",
+   "published": "2026-10-19",
+   "deadline": "2026-11-09T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/719287-2026",
+   "procedure_id": "bd73a527-113a-437d-9239-64b572b2652f",
+   "description": "Formation obligatoire des assistant(e)s maternel(le)s agréé(e)s",
+   "departments": [
+    "02"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:719798-2026",
+   "source": "TED",
+   "source_id": "719798-2026",
+   "title": "Animations nature, patrimoine et santé/bien être dans les Espaces Naturels Sensibles du Département de la Manche",
+   "buyer": "Département de la Manche",
+   "published": "2026-10-19",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/719798-2026",
+   "procedure_id": "2d79ff6b-b60c-4bdd-9c69-3423ddd5209f",
+   "description": "Prestations divisées en 7 lots qui seront traités par marchés séparés. Les prestations des différents lots font l'objet d'un fractionnement en bons de commande. Chaque lot comporte un montant maximum annuel fixé en valeur",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "92300000",
+    "80400000",
+    "92331210"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Animations naturalistes et scientifiques Nord Manche",
+    "Animations naturalistes et scientifiques Centre Manche",
+    "Animations naturalistes et scientifiques Sud Manche",
+    "Animations géologie",
+    "Animation valorisation du patrimoine",
+    "Contes, récits et balades contées en milieu naturel",
+    "Animations santé et bien-être en milieu naturel"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:722649-2026",
+   "source": "TED",
+   "source_id": "722649-2026",
+   "title": "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management.",
+   "buyer": "Ministère de l'Intérieur",
+   "published": "2026-10-19",
+   "deadline": "2026-10-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/722649-2026",
+   "procedure_id": "c7246064-f63d-4331-8549-4b185bf13664",
+   "description": "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80532000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4810000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Bilans (managérial et individuel de compétence), accompagnement managérial individuel (encadrement supérieur) et collectifnistère de l’Intérieur en matière de…",
+    "Formation au management au bénéfice des cadres administratifs et techniques affectés dans les services en administration centrale ou en administration…",
+    "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management."
+   ],
+   "updated": ""
   }
  ]
 }
