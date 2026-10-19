@@ -100703,6 +100703,192 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-101435",
+   "source": "BOAMP",
+   "source_id": "26-101435",
+   "title": "25N0908- Achat de prestation pour l'animation d'ateliers d'expression écrite et orale pour les participants du PLIE MNCA",
+   "buyer": "Métropole Nice Côte d'Azur",
+   "published": "2026-10-19",
+   "deadline": "2026-11-09T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101435",
+   "procedure_id": null,
+   "description": "La présente consultation est lancée suivant la procédure : Marché à procédure adaptée - articles R.2123-1-3 et R.2123-2 du code de la commande publique. La consultation a pour objet : La mise en œuvre d’ateliers d’expression écrite et orale visant à : renforcer l’estime de soi des participants en valorisant leurs savoirs d’expérience ; développer des compétences rédactionnelles et oratoires utiles en contexte…",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 5333.28,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101519",
+   "source": "BOAMP",
+   "source_id": "26-101519",
+   "title": "Marché de prestations de formation par la simulation pour améliorer la prise en soins de la personne âgée dans les situations d'urgences.",
+   "buyer": "Grand Hôpital de l'Est Francilien (77)",
+   "published": "2026-10-19",
+   "deadline": "2026-11-13T13:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101519",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "77"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101540",
+   "source": "BOAMP",
+   "source_id": "26-101540",
+   "title": "Réalisation d'actions de formation sur le thème du pilotage en direction générale et plus particulièrement sur la prise de fonction pour le compte de l'Inet du Cnfpt",
+   "buyer": "Cnfpt - Inet Strasbourg",
+   "published": "2026-10-19",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101540",
+   "procedure_id": null,
+   "description": "Réalisation d'actions de formation sur le thème du pilotage en direction générale et plus particulièrement sur la prise de fonction pour le compte de l'INET (Institut National des Etudes Territoriales) du CNFPT (Centre National de la Fonction Publique Territoriale)",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101543",
+   "source": "BOAMP",
+   "source_id": "26-101543",
+   "title": "Réalisation d'actions de formation dans le cadre de l'itinéraire Politiques publiques pour le compte de l'Inet du Cnfpt",
+   "buyer": "Cnfpt - Inet Strasbourg",
+   "published": "2026-10-19",
+   "deadline": "2026-11-23T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101543",
+   "procedure_id": null,
+   "description": "Réalisation d'actions de formation dans le cadre de l'itinéraire Politiques publiques pour le compte de l'INET (Institut National des Etudes Territoriales) du CNFPT (Centre National de la Fonction Publique Territoriale). 2 actions : Action 1 - L'évaluation des politiques publiques SXB0Q Action 2 - Les politiques publiques : innovation et interactions SXB0J",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101686",
+   "source": "BOAMP",
+   "source_id": "26-101686",
+   "title": "Marché de prestation de formation professionnelle initiale des sapeurs-pompiers",
+   "buyer": "STIS (978)",
+   "published": "2026-10-19",
+   "deadline": "2026-11-10T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101686",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "978"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 195000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:718891-2026",
    "source": "TED",
    "source_id": "718891-2026",
