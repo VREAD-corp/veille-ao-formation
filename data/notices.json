@@ -101049,6 +101049,334 @@
     "Conception et l’animation de formations individuelles ou collectives à destination des agents du ministère de l’Intérieur en matière de management."
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-101254",
+   "source": "BOAMP",
+   "source_id": "26-101254",
+   "title": "Conception et fabrication d'une maquette pédagogique interactive sur l'adaptation des territoires côtiers de la Manche au changement climatique",
+   "buyer": "Département de la Manche",
+   "published": "2026-10-20",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101254",
+   "procedure_id": "0fb6c1fe-26db-49fe-8607-84ef82111e0c",
+   "description": "La présente consultation est passée dans le respect des dispositions R. 2123-1 3° du Code de la commande publique selon une procédure adaptée ouverte avec négociation éventuelle. Le pouvoir adjudicateur peut décider en effet d'attribuer le marché public sur la base des offres initiales. Le marché court pour une durée de 2 ans à compter de sa date de notification. Les prestations faisant l'objet du marché seront…",
+   "departments": [
+    "50"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80590000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101293",
+   "source": "BOAMP",
+   "source_id": "26-101293",
+   "title": "Prestations de production d’une collection de podcasts audio et de vidéos à caractère scientifique et pédagogique",
+   "buyer": "SG-SAAM-Mission des achats",
+   "published": "2026-10-20",
+   "deadline": "2026-11-27T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101293",
+   "procedure_id": "4f8d6a35-e79a-411f-83e9-1905f839a4ed",
+   "description": "Prestations de production d’une collection de podcasts audio et de vidéos à caractère scientifique et pédagogique pour les besoins du ministère chargé de l’enseignement supérieur, de la recherche et de l’espace.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80590000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101881",
+   "source": "BOAMP",
+   "source_id": "26-101881",
+   "title": "FORMATIONS CERTIFIANTES EN CONSEIL CONJUGAL ET FAMILIAL DESTINEES AUX AGENTS DU DEPARTEMENT DES BOUCHES DU RHONE",
+   "buyer": "Conseil Départemental des Bouches du Rhône",
+   "published": "2026-10-20",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101881",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:722803-2026",
+   "source": "TED",
+   "source_id": "722803-2026",
+   "title": "Conception et fabrication d'une maquette pédagogique interactive sur l'adaptation des territoires côtiers de la Manche au changement climatique",
+   "buyer": "Département de la Manche",
+   "published": "2026-10-20",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/722803-2026",
+   "procedure_id": "0fb6c1fe-26db-49fe-8607-84ef82111e0c",
+   "description": "La présente consultation est passée dans le respect des dispositions R. 2123-1 3° du Code de la commande publique selon une procédure adaptée ouverte avec négociation éventuelle. Le pouvoir adjudicateur peut décider en effet d'attribuer le marché public sur la base des offres initiales. Le marché court pour une durée de 2 ans à compter de sa date de notification. Les prestations faisant l'objet du marché seront…",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80590000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:723035-2026",
+   "source": "TED",
+   "source_id": "723035-2026",
+   "title": "Prestations de production d’une collection de podcasts audio et de vidéos à caractère scientifique et pédagogique",
+   "buyer": "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace, Secrétariat général, Service de l'action administrative et des moyens, Sous-direction des achats pour la Direction générale de la recherche et de l’innovation, l’Institut des Hautes études par les Sciences et la Technologie",
+   "published": "2026-10-20",
+   "deadline": "2026-11-27T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/723035-2026",
+   "procedure_id": "4f8d6a35-e79a-411f-83e9-1905f839a4ed",
+   "description": "Prestations de production d’une collection de podcasts audio et de vidéos à caractère scientifique et pédagogique pour les besoins du ministère chargé de l’enseignement supérieur, de la recherche et de l’espace.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80590000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:723144-2026",
+   "source": "TED",
+   "source_id": "723144-2026",
+   "title": "Définition, mise en oeuvre et déploiement opérationnel de la stratégie d'intelligence artificielle du groupe ALTEMED",
+   "buyer": "ALTEMED",
+   "published": "2026-10-20",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/723144-2026",
+   "procedure_id": "af06c3da-480f-42e1-8d3b-b70b6f0673ed",
+   "description": "Le marché est alloti. Lot n° 1 : Assistance à maîtrise d'ouvrage IA pour la définition, la mise en oeuvre et le déploiement opérationnel de la stratégie Nature et étendue des prestations : Poste 1: Définition et mise en oeuvre opérationnelle de la feuille de route IA (prix global et forfaitaire) Poste 2: Prestations d'expertise et d'accompagnement à la demande (prix unitaires avec émission de bons de commande) Poste…",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "72222000",
+    "72220000",
+    "72224000",
+    "80510000",
+    "72268000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Assistance à maîtrise d'ouvrage IA pour la définition, la mise en oeuvre et le déploiement opérationnel de la stratégie",
+    "La fourniture et la gestion des licences IA"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:724933-2026",
+   "source": "TED",
+   "source_id": "724933-2026",
+   "title": "Formations à destination des demandeurs d’emploi (dans le cadre du dispositif SFER) - Formations de création et de reprise d’entreprises – Relance",
+   "buyer": "CHAMBRE DE COMMERCE ET D'INDUSTRIE DE REGION HAUTS-DE-FRANCE",
+   "published": "2026-10-20",
+   "deadline": "2026-11-16T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/724933-2026",
+   "procedure_id": "72a24f3a-1392-401f-9884-0b3de39f3ee0",
+   "description": "Formations à destination des demandeurs d’emploi (dans le cadre du dispositif SFER) - Formations de création et de reprise d’entreprises – Relance",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France",
+    "Normandie"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:725368-2026",
+   "source": "TED",
+   "source_id": "725368-2026",
+   "title": "Formations Management de projet (inter-métiers)",
+   "buyer": "RTE",
+   "published": "2026-10-20",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/725368-2026",
+   "procedure_id": "ddf01bcb-ab20-4912-8772-471e874b45ea",
+   "description": "Formations inter-métiers au management de projet",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:725942-2026",
+   "source": "TED",
+   "source_id": "725942-2026",
+   "title": "Réalisation d'actions de formation sur le thème \"Espaces verts\" pour la délégation Hauts-de-France du CNFPT",
+   "buyer": "CNFPT - Direction de l'achat public",
+   "published": "2026-10-20",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/725942-2026",
+   "procedure_id": "9b073c28-3334-42b3-82b6-82aa704f0225",
+   "description": "Les prestations visées au présent marché font partie d'une opération décomposée en 4 lots. Chaque marché est conclu pour une période de deux ans à compter de sa date de notification et pourra être reconduit de manière tacite, une fois pour une période de deux ans. Accords-cadres mono-attributaires sans montant minimum et avec montants maximums fixés sur 2 ans;",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2190000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "- Conception paysagère et projets d'aménagement d'espaces verts",
+    "- Interventions techniques sur les arbres",
+    "- Théorie et pratique horticole de base",
+    "- Maintenance du matériel horticole"
+   ],
+   "updated": ""
   }
  ]
 }
