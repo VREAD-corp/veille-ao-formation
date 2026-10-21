@@ -101414,6 +101414,312 @@
     "- Maintenance du matériel horticole"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-101523",
+   "source": "BOAMP",
+   "source_id": "26-101523",
+   "title": "Objet : Préparation et accompagnement à la mobilité des demandeurs d’emploi dans un autre pays de l’UE ou un pays associé dans le cadre de la mise en œuvre des programmes européens ERASMUS+",
+   "buyer": "FRANCE TRAVAIL - PACA",
+   "published": "2026-10-21",
+   "deadline": "2026-11-23T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101523",
+   "procedure_id": "0d9a2788-ee9a-4a34-bad9-5fdeb177d21e",
+   "description": "Le marché prend la forme d’un accord-cadre exécuté par émission de bons de commande, conclu avec un unique Titulaire, sans minimum et avec un maximum en quantité, défini en nombre de bénéficiaires à prendre en charge au titre de la période ferme, fixé à 144 pour les bourses EFP, et 128 pour les Bourses EDA. Les prestations comprennent une phase de sélection des candidats, un module de formation linguistique et…",
+   "departments": [
+    "04",
+    "05",
+    "06",
+    "13",
+    "83",
+    "84"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101722",
+   "source": "BOAMP",
+   "source_id": "26-101722",
+   "title": "Prestations de formation à l’usage du vélo auprès d'élèves d'établissements scolaires de Clisson Sèvre et Maine Agglo",
+   "buyer": "Clisson Sèvre et Maine Agglo",
+   "published": "2026-10-21",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101722",
+   "procedure_id": "ebb8d66e-e757-48dc-aa28-3620525f73d4",
+   "description": "Formations au Savoir Rouler à Vélo (SRAV) à destination des élèves de CM1 et CM2 (bloc n°1) - Interventions de « maniabilité à vélo » pour des élèves du CP au CE2 (bloc n°2) et Formations de « mécanique vélo » pour les primaires et collégiens (bloc n°3) des établissements scolaires du territoire de CSMA.",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "80310000",
+    "80410000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-101926",
+   "source": "BOAMP",
+   "source_id": "26-101926",
+   "title": "Formation professionnelle 3 lots o Lot 1 : Stages de récupération partielle des points du permis o Lot 2 : Formation à la maintenance des bus Mercedes o Lot 3 : Formation sécurité des p",
+   "buyer": "Tisséo Voyageurs",
+   "published": "2026-10-21",
+   "deadline": "2026-11-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-101926",
+   "procedure_id": "d67f8817-5345-45ce-b487-565d3044d024",
+   "description": "Cette consultation a pour objet la formation professionnelle scindée en 3 lots. Accord cadre mono attributaire à bons de commande avec seuil maximum de commandes en application des articles L2125-1 1°, R. 2162-1 à R.2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Chaque lot constituant un accord-cadre conclu pour une période initiale de 1 an : Lots 1 - 2 : à compter du 01/01/2027 ou de sa date de…",
+   "departments": [
+    "31"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "80511000",
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Stages de récupération partielle des points du permis",
+    "Formation à la maintenance des bus Mercedes",
+    "Formation sécurité des personnes"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-102239",
+   "source": "BOAMP",
+   "source_id": "26-102239",
+   "title": "PRESTATIONS DE FORMATION « MANIPULATION DES EXTINCTEURS A DESTINATION DES AGENTS REGION »",
+   "buyer": "REGION CENTRE VAL DE LOIRE",
+   "published": "2026-10-21",
+   "deadline": "2026-11-17T09:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102239",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:726450-2026",
+   "source": "TED",
+   "source_id": "726450-2026",
+   "title": "Formation professionnelle 3 lots o Lot 1 : Stages de récupération partielle des points du permis o Lot 2 : Formation à la maintenance des bus Mercedes o Lot 3 : Formation sécurité des personnes (Formation Sauveteur Secouriste du travail, Formation Equipiers Première Intervention Incendie)",
+   "buyer": "Tisséo Voyageurs",
+   "published": "2026-10-21",
+   "deadline": "2026-11-10T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/726450-2026",
+   "procedure_id": "d67f8817-5345-45ce-b487-565d3044d024",
+   "description": "Cette consultation a pour objet la formation professionnelle scindée en 3 lots. Accord cadre mono attributaire à bons de commande avec seuil maximum de commandes en application des articles L2125-1 1°, R. 2162-1 à R.2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Chaque lot constituant un accord-cadre conclu pour une période initiale de 1 an : Lots 1 - 2 : à compter du 01/01/2027 ou de sa date de…",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "80511000",
+    "80510000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Stages de récupération partielle des points du permis",
+    "Formation à la maintenance des bus Mercedes",
+    "Formation sécurité des personnes"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:727086-2026",
+   "source": "TED",
+   "source_id": "727086-2026",
+   "title": "Marché ayant pour objet la préparation et l’accompagnement à la mobilité des demandeurs d’emploi de la région France Travail Provence-Alpes-Côte d'Azur dans un autre pays de l’Union européenne ou un pays associé dans le cadre de la mise en œuvre des programmes européens ERASMUS+",
+   "buyer": "FRANCE TRAVAIL - PACA",
+   "published": "2026-10-21",
+   "deadline": "2026-11-23T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/727086-2026",
+   "procedure_id": "0d9a2788-ee9a-4a34-bad9-5fdeb177d21e",
+   "description": "Le marché prend la forme d’un accord-cadre exécuté par émission de bons de commande, conclu avec un unique Titulaire, sans minimum et avec un maximum en quantité, défini en nombre de bénéficiaires à prendre en charge au titre de la période ferme, fixé à 144 pour les bourses EFP, et 128 pour les Bourses EDA. Les prestations comprennent une phase de sélection des candidats, un module de formation linguistique et…",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:727855-2026",
+   "source": "TED",
+   "source_id": "727855-2026",
+   "title": "Prestations de formation à l’usage du vélo auprès d'élèves d'établissements scolaires de Clisson Sèvre et Maine Agglo",
+   "buyer": "Clisson Sèvre et Maine Agglo",
+   "published": "2026-10-21",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/727855-2026",
+   "procedure_id": "ebb8d66e-e757-48dc-aa28-3620525f73d4",
+   "description": "Formations au Savoir Rouler à Vélo (SRAV) à destination des élèves de CM1 et CM2 (bloc n°1) - Interventions de « maniabilité à vélo » pour des élèves du CP au CE2 (bloc n°2) et Formations de « mécanique vélo » pour les primaires et collégiens (bloc n°3) des établissements scolaires du territoire de CSMA.",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "80310000",
+    "80410000"
+   ],
+   "procedure": "Autre procédure (une étape)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:729036-2026",
+   "source": "TED",
+   "source_id": "729036-2026",
+   "title": "26M0066 - Achat de prestations de formation FPTLV : Droits des patients et des résidents",
+   "buyer": "ANFH",
+   "published": "2026-10-21",
+   "deadline": "2026-12-01T10:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/729036-2026",
+   "procedure_id": "c4c1edd2-4c8a-4d67-8558-e491b55842de",
+   "description": "La présente consultation a pour objet de rendre accessible les droits des patients et des résidents, aux agents nouvellement nommés (ou non) dans la Fonction publique hospitalière, afin qu’ils soient en capacité de les intégrer dans leurs pratiques professionnelles. La description des besoins et des prestations attendues est détaillée dans le cahier des charges joint au DCE.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Autre procédure (une étape)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 800000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }
