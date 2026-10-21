@@ -101575,6 +101575,128 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-102438",
+   "source": "BOAMP",
+   "source_id": "26-102438",
+   "title": "CONCEPTION ET ANIMATION DE FORMATIONS-ACTIONS DANS LE CADRE DU PLAN RÉGIONAL DE FORMATION 2027 A DESTINATION DES PROFESSIONNELS DU TOURISME DU CENTRE-VAL DE LOIRE",
+   "buyer": "Comité Régional du Tourisme Centre-Val de Loire",
+   "published": "2026-10-21",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102438",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Donner envie de revenir à vos clients : boostez votre accueil ! - Identifier l'importance de sa mission « accueil » - Savoir s'adapter aux exigences des…",
+    "Performer dans ses techniques narratives pour des visites guidées réinventées - Identifier les attentes des visiteurs en matière de visites guidées - Concevoir…",
+    "Ecrire en FAcile à Lire et à Comprendre (FALC) - Cerner les difficultés des personnes handicapées intellectuelles en matière d'accès à l'information écrite…",
+    "Faire de l'accessibilité un réflexe pour accueillir sans exception - Comprendre les principes et enjeux de l'accessibilité universelle dans le tourisme…",
+    "Label Tourisme & Handicap : les clés pour adapter son accueil - Identifier les différentes personnes en situation de handicap et leurs besoins - Connaître le…",
+    "Utiliser de manière pertinente les outils de l'Intelligence Artificielle de traduction - Identifier les principaux outils de traduction de l'IA et comprendre…",
+    "Accompagner ses prestataires dans leur stratégie tarifaire - Comprendre les enjeux d'un événement éco-responsable et identifier ses principales sources…",
+    "Vendre au juste prix pour maximiser ses revenus - Comprendre les bases de la tarification dynamique (Yield management) - Adapter ses prix selon la saisonnalité…",
+    "Valoriser son activité touristique avec la photo numérique - Comprendre et cerner les enjeux de la photo dans le choix du client - Comprendre les bases de la…",
+    "Améliorer la performance de son site web pour dynamiser ses ventes - Définir une stratégie web alignée avec les objectifs de vente de son activité touristique…",
+    "Rédiger de manière persuasive pour déclencher l'acte d'achat - Connaître les bases du copywriting touristique pour les appliquer - Rédiger des titres et…",
+    "Mettre son offre touristique en scène : photographier, raconter et donner envie - Réussir ses photos de produits et lieux touristiques - Construire un…"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-102519",
+   "source": "BOAMP",
+   "source_id": "26-102519",
+   "title": "2026-0469 - Prestation De Formation Pour Les Professionnels Intervenant Auprès Des Patients Ayant Des Troubles Psychiques",
+   "buyer": "Assistance Publique Hôpitaux De Marseille",
+   "published": "2026-10-21",
+   "deadline": "2026-11-05T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102519",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). L'accord-cadre est sans montant minimum et avec un montant maximum fixé à 85 000 euro(s) H.T…",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-102553",
+   "source": "BOAMP",
+   "source_id": "26-102553",
+   "title": "Gestion du centre équestre du Bois d'Arbin",
+   "buyer": "Commune des Allues",
+   "published": "2026-10-21",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102553",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "73"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80513000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Délégation de service public",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:726450-2026",
    "source": "TED",
    "source_id": "726450-2026",
