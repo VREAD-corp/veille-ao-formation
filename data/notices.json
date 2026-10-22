@@ -101842,6 +101842,201 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-102350",
+   "source": "BOAMP",
+   "source_id": "26-102350",
+   "title": "Conception et animation d'activités pédagogiques et éducatives à destination des jeunes de 6 à 25 ans",
+   "buyer": "Département des Hauts-de-Seine",
+   "published": "2026-10-22",
+   "deadline": "2026-11-24T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102350",
+   "procedure_id": "171b010c-ef89-4930-bf9c-441c41f92ff1",
+   "description": "La présente consultation porte sur la conception, l'organisation et l'animation d'activités pédagogiques et éducatives destinées aux jeunes de 6 à 25 ans. Elle vise à promouvoir le développement des compétences psychosociales et citoyennes, le bien-être, le vivre-ensemble, l'égalité et la prévention des risques, au travers d'interventions participatives et adaptées aux publics ciblés. Les prestations comprennent la…",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80590000",
+    "80310000",
+    "92331210"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 Animations et activités pédagogiques et éducatives des jeunes de 6 à 25 ans sur la citoyenneté et sur le vivre ensemble",
+    "Lot n°2 Animations et activités pédagogiques et éducatives des jeunes de 6 à 25 ans sur l'égalité filles-garçons et la lutte contre les discriminations",
+    "Lot n°3 Animations et activités pédagogiques et éducatives des jeunes de 6 à 25 ans sur le bien être (santé mentale, physique et sociale, gestion émotionnelle…"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-102398",
+   "source": "BOAMP",
+   "source_id": "26-102398",
+   "title": "Mise en place et gestion d'un dispositif d'agents de médiation",
+   "buyer": "Ville de Courbevoie",
+   "published": "2026-10-22",
+   "deadline": "2026-11-23T09:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102398",
+   "procedure_id": "3a57d73b-42df-474f-bbd6-e9616ba93ae6",
+   "description": "La consultation donnera lieu à la conclusion d'un accord-cadre à prix mixtes. - La partie à prix forfaitaire comprendra la mise en place et la gestion courante du dispositif d'agents de médiation. - La partie à prix unitaires comprendra les heures supplémentaires effectuées par les agents de l'équipe de médiation. En application des articles R 2162-2 alinéa 2 et R 2162-4 2° du Code de la commande publique, des…",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "85300000",
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3000000.0,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-102689",
+   "source": "BOAMP",
+   "source_id": "26-102689",
+   "title": "Sensibilisation et exercices sur table des équipes municipales, PAPI des Vals de Loire",
+   "buyer": "Etablissement Public Loire",
+   "published": "2026-10-22",
+   "deadline": "2026-12-02T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102689",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "18",
+    "45",
+    "58"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté",
+    "Centre-Val de Loire"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-102730",
+   "source": "BOAMP",
+   "source_id": "26-102730",
+   "title": "Conception, expérimentation et finalisation d'un parcours de formation et de prospective sur les enjeux du changement climatique et de l'adaptation des territoires, incluant les sp",
+   "buyer": "Département de la Manche",
+   "published": "2026-10-22",
+   "deadline": "2026-11-27T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102730",
+   "procedure_id": null,
+   "description": "La présente consultation est passée dans le respect des dispositions des articles R. 2123-1, R. 2123-4 et R. 2123-5 du Code de la commande publique selon une procédure adaptée ouverte avec négociation éventuelle. La durée du marché est fixée à 22 mois à compter de la date de notification de celui-ci",
+   "departments": [
+    "50"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80540000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:732851-2026",
+   "source": "TED",
+   "source_id": "732851-2026",
+   "title": "Conception et animation d'activités pédagogiques et éducatives à destination des jeunes de 6 à 25 ans",
+   "buyer": "Département des Hauts-de-Seine",
+   "published": "2026-10-22",
+   "deadline": "2026-11-24T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/732851-2026",
+   "procedure_id": "171b010c-ef89-4930-bf9c-441c41f92ff1",
+   "description": "La présente consultation porte sur la conception, l'organisation et l'animation d'activités pédagogiques et éducatives destinées aux jeunes de 6 à 25 ans. Elle vise à promouvoir le développement des compétences psychosociales et citoyennes, le bien-être, le vivre-ensemble, l'égalité et la prévention des risques, au travers d'interventions participatives et adaptées aux publics ciblés. Les prestations comprennent la…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80590000",
+    "80310000",
+    "92331210"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 Animations et activités pédagogiques et éducatives des jeunes de 6 à 25 ans sur la citoyenneté et sur le vivre ensemble",
+    "Lot n°2 Animations et activités pédagogiques et éducatives des jeunes de 6 à 25 ans sur l'égalité filles-garçons et la lutte contre les discriminations",
+    "Lot n°3 Animations et activités pédagogiques et éducatives des jeunes de 6 à 25 ans sur le bien être (santé mentale, physique et sociale, gestion émotionnelle…"
+   ],
+   "updated": ""
   }
  ]
 }
