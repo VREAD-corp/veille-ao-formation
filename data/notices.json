@@ -102083,6 +102083,230 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-103361",
+   "source": "BOAMP",
+   "source_id": "26-103361",
+   "title": "Formation des animateurs de la ville de Saint-Herblain au BAFA",
+   "buyer": "Mairie de St Herblain",
+   "published": "2026-10-23",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103361",
+   "procedure_id": null,
+   "description": "Procédure adaptée services sociaux et spécifiques. Accord-cadre à bons de commande mono attributaire sans montant minimum et avec un montant maximum à 25 000Euros HT par an. le pouvoir adjudicateur n'agit pas pour le compte d'autres pouvoirs adjudicateurs. Ni variantes autorisées, ni variantes exigées. Pas de prestations supplémentaires éventuelles. Monnaie : euro. Conditions relatives au contrat ou à la…",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 100000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-103474",
+   "source": "BOAMP",
+   "source_id": "26-103474",
+   "title": "Prestations de formations et de présentation aux examens de permis de conduire poids lourds de catégorie C, super lourds de catégorie Ce, remorque de catégorie Be- Relance Lot 4",
+   "buyer": "Collectivité de Corse",
+   "published": "2026-10-23",
+   "deadline": "2026-11-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103474",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Il s'agit de donner les moyens aux personnels techniques affectés sur les missions de chauffeur et de conducteur d'accomplir leurs missions en leur permettant de passer le permis de conduire nécessaire à leurs fonctions, d'obtenir et de renouveler la carte de qualification de conducteur (CQC) qui autorise la conduite de transport de marchandises pour…",
+   "departments": [],
+   "regions": [],
+   "cpv": [
+    "80511000",
+    "79632000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-103506",
+   "source": "BOAMP",
+   "source_id": "26-103506",
+   "title": "Assistance archivage numérique pour la Ville de Paris",
+   "buyer": "Bureau de l'achat, de la comptabilité et de l'approvisionnement",
+   "published": "2026-10-23",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103506",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-99839"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-103594",
+   "source": "BOAMP",
+   "source_id": "26-103594",
+   "title": "Marché de prestation de formation professionnelle initiale des sapeurs-pompiers",
+   "buyer": "STIS (978)",
+   "published": "2026-10-23",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103594",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "978"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-101686"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-103596",
+   "source": "BOAMP",
+   "source_id": "26-103596",
+   "title": "Entretien - nettoyage des locaux de l'Unité de Formation par Apprentissage à Laon",
+   "buyer": "Chambre d'agriculture de l'Aisne",
+   "published": "2026-10-23",
+   "deadline": "2026-11-27T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103596",
+   "procedure_id": null,
+   "description": "La présente consultation concerne l’attribution d’un marché pour la réalisation des prestations d’entretien – nettoyage des locaux de l’Unité de Formation par Apprentissage à Laon (02). Lieu(x) d’exécution : 5 rue des Minimes à LAON (02000)",
+   "departments": [
+    "02",
+    "08",
+    "51"
+   ],
+   "regions": [
+    "Grand Est",
+    "Hauts-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-103711",
+   "source": "BOAMP",
+   "source_id": "26-103711",
+   "title": "Achat de la formation aux outils - Microsoft Office : Word, Excel, et Powerpoint",
+   "buyer": "Collectivite Territoriale De Guyane",
+   "published": "2026-10-23",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103711",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "973"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-100454"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:734012-2026",
    "source": "TED",
    "source_id": "734012-2026",
