@@ -102037,6 +102037,89 @@
     "Lot n°3 Animations et activités pédagogiques et éducatives des jeunes de 6 à 25 ans sur le bien être (santé mentale, physique et sociale, gestion émotionnelle…"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-103298",
+   "source": "BOAMP",
+   "source_id": "26-103298",
+   "title": "La présente consultation a pour objet la réalisation de formation en prévention du risque routier pour les agents de la Carsat Centre-Val de Loire.",
+   "buyer": "Carsat Centre-Val de Loire",
+   "published": "2026-10-23",
+   "deadline": "2026-11-27T15:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103298",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "28",
+    "36",
+    "37",
+    "45",
+    "75",
+    "91"
+   ],
+   "regions": [
+    "Centre-Val de Loire",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:734012-2026",
+   "source": "TED",
+   "source_id": "734012-2026",
+   "title": "Marché de Prestation de service de formation et de sous-traitance de formation du métier Administrateur d'infrastructures sécurisées (AIS) pour la région Bretagne",
+   "buyer": "AFPA",
+   "published": "2026-10-23",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/734012-2026",
+   "procedure_id": "9b7ef6d3-dc28-4ce3-b509-eaad87a3a597",
+   "description": "La présente consultation a pour objet l'exécution de prestations de services de formations et de prestations sous-traitées de formation au métier Administrateur d'infrastructures sécurisées (AIS) pour la région Bretagne.",
+   "departments": [],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Côtes-d'Armor (22) - Administrateur d'infrastructures sécurisées (AIS)",
+    "Finistère (29) - Administrateur d'infrastructures sécurisées (AIS)",
+    "Ille-et-Vilaine (35) - Administrateur d'infrastructures sécurisées (AIS)"
+   ],
+   "updated": ""
   }
  ]
 }
