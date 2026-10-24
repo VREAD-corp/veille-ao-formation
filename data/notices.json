@@ -102344,6 +102344,94 @@
     "Ille-et-Vilaine (35) - Administrateur d'infrastructures sécurisées (AIS)"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-102928",
+   "source": "BOAMP",
+   "source_id": "26-102928",
+   "title": "Accompagnement à la gestion administrative et financière, et évaluation des indicateurs d’impact du projet européen EARTH-LIFE (« Engager les acteurs pour la résilience par la santé des sols »)",
+   "buyer": "Direction régionale et interdépartementale de l'environnement, de l'aménagement et des transports d'Ile-de-France (DRIEAT-IF)",
+   "published": "2026-10-24",
+   "deadline": "2026-12-04T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102928",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79412000",
+    "79419000",
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Accompagnement à la gestion administrative et financière du projet EARTH-LIFE",
+    "Évaluation des impacts du projet EARTH-LIFE et appui au suivi des indicateurs"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-102979",
+   "source": "BOAMP",
+   "source_id": "26-102979",
+   "title": "FORMATION (INITIALE, CONTINUE ET PREMIERS SECOURS) DES ACCUEILLANTS FAMILIAUX, DES ASSISTANTS FAMILIAUX ET DES ASSISTANTS MATERNELS DU DÉPARTEMENT DE LA SARTHE. Relance Lot 5",
+   "buyer": "Département de la Sarthe",
+   "published": "2026-10-24",
+   "deadline": "2026-11-13T11:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102979",
+   "procedure_id": "a11cd4ff-14e5-4713-83bd-18630d6bb20e",
+   "description": "La présente consultation concerne la relance du lot n°5, initialement intégré à la consultation relative à « La formation (initiale, continue et premiers secours) des accueillants familiaux, des assistants familiaux et des assistants maternels du département de la Sarthe », à la suite d'une redéfinition du besoin de l'acheteur. Les prestations feront l'objet d'un accord-cadre mono-attributaire sans minimum avec…",
+   "departments": [
+    "72"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "80500000",
+    "79632000",
+    "80562000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 128000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }

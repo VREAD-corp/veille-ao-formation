@@ -101032,6 +101032,456 @@
     "nettoyage"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-102841",
+   "source": "BOAMP",
+   "source_id": "26-102841",
+   "title": "Prestations de nettoyage des locaux de la Ville de Lyon",
+   "buyer": "Ville de Lyon",
+   "published": "2026-10-24",
+   "deadline": "2026-10-26T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102841",
+   "procedure_id": "57c2c81a-1428-4346-aaa1-f0d6979e4e05",
+   "description": "Prestations de nettoyage des locaux de la Ville de Lyon. Les accords-cadres sont conclus pour une durée initiale à compter du 01/04/2027 ou de leur date de notification si elle est postérieure, jusqu'au 31/03/2029. Ils sont reconductibles selon les modalités définies au CCAPC",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 9804000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-86833",
+    "boamp:26-96660"
+   ],
+   "summary": "",
+   "lots": [
+    "Nettoyage courant et exceptionnels multi sites et vitrerie",
+    "Nettoyage courant et exceptionnel des postes de police et établissements culturels et vitrerie associée",
+    "Nettoyage des bibliothèques et vitrerie associée",
+    "Nettoyage spécialisé courant et exceptionnel multi sites et vitrerie associée",
+    "Nettoyage de la vitrerie rive droite",
+    "Nettoyage de la vitrerie rive gauche",
+    "Nettoyage courant de locaux réservé aux EA et ESAT",
+    "Nettoyage courant de locaux réservé aux SIAE",
+    "Nettoyage ponctuel de locaux réservé aux SIAE"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-102854",
+   "source": "BOAMP",
+   "source_id": "26-102854",
+   "title": "PRESTATIONS DE GARDIENNAGE ET DE SURVEILLANCE DE SITES BATIS OU NON BATIS RELEVANT DU PATRIMOINE DE LA METROPOLE DU GRAND PARIS OU OCCUPES PAR ELLE",
+   "buyer": "METROPOLE DU GRAND PARIS",
+   "published": "2026-10-24",
+   "deadline": "2026-11-24T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102854",
+   "procedure_id": "83909eef-7fde-4782-b878-d2950009cc45",
+   "description": "Prestations de gardiennage et de surveillance de sites bâtis ou non bâtis relevant du patrimoine de la Métropole du Grand Paris ou occupés par elle",
+   "departments": [
+    "75",
+    "92",
+    "93",
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79713000",
+    "79714000",
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-102891",
+   "source": "BOAMP",
+   "source_id": "26-102891",
+   "title": "Organisation de l’Évènement « Festival des Entrepreneurs du 12 et 13 mai 2027 » de la CCI Marne Ardennes sur le Site de Reims",
+   "buyer": "CCI Marne Ardennes",
+   "published": "2026-10-24",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102891",
+   "procedure_id": "ce17b8a4-dca8-43f1-b7b1-9aede73b3265",
+   "description": "Organisation de l’Évènement « Festival des Entrepreneurs » de la CCI Marne Ardennes sur le Site de Reims du 12 et 13 mai 2027",
+   "departments": [
+    "08",
+    "51"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "79953000",
+    "44212320",
+    "39150000",
+    "79933000",
+    "55520000",
+    "92110000",
+    "79961000",
+    "79810000",
+    "39294100",
+    "79713000",
+    "79710000",
+    "32321200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Structures",
+    "Scénographie et mobilier",
+    "Traiteur",
+    "Création photo et vidéo",
+    "Supports signalétique et goodies",
+    "Services de gardiennage et de sécurité",
+    "Équipement audiovisuel"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "22",
+    "445",
+    "138",
+    "160",
+    "214",
+    "230",
+    "304",
+    "473"
+   ]
+  },
+  {
+   "id": "boamp:26-102900",
+   "source": "BOAMP",
+   "source_id": "26-102900",
+   "title": "Prestations de nettoiement des marchés forains sur la commune de SIX FOURS LES PLAGES",
+   "buyer": "COMMUNE DE SIX-FOURS-LES-PLAGES",
+   "published": "2026-10-24",
+   "deadline": "2026-11-25T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102900",
+   "procedure_id": "e64231fe-56f9-4615-beb0-722b4a2d8d89",
+   "description": "Il s'agit d'un marché à prix global et forfaitaire. Les prestations consistent en des prestations de nettoyage pour tous les marchés forains de la Ville. Elles comprennent essentiellement des prestations régulières d'entretien et nettoyage régulier visant à conserver la propreté des places et sites dédiés aux marchés forains après la tenue des marchés",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "240"
+   ]
+  },
+  {
+   "id": "boamp:26-102936",
+   "source": "BOAMP",
+   "source_id": "26-102936",
+   "title": "Mise en place d’un service de sécurité et de surveillance des locaux de l’unité territoriale de Martinique – Lot n°6",
+   "buyer": "LADOM",
+   "published": "2026-10-24",
+   "deadline": "2026-10-27T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102936",
+   "procedure_id": "b8e40b5f-1fac-4b96-a848-f9a3386ec15d",
+   "description": "",
+   "departments": [
+    "972"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-91511"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-102990",
+   "source": "BOAMP",
+   "source_id": "26-102990",
+   "title": "Prestations de SECURITE et de SURETE pour les Etablissements du GHT Caux Maritime",
+   "buyer": "CENTRE HOSPITALIER DE DIEPPE",
+   "published": "2026-10-24",
+   "deadline": "2026-11-20T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102990",
+   "procedure_id": "7bad0c5a-a88a-49bc-8bda-ccef3f4eaed1",
+   "description": "Consultation lancée par un groupement hospitalier de territoire. Consultation lancée par un groupement de coopération sanitaire. L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires",
+   "departments": [
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-102992",
+   "source": "BOAMP",
+   "source_id": "26-102992",
+   "title": "NETTOYAGE DES LOCAUX ADMINISTRATIFS D'HABITAT ET MÉTROPOLE",
+   "buyer": "HABITAT ET METROPOLE SAINT-ETIENNE",
+   "published": "2026-10-24",
+   "deadline": "2026-11-06T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-102992",
+   "procedure_id": "b67bfaba-c5de-4e8d-b05f-5560e23cf7cf",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [
+    "42"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911000",
+    "90910000",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1200000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-92284"
+   ],
+   "summary": "",
+   "lots": [
+    "NETTOYAGE DU SIEGE SOCIAL NEOZ (HORS VITRERIE)",
+    "NETTOYAGE DES AGENCES D'HABITAT ET METROPOLE (HORS VITRERIE)",
+    "NETTOYAGE ET ENTRETIEN DE LA VITRERIE"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-103001",
+   "source": "BOAMP",
+   "source_id": "26-103001",
+   "title": "Nettoyage et maintien de la propreté des espaces non bâtis des campus de l’Université de Strasbourg",
+   "buyer": "UNISTRA - DAM",
+   "published": "2026-10-24",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103001",
+   "procedure_id": "392d9069-620a-4e51-9f9e-8e48751a86c1",
+   "description": "La présente consultation a pour objet le maintien de la propreté des espaces non bâtis (voieries et espaces verts notamment) de l’Université de Strasbourg. Les prestations, objet du présent marché composite sont subdivisées en une partie marché ordinaire, , correspond aux prestations récurrentes et une partie à bons de commande correspondant aux prestations ponctuelles.",
+   "departments": [
+    "67",
+    "68",
+    "75",
+    "91",
+    "92",
+    "93"
+   ],
+   "regions": [
+    "Grand Est",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90610000",
+    "90600000",
+    "90914000",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 480000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "240"
+   ]
+  },
+  {
+   "id": "boamp:26-103009",
+   "source": "BOAMP",
+   "source_id": "26-103009",
+   "title": "Marché public de prestations de services pour la surveillance du stationnement payant sur voirie et la gestion des recours",
+   "buyer": "COMMUNE DE CHANTILLY",
+   "published": "2026-10-24",
+   "deadline": "2026-11-25T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103009",
+   "procedure_id": "7865d18c-8e84-4bd8-919e-9341cad9a3ab",
+   "description": "Le présent marché porte sur les missions suivantes : - le contrôle du stationnement payant dans les conditions conformes à la réforme du stationnement instaurée depuis le 1er janvier 2018 (codifiée depuis dans le CGCT notamment aux articles L.2333-87 et suivants) ; - le recrutement et la gestion des agents de contrôle du stationnement ; - la fourniture du matériel à la bonne exécution du marché, avec en particulier…",
+   "departments": [
+    "60"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
   }
  ]
 }
