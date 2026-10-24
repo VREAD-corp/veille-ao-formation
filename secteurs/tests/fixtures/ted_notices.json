@@ -1,0 +1,1014 @@
+{
+ "notices": [
+  {
+   "place-of-performance": [
+    "FRD11",
+    "FRD11",
+    "FRD11",
+    "FRD11",
+    "FRA",
+    "FRA",
+    "FRA",
+    "FRA"
+   ],
+   "title-proc": {
+    "fra": "Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI"
+   },
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-16+02:00",
+    "2026-10-16+02:00",
+    "2026-10-16+02:00",
+    "2026-10-16+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "619961-2026",
+   "procedure-identifier": "4102f7e7-e966-4f56-acea-28b2cef9d475",
+   "deadline-receipt-tender-time-lot": [
+    "12:00:00+02:00",
+    "12:00:00+02:00",
+    "12:00:00+02:00",
+    "12:00:00+02:00"
+   ],
+   "procedure-type": "open",
+   "organisation-post-code-buyer": [
+    "14075"
+   ],
+   "classification-cpv": [
+    "90910000",
+    "90911000",
+    "90911000",
+    "90919200",
+    "90911000"
+   ],
+   "contract-nature": [
+    "services",
+    "services",
+    "services",
+    "services",
+    "services"
+   ],
+   "buyer-name": {
+    "fra": [
+     "SCDI la Caennaise (14)"
+    ]
+   },
+   "publication-date": "2026-09-09+02:00",
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/619961-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/619961-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/619961-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/619961-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/619961-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/619961-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/619961-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/619961-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/619961-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/619961-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/619961-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/619961-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/619961-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/619961-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/619961-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/619961-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/619961-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/619961-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/619961-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/619961-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/619961-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/619961-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/619961-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/619961-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/619961-2026/pdf"
+    },
+    "pdfs": {
+     "FRA": "https://ted.europa.eu/fr/notice/619961-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/619961-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/619961-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/619961-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/619961-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/619961-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/619961-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/619961-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/619961-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/619961-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/619961-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/619961-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/619961-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/619961-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/619961-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/619961-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/619961-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/619961-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/619961-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/619961-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/619961-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/619961-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/619961-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/619961-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/619961-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/619961-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/619961-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/619961-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/619961-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/619961-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/619961-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/619961-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/619961-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/619961-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/619961-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/619961-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/619961-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/619961-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/619961-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/619961-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/619961-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/619961-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/619961-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/619961-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/619961-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/619961-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/619961-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/619961-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/619961-2026/html"
+    }
+   },
+   "notice-title": {
+    "hun": "Franciaország – Takarítási szolgáltatások – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "lav": "Francija – Uzkopšanas pakalpojumi – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "swe": "Frankrike – Städning – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "gle": "An Fhrainc – Cleaning services – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "ell": "Γαλλία – Υπηρεσίες καθαρισμού – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "spa": "Francia – Servicios de limpieza – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "est": "Prantsusmaa – Puhastusteenused – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "nld": "Frankrijk – Reinigingsdiensten – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "fin": "Ranska – Siivous- ja puhdistuspalvelut – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "pol": "Francja – Usługi sprzątania – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "hrv": "Francuska – Usluge čišćenja – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "ces": "Francie – Úklidové služby – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "dan": "Frankrig – Rengøring – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "ron": "Franţa – Servicii de curăţenie – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "por": "França – Serviços de limpeza – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "slk": "Francúzsko – Upratovacie služby – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "fra": "France – Services de nettoyage – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "mlt": "Franza – Servizzi tat-tindif – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "deu": "Frankreich – Reinigungsdienste – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "lit": "Prancūzija – Valymo paslaugos – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "ita": "Francia – Servizi di pulizia – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "bul": "Фpaнция – Услуги по почистване на сгради, промишлени инсталации и превозни средства – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "slv": "Francija – Storitve čiščenja – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI",
+    "eng": "France – Cleaning services – Marché d'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri — Parc d'habitation, locaux administratifs, ERP et chantiers - Parc immobilier de la CAENNAISE SCDI"
+   },
+   "title-lot": {
+    "fra": [
+     "Prestations d’entretien ménager des parties communes, traitement des ordures ménagères et tri - Parc d’habitation Zone Ouest",
+     "Prestations d’entretien ménager des parties communes, traitement des ordures ménagères et tri-sélectif - Parc d’habitation Zone Est Sud Centre",
+     "Entretien ménager des locaux administratifs et ERP",
+     "Accord-cadre à bon de commande – Nettoyage travaux"
+    ]
+   },
+   "description-proc": {
+    "fra": "Marché de services avec accord cadre à bons de commande passé en lots séparés portant sur l'entretien ménager, de nettoyage et de gestion des ordures ménagères / tri -- Parc d'habitation, locaux administratifs, ERP et chantiers"
+   }
+  },
+  {
+   "place-of-performance": [
+    "FRJ15",
+    "FRA",
+    "FRJ15",
+    "FRA"
+   ],
+   "title-proc": {
+    "fra": "Prestations de nettoyage de locaux communaux 2027-2030"
+   },
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-14+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "620145-2026",
+   "procedure-identifier": "d8d1acd6-b09c-40ef-a0d2-09ed27c0137d",
+   "deadline-receipt-tender-time-lot": [
+    "17:00:00+02:00"
+   ],
+   "procedure-type": "open",
+   "organisation-post-code-buyer": [
+    "66270"
+   ],
+   "classification-cpv": [
+    "90910000",
+    "90911200",
+    "90911300",
+    "90919300",
+    "90910000",
+    "90911200",
+    "90911300",
+    "90919300"
+   ],
+   "contract-nature": [
+    "services",
+    "services"
+   ],
+   "buyer-name": {
+    "fra": [
+     "MAIRIE DU SOLER"
+    ]
+   },
+   "publication-date": "2026-09-09+02:00",
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/620145-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/620145-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/620145-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/620145-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/620145-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/620145-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/620145-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/620145-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/620145-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/620145-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/620145-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/620145-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/620145-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/620145-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/620145-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/620145-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/620145-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/620145-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/620145-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/620145-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/620145-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/620145-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/620145-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/620145-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/620145-2026/pdf"
+    },
+    "pdfs": {
+     "FRA": "https://ted.europa.eu/fr/notice/620145-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/620145-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/620145-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/620145-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/620145-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/620145-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/620145-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/620145-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/620145-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/620145-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/620145-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/620145-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/620145-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/620145-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/620145-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/620145-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/620145-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/620145-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/620145-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/620145-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/620145-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/620145-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/620145-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/620145-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/620145-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/620145-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/620145-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/620145-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/620145-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/620145-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/620145-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/620145-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/620145-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/620145-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/620145-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/620145-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/620145-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/620145-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/620145-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/620145-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/620145-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/620145-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/620145-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/620145-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/620145-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/620145-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/620145-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/620145-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/620145-2026/html"
+    }
+   },
+   "notice-title": {
+    "hun": "Franciaország – Takarítási szolgáltatások – Prestations de nettoyage de locaux communaux 2027-2030",
+    "lav": "Francija – Uzkopšanas pakalpojumi – Prestations de nettoyage de locaux communaux 2027-2030",
+    "swe": "Frankrike – Städning – Prestations de nettoyage de locaux communaux 2027-2030",
+    "gle": "An Fhrainc – Cleaning services – Prestations de nettoyage de locaux communaux 2027-2030",
+    "ell": "Γαλλία – Υπηρεσίες καθαρισμού – Prestations de nettoyage de locaux communaux 2027-2030",
+    "spa": "Francia – Servicios de limpieza – Prestations de nettoyage de locaux communaux 2027-2030",
+    "est": "Prantsusmaa – Puhastusteenused – Prestations de nettoyage de locaux communaux 2027-2030",
+    "nld": "Frankrijk – Reinigingsdiensten – Prestations de nettoyage de locaux communaux 2027-2030",
+    "fin": "Ranska – Siivous- ja puhdistuspalvelut – Prestations de nettoyage de locaux communaux 2027-2030",
+    "pol": "Francja – Usługi sprzątania – Prestations de nettoyage de locaux communaux 2027-2030",
+    "hrv": "Francuska – Usluge čišćenja – Prestations de nettoyage de locaux communaux 2027-2030",
+    "ces": "Francie – Úklidové služby – Prestations de nettoyage de locaux communaux 2027-2030",
+    "dan": "Frankrig – Rengøring – Prestations de nettoyage de locaux communaux 2027-2030",
+    "ron": "Franţa – Servicii de curăţenie – Prestations de nettoyage de locaux communaux 2027-2030",
+    "por": "França – Serviços de limpeza – Prestations de nettoyage de locaux communaux 2027-2030",
+    "slk": "Francúzsko – Upratovacie služby – Prestations de nettoyage de locaux communaux 2027-2030",
+    "fra": "France – Services de nettoyage – Prestations de nettoyage de locaux communaux 2027-2030",
+    "mlt": "Franza – Servizzi tat-tindif – Prestations de nettoyage de locaux communaux 2027-2030",
+    "deu": "Frankreich – Reinigungsdienste – Prestations de nettoyage de locaux communaux 2027-2030",
+    "lit": "Prancūzija – Valymo paslaugos – Prestations de nettoyage de locaux communaux 2027-2030",
+    "ita": "Francia – Servizi di pulizia – Prestations de nettoyage de locaux communaux 2027-2030",
+    "bul": "Фpaнция – Услуги по почистване на сгради, промишлени инсталации и превозни средства – Prestations de nettoyage de locaux communaux 2027-2030",
+    "slv": "Francija – Storitve čiščenja – Prestations de nettoyage de locaux communaux 2027-2030",
+    "eng": "France – Cleaning services – Prestations de nettoyage de locaux communaux 2027-2030"
+   },
+   "title-lot": {
+    "fra": [
+     "Prestations de nettoyage de locaux communaux 2027-2030"
+    ]
+   },
+   "description-proc": {
+    "fra": "Le présent marché unique comporte des prestations forfaitaires et des Prestations Supplémentaires Eventuelles intéressant, respectivement, différents bâtiments communaux tels que listés, notamment, au Réglement de la Consultation"
+   }
+  },
+  {
+   "place-of-performance": [
+    "FRJ13",
+    "FRA",
+    "FRJ13",
+    "FRJ13",
+    "FRA",
+    "FRA"
+   ],
+   "title-proc": {
+    "fra": "Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète"
+   },
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-19+02:00",
+    "2026-10-19+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "495358-2026",
+   "procedure-identifier": "abb56feb-4f4e-4a5d-aa6e-52d86586d3d3",
+   "estimated-value-cur-proc": "EUR",
+   "deadline-receipt-tender-time-lot": [
+    "12:00:00+02:00",
+    "12:00:00+02:00"
+   ],
+   "procedure-type": "open",
+   "organisation-post-code-buyer": [
+    "34110"
+   ],
+   "classification-cpv": [
+    "77311000",
+    "77311000",
+    "77311000",
+    "77311000",
+    "77311000",
+    "77310000"
+   ],
+   "contract-nature": [
+    "services",
+    "services",
+    "services"
+   ],
+   "buyer-name": {
+    "fra": [
+     "Ville de Sète"
+    ]
+   },
+   "publication-date": "2026-07-17+02:00",
+   "estimated-value-proc": "1700000",
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/495358-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/495358-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/495358-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/495358-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/495358-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/495358-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/495358-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/495358-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/495358-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/495358-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/495358-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/495358-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/495358-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/495358-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/495358-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/495358-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/495358-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/495358-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/495358-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/495358-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/495358-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/495358-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/495358-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/495358-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/495358-2026/pdf"
+    },
+    "pdfs": {
+     "FRA": "https://ted.europa.eu/fr/notice/495358-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/495358-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/495358-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/495358-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/495358-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/495358-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/495358-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/495358-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/495358-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/495358-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/495358-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/495358-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/495358-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/495358-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/495358-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/495358-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/495358-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/495358-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/495358-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/495358-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/495358-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/495358-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/495358-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/495358-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/495358-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/495358-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/495358-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/495358-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/495358-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/495358-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/495358-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/495358-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/495358-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/495358-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/495358-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/495358-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/495358-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/495358-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/495358-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/495358-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/495358-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/495358-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/495358-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/495358-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/495358-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/495358-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/495358-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/495358-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/495358-2026/html"
+    }
+   },
+   "notice-title": {
+    "hun": "Franciaország – Dísz- és pihenőkert-fenntartási szolgáltatások – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "lav": "Francija – Dekoratīvo un atpūtas dārzu kopšanas pakalpojumi – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "swe": "Frankrike – Skötsel av trädgårdar och parker – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "gle": "An Fhrainc – Ornamental and pleasure gardens maintenance services – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "ell": "Γαλλία – Συντήρηση διακοσμητικών κήπων ή κήπων αναψυχής – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "spa": "Francia – Servicios de mantenimiento de jardines y parques – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "est": "Prantsusmaa – Iluaedade ja parkide hooldusteenused – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "nld": "Frankrijk – Onderhouden van sier- en recreatietuinen – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "fin": "Ranska – Puistojen ja puutarhojen hoitopalvelut – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "pol": "Francja – Usługi utrzymania ogródków ozdobnych – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "hrv": "Francuska – Usluge održavanja ukrasnih parkova i perivoja – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "ces": "Francie – Služby související s údržbou okrasných zahrad a parků – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "dan": "Frankrig – Vedligeholdelse af have- og parkanlæg – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "ron": "Franţa – Întreţinere de grădini decorative sau de recreere – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "por": "França – Serviços de manutenção de jardins ornamentais e recreativos – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "slk": "Francúzsko – Údržba okrasných a rekreačných záhrad – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "fra": "France – Entretien de pelouses décoratives ou d'agrément – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "mlt": "Franza – Servizzi tal-manutenzjoni ta' gonna ornamentali u oqsma tad-divertiment – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "deu": "Frankreich – Pflegearbeiten für Ziergärten und Parks – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "lit": "Prancūzija – Dekoratyvinių ir poilsio sodų priežiūros paslaugos – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "ita": "Francia – Servizi di manutenzione di giardini ornamentali o ricreativi – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "bul": "Фpaнция – Услуги по поддържане на зелени площи в паркове и места за развлечения – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "slv": "Francija – Storitve vzdrževanja okrasnih vrtov in parkov – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète",
+    "eng": "France – Ornamental and pleasure gardens maintenance services – Tonte des gazons, entretien des espaces plantes d'arbustes et de vivaces sur la commune de Sète"
+   },
+   "title-lot": {
+    "fra": [
+     "Tonte des gazons",
+     "Entretien des espaces plantés"
+    ]
+   },
+   "description-proc": {
+    "fra": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Lot 1 tonte : tonte des gazons de l'ensemble de la ville en mulching, passage du coupe-bordures en périphérie des espaces traités, ramassages des déchets sur les espaces si besoin. Lot 2 entretien des espaces plantés : taille des arbustes et des vivaces dans les règles de l'art, nivellement des paillages, désherbage des espaces traités, nettoyage des massifs. Les montants maximum par lot sont : Pour le lot n°1 : 125 000 euro(s) HT maximum annuel soit 500 000 euros HT toutes reconductions confondues Pour le lot n°2 : 300 000 euro(s) HT maximum annuel soit 1 200 000 euros HT toutes reconductions confondues"
+   }
+  },
+  {
+   "place-of-performance": [
+    "FRA",
+    "FR105",
+    "FR105",
+    "FRA",
+    "FRA"
+   ],
+   "title-proc": {
+    "fra": "ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET"
+   },
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-14+02:00",
+    "2026-10-14+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "546322-2026",
+   "procedure-identifier": "ea8a130f-b842-4c0e-826c-2856719aa0f3",
+   "deadline-receipt-tender-time-lot": [
+    "12:00:00+02:00",
+    "12:00:00+02:00"
+   ],
+   "procedure-type": "open",
+   "organisation-post-code-buyer": [
+    "92186"
+   ],
+   "classification-cpv": [
+    "77310000",
+    "77310000",
+    "77310000"
+   ],
+   "contract-nature": [
+    "services",
+    "services",
+    "services"
+   ],
+   "buyer-name": {
+    "fra": [
+     "SA D'HLM PIERRES ET LUMIERES"
+    ]
+   },
+   "publication-date": "2026-08-06+02:00",
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/546322-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/546322-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/546322-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/546322-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/546322-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/546322-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/546322-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/546322-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/546322-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/546322-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/546322-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/546322-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/546322-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/546322-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/546322-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/546322-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/546322-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/546322-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/546322-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/546322-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/546322-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/546322-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/546322-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/546322-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/546322-2026/pdf"
+    },
+    "pdfs": {
+     "FRA": "https://ted.europa.eu/fr/notice/546322-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/546322-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/546322-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/546322-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/546322-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/546322-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/546322-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/546322-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/546322-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/546322-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/546322-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/546322-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/546322-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/546322-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/546322-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/546322-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/546322-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/546322-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/546322-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/546322-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/546322-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/546322-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/546322-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/546322-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/546322-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/546322-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/546322-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/546322-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/546322-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/546322-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/546322-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/546322-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/546322-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/546322-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/546322-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/546322-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/546322-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/546322-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/546322-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/546322-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/546322-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/546322-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/546322-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/546322-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/546322-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/546322-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/546322-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/546322-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/546322-2026/html"
+    }
+   },
+   "notice-title": {
+    "hun": "Franciaország – Zöldterület-ültetési és -karbantartási szolgáltatások – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "lav": "Francija – Zaļo platību apzaļumošanas un kopšanas pakalpojumi – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "swe": "Frankrike – Plantering och skötsel av grönområden – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "gle": "An Fhrainc – Planting and maintenance services of green areas – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "ell": "Γαλλία – Φύτευση και συντήρηση χώρων πρασίνου – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "spa": "Francia – Servicios de plantación y mantenimiento de zonas verdes – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "est": "Prantsusmaa – Haljasalade istutus- ja hooldusteenused – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "nld": "Frankrijk – Beplanten en onderhouden van groengebieden – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "fin": "Ranska – Viheralueiden istutus- ja hoitopalvelut – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "pol": "Francja – Usługi sadzenia roślin oraz utrzymania terenów zielonych – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "hrv": "Francuska – Usluge sadnje i održavanja zelenih površina – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "ces": "Francie – Služby vysazování a údržby zelených ploch – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "dan": "Frankrig – Tilplantning og vedligeholdelse af grønne områder – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "ron": "Franţa – Amenajare şi întreţinere de spaţii verzi – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "por": "França – Serviços de plantação e manutenção de áreas verdes – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "slk": "Francúzsko – Výsadba a údržba zelených plôch – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "fra": "France – Réalisation et entretien d'espaces verts – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "mlt": "Franza – Servizzi tat-tħawwil u l-manutenzjoni ta' oqsma ħodor – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "deu": "Frankreich – Anpflanzungs- und Pflegearbeiten an Grünflächen – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "lit": "Prancūzija – Žaliųjų zonų sodinimo ir priežiūros paslaugos – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "ita": "Francia – Servizi di piantagione e manutenzione di zone verdi – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "bul": "Фpaнция – Услуги по създаване и поддържане на зелени площи – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "slv": "Francija – Storitve sajenja in vzdrževanja zelenih površin – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET",
+    "eng": "France – Planting and maintenance services of green areas – ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET"
+   },
+   "title-lot": {
+    "fra": [
+     "ENTRETIEN DES ESPACES VERTS EN IDF",
+     "ENTRETIEN DES ESPACES VERTS DANS LE LOIRET"
+    ]
+   },
+   "description-proc": {
+    "fra": "ENTRETIEN DES ESPACES VERTS EN IDF ET LOIRET"
+   }
+  },
+  {
+   "place-of-performance": [
+    "00"
+   ],
+   "title-proc": {
+    "fra": "Prestation de gardiennage du rectorat et des services rattachés"
+   },
+   "deadline-receipt-tender-date-lot": [
+    "2028-05-19+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "165137-2024",
+   "procedure-identifier": "2305e82d-8529-40ec-b0af-702ebf01fa10",
+   "deadline-receipt-tender-time-lot": [
+    "11:00:00+02:00"
+   ],
+   "procedure-type": "open",
+   "organisation-post-code-buyer": [
+    "97600"
+   ],
+   "classification-cpv": [
+    "79713000",
+    "79713000"
+   ],
+   "contract-nature": [
+    "services",
+    "services"
+   ],
+   "buyer-name": {
+    "fra": [
+     "Rectorat de Mayotte"
+    ]
+   },
+   "publication-date": "2024-03-19Z",
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/165137-2024/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/165137-2024/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/165137-2024/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/165137-2024/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/165137-2024/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/165137-2024/pdf",
+     "EST": "https://ted.europa.eu/et/notice/165137-2024/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/165137-2024/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/165137-2024/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/165137-2024/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/165137-2024/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/165137-2024/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/165137-2024/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/165137-2024/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/165137-2024/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/165137-2024/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/165137-2024/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/165137-2024/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/165137-2024/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/165137-2024/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/165137-2024/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/165137-2024/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/165137-2024/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/165137-2024/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/165137-2024/pdf"
+    },
+    "pdfs": {
+     "FRA": "https://ted.europa.eu/fr/notice/165137-2024/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/165137-2024",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/165137-2024",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/165137-2024",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/165137-2024",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/165137-2024",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/165137-2024",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/165137-2024",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/165137-2024",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/165137-2024",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/165137-2024",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/165137-2024",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/165137-2024",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/165137-2024",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/165137-2024",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/165137-2024",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/165137-2024",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/165137-2024",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/165137-2024",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/165137-2024",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/165137-2024",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/165137-2024",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/165137-2024",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/165137-2024",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/165137-2024"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/165137-2024/html",
+     "SPA": "https://ted.europa.eu/es/notice/165137-2024/html",
+     "CES": "https://ted.europa.eu/cs/notice/165137-2024/html",
+     "DAN": "https://ted.europa.eu/da/notice/165137-2024/html",
+     "DEU": "https://ted.europa.eu/de/notice/165137-2024/html",
+     "EST": "https://ted.europa.eu/et/notice/165137-2024/html",
+     "ELL": "https://ted.europa.eu/el/notice/165137-2024/html",
+     "ENG": "https://ted.europa.eu/en/notice/165137-2024/html",
+     "FRA": "https://ted.europa.eu/fr/notice/165137-2024/html",
+     "GLE": "https://ted.europa.eu/ga/notice/165137-2024/html",
+     "HRV": "https://ted.europa.eu/hr/notice/165137-2024/html",
+     "ITA": "https://ted.europa.eu/it/notice/165137-2024/html",
+     "LAV": "https://ted.europa.eu/lv/notice/165137-2024/html",
+     "LIT": "https://ted.europa.eu/lt/notice/165137-2024/html",
+     "HUN": "https://ted.europa.eu/hu/notice/165137-2024/html",
+     "MLT": "https://ted.europa.eu/mt/notice/165137-2024/html",
+     "NLD": "https://ted.europa.eu/nl/notice/165137-2024/html",
+     "POL": "https://ted.europa.eu/pl/notice/165137-2024/html",
+     "POR": "https://ted.europa.eu/pt/notice/165137-2024/html",
+     "RON": "https://ted.europa.eu/ro/notice/165137-2024/html",
+     "SLK": "https://ted.europa.eu/sk/notice/165137-2024/html",
+     "SLV": "https://ted.europa.eu/sl/notice/165137-2024/html",
+     "FIN": "https://ted.europa.eu/fi/notice/165137-2024/html",
+     "SWE": "https://ted.europa.eu/sv/notice/165137-2024/html"
+    }
+   },
+   "notice-title": {
+    "hun": "Franciaország – Őrzési szolgáltatások – Prestation de gardiennage du rectorat et des services rattachés",
+    "lav": "Francija – Apsargu pakalpojumi – Prestation de gardiennage du rectorat et des services rattachés",
+    "swe": "Frankrike – Vakttjänster – Prestation de gardiennage du rectorat et des services rattachés",
+    "gle": "An Fhrainc – Guard services – Prestation de gardiennage du rectorat et des services rattachés",
+    "ell": "Γαλλία – Υπηρεσίες φύλαξης – Prestation de gardiennage du rectorat et des services rattachés",
+    "spa": "Francia – Servicios de guardias de seguridad – Prestation de gardiennage du rectorat et des services rattachés",
+    "est": "Prantsusmaa – Valveteenused – Prestation de gardiennage du rectorat et des services rattachés",
+    "nld": "Frankrijk – Bewakingsdiensten – Prestation de gardiennage du rectorat et des services rattachés",
+    "fin": "Ranska – Vartiointipalvelut – Prestation de gardiennage du rectorat et des services rattachés",
+    "pol": "Francja – Usługi strażnicze – Prestation de gardiennage du rectorat et des services rattachés",
+    "hrv": "Francuska – Čuvarske službe – Prestation de gardiennage du rectorat et des services rattachés",
+    "ces": "Francie – Strážní služby – Prestation de gardiennage du rectorat et des services rattachés",
+    "dan": "Frankrig – Vagttjenester – Prestation de gardiennage du rectorat et des services rattachés",
+    "ron": "Franţa – Servicii de pază – Prestation de gardiennage du rectorat et des services rattachés",
+    "por": "França – Serviços de guarda – Prestation de gardiennage du rectorat et des services rattachés",
+    "slk": "Francúzsko – Strážne služby – Prestation de gardiennage du rectorat et des services rattachés",
+    "fra": "France – Services de gardiennage – Prestation de gardiennage du rectorat et des services rattachés",
+    "mlt": "Franza – Servizzi ta' gwardji – Prestation de gardiennage du rectorat et des services rattachés",
+    "deu": "Frankreich – Bewachungsdienste – Prestation de gardiennage du rectorat et des services rattachés",
+    "lit": "Prancūzija – Apsaugos paslaugos – Prestation de gardiennage du rectorat et des services rattachés",
+    "ita": "Francia – Servizi di guardia – Prestation de gardiennage du rectorat et des services rattachés",
+    "bul": "Фpaнция – Охранителни услуги – Prestation de gardiennage du rectorat et des services rattachés",
+    "slv": "Francija – Storitve varovanja z varnostniki – Prestation de gardiennage du rectorat et des services rattachés",
+    "eng": "France – Guard services – Prestation de gardiennage du rectorat et des services rattachés"
+   },
+   "title-lot": {
+    "fra": [
+     "Prestation de gardiennage du rectorat et des services rattachés"
+    ]
+   },
+   "description-proc": {
+    "fra": "Prestation de gardiennage du rectorat et des services rattachés"
+   }
+  },
+  {
+   "place-of-performance": [
+    "FRF11",
+    "FRA",
+    "FRF11",
+    "FRF12",
+    "FRF12",
+    "FRA",
+    "FRA",
+    "FRA"
+   ],
+   "title-proc": {
+    "fra": "Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole"
+   },
+   "deadline-receipt-tender-date-lot": [
+    "2027-02-27+01:00",
+    "2027-02-27+01:00",
+    "2027-02-27+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "64318-2026",
+   "procedure-identifier": "c37f96a6-d2f0-4ffa-965d-a85a587af267",
+   "deadline-receipt-tender-time-lot": [
+    "12:00:00+01:00",
+    "12:00:00+01:00",
+    "12:00:00+01:00"
+   ],
+   "procedure-type": "open",
+   "organisation-post-code-buyer": [
+    "67012"
+   ],
+   "classification-cpv": [
+    "79713000",
+    "79710000",
+    "79714000",
+    "79713000",
+    "79713000",
+    "79713000",
+    "79710000",
+    "79714000",
+    "79710000",
+    "79714000",
+    "79710000",
+    "79714000"
+   ],
+   "contract-nature": [
+    "services",
+    "services",
+    "services",
+    "services"
+   ],
+   "buyer-name": {
+    "fra": [
+     "Chambre de Commerce et d'Industrie Alsace Eurométropole"
+    ]
+   },
+   "publication-date": "2026-01-28+01:00",
+   "links": {
+    "xml": {
+     "MUL": "https://ted.europa.eu/en/notice/64318-2026/xml"
+    },
+    "pdf": {
+     "BUL": "https://ted.europa.eu/bg/notice/64318-2026/pdf",
+     "SPA": "https://ted.europa.eu/es/notice/64318-2026/pdf",
+     "CES": "https://ted.europa.eu/cs/notice/64318-2026/pdf",
+     "DAN": "https://ted.europa.eu/da/notice/64318-2026/pdf",
+     "DEU": "https://ted.europa.eu/de/notice/64318-2026/pdf",
+     "EST": "https://ted.europa.eu/et/notice/64318-2026/pdf",
+     "ELL": "https://ted.europa.eu/el/notice/64318-2026/pdf",
+     "ENG": "https://ted.europa.eu/en/notice/64318-2026/pdf",
+     "FRA": "https://ted.europa.eu/fr/notice/64318-2026/pdf",
+     "GLE": "https://ted.europa.eu/ga/notice/64318-2026/pdf",
+     "HRV": "https://ted.europa.eu/hr/notice/64318-2026/pdf",
+     "ITA": "https://ted.europa.eu/it/notice/64318-2026/pdf",
+     "LAV": "https://ted.europa.eu/lv/notice/64318-2026/pdf",
+     "LIT": "https://ted.europa.eu/lt/notice/64318-2026/pdf",
+     "HUN": "https://ted.europa.eu/hu/notice/64318-2026/pdf",
+     "MLT": "https://ted.europa.eu/mt/notice/64318-2026/pdf",
+     "NLD": "https://ted.europa.eu/nl/notice/64318-2026/pdf",
+     "POL": "https://ted.europa.eu/pl/notice/64318-2026/pdf",
+     "POR": "https://ted.europa.eu/pt/notice/64318-2026/pdf",
+     "RON": "https://ted.europa.eu/ro/notice/64318-2026/pdf",
+     "SLK": "https://ted.europa.eu/sk/notice/64318-2026/pdf",
+     "SLV": "https://ted.europa.eu/sl/notice/64318-2026/pdf",
+     "FIN": "https://ted.europa.eu/fi/notice/64318-2026/pdf",
+     "SWE": "https://ted.europa.eu/sv/notice/64318-2026/pdf"
+    },
+    "pdfs": {
+     "FRA": "https://ted.europa.eu/fr/notice/64318-2026/pdfs"
+    },
+    "html": {
+     "BUL": "https://ted.europa.eu/bg/notice/-/detail/64318-2026",
+     "SPA": "https://ted.europa.eu/es/notice/-/detail/64318-2026",
+     "CES": "https://ted.europa.eu/cs/notice/-/detail/64318-2026",
+     "DAN": "https://ted.europa.eu/da/notice/-/detail/64318-2026",
+     "DEU": "https://ted.europa.eu/de/notice/-/detail/64318-2026",
+     "EST": "https://ted.europa.eu/et/notice/-/detail/64318-2026",
+     "ELL": "https://ted.europa.eu/el/notice/-/detail/64318-2026",
+     "ENG": "https://ted.europa.eu/en/notice/-/detail/64318-2026",
+     "FRA": "https://ted.europa.eu/fr/notice/-/detail/64318-2026",
+     "GLE": "https://ted.europa.eu/ga/notice/-/detail/64318-2026",
+     "HRV": "https://ted.europa.eu/hr/notice/-/detail/64318-2026",
+     "ITA": "https://ted.europa.eu/it/notice/-/detail/64318-2026",
+     "LAV": "https://ted.europa.eu/lv/notice/-/detail/64318-2026",
+     "LIT": "https://ted.europa.eu/lt/notice/-/detail/64318-2026",
+     "HUN": "https://ted.europa.eu/hu/notice/-/detail/64318-2026",
+     "MLT": "https://ted.europa.eu/mt/notice/-/detail/64318-2026",
+     "NLD": "https://ted.europa.eu/nl/notice/-/detail/64318-2026",
+     "POL": "https://ted.europa.eu/pl/notice/-/detail/64318-2026",
+     "POR": "https://ted.europa.eu/pt/notice/-/detail/64318-2026",
+     "RON": "https://ted.europa.eu/ro/notice/-/detail/64318-2026",
+     "SLK": "https://ted.europa.eu/sk/notice/-/detail/64318-2026",
+     "SLV": "https://ted.europa.eu/sl/notice/-/detail/64318-2026",
+     "FIN": "https://ted.europa.eu/fi/notice/-/detail/64318-2026",
+     "SWE": "https://ted.europa.eu/sv/notice/-/detail/64318-2026"
+    },
+    "htmlDirect": {
+     "BUL": "https://ted.europa.eu/bg/notice/64318-2026/html",
+     "SPA": "https://ted.europa.eu/es/notice/64318-2026/html",
+     "CES": "https://ted.europa.eu/cs/notice/64318-2026/html",
+     "DAN": "https://ted.europa.eu/da/notice/64318-2026/html",
+     "DEU": "https://ted.europa.eu/de/notice/64318-2026/html",
+     "EST": "https://ted.europa.eu/et/notice/64318-2026/html",
+     "ELL": "https://ted.europa.eu/el/notice/64318-2026/html",
+     "ENG": "https://ted.europa.eu/en/notice/64318-2026/html",
+     "FRA": "https://ted.europa.eu/fr/notice/64318-2026/html",
+     "GLE": "https://ted.europa.eu/ga/notice/64318-2026/html",
+     "HRV": "https://ted.europa.eu/hr/notice/64318-2026/html",
+     "ITA": "https://ted.europa.eu/it/notice/64318-2026/html",
+     "LAV": "https://ted.europa.eu/lv/notice/64318-2026/html",
+     "LIT": "https://ted.europa.eu/lt/notice/64318-2026/html",
+     "HUN": "https://ted.europa.eu/hu/notice/64318-2026/html",
+     "MLT": "https://ted.europa.eu/mt/notice/64318-2026/html",
+     "NLD": "https://ted.europa.eu/nl/notice/64318-2026/html",
+     "POL": "https://ted.europa.eu/pl/notice/64318-2026/html",
+     "POR": "https://ted.europa.eu/pt/notice/64318-2026/html",
+     "RON": "https://ted.europa.eu/ro/notice/64318-2026/html",
+     "SLK": "https://ted.europa.eu/sk/notice/64318-2026/html",
+     "SLV": "https://ted.europa.eu/sl/notice/64318-2026/html",
+     "FIN": "https://ted.europa.eu/fi/notice/64318-2026/html",
+     "SWE": "https://ted.europa.eu/sv/notice/64318-2026/html"
+    }
+   },
+   "notice-title": {
+    "hun": "Franciaország – Őrzési szolgáltatások – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "lav": "Francija – Apsargu pakalpojumi – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "swe": "Frankrike – Vakttjänster – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "gle": "An Fhrainc – Guard services – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "ell": "Γαλλία – Υπηρεσίες φύλαξης – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "spa": "Francia – Servicios de guardias de seguridad – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "est": "Prantsusmaa – Valveteenused – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "nld": "Frankrijk – Bewakingsdiensten – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "fin": "Ranska – Vartiointipalvelut – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "pol": "Francja – Usługi strażnicze – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "hrv": "Francuska – Čuvarske službe – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "ces": "Francie – Strážní služby – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "dan": "Frankrig – Vagttjenester – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "ron": "Franţa – Servicii de pază – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "por": "França – Serviços de guarda – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "slk": "Francúzsko – Strážne služby – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "fra": "France – Services de gardiennage – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "mlt": "Franza – Servizzi ta' gwardji – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "deu": "Frankreich – Bewachungsdienste – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "lit": "Prancūzija – Apsaugos paslaugos – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "ita": "Francia – Servizi di guardia – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "bul": "Фpaнция – Охранителни услуги – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "slv": "Francija – Storitve varovanja z varnostniki – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole",
+    "eng": "France – Guard services – Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole"
+   },
+   "title-lot": {
+    "fra": [
+     "Sites de Strasbourg",
+     "Sites de Colmar",
+     "Sites de Mulhouse"
+    ]
+   },
+   "description-proc": {
+    "fra": "Prestations de gardiennage et de surveillance à distance des sites de la CCI Alsace Eurométropole"
+   }
+  }
+ ]
+}

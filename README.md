@@ -6,6 +6,16 @@ Open French public tenders for **training services** (formation professionnelle)
 
 Brand **Jalonel** (https://jalonel.com/), a brand of READ FRANCE SAS (legal operator, named in the legal notice, CGV and invoices). 2026-10-16: moved from https://outils.vread.fr/veille-ao-formation/ (old URLs redirect). IndexNow key file `5be19f56d46ca3d2553bee28ebfa8edd.txt` is written at the site root by the build. No accounts, no cookies, no trackers, no LLM. Optional paid e-mail alerts (B2B, prepaid periods).
 
+## Sectors (Lot Repéré merged here on 2026-10-24)
+
+Since 2026-10-24 this site also carries the tenders of **Lot Repéré** (nettoyage et propreté, espaces verts, sécurité privée), under https://ao-formation.jalonel.com/secteurs/ (section name « Veille AO »; a neutral common name still has to be chosen and checked at the INPI). The pipeline is the former `VREAD-corp/lot-repere` code, moved unchanged in its logic into `secteurs/` (package `secteurs/lotrepere`, store `secteurs/data/`, its own tests and `sales.config.json`):
+
+- `cd secteurs && python -m lotrepere update | build --out ../_site/secteurs | export`; `update.yml` runs it after the training fetch (a failure there never blocks the training site) and builds both into one Pages artifact.
+- Pages: `/secteurs/` (three trades), `/secteurs/<trade>/`, `/secteurs/<trade>/<region>/`, `/secteurs/alertes/`, `/secteurs/methode/`, legal pages, feeds, `secteurs/data/ouverts.json` (read by the paid alerts backend, feed `lot-repere`), sitemap `secteurs/sitemap.xml` (listed in `robots.txt`).
+- Paid alerts: products `lot-repere-3m` (49 €) and `lot-repere-12m` (149 €), terms `cgv-pro-veille-ao-secteurs-2026-10-24`. The A/B price test `lot-repere-prix12` closed with the merge; nothing was sold on either arm.
+- Measurement: same site id as the training pages (`veille-ao-formation`), pages `/secteurs/...`.
+- Old URLs: `lot-repere.jalonel.com/<path>` serves redirect pages to `ao-formation.jalonel.com/secteurs/<path>` (meta refresh, canonical, visible link), built in `VREAD-corp/lot-repere`.
+
 ## What it does
 
 1. `python -m veille update` fetches:

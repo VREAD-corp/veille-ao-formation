@@ -137,7 +137,9 @@ class Site:
         ld_json = json.dumps(jsonld, ensure_ascii=False).replace("</", "<\\/")
         ld = f'<script type="application/ld+json">{ld_json}</script>' if jsonld else ""
         robots = "noindex" if noindex is True else noindex
-        nav = [("", "Annonces"), ("region/", "Régions"), ("theme/", "Thèmes"), ("semaine/", "Archives"), ("methode/", "Méthode")]
+        # 2026-10-24: Lot Repéré (nettoyage, espaces verts, sécurité privée) merged here, built under secteurs/ by secteurs/lotrepere.
+        nav = [("", "Annonces"), ("region/", "Régions"), ("theme/", "Thèmes"), ("secteurs/", "Autres secteurs"),
+               ("semaine/", "Archives"), ("methode/", "Méthode")]
         nav_html = "".join(
             f'<a href="{self.link(p)}"{" aria-current=\"page\"" if p == path else ""}>{label}</a>'
             for p, label in nav)
@@ -676,5 +678,6 @@ class Site:
         (self.out / "sitemap.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n'
             f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n', encoding="utf-8")
-        (self.out / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {self.url}sitemap.xml\n",
+        (self.out / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {self.url}sitemap.xml\n"
+                                             f"Sitemap: {self.url}secteurs/sitemap.xml\n",
                                              encoding="utf-8")

@@ -19,5 +19,9 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements-dev.txt
       - run: python -m pytest -q
+      - run: python -m pytest -q
+        working-directory: secteurs
       - name: Build the site with the stored data
-        run: python -m veille build --out _site
+        run: |
+          python -m veille build --out _site
+          (cd secteurs && python -m lotrepere build --out ../_site/secteurs)

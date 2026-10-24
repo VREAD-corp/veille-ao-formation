@@ -1,0 +1,11 @@
+{
+  "SALES_OPEN": true,
+  "quotesEnabled": false,
+  "products": {
+    "lot-repere-3m": 4900,
+    "lot-repere-12m": 14900
+  },
+  "VAT": "franchise293B",
+  "endpoint": "https://script.google.com/macros/s/AKfycbzD1IRL8QALluKGZxgGiORFP6-DkC_qFJYR9aOxZiimxa06nbCqpzUI-9iLblp6V2VY/exec",
+  "publishableKey": "pk_live_51SDmVlB6XNZF5Hrp0OtBUt7OG4zvsmy3jSP9ipuIpvggKSa9eBq4oqO2t7otwbGi4s9iuMiLNx22mk4IoFJeYNuQ00lzBZhHZ9"
+}

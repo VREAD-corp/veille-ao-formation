@@ -1,0 +1,9 @@
+{
+  "name": "Entreprise de propreté – Grand Ouest",
+  "niches": ["nettoyage"],
+  "regions": ["Bretagne", "Pays de la Loire", "Normandie"],
+  "keywords": ["vitrerie", "bionettoyage", "école", "bureaux"],
+  "exclude_keywords": [],
+  "min_days_left": 5,
+  "include_national": true
+}

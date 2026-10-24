@@ -11,7 +11,7 @@ on:
         required: false
   push:
     branches: [main]
-    paths-ignore: ["data/**", "**.md"]
+    paths-ignore: ["data/**", "secteurs/data/**", "**.md"]
 
 permissions:
   contents: write
@@ -35,18 +35,27 @@ jobs:
         run: |
           pip install -r requirements-dev.txt
           python -m pytest -q
+          (cd secteurs && python -m pytest -q)
       - name: Fetch BOAMP + TED
         env:
           SINCE: ${{ github.event.inputs.since }}
         run: |
           if [ -n "$SINCE" ]; then python -m veille update --since "$SINCE"; else python -m veille update; fi
+      # 2026-10-24: Lot Repéré merged here. Its pipeline (secteurs/lotrepere) keeps its own store, secteurs/data/.
+      - name: Fetch BOAMP + TED, nettoyage / espaces verts / sécurité (never blocks the training site)
+        env:
+          SINCE: ${{ github.event.inputs.since }}
+        working-directory: secteurs
+        run: |
+          if [ -n "$SINCE" ]; then python -m lotrepere update --since "$SINCE"; else python -m lotrepere update; fi \
+            || echo "::warning::secteurs: fetch failed; previous data kept"
       - name: Refresh Qualiopi counts (monthly, never blocks the update)
         run: python -m veille qualiopi --max-age-days 25 || echo "::warning::Qualiopi counts not refreshed; previous file kept"
       - name: Commit data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/ secteurs/data/
           if git diff --cached --quiet; then
             echo "No data change"
           else
@@ -60,7 +69,9 @@ jobs:
             done
           fi
       - name: Build site
-        run: python -m veille build --out _site
+        run: |
+          python -m veille build --out _site
+          (cd secteurs && python -m lotrepere build --out ../_site/secteurs)
       - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
