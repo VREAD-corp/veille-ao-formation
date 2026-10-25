@@ -101482,6 +101482,238 @@
    "descriptors": [
     "274"
    ]
+  },
+  {
+   "id": "boamp:26-103060",
+   "source": "BOAMP",
+   "source_id": "26-103060",
+   "title": "Entretien des espaces verts et du patrimoine arboré",
+   "buyer": "COMMUNE DE LAMBERSART",
+   "published": "2026-10-25",
+   "deadline": "2026-11-30T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103060",
+   "procedure_id": "61088c35-8a82-4d87-81a5-b436f637ad99",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77313000",
+    "77211500"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien d'espaces verts et travaux connexes",
+    "Entretien d'espaces verts réservé aux structures d'insertion",
+    "Entretien du patrimoine arboré"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-103068",
+   "source": "BOAMP",
+   "source_id": "26-103068",
+   "title": "PRESTATIONS DE NETTOYAGE INTERIEUR POUR LE STADE DU HAINAUT",
+   "buyer": "COMMUNAUTE D'AGGLOMERATION VALENCIENNES METROPOLE",
+   "published": "2026-10-25",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103068",
+   "procedure_id": "85687f9c-d577-43ec-be0e-04ef83e074f3",
+   "description": "Le présent marché a pour objet les prestations de nettoyage intérieur pour le Stade du Hainaut propriété de la Communauté d’Agglomération Valenciennes Métropole.",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90900000",
+    "90910000",
+    "90919200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-101428"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-103084",
+   "source": "BOAMP",
+   "source_id": "26-103084",
+   "title": "Prestations d'entretien des terrains sportifs",
+   "buyer": "Ville d'Antibes (06)",
+   "published": "2026-10-25",
+   "deadline": "2026-11-30T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103084",
+   "procedure_id": "c4c32144-5d1d-44e5-bbbc-e58406d95174",
+   "description": "",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77314000",
+    "77320000",
+    "45212290",
+    "39293300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des terrains en gazon naturel",
+    "Entretien des terrains synthétiques"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "342"
+   ]
+  },
+  {
+   "id": "boamp:26-103122",
+   "source": "BOAMP",
+   "source_id": "26-103122",
+   "title": "NETTOYAGE DE L’ESPLANADE, DES EMMARCHEMENTS, DU JARDIN CENTRAL, DES RUES JARDINS, DE LA RUE INTERIEURE ET DU PARC DE STATIONNEMENT PRIVE DU SITE FRANCOIS-MITTERRAND",
+   "buyer": "Bibliothèque nationale de France",
+   "published": "2026-10-25",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103122",
+   "procedure_id": "d7b9384e-5d79-4da3-a1ec-5f70d1ebfafb",
+   "description": "La présente procédure a pour objet le nettoyage de l’esplanade, des emmarchements, du jardin central, des rues jardins, de la rue intérieure et du parc de stationnement privé du site François-Mitterrand de la Bibliothèque nationale de France.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-103185",
+   "source": "BOAMP",
+   "source_id": "26-103185",
+   "title": "Prestations d'entretien, de nettoyage et de gestion des déchets des cours d'eau et ravines sur le territoire de la Cadema",
+   "buyer": "Communauté d'Agglomération de Dembéni-Mamoudzou (976)",
+   "published": "2026-10-25",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103185",
+   "procedure_id": "5a8bd4e0-9dbb-461f-82be-bd8eecfa7d86",
+   "description": "",
+   "departments": [
+    "976"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90910000",
+    "90511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 10800000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "240"
+   ]
   }
  ]
 }
