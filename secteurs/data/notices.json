@@ -101714,6 +101714,733 @@
    "descriptors": [
     "240"
    ]
+  },
+  {
+   "id": "boamp:26-103247",
+   "source": "BOAMP",
+   "source_id": "26-103247",
+   "title": "Prestations de sûreté et de sécurité des locaux du Centre Hospitalier de Haguenau",
+   "buyer": "HUS-Etablissement support du GHT 10",
+   "published": "2026-10-25",
+   "deadline": "2026-11-25T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103247",
+   "procedure_id": "8e02d71d-657d-48e6-a7e9-3bfcb824ac08",
+   "description": "Les prestations sont rémunérées sur la base de prix unitaires figurant au bordereau des prix du marché. Ces prix sont appliqués aux quantités réellement réalisées. Le marché est passé pour le compte du Centre Hospitalier de Haguenau",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274",
+    "331",
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-103281",
+   "source": "BOAMP",
+   "source_id": "26-103281",
+   "title": "Marche de telesurveillance et de surveillance des sites en travaux",
+   "buyer": "Ets public Musées Orsay et Orangerie",
+   "published": "2026-10-25",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103281",
+   "procedure_id": "59a15904-b9f4-4963-8201-13320d79cac6",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-97821"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-103336",
+   "source": "BOAMP",
+   "source_id": "26-103336",
+   "title": "PRESTATION DE NETTOYAGE DES LOCAUX DE L'AME",
+   "buyer": "Agglomération Montargoise et Rives du Loing",
+   "published": "2026-10-25",
+   "deadline": "2026-11-24T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103336",
+   "procedure_id": "8276c9f1-dff1-45f7-a68a-f15972df0aee",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Le présent marché a pour objet l'exécution des prestations de nettoyage et d'entretien des locaux de l'AME",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-103365",
+   "source": "BOAMP",
+   "source_id": "26-103365",
+   "title": "Accord-cadre à bons de commande pour la réalisation de prestations de sécurité humaine et de sécurité incendie",
+   "buyer": "Agence de Gestion de l'Immobilier de l'État",
+   "published": "2026-10-25",
+   "deadline": "2026-11-26T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103365",
+   "procedure_id": "186b2a5b-31b0-498c-9f77-2478ba9b2e73",
+   "description": "Réalisation de prestations de sécurité humaine et de sécurité incendie (gardiennage), récurrentes, ponctuelles, au profit de la Cité administrative Lyon Part-Dieu.",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79713000",
+    "79710000",
+    "79714000",
+    "75251110"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-103433",
+   "source": "BOAMP",
+   "source_id": "26-103433",
+   "title": "DAG2026-212AOELAGAGE",
+   "buyer": "CHU ANGERS",
+   "published": "2026-10-25",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103433",
+   "procedure_id": "015aef49-7667-48b7-bb37-553b3082e52c",
+   "description": "PRESTATIONS D’ELAGAGE ET D’ABATTAGE D’ARBRES",
+   "departments": [
+    "49"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77211400"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-103459",
+   "source": "BOAMP",
+   "source_id": "26-103459",
+   "title": "PRESTATIONS NETTOYAGE DES LOCAUX - GCCAGE",
+   "buyer": "CHAMBRE REGIONALE AGRICULTURE GRAND EST",
+   "published": "2026-10-25",
+   "deadline": "2026-11-23T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103459",
+   "procedure_id": "bbe00eab-9c1c-4115-8504-59cc63917511",
+   "description": "Consultation lancée par un groupement de commandes. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix forfaitaires. Prestations de nettoyage des locaux pour les membres du groupement GCCAGE Groupement de commandes des Chambres d'agriculture Grand Est",
+   "departments": [
+    "51"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90900000",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Chambre d'agriculture des Ardennes",
+    "Chambre d'Agriculture de l'Aube",
+    "Chambre régionale d'agriculture Grand Est",
+    "Chambre d'Agriculture de la Marne",
+    "Chambre d'Agriculture de Meurthe et Moselle",
+    "Chambre d'Agriculture de la Moselle",
+    "Chambre d'agriculture Alsace"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-103505",
+   "source": "BOAMP",
+   "source_id": "26-103505",
+   "title": "PRESTATIONS D’INSERTION SOCIALE ET PROFESSIONNELLE POUR LA REALISATION D’ACTIVITES LIEES A LA PRESERVATION DES ESPACES PUBLICS DE PLAINE COMMUNE",
+   "buyer": "Etablissement Public Territorial Plaine Commune",
+   "published": "2026-10-25",
+   "deadline": "2026-11-27T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103505",
+   "procedure_id": "38c95151-744b-4c32-b53b-1ff72e0a2ccc",
+   "description": "La consultation a pour objet l'achat de prestations d’insertion sociale et professionnelle pour la réalisation d’activités liées à la préservation des espaces publics de Plaine Commune.",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "85300000",
+    "77310000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestation d'insertion de travailleurs handicapés pour des activités de propreté dans les espaces verts (dont cimetière, cités et berges du canal)…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces publics et des espaces verts (hors espaces à caractère naturel…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces à caractère naturel (friches, délaissés et talus ferroviaires)…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces verts (dont cimetières et hors espaces à caractère naturel et…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces publics sur le territoire de Saint-Denis, Saint-Ouen et…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces publics sur le territoire d'Aubervilliers, La Courneuve et Stains",
+    "Prestation d'insertion de travailleurs défavorisés pour la propreté des espaces publics et des espaces verts le week-end sur le territoire de Plaine Commune"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-103509",
+   "source": "BOAMP",
+   "source_id": "26-103509",
+   "title": "MARCHE DE SERVICES D’ENTRETIEN DES ESPACES VERTS DE FRANCE TRAVAIL PAYS DE LA LOIRE",
+   "buyer": "FRANCE TRAVAIL - PdL",
+   "published": "2026-10-25",
+   "deadline": "2026-10-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103509",
+   "procedure_id": "b1b4bd79-d5ce-4f5d-b8f4-18c6557c8046",
+   "description": "Le présent marché de services a pour objet l’entretien des espaces verts de France Travail Pays de la Loire, telles que ces prestations et leurs modalités d’exécution sont décrites au contrat et au cahier des charges fonctionnel et technique (CCFT).",
+   "departments": [
+    "44",
+    "49",
+    "53",
+    "72",
+    "85"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-92502"
+   ],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces verts du site d'Ancenis de France Travail Pays de la Loire",
+    "Entretien des espaces verts du site de Blain de France Travail Pays de la Loire",
+    "Entretien des espaces verts du site de Clisson de France Travail Pays de la Loire",
+    "Entretien des espaces verts des sites de Nantes métropole de France Travail Pays de la Loire",
+    "Entretien des espaces verts des sites du littoral Atlantique de France Travail Pays de la Loire",
+    "Entretien des espaces verts des sites du Maine et Loire de France Travail Pays de la Loire",
+    "Entretien des espaces verts des sites de la Mayenne de France Travail Pays de la Loire",
+    "Entretien des espaces verts des sites de la Sarthe de France Travail Pays de la Loire",
+    "Entretien des espaces verts des sites de la Vendée de France Travail Pays de la Loire"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-103526",
+   "source": "BOAMP",
+   "source_id": "26-103526",
+   "title": "Fauchage et débroussaillage raisonné des bords de voiries, chemins et terrains",
+   "buyer": "COM DE COMMUNES ARC SUD BRETAGNE",
+   "published": "2026-10-25",
+   "deadline": "2026-11-27T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103526",
+   "procedure_id": "c03b7acb-f334-4aab-a083-86498e4e7815",
+   "description": "",
+   "departments": [
+    "56"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "365"
+   ]
+  },
+  {
+   "id": "boamp:26-103528",
+   "source": "BOAMP",
+   "source_id": "26-103528",
+   "title": "ACCORD-CADRE A BONS DE COMMANDE POUR DES PRESTATIONS DE NETTOYAGE ET D'ENTRETIEN DES LOCAUX LABÉO",
+   "buyer": "GIP LABEO",
+   "published": "2026-10-25",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103528",
+   "procedure_id": "9bdfb214-bbd6-4793-a622-63fc40bbadf7",
+   "description": "L'accord-cadre est un accord-cadre à bons de commande avec un maximum fixé en valeur. Lot 1 : 200 000,00 Euros Lot 2 : 100 000,00 Euros Lot 3 : 80 000,00 Euros Lot 4 : 40 000,00 Euros Lot 5 : 5 000,00 Euros Lot 6 : 5 000,00 Euros",
+   "departments": [
+    "14",
+    "27",
+    "50",
+    "61"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Locaux Frank Duncombe et locaux Normandie Equine Vallée",
+    "Locaux Manche",
+    "Locaux Orne",
+    "Locaux Eure",
+    "Agence de Valliquerville",
+    "Agence de Valognes"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-103571",
+   "source": "BOAMP",
+   "source_id": "26-103571",
+   "title": "Nettoyage manuel des voiries et propreté des espaces verts sur le territoire communal",
+   "buyer": "Commune de la Londe Les Maures",
+   "published": "2026-10-25",
+   "deadline": "2026-11-24T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103571",
+   "procedure_id": "4ef8ca08-b02e-4c0f-8ad7-071083812c04",
+   "description": "",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90610000",
+    "77313000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-103642",
+   "source": "BOAMP",
+   "source_id": "26-103642",
+   "title": "PRESTATIONS DE SURVEILLANCE, DE GARDIENNAGE ET DE SECURITE INCENDIE",
+   "buyer": "Commune de Nanterre",
+   "published": "2026-10-25",
+   "deadline": "2026-11-25T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103642",
+   "procedure_id": "cf6c0aaf-09e6-4e5e-919c-d1b4189c623e",
+   "description": "La présente consultation est décomposée en 2 lots traités par marchés séparés et définis comme suit : - Lot n° 1 : Gardiennage, surveillance et sécurité incendie des bâtiments communaux ; - Lot n° 2 : Prestations de sécurité évènementielle (spectacles, festivals...). Chaque marché sera passé sous la forme d'un accord-cadre mono-attributaire et à bons de commande. Le lot n° 1 sera conclu sans montant minimum et avec…",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000",
+    "79714000",
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Gardiennage, surveillance et sécurité incendie des bâtiments communaux",
+    "Prestations de sécurité évènementielle (spectacles, festivals…)"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "331",
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-103643",
+   "source": "BOAMP",
+   "source_id": "26-103643",
+   "title": "Gardiennage et sécurité des sites de la CACL",
+   "buyer": "Communauté d'agglomération du centre littoral (CACL)",
+   "published": "2026-10-25",
+   "deadline": "2026-11-30T22:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103643",
+   "procedure_id": "3b741ce8-7c02-4bd4-bf16-b6d858feed4b",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires. Les montants estimatifs sont indicatifs et comprennent les prestations similaires envisagées. Gardiennage, sécurité des sites et manifestations de la CACL",
+   "departments": [
+    "973"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79713000",
+    "79714000",
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1600000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Port du Larivot",
+    "Site de la Madeleine",
+    "Prestations ponctuelles de sécurité et besoins divers",
+    "Siège CACL"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "331"
+   ]
+  },
+  {
+   "id": "boamp:26-103667",
+   "source": "BOAMP",
+   "source_id": "26-103667",
+   "title": "ENTRETIEN DES TERRAINS DE SPORTS",
+   "buyer": "CA DU PAYS DE FONTAINEBLEAU",
+   "published": "2026-10-25",
+   "deadline": "2026-11-25T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103667",
+   "procedure_id": "55dcfef9-efe8-49b0-95fb-12619c3d8cd2",
+   "description": "Le présent marché a pour objet l'entretien des surfaces en gazon naturel et synthétique des terrains de sports mais aussi des pistes d'athlétisme et des sols équestre des équipements sportifs la communauté d'agglomération du Pays de Fontainebleau. L'objet du présent accord-cadre est d'assurer un environnement optimal pour la pratique des sports, en garantissant des terrains en bon état, conformes aux normes et…",
+   "departments": [
+    "45",
+    "77",
+    "91"
+   ],
+   "regions": [
+    "Centre-Val de Loire",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77314000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 \"Terrains herbes+ terrain stabilisé\"",
+    "Lot 3 \"Pistes d'athlétismes\"",
+    "Lot 4 \"Terrain équestre en herbe du Grand Parquet\"",
+    "Lot 6 \"Terrain équestre en sable du Grand Parquet - Electro Mécanique\""
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "342"
+   ]
+  },
+  {
+   "id": "boamp:26-103702",
+   "source": "BOAMP",
+   "source_id": "26-103702",
+   "title": "La présente consultation a pour objet la souscription à une couverture de complémentaire santé couvrant les salariés de la Mission Locale de Paris.",
+   "buyer": "MISSION LOCALE DE PARIS",
+   "published": "2026-10-25",
+   "deadline": "2026-11-24T18:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103702",
+   "procedure_id": "5195b21d-0d87-4f05-96eb-febb7ab8e5b0",
+   "description": "Depuis plus de 40 ans, la Mission Locale de Paris, forte de son ancrage territorial et de son appartenance à un réseau national, accompagne chaque jour plus de 60 % des jeunes Parisiens qui ne sont ni en emploi ni en formation. Ses 250 salariés accueillent et accompagnent les jeunes, tout en leur proposant des solutions adaptées dans de nombreux domaines : logement, santé, mobilité, formation, emploi, sport…",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "66512200",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2500000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "20"
+   ]
   }
  ]
 }

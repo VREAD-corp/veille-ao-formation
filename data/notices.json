@@ -102432,6 +102432,138 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-103283",
+   "source": "BOAMP",
+   "source_id": "26-103283",
+   "title": "Actions de formation dans le cadre de campusAtlas - thématique \"Risques amiante dans la Construction DROM (Guyane, Martinique, Guadeloupe)\"",
+   "buyer": "OPCO ATLAS",
+   "published": "2026-10-25",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103283",
+   "procedure_id": "b310bba9-b785-48c0-bc29-fe6dc06f45f0",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80531200",
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-103515",
+   "source": "BOAMP",
+   "source_id": "26-103515",
+   "title": "Conception et animation de formations et d'accompagnements individuels ou collectifs à destination des agents du ministère de l'intérieur en matière de communication",
+   "buyer": "Ministère de l'Intérieur",
+   "published": "2026-10-25",
+   "deadline": "2026-11-06T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103515",
+   "procedure_id": "e1050bda-b0c7-415c-bad1-d369687e4bf6",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80510000",
+    "80530000",
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 884580.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formations de communication orale et média training",
+    "Formations d'adaptation aux défis contemporains de la communication publique"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-103633",
+   "source": "BOAMP",
+   "source_id": "26-103633",
+   "title": "Catalogue régional de formation « Cartes en main » Ile de France",
+   "buyer": "Uniformation",
+   "published": "2026-10-25",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103633",
+   "procedure_id": "e3caf29b-e8f0-47a8-a995-c202a84e94de",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1060000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "SANTE MENTALE AU TRAVAIL : COMPRENDRE, REPERER ET AGIR",
+    "MIEUX APPREHENDER LE HANDICAP ET REUSSIR SON INTEGRATION DANS LES TPE-PME",
+    "LE PLAN DE DEVELOPPEMENT DES COMPETENCES (DPC), LEVIER DE VOTRE POLITIQUE FORMATION",
+    "CONSTRUIRE SA STRATEGIE DE COLLECTE DE FONDS ET DIVERSIFIER SES FINANCEMENTS PRIVES",
+    "AGIR CONTRE LES VIOLENCES ET HARCELEMENT SEXISTES ET SEXUELLES",
+    "GESTION DE PROJETS (NIVEAU AVANCE)",
+    "SECURISER VOS PRATIQUES NUMERIQUES (CYBERSECURITE ET RGPD)",
+    "ASSOCIATIONS, QUELLES SONT LES OPPORTUNITES OFFERTES PAR L'INTELLIGENCE ARTIFICIELLE (IA)",
+    "L'INTELLIGENCE ARTIFICIELLE (IA) AU SERVICE D'UN MANAGEMENT PLUS EFFICACE",
+    "MANAGER L'INTERGENERATIONNEL DANS LES STRUCTURES DE L'ESS",
+    "REPERER ET MOBILISER LE PUBLIC EN SITUATION D'ILLETRISME ET D'ILLECTRONISME",
+    "ACCOMPAGNER LES CHANGEMENTS AU SEIN DE VOTRE STRUCTURE EN FAVEUR DE LA TRANSITION ECOLOGIQUE"
+   ],
+   "updated": ""
   }
  ]
 }
