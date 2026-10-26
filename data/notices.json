@@ -102564,6 +102564,119 @@
     "ACCOMPAGNER LES CHANGEMENTS AU SEIN DE VOTRE STRUCTURE EN FAVEUR DE LA TRANSITION ECOLOGIQUE"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-103887",
+   "source": "BOAMP",
+   "source_id": "26-103887",
+   "title": "Contrat de délégation de service public pour l'exploitation de la base nautique et du lot n°4 de la plage de la croisette de la commune de Sainte-Maxime (Phase Candidature)",
+   "buyer": "Ville De Sainte-Maxime",
+   "published": "2026-10-26",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103887",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80413000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Délégation de service public",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-99555"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:739190-2026",
+   "source": "TED",
+   "source_id": "739190-2026",
+   "title": "Actions de formation dans le cadre de campusAtlas - thématique \"Risques amiante dans la Construction DROM (Guyane, Martinique, Guadeloupe)\"",
+   "buyer": "OPCO ATLAS",
+   "published": "2026-10-26",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739190-2026",
+   "procedure_id": "b310bba9-b785-48c0-bc29-fe6dc06f45f0",
+   "description": "Actions de formation dans le cadre de campusAtlas - thématique \"Risques amiante dans la Construction DROM (Guyane, Martinique, Guadeloupe)\"",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80531200",
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:739568-2026",
+   "source": "TED",
+   "source_id": "739568-2026",
+   "title": "FORMATION (INITIALE, CONTINUE ET PREMIERS SECOURS) DES ACCUEILLANTS FAMILIAUX, DES ASSISTANTS FAMILIAUX ET DES ASSISTANTS MATERNELS DU DÉPARTEMENT DE LA SARTHE. Relance Lot 5",
+   "buyer": "Département de la Sarthe",
+   "published": "2026-10-26",
+   "deadline": "2026-11-13T11:30",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739568-2026",
+   "procedure_id": "a11cd4ff-14e5-4713-83bd-18630d6bb20e",
+   "description": "La présente consultation concerne la relance du lot n°5, initialement intégré à la consultation relative à « La formation (initiale, continue et premiers secours) des accueillants familiaux, des assistants familiaux et des assistants maternels du département de la Sarthe », à la suite d'une redéfinition du besoin de l'acheteur. Les prestations feront l'objet d'un accord-cadre mono-attributaire sans minimum avec…",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "80500000",
+    "79632000",
+    "80562000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 128000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }

@@ -102441,6 +102441,1251 @@
    "descriptors": [
     "20"
    ]
+  },
+  {
+   "id": "boamp:26-103851",
+   "source": "BOAMP",
+   "source_id": "26-103851",
+   "title": "ENTRETIEN DES LOCAUX 2027 - Prestations réservées au secteur du handicap",
+   "buyer": "Commune de Loon-Plage (59)",
+   "published": "2026-10-26",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103851",
+   "procedure_id": null,
+   "description": "ENTRETIEN DES LOCAUX 2027 - PRESTATIONS RESERVEES AU SECTEUR DU HANDICAP",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-103904",
+   "source": "BOAMP",
+   "source_id": "26-103904",
+   "title": "PRESTATIONS DE GARDIENNAGE, SURVEILLANCE ET SECURITE SUR SITES MULTIPLES",
+   "buyer": "Ville de Grande-Synthe",
+   "published": "2026-10-26",
+   "deadline": "2026-11-17T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103904",
+   "procedure_id": null,
+   "description": "Accord-cadre à bons de commandes d'un montant maximum annuel de 35 000 EUR HT Durée du marché : 1 an reconductible annuellement dans la limite de 4 ans",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-103944",
+   "source": "BOAMP",
+   "source_id": "26-103944",
+   "title": "Prestations De Mise En Securite Des Personnes Et Des Biens Pour Le Siege De La Delegation Ile-De-France Situe A Pantin",
+   "buyer": "Cnfpt - Délégation Ile de France",
+   "published": "2026-10-26",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103944",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-99014"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "332",
+    "331"
+   ]
+  },
+  {
+   "id": "ted:737210-2026",
+   "source": "TED",
+   "source_id": "737210-2026",
+   "title": "Relance lot 5 Schmit 2 - Nettoyage des parties communes et gestions des conteneurs sur le patrimoine de Nov'Habitat",
+   "buyer": "NOV'HABITAT",
+   "published": "2026-10-26",
+   "deadline": "2026-11-10T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/737210-2026",
+   "procedure_id": "107bd0a5-ab9a-412e-a953-fa20e2f2bedc",
+   "description": "L'accord-cadre sera exécuté par la conclusion de marchés subséquents et l'émission de bons de commande dans les conditions du cahier des charges. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Cet accord-cadre vise à conclure le marché suivant…",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "63111000",
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 450000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:737301-2026",
+   "source": "TED",
+   "source_id": "737301-2026",
+   "title": "NETTOYAGE DE L’ESPLANADE, DES EMMARCHEMENTS, DU JARDIN CENTRAL, DES RUES JARDINS, DE LA RUE INTERIEURE ET DU PARC DE STATIONNEMENT PRIVE DU SITE FRANCOIS-MITTERRAND DE LA BIBLIOTHEQUE NATIONALE DE France",
+   "buyer": "BNF",
+   "published": "2026-10-26",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/737301-2026",
+   "procedure_id": "d7b9384e-5d79-4da3-a1ec-5f70d1ebfafb",
+   "description": "La présente procédure a pour objet le nettoyage de l’esplanade, des emmarchements, du jardin central, des rues jardins, de la rue intérieure et du parc de stationnement privé du site François-Mitterrand de la Bibliothèque nationale de France.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:737565-2026",
+   "source": "TED",
+   "source_id": "737565-2026",
+   "title": "ENTRETIEN DES ESPACES VERTS DU PATRIMOINE DE LA SA MONT-BLANC",
+   "buyer": "SA LE MONT BLANC",
+   "published": "2026-10-26",
+   "deadline": "2026-11-27T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/737565-2026",
+   "procedure_id": "05f899f0-feb0-4a87-be6b-9ca7639eaf42",
+   "description": "11 lots géographiques",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000",
+    "77342000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur Annecy Centre et Sud",
+    "Secteur Annecy Nord et Ouest - Réservé",
+    "Secteur Vallée de l'Arve",
+    "Secteur Vallée Verte et Vallée du Giffre",
+    "Secteur Evian / Chablais",
+    "Secteur Bas Chablais",
+    "Secteur Annemasse - Réservé",
+    "Secteur Rochois",
+    "Secteur Genevois",
+    "Secteur Frangy / Seyssel",
+    "Secteur Rumilly"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:737616-2026",
+   "source": "TED",
+   "source_id": "737616-2026",
+   "title": "Prestations de SECURITE et de SURETE pour les Etablissements du GHT Caux Maritime",
+   "buyer": "CENTRE HOSPITALIER DE DIEPPE, Centre Hospitalier de Dieppe",
+   "published": "2026-10-26",
+   "deadline": "2026-11-20T14:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/737616-2026",
+   "procedure_id": "7bad0c5a-a88a-49bc-8bda-ccef3f4eaed1",
+   "description": "Consultation lancée par un groupement hospitalier de territoire. Consultation lancée par un groupement de coopération sanitaire. L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:738000-2026",
+   "source": "TED",
+   "source_id": "738000-2026",
+   "title": "Prestations de sûreté et de sécurité des locaux du Centre Hospitalier de Haguenau",
+   "buyer": "HUS-Etablissement support du GHT 10",
+   "published": "2026-10-26",
+   "deadline": "2026-11-25T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/738000-2026",
+   "procedure_id": "8e02d71d-657d-48e6-a7e9-3bfcb824ac08",
+   "description": "Les prestations sont rémunérées sur la base de prix unitaires figurant au bordereau des prix du marché. Ces prix sont appliqués aux quantités réellement réalisées. Le marché est passé pour le compte du Centre Hospitalier de Haguenau",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1000000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:738138-2026",
+   "source": "TED",
+   "source_id": "738138-2026",
+   "title": "Organisation de l’Évènement « Festival des Entrepreneurs » de la CCI Marne Ardennes sur le Site de Reims",
+   "buyer": "CCI MARNE ARDENNES",
+   "published": "2026-10-26",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/738138-2026",
+   "procedure_id": "ce17b8a4-dca8-43f1-b7b1-9aede73b3265",
+   "description": "Organisation de l’Évènement « Festival des Entrepreneurs » de la CCI Marne Ardennes sur le Site de Reims du 12 et 13 mai 2027",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "79953000",
+    "44212320",
+    "39150000",
+    "55520000",
+    "92110000",
+    "79810000",
+    "79713000",
+    "32321200",
+    "79933000",
+    "79961000",
+    "39294100",
+    "79710000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services",
+    "Supplies"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Structures",
+    "Scénographie et mobilier",
+    "Traiteur",
+    "Création photo et vidéo",
+    "Supports signalétique et goodies",
+    "Services de gardiennage et de sécurité",
+    "Équipement audiovisuel"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:738494-2026",
+   "source": "TED",
+   "source_id": "738494-2026",
+   "title": "REHABILITATION ENERGETIQUE ET MISE EN SECURITE DES BATIMENTS C (BU) ET D (DROIT",
+   "buyer": "UNIVERSITE DE CAEN NORMANDIE",
+   "published": "2026-10-26",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/738494-2026",
+   "procedure_id": "76440013-e50d-4fb8-b785-5e79d553c6db",
+   "description": "Travaux",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "45454000",
+    "45111100",
+    "45223220",
+    "45262100",
+    "45443000",
+    "45421130",
+    "45421140",
+    "45261420",
+    "45324000",
+    "45421000",
+    "45421146",
+    "45431000",
+    "45432111",
+    "45442100",
+    "45313100",
+    "39151100",
+    "45310000",
+    "45330000",
+    "45112700",
+    "90910000",
+    "45262321",
+    "45331000",
+    "45233140"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Works",
+    "Supplies",
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:738572-2026",
+   "source": "TED",
+   "source_id": "738572-2026",
+   "title": "Accord-cadre à bons de commande pour la réalisation de prestations de sécurité humaine et de sécurité incendie",
+   "buyer": "Agence de Gestion de l'Immobilier de l'État",
+   "published": "2026-10-26",
+   "deadline": "2026-11-26T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/738572-2026",
+   "procedure_id": "186b2a5b-31b0-498c-9f77-2478ba9b2e73",
+   "description": "Réalisation de prestations de sécurité humaine et de sécurité incendie (gardiennage), récurrentes, ponctuelles, au profit de la Cité administrative Lyon Part-Dieu.",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79713000",
+    "79710000",
+    "79714000",
+    "75251110"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:738748-2026",
+   "source": "TED",
+   "source_id": "738748-2026",
+   "title": "Nettoyage des parties communes (prestations permanentes et ponctuelles) et retrait des encombrants des ensembles immobiliers de la direction Auvergne Rhône-Alpes de CDC HABITAT - Relance des lots 1, 2, 4, 6, 7, 16 et 23",
+   "buyer": "GIE DIR AURA - CDC HABITAT",
+   "published": "2026-10-26",
+   "deadline": "2026-10-29T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/738748-2026",
+   "procedure_id": "0c516deb-bb6a-4801-8975-2c4f40f3c637",
+   "description": "Nettoyage des parties communes (prestations permanentes et ponctuelles) et retrait des encombrants des ensembles immobiliers de la direction Auvergne Rhône-Alpes de CDC HABITAT - Relance des lots 1, 2, 4, 6, 7, 16 et 23",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur RHONE NORD.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur AIN SUD.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur LYON CENTRE.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur SUD METROPOLE.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur VILLEURBANNE VAULX.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur COTE VERCORS.",
+    "Contrat de nettoyage prestations ponctuelles, pour l'agence de Lyon pour les résidences du secteur LYON CENTRE VILLEURBANNE VAULX."
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:738785-2026",
+   "source": "TED",
+   "source_id": "738785-2026",
+   "title": "NETTOYAGE DES LOCAUX ADMINISTRATIFS D'HABITAT ET MÉTROPOLE",
+   "buyer": "HABITAT ET METROPOLE SAINT-ETIENNE",
+   "published": "2026-10-26",
+   "deadline": "2026-11-06T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/738785-2026",
+   "procedure_id": "b67bfaba-c5de-4e8d-b05f-5560e23cf7cf",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911000",
+    "90910000",
+    "90911300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1200000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "NETTOYAGE DU SIEGE SOCIAL NEOZ (HORS VITRERIE)",
+    "NETTOYAGE DES AGENCES D'HABITAT ET METROPOLE (HORS VITRERIE)",
+    "NETTOYAGE ET ENTRETIEN DE LA VITRERIE"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:738976-2026",
+   "source": "TED",
+   "source_id": "738976-2026",
+   "title": "MARCHE D'ENTRETIEN DE PROPRETE DES PARTIES COMMUNES, DES PARKINGS ET ENTREES/SORTIES DES CONTENEURS",
+   "buyer": "GIE GRAND OUEST",
+   "published": "2026-10-26",
+   "deadline": "2026-11-23T11:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/738976-2026",
+   "procedure_id": "8f1131d8-df42-4e6f-9bb7-e223791a3075",
+   "description": "Assurer l'entretien de propreté des parties communes, l'élimination des rejets et l'enlèvement des ordures ménagères des ensembles immobiliers",
+   "departments": [],
+   "regions": [
+    "Bretagne",
+    "Centre-Val de Loire",
+    "Normandie",
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Autre procédure (une étape)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 - Secteur Angers",
+    "Lot 2 - Secteur Brest",
+    "Lot 3 - Secteur Caen",
+    "Lot 4 - Secteur Le Havre",
+    "Lot 5 - Secteur Le Mans",
+    "Lot 6 - Secteur Nantes Atlantique",
+    "Lot 7 - Secteur Nantes Atlantique - Marchés réservés",
+    "Lot 8 - Secteur Nantes Loire",
+    "Lot 9 - Secteur Nantes Loire - Marchés réservés",
+    "Lot 10 - Secteur Orléans",
+    "Lot 11 - Secteur Rennes",
+    "Lot 12 - Secteur Rennes - Marchés réservés"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:739011-2026",
+   "source": "TED",
+   "source_id": "739011-2026",
+   "title": "Entretien des espaces verts et du patrimoine arboré",
+   "buyer": "COMMUNE DE LAMBERSART",
+   "published": "2026-10-26",
+   "deadline": "2026-11-30T11:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739011-2026",
+   "procedure_id": "61088c35-8a82-4d87-81a5-b436f637ad99",
+   "description": "Entretien des espaces verts et du patrimoine arboré",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77313000",
+    "77211500"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien d'espaces verts et travaux connexes",
+    "Entretien d'espaces verts réservé aux structures d'insertion",
+    "Entretien du patrimoine arboré"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:739080-2026",
+   "source": "TED",
+   "source_id": "739080-2026",
+   "title": "Marché public de prestations de services pour la surveillance du stationnement payant sur voirie et la gestion des recours",
+   "buyer": "COMMUNE DE CHANTILLY",
+   "published": "2026-10-26",
+   "deadline": "2026-11-25T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739080-2026",
+   "procedure_id": "7865d18c-8e84-4bd8-919e-9341cad9a3ab",
+   "description": "Le présent marché porte sur les missions suivantes : - le contrôle du stationnement payant dans les conditions conformes à la réforme du stationnement instaurée depuis le 1er janvier 2018 (codifiée depuis dans le CGCT notamment aux articles L.2333-87 et suivants) ; - le recrutement et la gestion des agents de contrôle du stationnement ; - la fourniture du matériel à la bonne exécution du marché, avec en particulier…",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:739495-2026",
+   "source": "TED",
+   "source_id": "739495-2026",
+   "title": "PRESTATIONS DE NETTOYAGE INTERIEUR POUR LE STADE DU HAINAUT",
+   "buyer": "COMMUNAUTE D'AGGLOMERATION VALENCIENNES METROPOLE",
+   "published": "2026-10-26",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739495-2026",
+   "procedure_id": "85687f9c-d577-43ec-be0e-04ef83e074f3",
+   "description": "Le présent marché a pour objet les prestations de nettoyage intérieur pour le Stade du Hainaut propriété de la Communauté d’Agglomération Valenciennes Métropole.",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90900000",
+    "90910000",
+    "90919200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:739540-2026",
+   "source": "TED",
+   "source_id": "739540-2026",
+   "title": "PRESTATIONS D’ELAGAGE ET D’ABATTAGE D’ARBRES",
+   "buyer": "CHU D'ANGERS",
+   "published": "2026-10-26",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739540-2026",
+   "procedure_id": "015aef49-7667-48b7-bb37-553b3082e52c",
+   "description": "PRESTATIONS D’ELAGAGE ET D’ABATTAGE D’ARBRES",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77211400"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:739590-2026",
+   "source": "TED",
+   "source_id": "739590-2026",
+   "title": "Prestations de nettoiement des marchés forains sur la commune de SIX FOURS LES PLAGES",
+   "buyer": "COMMUNE DE SIX-FOURS-LES-PLAGES",
+   "published": "2026-10-26",
+   "deadline": "2026-11-25T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739590-2026",
+   "procedure_id": "e64231fe-56f9-4615-beb0-722b4a2d8d89",
+   "description": "Il s'agit d'un marché à prix global et forfaitaire. Les prestations consistent en des prestations de nettoyage pour tous les marchés forains de la Ville. Elles comprennent essentiellement des prestations régulières d'entretien et nettoyage régulier visant à conserver la propreté des places et sites dédiés aux marchés forains après la tenue des marchés",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:739757-2026",
+   "source": "TED",
+   "source_id": "739757-2026",
+   "title": "Marche de telesurveillance et de surveillance des sites en travaux",
+   "buyer": "Ets public Musées Orsay et Orangerie",
+   "published": "2026-10-26",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739757-2026",
+   "procedure_id": "59a15904-b9f4-4963-8201-13320d79cac6",
+   "description": "Marche de telesurveillance et de surveillance des sites en travaux",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:739889-2026",
+   "source": "TED",
+   "source_id": "739889-2026",
+   "title": "Accord-cadre pour la réalisation de décontamination, mesures conservatoires et recherche de fuite suite à sinistre sur le patrimoine de l'OPHIS",
+   "buyer": "OPHIS",
+   "published": "2026-10-26",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739889-2026",
+   "procedure_id": "9dfcfd33-0bc1-4d1b-99e4-9f3026c49c65",
+   "description": "Le présent a pour objet la réalisation de décontamination, mesures conservatoires et recherche de fuite suite à sinistre sur le patrimoine de l'OPHIS",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911000",
+    "71630000",
+    "90722200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 480000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 01 : DECONTAMINATION ET MESURES CONSERVATOIRES",
+    "LOT 02 : RECHERCHE DE FUITE"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:739916-2026",
+   "source": "TED",
+   "source_id": "739916-2026",
+   "title": "Mise en place d’un service de sécurité et de surveillance des locaux de l’unité territoriale de Martinique – Lot n°6",
+   "buyer": "LADOM",
+   "published": "2026-10-26",
+   "deadline": "2026-10-27T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739916-2026",
+   "procedure_id": "b8e40b5f-1fac-4b96-a848-f9a3386ec15d",
+   "description": "Mise en place d’un service de sécurité et de surveillance des locaux de l’unité territoriale de Martinique – Lot n°6",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:739941-2026",
+   "source": "TED",
+   "source_id": "739941-2026",
+   "title": "Prestations de nettoyage des locaux de la Ville de Lyon",
+   "buyer": "Ville de Lyon",
+   "published": "2026-10-26",
+   "deadline": "2026-10-26T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/739941-2026",
+   "procedure_id": "57c2c81a-1428-4346-aaa1-f0d6979e4e05",
+   "description": "Prestations de nettoyage des locaux de la Ville de Lyon. Les accords-cadres sont conclus pour une durée initiale à compter du 01/04/2027 ou de leur date de notification si elle est postérieure, jusqu'au 31/03/2029. Ils sont reconductibles selon les modalités définies au CCAPC",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 9804000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage courant et exceptionnels multi sites et vitrerie",
+    "Nettoyage courant et exceptionnel des postes de police et établissements culturels et vitrerie associée",
+    "Nettoyage des bibliothèques et vitrerie associée",
+    "Nettoyage spécialisé courant et exceptionnel multi sites et vitrerie associée",
+    "Nettoyage de la vitrerie rive droite",
+    "Nettoyage de la vitrerie rive gauche",
+    "Nettoyage courant de locaux réservé aux EA et ESAT",
+    "Nettoyage courant de locaux réservé aux SIAE",
+    "Nettoyage ponctuel de locaux réservé aux SIAE"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:740115-2026",
+   "source": "TED",
+   "source_id": "740115-2026",
+   "title": "PRESTATIONS DE GARDIENNAGE ET DE SURVEILLANCE DE SITES BATIS OU NON BATIS RELEVANT DU PATRIMOINE DE LA METROPOLE DU GRAND PARIS OU OCCUPES PAR ELLE",
+   "buyer": "Métropole du Grand Paris",
+   "published": "2026-10-26",
+   "deadline": "2026-11-24T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/740115-2026",
+   "procedure_id": "83909eef-7fde-4782-b878-d2950009cc45",
+   "description": "Prestations de gardiennage et de surveillance de sites bâtis ou non bâtis relevant du patrimoine de la Métropole du Grand Paris ou occupés par elle",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79713000",
+    "79714000",
+    "79710000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:740211-2026",
+   "source": "TED",
+   "source_id": "740211-2026",
+   "title": "Prestations d'entretien des terrains sportifs",
+   "buyer": "Ville d'Antibes (06)",
+   "published": "2026-10-26",
+   "deadline": "2026-11-30T14:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/740211-2026",
+   "procedure_id": "c4c32144-5d1d-44e5-bbbc-e58406d95174",
+   "description": "Prestations d'entretien des terrains sportifs",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77314000",
+    "77320000",
+    "45212290",
+    "39293300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des terrains en gazon naturel",
+    "Entretien des terrains synthétiques"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:740344-2026",
+   "source": "TED",
+   "source_id": "740344-2026",
+   "title": "Nettoyage et maintien de la propreté des espaces non bâtis des campus de l’Université de Strasbourg",
+   "buyer": "Université de Strasbourg",
+   "published": "2026-10-26",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/740344-2026",
+   "procedure_id": "392d9069-620a-4e51-9f9e-8e48751a86c1",
+   "description": "La présente consultation a pour objet le maintien de la propreté des espaces non bâtis (voieries et espaces verts notamment) de l’Université de Strasbourg. Les prestations, objet du présent marché composite sont subdivisées en une partie marché ordinaire, , correspond aux prestations récurrentes et une partie à bons de commande correspondant aux prestations ponctuelles.",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90610000",
+    "90600000",
+    "90914000",
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 480000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:740512-2026",
+   "source": "TED",
+   "source_id": "740512-2026",
+   "title": "Prestation de gardiennage et de télésurveillance des sites de TBS EDUCATION",
+   "buyer": "Toulouse Business School",
+   "published": "2026-10-26",
+   "deadline": "2026-11-24T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/740512-2026",
+   "procedure_id": "aa22f717-5bf2-4f0a-85be-f740a1b626b4",
+   "description": "Le présent marché a pour objet des prestations de gardiennage, sécurité incendie et de télésurveillance des locaux de TBS EDUCATION.",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Toulouse et Quint-Fonsegrives",
+    "Paris"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:740719-2026",
+   "source": "TED",
+   "source_id": "740719-2026",
+   "title": "Prestations d'entretien, de nettoyage et de gestion des déchets des cours d'eau et ravines sur le territoire de la Cadema",
+   "buyer": "Communauté d'Agglomération de Dembéni-Mamoudzou (976)",
+   "published": "2026-10-26",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/740719-2026",
+   "procedure_id": "5a8bd4e0-9dbb-461f-82be-bd8eecfa7d86",
+   "description": "Prestations d'entretien, de nettoyage et de gestion des déchets des cours d'eau et ravines sur le territoire de la Cadema",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90910000",
+    "90511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 10800000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
   }
  ]
 }
