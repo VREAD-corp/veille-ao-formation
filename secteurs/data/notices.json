@@ -102585,6 +102585,176 @@
    ]
   },
   {
+   "id": "boamp:26-104009",
+   "source": "BOAMP",
+   "source_id": "26-104009",
+   "title": "TELESURVEILLANCE DES BATIMENTS COMMUNAUX SOUS ALARME INTRUSION DE LA COMMUNE DE SANARY-SUR-MER",
+   "buyer": "Ville de Sanary sur Mer (83)",
+   "published": "2026-10-26",
+   "deadline": "2026-11-27T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104009",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-104090",
+   "source": "BOAMP",
+   "source_id": "26-104090",
+   "title": "Accord-cadre relatif à la réalisation de prestations de nettoyages des locaux du SIREDOM et ses prestations afférentes. - lieux d'exécution : Lisses 91",
+   "buyer": "SIREDOM",
+   "published": "2026-10-26",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104090",
+   "procedure_id": null,
+   "description": "Accord-cadre relatif à la réalisation de prestations de nettoyage des locaux du SIREDOM et ses prestations afférentes. Comprend une part à prix forfaitaire et une part à prix unitaires (sans mini et dont le maxi sur toute la durée de l'accord-cadre est fixé à 15000euros HT)",
+   "departments": [
+    "91"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 120000.0,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-104135",
+   "source": "BOAMP",
+   "source_id": "26-104135",
+   "title": "Nettoyage et entretien des parkings aux abords du pont de l'île de Ré, parking du Belvédère, gare de péage et Pôle d'échanges de Sablanceaux.",
+   "buyer": "Département de la Charente-Maritime",
+   "published": "2026-10-26",
+   "deadline": "2026-11-23T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104135",
+   "procedure_id": null,
+   "description": "Le présent accord-cadre porte sur le nettoyage et l'entretien des parkings aux abords du pont de l'île de Ré, parking du Belvédère, gare de péage et Pôle d'échanges de Sablanceaux. Cet accord-cadre mono attributaire à bons de commande avec maximum annuel fixé à : pour le lot 1 : à 20 000 euros HT/an et pour le lot 2 : 10 000 euros H.T/ an. L'accord-cadre est conclu à compter du 1er janvier 2027 ou de sa date de…",
+   "departments": [
+    "17"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90914000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Nettoyage et entretien des parkings aux abords du pont de l'île de Ré, parking du Belvédère et gare de péage.",
+    "2 : Nettoyage et entretien du Pôle d'échanges de Sablanceaux."
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "240"
+   ]
+  },
+  {
+   "id": "boamp:26-104144",
+   "source": "BOAMP",
+   "source_id": "26-104144",
+   "title": "ENTRETIEN DU PATRIMOINE ARBORE",
+   "buyer": "COMMUNE DE LA MADELEINE",
+   "published": "2026-10-26",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104144",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77211400"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
    "id": "ted:737210-2026",
    "source": "TED",
    "source_id": "737210-2026",

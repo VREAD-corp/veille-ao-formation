@@ -102604,6 +102604,93 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-104019",
+   "source": "BOAMP",
+   "source_id": "26-104019",
+   "title": "Prestations de formation continue à destination des agents en matière de management pour l'Université de Lorraine",
+   "buyer": "Université de Lorraine",
+   "published": "2026-10-26",
+   "deadline": "2026-11-09T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104019",
+   "procedure_id": null,
+   "description": "Le présent accord-cadre a pour objet la réalisation de prestations de formation continue à destination des agents en matière de management pour la Direction des Ressources Humaines de l'Université de Lorraine.",
+   "departments": [
+    "54",
+    "55",
+    "57",
+    "88"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104106",
+   "source": "BOAMP",
+   "source_id": "26-104106",
+   "title": "PROGRAMME DE FORMATIONS CHRYSA-LINK",
+   "buyer": "SATT Aquitaine",
+   "published": "2026-10-26",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104106",
+   "procedure_id": null,
+   "description": "Le présent marché a pour objet la conclusion d'un accord-cadre relatif à l'animation de formations. AST Innovations a pour objectif d'accélérer le nombre et la qualité des start-up deep tech à travers de nouvelles offres ante-création portée par l'incubateur \" Chrysa-Link \".",
+   "departments": [
+    "33"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1. EXPLORATION MARCHE L'objectif de cette formation est d'obliger l'entrepreneur à s'ouvrir et s'interroger en dehors de sa \"solution\" en l'obligeant…",
+    "LOT 2. STRUCTURATION DE L'OFFRE et STRATÉGIE GO-TO-MARKET Maintenant que le problème et le marché sont posés, et idéalement validés par les interviews, il faut…",
+    "LOT 3. ROADMAP Philosophie de la formation : L'objectif de cette action Booster Roadmap est de permettre aux créateurs de start-up de réaliser une roadmap sur…",
+    "LOT 4. EQUIPE L'objectif de cette formation est d'aider les porteurs de projets à travailler leur posture d'entrepreneur et la répartition des rôles entre…",
+    "LOT 5. PROPRIETE INTELLECTUELLE Philosophie de la formation : L'objectif de cette formation est de permettre aux porteurs de projet de comprendre les…",
+    "LOT 6. COMPTABILITE Philosophie de la formation : Cette formation a pour objectif d'expliquer les bases de la comptabilité de manière ludique et didactique à…",
+    "LOT 7. FINANCEMENTS Philosophie de la formation : Cette formation a pour objectif de présenter aux porteurs quels sont les financements accessibles aux…"
+   ],
+   "updated": ""
+  },
+  {
    "id": "ted:739190-2026",
    "source": "TED",
    "source_id": "739190-2026",
