@@ -104271,6 +104271,185 @@
    ]
   },
   {
+   "id": "boamp:26-104462",
+   "source": "BOAMP",
+   "source_id": "26-104462",
+   "title": "Accord cadre de prestation de sureté et surveillance pour l’Etablissement public du port de commerce de Mayotte (EPPCM)",
+   "buyer": "EPPCM - Établissement Public du Port de Commerce de Mayotte (976)",
+   "published": "2026-10-27",
+   "deadline": "2026-11-13T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104462",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "976"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "331"
+   ]
+  },
+  {
+   "id": "boamp:26-104529",
+   "source": "BOAMP",
+   "source_id": "26-104529",
+   "title": "Service de nettoyage des bâtiments intercommunaux",
+   "buyer": "CC DE LA GASCOGNE TOULOUSAINE",
+   "published": "2026-10-27",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104529",
+   "procedure_id": null,
+   "description": "Le marché a pour objet la réalisation des prestations d'entretien des locaux de la Communauté de Communes de la Gascogne Toulousaine",
+   "departments": [
+    "31",
+    "32",
+    "40",
+    "65",
+    "82"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine",
+    "Occitanie"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "278"
+   ]
+  },
+  {
+   "id": "boamp:26-104579",
+   "source": "BOAMP",
+   "source_id": "26-104579",
+   "title": "Entretien des locaux de la Communauté de communes du Val de vienne",
+   "buyer": "Communauté de Communes Val de Vienne",
+   "published": "2026-10-27",
+   "deadline": "2026-11-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104579",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "87"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-104718",
+   "source": "BOAMP",
+   "source_id": "26-104718",
+   "title": "ENTRETIEN DES ESPACES VERTS ET DES PLANTES DU SIAHVY",
+   "buyer": "Syndicat intercommunal pour l'aménagement hydraulique de la vallée de l'Yvette (SIAHVY)",
+   "published": "2026-10-27",
+   "deadline": "2026-11-25T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104718",
+   "procedure_id": null,
+   "description": "ENTRETIEN DES ESPACES VERTS ET DES PLANTES D'INTERIEUR SUR LE SITE DU MOULIN DU SIAHVY DE SAULX LES CHARTREUX",
+   "departments": [
+    "91"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
    "id": "ted:741559-2026",
    "source": "TED",
    "source_id": "741559-2026",
