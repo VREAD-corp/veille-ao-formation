@@ -102764,6 +102764,458 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-103921",
+   "source": "BOAMP",
+   "source_id": "26-103921",
+   "title": "Marché formations troubles psychiques",
+   "buyer": "OPCO SANTE",
+   "published": "2026-10-27",
+   "deadline": "2026-11-27T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103921",
+   "procedure_id": "a3320288-b6f9-4b7b-ae03-8750bfe2b3be",
+   "description": "Le présent marché a pour objet, la mise en oeuvre de prestations de formation à destination des salariés des adhérents de l'OPCO santé du secteur sanitaire, social et médico-social à la thématique « Les troubles psychiques : comprendre pour accompagner ».",
+   "departments": [
+    "13",
+    "31",
+    "33",
+    "69",
+    "75",
+    "92",
+    "971",
+    "974"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Nouvelle-Aquitaine",
+    "Occitanie",
+    "Outre-mer",
+    "Provence-Alpes-Côte d'Azur",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "AURA",
+    "BOURGOGNE FRANCHE COMTE",
+    "BRETAGNE",
+    "CENTRE VAL DE LOIRE",
+    "GRAND EST",
+    "HAUTS DE FRANCE",
+    "ILE DE FRANCE",
+    "NORMANDIE",
+    "NOUVELLE AQUITAINE",
+    "OCCITANIE",
+    "PAYS DE LA LOIRE",
+    "SUD ET CORSE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-103940",
+   "source": "BOAMP",
+   "source_id": "26-103940",
+   "title": "Prestations de formation des agents du Département de la Savoie aux outils d'intelligence artificielle générative (IAG)",
+   "buyer": "Département de la Savoie",
+   "published": "2026-10-27",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-103940",
+   "procedure_id": "7a491a88-2b33-4310-86f4-8757558912c6",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Le Département de la Savoie a déployé, entre novembre 2025 et avril 2026, un premier cycle de formation de sensibilisation à l'IA générative à destination de ses 230 cadres, soit 15 sessions d'une demi-journée. Ce cycle poursuivait trois objectifs…",
+   "departments": [
+    "73"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formation de sensibilisation aux outils d'IA générative",
+    "Formation à la maîtrise de l'art du prompting"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104283",
+   "source": "BOAMP",
+   "source_id": "26-104283",
+   "title": "Formations à la gestion des risques associés aux soins pour le compte de l’Assistance Publique - Hôpitaux de Paris.",
+   "buyer": "SMMPS",
+   "published": "2026-10-27",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104283",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-95557"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:741403-2026",
+   "source": "TED",
+   "source_id": "741403-2026",
+   "title": "Prestation d'externalisation de la fonction de responsable de la sécurité des systèmes d'information (RSSI)",
+   "buyer": "OPH Rives de Seine Habitat",
+   "published": "2026-10-27",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/741403-2026",
+   "procedure_id": "3d51f73c-7d95-407c-97b6-6cc1f4b449d4",
+   "description": "Les prestations comprennent notamment : la gouvernance de la sécurité des systèmes d'information, la conformité réglementaire, la sécurité opérationnelle et la gestion des incidents, la sensibilisation des utilisateurs, le suivi des audits et tests de sécurité, ainsi que le pilotage, le reporting et la comitologie de la fonction RSSI",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "72220000",
+    "72810000",
+    "79417000",
+    "80533100"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 260000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:741438-2026",
+   "source": "TED",
+   "source_id": "741438-2026",
+   "title": "Marché formations troubles psychiques",
+   "buyer": "OPCO Santé",
+   "published": "2026-10-27",
+   "deadline": "2026-11-27T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/741438-2026",
+   "procedure_id": "a3320288-b6f9-4b7b-ae03-8750bfe2b3be",
+   "description": "Le présent marché a pour objet, la mise en oeuvre de prestations de formation à destination des salariés des adhérents de l'OPCO santé du secteur sanitaire, social et médico-social à la thématique « Les troubles psychiques : comprendre pour accompagner ».",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "AURA",
+    "BOURGOGNE FRANCHE COMTE",
+    "BRETAGNE",
+    "CENTRE VAL DE LOIRE",
+    "GRAND EST",
+    "HAUTS DE FRANCE",
+    "ILE DE FRANCE",
+    "NORMANDIE",
+    "NOUVELLE AQUITAINE",
+    "OCCITANIE",
+    "PAYS DE LA LOIRE",
+    "SUD ET CORSE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:741685-2026",
+   "source": "TED",
+   "source_id": "741685-2026",
+   "title": "Formations dans le domaine du forage",
+   "buyer": "PFC Ouest Rennes",
+   "published": "2026-10-27",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/741685-2026",
+   "procedure_id": "b74f2b79-8a68-481e-a64f-0de74be88995",
+   "description": "Formations dans le domaine du forage au profit de l'Escadre Aérienne d'Appui aux Opérations (EAAO).",
+   "departments": [
+    "35"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formation forage intra-administration",
+    "Maintien de compétences en immersion"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:743365-2026",
+   "source": "TED",
+   "source_id": "743365-2026",
+   "title": "Conception et animation de formations et d'accompagnements individuels ou collectifs à destination des agents du Ministère de l'Intérieur en matière de communication",
+   "buyer": "Ministère de l'Intérieur",
+   "published": "2026-10-27",
+   "deadline": "2026-11-06T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/743365-2026",
+   "procedure_id": "e1050bda-b0c7-415c-bad1-d369687e4bf6",
+   "description": "Conception et animation de formations et d'accompagnements individuels ou collectifs à destination des agents du Ministère de l'Intérieur en matière de communication.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80510000",
+    "80530000",
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 884580.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formations de communication orale et média training",
+    "Formations d'adaptation aux défis contemporains de la communication publique"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:743811-2026",
+   "source": "TED",
+   "source_id": "743811-2026",
+   "title": "Prestations de formation des agents du Département de la Savoie aux outils d'intelligence artificielle générative (IAG)",
+   "buyer": "Département de la Savoie",
+   "published": "2026-10-27",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/743811-2026",
+   "procedure_id": "7a491a88-2b33-4310-86f4-8757558912c6",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Le Département de la Savoie a déployé, entre novembre 2025 et avril 2026, un premier cycle de formation de sensibilisation à l'IA générative à destination de ses 230 cadres, soit 15 sessions d'une demi-journée. Ce cycle poursuivait trois objectifs…",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formation de sensibilisation aux outils d'IA générative",
+    "Formation à la maîtrise de l'art du prompting"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:744470-2026",
+   "source": "TED",
+   "source_id": "744470-2026",
+   "title": "26M0062 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience) inscrits dans une dynamique collective et articulés avec le service public France VAE) - 16 lots",
+   "buyer": "ANFH",
+   "published": "2026-10-27",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/744470-2026",
+   "procedure_id": "76eaaacf-ad11-4c46-b631-2687f7245ac4",
+   "description": "La présente consultation a pour objet l’achat de prestations d’accompagnement à la Validation des Acquis de l’Expérience (VAE) au bénéfice des agents exerçant dans les établissements de la fonction publique hospitalière accompagnés par l’ANFH. La consultation comporte seize (16) lots géographiques dont le périmètre d’exécution est précisé à l’article 2.4 « Périmètre géographique obligatoire d’exécution des…",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Autre procédure (une étape)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 16000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 2 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 3 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience):Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 4 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 5 -Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 6 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 7 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 8 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): iParcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 9 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 10 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 11 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience):Parcours individualisés VAE (Validation des Acquis de l’Expérience)…",
+    "Lot 12 - Achat de prestations d’accompagnement VAE (Validation des Acquis de l’Expérience): Parcours individualisés VAE (Validation des Acquis de l’Expérience)…"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:744717-2026",
+   "source": "TED",
+   "source_id": "744717-2026",
+   "title": "Catalogue régional de formation « Cartes en main » Ile de France",
+   "buyer": "Uniformation",
+   "published": "2026-10-27",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/744717-2026",
+   "procedure_id": "e3caf29b-e8f0-47a8-a995-c202a84e94de",
+   "description": "Catalogue régional de formation « Cartes en main » Ile de France",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1060000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "SANTE MENTALE AU TRAVAIL : COMPRENDRE, REPERER ET AGIR",
+    "MIEUX APPREHENDER LE HANDICAP ET REUSSIR SON INTEGRATION DANS LES TPE-PME",
+    "LE PLAN DE DEVELOPPEMENT DES COMPETENCES (DPC), LEVIER DE VOTRE POLITIQUE FORMATION",
+    "CONSTRUIRE SA STRATEGIE DE COLLECTE DE FONDS ET DIVERSIFIER SES FINANCEMENTS PRIVES",
+    "AGIR CONTRE LES VIOLENCES ET HARCELEMENT SEXISTES ET SEXUELLES",
+    "GESTION DE PROJETS (NIVEAU AVANCE)",
+    "SECURISER VOS PRATIQUES NUMERIQUES (CYBERSECURITE ET RGPD)",
+    "ASSOCIATIONS, QUELLES SONT LES OPPORTUNITES OFFERTES PAR L'INTELLIGENCE ARTIFICIELLE (IA)",
+    "L'INTELLIGENCE ARTIFICIELLE (IA) AU SERVICE D'UN MANAGEMENT PLUS EFFICACE",
+    "MANAGER L'INTERGENERATIONNEL DANS LES STRUCTURES DE L'ESS",
+    "REPERER ET MOBILISER LE PUBLIC EN SITUATION D'ILLETRISME ET D'ILLECTRONISME",
+    "ACCOMPAGNER LES CHANGEMENTS AU SEIN DE VOTRE STRUCTURE EN FAVEUR DE LA TRANSITION ECOLOGIQUE"
+   ],
+   "updated": ""
   }
  ]
 }
