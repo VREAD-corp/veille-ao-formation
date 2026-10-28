@@ -103216,6 +103216,457 @@
     "ACCOMPAGNER LES CHANGEMENTS AU SEIN DE VOTRE STRUCTURE EN FAVEUR DE LA TRANSITION ECOLOGIQUE"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-104150",
+   "source": "BOAMP",
+   "source_id": "26-104150",
+   "title": "Acquisition de modules de formation (conception et développement inclus) à destination des agents des Caf et des partenaires en lien avec le public RPT",
+   "buyer": "CNAF Etablissement Public",
+   "published": "2026-10-28",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104150",
+   "procedure_id": "3655ea9e-46d1-4bf5-9268-f99c52ab2fe5",
+   "description": "Le marché a pour objet l’acquisition de modules de formations à destination des agents des Caf et des partenaires afin de développer et/ou renforcer leurs compétences en matière d’accueil et d’orientation des publics ressortissants de pays tiers (RPT) aussi appelés publics allophones. Le périmètre du marché ne concerne que deux des modules envisagés dans le cadre du volet formation du projet, à s",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "72212930",
+    "80521000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 250000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104172",
+   "source": "BOAMP",
+   "source_id": "26-104172",
+   "title": "Prestations de formations sécurité auprès des collaborateurs d'Action Logement",
+   "buyer": "ACTION LOGEMENT SERVICES",
+   "published": "2026-10-28",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104172",
+   "procedure_id": "683f47a0-36c9-4613-9cc4-964ca0d03ab4",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80550000",
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formations sécurité pour les collaborateurs situés en France hexagonale",
+    "Formations sécurité pour les collaborateurs situés en Guadeloupe et Martinique",
+    "Formations sécurité pour les collaborateurs situés en Guyane",
+    "Formations sécurité pour les collaborateurs situés à La Réunion et Mayotte"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104395",
+   "source": "BOAMP",
+   "source_id": "26-104395",
+   "title": "QUALIF EMPLOI PROGRAMME 2027",
+   "buyer": "Région Bretagne",
+   "published": "2026-10-28",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104395",
+   "procedure_id": "7e8455dc-f407-48fd-b83e-7766640ace6b",
+   "description": "Cette consultation a pour objet la réalisation de formations qualifiantes dans le cadre du dispositif QUALIF Emploi programme 2027-2029. QUALIF Emploi Programme est un dispositif de formation qui s’adresse aux personnes en recherche d’emploi souhaitant acquérir des compétences professionnelles et obtenir une certification favorisant leur insertion durable dans l’emploi. Il vise à répondre aux besoins en compétences…",
+   "departments": [
+    "22",
+    "29",
+    "35",
+    "56"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-95561",
+    "boamp:26-97892"
+   ],
+   "summary": "",
+   "lots": [
+    "Chef.fe d'entreprise agricole (orientation Polyculture élevage)",
+    "Chef.fe d'entreprise agricole (orientation Polyculture élevage) - A distance",
+    "Ouvrier.ère agricole (métiers de la polyculture élevage) - CQP",
+    "Ouvrier.ère agricole (métiers de la polyculture élevage) - CAPA",
+    "Métiers de l'apiculture et de la viticulture",
+    "Autoconstructeur.ice d'équipements adaptés à l'agroécologie",
+    "Horticulteur·rice- Côtes-d'Armor et Ille-et-Vilaine",
+    "Horticulteur·rice- Finistère et Morbihan",
+    "Chef.fe d'entreprise agricole (orientation horticulture- maraichage)",
+    "Chef.fe d'entreprise agricole (orientation horticulture-maraichage)",
+    "Ouvrier.ère agricole (métiers de l'horticulture)",
+    "Métiers du paysage (Ouvrier.ère et technicien·ne)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104410",
+   "source": "BOAMP",
+   "source_id": "26-104410",
+   "title": "Formation collective à destination des travailleurs en situation de handicap exerçant en ESAT pour \"favoriser le pouvoir d'agir\", dans le cadre d'une convention de groupement de commandes.",
+   "buyer": "OPCO SANTE",
+   "published": "2026-10-28",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104410",
+   "procedure_id": "f0ad6539-bfd0-4463-ada1-c88175d95069",
+   "description": "Le marché porte sur la sélection de prestataires en capacité de mettre en œuvre des sessions de formation, à destination des travailleurs en situation de handicap exerçant au sein d’un ESAT adhérents de l’OPCO Santé ou d’un membre du groupement de commandes, concernant la thématique « favoriser le pouvoir d’agir »",
+   "departments": [
+    "75",
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1 - AUVERGNE-RHÔNE-ALPES",
+    "GRAND EST & BOURGOGNE FRANCHE-COMTE",
+    "BRETAGNE & NORMANDIE",
+    "CENTRE-VAL DE LOIRE & PAYS DE LA LOIRE",
+    "HAUTS-DE-FRANCE",
+    "NOUVELLE-AQUITAINE",
+    "OCCITANIE",
+    "SUD & CORSE",
+    "ÎLE DE FRANCE",
+    "ÎLE DE LA RÉUNION",
+    "GUADELOUPE, GUYANE, MARTINIQUE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104445",
+   "source": "BOAMP",
+   "source_id": "26-104445",
+   "title": "POEC Métiers de l'industrie",
+   "buyer": "OPCO 2i - Direction Appui aux branches et action prospective",
+   "published": "2026-10-28",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104445",
+   "procedure_id": "0abb0dd6-6132-4ff2-914c-a669556e1459",
+   "description": "Le marché porte sur les prestation détaillées dans le DCE, à savoir : POEC Métiers de l'industrie",
+   "departments": [
+    "01",
+    "07",
+    "15",
+    "26",
+    "38",
+    "42",
+    "63",
+    "69",
+    "75"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 336000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:746022-2026",
+   "source": "TED",
+   "source_id": "746022-2026",
+   "title": "Favoriser le pouvoir d'agir",
+   "buyer": "OPCO SANTE",
+   "published": "2026-10-28",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/746022-2026",
+   "procedure_id": "f0ad6539-bfd0-4463-ada1-c88175d95069",
+   "description": "Le marché porte sur la sélection de prestataires en capacité de mettre en œuvre des sessions de formation, à destination des travailleurs en situation de handicap exerçant au sein d’un ESAT adhérents de l’OPCO Santé ou d’un membre du groupement de commandes, concernant la thématique « favoriser le pouvoir d’agir »",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Bourgogne-Franche-Comté",
+    "Bretagne",
+    "Centre-Val de Loire",
+    "Hauts-de-France",
+    "Nouvelle-Aquitaine",
+    "Occitanie",
+    "Outre-mer",
+    "Provence-Alpes-Côte d'Azur",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Autre procédure (une étape)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1 - AUVERGNE-RHÔNE-ALPES",
+    "GRAND EST & BOURGOGNE FRANCHE-COMTE",
+    "BRETAGNE & NORMANDIE",
+    "CENTRE-VAL DE LOIRE & PAYS DE LA LOIRE",
+    "HAUTS-DE-FRANCE",
+    "NOUVELLE-AQUITAINE",
+    "OCCITANIE",
+    "SUD & CORSE",
+    "ÎLE DE FRANCE",
+    "ÎLE DE LA RÉUNION",
+    "GUADELOUPE, GUYANE, MARTINIQUE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:747210-2026",
+   "source": "TED",
+   "source_id": "747210-2026",
+   "title": "Prestations de formations sécurité auprès des collaborateurs d'Action Logement",
+   "buyer": "ACTION LOGEMENT SERVICES",
+   "published": "2026-10-28",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/747210-2026",
+   "procedure_id": "683f47a0-36c9-4613-9cc4-964ca0d03ab4",
+   "description": "Prestations de formations sécurité auprès des collaborateurs d'Action Logement",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80550000",
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formations sécurité pour les collaborateurs situés en France hexagonale",
+    "Formations sécurité pour les collaborateurs situés en Guadeloupe et Martinique",
+    "Formations sécurité pour les collaborateurs situés en Guyane",
+    "Formations sécurité pour les collaborateurs situés à La Réunion et Mayotte"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:747730-2026",
+   "source": "TED",
+   "source_id": "747730-2026",
+   "title": "Acquisition de modules de formation (conception et développement inclus) à destination des agents des Caf et des partenaires en lien avec le public Ressortissants de Pays Tiers",
+   "buyer": "CNAF Etablissement Public",
+   "published": "2026-10-28",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/747730-2026",
+   "procedure_id": "3655ea9e-46d1-4bf5-9268-f99c52ab2fe5",
+   "description": "Le marché a pour objet l’acquisition de modules de formations à destination des agents des Caf et des partenaires afin de développer et/ou renforcer leurs compétences en matière d’accueil et d’orientation des publics ressortissants de pays tiers (RPT) aussi appelés publics allophones. Le périmètre du marché ne concerne que deux des modules envisagés dans le cadre du volet formation du projet, à s",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "72212930",
+    "80521000"
+   ],
+   "procedure": "Procédure restreinte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 250000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:748104-2026",
+   "source": "TED",
+   "source_id": "748104-2026",
+   "title": "POEC Métiers de l'industrie",
+   "buyer": "OPCO 2i - Direction Appui aux branches et action prospective",
+   "published": "2026-10-28",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/748104-2026",
+   "procedure_id": "0abb0dd6-6132-4ff2-914c-a669556e1459",
+   "description": "Le marché porte sur les prestation détaillées dans le DCE, à savoir : POEC Métiers de l'industrie",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 336000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:748249-2026",
+   "source": "TED",
+   "source_id": "748249-2026",
+   "title": "QUALIF EMPLOI PROGRAMME 2027",
+   "buyer": "Région Bretagne",
+   "published": "2026-10-28",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/748249-2026",
+   "procedure_id": "7e8455dc-f407-48fd-b83e-7766640ace6b",
+   "description": "Cette consultation a pour objet la réalisation de formations qualifiantes dans le cadre du dispositif QUALIF Emploi programme 2027-2029. QUALIF Emploi Programme est un dispositif de formation qui s’adresse aux personnes en recherche d’emploi souhaitant acquérir des compétences professionnelles et obtenir une certification favorisant leur insertion durable dans l’emploi. Il vise à répondre aux besoins en compétences…",
+   "departments": [],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Chef.fe d'entreprise agricole (orientation Polyculture élevage)",
+    "Chef.fe d'entreprise agricole (orientation Polyculture élevage) - A distance",
+    "Ouvrier.ère agricole (métiers de la polyculture élevage) - CQP",
+    "Ouvrier.ère agricole (métiers de la polyculture élevage) - CAPA",
+    "Métiers de l'apiculture et de la viticulture",
+    "Autoconstructeur.ice d'équipements adaptés à l'agroécologie",
+    "Horticulteur·rice- Côtes-d'Armor et Ille-et-Vilaine",
+    "Horticulteur·rice- Finistère et Morbihan",
+    "Chef.fe d'entreprise agricole (orientation horticulture- maraichage)",
+    "Chef.fe d'entreprise agricole (orientation horticulture-maraichage)",
+    "Ouvrier.ère agricole (métiers de l'horticulture)",
+    "Métiers du paysage (Ouvrier.ère et technicien·ne)"
+   ],
+   "updated": ""
   }
  ]
 }
