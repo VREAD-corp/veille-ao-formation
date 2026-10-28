@@ -103455,6 +103455,50 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-105015",
+   "source": "BOAMP",
+   "source_id": "26-105015",
+   "title": "Formation en langue à destination des adultes",
+   "buyer": "Mairie de Garges-lès-Gonesse",
+   "published": "2026-10-28",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105015",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "91",
+    "92",
+    "93",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 340000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Ateliers sociolinguistiques",
+    "Remise à niveau professionnelle"
+   ],
+   "updated": ""
+  },
+  {
    "id": "ted:746022-2026",
    "source": "TED",
    "source_id": "746022-2026",

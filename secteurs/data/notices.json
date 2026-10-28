@@ -105984,6 +105984,50 @@
    ]
   },
   {
+   "id": "boamp:26-105057",
+   "source": "BOAMP",
+   "source_id": "26-105057",
+   "title": "PRESTATIONS D’ENTRETIEN DES ESPACES VERTS ET VEGETAUX DES SITES DU CCAS",
+   "buyer": "CCAS d'Antibes (06)",
+   "published": "2026-10-28",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105057",
+   "procedure_id": null,
+   "description": "Le présent marché a pour objet l’entretien des espaces verts et végétaux de différents sites du Centre Communal d’Action Sociale de la ville d’Antibes Juan-les-Pins.",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
    "id": "ted:745436-2026",
    "source": "TED",
    "source_id": "745436-2026",
