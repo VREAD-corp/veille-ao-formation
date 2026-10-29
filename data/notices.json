@@ -104085,6 +104085,81 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-105367",
+   "source": "BOAMP",
+   "source_id": "26-105367",
+   "title": "MARCHE DE SERVICES D’ACCOMPAGNEMENT A LA MOBILITE GEOGRAPHIQUE DANS LE CADRE DU PROGRAMME ERASMUS+ AU BENEFICE DES DEMANDEURS D’EMPLOI DE LA REGION GRAND EST",
+   "buyer": "FRANCE TRAVAIL - GRAND EST",
+   "published": "2026-10-29",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105367",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "85312300"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-91061"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105535",
+   "source": "BOAMP",
+   "source_id": "26-105535",
+   "title": "Prestations D'Analyse De La Pratique Professionnelle Auprès Des Personnels Des établissements D'Accueil De Jeunes Enfants",
+   "buyer": "Commune D'Istres",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105535",
+   "procedure_id": null,
+   "description": "Le présent marché public a pour objet des prestations d'analyse des pratiques professionnelles pour les membres des équipes des établissements chargés de l'encadrement des enfants. En effet dans le cadre du nouveau décret n°2021-1131 du 30 août 2021 relatif aux assistants maternels et aux établissement d'accueil de jeunes enfants, il est nécessaire de mettre en place des séances d'analyse des pratiques…",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:749834-2026",
    "source": "TED",
    "source_id": "749834-2026",
