@@ -106788,6 +106788,901 @@
     "espaces-verts"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-104599",
+   "source": "BOAMP",
+   "source_id": "26-104599",
+   "title": "Prestations d'entretien et travaux de grosses réparations dans les parcs urbains départementaux (2 lots)",
+   "buyer": "Département de la Seine-Saint-Denis",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104599",
+   "procedure_id": "2e1ec64e-1cd1-4cd2-81ea-b2ec14b8c32b",
+   "description": "La consultation concerne les prestations d'entretien et de grosses réparations dans deux parcs urbains du département : le parc de la Fosse Maussoin (Clichy-sous-Bois) et le parc de la Bergère (Bobigny)",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4600000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 Parc départemental de la Fosse Maussoin à Clichy-Sous-Bois",
+    "Lot n°2 Parc départemental de la Bergère à Bobigny"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-104700",
+   "source": "BOAMP",
+   "source_id": "26-104700",
+   "title": "Nettoyage des locaux du multi-accueil « Les Harzalas » de la Communauté de communes Alsace Rhin Brisach",
+   "buyer": "Communauté de communes Alsace Rhin Brisach",
+   "published": "2026-10-29",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104700",
+   "procedure_id": "ec876339-49b3-4556-9968-528c6a74780c",
+   "description": "Il comprend notamment, le nettoyage, l’entretien et la désinfection, des sols, des sanitaires adultes et enfants, des espaces de change, des espaces de jeux, des salles de vie, des salles de sommeil, des réfectoires, des espaces de circulation, des vestiaires du personnel, du bureau de direction, de l’Etablissement d’Accueil de Jeunes Enfants (EAJE) appartenant à la Communauté de Communes Alsace Rhin Brisach. La…",
+   "departments": [
+    "68"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-104725",
+   "source": "BOAMP",
+   "source_id": "26-104725",
+   "title": "Accord-cadre de prestations d’entretien des locaux, de la vitrerie et collecte interne des déchets pour le GHT Haute Garonne et du Tarn Ouest",
+   "buyer": "31 CHU",
+   "published": "2026-10-29",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104725",
+   "procedure_id": "cd328d8f-4265-4879-bf89-5f677b7f4ccc",
+   "description": "Il s'agit d'un acccord-cadre mixte (une partie est exécutée directement par émissions des bons de commande et une partie est exécutée par la passation de marchés subséquents) pour les Prestations d’entretien des locaux, de la vitrerie et collecte interne des déchets du GHT Haute Garonne Tarn Ouest.",
+   "departments": [
+    "31"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations d’entretien des locaux pour le Groupement de commandes hospitalier de la Haute-Garonne et du Tarn Ouest",
+    "Prestations d’entretien de la vitrerie pour le Groupement de commandes hospitalier de la Haute-Garonne et du Tarn Ouest",
+    "Prestations de collecte interne des déchets pour le Groupement de commandes hospitalier de la Haute-Garonne et du Tarn Ouest"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-104731",
+   "source": "BOAMP",
+   "source_id": "26-104731",
+   "title": "Le nettoyage courants des locaux et des surfaces vitrées de l’École Nationale Supérieure d’Architecture de Paris la Villette (ENSA-PLV).",
+   "buyer": "l’Ecole Nationale Supérieure de l’Architecture de Paris la Villette (ENSA-PLV)",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104731",
+   "procedure_id": "abcae670-2642-44b2-ac95-8aab3682bc94",
+   "description": "La présente consultation a pour objet la conclusion d’un marché public de de nettoyage courants des locaux et des surfaces vitrées de l’École Nationale Supérieure d’Architecture de Paris-la Villette (ENSA-PLV).",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-104876",
+   "source": "BOAMP",
+   "source_id": "26-104876",
+   "title": "Entretien des espaces verts de la Communauté d'Agglomération Pays Basque",
+   "buyer": "Communauté d'agglomération Pays Basque",
+   "published": "2026-10-29",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104876",
+   "procedure_id": "e87063db-4353-4fd5-acd2-a936c428bea5",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. La valeur totale estimée indiquée correspond au total des montants maximum pour l'ensemble des lots et comprennent les prestations similaires envisagées. Les montants indiqués par lot correspondent aux montants maximum par lot pour la durée du marché…",
+   "departments": [
+    "64"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "77310000",
+    "77341000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4800000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces verts des bâtiments du secteur Labourd Nord",
+    "Entretien des espaces verts des bâtiments des secteurs Basse Navarre et Soulle",
+    "Entretien des espaces verts des propriétés non baties de la Communauté d'Agglomération Pays Basque",
+    "Elagage et abattage d'arbres",
+    "Entretien des espaces verts des zones d'activités économiques des secteurs Labourd Nord et Labourd Sud",
+    "Entretien des espaces verts des zones d'activités économiques des secteurs Basse Navarre et Soulle",
+    "Gestion des espaces verts des aires de grand passage des gens du voyage de la Communauté d'Agglomération Pays Basque"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-104885",
+   "source": "BOAMP",
+   "source_id": "26-104885",
+   "title": "Nettoyage des locaux du complexe aquatique patinoire",
+   "buyer": "La Roche-sur-Yon Agglomération",
+   "published": "2026-10-29",
+   "deadline": "2026-12-17T12:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104885",
+   "procedure_id": "778c2526-d56e-412e-9401-56c40dbb2354",
+   "description": "La description des prestations et leurs spécifications techniques sont définies dans le CCTP.",
+   "departments": [
+    "85"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-104911",
+   "source": "BOAMP",
+   "source_id": "26-104911",
+   "title": "Accord-cadre pour la réalisation de prestations de mise en propreté au bénéfice des sites des services déconcentrés et d’établissements publics de l’Etat en région Île-de-France",
+   "buyer": "SGAMM IDF",
+   "published": "2026-10-29",
+   "deadline": "2026-11-19T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104911",
+   "procedure_id": "48e18436-2ca2-4bde-8bae-1b6693ec6c69",
+   "description": "Le présent accord-cadre a pour objet la réalisation de prestations de mise en propreté des locaux incluant des services associés (fourniture et gestion des équipements et des consommables sanitaires ainsi que le nettoyage de la vitrerie intérieure facilement accessible) au bénéfice des sites des services déconcentrés et d’établissements publics de l’Etat en région Île-de-France.",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000",
+    "90911200",
+    "90919200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 53340000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-98811"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-104919",
+   "source": "BOAMP",
+   "source_id": "26-104919",
+   "title": "Prestations de nettoyage des locaux pour les services du Département de la Haute-Loire",
+   "buyer": "Département de la Haute-Loire",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104919",
+   "procedure_id": "e42b308e-01aa-461a-b958-5d13d75b4b69",
+   "description": "Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix forfaitaires. Cette présente consultation fait suite à une première procédure infructueuse (lots 7 et 10)",
+   "departments": [
+    "43"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Maison départementale des solidarités et Pôle de Craponne Surface estimée : 332m²",
+    "Salles informatiques du Département et Data Center de Taulhac Surface estimée : 100m²"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-104988",
+   "source": "BOAMP",
+   "source_id": "26-104988",
+   "title": "Nettoyage des bâtiments communaux",
+   "buyer": "Mairie de Hordain",
+   "published": "2026-10-29",
+   "deadline": "2026-12-04T08:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104988",
+   "procedure_id": "1cd98c48-2024-41c6-b463-5e2d5fc4f421",
+   "description": "Le présent marché est un accord-cadre concernant la mise en œuvre de prestations de nettoyage des locaux et nettoyage des vitreries des bâtiments communaux de la ville d'Hordain. Une quinzaine de sites sont référencés.",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911000",
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage Bâtimentaire intérieur",
+    "Vitrerie"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-105241",
+   "source": "BOAMP",
+   "source_id": "26-105241",
+   "title": "Maîtrise d'oeuvre pour l'aménagement d'un jardin public en coteau à Nogent-le-Rotrou",
+   "buyer": "Ville de Nogent le Rotrou (28)",
+   "published": "2026-10-29",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105241",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "28"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-105299",
+   "source": "BOAMP",
+   "source_id": "26-105299",
+   "title": "ACHAT DE PRESTATIONS DE SERVICES SYLVICOLES-.",
+   "buyer": "Commune de Aillianville",
+   "published": "2026-10-29",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105299",
+   "procedure_id": null,
+   "description": "Travaux de plantations-.",
+   "departments": [
+    "52"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "ted:749269-2026",
+   "source": "TED",
+   "source_id": "749269-2026",
+   "title": "Nettoyage des locaux du multi-accueil « Les Harzalas » de la Communauté de communes Alsace Rhin Brisach",
+   "buyer": "Communauté de communes Alsace Rhin-Brisach",
+   "published": "2026-10-29",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/749269-2026",
+   "procedure_id": "ec876339-49b3-4556-9968-528c6a74780c",
+   "description": "Il comprend notamment, le nettoyage, l’entretien et la désinfection, des sols, des sanitaires adultes et enfants, des espaces de change, des espaces de jeux, des salles de vie, des salles de sommeil, des réfectoires, des espaces de circulation, des vestiaires du personnel, du bureau de direction, de l’Etablissement d’Accueil de Jeunes Enfants (EAJE) appartenant à la Communauté de Communes Alsace Rhin Brisach. La…",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:749634-2026",
+   "source": "TED",
+   "source_id": "749634-2026",
+   "title": "Prestations d'entretien et travaux de grosses réparations dans les parcs urbains départementaux (2 lots)",
+   "buyer": "Département de la Seine-Saint-Denis",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/749634-2026",
+   "procedure_id": "2e1ec64e-1cd1-4cd2-81ea-b2ec14b8c32b",
+   "description": "La consultation concerne les prestations d'entretien et de grosses réparations dans deux parcs urbains du département : le parc de la Fosse Maussoin (Clichy-sous-Bois) et le parc de la Bergère (Bobigny)",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4600000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 Parc départemental de la Fosse Maussoin à Clichy-Sous-Bois",
+    "Lot n°2 Parc départemental de la Bergère à Bobigny"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:750515-2026",
+   "source": "TED",
+   "source_id": "750515-2026",
+   "title": "Nettoyage des locaux du complexe aquatique patinoire",
+   "buyer": "La Roche-sur-Yon Agglomération",
+   "published": "2026-10-29",
+   "deadline": "2026-12-17T12:30",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/750515-2026",
+   "procedure_id": "778c2526-d56e-412e-9401-56c40dbb2354",
+   "description": "La description des prestations et leurs spécifications techniques sont définies dans le CCTP.",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:750768-2026",
+   "source": "TED",
+   "source_id": "750768-2026",
+   "title": "Entretien des espaces verts de tous types du patrimoine de CLAH",
+   "buyer": "SEM Cannes Lerins Aménagement et Habitat (06)",
+   "published": "2026-10-29",
+   "deadline": "2026-11-27T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/750768-2026",
+   "procedure_id": "9a3ca269-8848-4150-b1f0-162ab61b8acc",
+   "description": "Les stipulations concernent les prestations d'entretien des différents types d'espaces verts composants les espaces communs extérieurs du patrimoine de CLAH. Le marché fait l'objet d'un allotissement géographique. Ainsi il convient de distinguer 3 lots : -Lot 1-Secteur Cannes la Bocca -Lot 2-Secteur Cannes/Le Cannet -Lot 3- Secteur extérieur",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services",
+    "Supplies"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur Cannes la Bocca",
+    "Secteur Cannes/Le Cannet",
+    "Secteur extérieur"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:750788-2026",
+   "source": "TED",
+   "source_id": "750788-2026",
+   "title": "Entretien des espaces verts de la Communauté d'Agglomération Pays Basque",
+   "buyer": "Communauté d'agglomération Pays Basque",
+   "published": "2026-10-29",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/750788-2026",
+   "procedure_id": "e87063db-4353-4fd5-acd2-a936c428bea5",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. La valeur totale estimée indiquée correspond au total des montants maximum pour l'ensemble des lots et comprennent les prestations similaires envisagées. Les montants indiqués par lot correspondent aux montants maximum par lot pour la durée du marché…",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "77310000",
+    "77341000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4800000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces verts des bâtiments du secteur Labourd Nord",
+    "Entretien des espaces verts des bâtiments des secteurs Basse Navarre et Soulle",
+    "Entretien des espaces verts des propriétés non baties de la Communauté d'Agglomération Pays Basque",
+    "Elagage et abattage d'arbres",
+    "Entretien des espaces verts des zones d'activités économiques des secteurs Labourd Nord et Labourd Sud",
+    "Entretien des espaces verts des zones d'activités économiques des secteurs Basse Navarre et Soulle",
+    "Gestion des espaces verts des aires de grand passage des gens du voyage de la Communauté d'Agglomération Pays Basque"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:750801-2026",
+   "source": "TED",
+   "source_id": "750801-2026",
+   "title": "Prestations de nettoyage des locaux pour les services du Département de la Haute-Loire",
+   "buyer": "Département de la Haute-Loire",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/750801-2026",
+   "procedure_id": "e42b308e-01aa-461a-b958-5d13d75b4b69",
+   "description": "Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix forfaitaires. Cette présente consultation fait suite à une première procédure infructueuse (lots 7 et 10)",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Maison départementale des solidarités et Pôle de Craponne Surface estimée : 332m²",
+    "Salles informatiques du Département et Data Center de Taulhac Surface estimée : 100m²"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:751143-2026",
+   "source": "TED",
+   "source_id": "751143-2026",
+   "title": "Nettoyage des bâtiments communaux",
+   "buyer": "Mairie de Hordain",
+   "published": "2026-10-29",
+   "deadline": "2026-12-04T08:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/751143-2026",
+   "procedure_id": "1cd98c48-2024-41c6-b463-5e2d5fc4f421",
+   "description": "Le présent marché est un accord-cadre concernant la mise en œuvre de prestations de nettoyage des locaux et nettoyage des vitreries des bâtiments communaux de la ville d'Hordain. Une quinzaine de sites sont référencés.",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911000",
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage Bâtimentaire intérieur",
+    "Vitrerie"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:751372-2026",
+   "source": "TED",
+   "source_id": "751372-2026",
+   "title": "2026-003_Nettoyage",
+   "buyer": "ENSA PLV",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/751372-2026",
+   "procedure_id": "abcae670-2642-44b2-ac95-8aab3682bc94",
+   "description": "La présente consultation a pour objet la conclusion d’un marché public de de nettoyage courants des locaux et des surfaces vitrées de l’École Nationale Supérieure d’Architecture de Paris-la Villette (ENSA-PLV).",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:752555-2026",
+   "source": "TED",
+   "source_id": "752555-2026",
+   "title": "Accord-cadre pour la réalisation de prestations de mise en propreté au bénéfice des sites des services déconcentrés et d’établissements publics de l’Etat en région Île-de-France",
+   "buyer": "SGAMM IDF",
+   "published": "2026-10-29",
+   "deadline": "2026-11-19T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/752555-2026",
+   "procedure_id": "48e18436-2ca2-4bde-8bae-1b6693ec6c69",
+   "description": "Le présent accord-cadre a pour objet la réalisation de prestations de mise en propreté des locaux incluant des services associés (fourniture et gestion des équipements et des consommables sanitaires ainsi que le nettoyage de la vitrerie intérieure facilement accessible) au bénéfice des sites des services déconcentrés et d’établissements publics de l’Etat en région Île-de-France.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000",
+    "90911200",
+    "90919200",
+    "90911300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 53340000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
   }
  ]
 }

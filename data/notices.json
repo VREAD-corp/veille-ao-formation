@@ -103711,6 +103711,646 @@
     "Métiers du paysage (Ouvrier.ère et technicien·ne)"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-104555",
+   "source": "BOAMP",
+   "source_id": "26-104555",
+   "title": "FORMATION A LA SECURITE ROUTIERE",
+   "buyer": "SGA / DSNJ",
+   "published": "2026-10-29",
+   "deadline": "2026-11-07T17:03",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104555",
+   "procedure_id": "6addf021-1cd0-45fa-982e-12038dc85e74",
+   "description": "FORMATION A LA SECURITE ROUTIERE AU PROFIT DES AGENTS DES CENTRE DU SERVICE NATIONAL ET DE LA JEUNESSE (CSNJ)",
+   "departments": [
+    "35",
+    "45",
+    "59",
+    "63",
+    "78",
+    "80"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Bretagne",
+    "Centre-Val de Loire",
+    "Hauts-de-France",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104556",
+   "source": "BOAMP",
+   "source_id": "26-104556",
+   "title": "FORMATION REGLEMENTAIRE A LA CHIRURGIE CHEZ LES MODELES RONGEURS",
+   "buyer": "CNRS-DR15",
+   "published": "2026-10-29",
+   "deadline": "2026-11-26T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104556",
+   "procedure_id": "53cf2afb-c682-4c32-8ac4-c1b9b693f8bf",
+   "description": "FORMATION REGLEMENTAIRE A LA CHIRURGIE CHEZ LES MODELES RONGEURS : APPLICATION DIRECTIVE 2010/63/UE DU PARLEMENT EUROPEEN ET DU CONSEIL DU 22 SEPTEMBRE 2010 RELATIVE A LA PROTECTION DES ANIMAUX UTILISES A DES FINS SCIENTIFIQUES",
+   "departments": [
+    "33"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104701",
+   "source": "BOAMP",
+   "source_id": "26-104701",
+   "title": "Acquisition d’une solution de formation digitale en libre accès",
+   "buyer": "ASNR FONTENAY",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104701",
+   "procedure_id": "df8f310f-b0b0-4ef2-96c9-4f34d481a6fb",
+   "description": "Le présent marché a pour objet l’acquisition d’une solution de formation digitale en libre accès.",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80420000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104712",
+   "source": "BOAMP",
+   "source_id": "26-104712",
+   "title": "Catalogue de formation à destination des personnels des Organismes publics et coopératifs de l'habitat social",
+   "buyer": "Uniformation",
+   "published": "2026-10-29",
+   "deadline": "2026-11-26T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104712",
+   "procedure_id": "d89957ff-8848-4af4-8f8c-0e36bb15e38f",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3555000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Le logement social : de l'histoire à nos jours",
+    "Les fondamentaux du droit de la copropriété",
+    "Vente HLM",
+    "Prévention, connaissance des aides et traitement social de l'impayé",
+    "Appréhender les troubles du comportement dans le logement social",
+    "Comprendre les cultures étrangères pour mieux communiquer",
+    "La gestion des incivilités avec les locataires et accédants",
+    "Les syndromes de Diogène et de Noé : savoir intervenir",
+    "Tout savoir sur les charges récupérables",
+    "Actualités des attributions de logements sociaux",
+    "Actualité de la gestion locative à partir de la signature du bail",
+    "Pratique des procédures civiles d'exécution"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104812",
+   "source": "BOAMP",
+   "source_id": "26-104812",
+   "title": "26198 - Formations à la sécurité des biens et des personnes (SSIAP, SST, PSE, PSC, AFGSU, premiers s",
+   "buyer": "Collectivité européenne d Alsace",
+   "published": "2026-10-29",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104812",
+   "procedure_id": "3686103c-a821-41f5-ac2b-b2c7a6039664",
+   "description": "Formations à la sécurité des biens et des personnes (SSIAP, SST, PSE, PSC, AFGSU, premiers secours nourrisson et jeune enfant, PSSM) pour les agents de la Collectivité européenne d'Alsace",
+   "departments": [
+    "67",
+    "68"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formations Service de Sécurité Incendie et d'Assistance à Personnes (SSIAP)",
+    "Formations Sauveteur Secouriste du Travail (SST)",
+    "Formations Premiers Secours en Equipe (PSE)",
+    "Formations Premiers Secours Citoyens (PSC)",
+    "Formations Attestation de Formation aux Gestes et Soins d'Urgence (AFGSU)",
+    "Formations premiers secours nourrisson et jeune enfant",
+    "Formations Premiers Secours en Santé Mentale (PSSM)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104833",
+   "source": "BOAMP",
+   "source_id": "26-104833",
+   "title": "Prestations de formations spécifiques ATSEP dédié aux outils de radiocommunication aéronautique de marque TELERAD",
+   "buyer": "DGAC/DSNA/DSR/DO",
+   "published": "2026-10-29",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104833",
+   "procedure_id": "b7ed54c4-8189-4dab-a177-91db69cc4192",
+   "description": "Le contrat porte sur les prestations suivantes : Programme de formations spécifiques ATSEP dédié aux outils de radiocommunication aéronautique de marque TELERAD. Le présent marché définit les prestations de formations spécifiques destinées aux ATSEP dédiés aux outils de radiocommunication aéronautique de marque TELERAD. Objectifs : • Garantir les compétences nécessaires au MCO (Maintien en Cond",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80531200",
+    "80511000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-104898",
+   "source": "BOAMP",
+   "source_id": "26-104898",
+   "title": "2026-21 - CONSEIL ET ACCOMPAGNEMENT DE SANTE PUBLIQUE FRANCE EN RELATIONS PRESSE, GESTION DE CRISE ET MEDIA TRAINING",
+   "buyer": "Santé publique France",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-104898",
+   "procedure_id": "65ff07bb-85f1-4c01-8ee3-fd9bdcdeeb1d",
+   "description": "CONSEIL ET ACCOMPAGNEMENT EN RELATIONS PRESSE, GESTION DE CRISE ET MEDIA TRAINING",
+   "departments": [
+    "75",
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105238",
+   "source": "BOAMP",
+   "source_id": "26-105238",
+   "title": "25N0913 Mise en œuvre de prestations d'évaluation des compétences à destination des participants PLIE",
+   "buyer": "METROPOLE NICE COTE D'AZUR",
+   "published": "2026-10-29",
+   "deadline": "2026-11-19T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105238",
+   "procedure_id": null,
+   "description": "La présente consultation est lancée suivant la procédure : Marché à procédure adaptée - articles R.2123-1-3 et R.2123-2 du code de la commande publique. La consultation a pour objet : La mise en œuvre d'ateliers d'évaluation et de valorisation des compétences associant des temps collectifs et individuels. Chaque atelier comprend deux séances collectives de six heures consacrées à l'identification des compétences, à…",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 13332.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105298",
+   "source": "BOAMP",
+   "source_id": "26-105298",
+   "title": "25N0910- Prestations d’ateliers de remobilisation par le co-coaching pour les participants du PLIE.",
+   "buyer": "METROPOLE NICE COTE D'AZUR",
+   "published": "2026-10-29",
+   "deadline": "2026-11-19T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105298",
+   "procedure_id": null,
+   "description": "La présente consultation est lancée suivant la procédure : Marché à procédure adaptée - articles R.2123-1-3 et R.2123-2 du code de la commande publique. La consultation a pour objet : la mise en œuvre d'ateliers collectifs de remobilisation par le co-coaching à destination des participants du PLIE de la Métropole Nice Côte d'Azur. Ces ateliers visent à valoriser leurs compétences, renforcer leur confiance et…",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 9999.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:749834-2026",
+   "source": "TED",
+   "source_id": "749834-2026",
+   "title": "CONSEIL ET ACCOMPAGNEMENT DE SANTE PUBLIQUE FRANCE EN RELATIONS PRESSE, GESTION DE CRISE ET MEDIA TRAINING",
+   "buyer": "Santé publique France",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/749834-2026",
+   "procedure_id": "65ff07bb-85f1-4c01-8ee3-fd9bdcdeeb1d",
+   "description": "CONSEIL ET ACCOMPAGNEMENT EN RELATIONS PRESSE, GESTION DE CRISE ET MEDIA TRAINING",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:750002-2026",
+   "source": "TED",
+   "source_id": "750002-2026",
+   "title": "26198 - Formations à la sécurité des biens et des personnes (SSIAP, SST, PSE, PSC, AFGSU, premiers s",
+   "buyer": "Collectivité européenne d Alsace",
+   "published": "2026-10-29",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/750002-2026",
+   "procedure_id": "3686103c-a821-41f5-ac2b-b2c7a6039664",
+   "description": "Formations à la sécurité des biens et des personnes (SSIAP, SST, PSE, PSC, AFGSU, premiers secours nourrisson et jeune enfant, PSSM) pour les agents de la Collectivité européenne d'Alsace",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formations Service de Sécurité Incendie et d'Assistance à Personnes (SSIAP)",
+    "Formations Sauveteur Secouriste du Travail (SST)",
+    "Formations Premiers Secours en Equipe (PSE)",
+    "Formations Premiers Secours Citoyens (PSC)",
+    "Formations Attestation de Formation aux Gestes et Soins d'Urgence (AFGSU)",
+    "Formations premiers secours nourrisson et jeune enfant",
+    "Formations Premiers Secours en Santé Mentale (PSSM)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:750193-2026",
+   "source": "TED",
+   "source_id": "750193-2026",
+   "title": "Acquisition d’une solution de formation digitale en libre accès",
+   "buyer": "AUTORITE DE SURETE NUCLEAIRE ET DE RADIOPROTECTION",
+   "published": "2026-10-29",
+   "deadline": "2026-11-30T14:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/750193-2026",
+   "procedure_id": "df8f310f-b0b0-4ef2-96c9-4f34d481a6fb",
+   "description": "Le présent marché a pour objet l’acquisition d’une solution de formation digitale en libre accès.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80420000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:751137-2026",
+   "source": "TED",
+   "source_id": "751137-2026",
+   "title": "FORMATION REGLEMENTAIRE A LA CHIRURGIE CHEZ LES MODELES RONGEURS : APPLICATION DIRECTIVE 2010/63/UE DU PARLEMENT EUROPEEN ET DU CONSEIL DU 22 SEPTEMBRE 2010 RELATIVE A LA PROTECTION DES ANIMAUX UTILISES A DES FINS SCIENTIFIQUES",
+   "buyer": "CNRS Délégation régionale Aquitaine",
+   "published": "2026-10-29",
+   "deadline": "2026-11-26T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/751137-2026",
+   "procedure_id": "53cf2afb-c682-4c32-8ac4-c1b9b693f8bf",
+   "description": "FORMATION REGLEMENTAIRE A LA CHIRURGIE CHEZ LES MODELES RONGEURS : APPLICATION DIRECTIVE 2010/63/UE DU PARLEMENT EUROPEEN ET DU CONSEIL DU 22 SEPTEMBRE 2010 RELATIVE A LA PROTECTION DES ANIMAUX UTILISES A DES FINS SCIENTIFIQUES",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:751771-2026",
+   "source": "TED",
+   "source_id": "751771-2026",
+   "title": "Programme de formations spécifiques ATSEP dédié aux outils de radiocommunication aéronautique de marque TELERAD.Le présent marché définit les prestations de formations spécifiques destinées aux ATSEP dédiés aux outils de radiocommunication aéronautique de marque TELERAD",
+   "buyer": "DSNA/DO",
+   "published": "2026-10-29",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/751771-2026",
+   "procedure_id": "b7ed54c4-8189-4dab-a177-91db69cc4192",
+   "description": "Le contrat porte sur les prestations suivantes : Programme de formations spécifiques ATSEP dédié aux outils de radiocommunication aéronautique de marque TELERAD. Le présent marché définit les prestations de formations spécifiques destinées aux ATSEP dédiés aux outils de radiocommunication aéronautique de marque TELERAD. Objectifs : • Garantir les compétences nécessaires au MCO (Maintien en Cond",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80531200",
+    "80511000"
+   ],
+   "procedure": "Autre procédure (plusieurs étapes)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:752206-2026",
+   "source": "TED",
+   "source_id": "752206-2026",
+   "title": "AOO SECURITE ROUTIERE",
+   "buyer": "SGA / DSNJ",
+   "published": "2026-10-29",
+   "deadline": "2026-11-07T17:03",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/752206-2026",
+   "procedure_id": "6addf021-1cd0-45fa-982e-12038dc85e74",
+   "description": "FORMATION A LA SECURITE ROUTIERE AU PROFIT DES AGENTS DES CENTRE DU SERVICE NATIONAL ET DE LA JEUNESSE (CSNJ)",
+   "departments": [],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:752329-2026",
+   "source": "TED",
+   "source_id": "752329-2026",
+   "title": "Catalogue de formation à destination des personnels des Organismes publics et coopératifs de l'habitat social",
+   "buyer": "Uniformation",
+   "published": "2026-10-29",
+   "deadline": "2026-11-26T14:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/752329-2026",
+   "procedure_id": "d89957ff-8848-4af4-8f8c-0e36bb15e38f",
+   "description": "Catalogue de formation à destination des personnels des Organismes publics et coopératifs de l'habitat social",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3555000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Le logement social : de l'histoire à nos jours",
+    "Les fondamentaux du droit de la copropriété",
+    "Vente HLM",
+    "Prévention, connaissance des aides et traitement social de l'impayé",
+    "Appréhender les troubles du comportement dans le logement social",
+    "Comprendre les cultures étrangères pour mieux communiquer",
+    "La gestion des incivilités avec les locataires et accédants",
+    "Les syndromes de Diogène et de Noé : savoir intervenir",
+    "Tout savoir sur les charges récupérables",
+    "Actualités des attributions de logements sociaux",
+    "Actualité de la gestion locative à partir de la signature du bail",
+    "Pratique des procédures civiles d'exécution"
+   ],
+   "updated": ""
   }
  ]
 }
