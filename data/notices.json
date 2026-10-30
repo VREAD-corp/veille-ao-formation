@@ -104426,6 +104426,370 @@
     "Pratique des procédures civiles d'exécution"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-105184",
+   "source": "BOAMP",
+   "source_id": "26-105184",
+   "title": "Exécution de prestations de propreté, d’entretien, de collecte, de traitement, de caractérisation de déchets, de sensibilisation à la réduction et au tri des déchets des sites de la Ville de Marseille",
+   "buyer": "Ville de Marseille",
+   "published": "2026-10-30",
+   "deadline": "2026-11-30T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105184",
+   "procedure_id": "d2190e69-63a1-44b3-9fb8-c8aba27236e5",
+   "description": "Exécution de prestations de propreté, d’entretien, de collecte, de traitement, de caractérisation de déchets, de sensibilisation à la réduction et au tri des déchets des sites de la Ville de Marseille, sans préjudice des compétences de la Métropole, et exceptionnellement, dans le cadre des pouvoirs de salubrité publique du Maire (5 lots)",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90500000",
+    "90900000",
+    "90510000",
+    "90910000",
+    "80000000",
+    "79341400",
+    "90513000",
+    "90511000",
+    "90713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de nettoiement des sites municipaux (hors domaine public maritime concédé)",
+    "Prestations de nettoiement des plages de la commune de Marseille",
+    "Prestations de collecte des déchets tout flux des sites de la Ville de Marseille",
+    "Traitement et valorisation des déchets des sites de la Ville de Marseille",
+    "Sensibilisation à la réduction et au tri des déchets des sites de la Ville de Marseille"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105228",
+   "source": "BOAMP",
+   "source_id": "26-105228",
+   "title": "Formation en informatique, bureautique et aux métiers de l'animation pour la ville d'Asnières-sur-Seine",
+   "buyer": "Mairie d'Asnières sur Seine",
+   "published": "2026-10-30",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105228",
+   "procedure_id": "5e0daf85-fb06-47ba-afad-e07d63e31411",
+   "description": "La mise en oeuvre de formations en informatique, bureautique et dans les domaines de l'animation au bénéfice de la Ville d'Asnières-sur-Seine.",
+   "departments": [
+    "75",
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79632000",
+    "80310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Formations informatiques et bureautiques",
+    "Lot 2 : Formations diplômantes du secteur animation (bafa/bafd) pour les agents de la Ville",
+    "Lot 3 : VAE BPJEPS",
+    "Lot 4 : Formation théorique du BAFA en lien avec un projet professionnel pour les jeunes asniérois et asniéroises"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105283",
+   "source": "BOAMP",
+   "source_id": "26-105283",
+   "title": "Acquisition de modules de formation (conception et développement inclus) à destination des agents des Caf et des partenaires en lien avec le public RPT",
+   "buyer": "CNAF Etablissement Public",
+   "published": "2026-10-30",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105283",
+   "procedure_id": "3655ea9e-46d1-4bf5-9268-f99c52ab2fe5",
+   "description": "Le marché a pour objet l’acquisition de modules de formations à destination des agents des Caf et des partenaires afin de développer et/ou renforcer leurs compétences en matière d’accueil et d’orientation des publics ressortissants de pays tiers (RPT) aussi appelés publics allophones. Le périmètre du marché ne concerne que deux des modules envisagés dans le cadre du volet formation du projet, à s",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "72212930",
+    "80521000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 250000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-104150"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105320",
+   "source": "BOAMP",
+   "source_id": "26-105320",
+   "title": "Marché de formations -",
+   "buyer": "Ville de Rouen",
+   "published": "2026-10-30",
+   "deadline": "2026-11-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105320",
+   "procedure_id": "5fdeb5f5-e795-4473-8246-7913949929f5",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. L'objet de ce marché est de contractualiser avec des prestataires qui vont délivrer les formations, qualifications et habilitations dont ont besoin les agents de la Ville de Rouen et du CCAS de Rouen",
+   "departments": [
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-94519"
+   ],
+   "summary": "",
+   "lots": [
+    "Autorisation d'Intervention à Proximité des Réseaux (AIPR)",
+    "Risque amiante SS4",
+    "BAFA et BAFD",
+    "CACES R482 - Engins de chantier",
+    "CACES R485 - Chariots automoteurs à conducteur accompagnant",
+    "CACES R486 - Plateformes élévatrices mobiles de personnel",
+    "CACES R489 - Chariots de manutention automoteurs à conducteur porté",
+    "CACES R490 - Grues de chargement",
+    "Habilitations électriques",
+    "Premiers Secours Citoyens (PSC)",
+    "Sauveteur Secouriste du Travail (SST)",
+    "Service de Sécurité Incendie et d'Assistance à Personnes (SSIAP) 1, 2 et 3"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:754377-2026",
+   "source": "TED",
+   "source_id": "754377-2026",
+   "title": "Formation en informatique, bureautique et aux métiers de l'animation pour la ville d'Asnières-sur-Seine",
+   "buyer": "Mairie d'Asnières sur Seine",
+   "published": "2026-10-30",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/754377-2026",
+   "procedure_id": "5e0daf85-fb06-47ba-afad-e07d63e31411",
+   "description": "La mise en oeuvre de formations en informatique, bureautique et dans les domaines de l'animation au bénéfice de la Ville d'Asnières-sur-Seine.",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79632000",
+    "80310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Formations informatiques et bureautiques",
+    "Lot 2 : Formations diplômantes du secteur animation (bafa/bafd) pour les agents de la Ville",
+    "Lot 3 : VAE BPJEPS",
+    "Lot 4 : Formation théorique du BAFA en lien avec un projet professionnel pour les jeunes asniérois et asniéroises"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:755497-2026",
+   "source": "TED",
+   "source_id": "755497-2026",
+   "title": "Acquisition de modules de formation (conception et développement inclus) à destination des agents des Caf et des partenaires en lien avec le public Ressortissants de Pays Tiers",
+   "buyer": "CNAF Etablissement Public",
+   "published": "2026-10-30",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/755497-2026",
+   "procedure_id": "3655ea9e-46d1-4bf5-9268-f99c52ab2fe5",
+   "description": "Le marché a pour objet l’acquisition de modules de formations à destination des agents des Caf et des partenaires afin de développer et/ou renforcer leurs compétences en matière d’accueil et d’orientation des publics ressortissants de pays tiers (RPT) aussi appelés publics allophones. Le périmètre du marché ne concerne que deux des modules envisagés dans le cadre du volet formation du projet, à s",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "72212930",
+    "80521000"
+   ],
+   "procedure": "Procédure restreinte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 250000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:755570-2026",
+   "source": "TED",
+   "source_id": "755570-2026",
+   "title": "Marché de formations -",
+   "buyer": "Ville de Rouen",
+   "published": "2026-10-30",
+   "deadline": "2026-11-18T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/755570-2026",
+   "procedure_id": "5fdeb5f5-e795-4473-8246-7913949929f5",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. L'objet de ce marché est de contractualiser avec des prestataires qui vont délivrer les formations, qualifications et habilitations dont ont besoin les agents de la Ville de Rouen et du CCAS de Rouen",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Autorisation d'Intervention à Proximité des Réseaux (AIPR)",
+    "Risque amiante SS4",
+    "BAFA et BAFD",
+    "CACES R482 - Engins de chantier",
+    "CACES R485 - Chariots automoteurs à conducteur accompagnant",
+    "CACES R486 - Plateformes élévatrices mobiles de personnel",
+    "CACES R489 - Chariots de manutention automoteurs à conducteur porté",
+    "CACES R490 - Grues de chargement",
+    "Habilitations électriques",
+    "Premiers Secours Citoyens (PSC)",
+    "Sauveteur Secouriste du Travail (SST)",
+    "Service de Sécurité Incendie et d'Assistance à Personnes (SSIAP) 1, 2 et 3"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:755592-2026",
+   "source": "TED",
+   "source_id": "755592-2026",
+   "title": "Exécution de prestations de propreté, d’entretien, de collecte, de traitement, de caractérisation de déchets, de sensibilisation à la réduction et au tri des déchets des sites de la Ville de Marseille (5 lots)",
+   "buyer": "Ville de Marseille",
+   "published": "2026-10-30",
+   "deadline": "2026-11-30T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/755592-2026",
+   "procedure_id": "d2190e69-63a1-44b3-9fb8-c8aba27236e5",
+   "description": "Exécution de prestations de propreté, d’entretien, de collecte, de traitement, de caractérisation de déchets, de sensibilisation à la réduction et au tri des déchets des sites de la Ville de Marseille, sans préjudice des compétences de la Métropole, et exceptionnellement, dans le cadre des pouvoirs de salubrité publique du Maire (5 lots)",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90500000",
+    "90900000",
+    "90510000",
+    "90910000",
+    "80000000",
+    "79341400",
+    "90513000",
+    "90511000",
+    "90713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de nettoiement des sites municipaux (hors domaine public maritime concédé)",
+    "Prestations de nettoiement des plages de la commune de Marseille",
+    "Prestations de collecte des déchets tout flux des sites de la Ville de Marseille",
+    "Traitement et valorisation des déchets des sites de la Ville de Marseille",
+    "Sensibilisation à la réduction et au tri des déchets des sites de la Ville de Marseille"
+   ],
+   "updated": ""
   }
  ]
 }
