@@ -108591,6 +108591,48 @@
    ]
   },
   {
+   "id": "boamp:26-106018",
+   "source": "BOAMP",
+   "source_id": "26-106018",
+   "title": "Centrale D'Achat - Entretien et maintenance des bornes fontaines et bouches d'arrosages",
+   "buyer": "Centrale d'achat Dijon Métropole",
+   "published": "2026-10-30",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106018",
+   "procedure_id": null,
+   "description": "La prestation a pour objet de maintenir en parfait état de fonctionnement les bornes fontaines et bouches d'arrosage. Les prestations ont pour objet notamment : - De maintenir en bon état de propreté des bornes fontaines et la parfaite conservation des équipements, - D'assurer la maintenance préventive et curative des équipements hydrauliques après compteur liés au système eau verte et eau de ville. - De gérer au…",
+   "departments": [
+    "21"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "13"
+   ]
+  },
+  {
    "id": "ted:752771-2026",
    "source": "TED",
    "source_id": "752771-2026",
