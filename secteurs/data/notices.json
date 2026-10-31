@@ -109390,6 +109390,552 @@
     "securite"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-105482",
+   "source": "BOAMP",
+   "source_id": "26-105482",
+   "title": "Prestataire de service pour la gestion d'un système de télésurveillance à distance et de gardiennage pour le Siège de l'EPCI de Corse",
+   "buyer": "Etablissement Public du Commerce et de l'Industrie de Corse",
+   "published": "2026-10-31",
+   "deadline": "2026-11-30T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105482",
+   "procedure_id": "75ec8a97-a2f6-45aa-a555-10e3c74dab5f",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [],
+   "regions": [],
+   "cpv": [
+    "79711000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 480000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "415"
+   ]
+  },
+  {
+   "id": "boamp:26-105487",
+   "source": "BOAMP",
+   "source_id": "26-105487",
+   "title": "Prestations d'entretien des espaces verts de la Ville de Massy",
+   "buyer": "Mairie de Massy",
+   "published": "2026-10-31",
+   "deadline": "2026-11-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105487",
+   "procedure_id": "7587fa79-63e7-4c64-84ac-fcb160b95138",
+   "description": "Le présent contrat est un accord-cadre « composite ». Chaque lot constitue un accord-cadre distinct comprenant une partie traitée sous la forme d'un marché ordinaire et une partie traitée sous la forme d'un accord-cadre à bons de commande",
+   "departments": [
+    "91"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77313000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 8530000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-95362"
+   ],
+   "summary": "",
+   "lots": [
+    "Secteur Villaine : Talus TGV, Bièvre - Poterne, Villaine, Vilmorin, Graviers, Pileu, Vilgénis, C oulée verte",
+    "Secteur Atlantis : Atlantis, Tuilerie, Massy - Europe, Cimetière sud, Centre-Ville",
+    "Secteur Opéra : Quartier Opéra, parc des sports COS, parc Brassens"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-105502",
+   "source": "BOAMP",
+   "source_id": "26-105502",
+   "title": "Nettoyage des locaux et engins nautiques du GPMB",
+   "buyer": "Grand Port Maritime de Bordeaux",
+   "published": "2026-10-31",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105502",
+   "procedure_id": "9ae0b46b-a1f1-4b34-9d7f-bc29c6f33ff2",
+   "description": "Le présent marché a pour objet les prestations de nettoyage des locaux et engins nautiques du GPMB. Les prestations portent sur : 1. Un nettoyage planifié des locaux et engins nautiques tel que défini au CCTP, entendu comme des prestations régulières 2. Des interventions ponctuelles réalisées sur demande, entendu comme des prestations supplémentaires",
+   "departments": [
+    "33"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90919200",
+    "90911300",
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1 - Bacalan",
+    "LOT 2 - BASSENS",
+    "LOT 3 - Le Verdon",
+    "LOT 4 - Engis Nautiques",
+    "LOT 5 - Sanitaires Plaisance Bassins à Flot",
+    "LOT 6 - Bacalan / Pôle des Bassins à FLot - Lot réservé"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-105515",
+   "source": "BOAMP",
+   "source_id": "26-105515",
+   "title": "Prestation de nettoyage, d’entretien des locaux et autres prestations annexes pour certains bâtiments de la ville de Dammarie-lès-Lys",
+   "buyer": "Ville de Dammarie Lès Lys",
+   "published": "2026-10-31",
+   "deadline": "2026-11-06T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105515",
+   "procedure_id": "ce91d5cc-c1c0-443f-ab73-1f8f928f66ac",
+   "description": "",
+   "departments": [
+    "75",
+    "77",
+    "91",
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-94424"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-105532",
+   "source": "BOAMP",
+   "source_id": "26-105532",
+   "title": "Marchés de prestations de nettoyage des véhicules et installations de la Semitan - Lot 1",
+   "buyer": "SEMITAN",
+   "published": "2026-10-31",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105532",
+   "procedure_id": "4bbe7fd9-fc7e-4327-9a73-c5a4dc9bf868",
+   "description": "Le marché a pour objet la réalisation de prestations de nettoyage au siège social de la SEMITAN, situé au 3 rue Bellier à Nantes (44000). Les prestations seront exécutées au sein des bâtiments et espaces suivants : - Bâtiment administratif - Bâtiment social - Espace 500 - Zenbox - Réfectoire - Circulation extérieure et locaux vélos (cheminements piétons aux abords des bâtiments cités ci-dessus, espaces fumeurs…",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90919200",
+    "90911300",
+    "90910000"
+   ],
+   "procedure": "Procédure Négociée",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux administratifs",
+    "Nettoyage espace 400",
+    "Nettoyage des Bâtiments de prise de service conducteurs et des sanitaires en ligne",
+    "Nettoyage ateliers et tramways : Dalby, Trocardière et Babinière"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-105537",
+   "source": "BOAMP",
+   "source_id": "26-105537",
+   "title": "Entretien des espaces verts du domaine privé de la CU GPSEO",
+   "buyer": "CU Grand Paris Seine & Oise",
+   "published": "2026-10-31",
+   "deadline": "2026-11-13T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105537",
+   "procedure_id": "38b84cda-5f04-401d-9745-8f95c1e22143",
+   "description": "Le contrat porte sur les prestations suivantes : Entretien des espaces verts du domaine privé de la CU GPSEO. Le présent accord-cadre a pour objet la définition des prestations d'entretien d'espaces verts des équipements communautaires bâtis et non bâtis gérés par le service parcs et jardins de la direction des bâtiments et des équipements communautaires de la communauté urbaine Grand Paris Seine et Oise",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77313000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 100000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-93475"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-105555",
+   "source": "BOAMP",
+   "source_id": "26-105555",
+   "title": "Élagage et abattage d'arbres pour la Direction Territoriale Nord – Pas-de-Calais de VNF",
+   "buyer": "DTNPC",
+   "published": "2026-10-31",
+   "deadline": "2026-11-09T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105555",
+   "procedure_id": "811dea17-6fb3-4e94-a0e4-e3f440325327",
+   "description": "Cette consultation a pour objet l' Élagage et l'abattage d'arbres pour la Direction territoriale Nord - Pas-de-Calais de VNF",
+   "departments": [
+    "02",
+    "59",
+    "60",
+    "62",
+    "80"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77211500",
+    "77211400"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1297000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-89739",
+    "boamp:26-102058"
+   ],
+   "summary": "",
+   "lots": [
+    "Élagage et abattage d'arbres pour la Direction territoriale Nord - Pas-de-Calais de VNF lot 1 Territoire du Service Territorial Flandres-Lys",
+    "Élagage et abattage d'arbres pour la Direction territoriale Nord - Pas-de-Calais de VNF lot 2 Territoire du Service Territorial Deûle-Scarpe",
+    "Élagage et abattage d'arbres pour la Direction territoriale Nord - Pas-de-Calais de VNF lot 3 Service Territorial Escaut-Saint Quentin"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "350",
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-105560",
+   "source": "BOAMP",
+   "source_id": "26-105560",
+   "title": "MARCHE DE MISE EN SECURITE PAR ABATTAGE ET ELAGAGE D'ARBRES – Lot n°2 : Territoire Sud",
+   "buyer": "AEV Ile-de-France Nature",
+   "published": "2026-10-31",
+   "deadline": "2026-11-30T17:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105560",
+   "procedure_id": "29b6ae93-1563-4056-a7d6-09cd07788755",
+   "description": "",
+   "departments": [
+    "77",
+    "91",
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77211400",
+    "77211500"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "38",
+    "350"
+   ]
+  },
+  {
+   "id": "boamp:26-105575",
+   "source": "BOAMP",
+   "source_id": "26-105575",
+   "title": "Entretien d'Equipements Communautaires (Abris voyageurs, Bornes de tri, Abris poubelles et assimilés) sur l'ensemble du territoire de la CACEM",
+   "buyer": "CACEM - Communauté d'Agglomération Centre Martinique",
+   "published": "2026-10-31",
+   "deadline": "2026-11-06T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105575",
+   "procedure_id": "a06cef9c-a812-4930-89ec-e2d8f591a84b",
+   "description": "",
+   "departments": [
+    "972"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90522400",
+    "90610000",
+    "90910000",
+    "90918000",
+    "90600000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-94369"
+   ],
+   "summary": "",
+   "lots": [
+    "Lot 1 - Nettoyage de Points d'Arrêts de bus",
+    "Lot 2 - Nettoyage de Points d'Apports Volontaires, d'Abris Poubelles et assimilés"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "240"
+   ]
+  },
+  {
+   "id": "boamp:26-105583",
+   "source": "BOAMP",
+   "source_id": "26-105583",
+   "title": "Marchés de prestations de nettoyage des véhicules et installations de la Semitan - Lot 2",
+   "buyer": "SEMITAN",
+   "published": "2026-10-31",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105583",
+   "procedure_id": "4e06cd6e-0e88-433a-ac54-372d6886e605",
+   "description": "Le marché a pour objet la réalisation de prestations de nettoyage au siège social de la SEMITAN, situé au 3 rue Bellier à Nantes (44000). Les prestations seront exécutées au sein des bâtiments et espaces suivants : - Bâtiment administratif - Bâtiment social - Espace 500 - Zenbox - Réfectoire - Circulation extérieure et locaux vélos (cheminements piétons aux abords des bâtiments cités ci-dessus, espaces fumeurs…",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90919200",
+    "90911300",
+    "90910000"
+   ],
+   "procedure": "Procédure Négociée",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux administratifs",
+    "Nettoyage espace 400",
+    "Nettoyage des bâtiments de prise de service conducteurs et des sanitaires en ligne",
+    "Nettoyage ateliers et tramways : Dalby, Trocardière et Babinière"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-105597",
+   "source": "BOAMP",
+   "source_id": "26-105597",
+   "title": "MARCHE D'ENTRETIEN DES PARTIES COMMUNES ET DE NETTOYAGE PONCTUEL DES LOGEMENTS DU PATRIMOINE DE CANTAL HABITAT",
+   "buyer": "CANTAL HABITAT - Office Public de l'Habitat du Cantal",
+   "published": "2026-10-31",
+   "deadline": "2026-11-30T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105597",
+   "procedure_id": "06bf7ec4-3828-4553-a58c-f627def15a18",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. MARCHE D'ENTRETIEN DES…",
+   "departments": [
+    "15"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1760000.0,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT N°01",
+    "LOT N°02",
+    "LOT N°03"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage",
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "239"
+   ]
   }
  ]
 }
