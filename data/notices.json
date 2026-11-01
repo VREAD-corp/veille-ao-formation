@@ -104963,6 +104963,86 @@
     "Lot n°12 - Premiers Secours en Santé Mentale (PSSM)"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-105829",
+   "source": "BOAMP",
+   "source_id": "26-105829",
+   "title": "Formations relatives à la sécurité et à la qualité sanitaire de l’alimentation",
+   "buyer": "Ministère de l'agriculture, de l’agro-alimentaire et de la souveraineté alimentaire",
+   "published": "2026-11-01",
+   "deadline": "2026-11-27T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105829",
+   "procedure_id": "6d7389dd-0d57-4392-bd94-b8c500c9713f",
+   "description": "Formations relatives à la sécurité et à la qualité sanitaire de l’alimentation à destination des agents du Ministère de l'agriculture, de l’agro-alimentaire et de la souveraineté alimentaire. Le détail des prestations à réaliser figure dans le Cahier des clauses techniques particulières (joint au Dossier de consultation).",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formations proposées dans le cadre du Programme National de Formation du ministère (PNF), ou hors PNF sur demande de la DGAL (Programme 215).",
+    "Dispositif spécifique de formation relatif au parcours qualifiant des « Vétérinaires officiels en abattoir » comportant quatre modules différents (Programme…"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105903",
+   "source": "BOAMP",
+   "source_id": "26-105903",
+   "title": "MISE A DISPOSITION D’UNE PLATEFORME D’APPRENTISSAGE DU FRANÇAIS A DISTANCE A DESTINATION DES DEMANDEURS D’ASILE",
+   "buyer": "OFII.",
+   "published": "2026-11-01",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105903",
+   "procedure_id": "85e8fd99-e942-40f9-a9b9-26dc61a30d2d",
+   "description": "Le présent marché a pour objet la mise à disposition de licences donnant accès à une plateforme numérique d’apprentissage à distance et d’entrainement de la langue française (l’hébergement, la maintenance et l’assistance) destinée aux demandeurs d’asile majeurs non francophones, enregistrés ou requalifiés en procédure normale, éligibles ou non aux conditions matérielles d’accueil.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80000000",
+    "80580000",
+    "80420000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }

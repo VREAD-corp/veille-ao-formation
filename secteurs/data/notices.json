@@ -110153,6 +110153,454 @@
    "descriptors": [
     "138"
    ]
+  },
+  {
+   "id": "boamp:26-105819",
+   "source": "BOAMP",
+   "source_id": "26-105819",
+   "title": "Entretien et nettoyage des bâtiments sportifs de la Ville de Rillieux-la-Pape",
+   "buyer": "Ville de Rillieux-la-Pape",
+   "published": "2026-11-01",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105819",
+   "procedure_id": "00e31b60-8dbc-4ba0-ba57-b2440aafb160",
+   "description": "",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 680000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-105820",
+   "source": "BOAMP",
+   "source_id": "26-105820",
+   "title": "Nettoyage manuel des voiries et propreté des espaces verts sur le territoire communal",
+   "buyer": "Commune de la Londe Les Maures",
+   "published": "2026-11-01",
+   "deadline": "2026-12-01T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105820",
+   "procedure_id": "ae03b2ab-19c4-423e-a025-4f0e7fe72453",
+   "description": "",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90610000",
+    "77313000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274",
+    "116",
+    "365"
+   ]
+  },
+  {
+   "id": "boamp:26-105861",
+   "source": "BOAMP",
+   "source_id": "26-105861",
+   "title": "PRESTATION DE NETTOYAGE ET ENTRETIEN DES LOCAUX DANS LES IMMEUBLES DU CENTRE HOSPITALIER D'ANGOULEME LEURS EHPADS ET DU CENTRE HOSPITALIER DE LA ROCHEFOUCAULD",
+   "buyer": "Centre Hospitalier Angoulème",
+   "published": "2026-11-01",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105861",
+   "procedure_id": "581b2f75-7774-4c45-bca2-3e764cf8174d",
+   "description": "La présente consultation concerne : la prestation de nettoyage et entretien des locaux du centre hospitalier d'Angoulême, du centre hospitalier de la Rochefoucauld et de leurs Ehpads.",
+   "departments": [
+    "16"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90522400"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage et entretien de locaux du Centre Hospitalier d'Angoulême (CHA), de l'unité sanitaire maison d'arrêt et de ses EHPAD",
+    "Nettoyage et entretien de locaux du Centre Hospitalier de La Rochefoucauld (CHL)"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-105883",
+   "source": "BOAMP",
+   "source_id": "26-105883",
+   "title": "SECURITE DE L ETABLISSEMENT : GARDIENNAGE ET CONTROLE DES ACCES",
+   "buyer": "CENTRE OSCAR LAMBRET",
+   "published": "2026-11-01",
+   "deadline": "2026-11-30T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105883",
+   "procedure_id": "213df3ca-e4af-4e56-9c11-29a6191ae90f",
+   "description": "Le marché a pour objet la prévention et le gardiennage des locaux du Centre Oscar Lambret (Lille), ainsi que le contrôle des accès à l'établissement",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Prévention et gardiennage des locaux",
+    "Lot 2 : Contrôle des accès"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "81"
+   ]
+  },
+  {
+   "id": "boamp:26-105892",
+   "source": "BOAMP",
+   "source_id": "26-105892",
+   "title": "Marché de prestations de services ayant pour objet l'entretien des espaces verts de sites de France Travail Hauts-de-France",
+   "buyer": "FRANCE TRAVAIL HAUTS-DE-FRANCE",
+   "published": "2026-11-01",
+   "deadline": "2026-12-18T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105892",
+   "procedure_id": "1e979955-efc2-4f2c-8189-5e651bb7f38d",
+   "description": "Le marché a pour objet l'achat de prestations d'entretien des espaces verts de sites de France Travail Hauts-de-France. Il s'agit d'un marché mixte exécuté à titre principal à prix forfaitaire, et par l'émission de bons de commande pour les prestations ponctuelles complémentaires. Ces prestations sont décrites au Contrat et au Cahier des charges fonctionnel et technique (CCFT). Les lots 2, 6 et 7 sont réservés à des…",
+   "departments": [
+    "02",
+    "59",
+    "60",
+    "62",
+    "80"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Boulonnais – Calaisis - Montreuil",
+    "Lot 2 : Flandres – Lille – Versant Nord-Est – Longuenesse",
+    "Lot 3 : Arrageois",
+    "Lot 4 : Hainaut",
+    "Lot 5 : Somme",
+    "Lot 6 : Aisne Est",
+    "Lot 7 : Oise",
+    "Lot 8 : Aisne Ouest & Sud"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-105899",
+   "source": "BOAMP",
+   "source_id": "26-105899",
+   "title": "ACCORD-CADRE RELATIF A UN SERVICE DE TRANSPORT ET DE STOCKAGE DE FONDS ET DE VALEURS DESTINE AUX SERVICES DE LA DIRECTION GÉNÉRALE DES DOUANES ET DROITS INDIRECTS (DGDDI)",
+   "buyer": "DGDDI Bureau des achats et approvisionnements FIN2",
+   "published": "2026-11-01",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105899",
+   "procedure_id": "30a67867-89a3-412a-903e-2d4638ec5e59",
+   "description": "La présente consultation a pour objet La réalisation d’un service de transport et de stockage de fonds et de valeurs, au profit de la Direction Générale des Douanes et Droits Indirects (DGDDI). La consultation est composée de 3 lots distincts.",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "60100000",
+    "79710000",
+    "66110000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1283840.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Transport et stockage de fonds et de valeurs destiné aux services de la DGDDI en France métropolitaine",
+    "Le transport et le stockage de fonds et de valeurs destiné aux services de la DGDDI en Outre-mer (sites des Antilles-Guyane)",
+    "Transport et le stockage de fonds et de valeurs destiné aux services de la DGDDI en Outre-mer (sites de l’océan Indien : La Réunion et Mayotte)."
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "347"
+   ]
+  },
+  {
+   "id": "boamp:26-106000",
+   "source": "BOAMP",
+   "source_id": "26-106000",
+   "title": "Prestations de gardiennage et accueil au CINES",
+   "buyer": "CINES",
+   "published": "2026-11-01",
+   "deadline": "2026-11-16T14:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106000",
+   "procedure_id": "faac90a6-59e3-44d9-b87b-c3f50e847ff7",
+   "description": "La présente consultation a pour objet : • D’une part, le gardiennage et la surveillance du site du CINES, • D’autre part, l’accueil physique et téléphonique sur le site du CINES, L’objectif de ce marché est d’assurer une présence humaine sur le site du CINES 24h/24 tous les jours de l’année comme suit : • Un accueil physique et téléphonique au sein du CINES de 07h30 à 17h45 du lundi au vendred",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79713000",
+    "75250000",
+    "79992000",
+    "79511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "PRESTATION DE GARDIENNAGE ET DE SURVEILLANCE",
+    "PRESTATIONS D’ACCUEIL PHYSIQUE ET TÉLÉPHONIQUE"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-106003",
+   "source": "BOAMP",
+   "source_id": "26-106003",
+   "title": "ENTRETIEN DES PARTIES COMMUNES, MANIPULATION DES ORDURES MÉNAGÈRES, NETTOYAGE DES EXTÉRIEURS ET ENLÈVEMENT DES ENCOMBRANTS",
+   "buyer": "SA d'HLM UNICIL (13)",
+   "published": "2026-11-01",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106003",
+   "procedure_id": "052364be-3ee9-4dab-95bf-bb814857d6cc",
+   "description": "",
+   "departments": [
+    "06",
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 942975.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur Cannes - Grasse",
+    "Cagnes-sur-Mer et Moyen Pays",
+    "Vallées et Préalpes",
+    "Nice",
+    "Menton"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-106011",
+   "source": "BOAMP",
+   "source_id": "26-106011",
+   "title": "PRESTATIONS DE SURETE ET DE SECURITE INCENDIE DES SITES DU MUSEE NATIONAL PICASSO-PARIS",
+   "buyer": "MUSEE NATIONAL PICASSO PARIS",
+   "published": "2026-11-01",
+   "deadline": "2026-12-07T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106011",
+   "procedure_id": "b08d2499-e748-4988-b692-34a325c0e526",
+   "description": "La présente consultation a pour objet des prestations de sûreté et de sécurité incendie des sites de l'établissement public du Musée national Picasso-Paris (ci-après MNPP), dans le 3ème arrondissement à Paris. - Hôtel Salé, 5 rue de Thorigny (espace muséographique), où est assuré le dispositif socle ; - Centre d'études Picasso (CEP), rue des Quatre-Fils, pour des interventions ponctuelles ; - Ainsi que les besoins…",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "332"
+   ]
   }
  ]
 }
