@@ -109936,6 +109936,223 @@
     "116",
     "239"
    ]
+  },
+  {
+   "id": "boamp:26-105613",
+   "source": "BOAMP",
+   "source_id": "26-105613",
+   "title": "Accord-cadre mixte multi-attributaires pour la réalisation de prestations d'entretien des espaces urbains, des espaces verts, du patrimoine arboré et des espaces naturels ainsi que les travaux annexes",
+   "buyer": "Mairie du Gosier",
+   "published": "2026-11-01",
+   "deadline": "2026-12-03T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105613",
+   "procedure_id": "4dca1b78-e2f0-4d22-b4a2-241c2498e406",
+   "description": "L'accord-cadre sera exécuté par la conclusion de marchés subséquents et l'émission de bons de commande dans les conditions du cahier des charges. Chaque lot sera attribué à 2 opérateurs maximum (sous réserve d'un nombre d'offres suffisant)",
+   "departments": [
+    "971"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77313000",
+    "77312100",
+    "77310000",
+    "77341000",
+    "90612000",
+    "77112000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3100000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 - Lot réservé : Balayage des espaces urbains et désherbage des trottoirs communaux",
+    "Lot 2 - Lot réservé : Entretien des espaces verts et du patrimoine arboré communaux",
+    "Lot 3 - Fauchage et Dérasement des accotements des espaces communaux du Gosier",
+    "Lot 4 - Elagage des arbres du patrimoine arboré communal",
+    "Lot 5 - Balayage mécanique des voiries communales",
+    "Lot 6: Entretien des espaces naturels communaux",
+    "Lot 7: Locations diverses pour l'entretien espaces verts communaux du Gosier"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-105661",
+   "source": "BOAMP",
+   "source_id": "26-105661",
+   "title": "Marchés de prestation de nettoyage des véhicules et installations de la Semitan - Lots 3 et 4",
+   "buyer": "SEMITAN",
+   "published": "2026-11-01",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105661",
+   "procedure_id": "ce8a0cbe-4acf-4ddb-93ec-24f5ae3d98b8",
+   "description": "Les prestations attendues dans le cadre de cette consultation consistent au nettoyage des véhicules tramways ainsi que les locaux, ateliers et bureaux de la SEMITAN présents sur l'agglomération nantaise. Le détail complet des prestations figure au CCTP. L'allotissement prévu pour cette opération est le suivant : - Lot 1 : Nettoyage des locaux administratifs : réservé SIAE /EI - Lot 2 : Nettoyage espace 400 : Réservé…",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90910000",
+    "90911200",
+    "90911300",
+    "90919200"
+   ],
+   "procedure": "Procédure Négociée",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux administratifs",
+    "Nettoyage espace 400",
+    "Nettoyage des bâtiments de prise de service conducteurs et des sanitaires en ligne",
+    "Nettoyage ateliers et tramways : Dalby, Trocardière et Babinière"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-105778",
+   "source": "BOAMP",
+   "source_id": "26-105778",
+   "title": "Avis de marché : Système d'Acquisition Dynamique (SAD) Prestation de Gardiennage et de Sécurité pour les services et établissements publics de l'Etat en région Centre-Val de Loire",
+   "buyer": "SGAR PFRA",
+   "published": "2026-11-01",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105778",
+   "procedure_id": "63e49fe4-9c2a-4a8c-b8f7-e315b07444b2",
+   "description": "Le présent système d'acquisition dynamique a pour objet l'achat de services de prestations de gardiennage et de sécurité, de télésurveillance et de télé-vidéosurveillance et des prestations de maintenance des systèmes de sécurité, dont les systèmes de sécurité anti-intrusion, pour les besoins des services de l'État et de ses établissements publics en région Centre-Val de Loire, afin de répondre à leurs besoins en…",
+   "departments": [
+    "18",
+    "28",
+    "36",
+    "37",
+    "41",
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "79710000",
+    "50324100",
+    "79713000",
+    "79714000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de gardiennage et de sécurité au bénéfice des services et de certains établissements publics de l'État en région Centre-Val de Loire",
+    "Prestations de télésurveillance et de télé-vidéosurveillance au bénéfice des services et de certains établissements publics de l'État en région Centre-Val de…",
+    "Prestations de maintenance des systèmes de sécurité, dont les systèmes de sécurité anti-intrusion, au bénéfice des services et de certains établissements…"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "415",
+    "196",
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-105779",
+   "source": "BOAMP",
+   "source_id": "26-105779",
+   "title": "EVENEMENTIEL - Prestations d'agents de sécurité et de maîtres-chiens - Surveillance et gardiennage de manifestations diverses - Accord-cadre à bons de commande",
+   "buyer": "Commune d'Hyères",
+   "published": "2026-11-01",
+   "deadline": "2026-12-02T16:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105779",
+   "procedure_id": "7067c9e4-97c2-4bea-a3d3-c3467f8d47b6",
+   "description": "Le marché concerne principalement des prestations de surveillance et de gardiennage destinées à l'organisation et au bon déroulement de manifestations et de spectacles sur la Commune d'Hyères. Ces manifestations peuvent être de nature différente (sportives, culturelles, festives et événementielles...) et se dérouler en intérieur et/ou en extérieur. Le prestataire peut aussi être sollicité pour des missions de…",
+   "departments": [
+    "04",
+    "05",
+    "13",
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79713000",
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
   }
  ]
 }

@@ -104790,6 +104790,179 @@
     "Sensibilisation à la réduction et au tri des déchets des sites de la Ville de Marseille"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-105638",
+   "source": "BOAMP",
+   "source_id": "26-105638",
+   "title": "Prestations de formation en prévention et sécurité pour les agents de Grenoble INP - UGA, ENSAG - UGA et Sciences Po Grenoble - UGA - Relance lots 2 et 5",
+   "buyer": "INSTITUT POLYTECHNIQUE DE GRENOBLE",
+   "published": "2026-11-01",
+   "deadline": "2026-11-16T18:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105638",
+   "procedure_id": "51b2aff8-9879-4c09-b584-f4406539b160",
+   "description": "Prestations de formation en prévention et sécurité pour les agents de l’Institut Polytechnique de Grenoble, École nationale supérieure d’architecture de Grenoble et l’Institut d’Etudes Politiques LOT 2 : Formations « Incendie – secourisme » LOT 5 : Formations « Autoclave »",
+   "departments": [
+    "38"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80511000",
+    "80330000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105692",
+   "source": "BOAMP",
+   "source_id": "26-105692",
+   "title": "Parcours de formation-action dans le cadre de la reconstruction de l’EHPAD de Keriolet du CH Bretagne Atlantique",
+   "buyer": "Centre hospitalier Bretagne Atlantique",
+   "published": "2026-11-01",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105692",
+   "procedure_id": "d1a9d3ca-c591-47cc-acd6-3d7bfcf16027",
+   "description": "Parcours de formation-action pour accompagner la transformation des pratiques professionnelles et l’appropriation des nouvelles organisations dans le cadre de la reconstruction de l’EHPAD de Keriolet du Centre hospitalier Bretagne Atlantique. Date prévisionnelle de notification du marché : 15 décembre 2026",
+   "departments": [
+    "56"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105695",
+   "source": "BOAMP",
+   "source_id": "26-105695",
+   "title": "MARCHE DE FORMATION AU MANAGEMENT",
+   "buyer": "Hauts-de-Seine Habitat - OPH",
+   "published": "2026-11-01",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105695",
+   "procedure_id": "7032c02a-c993-4fc1-944c-28b7209b6234",
+   "description": "Le présent marché de services a pour objet le déploiement d'un parcours de formation global à destination de tous ses managers pour s'approprier et incarner cette nouvelle charte au quotidien mais également pour homogénéiser les pratiques au sein de l'office, créer des synergies, créer une communauté de partage de bonnes pratiques d'expériences, et diffuser une culture managériale commune. Cette formation sera…",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-105712",
+   "source": "BOAMP",
+   "source_id": "26-105712",
+   "title": "Formations Sécurité au travail et Prévention des risques professionnels",
+   "buyer": "DEPARTEMENT DU LOT",
+   "published": "2026-11-01",
+   "deadline": "2026-11-20T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-105712",
+   "procedure_id": "986d32e2-5635-411c-b326-98e7df3a71ec",
+   "description": "",
+   "departments": [
+    "46"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Permis BE, C, CE, (certificat de matières dangereuses)",
+    "Lot n°2 - Permis plaisance, certificat de capacité PC pour la conduite des bateaux en eaux intérieures",
+    "Lot n°3 - Devenir formateur et testeur interne R482 et R486",
+    "Lot n°4 - Formation \"amiante\" sous-section 4",
+    "Lot n°5 - Autorisation d'intervention à proximité des réseaux",
+    "Lot n°6 - Utilisation tronçonneuses et débroussailleuses ; utilisation sur talus en forte pente",
+    "Lot n°7 - Gestes et postures",
+    "Lot n°8 - Préparation aux habilitations électriques BO-HO-HOV-BE Manoeuvre- BR-BS-BC-B2V",
+    "Lot n°9 - Préparation aux habilitations véhicules électriques B0L - B1L - B1VL - B2L - B2VL - BRL - BCL - B1XL-Dépannage-remorquage - B2XL dépannage remorquage",
+    "Lot n°10 - Sensibilisation à l'écoconduite sur véhicule léger",
+    "Lot n°11 - Sensibilisation à l'écoconduite sur poids lourd",
+    "Lot n°12 - Premiers Secours en Santé Mentale (PSSM)"
+   ],
+   "updated": ""
   }
  ]
 }
