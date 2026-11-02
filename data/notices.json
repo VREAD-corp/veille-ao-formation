@@ -105043,6 +105043,240 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-106193",
+   "source": "BOAMP",
+   "source_id": "26-106193",
+   "title": "Formation Informatique Et Bureautique Suite Libre Office Pour Les Agents De La Commune D'Echirolles Marché passé en groupement de commande entre la Ville d'échirolles, le Ccas",
+   "buyer": "Ville d'échirolles",
+   "published": "2026-11-02",
+   "deadline": "2026-12-07T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106193",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Le contrat est susceptible d'être reconduit dans les conditions du cahier des charges. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Le présent marché a pour objet des prestations de formation aux…",
+   "departments": [
+    "38"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80533100",
+    "80533000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "01 : Formation Découverte Informatique Et Initiation. Formation Découverte Informatique Et Initiation<br/>",
+    "02 : Formation Perfectionnement. Formation Perfectionnement<br/>"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:756824-2026",
+   "source": "TED",
+   "source_id": "756824-2026",
+   "title": "Formations Sécurité au travail et Prévention des risques professionnels",
+   "buyer": "DEPARTEMENT DU LOT",
+   "published": "2026-11-02",
+   "deadline": "2026-11-20T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/756824-2026",
+   "procedure_id": "986d32e2-5635-411c-b326-98e7df3a71ec",
+   "description": "Formations Sécurité au travail et Prévention des risques professionnels",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Permis BE, C, CE, (certificat de matières dangereuses)",
+    "Lot n°2 - Permis plaisance, certificat de capacité PC pour la conduite des bateaux en eaux intérieures",
+    "Lot n°3 - Devenir formateur et testeur interne R482 et R486",
+    "Lot n°4 - Formation \"amiante\" sous-section 4",
+    "Lot n°5 - Autorisation d'intervention à proximité des réseaux",
+    "Lot n°6 - Utilisation tronçonneuses et débroussailleuses ; utilisation sur talus en forte pente",
+    "Lot n°7 - Gestes et postures",
+    "Lot n°8 - Préparation aux habilitations électriques BO-HO-HOV-BE Manoeuvre- BR-BS-BC-B2V",
+    "Lot n°9 - Préparation aux habilitations véhicules électriques B0L - B1L - B1VL - B2L - B2VL - BRL - BCL - B1XL-Dépannage-remorquage - B2XL dépannage remorquage",
+    "Lot n°10 - Sensibilisation à l'écoconduite sur véhicule léger",
+    "Lot n°11 - Sensibilisation à l'écoconduite sur poids lourd",
+    "Lot n°12 - Premiers Secours en Santé Mentale (PSSM)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:757562-2026",
+   "source": "TED",
+   "source_id": "757562-2026",
+   "title": "MARCHE DE FORMATION AU MANAGEMENT",
+   "buyer": "Hauts-de-Seine Habitat - OPH",
+   "published": "2026-11-02",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/757562-2026",
+   "procedure_id": "7032c02a-c993-4fc1-944c-28b7209b6234",
+   "description": "Le présent marché de services a pour objet le déploiement d'un parcours de formation global à destination de tous ses managers pour s'approprier et incarner cette nouvelle charte au quotidien mais également pour homogénéiser les pratiques au sein de l'office, créer des synergies, créer une communauté de partage de bonnes pratiques d'expériences, et diffuser une culture managériale commune. Cette formation sera…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:759237-2026",
+   "source": "TED",
+   "source_id": "759237-2026",
+   "title": "Formations relatives à la sécurité et à la qualité sanitaire de l’alimentation à destination des agents du Ministère de l'agriculture, de l’agro-alimentaire et de la souveraineté alimentaire",
+   "buyer": "Ministère de l'agriculture, de l’agro-alimentaire et de la souveraineté alimentaire",
+   "published": "2026-11-02",
+   "deadline": "2026-11-27T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/759237-2026",
+   "procedure_id": "6d7389dd-0d57-4392-bd94-b8c500c9713f",
+   "description": "Formations relatives à la sécurité et à la qualité sanitaire de l’alimentation à destination des agents du Ministère de l'agriculture, de l’agro-alimentaire et de la souveraineté alimentaire. Le détail des prestations à réaliser figure dans le Cahier des clauses techniques particulières (joint au Dossier de consultation).",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formations proposées dans le cadre du Programme National de Formation du ministère (PNF), ou hors PNF sur demande de la DGAL (Programme 215).",
+    "Dispositif spécifique de formation relatif au parcours qualifiant des « Vétérinaires officiels en abattoir » comportant quatre modules différents (Programme…"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:759689-2026",
+   "source": "TED",
+   "source_id": "759689-2026",
+   "title": "Relance lots 2 et 5",
+   "buyer": "Institut polytechnique de Grenoble",
+   "published": "2026-11-02",
+   "deadline": "2026-11-16T18:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/759689-2026",
+   "procedure_id": "51b2aff8-9879-4c09-b584-f4406539b160",
+   "description": "Prestations de formation en prévention et sécurité pour les agents de l’Institut Polytechnique de Grenoble, École nationale supérieure d’architecture de Grenoble et l’Institut d’Etudes Politiques LOT 2 : Formations « Incendie – secourisme » LOT 5 : Formations « Autoclave »",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80511000",
+    "80330000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:759981-2026",
+   "source": "TED",
+   "source_id": "759981-2026",
+   "title": "Parcours de formation-action pour accompagner la transformation des pratiques professionnelles et l’appropriation des nouvelles organisations dans le cadre de la reconstruction de l’EHPAD de Keriolet du Centre hospitalier Bretagne Atlantique",
+   "buyer": "Centre hospitalier Bretagne Atlantique",
+   "published": "2026-11-02",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/759981-2026",
+   "procedure_id": "d1a9d3ca-c591-47cc-acd6-3d7bfcf16027",
+   "description": "Parcours de formation-action pour accompagner la transformation des pratiques professionnelles et l’appropriation des nouvelles organisations dans le cadre de la reconstruction de l’EHPAD de Keriolet du Centre hospitalier Bretagne Atlantique. Date prévisionnelle de notification du marché : 15 décembre 2026",
+   "departments": [],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }
