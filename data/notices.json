@@ -105087,6 +105087,46 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-106376",
+   "source": "BOAMP",
+   "source_id": "26-106376",
+   "title": "2026-0469 - Prestation De Formation Pour Les Professionnels Intervenant Auprès Des Patients Ayant Des Troubles Psychiques",
+   "buyer": "Assistance Publique Hôpitaux De Marseille",
+   "published": "2026-11-02",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106376",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-102519"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:756824-2026",
    "source": "TED",
    "source_id": "756824-2026",
@@ -105271,6 +105311,117 @@
    "match": [
     "cpv",
     "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:760927-2026",
+   "source": "TED",
+   "source_id": "760927-2026",
+   "title": "Formations 2027-2030 à destination des services autonomie à domicile intervenant auprès des personnes âgées et/ou en situation de handicap",
+   "buyer": "Département de la Seine-Maritime",
+   "published": "2026-11-03",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/760927-2026",
+   "procedure_id": "a1db3ef2-f992-446d-87d3-4967e637c045",
+   "description": "La présente consultation a pour objet l'exécution de prestations de formation pour les professionnels exerçant dans les services autonomie à domicile prestataires autorisés par le Département de la Seine-Maritime : La formation concerne: - Auxiliaires de vie sociale (AVS), - Aide médico-psychologique (AMP) - Accompagnants éducatifs et sociaux (fusion des 2 Diplômes d'État AVS et AMP), - Responsables de secteur…",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000",
+    "80560000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "prévention et secours civiques (PSC) de niveau 1",
+    "Savoir-faire et pratiques",
+    "Connaissance des personnes aidées et accompagnées",
+    "L'éthique et les droits des professionnels"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:763708-2026",
+   "source": "TED",
+   "source_id": "763708-2026",
+   "title": "ACM relatif à la branche professionnelle Prestataires de services du secteur tertiaire : Notions juridiques liées au métier de domiciliataire (RELANCE)",
+   "buyer": "OPCO EP",
+   "published": "2026-11-03",
+   "deadline": "2026-12-11T14:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/763708-2026",
+   "procedure_id": "89d73b91-59ff-4c46-b6f2-cb97b8f7e18e",
+   "description": "Notions juridiques liées au métier de domiciliataire",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 120000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:763720-2026",
+   "source": "TED",
+   "source_id": "763720-2026",
+   "title": "MISE A DISPOSITION D’UNE PLATEFORME D’APPRENTISSAGE DU FRANÇAIS A DISTANCE A DESTINATION DES DEMANDEURS D’ASILE",
+   "buyer": "OFII",
+   "published": "2026-11-03",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/763720-2026",
+   "procedure_id": "85e8fd99-e942-40f9-a9b9-26dc61a30d2d",
+   "description": "Le présent marché a pour objet la mise à disposition de licences donnant accès à une plateforme numérique d’apprentissage à distance et d’entrainement de la langue française (l’hébergement, la maintenance et l’assistance) destinée aux demandeurs d’asile majeurs non francophones, enregistrés ou requalifiés en procédure normale, éligibles ou non aux conditions matérielles d’accueil.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80000000",
+    "80580000",
+    "80420000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2400000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
    ],
    "alt_urls": {},
    "supersedes": [],

@@ -111524,6 +111524,642 @@
     "nettoyage"
    ],
    "descriptors": []
+  },
+  {
+   "id": "ted:760570-2026",
+   "source": "TED",
+   "source_id": "760570-2026",
+   "title": "SECURITE DE L ETABLISSEMENT : GARDIENNAGE ET CONTROLE DES ACCES",
+   "buyer": "CENTRE OSCAR LAMBRET",
+   "published": "2026-11-03",
+   "deadline": "2026-11-30T11:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/760570-2026",
+   "procedure_id": "213df3ca-e4af-4e56-9c11-29a6191ae90f",
+   "description": "Le marché a pour objet la prévention et le gardiennage des locaux du Centre Oscar Lambret (Lille), ainsi que le contrôle des accès à l'établissement",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Prévention et gardiennage des locaux",
+    "Lot 2 : Contrôle des accès"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:760574-2026",
+   "source": "TED",
+   "source_id": "760574-2026",
+   "title": "Aménagement et entretien des espaces verts de la ville d’Aulnoye-Aymeries",
+   "buyer": "Commune d'Aulnoye-Aymeries",
+   "published": "2026-11-03",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/760574-2026",
+   "procedure_id": "ac2a0cce-a06e-4f24-8886-1dc229419ecb",
+   "description": "Aménagement et entretien des espaces verts de la ville d’Aulnoye-Aymeries",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Aulnoye grands axes principaux",
+    "Aulnoye secteur Nord"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:760598-2026",
+   "source": "TED",
+   "source_id": "760598-2026",
+   "title": "Gardiennage des locaux et surveillance du système de sécurité incendie (SSI)",
+   "buyer": "Lycee Polyvalent La Fayette",
+   "published": "2026-11-03",
+   "deadline": "2026-11-14T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/760598-2026",
+   "procedure_id": "97b53833-bc92-41cf-9737-a5aeede99b6c",
+   "description": "Le lycée La Fayette de Champagne-sur-Seine (77) demande une prestation de gardiennage nocturne de ses locaux et de veille du système de sécurité incendie selon les modalités décrites dans le règlement de la consultation du marché, le cahier des clauses administratives particulières (CCAP) et le cahier des clauses techniques particulières (CCTP).",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 250000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:761097-2026",
+   "source": "TED",
+   "source_id": "761097-2026",
+   "title": "Groupement de commandes entre la ville et le CCAS relatif au nettoyage des vitres des bâtiments communaux",
+   "buyer": "Ville d'Aubervilliers",
+   "published": "2026-11-03",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/761097-2026",
+   "procedure_id": "76744e9f-27b5-417e-a35a-6f54c577efb9",
+   "description": "Accord-cadre à prix mixtes, passé en groupement de commandes entre la ville d'Aubervilliers (coordonnateur) et son CCAS, ayant pour objet les prestations de nettoyage des diverses surfaces vitrées des bâtiments communaux et du CCAS figurant à l'annexe 1 au CCTP, à Aubervilliers et, pour l'École du plein air, à Piscop (Val-d'Oise) : passage initial de remise en état, passages courants, et prestations à bons de…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:761381-2026",
+   "source": "TED",
+   "source_id": "761381-2026",
+   "title": "ENTRETIEN DES PARTIES COMMUNES, MANIPULATION DES ORDURES MÉNAGÈRES, NETTOYAGE DES EXTÉRIEURS ET ENLÈVEMENT DES ENCOMBRANTS",
+   "buyer": "SA d'HLM UNICIL (13)",
+   "published": "2026-11-03",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/761381-2026",
+   "procedure_id": "052364be-3ee9-4dab-95bf-bb814857d6cc",
+   "description": "ENTRETIEN DES PARTIES COMMUNES, MANIPULATION DES ORDURES MÉNAGÈRES, NETTOYAGE DES EXTÉRIEURS ET ENLÈVEMENT DES ENCOMBRANTS",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 942975.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur Cannes - Grasse",
+    "Cagnes-sur-Mer et Moyen Pays",
+    "Vallées et Préalpes",
+    "Nice",
+    "Menton"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:761538-2026",
+   "source": "TED",
+   "source_id": "761538-2026",
+   "title": "NETTOYAGE DES LOCAUX ET DES VITRES POUR LES BATIMENTS DE VAL DE GARONNE AGGLOMERATION",
+   "buyer": "Val de Garonne Agglomération",
+   "published": "2026-11-03",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/761538-2026",
+   "procedure_id": "2733708d-8e74-4353-a4c0-0f5ba7b7e083",
+   "description": "Les prestations sont réglées par des prix unitaires et forfaitaires",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:761984-2026",
+   "source": "TED",
+   "source_id": "761984-2026",
+   "title": "ACCORD-CADRE RELATIF A UN SERVICE DE TRANSPORT ET DE STOCKAGE DE FONDS ET DE VALEURS DESTINE AUX SERVICES DE LA DIRECTION GÉNÉRALE DES DOUANES ET DROITS INDIRECTS (DGDDI)",
+   "buyer": "DGDDI - Bureau des achats et approvisionnements FIN 2",
+   "published": "2026-11-03",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/761984-2026",
+   "procedure_id": "30a67867-89a3-412a-903e-2d4638ec5e59",
+   "description": "La présente consultation a pour objet La réalisation d’un service de transport et de stockage de fonds et de valeurs, au profit de la Direction Générale des Douanes et Droits Indirects (DGDDI). La consultation est composée de 3 lots distincts.",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "60100000",
+    "79710000",
+    "66110000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1283840.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Transport et stockage de fonds et de valeurs destiné aux services de la DGDDI en France métropolitaine",
+    "Le transport et le stockage de fonds et de valeurs destiné aux services de la DGDDI en Outre-mer (sites des Antilles-Guyane)",
+    "Transport et le stockage de fonds et de valeurs destiné aux services de la DGDDI en Outre-mer (sites de l’océan Indien : La Réunion et Mayotte)."
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:762263-2026",
+   "source": "TED",
+   "source_id": "762263-2026",
+   "title": "Marché de prestations de services ayant pour objet l'entretien des espaces verts de sites de France Travail Hauts-de-France",
+   "buyer": "FRANCE TRAVAIL - HAUTS-DE-FRANCE",
+   "published": "2026-11-03",
+   "deadline": "2026-12-18T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/762263-2026",
+   "procedure_id": "1e979955-efc2-4f2c-8189-5e651bb7f38d",
+   "description": "Le marché a pour objet l'achat de prestations d'entretien des espaces verts de sites de France Travail Hauts-de-France. Il s'agit d'un marché mixte exécuté à titre principal à prix forfaitaire, et par l'émission de bons de commande pour les prestations ponctuelles complémentaires. Ces prestations sont décrites au Contrat et au Cahier des charges fonctionnel et technique (CCFT). Les lots 2, 6 et 7 sont réservés à des…",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Boulonnais – Calaisis - Montreuil",
+    "Lot 2 : Flandres – Lille – Versant Nord-Est – Longuenesse",
+    "Lot 3 : Arrageois",
+    "Lot 4 : Hainaut",
+    "Lot 5 : Somme",
+    "Lot 6 : Aisne Est",
+    "Lot 7 : Oise",
+    "Lot 8 : Aisne Ouest & Sud"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:762495-2026",
+   "source": "TED",
+   "source_id": "762495-2026",
+   "title": "Remplacement des agents de proximité de l'OPAC Saône et Loire absents conjoncturellement et en charge du nettoyage courant des parties communes et abords du patrimoine de l'OPAC Saône et Loire",
+   "buyer": "OPAC Saône & Loire",
+   "published": "2026-11-03",
+   "deadline": "2026-12-16T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/762495-2026",
+   "procedure_id": "7d328a49-318f-4456-aea6-30c785ee58e1",
+   "description": "Remplacement des agents de proximité de l'OPAC Saône et Loire absents conjoncturellement et en charge du nettoyage courant des parties communes et abords du patrimoine de l'OPAC Saône et Loire",
+   "departments": [],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1291525.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : CHALON OUEST",
+    "Lot n°2 : CHALON EST",
+    "Lot n°3 : CHALON DIFFUS",
+    "Lot n°4 : LA CLAYETTE - CHAROLLES",
+    "Lot n°5 : PARAY LE MONIAL - DIGOIN",
+    "Lot n°6 : BOURBON LANCY - GUEUGNON",
+    "Lot n°7 : TOURNUS",
+    "Lot n°8 : CLUNY",
+    "Lot n°9 : LOUHANS"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:762778-2026",
+   "source": "TED",
+   "source_id": "762778-2026",
+   "title": "PRESTATIONS DE SURETE ET DE SECURITE INCENDIE DES SITES DU MUSEE NATIONAL PICASSO-PARIS",
+   "buyer": "MUSEE NATIONAL PICASSO PARIS",
+   "published": "2026-11-03",
+   "deadline": "2026-12-07T10:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/762778-2026",
+   "procedure_id": "b08d2499-e748-4988-b692-34a325c0e526",
+   "description": "La présente consultation a pour objet des prestations de sûreté et de sécurité incendie des sites de l'établissement public du Musée national Picasso-Paris (ci-après MNPP), dans le 3ème arrondissement à Paris. - Hôtel Salé, 5 rue de Thorigny (espace muséographique), où est assuré le dispositif socle ; - Centre d'études Picasso (CEP), rue des Quatre-Fils, pour des interventions ponctuelles ; - Ainsi que les besoins…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4000000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:762821-2026",
+   "source": "TED",
+   "source_id": "762821-2026",
+   "title": "Nettoyage des parties communes, remplacement des personnels d’entretien et prestations de proximité, de continuité d’exploitation et de contrôle qualité du patrimoine de la SEM Seine Ouest Habitat et Patrimoine",
+   "buyer": "SEM SEINE OUEST HABITAT ET PATRIMOINE",
+   "published": "2026-11-03",
+   "deadline": "2026-10-02T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/762821-2026",
+   "procedure_id": "2590dd47-ab86-42b7-8ad0-467d3dc10700",
+   "description": "Les prestations seront réalisées en 2 lots séparés selon les lots suivants : -Lot n°1 : Nettoyage des parties communes et remplacement des personnels d’entretien. -Lot n°2 : Prestations de proximité, de continuité d’exploitation et de contrôle qualité du patrimoine. Pour chacun des lots, le marché est un accord-cadre passé selon l’article L. 2125-1 1° du Code de la Commande Publique conclu à compter du 1er janvier…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911000",
+    "90918000",
+    "71700000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Nettoyage des parties communes et remplacement des personnels d’entretien",
+    "Lot n°2 : Prestations de proximité, de continuité d’exploitation et de contrôle qualité du patrimoine"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:763130-2026",
+   "source": "TED",
+   "source_id": "763130-2026",
+   "title": "ACCORD CADRE A BONS DE COMMANDE EN PROCEDURE ADAPTEE POUR L’ENTRETIEN ET L’EMBELLISSEMENT DE LA VILLE DE CASTILLON LA BATAILLE",
+   "buyer": "Ville de Castillon la Bataille",
+   "published": "2026-11-03",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/763130-2026",
+   "procedure_id": "391b9119-7b0d-42d5-840c-afc6c4787377",
+   "description": "Ce marché est réservé aux structures d’insertion par l’activité économique dont la finalité est la solidarité et l'accompagnement des personnes en difficulté sociale et professionnelle.",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "77312100",
+    "75200000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:763418-2026",
+   "source": "TED",
+   "source_id": "763418-2026",
+   "title": "Élagage sur Réseaux de Distribution Publique d'Energie Electrique",
+   "buyer": "REGIE D'ELECTRICITE DE THONES",
+   "published": "2026-11-03",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/763418-2026",
+   "procedure_id": "86b6fe29-fe5a-49c8-b781-d7af1cf9d653",
+   "description": "La présente consultation a pour objet les travaux d’élagage sur les réseaux HTA et BT aériens de l’ensemble des communes desservies par la Régie d'Electricité de Thônes (RET) et par Energie et Services de Seyssel (ESS), à savoir : Pour RET, quatorze (14) communes: - en Haute-Savoie :  Alex,  La Balme de Thuy,  Le BoucheMont Charvin,  Les Clefs,  La Clusaz,  Dingy Saint Clair,  Le Grand Bornand,  Glière Val…",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77340000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien obligatoire pour ESS",
+    "Entretien obligatoire pour RET",
+    "Interventions ponctuelles pour ESS",
+    "Interventions ponctuelles pour RET"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:763508-2026",
+   "source": "TED",
+   "source_id": "763508-2026",
+   "title": "Prestations de gardiennage et accueil au CINES",
+   "buyer": "CINES",
+   "published": "2026-11-03",
+   "deadline": "2026-11-16T14:30",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/763508-2026",
+   "procedure_id": "faac90a6-59e3-44d9-b87b-c3f50e847ff7",
+   "description": "La présente consultation a pour objet : • D’une part, le gardiennage et la surveillance du site du CINES, • D’autre part, l’accueil physique et téléphonique sur le site du CINES, L’objectif de ce marché est d’assurer une présence humaine sur le site du CINES 24h/24 tous les jours de l’année comme suit : • Un accueil physique et téléphonique au sein du CINES de 07h30 à 17h45 du lundi au vendred",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79713000",
+    "75250000",
+    "79992000",
+    "79511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "PRESTATION DE GARDIENNAGE ET DE SURVEILLANCE",
+    "PRESTATIONS D’ACCUEIL PHYSIQUE ET TÉLÉPHONIQUE"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:763629-2026",
+   "source": "TED",
+   "source_id": "763629-2026",
+   "title": "TAILLE, ELAGAGE ET ABATTAGE D'ARBRES SUR LA COMMUNE DE SALON DE PROVENCE",
+   "buyer": "Mairie de Salon de Provence",
+   "published": "2026-11-03",
+   "deadline": "2026-11-13T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/763629-2026",
+   "procedure_id": "ebfb7eab-608f-491a-b466-471a757935d4",
+   "description": "Le présent accord-cadre concerne les travaux de taille, élagage et abattage d'arbres sur la commune de Salon de Provence, relatifs à l'entretien du patrimoine arboré du territoire situé, entre autres, dans les espaces verts de la commune, le long des voies de circulation et dans les sous-bois.",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77211500",
+    "77211400"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
   }
  ]
 }
