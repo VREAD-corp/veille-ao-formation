@@ -110706,6 +110706,117 @@
    ]
   },
   {
+   "id": "boamp:26-106360",
+   "source": "BOAMP",
+   "source_id": "26-106360",
+   "title": "Le présent marché public a pour objet des prestations de gardiennage, de surveillance et de médiation à destination des établissements de France terre d'asile",
+   "buyer": "France terre d'asile - siège social",
+   "published": "2026-11-02",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106360",
+   "procedure_id": null,
+   "description": "La présente consultation porte sur des prestations de gardiennage et de surveillance à destination des établissements de FTDA. Le présent marché est alloti et se décompose huit (8) lots répartis comme suit : Lot 1 : Établissements locaux à sommeil dans le Nord de la France, Lot 2 : Établissement locaux à sommeil à Amiens, Lot 3 : Établissements locaux à sommeil en Île-de-France, Lot 4 : Diffus dans le Nord de la…",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79713000",
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : établissements locaux à sommeil dans le Nord de la France.. Le lot 1 a pour objet des prestations de gardiennage et de surveillance à destination des…",
+    "2 : établissement locaux à sommeil à Amiens. Le lot 2 a pour objet des prestations de gardiennage et de surveillance à destination des établissements locaux à…",
+    "3 : établissements locaux à sommeil en île-de-France.. Le lot 3 a pour objet des prestations de gardiennage et de surveillance à destination des établissements…",
+    "4 : Diffus dans le Nord de la France. Le lot 4 a pour objet des prestations de gardiennage et de surveillance à destination des diffus dans le Nord de la France",
+    "5 : Diffus à Amiens (Hôtels et appartements). Le lot 5 a pour objet des prestations de gardiennage et de surveillance à destination des diffus à Amiens (Hôtels…",
+    "6 : Diffus en île-de-France. Le lot 6 a pour objet des prestations de gardiennage et de surveillance à destination des diffus en île-de-France",
+    "7 : Spada et Caes de Bordeaux. Le lot 7 a pour objet des prestations de gardiennage et de surveillance à destination de la Spada et du Caes de Bordeaux",
+    "8 : Spada et Evaluation de Nantes. Le lot 8 a pour objet des prestations de gardiennage et de surveillance à destination de la Spada et du foyer d'évaluation…"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274",
+    "331",
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-106365",
+   "source": "BOAMP",
+   "source_id": "26-106365",
+   "title": "prestations d'entretien de locaux professionnels",
+   "buyer": "Communaute De Communes Du Pays Des Ecrins",
+   "published": "2026-11-02",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106365",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "05"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911000",
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Maison du canton. L'Argentière La Bessée",
+    "2 : Maison de santé. Pôle Gyronde - Vallouise Pelvoux",
+    "3 : Centre socioculturel. Saint Martin de Queyrières",
+    "4 : France service. L'Argentière La Bessée",
+    "5 : France service - Agence postale. Vallouise",
+    "6 : Agence postale. Pelvoux",
+    "7 : Luceo. La Roche de Rame",
+    "8 : Services techniques. L'Argentière La Bessée",
+    "9 : Piscine intercommunale. L'Argentière La Bessée"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
    "id": "ted:756852-2026",
    "source": "TED",
    "source_id": "756852-2026",
@@ -111524,6 +111635,433 @@
     "nettoyage"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-106126",
+   "source": "BOAMP",
+   "source_id": "26-106126",
+   "title": "Groupement de commandes entre la ville et le CCAS relatif au nettoyage des vitres des bâtiments communaux",
+   "buyer": "Ville d'Aubervilliers",
+   "published": "2026-11-03",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106126",
+   "procedure_id": "76744e9f-27b5-417e-a35a-6f54c577efb9",
+   "description": "Accord-cadre à prix mixtes, passé en groupement de commandes entre la ville d'Aubervilliers (coordonnateur) et son CCAS, ayant pour objet les prestations de nettoyage des diverses surfaces vitrées des bâtiments communaux et du CCAS figurant à l'annexe 1 au CCTP, à Aubervilliers et, pour l'École du plein air, à Piscop (Val-d'Oise) : passage initial de remise en état, passages courants, et prestations à bons de…",
+   "departments": [
+    "93",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-106131",
+   "source": "BOAMP",
+   "source_id": "26-106131",
+   "title": "Nettoyage des parties communes, remplacement du personnel d’entretien et prestations de proximité, de continuité d’exploitation et de contrôle qualité du patrimoine de la SEM SOHP",
+   "buyer": "SEM SEINE OUEST HABITAT ET PATRIMOINE",
+   "published": "2026-11-03",
+   "deadline": "2026-10-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106131",
+   "procedure_id": "2590dd47-ab86-42b7-8ad0-467d3dc10700",
+   "description": "Les prestations seront réalisées en 2 lots séparés selon les lots suivants : -Lot n°1 : Nettoyage des parties communes et remplacement des personnels d’entretien. -Lot n°2 : Prestations de proximité, de continuité d’exploitation et de contrôle qualité du patrimoine. Pour chacun des lots, le marché est un accord-cadre passé selon l’article L. 2125-1 1° du Code de la Commande Publique conclu à compter du 1er janvier…",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911000",
+    "90918000",
+    "71700000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-76493",
+    "boamp:26-94068"
+   ],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Nettoyage des parties communes et remplacement des personnels d’entretien",
+    "Lot n°2 : Prestations de proximité, de continuité d’exploitation et de contrôle qualité du patrimoine"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-106152",
+   "source": "BOAMP",
+   "source_id": "26-106152",
+   "title": "NETTOYAGE DES LOCAUX ET DES VITRES POUR LES BATIMENTS DE VAL DE GARONNE AGGLOMERATION",
+   "buyer": "Val de Garonne Agglomération",
+   "published": "2026-11-03",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106152",
+   "procedure_id": "2733708d-8e74-4353-a4c0-0f5ba7b7e083",
+   "description": "Les prestations sont réglées par des prix unitaires et forfaitaires",
+   "departments": [
+    "47"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-102357"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-106176",
+   "source": "BOAMP",
+   "source_id": "26-106176",
+   "title": "Aménagement et entretien des espaces verts de la ville d’Aulnoye-Aymeries",
+   "buyer": "Commune d'Aulnoye-Aymeries",
+   "published": "2026-11-03",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106176",
+   "procedure_id": "ac2a0cce-a06e-4f24-8886-1dc229419ecb",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Aulnoye grands axes principaux",
+    "Aulnoye secteur Nord"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-106276",
+   "source": "BOAMP",
+   "source_id": "26-106276",
+   "title": "Élagage sur Réseaux de Distribution Publique d'Energie Electrique",
+   "buyer": "REGIE D'ELECTRICITE DE THONES",
+   "published": "2026-11-03",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106276",
+   "procedure_id": "86b6fe29-fe5a-49c8-b781-d7af1cf9d653",
+   "description": "La présente consultation a pour objet les travaux d’élagage sur les réseaux HTA et BT aériens de l’ensemble des communes desservies par la Régie d'Electricité de Thônes (RET) et par Energie et Services de Seyssel (ESS), à savoir : Pour RET, quatorze (14) communes: - en Haute-Savoie :  Alex,  La Balme de Thuy,  Le BoucheMont Charvin,  Les Clefs,  La Clusaz,  Dingy Saint Clair,  Le Grand Bornand,  Glière Val…",
+   "departments": [
+    "74"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77340000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien obligatoire pour ESS",
+    "Entretien obligatoire pour RET",
+    "Interventions ponctuelles pour ESS",
+    "Interventions ponctuelles pour RET"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "350"
+   ]
+  },
+  {
+   "id": "boamp:26-106278",
+   "source": "BOAMP",
+   "source_id": "26-106278",
+   "title": "TAILLE, ELAGAGE ET ABATTAGE D'ARBRES SUR LA COMMUNE DE SALON DE PROVENCE",
+   "buyer": "Mairie de Salon de Provence",
+   "published": "2026-11-03",
+   "deadline": "2026-11-13T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106278",
+   "procedure_id": "ebfb7eab-608f-491a-b466-471a757935d4",
+   "description": "Le présent accord-cadre concerne les travaux de taille, élagage et abattage d'arbres sur la commune de Salon de Provence, relatifs à l'entretien du patrimoine arboré du territoire situé, entre autres, dans les espaces verts de la commune, le long des voies de circulation et dans les sous-bois.",
+   "departments": [
+    "13",
+    "30",
+    "83",
+    "84"
+   ],
+   "regions": [
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77211500",
+    "77211400"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-98451"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-106504",
+   "source": "BOAMP",
+   "source_id": "26-106504",
+   "title": "Prestations de gardiennage et de sécurité sur les sites des CAMPUS DES METIERS et SUP?IFAC sur la commune de Guipavas.",
+   "buyer": "CCI FINISTERE",
+   "published": "2026-11-03",
+   "deadline": "2026-11-27T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106504",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "22",
+    "29"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-106668",
+   "source": "BOAMP",
+   "source_id": "26-106668",
+   "title": "Prestations de nettoyage : vitres, poutres apparentes et tôles en polycarbonate dans les bâtiments communaux",
+   "buyer": "Mairie de Harnes",
+   "published": "2026-11-03",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106668",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-106697",
+   "source": "BOAMP",
+   "source_id": "26-106697",
+   "title": "Nettoyage Ecologique Des Locaux De Plusieurs Sites De La Delegation Bourgogne-Franche-Comte (Besancon- Macon -Belfort- Vesoul) Du Cnfpt",
+   "buyer": "Cnfpt délégation Bourgogne Franche Comté",
+   "published": "2026-11-03",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106697",
+   "procedure_id": null,
+   "description": "Le CNFPT est le principal organisme de formation des agents territoriaux en France",
+   "departments": [
+    "21",
+    "25",
+    "70",
+    "71",
+    "90"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "90919200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Nettoyage écologique des locaux du Cnfpt, situés à Besançon. Une partie des prestations est à prix forfaitaire incluant un forfait de 950 nettoyages de…",
+    "2 : Nettoyage écologique des locaux du Cnfpt, situés à Mâcon. Une partie des prestations est à prix forfaitaire incluant un forfait de 600 nettoyages de…",
+    "3 : Nettoyage écologique des locaux du Cnfpt, situés à Belfort. Une partie des prestations est à prix forfaitaire incluant un forfait de 400 nettoyages de…",
+    "4 : Nettoyage écologique des locaux du Cnfpt, situés à Vesoul. Une partie des prestations est à prix forfaitaire incluant un forfait de 150 nettoyages de…"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
   },
   {
    "id": "ted:760570-2026",

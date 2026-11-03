@@ -105319,6 +105319,50 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-106257",
+   "source": "BOAMP",
+   "source_id": "26-106257",
+   "title": "Formations 2027-2030 à destination des services autonomie à domicile intervenant auprès des personnes âgées et/ou en situation de handicap",
+   "buyer": "Département de la Seine-Maritime",
+   "published": "2026-11-03",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106257",
+   "procedure_id": "a1db3ef2-f992-446d-87d3-4967e637c045",
+   "description": "La présente consultation a pour objet l'exécution de prestations de formation pour les professionnels exerçant dans les services autonomie à domicile prestataires autorisés par le Département de la Seine-Maritime : La formation concerne: - Auxiliaires de vie sociale (AVS), - Aide médico-psychologique (AMP) - Accompagnants éducatifs et sociaux (fusion des 2 Diplômes d'État AVS et AMP), - Responsables de secteur…",
+   "departments": [
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000",
+    "80560000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "prévention et secours civiques (PSC) de niveau 1",
+    "Savoir-faire et pratiques",
+    "Connaissance des personnes aidées et accompagnées",
+    "L'éthique et les droits des professionnels"
+   ],
+   "updated": ""
+  },
+  {
    "id": "ted:760927-2026",
    "source": "TED",
    "source_id": "760927-2026",
