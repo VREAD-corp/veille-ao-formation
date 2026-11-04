@@ -105472,6 +105472,268 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-106375",
+   "source": "BOAMP",
+   "source_id": "26-106375",
+   "title": "Catalogue régional de formation « Cartes en main » Ile de France",
+   "buyer": "Uniformation",
+   "published": "2026-11-04",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106375",
+   "procedure_id": "e3caf29b-e8f0-47a8-a995-c202a84e94de",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1060000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-103633"
+   ],
+   "summary": "",
+   "lots": [
+    "SANTE MENTALE AU TRAVAIL : COMPRENDRE, REPERER ET AGIR",
+    "MIEUX APPREHENDER LE HANDICAP ET REUSSIR SON INTEGRATION DANS LES TPE-PME",
+    "LE PLAN DE DEVELOPPEMENT DES COMPETENCES (DPC), LEVIER DE VOTRE POLITIQUE FORMATION",
+    "CONSTRUIRE SA STRATEGIE DE COLLECTE DE FONDS ET DIVERSIFIER SES FINANCEMENTS PRIVES",
+    "AGIR CONTRE LES VIOLENCES ET HARCELEMENT SEXISTES ET SEXUELLES",
+    "GESTION DE PROJETS (NIVEAU AVANCE)",
+    "SECURISER VOS PRATIQUES NUMERIQUES (CYBERSECURITE ET RGPD)",
+    "ASSOCIATIONS, QUELLES SONT LES OPPORTUNITES OFFERTES PAR L'INTELLIGENCE ARTIFICIELLE (IA)",
+    "L'INTELLIGENCE ARTIFICIELLE (IA) AU SERVICE D'UN MANAGEMENT PLUS EFFICACE",
+    "MANAGER L'INTERGENERATIONNEL DANS LES STRUCTURES DE L'ESS",
+    "REPERER ET MOBILISER LE PUBLIC EN SITUATION D'ILLETRISME ET D'ILLECTRONISME",
+    "ACCOMPAGNER LES CHANGEMENTS AU SEIN DE VOTRE STRUCTURE EN FAVEUR DE LA TRANSITION ECOLOGIQUE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-106758",
+   "source": "BOAMP",
+   "source_id": "26-106758",
+   "title": "Conception et animation de préparations à distance aux épreuves écrites et orales des examens professionnels et concours internes du ministère de l’Europe et des Affaires étrangères.",
+   "buyer": "Ministère de l'Europe et des Affaires étrangères",
+   "published": "2026-11-04",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106758",
+   "procedure_id": "d70dead3-b447-4453-9099-5585a33e3597",
+   "description": "Accord-cadre portant sur la Conception et animation de préparations à distance aux épreuves écrites et orales des examens professionnels et concours internes du ministère de l’Europe et des Affaires étrangères.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Préparation à distance aux épreuves écrites",
+    "Préparation à distance aux épreuves orales"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107043",
+   "source": "BOAMP",
+   "source_id": "26-107043",
+   "title": "Formations aux permis de conduire routiers (BE, C, CE) et d'embarcations (mers et fluviaux) pour le SDIS de Saône-et-Loire",
+   "buyer": "SDIS de Saône-et-Loire",
+   "published": "2026-11-04",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107043",
+   "procedure_id": null,
+   "description": "Le contrat porte sur les prestations de : formations aux permis de conduire routiers (BE, C, CE) et d'embarcations (mers et fluviaux) pour le SDIS de Saône-et-Loire. Le SDIS de Saône-et-Loire inscrit, chaque année, à son plan de formation, des formations pour l’acquisition du permis C, du permis BE, du permis CE et du permis bateau avec « option eaux intérieures » et « option côtière » au bénéfice de ses…",
+   "departments": [
+    "71"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "80411000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Permis routiers BE, C et CE",
+    "Permis bateau « option eaux intérieures » et « option côtière »"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:764543-2026",
+   "source": "TED",
+   "source_id": "764543-2026",
+   "title": "Catalogue régional de formation « Cartes en main » Ile de France",
+   "buyer": "Uniformation",
+   "published": "2026-11-04",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/764543-2026",
+   "procedure_id": "e3caf29b-e8f0-47a8-a995-c202a84e94de",
+   "description": "Catalogue régional de formation « Cartes en main » Ile de France",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1060000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "SANTE MENTALE AU TRAVAIL : COMPRENDRE, REPERER ET AGIR",
+    "MIEUX APPREHENDER LE HANDICAP ET REUSSIR SON INTEGRATION DANS LES TPE-PME",
+    "LE PLAN DE DEVELOPPEMENT DES COMPETENCES (DPC), LEVIER DE VOTRE POLITIQUE FORMATION",
+    "CONSTRUIRE SA STRATEGIE DE COLLECTE DE FONDS ET DIVERSIFIER SES FINANCEMENTS PRIVES",
+    "AGIR CONTRE LES VIOLENCES ET HARCELEMENT SEXISTES ET SEXUELLES",
+    "GESTION DE PROJETS (NIVEAU AVANCE)",
+    "SECURISER VOS PRATIQUES NUMERIQUES (CYBERSECURITE ET RGPD)",
+    "ASSOCIATIONS, QUELLES SONT LES OPPORTUNITES OFFERTES PAR L'INTELLIGENCE ARTIFICIELLE (IA)",
+    "L'INTELLIGENCE ARTIFICIELLE (IA) AU SERVICE D'UN MANAGEMENT PLUS EFFICACE",
+    "MANAGER L'INTERGENERATIONNEL DANS LES STRUCTURES DE L'ESS",
+    "REPERER ET MOBILISER LE PUBLIC EN SITUATION D'ILLETRISME ET D'ILLECTRONISME",
+    "ACCOMPAGNER LES CHANGEMENTS AU SEIN DE VOTRE STRUCTURE EN FAVEUR DE LA TRANSITION ECOLOGIQUE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:765733-2026",
+   "source": "TED",
+   "source_id": "765733-2026",
+   "title": "Accord-cadre portant sur la Conception et animation de préparations à distance aux épreuves écrites et orales des examens professionnels et concours internes du ministère de l’Europe et des Affaires étrangères.",
+   "buyer": "Ministère de l'Europe et des Affaires étrangères",
+   "published": "2026-11-04",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/765733-2026",
+   "procedure_id": "d70dead3-b447-4453-9099-5585a33e3597",
+   "description": "Accord-cadre portant sur la Conception et animation de préparations à distance aux épreuves écrites et orales des examens professionnels et concours internes du ministère de l’Europe et des Affaires étrangères.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Préparation à distance aux épreuves écrites",
+    "Préparation à distance aux épreuves orales"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:765788-2026",
+   "source": "TED",
+   "source_id": "765788-2026",
+   "title": "Marchés de prestations de services et conseils pour les besoins du groupement de commandes",
+   "buyer": "GIE TERRITOIRES",
+   "published": "2026-11-04",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/765788-2026",
+   "procedure_id": "5ed40ccd-4917-4409-8833-91d3961524d9",
+   "description": "Marchés de prestations de services et conseils pour les besoins du groupement de commandes",
+   "departments": [],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "79410000",
+    "79140000",
+    "79632000",
+    "79111000",
+    "79131000",
+    "79600000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 868000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : - Fourniture d'accès à un environnement professionnel d'échanges, de références, d'expériences et de données mutualisées",
+    "Lot 2 : Conseils d'experts et formations auprès des membres du groupement, tant dans la gestion propre que dans leurs domaines d'intervention au titre des…"
+   ],
+   "updated": ""
   }
  ]
 }

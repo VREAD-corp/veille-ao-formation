@@ -112828,6 +112828,964 @@
     "espaces-verts"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-106302",
+   "source": "BOAMP",
+   "source_id": "26-106302",
+   "title": "Dévégétalisation des remparts et des contrescarpes du Domaine national du château d’Angers",
+   "buyer": "CMN..",
+   "published": "2026-11-04",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106302",
+   "procedure_id": "59f0b608-8705-48d3-a492-3a2b9e8e1987",
+   "description": "La présente consultation a pour objet la dévégétalisation des remparts et des contrescarpes du Domaine national du château d’Angers.",
+   "departments": [
+    "49",
+    "75"
+   ],
+   "regions": [
+    "Pays de la Loire",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77312000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 241320.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "236",
+    "358"
+   ]
+  },
+  {
+   "id": "boamp:26-106428",
+   "source": "BOAMP",
+   "source_id": "26-106428",
+   "title": "Entretien du parc et des espaces verts du parking du château de Chavaniac-Lafayette",
+   "buyer": "Département de la Haute-Loire",
+   "published": "2026-11-04",
+   "deadline": "2026-12-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106428",
+   "procedure_id": "af2dfda1-7676-444f-a982-6563e6f4018a",
+   "description": "L'accord-cadre est \"composite\". Il comprend une partie \"marché ordinaire\" et une partie \"accord-cadre à bons de commande\". Chaque lot fera l'objet d'une attribution séparée. Le présent marché a pour objet l'exécution des prestations afférentes à l'entretien du parc historique et des espaces verts du parking du Château de Chavaniac-Lafayette (Haute-Loire)",
+   "departments": [
+    "43"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Suivi du patrimoine arboré",
+    "Suivi des espaces verts"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-106478",
+   "source": "BOAMP",
+   "source_id": "26-106478",
+   "title": "Accord-cadre pour prestations de nettoyage de fin de chantier",
+   "buyer": "Meldomys",
+   "published": "2026-11-04",
+   "deadline": "2026-12-02T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106478",
+   "procedure_id": "eb8524e1-92ab-4506-96ec-8abd526785f0",
+   "description": "La présente consultation concerne un accord-cadre pour des prestations de nettoyage de fin de chantier (1 an renouvelable 3 fois) Date prévisionnelle de démarrage des prestations : février 2027",
+   "departments": [
+    "49"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 478400.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Opérations situées au Nord de la Loire",
+    "Lot n°2 : Opérations situées au Sud de la Loire"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-106539",
+   "source": "BOAMP",
+   "source_id": "26-106539",
+   "title": "Entretien des espaces verts et de loisirs du Département du Territoire de Belfort",
+   "buyer": "DEPARTEMENT DU TERRITOIRE DE BELFORT",
+   "published": "2026-11-04",
+   "deadline": "2026-11-09T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106539",
+   "procedure_id": "08eb698c-5053-4367-ac3e-8c3e4a37cf0f",
+   "description": "",
+   "departments": [
+    "25",
+    "68",
+    "70",
+    "90"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté",
+    "Grand Est"
+   ],
+   "cpv": [
+    "77310000",
+    "77211500"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-96570"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-106594",
+   "source": "BOAMP",
+   "source_id": "26-106594",
+   "title": "Prestations de nettoyage et d'aide à la préparation des repas dans les locaux de la Ville et du CMAS de la Chapelle Saint-Luc-.",
+   "buyer": "Collectivité",
+   "published": "2026-11-04",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106594",
+   "procedure_id": "fd896d6a-b490-47d2-a68f-123f0ef67a69",
+   "description": "Le présent marché a pour objet l'entretien des Etablissements d'Accueil du Jeune Enfant et des bureaux administratifs du CMAS ainsi que de l'Accueil Collectif des Mineurs 1000 Couleurs de la Ville de la Chapelle Saint-Luc",
+   "departments": [
+    "10"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de nettoyage et d'aide à la préparation des repas dans les EAJE et bureaux administratifs du CMAS",
+    "Entretien de l'Acceuil Collectif des Mineurs 1000 Couleurs"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-106648",
+   "source": "BOAMP",
+   "source_id": "26-106648",
+   "title": "Prestation de sécurité incendie et de gardiennage pour le site d’Alfort",
+   "buyer": "Ecole nationale vétérinaire d'Alfort",
+   "published": "2026-11-04",
+   "deadline": "2026-12-07T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106648",
+   "procedure_id": "3fa309e0-bf80-437f-902f-4d1f3c28e4b1",
+   "description": "",
+   "departments": [
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000",
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-106730",
+   "source": "BOAMP",
+   "source_id": "26-106730",
+   "title": "Accord cadre mono attributaire à bons de commande d'entretien des espaces verts communaux",
+   "buyer": "Commune de Louvroil",
+   "published": "2026-11-04",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106730",
+   "procedure_id": "9c5c4237-7753-40fb-a8ad-4a29197ed7fe",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77211400",
+    "77342000",
+    "77313000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces verts",
+    "Prestation d'élagage et d'abattage d'arbres",
+    "Entretien parcs et espaces verts identifiés (lot réservé)",
+    "entretien terrains de sport"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-106741",
+   "source": "BOAMP",
+   "source_id": "26-106741",
+   "title": "Marchés de prestations de nettoyage des véhicules et installations de la Semitan - Lot 1",
+   "buyer": "SEMITAN",
+   "published": "2026-11-04",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106741",
+   "procedure_id": "4bbe7fd9-fc7e-4327-9a73-c5a4dc9bf868",
+   "description": "Le marché a pour objet la réalisation de prestations de nettoyage au siège social de la SEMITAN, situé au 3 rue Bellier à Nantes (44000). Les prestations seront exécutées au sein des bâtiments et espaces suivants : - Bâtiment administratif - Bâtiment social - Espace 500 - Zenbox - Réfectoire - Circulation extérieure et locaux vélos (cheminements piétons aux abords des bâtiments cités ci-dessus, espaces fumeurs…",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90919200",
+    "90911300",
+    "90910000"
+   ],
+   "procedure": "Procédure Négociée",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-105532"
+   ],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux administratifs",
+    "Nettoyage espace 400",
+    "Nettoyage des Bâtiments de prise de service conducteurs et des sanitaires en ligne",
+    "Nettoyage ateliers et tramways : Dalby, Trocardière et Babinière"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-106742",
+   "source": "BOAMP",
+   "source_id": "26-106742",
+   "title": "Marchés de prestations de nettoyage des véhicules et installations de la Semitan - Lot 2",
+   "buyer": "SEMITAN",
+   "published": "2026-11-04",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106742",
+   "procedure_id": "4e06cd6e-0e88-433a-ac54-372d6886e605",
+   "description": "Le marché a pour objet la réalisation de prestations de nettoyage au siège social de la SEMITAN, situé au 3 rue Bellier à Nantes (44000). Les prestations seront exécutées au sein des bâtiments et espaces suivants : - Bâtiment administratif - Bâtiment social - Espace 500 - Zenbox - Réfectoire - Circulation extérieure et locaux vélos (cheminements piétons aux abords des bâtiments cités ci-dessus, espaces fumeurs…",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90919200",
+    "90911300",
+    "90910000"
+   ],
+   "procedure": "Procédure Négociée",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-105583"
+   ],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux administratifs",
+    "Nettoyage espace 400",
+    "Nettoyage des bâtiments de prise de service conducteurs et des sanitaires en ligne",
+    "Nettoyage ateliers et tramways : Dalby, Trocardière et Babinière"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-107135",
+   "source": "BOAMP",
+   "source_id": "26-107135",
+   "title": "Prestations d'accueil et de surveillance des salles d'exposition de La Platine - Epcc Cité du design Esadse",
+   "buyer": "Epcc Cité du design - Ecole supérieure d'art et design",
+   "published": "2026-11-04",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107135",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "42"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-106903"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "331"
+   ]
+  },
+  {
+   "id": "ted:764131-2026",
+   "source": "TED",
+   "source_id": "764131-2026",
+   "title": "Prestation de sécurité incendie et de gardiennage pour le site d’Alfort",
+   "buyer": "École nationale vétérinaire d'Alfort",
+   "published": "2026-11-04",
+   "deadline": "2026-12-07T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/764131-2026",
+   "procedure_id": "3fa309e0-bf80-437f-902f-4d1f3c28e4b1",
+   "description": "Prestation de sécurité incendie et de gardiennage pour le site d’Alfort",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000",
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:764266-2026",
+   "source": "TED",
+   "source_id": "764266-2026",
+   "title": "Accord cadre mono attributaire à bons de commande d'entretien des espaces verts communaux",
+   "buyer": "Commune de Louvroil",
+   "published": "2026-11-04",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/764266-2026",
+   "procedure_id": "9c5c4237-7753-40fb-a8ad-4a29197ed7fe",
+   "description": "Accord cadre mono attributaire à bons de commande d'entretien des espaces verts communaux",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77211400",
+    "77342000",
+    "77313000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services",
+    "Supplies"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces verts",
+    "Prestation d'élagage et d'abattage d'arbres",
+    "Entretien parcs et espaces verts identifiés (lot réservé)",
+    "entretien terrains de sport"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:764533-2026",
+   "source": "TED",
+   "source_id": "764533-2026",
+   "title": "M1209/2026 Gardiennage des locaux de la Cinémathèque française",
+   "buyer": "LA CINEMATHEQUE FRANCAISE",
+   "published": "2026-11-04",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/764533-2026",
+   "procedure_id": "2a2a1433-a4d7-46b6-8af4-83ef5c53ba69",
+   "description": "Marché de gardiennage et de sécurité incendie",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "75250000",
+    "31210000",
+    "79710000"
+   ],
+   "procedure": "Autre procédure (plusieurs étapes)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:764610-2026",
+   "source": "TED",
+   "source_id": "764610-2026",
+   "title": "Prestations de nettoyage et d'aide à la préparation des repas dans les locaux de la Ville et du CMAS de la Chapelle Saint-Luc-.",
+   "buyer": "Commune de La Chapelle-Saint-Luc",
+   "published": "2026-11-04",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/764610-2026",
+   "procedure_id": "fd896d6a-b490-47d2-a68f-123f0ef67a69",
+   "description": "Le présent marché a pour objet l'entretien des Etablissements d'Accueil du Jeune Enfant et des bureaux administratifs du CMAS ainsi que de l'Accueil Collectif des Mineurs 1000 Couleurs de la Ville de la Chapelle Saint-Luc",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de nettoyage et d'aide à la préparation des repas dans les EAJE et bureaux administratifs du CMAS",
+    "Entretien de l'Acceuil Collectif des Mineurs 1000 Couleurs"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:764770-2026",
+   "source": "TED",
+   "source_id": "764770-2026",
+   "title": "Entretien du parc et des espaces verts du parking du château de Chavaniac-Lafayette",
+   "buyer": "Département de la Haute-Loire",
+   "published": "2026-11-04",
+   "deadline": "2026-12-17T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/764770-2026",
+   "procedure_id": "af2dfda1-7676-444f-a982-6563e6f4018a",
+   "description": "L'accord-cadre est \"composite\". Il comprend une partie \"marché ordinaire\" et une partie \"accord-cadre à bons de commande\". Chaque lot fera l'objet d'une attribution séparée. Le présent marché a pour objet l'exécution des prestations afférentes à l'entretien du parc historique et des espaces verts du parking du Château de Chavaniac-Lafayette (Haute-Loire)",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Suivi du patrimoine arboré",
+    "Suivi des espaces verts"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:764951-2026",
+   "source": "TED",
+   "source_id": "764951-2026",
+   "title": "Entretien des espaces verts et de loisirs du Département du Territoire de Belfort",
+   "buyer": "DEPARTEMENT DU TERRITOIRE DE BELFORT",
+   "published": "2026-11-04",
+   "deadline": "2026-11-09T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/764951-2026",
+   "procedure_id": "08eb698c-5053-4367-ac3e-8c3e4a37cf0f",
+   "description": "Entretien des espaces verts et de loisirs du Département du Territoire de Belfort",
+   "departments": [],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "77310000",
+    "77211500"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:765248-2026",
+   "source": "TED",
+   "source_id": "765248-2026",
+   "title": "Accord-cadre pour prestations de nettoyage de fin de chantier",
+   "buyer": "Meldomys",
+   "published": "2026-11-04",
+   "deadline": "2026-12-02T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/765248-2026",
+   "procedure_id": "eb8524e1-92ab-4506-96ec-8abd526785f0",
+   "description": "La présente consultation concerne un accord-cadre pour des prestations de nettoyage de fin de chantier (1 an renouvelable 3 fois) Date prévisionnelle de démarrage des prestations : février 2027",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 478400.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Opérations situées au Nord de la Loire",
+    "Lot n°2 : Opérations situées au Sud de la Loire"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:765654-2026",
+   "source": "TED",
+   "source_id": "765654-2026",
+   "title": "Dévégétalisation des remparts et des contrescarpes du Domaine national du château d’Angers",
+   "buyer": "Centre des monuments nationaux",
+   "published": "2026-11-04",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/765654-2026",
+   "procedure_id": "59f0b608-8705-48d3-a492-3a2b9e8e1987",
+   "description": "La présente consultation a pour objet la dévégétalisation des remparts et des contrescarpes du Domaine national du château d’Angers.",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77312000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 241320.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:765798-2026",
+   "source": "TED",
+   "source_id": "765798-2026",
+   "title": "Marchés de prestations de nettoyage des véhicules et installations de la Semitan - Lot 2",
+   "buyer": "SEMITAN",
+   "published": "2026-11-04",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/765798-2026",
+   "procedure_id": "4e06cd6e-0e88-433a-ac54-372d6886e605",
+   "description": "Le marché a pour objet la réalisation de prestations de nettoyage au siège social de la SEMITAN, situé au 3 rue Bellier à Nantes (44000). Les prestations seront exécutées au sein des bâtiments et espaces suivants : - Bâtiment administratif - Bâtiment social - Espace 500 - Zenbox - Réfectoire - Circulation extérieure et locaux vélos (cheminements piétons aux abords des bâtiments cités ci-dessus, espaces fumeurs…",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90919200",
+    "90911300",
+    "90910000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux administratifs",
+    "Nettoyage espace 400",
+    "Nettoyage des bâtiments de prise de service conducteurs et des sanitaires en ligne",
+    "Nettoyage ateliers et tramways : Dalby, Trocardière et Babinière"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:765930-2026",
+   "source": "TED",
+   "source_id": "765930-2026",
+   "title": "Marchés de prestations de nettoyage des véhicules et installations de la Semitan - Lot 1",
+   "buyer": "SEMITAN",
+   "published": "2026-11-04",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/765930-2026",
+   "procedure_id": "4bbe7fd9-fc7e-4327-9a73-c5a4dc9bf868",
+   "description": "Le marché a pour objet la réalisation de prestations de nettoyage au siège social de la SEMITAN, situé au 3 rue Bellier à Nantes (44000). Les prestations seront exécutées au sein des bâtiments et espaces suivants : - Bâtiment administratif - Bâtiment social - Espace 500 - Zenbox - Réfectoire - Circulation extérieure et locaux vélos (cheminements piétons aux abords des bâtiments cités ci-dessus, espaces fumeurs…",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90919200",
+    "90911300",
+    "90910000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux administratifs",
+    "Nettoyage espace 400",
+    "Nettoyage des Bâtiments de prise de service conducteurs et des sanitaires en ligne",
+    "Nettoyage ateliers et tramways : Dalby, Trocardière et Babinière"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:767209-2026",
+   "source": "TED",
+   "source_id": "767209-2026",
+   "title": "Prestations de nettoyage des Parties communes des résidences du patrimoine de CLAH",
+   "buyer": "SEM Cannes Lerins Aménagement et Habitat (06)",
+   "published": "2026-11-04",
+   "deadline": "2026-11-30T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/767209-2026",
+   "procedure_id": "95ec8bcf-65f1-4ee2-a547-9a58deae18b1",
+   "description": "Les stipulations de la présente consultation concernent les prestations de nettoyage des parties communes des résidences du patrimoine de CLAH. Le marché fait l'objet d'un allotissement. Ainsi il convient de distinguer 5 lots : - Lot 1-Secteur Cannes la Bocca - Lot 2-Secteur Cannes/Le Cannet - Lot 3-Secteur extérieur - Lot 4-Secteur arrières pays - Lot 5-Nettoyage spécifique",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services",
+    "Supplies"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "- Lot 1-Secteur Cannes la Bocca",
+    "- Lot 1-Secteur Cannes/Le Cannet",
+    "- Lot 3-Secteur Exterieur",
+    "- Lot 4-Secteur Arrières pays",
+    "- Lot 5- Nettoyage Specifique"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
   }
  ]
 }
