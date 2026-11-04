@@ -105608,6 +105608,120 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-107381",
+   "source": "BOAMP",
+   "source_id": "26-107381",
+   "title": "Transition écologique et Responsabilité Sociétale des Organisations",
+   "buyer": "ECOLE NATIONALE SUPERIEURE DE SECURITE SOCIALE",
+   "published": "2026-11-04",
+   "deadline": "2026-12-04T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107381",
+   "procedure_id": null,
+   "description": "La présente consultation concerne des prestations de formation sur le thème :Transition écologique et Responsabilité Sociétale des Organisations",
+   "departments": [
+    "42"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107400",
+   "source": "BOAMP",
+   "source_id": "26-107400",
+   "title": "Prestations de formation aux permis poids-lourds et remorques pour le SDIS 05",
+   "buyer": "SDIS 05",
+   "published": "2026-11-04",
+   "deadline": "2026-11-26T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107400",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "05"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107451",
+   "source": "BOAMP",
+   "source_id": "26-107451",
+   "title": "Achat de formations \"code de la route\" et \"Permis Be\" au profit des agents de la Collectivité Territoriale de Guyane",
+   "buyer": "Collectivite Territoriale De Guyane",
+   "published": "2026-11-04",
+   "deadline": "2026-12-01T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107451",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "973"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "80511000",
+    "22454000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Préparation et présentation à l'examen théorique du Code de la route",
+    "2 : Formation pratique et présentation aux épreuves du Permis Be"
+   ],
+   "updated": ""
+  },
+  {
    "id": "ted:764543-2026",
    "source": "TED",
    "source_id": "764543-2026",

@@ -113317,6 +113317,56 @@
    ]
   },
   {
+   "id": "boamp:26-107368",
+   "source": "BOAMP",
+   "source_id": "26-107368",
+   "title": "NETTOYAGE DES LOCAUX",
+   "buyer": "Mairie de Bouchain",
+   "published": "2026-11-04",
+   "deadline": "2026-12-03T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107368",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911000",
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Ecoles",
+    "Salles des sports & blocs sanitaires",
+    "Vitrerie"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
    "id": "ted:764131-2026",
    "source": "TED",
    "source_id": "764131-2026",
