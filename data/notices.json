@@ -105848,6 +105848,424 @@
     "Lot 2 : Conseils d'experts et formations auprès des membres du groupement, tant dans la gestion propre que dans leurs domaines d'intervention au titre des…"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-106885",
+   "source": "BOAMP",
+   "source_id": "26-106885",
+   "title": "Formation obligatoire des assistants maternels agréés du Département de Seine-et-Marne",
+   "buyer": "Département de Seine-et-Marne",
+   "published": "2026-11-05",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-106885",
+   "procedure_id": "e47a7ceb-1f4b-4a63-b4f0-2aaa31ee4877",
+   "description": "",
+   "departments": [
+    "77"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000",
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107072",
+   "source": "BOAMP",
+   "source_id": "26-107072",
+   "title": "Prestations de formations",
+   "buyer": "La Régie Eau du Grand Lyon",
+   "published": "2026-11-05",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107072",
+   "procedure_id": "d44f098a-e46b-4bc6-9861-1a001b877ab9",
+   "description": "Depuis sa création, Eau du Grand Lyon s'attache à mettre en oeuvre une forte politique de maintien et développement des compétences pour ses collaborateurs, en proposant des actions de formation collectives et individuelles qui soient au plus proche des actualités, projets et axes d'évolution de l'activité et des équipes de la Régie. Ceci permet notamment à chacune et chacun d'acquérir ou développer une expertise et…",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80511000",
+    "80533100",
+    "79111000",
+    "80330000",
+    "80411200",
+    "80510000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 5040000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formation sur le management",
+    "Formations IT et IA",
+    "Formations sur le Droit, la Commande publique, la gestion financière et foncière",
+    "Formations en matière de maintenance et d'intervention techniques",
+    "Formations Santé Sécurité au Travail et Qualité Sécurité Environnement",
+    "Formations sur le développement personnel, la communication, la relation usagers et les langues",
+    "Formations sur la Conduite et le pilotage d'engins",
+    "Formations sur les Métiers de l'Eau"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107149",
+   "source": "BOAMP",
+   "source_id": "26-107149",
+   "title": "Formation professionnelle 3 lots o Lot 1 : Stages de récupération partielle des points du permis o Lot 2 : Formation à la maintenance des bus Mercedes o Lot 3 : Formation sécurité des p",
+   "buyer": "Tisséo Voyageurs",
+   "published": "2026-11-05",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107149",
+   "procedure_id": "d67f8817-5345-45ce-b487-565d3044d024",
+   "description": "Cette consultation a pour objet la formation professionnelle scindée en 3 lots. Accord cadre mono attributaire à bons de commande avec seuil maximum de commandes en application des articles L2125-1 1°, R. 2162-1 à R.2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Chaque lot constituant un accord-cadre conclu pour une période initiale de 1 an : Lots 1 - 2 : à compter du 01/01/2027 ou de sa date de…",
+   "departments": [
+    "31"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "80511000",
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-101926"
+   ],
+   "summary": "",
+   "lots": [
+    "Stages de récupération partielle des points du permis",
+    "Formation à la maintenance des bus Mercedes",
+    "Formation sécurité des personnes"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107182",
+   "source": "BOAMP",
+   "source_id": "26-107182",
+   "title": "Formations dans le domaine juridique",
+   "buyer": "SPM-DSAF",
+   "published": "2026-11-05",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107182",
+   "procedure_id": "c98396b5-ffe2-4261-90e1-f9a62a84717b",
+   "description": "La présente consultation a pour objet la réalisation de prestations de formation dans le domaine juridique pour les services et entités relevant du périmètre budgétaire des services du Premier ministre. La présente procédure est une relance qui fait suite à une déclaration sans suite d’une première consultation (avis d’appel public à la concurrence paru au BOAMP sous la référence 26-85798 et au JOUE sous la…",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107661",
+   "source": "BOAMP",
+   "source_id": "26-107661",
+   "title": "Formations à la gestion des risques associés aux soins pour le compte de l’Assistance Publique - Hôpitaux de Paris.",
+   "buyer": "SMMPS",
+   "published": "2026-11-05",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107661",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-95557"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:768649-2026",
+   "source": "TED",
+   "source_id": "768649-2026",
+   "title": "Formation obligatoire des assistants maternels agréés du Département de Seine-et-Marne",
+   "buyer": "Département de Seine-et-Marne",
+   "published": "2026-11-05",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/768649-2026",
+   "procedure_id": "e47a7ceb-1f4b-4a63-b4f0-2aaa31ee4877",
+   "description": "Formation obligatoire des assistants maternels agréés du Département de Seine-et-Marne",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000",
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:768691-2026",
+   "source": "TED",
+   "source_id": "768691-2026",
+   "title": "Prestations de formations dans le domaine juridique au profit des entités relevant du périmètre budgétaire des services du Premier ministre",
+   "buyer": "DSAF",
+   "published": "2026-11-05",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/768691-2026",
+   "procedure_id": "c98396b5-ffe2-4261-90e1-f9a62a84717b",
+   "description": "La présente consultation a pour objet la réalisation de prestations de formation dans le domaine juridique pour les services et entités relevant du périmètre budgétaire des services du Premier ministre. La présente procédure est une relance qui fait suite à une déclaration sans suite d’une première consultation (avis d’appel public à la concurrence paru au BOAMP sous la référence 26-85798 et au JOUE sous la…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:769234-2026",
+   "source": "TED",
+   "source_id": "769234-2026",
+   "title": "Formation professionnelle 3 lots o Lot 1 : Stages de récupération partielle des points du permis o Lot 2 : Formation à la maintenance des bus Mercedes o Lot 3 : Formation sécurité des personnes (Formation Sauveteur Secouriste du travail, Formation Equipiers Première Intervention Incendie)",
+   "buyer": "Tisséo Voyageurs",
+   "published": "2026-11-05",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/769234-2026",
+   "procedure_id": "d67f8817-5345-45ce-b487-565d3044d024",
+   "description": "Cette consultation a pour objet la formation professionnelle scindée en 3 lots. Accord cadre mono attributaire à bons de commande avec seuil maximum de commandes en application des articles L2125-1 1°, R. 2162-1 à R.2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Chaque lot constituant un accord-cadre conclu pour une période initiale de 1 an : Lots 1 - 2 : à compter du 01/01/2027 ou de sa date de…",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "80511000",
+    "80510000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Stages de récupération partielle des points du permis",
+    "Formation à la maintenance des bus Mercedes",
+    "Formation sécurité des personnes"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:769297-2026",
+   "source": "TED",
+   "source_id": "769297-2026",
+   "title": "Prestation d'externalisation de la fonction de responsable de la sécurité des systèmes d'information (RSSI)",
+   "buyer": "OPH Rives de Seine Habitat",
+   "published": "2026-11-05",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/769297-2026",
+   "procedure_id": "3d51f73c-7d95-407c-97b6-6cc1f4b449d4",
+   "description": "Les prestations comprennent notamment : la gouvernance de la sécurité des systèmes d'information, la conformité réglementaire, la sécurité opérationnelle et la gestion des incidents, la sensibilisation des utilisateurs, le suivi des audits et tests de sécurité, ainsi que le pilotage, le reporting et la comitologie de la fonction RSSI",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "72220000",
+    "80533100",
+    "72810000",
+    "79417000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 260000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:769618-2026",
+   "source": "TED",
+   "source_id": "769618-2026",
+   "title": "Prestations de formations",
+   "buyer": "La Régie Eau du Grand Lyon",
+   "published": "2026-11-05",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/769618-2026",
+   "procedure_id": "d44f098a-e46b-4bc6-9861-1a001b877ab9",
+   "description": "Depuis sa création, Eau du Grand Lyon s'attache à mettre en oeuvre une forte politique de maintien et développement des compétences pour ses collaborateurs, en proposant des actions de formation collectives et individuelles qui soient au plus proche des actualités, projets et axes d'évolution de l'activité et des équipes de la Régie. Ceci permet notamment à chacune et chacun d'acquérir ou développer une expertise et…",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80511000",
+    "80533100",
+    "79111000",
+    "80330000",
+    "80411200",
+    "80510000"
+   ],
+   "procedure": "Procédure restreinte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 5040000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formation sur le management",
+    "Formations IT et IA",
+    "Formations sur le Droit, la Commande publique, la gestion financière et foncière",
+    "Formations en matière de maintenance et d'intervention techniques",
+    "Formations Santé Sécurité au Travail et Qualité Sécurité Environnement",
+    "Formations sur le développement personnel, la communication, la relation usagers et les langues",
+    "Formations sur la Conduite et le pilotage d'engins",
+    "Formations sur les Métiers de l'Eau"
+   ],
+   "updated": ""
   }
  ]
 }
