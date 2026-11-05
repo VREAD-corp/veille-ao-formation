@@ -114571,6 +114571,96 @@
    ]
   },
   {
+   "id": "boamp:26-107848",
+   "source": "BOAMP",
+   "source_id": "26-107848",
+   "title": "Prestations de nettoyage des locaux et des vitres des différents bâtiments du port de Saint-Vaast-la-Hougue",
+   "buyer": "Spl Exploitation Portuaire de la Manche",
+   "published": "2026-11-05",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107848",
+   "procedure_id": null,
+   "description": "Marché d'un an renouvelable 3 fois",
+   "departments": [
+    "50"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "90911000",
+    "90919200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Prestations de nettoyage des locaux administratifs, techniques et sanitaires et fourniture de consommables. Prestations de nettoyage des locaux…",
+    "2 : Prestations de nettoyage des vitreries des locaux administratifs et techniques. Prestations de nettoyage des vitreries des locaux administratifs et…"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-107922",
+   "source": "BOAMP",
+   "source_id": "26-107922",
+   "title": "Accord-cadre de services d'entretien des espaces verts pour la commune de Cernay-la-Ville (78)",
+   "buyer": "Commune de Cernay-la-Ville",
+   "published": "2026-11-05",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107922",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
    "id": "ted:767964-2026",
    "source": "TED",
    "source_id": "767964-2026",
