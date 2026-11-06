@@ -115225,6 +115225,1530 @@
     "nettoyage"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-107369",
+   "source": "BOAMP",
+   "source_id": "26-107369",
+   "title": "Entretien des espaces verts publics de la Ville de Château-Thierry-.",
+   "buyer": "Marchés Publics",
+   "published": "2026-11-06",
+   "deadline": "2026-12-21T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107369",
+   "procedure_id": "e1fdd9fe-cf15-4fd2-ba64-57b140869f8e",
+   "description": "Le présent accord-cadre a pour objet la réalisation, au fur et à mesure des besoins de la Ville de Château-Thierry, de prestations d’entretien des espaces verts et de travaux d’arboriculture sur les sites relevant de son patrimoine. Les prestations sont réparties en deux lots distincts, définis à l’article 4 du CCAP.",
+   "departments": [
+    "02"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77340000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces herbacés",
+    "Travaux d'arboriculture et entretien du patrimoine arboré"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-107392",
+   "source": "BOAMP",
+   "source_id": "26-107392",
+   "title": "Nettoyage des parcs de stationnement Rotonde et Rambot à Aix-en-Provence",
+   "buyer": "SEMEPA",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107392",
+   "procedure_id": "8ce47101-1ea5-488f-9bb3-6e693c7a33ee",
+   "description": "Le présent marché a pour objet les prestations de nettoyage des Parkings Rotonde et Rambot situées à Aix-en-Provence, dans le but d'en préserver l'aspect et l'hygiène tout en assurant le confort de toute personne reçue dans l'enceinte de l'établissement.",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90914000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-107430",
+   "source": "BOAMP",
+   "source_id": "26-107430",
+   "title": "Prestations de gardiennage et de surveillance du Centre Hospitalier Spécialisé de l’Yonne",
+   "buyer": "CENTRE HOSPITALIER D'AUXERRE",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107430",
+   "procedure_id": "2ea6d1aa-6fd8-4c4f-8a89-1269536544cb",
+   "description": "Cf. Documents de la Consultation",
+   "departments": [
+    "89"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "79713000",
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de gardiennage et de surveillance du site principal du CHSY à Auxerre",
+    "Prestations de gardiennage et de surveillance du site secondaire du CHSY, l'Unité Henri Ey, à Sens"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "274",
+    "331"
+   ]
+  },
+  {
+   "id": "boamp:26-107460",
+   "source": "BOAMP",
+   "source_id": "26-107460",
+   "title": "Prestations de nettoyages et services associés",
+   "buyer": "Moulins Communauté",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107460",
+   "procedure_id": "75397459-cc1b-42e5-9ff0-d68b30bc47cf",
+   "description": "La présente consultation concerne un marché de services ayant pour objet le nettoyage et l'entretien des locaux de Moulins Communauté, passée sous la forme d'une procédure formalisée.",
+   "departments": [
+    "03"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "98341110"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Sites sur Moulins et Avermes",
+    "Sites sur Lurcy-Lévis"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-107480",
+   "source": "BOAMP",
+   "source_id": "26-107480",
+   "title": "Prestations de gardiennage et de surveillance des équipements sportifs et de loisirs de Grand Bourg Agglomération",
+   "buyer": "Grand Bourg Agglomération - Plaine Tonique",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107480",
+   "procedure_id": "f37cff65-1b20-4614-8323-ca76d73b1916",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Modalités de financement : budget de GBA Les montants sont identiques pour la période initiale et les périodes de reconduction : Lot n°1 : montant minimum : 100 000 euros H.T - montant maximum : 230 000 euros H.T ; Lot n°2 : montant minimum : 50 000 euros H.T - montant maximum : 120 000 euros H.T",
+   "departments": [
+    "01"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestation de gardiennage et de surveillance de la base de loisirs, du camping, de la piscine de la Plaine Tonique et de son lac situés sur la commune de…",
+    "Sécurisation des équipements sportifs et culturels communautaires situés sur le territoire de la ville de Bourg-en-Bresse"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-107493",
+   "source": "BOAMP",
+   "source_id": "26-107493",
+   "title": "Prestations de nettoyage pour les sites de Centrale Méditerranée.",
+   "buyer": "Ecole Centrale de Marseille",
+   "published": "2026-11-06",
+   "deadline": "2026-12-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107493",
+   "procedure_id": "1288bd02-7c1d-4834-9241-e58837b914cd",
+   "description": "",
+   "departments": [
+    "06",
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-105220"
+   ],
+   "summary": "",
+   "lots": [
+    "LOT 1 : SITE DE CHATEAU GOMBERT",
+    "LOT 2 : SITE DE SAINT-JEROME",
+    "LOT 3 : SITE DE NICE"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-107545",
+   "source": "BOAMP",
+   "source_id": "26-107545",
+   "title": "Prestations de nettoyage et remise en état après travaux",
+   "buyer": "Ville de Nîmes (30)",
+   "published": "2026-11-06",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107545",
+   "procedure_id": "457c6a4e-f438-4bc8-8791-a4653a5a10d3",
+   "description": "Prestations de nettoyage et de remise en état après travaux effectués dans les bâtiments municipaux de la Ville de Nîmes",
+   "departments": [
+    "30"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-107568",
+   "source": "BOAMP",
+   "source_id": "26-107568",
+   "title": "Accord-cadre à bons de commandes pour l'entretien des espaces verts communautaires de Grand Lieu Communauté",
+   "buyer": "Grand Lieu Communauté",
+   "published": "2026-11-06",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107568",
+   "procedure_id": "042f8b0a-e9fe-463c-aeea-b7bce19b8181",
+   "description": "",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Bâtiments",
+    "Nord GLC",
+    "Ouest GLC",
+    "Est GLC"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-107580",
+   "source": "BOAMP",
+   "source_id": "26-107580",
+   "title": "Nettoyage des locaux du site de l'abattoir de LIMOGES",
+   "buyer": "Abattoir de Limoges Metropole",
+   "published": "2026-11-06",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107580",
+   "procedure_id": "aeac4352-d661-4169-b901-57929327ebf3",
+   "description": "Entretien et nettoyage des locaux du site de l'abattoir de LIMOGES METROPOLE",
+   "departments": [
+    "87"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-107644",
+   "source": "BOAMP",
+   "source_id": "26-107644",
+   "title": "Entretien des espaces verts de la zone d'activités Ouest Park",
+   "buyer": "SMAPAD",
+   "published": "2026-11-06",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107644",
+   "procedure_id": "0fe51409-4e1f-4cfb-8936-9b3d1d24e178",
+   "description": "Marché alloti dont un lot réservé",
+   "departments": [
+    "72"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 295000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Espaces verts",
+    "Fosses",
+    "Poubelles et détritus"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-107680",
+   "source": "BOAMP",
+   "source_id": "26-107680",
+   "title": "Marché de prestations d’entretien des espaces verts sur le site d’Inria Siège",
+   "buyer": "Inria - Service achats marchés",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107680",
+   "procedure_id": "5a204c85-eb0e-4c5f-a839-d26585982c5b",
+   "description": "Le présent marché a pour objet des prestations d’entretien des espaces verts sur le site d’Inria Siège à Rocquencourt.",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-107690",
+   "source": "BOAMP",
+   "source_id": "26-107690",
+   "title": "Entretien et nettoyage des locaux et vitrerie des écoles, crèches et équipements sportifs",
+   "buyer": "Ville de Maubeuge",
+   "published": "2026-11-06",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107690",
+   "procedure_id": "01bbbcd7-8466-4db1-adc7-1eeabdf340c9",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911000",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Écoles élémentaires",
+    "Nettoyage des crèches et structures petite enfance",
+    "Nettoyage des salles de sport et gymnases"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-107694",
+   "source": "BOAMP",
+   "source_id": "26-107694",
+   "title": "ACCORD-CADRE A BON DE COMMANDE DE SERVICES ENTRETIEN PAYSAGER DES ESPACES PUBLICS DE LA COLLECTIVITE DE SAINT-MARTIN",
+   "buyer": "Collectivité de Saint Martin (978)",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107694",
+   "procedure_id": "18725e46-eca3-42dd-8fda-f3b4b3507853",
+   "description": "",
+   "departments": [
+    "978"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77000000",
+    "77211500",
+    "77211400",
+    "77211300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "FAUCHAGE ET DEBROUSSAILLAGE DES ACCOTEMENTS",
+    "ELAGAGE, TAILLE ET ABATTAGE"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "404",
+    "116",
+    "365",
+    "240",
+    "348"
+   ]
+  },
+  {
+   "id": "boamp:26-107717",
+   "source": "BOAMP",
+   "source_id": "26-107717",
+   "title": "Prestations de sécurité humaine au profit de l’Université de Bordeaux et ses partenaires",
+   "buyer": "Université de Bordeaux",
+   "published": "2026-11-06",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107717",
+   "procedure_id": "36b9195c-5ca7-4462-ab48-809074aea5fa",
+   "description": "La présente consultation a pour objet la conclusion d’un accord-cadre pour les prestations de sécurité humaine au profit de l’université de Bordeaux et ses partenaires.",
+   "departments": [
+    "24",
+    "33",
+    "40",
+    "47",
+    "64"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "79713000",
+    "79710000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-107735",
+   "source": "BOAMP",
+   "source_id": "26-107735",
+   "title": "PRESTATIONS DE NETTOYAGE DES LOCAUX MUNICIPAUX",
+   "buyer": "COMMUNE DE CHANTILLY",
+   "published": "2026-11-06",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107735",
+   "procedure_id": "7ef707f4-7082-41f5-89d9-04d6450114e9",
+   "description": "L'objet du présent marché concerne les prestations de nettoyage des vitres et des moquettes des locaux municipaux, le nettoyage de l'ascenseur du parking de Manse, le nettoyage des sanitaires de la gare, et les prestations de nettoyage des bâtiments municipaux, l'exécution comprend le matériel, l'équipement et les produits nécessaires à la bonne réalisation des prestations",
+   "departments": [
+    "60"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "lot 1 : nettoyage des vitres et des moquettes",
+    "lot 2 : nettoyage des bâtiments publics",
+    "lot 3 : nettoyage des bâtiments sportifs"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "ted:772043-2026",
+   "source": "TED",
+   "source_id": "772043-2026",
+   "title": "Entretien des espaces verts publics de la Ville de Château-Thierry-.",
+   "buyer": "Commune de Château-Thierry",
+   "published": "2026-11-06",
+   "deadline": "2026-12-21T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/772043-2026",
+   "procedure_id": "e1fdd9fe-cf15-4fd2-ba64-57b140869f8e",
+   "description": "Le présent accord-cadre a pour objet la réalisation, au fur et à mesure des besoins de la Ville de Château-Thierry, de prestations d’entretien des espaces verts et de travaux d’arboriculture sur les sites relevant de son patrimoine. Les prestations sont réparties en deux lots distincts, définis à l’article 4 du CCAP.",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77340000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces herbacés",
+    "Travaux d'arboriculture et entretien du patrimoine arboré"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:772302-2026",
+   "source": "TED",
+   "source_id": "772302-2026",
+   "title": "Prestations de gardiennage et de surveillance des équipements sportifs et de loisirs de Grand Bourg Agglomération",
+   "buyer": "Grand Bourg Agglomération - Plaine Tonique",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/772302-2026",
+   "procedure_id": "f37cff65-1b20-4614-8323-ca76d73b1916",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Modalités de financement : budget de GBA Les montants sont identiques pour la période initiale et les périodes de reconduction : Lot n°1 : montant minimum : 100 000 euros H.T - montant maximum : 230 000 euros H.T ; Lot n°2 : montant minimum : 50 000 euros H.T - montant maximum : 120 000 euros H.T",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestation de gardiennage et de surveillance de la base de loisirs, du camping, de la piscine de la Plaine Tonique et de son lac situés sur la commune de…",
+    "Sécurisation des équipements sportifs et culturels communautaires situés sur le territoire de la ville de Bourg-en-Bresse"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:772322-2026",
+   "source": "TED",
+   "source_id": "772322-2026",
+   "title": "Marché pour l'entretien des espaces verts",
+   "buyer": "Logeo Seine (76)",
+   "published": "2026-11-06",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/772322-2026",
+   "procedure_id": "440eb8e8-fc78-49a6-97fb-1b89dfa5d652",
+   "description": "Marché pour l'entretien des espaces verts",
+   "departments": [],
+   "regions": [
+    "Normandie",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Direction Territoriale Le Havre",
+    "Direction Territoriale Rouen",
+    "Direction Territoriale Ile de France",
+    "Direction Territoriale Le Havre - Marché réservé",
+    "Direction Territoriale Rouen - Marché réservé"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:772552-2026",
+   "source": "TED",
+   "source_id": "772552-2026",
+   "title": "Nettoyage et entretien des parties communes intérieures de l'ensemble du patrimoine et des loges de La Guyanaise d'HLM",
+   "buyer": "LA GUYANAISE D'HLM",
+   "published": "2026-11-06",
+   "deadline": "2026-11-17T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/772552-2026",
+   "procedure_id": "77a641f8-a942-472f-95f0-1c18b62662ef",
+   "description": "Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires. Le marché recouvre les prestations suivantes : - Nettoyage et entretien des entrées d'immeubles, - Nettoyage et entretien des halls d'entrée, - Nettoyage et entretien des cages d'escalier, paliers, coursives, escaliers de secours, - Nettoyage des cabines d'ascenseurs, - Nettoyage des parkings…",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Agence CACL - secteur 1",
+    "Agence CACL - secteur 2",
+    "Agence CACL - secteur 3"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:772650-2026",
+   "source": "TED",
+   "source_id": "772650-2026",
+   "title": "Nettoyage des parties communes (prestations permanentes et ponctuelles) et retrait des encombrants des ensembles immobiliers de la direction Auvergne Rhône-Alpes de CDC HABITAT - Relance des lots 1, 2, 4, 6, 7, 16 et 23",
+   "buyer": "GIE DIR AURA - CDC HABITAT",
+   "published": "2026-11-06",
+   "deadline": "2026-10-29T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/772650-2026",
+   "procedure_id": "0c516deb-bb6a-4801-8975-2c4f40f3c637",
+   "description": "Nettoyage des parties communes (prestations permanentes et ponctuelles) et retrait des encombrants des ensembles immobiliers de la direction Auvergne Rhône-Alpes de CDC HABITAT - Relance des lots 1, 2, 4, 6, 7, 16 et 23",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur RHONE NORD.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur AIN SUD.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur LYON CENTRE.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur SUD METROPOLE.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur VILLEURBANNE VAULX.",
+    "Contrat de nettoyage prestations permanentes, ponctuelles, retrait des encombrants pour l'agence de Lyon pour les résidences du secteur COTE VERCORS.",
+    "Contrat de nettoyage prestations ponctuelles, pour l'agence de Lyon pour les résidences du secteur LYON CENTRE VILLEURBANNE VAULX."
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:772776-2026",
+   "source": "TED",
+   "source_id": "772776-2026",
+   "title": "Entretien et nettoyage des locaux et vitrerie des écoles, crèches et équipements sportifs",
+   "buyer": "Ville de Maubeuge",
+   "published": "2026-11-06",
+   "deadline": "2026-11-19T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/772776-2026",
+   "procedure_id": "01bbbcd7-8466-4db1-adc7-1eeabdf340c9",
+   "description": "Entretien et nettoyage des locaux et vitrerie des écoles, crèches et équipements sportifs",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911000",
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Écoles élémentaires",
+    "Nettoyage des crèches et structures petite enfance",
+    "Nettoyage des salles de sport et gymnases"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:773056-2026",
+   "source": "TED",
+   "source_id": "773056-2026",
+   "title": "Prestations de nettoyage pour les sites de Centrale Méditerranée.",
+   "buyer": "Ecole Centrale de Marseille",
+   "published": "2026-11-06",
+   "deadline": "2026-12-10T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/773056-2026",
+   "procedure_id": "1288bd02-7c1d-4834-9241-e58837b914cd",
+   "description": "Prestations de nettoyage pour les sites de Centrale Méditerranée.",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1 : SITE DE CHATEAU GOMBERT",
+    "LOT 2 : SITE DE SAINT-JEROME",
+    "LOT 3 : SITE DE NICE"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:773099-2026",
+   "source": "TED",
+   "source_id": "773099-2026",
+   "title": "Entretien des espaces verts de la zone d'activités Ouest Park",
+   "buyer": "SMAPAD",
+   "published": "2026-11-06",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/773099-2026",
+   "procedure_id": "0fe51409-4e1f-4cfb-8936-9b3d1d24e178",
+   "description": "Marché alloti dont un lot réservé",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 295000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Espaces verts",
+    "Fosses",
+    "Poubelles et détritus"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:773374-2026",
+   "source": "TED",
+   "source_id": "773374-2026",
+   "title": "ACCORD-CADRE A BONS DE COMMANDE POUR LA REALISATION DE PRESTATIONS D'ENTRETIEN ET D'AMENAGEMENT DES ESPACES VERTS - MARCHES RESERVES",
+   "buyer": "CLESENCE",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T10:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/773374-2026",
+   "procedure_id": "b2b3f18c-6e16-4b96-9056-c4c60c519306",
+   "description": "ACCORD-CADRE A BONS DE COMMANDE POUR LA REALISATION DE PRESTATIONS D'ENTRETIEN ET D'AMENAGEMENT DES ESPACES VERTS - MARCHES RESERVES",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien et aménagement des espaces verts - Agence de Cambrai",
+    "Entretien et aménagement des espaces verts - Agence de Saint-Quentin Secteur 2",
+    "Entretien et aménagement des espaces verts - Agence de Château-Thierry"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:773459-2026",
+   "source": "TED",
+   "source_id": "773459-2026",
+   "title": "Nettoyage des locaux du site de l'abattoir de LIMOGES",
+   "buyer": "Abattoir de Limoges Metropole",
+   "published": "2026-11-06",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/773459-2026",
+   "procedure_id": "aeac4352-d661-4169-b901-57929327ebf3",
+   "description": "Entretien et nettoyage des locaux du site de l'abattoir de LIMOGES METROPOLE",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:773768-2026",
+   "source": "TED",
+   "source_id": "773768-2026",
+   "title": "Prestations de nettoyage et remise en état après travaux",
+   "buyer": "Ville de Nîmes (30)",
+   "published": "2026-11-06",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/773768-2026",
+   "procedure_id": "457c6a4e-f438-4bc8-8791-a4653a5a10d3",
+   "description": "Prestations de nettoyage et de remise en état après travaux effectués dans les bâtiments municipaux de la Ville de Nîmes",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:773814-2026",
+   "source": "TED",
+   "source_id": "773814-2026",
+   "title": "Prestations de gardiennage et de surveillance du Centre Hospitalier Spécialisé de l’Yonne",
+   "buyer": "Centre Hospitalier d'Auxerre - Etablissement Support du GHT UNYON",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/773814-2026",
+   "procedure_id": "2ea6d1aa-6fd8-4c4f-8a89-1269536544cb",
+   "description": "Cf. Documents de la Consultation",
+   "departments": [],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "79713000",
+    "79714000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de gardiennage et de surveillance du site principal du CHSY à Auxerre",
+    "Prestations de gardiennage et de surveillance du site secondaire du CHSY, l'Unité Henri Ey, à Sens"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:773928-2026",
+   "source": "TED",
+   "source_id": "773928-2026",
+   "title": "Prestation d'entretien des espaces verts sur le site d’Inria Siège",
+   "buyer": "Inria - Service achats marchés",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/773928-2026",
+   "procedure_id": "5a204c85-eb0e-4c5f-a839-d26585982c5b",
+   "description": "Le présent marché a pour objet des prestations d’entretien des espaces verts sur le site d’Inria Siège à Rocquencourt.",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:774036-2026",
+   "source": "TED",
+   "source_id": "774036-2026",
+   "title": "Prestations de sécurité humaine au profit de l’Université de Bordeaux et ses partenaires",
+   "buyer": "Université de Bordeaux, Institut d'Études Politiques de Bordeaux",
+   "published": "2026-11-06",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/774036-2026",
+   "procedure_id": "36b9195c-5ca7-4462-ab48-809074aea5fa",
+   "description": "La présente consultation a pour objet la conclusion d’un accord-cadre pour les prestations de sécurité humaine au profit de l’université de Bordeaux et ses partenaires.",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "79713000",
+    "79710000"
+   ],
+   "procedure": "Procédure restreinte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:774256-2026",
+   "source": "TED",
+   "source_id": "774256-2026",
+   "title": "Nettoyage des parcs de stationnement Rotonde et Rambot à Aix-en-Provence",
+   "buyer": "SEMEPA",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/774256-2026",
+   "procedure_id": "8ce47101-1ea5-488f-9bb3-6e693c7a33ee",
+   "description": "Le présent marché a pour objet les prestations de nettoyage des Parkings Rotonde et Rambot situées à Aix-en-Provence, dans le but d'en préserver l'aspect et l'hygiène tout en assurant le confort de toute personne reçue dans l'enceinte de l'établissement.",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90914000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1400000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:774301-2026",
+   "source": "TED",
+   "source_id": "774301-2026",
+   "title": "PRESTATIONS DE NETTOYAGE DES LOCAUX MUNICIPAUX",
+   "buyer": "COMMUNE DE CHANTILLY",
+   "published": "2026-11-06",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/774301-2026",
+   "procedure_id": "7ef707f4-7082-41f5-89d9-04d6450114e9",
+   "description": "L'objet du présent marché concerne les prestations de nettoyage des vitres et des moquettes des locaux municipaux, le nettoyage de l'ascenseur du parking de Manse, le nettoyage des sanitaires de la gare, et les prestations de nettoyage des bâtiments municipaux, l'exécution comprend le matériel, l'équipement et les produits nécessaires à la bonne réalisation des prestations",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "lot 1 : nettoyage des vitres et des moquettes",
+    "lot 2 : nettoyage des bâtiments publics",
+    "lot 3 : nettoyage des bâtiments sportifs"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:774615-2026",
+   "source": "TED",
+   "source_id": "774615-2026",
+   "title": "ACCORD-CADRE A BON DE COMMANDE DE SERVICES ENTRETIEN PAYSAGER DES ESPACES PUBLICS DE LA COLLECTIVITE DE SAINT-MARTIN",
+   "buyer": "Collectivité de Saint Martin (978)",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/774615-2026",
+   "procedure_id": "18725e46-eca3-42dd-8fda-f3b4b3507853",
+   "description": "ACCORD-CADRE A BON DE COMMANDE DE SERVICES ENTRETIEN PAYSAGER DES ESPACES PUBLICS DE LA COLLECTIVITE DE SAINT-MARTIN",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77000000",
+    "77211500",
+    "77211400",
+    "77211300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "FAUCHAGE ET DEBROUSSAILLAGE DES ACCOTEMENTS",
+    "ELAGAGE, TAILLE ET ABATTAGE"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:774708-2026",
+   "source": "TED",
+   "source_id": "774708-2026",
+   "title": "Accord-cadre à bons de commandes pour l'entretien des espaces verts communautaires de Grand Lieu Communauté",
+   "buyer": "Grand Lieu Communauté",
+   "published": "2026-11-06",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/774708-2026",
+   "procedure_id": "042f8b0a-e9fe-463c-aeea-b7bce19b8181",
+   "description": "Accord-cadre à bons de commandes pour l'entretien des espaces verts communautaires de Grand Lieu Communauté",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Bâtiments",
+    "Nord GLC",
+    "Ouest GLC",
+    "Est GLC"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:774852-2026",
+   "source": "TED",
+   "source_id": "774852-2026",
+   "title": "ENTRETIEN DES ESPACES VERTS DU PATRIMOINE MOSELIS - ENTRETIEN COURANT ET GESTION DIFFÉRENCIÉE",
+   "buyer": "MOSELIS",
+   "published": "2026-11-06",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/774852-2026",
+   "procedure_id": "18c78ac1-3255-4602-9c93-47ac920cbfb3",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. ENTRETIEN DES ESPACES VERTS DU PATRIMOINE…",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 5966000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "secteur METZ",
+    "ROMBAS",
+    "MORHANGE",
+    "SARREBOURG",
+    "CREUTZWALD",
+    "FORBACH"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
   }
  ]
 }

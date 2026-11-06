@@ -106266,6 +106266,328 @@
     "Formations sur les Métiers de l'Eau"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-107408",
+   "source": "BOAMP",
+   "source_id": "26-107408",
+   "title": "Prestations d'animation d'ateliers sociolinguistiques pour les besoins de la commune de Ris-Orangis (91130)",
+   "buyer": "Commune de Ris Orangis",
+   "published": "2026-11-06",
+   "deadline": "2026-11-26T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107408",
+   "procedure_id": "0baff0d7-9e0e-4c13-bd32-3baf95bbb552",
+   "description": "L'objectif est de consolider les compétences linguistiques des apprenants, de favoriser leur autonomie, de faciliter leur insertion sociale et professionnelle et de contribuer, selon leurs besoins, à la préparation aux certifications en français. Les ateliers s'adressent aux habitants de Ris-Orangis âgés de 18 à 65 ans, titulaires ou non d'un CIR, rencontrant des difficultés dans la maîtrise de la langue française…",
+   "departments": [
+    "91"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80510000",
+    "80580000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107586",
+   "source": "BOAMP",
+   "source_id": "26-107586",
+   "title": "FORMATION (INITIALE, CONTINUE ET PREMIERS SECOURS) DES ACCUEILLANTS FAMILIAUX, DES ASSISTANTS FAMILIAUX ET DES ASSISTANTS MATERNELS DU DÉPARTEMENT DE LA SARTHE. Relance Lot 5",
+   "buyer": "Département de la Sarthe",
+   "published": "2026-11-06",
+   "deadline": "2026-11-16T11:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107586",
+   "procedure_id": "a11cd4ff-14e5-4713-83bd-18630d6bb20e",
+   "description": "La présente consultation concerne la relance du lot n°5, initialement intégré à la consultation relative à « La formation (initiale, continue et premiers secours) des accueillants familiaux, des assistants familiaux et des assistants maternels du département de la Sarthe », à la suite d'une redéfinition du besoin de l'acheteur. Les prestations feront l'objet d'un accord-cadre mono-attributaire sans minimum avec…",
+   "departments": [
+    "72"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "80500000",
+    "79632000",
+    "80562000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 128000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-102979"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107643",
+   "source": "BOAMP",
+   "source_id": "26-107643",
+   "title": "ACTIONS DE FORMATIONS ET D'INSERTION PROFESSIONNELLE DU PLAN LOCAL POUR L'INSERTION ET L'EMPLOI (PLIE)",
+   "buyer": "CA La Porte du Hainaut",
+   "published": "2026-11-06",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107643",
+   "procedure_id": "0770dd43-ca2d-4d30-811d-ff6a4be44afc",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Remobilisation et développement personnel",
+    "Orientation, projet professionnel et insertion vers l'emploi",
+    "Sanitaire et social",
+    "Accompagnement des jeunes de 16 à17 ans dans le parcours de remobilisation et d'orientation professionnelle",
+    "Transport et logistique",
+    "Travail des métaux",
+    "Construction, bâtiment et travaux publics",
+    "Hygiène et nettoyage industriel",
+    "Sécurité, incendie et surveillance"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-108101",
+   "source": "BOAMP",
+   "source_id": "26-108101",
+   "title": "Formations aux gestes de premiers secours",
+   "buyer": "Eurométropole de Strasbourg",
+   "published": "2026-11-06",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108101",
+   "procedure_id": null,
+   "description": "Montant HT minimum pour la durée totale du contrat : 18500.0 Euro(s) H.T. L'accord-cadre sera exécuté par l'émission de bons de commande. Le contrat est susceptible d'être reconduit dans les conditions du cahier des charges. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Les montants estimatifs sont indicatifs et…",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80562000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-108168",
+   "source": "BOAMP",
+   "source_id": "26-108168",
+   "title": "Formations aux gestes de premiers secours",
+   "buyer": "Eurométropole de Strasbourg",
+   "published": "2026-11-06",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108168",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "80562000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-108101"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:771775-2026",
+   "source": "TED",
+   "source_id": "771775-2026",
+   "title": "ACTIONS DE FORMATIONS ET D'INSERTION PROFESSIONNELLE DU PLAN LOCAL POUR L'INSERTION ET L'EMPLOI (PLIE)",
+   "buyer": "CA La Porte du Hainaut",
+   "published": "2026-11-06",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/771775-2026",
+   "procedure_id": "0770dd43-ca2d-4d30-811d-ff6a4be44afc",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Remobilisation et développement personnel",
+    "Orientation, projet professionnel et insertion vers l'emploi",
+    "Sanitaire et social",
+    "Accompagnement des jeunes de 16 à17 ans dans le parcours de remobilisation et d'orientation professionnelle",
+    "Transport et logistique",
+    "Travail des métaux",
+    "Construction, bâtiment et travaux publics",
+    "Hygiène et nettoyage industriel",
+    "Sécurité, incendie et surveillance"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:772453-2026",
+   "source": "TED",
+   "source_id": "772453-2026",
+   "title": "FORMATION (INITIALE, CONTINUE ET PREMIERS SECOURS) DES ACCUEILLANTS FAMILIAUX, DES ASSISTANTS FAMILIAUX ET DES ASSISTANTS MATERNELS DU DÉPARTEMENT DE LA SARTHE. Relance Lot 5",
+   "buyer": "Département de la Sarthe",
+   "published": "2026-11-06",
+   "deadline": "2026-11-16T11:30",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/772453-2026",
+   "procedure_id": "a11cd4ff-14e5-4713-83bd-18630d6bb20e",
+   "description": "La présente consultation concerne la relance du lot n°5, initialement intégré à la consultation relative à « La formation (initiale, continue et premiers secours) des accueillants familiaux, des assistants familiaux et des assistants maternels du département de la Sarthe », à la suite d'une redéfinition du besoin de l'acheteur. Les prestations feront l'objet d'un accord-cadre mono-attributaire sans minimum avec…",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "80500000",
+    "79632000",
+    "80562000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 128000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:775059-2026",
+   "source": "TED",
+   "source_id": "775059-2026",
+   "title": "Prestations d'animation d'ateliers sociolinguistiques pour les besoins de la commune de Ris-Orangis (91130)",
+   "buyer": "Commune de Ris Orangis",
+   "published": "2026-11-06",
+   "deadline": "2026-11-26T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/775059-2026",
+   "procedure_id": "0baff0d7-9e0e-4c13-bd32-3baf95bbb552",
+   "description": "L'objectif est de consolider les compétences linguistiques des apprenants, de favoriser leur autonomie, de faciliter leur insertion sociale et professionnelle et de contribuer, selon leurs besoins, à la préparation aux certifications en français. Les ateliers s'adressent aux habitants de Ris-Orangis âgés de 18 à 65 ans, titulaires ou non d'un CIR, rencontrant des difficultés dans la maîtrise de la langue française…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80510000",
+    "80580000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }
