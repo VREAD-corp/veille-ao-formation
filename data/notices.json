@@ -106473,6 +106473,121 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-108388",
+   "source": "BOAMP",
+   "source_id": "26-108388",
+   "title": "Modernisation des logiciels métiers mutualisés",
+   "buyer": "CC du Pays d'Alésia et de la Seine",
+   "published": "2026-11-06",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108388",
+   "procedure_id": null,
+   "description": "Le présent marché a pour objet la fourniture, la mise en œuvre, l'hébergement, la maintenance, l'assistance, la formation, la reprise des données et la réversibilité d'une suite logicielle métiers modulaire en mode SaaS destinée à la Communauté de Communes du Pays d'Alésia et de la Seine (COPAS) ainsi qu'à ses communes membres.",
+   "departments": [
+    "21"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "72500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-108544",
+   "source": "BOAMP",
+   "source_id": "26-108544",
+   "title": "26MAP16- Accord-cadre à bons de commande de prestations de formation relatives à la sécurité au travail et à la prévention des risques professionnels - Relance du lot 1 du 25MAP17 suite à déclarati...",
+   "buyer": "Métropole Toulon Provence Méditerranée",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108544",
+   "procedure_id": null,
+   "description": "Prestations de formation relatives à la sécurité au travail et à la prévention des risques professionnels à destination des agents métropolitains, afin de répondre aux obligations employeur et aux orientations du C.S.E concernant la prévention des risques professionnels par la mise en oeuvre de formations à l'hygiène et à la sécurité. L'accord-cadre est conclu pour un an à compter de sa date de notification et sera…",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80330000",
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 440920.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formations CACES R482 et conduite de laveuse-balayeuse, brosseuse, tondeuse autoportée, épareuse",
+    "Formations CACES R485-R486-R489-R490"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-108580",
+   "source": "BOAMP",
+   "source_id": "26-108580",
+   "title": "Outils et aptitudes des Ingénieurs Conseil à la conduite de projets et à l’accompagnement du changement en Carsat",
+   "buyer": "ECOLE NATIONALE SUPERIEURE DE SECURITE SOCIALE",
+   "published": "2026-11-06",
+   "deadline": "2026-12-07T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108580",
+   "procedure_id": null,
+   "description": "La présente consultation concerne des prestations de formation sur le thème : Outils et aptitudes des Ingénieurs Conseil à la conduite de projets et à l’accompagnement du changement en Carsat",
+   "departments": [
+    "42"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:771775-2026",
    "source": "TED",
    "source_id": "771775-2026",
