@@ -106703,6 +106703,98 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-107894",
+   "source": "BOAMP",
+   "source_id": "26-107894",
+   "title": "Mise en oeuvre d'expérimentation de parcours de formation à visée certifiante à destination des ressortissants des pays tiers",
+   "buyer": "IPERIA",
+   "published": "2026-11-07",
+   "deadline": "2026-11-13T18:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107894",
+   "procedure_id": "16037d60-ef4f-4cae-8ac0-bee5a9bcca93",
+   "description": "Le présent marché s'inscrit dans le cadre du projet PARC'DOM (\" Professionnalisation, Accompagnement et Reconnaissance des Compétences vers les métiers du domicile \"), financé au titre du FAMI. Il porte exclusivement sur la phase 2 du projet, relative à la mise en oeuvre de parcours de professionnalisation à visée certifiante destinés aux ressortissants des pays tiers, à partir des outils de positionnement et de…",
+   "departments": [
+    "61",
+    "75"
+   ],
+   "regions": [
+    "Normandie",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 575640.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-97730"
+   ],
+   "summary": "",
+   "lots": [
+    "ILE DE FRANCE",
+    "AUVERGNE RHÔNE ALPES",
+    "NOUVELLE AQUITAINE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-107926",
+   "source": "BOAMP",
+   "source_id": "26-107926",
+   "title": "Achats de formation sur le thème \" RELATION À L'USAGÈRE ET L'USAGER - T2E \" pour le compte de la Délégation Provence Alpes Côte d'Azur du CNFPT",
+   "buyer": "CNFPT - Direction de l'achat public",
+   "published": "2026-11-07",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107926",
+   "procedure_id": "2558ff65-b25e-45c7-a47b-1cd37baddd62",
+   "description": "L'objet du présent marché est la réalisation d'actions de formation sur la sous-spécialité \" RELATION À L'USAGÈRE ET L'USAGER - T2E \" pour le compte de la Délégation Provence Alpes Côte d'Azur du CNFPT. Les prestations visées au présent marché font partie d'une opération décomposée en deux (2) lots, ainsi qu'il suit : - Lot 1 : Le métier de chargé d'accueil - PACA - Lot 2 : Les techniques de communication de…",
+   "departments": [
+    "04",
+    "05",
+    "06",
+    "13",
+    "83",
+    "84"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 720000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Le métier de chargé d'accueil - PACA",
+    "Lot n°2 : Les techniques de communication de prévention et de gestion des conflits en situation d'accueil - PACA"
+   ],
+   "updated": ""
   }
  ]
 }

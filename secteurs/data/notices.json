@@ -116793,6 +116793,297 @@
     "espaces-verts"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-107875",
+   "source": "BOAMP",
+   "source_id": "26-107875",
+   "title": "PRESTATIONS DE PROPRETE DES PARCS, JARDINS, BERGES ET RIVIERE.",
+   "buyer": "Ville de Bourg-en-Bresse",
+   "published": "2026-11-07",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107875",
+   "procedure_id": "55523079-b809-43e6-b871-51c8e7706a6c",
+   "description": "Lot 01 de la présente consultation est réservé aux entreprises adaptées ou à des établissements et services d'aide par le travail ou structure équivalente (article L2113-2 et R2113-7 du Code de la Commande Publique)",
+   "departments": [
+    "01"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90600000",
+    "90511300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Propreté des parcs, jardins et espaces publics associés",
+    "Services de collecte des déchets sauvages"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "240",
+    "116",
+    "310",
+    "35"
+   ]
+  },
+  {
+   "id": "boamp:26-107888",
+   "source": "BOAMP",
+   "source_id": "26-107888",
+   "title": "Prestation de nettoyage des bâtiments, de la vitrerie et fourniture de consommables sanitaires pour les bâtiments de DOUAISIS AGGLO",
+   "buyer": "DOUAISIS AGGLO",
+   "published": "2026-11-07",
+   "deadline": "2026-11-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107888",
+   "procedure_id": "669ca504-b2b6-415a-8f66-52b713c79185",
+   "description": "Prestation de nettoyage des bâtiments, de la vitrerie et fourniture de consommables sanitaires pour les bâtiments de DOUAISIS AGGLO avec reprise du personnel",
+   "departments": [
+    "02",
+    "59",
+    "62",
+    "80"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1555200.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-96648"
+   ],
+   "summary": "",
+   "lots": [
+    "Nettoyage des bâtiments et fourniture de consommables pour les sanitaires",
+    "Prestation de nettoyage de la vitrerie"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-107889",
+   "source": "BOAMP",
+   "source_id": "26-107889",
+   "title": "Services de détection des réseaux enterrés",
+   "buyer": "COMMUNAUTE D'AGGLOMERATION TARBES-LOURDES-PYRENEES",
+   "published": "2026-11-07",
+   "deadline": "2026-12-11T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107889",
+   "procedure_id": "9caafa81-844f-499a-9263-7e513f10b9b2",
+   "description": "L'objet du marché consiste à procéder, conformément à la norme en vigueur, à la détection et la localisation des réseaux souterrains déclarés par les exploitants en classe de précision B et C, ou de découverte d'ouvrage ou d'écart en position lors d'un chantier, de sorte à garantir la localisation des tronçons concernés dans la classe de précision A. Le marché sera un accord-cadre mono-attributaire à bons de…",
+   "departments": [
+    "65"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79714100"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-107906",
+   "source": "BOAMP",
+   "source_id": "26-107906",
+   "title": "Prestations de maintenance multitechnique et multiservices dans les Yvelines",
+   "buyer": "Services Communs",
+   "published": "2026-11-07",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107906",
+   "procedure_id": "3e6981ff-52e7-41f1-a9dc-4a0f5900d5dc",
+   "description": "Prestations de maintenance multitechnique et multiservices dans les Yvelines (78)",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "50700000",
+    "50711000",
+    "77310000",
+    "90911200"
+   ],
+   "procedure": "Procédure Négociée",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 29200000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage",
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "196"
+   ]
+  },
+  {
+   "id": "boamp:26-107920",
+   "source": "BOAMP",
+   "source_id": "26-107920",
+   "title": "Marché entretien des dépendances de voirie",
+   "buyer": "CC Pays de Honfleur - Beuzeville",
+   "published": "2026-11-07",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107920",
+   "procedure_id": "4262b0ea-f899-4ab4-b1f3-544789009db8",
+   "description": "Le présent marché a pour objet l'entretien des dépendances de voiries (élagage/fauchage)",
+   "departments": [
+    "14"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT EST",
+    "CENTRE",
+    "SUD",
+    "OUEST"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-107935",
+   "source": "BOAMP",
+   "source_id": "26-107935",
+   "title": "Nettoyage des locaux et des vitres de certains établissements de la Ville de Bayonne",
+   "buyer": "Commune de Bayonne",
+   "published": "2026-11-07",
+   "deadline": "2026-12-07T15:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-107935",
+   "procedure_id": "48ecdbe1-99ce-4936-a85b-38d285e95327",
+   "description": "Les caractéristiques du présent marché sont définies au sein du dossier de consultation",
+   "departments": [
+    "64"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-101972"
+   ],
+   "summary": "",
+   "lots": [
+    "Bâtiments administratifs : nettoyage des locaux et vitres de l'hôtel de Ville et de ses annexes",
+    "Autres bâtiments : nettoyage des locaux et des vitres",
+    "Locaux gérés par la direction de l'évènementiel et de l'animation et de la culture et du patrimoine",
+    "Tous les sites non concernés par les autres lots - nettoyage des vitres",
+    "Réservé aux entreprises adaptées (EA) et aux ESAT : Nettoyage des locaux et des vitres des bureaux",
+    "Musée Bonnat-Helleu : nettoyage des locaux et des vitres"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
   }
  ]
 }
