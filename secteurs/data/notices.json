@@ -117084,6 +117084,537 @@
    "descriptors": [
     "239"
    ]
+  },
+  {
+   "id": "boamp:26-108011",
+   "source": "BOAMP",
+   "source_id": "26-108011",
+   "title": "NETTOYAGE DES PARTIES COMMUNES ET PRÉSENCE SUR SITE",
+   "buyer": "CRPNPAC",
+   "published": "2026-11-07",
+   "deadline": "2026-12-04T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108011",
+   "procedure_id": "8b24199f-c575-46ec-b0c8-04f5e8ab3423",
+   "description": "Prestations de nettoyage des parties communes de huit immeubles résidentiels, ainsi que la présence sur site associée sur certains d'entre eux.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1 – Ouest",
+    "LOT 2 – Est"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108014",
+   "source": "BOAMP",
+   "source_id": "26-108014",
+   "title": "Fourniture de prestation de nettoyage des locaux et de vitrerie et fourniture de consommables pour le SNASE",
+   "buyer": "DGAC / POLE ACHAT DO",
+   "published": "2026-11-08",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108014",
+   "procedure_id": "123b9c7c-0db9-427e-8117-01d7883c819a",
+   "description": "fourniture de prestations de nettoyage des locaux et de vitrerie et fourniture des consommables pour le SNASE",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90919200",
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 673250.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de nettoyage de locaux et de vitreries, ainsi que la fourniture de consommables sanitaires situés à Nice Côte d’Azur. (SNASE-SNIA-GTA-DSACSE…",
+    "Nettoyage locaux, vitres et blanchisserie (Cannes, Nice, Bastia, local médical Bastia, aéroport Figari). Vitres : aéroport Figari"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108031",
+   "source": "BOAMP",
+   "source_id": "26-108031",
+   "title": "PRESTATION DE SECURITE HUMAINE, SECURITE INCENDIE,TELESURVEILLANCE ET VIDEO TELESURVEILLANCE EN REGION OCCITANIE",
+   "buyer": "SGAR PFRA OCCI",
+   "published": "2026-11-08",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108031",
+   "procedure_id": "ecadf76e-6410-47d0-bbe0-1c4adf436eab",
+   "description": "Prestation de sécurité humaine et incendie, Télésurveillance et vidéo-télésurveillance",
+   "departments": [
+    "09",
+    "12",
+    "30",
+    "31",
+    "34",
+    "46",
+    "65"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79710000",
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "PRESTATION DE SECURITE HUMAINE ET INCENDIE, TELESURVEILLANCE ET VIDEO-TELESURVEILLANCE DES BATIMENTS POUR LE COMPTE DES SERVICES DE L’ÉTAT ET DES OPÉRATEURS…",
+    "PRESTATIONS DE TELESURVEILLANCE ET VIDEO TELESURVEILLANCE EN REGION OCCITANIE(13 départements)"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-108033",
+   "source": "BOAMP",
+   "source_id": "26-108033",
+   "title": "PRESTATIONS DE NETTOYAGE ET D'ENTRETIEN DES SALLES DE CLASSE DES ECOLES ELEMENTAIRES DE LA VILLE DE BAIE-MAHAULT",
+   "buyer": "Ville de Baie-Mahault (971)",
+   "published": "2026-11-08",
+   "deadline": "2026-12-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108033",
+   "procedure_id": "4837d1f0-a7f8-4c5f-addf-8bec117fbda9",
+   "description": "La prestation consiste à mettre en oeuvre les obligations suivantes : aération des locaux, essuyage et désinfection des interrupteurs, des poignées de portes, des tables et chaises, dépoussiérage des meubles, des abords des fenêtres et du matériel informatique, nettoyage des vitres, collecte et évacuation des corbeilles à papier et changement des sacs si besoin, balayage humide et lavage des sols, fermeture des…",
+   "departments": [
+    "971"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90919300",
+    "90911200",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Ecoles élémentaires de Bragelogne, Calvaire (Olympe RAME-DECORBIN) et Convenance (Pierre MATHIEU)",
+    "Ecoles élémentaires La Jaille et Louis ANDREA (Bourg)",
+    "Ecoles élémentaires Cora MAYEKO et Mérosier NARBAL (Belcourt)"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108039",
+   "source": "BOAMP",
+   "source_id": "26-108039",
+   "title": "Prestations de nettoyage des bâtiments et des surfaces vitrées de la Ville de Valenton",
+   "buyer": "Mairie de Valenton",
+   "published": "2026-11-08",
+   "deadline": "2026-12-09T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108039",
+   "procedure_id": "c46a99b5-47e8-4e7f-8774-a38feeced2f5",
+   "description": "Le présent marché a pour objet la réalisation de prestations de nettoyage et d'entretien des bâtiments communaux, comprenant notamment le nettoyage des locaux et surfaces intérieures ainsi que le nettoyage des surfaces vitrées, à l'intérieur et à l'extérieur des bâtiments concernés.",
+   "departments": [
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90919200",
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage intérieur des bâtiments communaux",
+    "Nettoyage extérieur et intérieur des surfaces vitrées des bâtiments communaux"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108069",
+   "source": "BOAMP",
+   "source_id": "26-108069",
+   "title": "Fourniture de prestation de nettoyage des locaux et de vitrerie et fourniture de consommables pour le SNASE",
+   "buyer": "DGAC / POLE ACHAT DO",
+   "published": "2026-11-08",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108069",
+   "procedure_id": "38859997-c4cf-435f-8d66-9523c84f1674",
+   "description": "fourniture de prestations de nettoyage des locaux et de vitrerie et fourniture des consommables pour le SNASE",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90919200",
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 673250.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de nettoyage de locaux et de vitreries, ainsi que la fourniture de consommables sanitaires situés à Nice Côte d’Azur. (SNASE-SNIA-GTA-DSACSE…",
+    "Nettoyage locaux, vitres et blanchisserie (Cannes, Nice, Bastia, local médical Bastia, aéroport Figari). Vitres : aéroport Figari"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108108",
+   "source": "BOAMP",
+   "source_id": "26-108108",
+   "title": "NETTOYAGE, DÉGRAISSAGE ET DÉSINFECTION DE LOCAUX À DÉCHETS",
+   "buyer": "Euro-Métropole de Metz",
+   "published": "2026-11-08",
+   "deadline": "2026-12-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108108",
+   "procedure_id": "a968b7bf-5cd3-4ba8-86fa-ab8096cbe21a",
+   "description": "ACCORD CADRE MONO ATTRIBUTAIRE AVEC UN MONTANT MAXIMUM ANNUEL DE 350 000 euro(s) HT",
+   "departments": [
+    "57"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 315000.0,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108159",
+   "source": "BOAMP",
+   "source_id": "26-108159",
+   "title": "Entretien des espaces verts de la Ville de Tourcoing",
+   "buyer": "Mairie de Tourcoing",
+   "published": "2026-11-08",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108159",
+   "procedure_id": "17e12d0a-8d7b-485f-ac0d-ca383b7f4519",
+   "description": "La présente consultation a pour objet l'entretien des espaces verts pour la Ville de Tourcoing. Il s'agit de prestations d'entretien des espaces verts, taille, bêchage, tonte, désherbage, nettoyage, etc. En plus des opérations d'entretien, le titulaire du marché procède à une vérification visuelle des espaces et s'engage à signaler tous problèmes de sécurité par courriel.",
+   "departments": [
+    "02",
+    "59",
+    "60",
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur 1 : Nord-Ouest",
+    "Secteur 2 : Sud Est"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-108184",
+   "source": "BOAMP",
+   "source_id": "26-108184",
+   "title": "Prestations d'entretien d'espaces verts et autres sur les opérations de Loire Océan Développement et Loire Océan Métropole Aménagement",
+   "buyer": "Loire Océan Développement",
+   "published": "2026-11-08",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108184",
+   "procedure_id": "bdcebade-09cd-4ee7-bbbc-5dd876a75ee3",
+   "description": "Le présent marché porte sur la réalisation de prestations ponctuelles d'entretien d'espaces verts sur les opérations de Loire Océan Développement (LOD) et Loire Océan Métropole Aménagement (LOMA). Les prestations pourront concerner l'ensemble des opérations actuellement suivies par LOD et LOMA. Il concerne notamment les prestations d'élagage, d'abattage, d'entretien d'espaces verts et de travaux de reprise.",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000",
+    "77211500",
+    "77340000",
+    "77341000",
+    "90910000",
+    "90500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage",
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-108236",
+   "source": "BOAMP",
+   "source_id": "26-108236",
+   "title": "Prestations d'entretien écologique et de grosses réparations dans le parc départemental Georges-Valbon (2 lots)",
+   "buyer": "Département de la Seine-Saint-Denis",
+   "published": "2026-11-08",
+   "deadline": "2026-12-09T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108236",
+   "procedure_id": "479d83b0-63fa-4159-954e-ba2a2e9b97f3",
+   "description": "Le marché de services a pour objet la réalisation de prestations d'entretien écologique et de grosses réparations concernant deux secteurs situés au Sud du Parc Départemental Georges-Valbon, le secteur Audias - Terrain des Essences (lot 1) et le secteur du Grand Lac (lot 2) - un attributaire maximum par lot. Ce marché permet d'assurer des prestations d'entretien général sur un secteur constitué, c'est-à-dire…",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 10000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 Prestation d'entretien des secteurs Audias et terrain des Essences",
+    "Lot n°2 Prestation d'entretien du secteur Grand Lac"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-108237",
+   "source": "BOAMP",
+   "source_id": "26-108237",
+   "title": "Prestations de broyage et de gyrobroyage",
+   "buyer": "Ville de Strasbourg",
+   "published": "2026-11-08",
+   "deadline": "2026-12-15T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108237",
+   "procedure_id": "80e3a302-a150-4424-88f6-3f1cf20473a2",
+   "description": "Montant HT minimum pour la durée totale du contrat : 20000.0 Euro(s) H.T. Le montant maximum pour la durée totale du contrat est de 220 000.0 euro(s) H.T. Consultation lancée par un groupement de commandes. L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et…",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "75310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 220000.0,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de broyage de grumes pour plaquettes Service espaces verts et de nature",
+    "Prestations de broyage et gyrobroyage pour les espaces naturels"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
   }
  ]
 }

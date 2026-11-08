@@ -106795,6 +106795,47 @@
     "Lot n°2 : Les techniques de communication de prévention et de gestion des conflits en situation d'accueil - PACA"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-108156",
+   "source": "BOAMP",
+   "source_id": "26-108156",
+   "title": "Formation obligatoire initiale des assistants maternels agréés par le Département du Nord - 2 lots",
+   "buyer": "Conseil Départemental du Nord",
+   "published": "2026-11-08",
+   "deadline": "2026-12-14T16:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108156",
+   "procedure_id": "7b96c39e-c5bb-4c2f-a497-f86a5774edc5",
+   "description": "Il s'agit d'un accord-cadre mono-attributaire conclu avec un (1) seul opérateur économique par lot. Il sera exécuté en partie par la conclusion de marchés subséquents et en partie par l'émission de bons de commande, lors de la survenance du besoin",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1421200.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Directions Territoriales : Douaisis, Cambrésis, Valenciennois, Avesnois",
+    "Lot n°2 : Directions Territoriales : Métropole Lille, Métropole Roubaix-Tourcoing, Flandres (2 sites : Hazebrouck et Dunkerque)"
+   ],
+   "updated": ""
   }
  ]
 }
