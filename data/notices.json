@@ -106836,6 +106836,44 @@
     "Lot n°2 : Directions Territoriales : Métropole Lille, Métropole Roubaix-Tourcoing, Flandres (2 sites : Hazebrouck et Dunkerque)"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-108543",
+   "source": "BOAMP",
+   "source_id": "26-108543",
+   "title": "Réalisation de prestations de scolarité d'aides-soignants(es) à destination des agents de la Direction des Solidarités de la Ville de Paris (DSOL).",
+   "buyer": "Centre d'Action Sociale de la Ville de Paris",
+   "published": "2026-11-08",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108543",
+   "procedure_id": "6c272243-bb4e-4090-8c19-f428231d329a",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000",
+    "80561000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }

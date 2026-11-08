@@ -117615,6 +117615,601 @@
     "116",
     "274"
    ]
+  },
+  {
+   "id": "boamp:26-108275",
+   "source": "BOAMP",
+   "source_id": "26-108275",
+   "title": "Prestations de nettoyage après les marchés commerciaux et évènements",
+   "buyer": "Eurométropole de Strasbourg",
+   "published": "2026-11-08",
+   "deadline": "2026-12-15T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108275",
+   "procedure_id": "45134f5f-2169-481b-8c00-6806d0d37d10",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 4600000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Marchés commerciaux",
+    "Évènements divers et opérations particulières",
+    "Déneigement manuel des abords des bâtiments publics"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-108279",
+   "source": "BOAMP",
+   "source_id": "26-108279",
+   "title": "Mise en propreté des locaux et services associés au Grand Annecy",
+   "buyer": "GRAND ANNECY",
+   "published": "2026-11-08",
+   "deadline": "2026-11-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108279",
+   "procedure_id": "6218890f-f7e6-40b5-b85d-5ecf0ce6accf",
+   "description": "La consultation est décomposée en 3 lots : - Lot n°1 - Bâtiments des services administratifs - Lot n°2 - Bâtiments des services techniques ( Valorisation des déchets et direction de l'eau potable) - Lot n°3 - Bâtiments des pôles entrepreneuriaux - Station du Semnoz",
+   "departments": [
+    "74"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90910000",
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-97180"
+   ],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Bâtiments des services administratifs",
+    "Lot n°2 - Bâtiments des services techniques",
+    "Lot n°3 - Bâtiments des pôles entrepreneuriaux - Station du Semnoz"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-108284",
+   "source": "BOAMP",
+   "source_id": "26-108284",
+   "title": "PRESTATION DE MAINTENANCES DES ESPACES VERTS ET MINERALISES DES ZONES D’INTERET COMMUNAUTAIRE SUR LE TERRITOIRE DE LA CINOR",
+   "buyer": "COMMUNAUTE INTERCOMMUNALE NORD REUNION",
+   "published": "2026-11-08",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108284",
+   "procedure_id": "afbc9a05-b467-4c2c-8822-85ebfb107176",
+   "description": "cf. Avis initial de marché",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-97961",
+    "boamp:26-99434"
+   ],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Entretien des espaces verts et minéralisés du sentier littoral, de la plage des galets et du Parc de Bois Madame de Sainte Marie",
+    "Lot 2 : Entretien des espaces verts et minéralisés du sentier littoral, de la plage des galets de Sainte Suzanne",
+    "Lot 3 : Entretien des espaces publics et des espaces verts et minéralisés du Parc technologique et de la Zac du Triangle de Saint Denis",
+    "Lot 4 : Entretien des espaces verts et des espaces verts et minéralisés du Parc urbain de Beauséjour de Sainte Marie avec engins spécialisées",
+    "Lot 5 : Entretien des espaces verts et des espaces verts et minéralisés du Site Ilet Quinquina et du parking Aquanor de Saint Denis (Lot réservé aux SIAE)",
+    "Lot 6 : Marché réservé au SIAE Entretien des espaces verts et des espaces verts et minéralisés de la cours du siège CINOR, du parking Extérieure du CIBR et de…",
+    "Lot 7 : Marché réservé au SIAE Entretien des espaces verts et des espaces verts et minéralisés et des espaces aménager et paysagers des 5 stations du…",
+    "Lot 8 : Marché réservé au SIAE - Entretien des espaces verts et des espaces verts et minéralisés de l’école de musique, de la médiathèque de Sainte Suzanne, de…"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-108294",
+   "source": "BOAMP",
+   "source_id": "26-108294",
+   "title": "Accord-cadre à bons de commande pour le nettoyage des logements vacants de Loge.GBM en vue de leur relocation",
+   "buyer": "Loge.GBM (25)",
+   "published": "2026-11-08",
+   "deadline": "2026-12-14T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108294",
+   "procedure_id": "4fd4e3a5-6d68-40a4-be24-4d092e2a39b5",
+   "description": "",
+   "departments": [
+    "25"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "90911100"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108336",
+   "source": "BOAMP",
+   "source_id": "26-108336",
+   "title": "Prestations de débroussaillement dans le cadre des Obligations Légales de Débroussaillement (OLD)",
+   "buyer": "Département de la Charente-Maritime",
+   "published": "2026-11-08",
+   "deadline": "2026-12-08T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108336",
+   "procedure_id": "88547aa5-0b35-4d49-b239-4dbe164fa0f5",
+   "description": "Il s'agit d'un accord-cadre mono-attributaire à bons de commande avec un montant maximum annuel de 150 000 euros HT maximum. Il débute à compter du 01/01/2027 ou de sa date de notification si celle-ci est postérieure et est reconductible 3 fois pour des périodes d'1 an et le même montant. Le pouvoir adjudicateur pourra confier au titulaire de l'accord-cadre, en application des articles L. 2122-1 et R. 2122-7 du Code…",
+   "departments": [
+    "17"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "77211300",
+    "77211400",
+    "77310000",
+    "77341000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-108346",
+   "source": "BOAMP",
+   "source_id": "26-108346",
+   "title": "Nettoyage des bâtiments et de la vitrerie de la Commune de Venelles et fourniture des consommables sanitaires",
+   "buyer": "Mairie de Venelles",
+   "published": "2026-11-08",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108346",
+   "procedure_id": "5aeeb278-530d-4992-af7c-dc82ced16baf",
+   "description": "Le marché a pour objet l'exécution des prestations de nettoyage des bâtiments communaux et de la vitrerie de la Commune de Venelles, ainsi que la fourniture et le renouvellement, pendant toute la durée du marché, des consommables sanitaires, afin de maintenir l'hygiène et la propreté des locaux concernés",
+   "departments": [
+    "13",
+    "84"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "278",
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108352",
+   "source": "BOAMP",
+   "source_id": "26-108352",
+   "title": "Entretien des espaces verts",
+   "buyer": "Mairie de Poisy",
+   "published": "2026-11-08",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108352",
+   "procedure_id": "86ae41ec-207a-4ec3-b21b-7501dee1267b",
+   "description": "Entretien des gazons , entretien de massifs d'arbustes, de vivaces, de haies taillées et haies libres et prestations de déneigement sur la commune de POISY",
+   "departments": [
+    "74"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-108387",
+   "source": "BOAMP",
+   "source_id": "26-108387",
+   "title": "Entretien et création d'espaces verts sur le parc public et privé de la ville de Garges-lès-Gonesse",
+   "buyer": "Mairie de Garges-lès-Gonesse",
+   "published": "2026-11-08",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108387",
+   "procedure_id": "cbdc0e03-f8c4-417c-9fc8-599292fa9a32",
+   "description": "",
+   "departments": [
+    "78",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 5200000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Tonte et taille des espaces publics et privatifs de la collectivité",
+    "Désherbage des espaces publics et privatifs de la collectivité et mise à disposition temporaire de personnel"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-108415",
+   "source": "BOAMP",
+   "source_id": "26-108415",
+   "title": "Entretien espaces verts pluvial",
+   "buyer": "SERVICE PUBLIC DE L'EAU - AN DOUR",
+   "published": "2026-11-08",
+   "deadline": "2026-12-09T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108415",
+   "procedure_id": "d9d23506-b877-49c4-85ba-e73e26369d38",
+   "description": "",
+   "departments": [
+    "29"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "77314000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Bassin secteur Léon",
+    "Bassin secteur Trégor Nord",
+    "Bassin secteur Trégor Sud",
+    "Eco pâturage Léon",
+    "Eco pâturage Trégor",
+    "Bassin broyage mécanique"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-108518",
+   "source": "BOAMP",
+   "source_id": "26-108518",
+   "title": "Entretien des espaces verts, jardins et abords, espaces naturels et pistes cyclables",
+   "buyer": "Département de la Vendée",
+   "published": "2026-11-08",
+   "deadline": "2026-12-08T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108518",
+   "procedure_id": "52644fa6-e451-4e88-852d-4116a7b2db8a",
+   "description": "Le présent accord-cadre concerne plusieurs types de prestations d'entretien d'espaces verts, et plusieurs secteurs. Le lot n°7 concerne l'ensemble du Département, tandis que les lots n°1 à 4 sont répartis en 4 secteurs géographiques, les lots n°5 et 6 ainsi que les lots n° 11 et 12 sont répartis en 2 secteurs et les lots n° 8 à 10 sont répartis en 3 secteurs. Les lots 11 et 12 sont réservés à des structures…",
+   "departments": [
+    "85"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000",
+    "77311000",
+    "77313000",
+    "77211100"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Entretien des espaces verts des bâtiments départementaux et abords secteur Nord-Ouest",
+    "Lot n°2 - Entretien des espaces verts des bâtiments départementaux et abords secteur Nord-Est",
+    "Lot n°3 - Entretien des espaces verts des Bâtiments départementaux et abords secteur Sud-Ouest",
+    "Lot n°4 - Entretien des espaces verts des Bâtiments départementaux et abords secteur Sud-Est",
+    "Lot n°5 - Entretien paysagers des espaces naturels sensibles - secteur Littoral",
+    "Lot n°6 - Entretien paysagers des espaces naturels sensibles - secteur Bocage",
+    "Lot n°7 - Entretien et travaux sylvicoles des espaces boisés départementaux",
+    "Lot n°8 - Entretien paysager des pistes cyclables et abords - secteur Nord littoral",
+    "Lot n°9 - Entretien paysager des pistes cyclables et abords - secteur Nord bocage",
+    "Lot n°10 - Entretien paysager des pistes cyclables et abords - secteur Sud",
+    "Lot n°11 - Entretien des espaces verts des bâtiments départementaux et abords - Marché d'insertion secteur de La Roche sur Yon",
+    "Lot n°12 - Entretien des espaces verts des bâtiments départementaux et abords insertion secteur Nord Bocage"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-108568",
+   "source": "BOAMP",
+   "source_id": "26-108568",
+   "title": "Groupement de commandes pour le nettoyage des bâtiments et des vitres périphériques",
+   "buyer": "Communauté de Communes Coeur de Maurienne Arvan",
+   "published": "2026-11-08",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108568",
+   "procedure_id": "ee5983bd-292a-4c68-8401-0c6f3a686ab7",
+   "description": "nettoyage des bâtiments et des vitres périphériques de la 3CMA, la Commune de Saint-Jean-de-Maurienne, le Centre Intercommunal d'Action Sociale et le Syndicat Intercommunal d'Assainissement de la Région de Saint-Jean-de-Maurienne",
+   "departments": [
+    "73"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300",
+    "90919300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Ecole élémentaire des Clapeys",
+    "Ecole élémentaire Aristide Briand",
+    "Ecole élémentaire des Chaudannes",
+    "Ecole maternelle des Clapeys",
+    "Ecole maternelle Aristide Briand",
+    "Ecole maternelle des Chaudannes",
+    "Complexe sportif Pierre Rey",
+    "Vitres périphériques",
+    "Vitres périphériques de l'Espace culturel",
+    "Usine de dépollution",
+    "Vitres périphériques de l'usine de dépollution",
+    "Vitres 3CMA/CIAS"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108601",
+   "source": "BOAMP",
+   "source_id": "26-108601",
+   "title": "Prestations de nettoyage des locaux de collèges publics du Département des Hauts-de-Seine - Secteurs Centre / Sud et Sud",
+   "buyer": "Département des Hauts-de-Seine",
+   "published": "2026-11-08",
+   "deadline": "2026-12-23T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108601",
+   "procedure_id": "4f159d82-750c-47c3-a885-42c0b9125eb4",
+   "description": "Les prestations à effectuer ont pour finalité de maintenir les équipements, locaux et sanitaires dans de bonnes conditions de propreté, d'hygiène et de confort pour les collégiens et le personnel selon des périodicités d'intervention adaptées à la nature des supports à entretenir, à leur état ainsi qu'à leur fréquentation. L'objectif est donc de garantir un niveau de propreté, d'hygiène et de confort conforme aux…",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90919300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
   }
  ]
 }
