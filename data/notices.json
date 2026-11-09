@@ -106874,6 +106874,280 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-108775",
+   "source": "BOAMP",
+   "source_id": "26-108775",
+   "title": "BAMAC-2026-367-Europe",
+   "buyer": "MEFSIEN",
+   "published": "2026-11-09",
+   "deadline": "2027-01-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108775",
+   "procedure_id": null,
+   "description": "Conception et animation de formations relatives au fonctionnement de l'Union européenne",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-108831",
+   "source": "BOAMP",
+   "source_id": "26-108831",
+   "title": "Prestations de formations règlementaires: Lot A: Formations Permis de conduire D et FIMO transport de voyageurs Lot B: Formations Titre professionnel de conducteur de transport en commun sur route",
+   "buyer": "Régie Personnalisée des Transports Publics Urbains PALM BUS",
+   "published": "2026-11-09",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108831",
+   "procedure_id": null,
+   "description": "Le présent marché a pour objet les prestations de formations règlementaires pour le personnel de la Régie Palm Bus. Les prestations sont divisées en 2 lots de consultation : Lot A: Formations Individuelles Permis de conduire D et FIMO (Formation Initiale Minimum Obligatoire) transport de voyageurs; Lot B: Formations individuelles - Titre professionnel de conducteur de transport en commun sur route",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot A : Formations Individuelles Permis de conduire D et FIMO (Formation Initiale Minimum Obligatoire) transport de voyageurs",
+    "Lot B : Formations individuelles - Titre professionnel de conducteur de transport en commun sur route"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-108836",
+   "source": "BOAMP",
+   "source_id": "26-108836",
+   "title": "Prestation de formation des Assistants maternels",
+   "buyer": "Département de l'Ardèche",
+   "published": "2026-11-09",
+   "deadline": "2026-11-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108836",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Le contrat est susceptible d'être reconduit dans les conditions du cahier des charges. Les prestations sont réglées par des prix unitaires et forfaitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [
+    "07"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:775338-2026",
+   "source": "TED",
+   "source_id": "775338-2026",
+   "title": "Achats de formation sur le thème \" RELATION À L'USAGÈRE ET L'USAGER - T2E \" pour le compte de la Délégation Provence Alpes Côte d'Azur du CNFPT",
+   "buyer": "CNFPT - Direction de l'achat public",
+   "published": "2026-11-09",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/775338-2026",
+   "procedure_id": "2558ff65-b25e-45c7-a47b-1cd37baddd62",
+   "description": "L'objet du présent marché est la réalisation d'actions de formation sur la sous-spécialité \" RELATION À L'USAGÈRE ET L'USAGER - T2E \" pour le compte de la Délégation Provence Alpes Côte d'Azur du CNFPT. Les prestations visées au présent marché font partie d'une opération décomposée en deux (2) lots, ainsi qu'il suit : - Lot 1 : Le métier de chargé d'accueil - PACA - Lot 2 : Les techniques de communication de…",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 720000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Le métier de chargé d'accueil - PACA",
+    "Lot n°2 : Les techniques de communication de prévention et de gestion des conflits en situation d'accueil - PACA"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:776058-2026",
+   "source": "TED",
+   "source_id": "776058-2026",
+   "title": "Formations dans le domaine du forage",
+   "buyer": "PFC Ouest Rennes",
+   "published": "2026-11-09",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/776058-2026",
+   "procedure_id": "b74f2b79-8a68-481e-a64f-0de74be88995",
+   "description": "Formations dans le domaine du forage au profit de l'Escadre Aérienne d'Appui aux Opérations (EAAO).",
+   "departments": [
+    "35"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formation forage intra-administration",
+    "Maintien de compétences en immersion"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:776137-2026",
+   "source": "TED",
+   "source_id": "776137-2026",
+   "title": "Mise en oeuvre d'expérimentation de parcours de formation à visée certifiante à destination des ressortissants des pays tiers",
+   "buyer": "IPERIA",
+   "published": "2026-11-09",
+   "deadline": "2026-11-13T18:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/776137-2026",
+   "procedure_id": "16037d60-ef4f-4cae-8ac0-bee5a9bcca93",
+   "description": "Le présent marché s'inscrit dans le cadre du projet PARC'DOM (\" Professionnalisation, Accompagnement et Reconnaissance des Compétences vers les métiers du domicile \"), financé au titre du FAMI. Il porte exclusivement sur la phase 2 du projet, relative à la mise en oeuvre de parcours de professionnalisation à visée certifiante destinés aux ressortissants des pays tiers, à partir des outils de positionnement et de…",
+   "departments": [
+    "61"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 575640.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "ILE DE FRANCE",
+    "AUVERGNE RHÔNE ALPES",
+    "NOUVELLE AQUITAINE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:778912-2026",
+   "source": "TED",
+   "source_id": "778912-2026",
+   "title": "Formation obligatoire initiale des assistants maternels agréés par le Département du Nord - 2 lots",
+   "buyer": "Conseil Départemental du Nord",
+   "published": "2026-11-09",
+   "deadline": "2026-12-14T16:30",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/778912-2026",
+   "procedure_id": "7b96c39e-c5bb-4c2f-a497-f86a5774edc5",
+   "description": "Il s'agit d'un accord-cadre mono-attributaire conclu avec un (1) seul opérateur économique par lot. Il sera exécuté en partie par la conclusion de marchés subséquents et en partie par l'émission de bons de commande, lors de la survenance du besoin",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1421200.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Directions Territoriales : Douaisis, Cambrésis, Valenciennois, Avesnois",
+    "Lot n°2 : Directions Territoriales : Métropole Lille, Métropole Roubaix-Tourcoing, Flandres (2 sites : Hazebrouck et Dunkerque)"
+   ],
+   "updated": ""
   }
  ]
 }
