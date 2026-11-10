@@ -119529,6 +119529,238 @@
    "descriptors": []
   },
   {
+   "id": "boamp:26-108620",
+   "source": "BOAMP",
+   "source_id": "26-108620",
+   "title": "RESTATIONS DE NETTOYAGE DES EQUIPEMENTS TRANSFERES DES 9EME ET 10EME ARRONDISSEMENTS - 2 Lots",
+   "buyer": "Ville de Marseille",
+   "published": "2026-11-10",
+   "deadline": "2026-12-10T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108620",
+   "procedure_id": "273775ab-101d-4ea8-b8a7-4d0a83628545",
+   "description": "Le présent marché concerne le nettoyage de l'ensemble des équipements transférés de la Mairie du 5e Secteur (9eme et 10eme arrondissements).",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestation courante mensuelle de nettoyage, ou remise en état ponctuelle de propreté, de gymnases et stades, y compris vestiaires, sanitaires, et locaux…",
+    "Prestation de nettoyage exceptionnelle sur tout équipement transféré géré par la Mairie du 5ème secteur"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108683",
+   "source": "BOAMP",
+   "source_id": "26-108683",
+   "title": "Prestations d'entretien des espaces verts de la Communauté de Communes du Haut-Poitou",
+   "buyer": "COMMUNAUTE DE COMMUNES DU HAUT-POITOU",
+   "published": "2026-11-10",
+   "deadline": "2026-12-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108683",
+   "procedure_id": "86a5cde8-7a09-4e2b-a63a-c7a10dd189ac",
+   "description": "",
+   "departments": [
+    "86"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "77310000",
+    "77313000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 750000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces verts zones d'activités avec ESAT/EA",
+    "Entretien des espaces verts des 3 zones naturelles",
+    "Entretien des espaces verts déchetteries et ISDI"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-108785",
+   "source": "BOAMP",
+   "source_id": "26-108785",
+   "title": "PRESTATION DE NETTOYAGE DES LOCAUX DU SDIS 41",
+   "buyer": "Service Départemental d'Incendie et de Secours de Loir-et-Cher",
+   "published": "2026-11-10",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108785",
+   "procedure_id": "805742ed-2b98-423a-a61f-88aff5b4d1e5",
+   "description": "Prestation de nettoyage régulière et occasionnelle des locaux du SDIS 41 ainsi que la mise en place des consommables",
+   "departments": [
+    "41"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 440000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Etat-major",
+    "Centre de Formation d'Incendie et de Secours",
+    "Groupement nord site du Centre de Secours Principal (CSP) de Vendôme",
+    "Groupement sud site du Centre de Secours Principal (CSP) de Romorantin"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-108788",
+   "source": "BOAMP",
+   "source_id": "26-108788",
+   "title": "Prestations de surveillance des plages sur la commune de Marseillan pour les saisons 2027 à 2030",
+   "buyer": "Marseillan",
+   "published": "2026-11-10",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108788",
+   "procedure_id": "75e3b7a3-1fe0-4d0d-a5a8-e6682c5ac658",
+   "description": "Les prestations sont réglées par des prix unitaires. La présente consultation concerne des prestations de service relatives à la surveillance des plages de la commune de Marseillan. Le cocontractant est chargé de l'organisation générale de la surveillance des zones de baignades surveillées prévues sur le plan de balisage annuel, de l'analyse des besoins et des tâches à effectuer pour la mise en oeuvre de cinq postes…",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "289",
+    "331"
+   ]
+  },
+  {
+   "id": "boamp:26-108855",
+   "source": "BOAMP",
+   "source_id": "26-108855",
+   "title": "Entretien des terrains de sport",
+   "buyer": "Ville d'Hénin-Beaumont (62)",
+   "published": "2026-11-10",
+   "deadline": "2026-12-15T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108855",
+   "procedure_id": "91bb38bc-a385-45ef-8df6-29ab8099e3bc",
+   "description": "",
+   "departments": [
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77314000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
    "id": "ted:779228-2026",
    "source": "TED",
    "source_id": "779228-2026",
