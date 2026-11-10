@@ -106993,6 +106993,42 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-108991",
+   "source": "BOAMP",
+   "source_id": "26-108991",
+   "title": "Création et animation d'un observatoire de la multifonctionnalité des sols à l'échelle du Sud54",
+   "buyer": "Syndicat Mixte de la Multipole Nancy Sud Lorraine",
+   "published": "2026-11-09",
+   "deadline": "2026-12-10T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-108991",
+   "procedure_id": null,
+   "description": "Dans la continuité de la révision du SCoT (2024) et après un travail prospectif sur l'amélioration de la connaissance des sols engagé avec le soutien d'un AMI Life Biodiv' porté par la Fédération Nationale des SCoT, la présente consultation a pour objet de recruter un prestataire pour accompagner la Multipole dans la création et l'animation d'un observatoire de la multifonctionalité des sols sur l'ensemble de son…",
+   "departments": [
+    "54"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "71351500"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 120000.0,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:775338-2026",
    "source": "TED",
    "source_id": "775338-2026",
@@ -107146,6 +107182,122 @@
    "lots": [
     "Lot n°1 : Directions Territoriales : Douaisis, Cambrésis, Valenciennois, Avesnois",
     "Lot n°2 : Directions Territoriales : Métropole Lille, Métropole Roubaix-Tourcoing, Flandres (2 sites : Hazebrouck et Dunkerque)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:780840-2026",
+   "source": "TED",
+   "source_id": "780840-2026",
+   "title": "Enseignement au montage et à la conduite de projet à caractère opérationnel au profit de l’École de Guerre.",
+   "buyer": "PFC-OUEST RENNES",
+   "published": "2026-11-10",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/780840-2026",
+   "procedure_id": "708fffcf-77a9-4956-910f-f0c60f1b1667",
+   "description": "Enseignement au montage et à la conduite de projet à caractère opérationnel au profit de l’École de Guerre.",
+   "departments": [
+    "35"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1300000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Enseignement au montage et à la conduite de projet à caractère opérationnel",
+    "Renforcement de l’enseignement au montage et à la conduite de projet à caractère opérationnel"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:782447-2026",
+   "source": "TED",
+   "source_id": "782447-2026",
+   "title": "Réalisation de prestations de scolarité d'aides-soignants(es) à destination des agents de la Direction des Solidarités de la Ville de Paris (DSOL).",
+   "buyer": "Centre d'Action Sociale de la Ville de Paris",
+   "published": "2026-11-10",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/782447-2026",
+   "procedure_id": "6c272243-bb4e-4090-8c19-f428231d329a",
+   "description": "Réalisation de prestations de scolarité d'aides-soignants(es) à destination des agents de la Direction des Solidarités de la Ville de Paris (DSOL).",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000",
+    "80561000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:782502-2026",
+   "source": "TED",
+   "source_id": "782502-2026",
+   "title": "Prestations de formation linguistique pour le personnel français et italien de la société TELT",
+   "buyer": "TUNNEL EURALPIN LYON TURIN SAS",
+   "published": "2026-11-10",
+   "deadline": "2026-12-15T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/782502-2026",
+   "procedure_id": "25b99752-641b-409a-83b9-e27dcc55e2d0",
+   "description": "Dans le cadre du projet de nouvelle liaison ferroviaire Lyon- Turin, la société TELT, en tant qu'entité adjudicatrice, est le promoteur public responsable des travaux de réalisation et de la gestion de la section transfrontalière de la future infrastructure. Le présent marché public a pour objet la réalisation de prestations de formation linguistique pour le personnel français et italien de la société TELT. Ces…",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80580000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Cours de langue italienne en distanciel",
+    "Cours de langue française en distanciel",
+    "Cours intensifs de langue italienne en présentiel à Turin",
+    "Cours intensifs de langue française en présentiel à Chambéry"
    ],
    "updated": ""
   }
