@@ -107229,6 +107229,87 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-109402",
+   "source": "BOAMP",
+   "source_id": "26-109402",
+   "title": "Enquête auprès des usagers du service public de gestion des déchets et communication en porte-à-porte sur le tri des déchets et le compostage",
+   "buyer": "Communaute De Communes Des Vallons Du Lyonnais",
+   "published": "2026-11-10",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109402",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "01",
+    "38",
+    "42",
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79720000",
+    "80540000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Enquête auprès des usagers du service public de gestion des déchets . Enquête auprès des usagers du service public de gestion des déchets",
+    "2 : Campagne de communication en porte-à-porte sur le tri des déchets et le compostage . Campagne de communication en porte-à-porte sur le tri des déchets et…"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-109501",
+   "source": "BOAMP",
+   "source_id": "26-109501",
+   "title": "Prestation de service et de formation ponctuelle dans le cadre du DU OPASC",
+   "buyer": "Université de Limoges",
+   "published": "2026-11-10",
+   "deadline": "2026-12-16T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109501",
+   "procedure_id": null,
+   "description": "L’Université de Limoges souhaite ouvrir un DU OPASC (Diplôme Universitaire Optimisation de la Performance Athlétique en Sports Collectifs) au sein du département STAPS de la Faculté des Sciences et Techniques. Cette formation sera localisée sur le site de Brive la Gaillarde. Dans ce cadre, elle envisage de faire appel à un prestataire capable de proposer des enseignements de qualité dans des dom",
+   "departments": [
+    "19",
+    "87"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "80510000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:780840-2026",
    "source": "TED",
    "source_id": "780840-2026",

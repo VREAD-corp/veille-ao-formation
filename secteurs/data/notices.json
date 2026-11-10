@@ -119761,6 +119761,142 @@
    ]
   },
   {
+   "id": "boamp:26-109521",
+   "source": "BOAMP",
+   "source_id": "26-109521",
+   "title": "Prestations de nettoyage des sols du bâtiment L (excepté sanitaires), le nettoyage des coursives carrelés et escaliers du bâtiment J et la passerelle entre le bâtiment J et le bâtiment K",
+   "buyer": "ENSAM",
+   "published": "2026-11-10",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109521",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "51"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-109594",
+   "source": "BOAMP",
+   "source_id": "26-109594",
+   "title": "Travaux d'entretien sur les berges et les rivières du bassin versant de l'Yvette amont",
+   "buyer": "Parc naturel régional de la Haute Vallée de Chevreuse",
+   "published": "2026-11-10",
+   "deadline": "2026-12-07T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109594",
+   "procedure_id": null,
+   "description": "Les prestations visent à mettre en uvre les opérations d'entretien de la ripisylve les plus adaptées afin d'assurer l'entretien des cours d'eau dans un souci d'amélioration de la qualité physique, hydraulique, biologique, physico chimique et paysagère, tout en minimisant le risque d'inondation.",
+   "departments": [
+    "28",
+    "78",
+    "91",
+    "94"
+   ],
+   "regions": [
+    "Centre-Val de Loire",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "28",
+    "310"
+   ]
+  },
+  {
+   "id": "boamp:26-109624",
+   "source": "BOAMP",
+   "source_id": "26-109624",
+   "title": "Le présent marché public a pour objet des prestations de gardiennage, de surveillance et de médiation à destination des établissements de France terre d'asile",
+   "buyer": "France terre d'asile - siège social",
+   "published": "2026-11-10",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109624",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-106360"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274",
+    "331",
+    "138"
+   ]
+  },
+  {
    "id": "ted:779228-2026",
    "source": "TED",
    "source_id": "779228-2026",
