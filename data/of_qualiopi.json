@@ -2,88 +2,88 @@
  "source": "Liste publique des organismes de formation (L.6351-7-1 du Code du travail)",
  "dataset": "https://www.data.gouv.fr/datasets/582c8978c751df788ec0bb7e/",
  "licence": "Licence Ouverte / Open Licence (Etalab)",
- "extracted": "2026-10-17",
- "rows": 152161,
- "qualiopi_total": 44395,
+ "extracted": "2026-11-11",
+ "rows": 154954,
+ "qualiopi_total": 44615,
  "unplaced": 0,
  "regions": {
   "Auvergne-Rhône-Alpes": {
-   "declared": 21263,
-   "qualiopi": 5893
+   "declared": 21693,
+   "qualiopi": 5896
   },
   "Bourgogne-Franche-Comté": {
-   "declared": 4206,
-   "qualiopi": 1212
+   "declared": 4267,
+   "qualiopi": 1213
   },
   "Bretagne": {
-   "declared": 5683,
-   "qualiopi": 1604
+   "declared": 5764,
+   "qualiopi": 1611
   },
   "Centre-Val de Loire": {
-   "declared": 4191,
-   "qualiopi": 1074
+   "declared": 4282,
+   "qualiopi": 1077
   },
   "Corse": {
-   "declared": 522,
+   "declared": 532,
    "qualiopi": 195
   },
   "Grand Est": {
-   "declared": 8176,
-   "qualiopi": 2454
+   "declared": 8331,
+   "qualiopi": 2462
   },
   "Hauts-de-France": {
-   "declared": 7928,
-   "qualiopi": 2381
+   "declared": 8106,
+   "qualiopi": 2386
   },
   "Normandie": {
-   "declared": 5261,
-   "qualiopi": 1394
+   "declared": 5338,
+   "qualiopi": 1399
   },
   "Nouvelle-Aquitaine": {
-   "declared": 12584,
-   "qualiopi": 3449
+   "declared": 12779,
+   "qualiopi": 3482
   },
   "Occitanie": {
-   "declared": 16086,
-   "qualiopi": 4206
+   "declared": 16380,
+   "qualiopi": 4218
   },
   "Outre-mer": {
-   "declared": 5686,
-   "qualiopi": 1643
+   "declared": 5680,
+   "qualiopi": 1640
   },
   "Pays de la Loire": {
-   "declared": 8561,
-   "qualiopi": 2226
+   "declared": 8739,
+   "qualiopi": 2235
   },
   "Provence-Alpes-Côte d'Azur": {
-   "declared": 12557,
-   "qualiopi": 3769
+   "declared": 12840,
+   "qualiopi": 3790
   },
   "Île-de-France": {
-   "declared": 39457,
-   "qualiopi": 12895
+   "declared": 40223,
+   "qualiopi": 13011
   }
  },
  "territories": {
   "Guadeloupe": {
-   "declared": 1248,
-   "qualiopi": 387
+   "declared": 1287,
+   "qualiopi": 389
   },
   "Guyane": {
-   "declared": 624,
-   "qualiopi": 162
+   "declared": 629,
+   "qualiopi": 163
   },
   "La Réunion": {
-   "declared": 2675,
+   "declared": 2710,
    "qualiopi": 687
   },
   "Martinique": {
-   "declared": 961,
-   "qualiopi": 303
+   "declared": 875,
+   "qualiopi": 296
   },
   "Mayotte": {
-   "declared": 171,
-   "qualiopi": 101
+   "declared": 172,
+   "qualiopi": 102
   },
   "Saint-Pierre-et-Miquelon": {
    "declared": 7,
