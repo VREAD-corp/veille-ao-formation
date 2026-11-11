@@ -122333,6 +122333,544 @@
     "securite"
    ],
    "descriptors": []
+  },
+  {
+   "id": "ted:786311-2026",
+   "source": "TED",
+   "source_id": "786311-2026",
+   "title": "Nettoyage des locaux et de la vitrerie des sites de la communauté de communes Normandie Cabourg Pays d'Auge",
+   "buyer": "CC NORMANDIE CABOURG PAYS D'AUGE",
+   "published": "2026-11-12",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/786311-2026",
+   "procedure_id": "49468afb-97ca-4707-a712-6b05ba2a54e1",
+   "description": "Nettoyage des locaux et de la vitrerie des sites de la communauté de communes Normandie Cabourg Pays d'Auge",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "90911000",
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux avec fourniture de consommables ménagers et sanitaires",
+    "Nettoyage des vitres"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:786396-2026",
+   "source": "TED",
+   "source_id": "786396-2026",
+   "title": "MARCHÉ D'ENTRETIEN MENAGER, D'URGENCE SANITAIRE ET DE GESTION DES DECHETS DU PATRIMOINE LOGIAL-COOP - 2 LOTS",
+   "buyer": "Logial-COOP",
+   "published": "2026-11-12",
+   "deadline": "2026-12-10T12:30",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/786396-2026",
+   "procedure_id": "178ea34f-bfee-4d04-bd55-cd53f7681a8f",
+   "description": "Le présent marché a pour objet la réalisation de prestations d'entretien ménager, d'urgence sanitaire et de gestion des déchets (tri sélectif et encombrants) du patrimoine Logial-COOP (parc locatif, hors bureaux) dans les départements du Val-de-Marne (94) et de l'Essonne (91). Il comporte une partie traitée à prix unitaires et une partie traitée à prix forfaitaires. En application des dispositions de la convention…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911200",
+    "90900000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Parc locatif - VAL DE MARNE",
+    "Parc locatif - ESSONNE"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:786417-2026",
+   "source": "TED",
+   "source_id": "786417-2026",
+   "title": "Nettoyage des surfaces vitrées en hauteur, des façades et autres opérations acrobatiques, pavoisement et dépavoisement des bâtiments de la Région Provence-Alpes-Côte d'Azur",
+   "buyer": "Région Provence-Alpes-Côte d'Azur",
+   "published": "2026-11-12",
+   "deadline": "2027-01-04T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/786417-2026",
+   "procedure_id": "540ae8db-c3ef-4edd-8192-8aece437f45a",
+   "description": "La procédure de passation est un Appel d'offres ouvert (R2124-2 1°du code de la commande publique). La présente consultation a pour objet le nettoyage des surfaces vitrées en hauteur, façades et autres opérations acrobatiques, pavoisement et dépavoisement des bâtiments de la Région Provence-Alpes-Côte d'Azur. Les prestations feront l'objet d'un marché unique. En application de l'article L2113-11 du code de la…",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911300",
+    "90911000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:786543-2026",
+   "source": "TED",
+   "source_id": "786543-2026",
+   "title": "EXPLOITATION DU PARKING RELAIS DE LA GARE DE MELUN",
+   "buyer": "Communauté d'Agglomération Melun Val de Seine",
+   "published": "2026-11-12",
+   "deadline": "2027-01-08T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/786543-2026",
+   "procedure_id": "b1f0c359-14c6-4784-8db0-b630bdf32da5",
+   "description": "Les prestations confiées au Titulaire sont les suivantes : - Assistance auprès de la CAMVS jusqu'à la fin des travaux de construction ; - Fourniture et pose des équipements non inclus dans le marché de construction de l'ouvrage ; - Gestion et exploitation du parking relais. Le Titulaire assure les missions qui lui sont confiées dans le respect des principes de continuité de service, d'égalité de traitement des…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "63712400",
+    "98351000",
+    "98351100",
+    "90914000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2300000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:787050-2026",
+   "source": "TED",
+   "source_id": "787050-2026",
+   "title": "Prestations de nettoyage et d'aide à la préparation des repas dans les locaux de la Ville et du CMAS de la Chapelle Saint-Luc-.",
+   "buyer": "Commune de La Chapelle-Saint-Luc",
+   "published": "2026-11-12",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/787050-2026",
+   "procedure_id": "0ed92227-98a7-4283-9933-5413c580b9c8",
+   "description": "Le présent marché a pour objet l'entretien des Etablissements d'Accueil du Jeune Enfant et des bureaux administratifs du CMAS ainsi que de l'Accueil Collectif des Mineurs 1000 Couleurs de la Ville de la Chapelle Saint-Luc",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de nettoyage et d'aide à la préparation des repas dans les EAJE et bureaux administratifs du CMAS",
+    "Entretien de l'Acceuil Collectif des Mineurs 1000 Couleurs"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:787202-2026",
+   "source": "TED",
+   "source_id": "787202-2026",
+   "title": "ACCORD-CADRE POUR DES PRESTATIONS DE SURVEILLANCE, DE GARDIENNAGE ET DE VIDEO-SURVEILLANCE ANTI-INTRUSION DE BIENS BATIS ET NON BATIS",
+   "buyer": "CITALLIOS",
+   "published": "2026-11-12",
+   "deadline": "2026-12-16T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/787202-2026",
+   "procedure_id": "0666b1cd-6109-42ae-857a-b70a6d053c0d",
+   "description": "Il s'agit d'un accord-cadre initialement alloti en deux lots mono-attributaire, à bons de commande . Cette consultation concerne uniquement la relance du lot 02 consécutive à la fin de la procédure d'appel d'offres ouvert européen antérieure (redéfinition du besoin) - LOT 2 : VIDEO-SURVEILLANCE ANTI-INTRUSION DE BATIMENTS ET TERRAINS",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:787226-2026",
+   "source": "TED",
+   "source_id": "787226-2026",
+   "title": "Gardiennage des bâtiments du Conseil Départemental du Gard",
+   "buyer": "Conseil départemental du Gard",
+   "published": "2026-11-12",
+   "deadline": "2026-12-14T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/787226-2026",
+   "procedure_id": "998b17a1-30cf-43c0-a5e6-7103b294e492",
+   "description": "Accord-cadre avec montant annuel maximum exécuté par l'émission de bons de commande. Les prestations doivent permettre d'assurer la surveillance de l'accès aux bâtiments du Département du Gard, de prévenir, filtrer, intervenir et contrôler toute action suspecte sur le site et le cas échéant (SSIAP), secourir tout individu en difficulté et assurer la sécurité incendie",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79713000",
+    "79710000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:787402-2026",
+   "source": "TED",
+   "source_id": "787402-2026",
+   "title": "ENTRETIEN DES VITRES INACCESSIBLES AU PERSONNEL COMMUNAL",
+   "buyer": "Ville de Grande-Synthe",
+   "published": "2026-11-12",
+   "deadline": "2026-12-14T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/787402-2026",
+   "procedure_id": "52b8f94a-3bbe-4f48-84ff-0ee662b10704",
+   "description": "ENTRETIEN DES VITRES INACCESSIBLES AU PERSONNEL COMMUNAL",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:787896-2026",
+   "source": "TED",
+   "source_id": "787896-2026",
+   "title": "Prestations d'amélioration et d'entretien du domaine portuaire réalisées dans le cadre d'un marché réservé aux structures d'insertion relevant des articles L.2113-12 et L.2113-13 du Code de la commande publique",
+   "buyer": "GRAND PORT MARITIME DE DUNKERQUE",
+   "published": "2026-11-12",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/787896-2026",
+   "procedure_id": "5aa49ebc-d362-4809-914e-49479d783531",
+   "description": "Le présent accord-cadre est soumis aux dispositions des articles L. 2113-12, L. 2113-13 et L. 2113-14 du Code de la commande publique. En conséquence, la participation à la présente procédure de consultation est réservée aux structures suivantes :  Les structures employant des travailleurs handicapés mentionnées à l'article L. 2113-12 du Code de la commande publique : - Les entreprises adaptées (EA) mentionnées à…",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "90511300"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:788145-2026",
+   "source": "TED",
+   "source_id": "788145-2026",
+   "title": "MISSION DE NETTOYAGE D'UNE PARTIE DES LOCAUX DE LA COMMUNE DE LA GRAND'CROIX (42320)",
+   "buyer": "Mairie La Grand'Croix",
+   "published": "2026-11-12",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/788145-2026",
+   "procedure_id": "b3063bf4-c474-4753-b73b-67a9555ef2dc",
+   "description": "Les prestations consistent à la mise en oeuvre d'un ensemble d'opérations régulières ou ponctuelles de nettoyage conformes aux préconisations et descriptions du cahier des charges techniques en vue de maintenir des locaux propres",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90910000",
+    "90911000",
+    "90911200",
+    "90900000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:788322-2026",
+   "source": "TED",
+   "source_id": "788322-2026",
+   "title": "PRESTATION DE MAINTENANCES DES ESPACES VERTS ET MINERALISES DES ZONES D’INTERET COMMUNAUTAIRE SUR LE TERRITOIRE DE LA CINOR",
+   "buyer": "CINOR",
+   "published": "2026-11-12",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/788322-2026",
+   "procedure_id": "afbc9a05-b467-4c2c-8822-85ebfb107176",
+   "description": "cf. Avis initial de marché",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Entretien des espaces verts et minéralisés du sentier littoral, de la plage des galets et du Parc de Bois Madame de Sainte Marie",
+    "Lot 2 : Entretien des espaces verts et minéralisés du sentier littoral, de la plage des galets de Sainte Suzanne",
+    "Lot 3 : Entretien des espaces publics et des espaces verts et minéralisés du Parc technologique et de la Zac du Triangle de Saint Denis",
+    "Lot 4 : Entretien des espaces verts et des espaces verts et minéralisés du Parc urbain de Beauséjour de Sainte Marie avec engins spécialisées",
+    "Lot 5 : Entretien des espaces verts et des espaces verts et minéralisés du Site Ilet Quinquina et du parking Aquanor de Saint Denis (Lot réservé aux SIAE)",
+    "Lot 6 : Marché réservé au SIAE Entretien des espaces verts et des espaces verts et minéralisés de la cours du siège CINOR, du parking Extérieure du CIBR et de…",
+    "Lot 7 : Marché réservé au SIAE Entretien des espaces verts et des espaces verts et minéralisés et des espaces aménager et paysagers des 5 stations du…",
+    "Lot 8 : Marché réservé au SIAE - Entretien des espaces verts et des espaces verts et minéralisés de l’école de musique, de la médiathèque de Sainte Suzanne, de…"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:788864-2026",
+   "source": "TED",
+   "source_id": "788864-2026",
+   "title": "MARCHE DE NETTOYAGE DES PARTIES COMMUNES, DE GESTION DES ORDURES MENAGERES, DE MANIPULATION ET EVACUATION DES ENCOMBRANTS",
+   "buyer": "VILOGIA SA HLM",
+   "published": "2026-11-12",
+   "deadline": "2026-12-16T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/788864-2026",
+   "procedure_id": "b8e5dabe-5daf-4b70-818e-79bb7284ce89",
+   "description": "Le présent appel d’offres a pour objet l’entretien de propreté et les prestations de nettoyage des parties communes, la gestion des ordures ménagères et la manipulation et l’évacuation des encombrants pour le compte du groupement représenté par VILOGIA SA, Entreprise Sociale pour l’Habitat (ESH).",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France",
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Marseille Métropole",
+    "Alpes Maritimes",
+    "Grand Ouest",
+    "Logifim Flandres",
+    "Logifim Littoral"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:788943-2026",
+   "source": "TED",
+   "source_id": "788943-2026",
+   "title": "Mise en propreté des locaux et espaces du Théâtre national de la Colline",
+   "buyer": "Théâtre national de la Colline",
+   "published": "2026-11-12",
+   "deadline": "2026-12-10T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/788943-2026",
+   "procedure_id": "fef91885-e3d7-4a1c-b80a-ff453ab8e0ed",
+   "description": "Mise en propreté des locaux et espaces du Théâtre national de la Colline",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
   }
  ]
 }

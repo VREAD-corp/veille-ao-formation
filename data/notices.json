@@ -107684,6 +107684,49 @@
     "Prestations d'animations santé relatives à la prévention bucco-dentaire (Tout le territoire hexagonal)"
    ],
    "updated": ""
+  },
+  {
+   "id": "ted:788859-2026",
+   "source": "TED",
+   "source_id": "788859-2026",
+   "title": "Formation sécurité pour le personnel de la Métropole Rouen Normandie",
+   "buyer": "Metropole Rouen Normandie",
+   "published": "2026-11-12",
+   "deadline": "2026-12-14T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/788859-2026",
+   "procedure_id": "fde3971d-cff0-4375-8bdc-1dbde3bc722f",
+   "description": "Les prestations sont réparties en 7 Lots. Chaque lot fera l'objet d'un accord-cadre",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1140000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formation CACES engins de chantier, chariots, grues auxiliaires, plateformes élévatrices, chariots gerbeurs initiale et recyclage",
+    "Formation PERMIS BE, C ET CE avec ou sans passage de code de la route",
+    "Formation Initiale Minimale Obligatoire et Formation Continue Obligatoire",
+    "Formation habilitation électrique électricien et non électricien initiale et recyclage",
+    "Formation PREREQUIS CATEC + CATEC et MAC CATEC",
+    "Formation Autorisation d'Intervention à Proximité des Réseaux Encadrant, Concepteur et Opérateur",
+    "Formation Equipier de Première Intervention"
+   ],
+   "updated": ""
   }
  ]
 }
