@@ -107686,6 +107686,137 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-109409",
+   "source": "BOAMP",
+   "source_id": "26-109409",
+   "title": "Formation sécurité pour le personnel de la Métropole Rouen Normandie",
+   "buyer": "Metropole Rouen Normandie",
+   "published": "2026-11-12",
+   "deadline": "2026-12-14T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109409",
+   "procedure_id": "fde3971d-cff0-4375-8bdc-1dbde3bc722f",
+   "description": "Les prestations sont réparties en 7 Lots. Chaque lot fera l'objet d'un accord-cadre",
+   "departments": [
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1140000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Formation CACES engins de chantier, chariots, grues auxiliaires, plateformes élévatrices, chariots gerbeurs initiale et recyclage",
+    "Formation PERMIS BE, C ET CE avec ou sans passage de code de la route",
+    "Formation Initiale Minimale Obligatoire et Formation Continue Obligatoire",
+    "Formation habilitation électrique électricien et non électricien initiale et recyclage",
+    "Formation PREREQUIS CATEC + CATEC et MAC CATEC",
+    "Formation Autorisation d'Intervention à Proximité des Réseaux Encadrant, Concepteur et Opérateur",
+    "Formation Equipier de Première Intervention"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-109685",
+   "source": "BOAMP",
+   "source_id": "26-109685",
+   "title": "Servizi di formazione linguistica destinati al personale francese e italiano della società TELT",
+   "buyer": "TUNNEL EURALPIN LYON TURIN",
+   "published": "2026-11-12",
+   "deadline": "2026-12-15T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109685",
+   "procedure_id": "25b99752-641b-409a-83b9-e27dcc55e2d0",
+   "description": "Nell'ambito del progetto del nuovo collegamento ferroviario Torino-Lione, la società TELT, in qualità di ente appaltante, è il promotore pubblico responsabile della costruzione e della gestione della sezione transfrontaliera della futura infrastruttura. Il presente appalto ha per oggetto la prestazione di servizi di formazione linguistica destinati al personale francese e italiano di TELT. Queste prestazioni…",
+   "departments": [
+    "73"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80580000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Corsi di lingua italiana a distanza",
+    "Cours de langue italienne en distanciel",
+    "Corsi di lingua francese a distanza",
+    "Cours de langue française en distanciel",
+    "Corsi intensivi di lingua italiana in presenza a Torino",
+    "Cours intensifs de langue italienne en présentiel à Turin",
+    "Corsi intensivi di lingua francese in presenza a Chambéry",
+    "Cours intensifs de langue française en présentiel à Chambéry"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-109848",
+   "source": "BOAMP",
+   "source_id": "26-109848",
+   "title": "PRESTATIONS DE FORMATION « MANIPULATION DES EXTINCTEURS A DESTINATION DES AGENTS REGION »",
+   "buyer": "REGION CENTRE VAL DE LOIRE",
+   "published": "2026-11-12",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109848",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "79632000"
+   ],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-102239"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:788859-2026",
    "source": "TED",
    "source_id": "788859-2026",

@@ -122335,6 +122335,572 @@
    "descriptors": []
   },
   {
+   "id": "boamp:26-109392",
+   "source": "BOAMP",
+   "source_id": "26-109392",
+   "title": "Prestations d'amélioration et d'entretien du domaine portuaire réalisées dans le cadre d'un marché réservé aux structures d'insertion relevant des articles L.2113-12 et L.2113-13 du Code de la comm...",
+   "buyer": "GRAND PORT MARITIME DE DUNKERQUE",
+   "published": "2026-11-12",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109392",
+   "procedure_id": "5aa49ebc-d362-4809-914e-49479d783531",
+   "description": "Le présent accord-cadre est soumis aux dispositions des articles L. 2113-12, L. 2113-13 et L. 2113-14 du Code de la commande publique. En conséquence, la participation à la présente procédure de consultation est réservée aux structures suivantes :  Les structures employant des travailleurs handicapés mentionnées à l'article L. 2113-12 du Code de la commande publique : - Les entreprises adaptées (EA) mentionnées à…",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "90511300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "404"
+   ]
+  },
+  {
+   "id": "boamp:26-109462",
+   "source": "BOAMP",
+   "source_id": "26-109462",
+   "title": "Nettoyage des locaux et de la vitrerie des sites de la communauté de communes Normandie Cabourg Pays d'Auge",
+   "buyer": "CC NORMANDIE CABOURG PAYS D'AUGE",
+   "published": "2026-11-12",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109462",
+   "procedure_id": "49468afb-97ca-4707-a712-6b05ba2a54e1",
+   "description": "",
+   "departments": [
+    "14"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "90911000",
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux avec fourniture de consommables ménagers et sanitaires",
+    "Nettoyage des vitres"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-109465",
+   "source": "BOAMP",
+   "source_id": "26-109465",
+   "title": "Prestations de nettoyage et d'aide à la préparation des repas dans les locaux de la Ville et du CMAS de la Chapelle Saint-Luc-.",
+   "buyer": "Collectivité",
+   "published": "2026-11-12",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109465",
+   "procedure_id": "0ed92227-98a7-4283-9933-5413c580b9c8",
+   "description": "Le présent marché a pour objet l'entretien des Etablissements d'Accueil du Jeune Enfant et des bureaux administratifs du CMAS ainsi que de l'Accueil Collectif des Mineurs 1000 Couleurs de la Ville de la Chapelle Saint-Luc",
+   "departments": [
+    "10"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de nettoyage et d'aide à la préparation des repas dans les EAJE et bureaux administratifs du CMAS",
+    "Entretien de l'Acceuil Collectif des Mineurs 1000 Couleurs"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-109473",
+   "source": "BOAMP",
+   "source_id": "26-109473",
+   "title": "MISSION DE NETTOYAGE D'UNE PARTIE DES LOCAUX DE LA COMMUNE DE LA GRAND'CROIX (42320)",
+   "buyer": "Mairie La Grand'Croix",
+   "published": "2026-11-12",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109473",
+   "procedure_id": "b3063bf4-c474-4753-b73b-67a9555ef2dc",
+   "description": "Les prestations consistent à la mise en oeuvre d'un ensemble d'opérations régulières ou ponctuelles de nettoyage conformes aux préconisations et descriptions du cahier des charges techniques en vue de maintenir des locaux propres",
+   "departments": [
+    "42"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90910000",
+    "90911000",
+    "90911200",
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-109525",
+   "source": "BOAMP",
+   "source_id": "26-109525",
+   "title": "PRESTATION DE MAINTENANCES DES ESPACES VERTS ET MINERALISES DES ZONES D’INTERET COMMUNAUTAIRE SUR LE TERRITOIRE DE LA CINOR",
+   "buyer": "COMMUNAUTE INTERCOMMUNALE NORD REUNION",
+   "published": "2026-11-12",
+   "deadline": "2026-11-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109525",
+   "procedure_id": "afbc9a05-b467-4c2c-8822-85ebfb107176",
+   "description": "cf. Avis initial de marché",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-97961",
+    "boamp:26-99434",
+    "boamp:26-108284"
+   ],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Entretien des espaces verts et minéralisés du sentier littoral, de la plage des galets et du Parc de Bois Madame de Sainte Marie",
+    "Lot 2 : Entretien des espaces verts et minéralisés du sentier littoral, de la plage des galets de Sainte Suzanne",
+    "Lot 3 : Entretien des espaces publics et des espaces verts et minéralisés du Parc technologique et de la Zac du Triangle de Saint Denis",
+    "Lot 4 : Entretien des espaces verts et des espaces verts et minéralisés du Parc urbain de Beauséjour de Sainte Marie avec engins spécialisées",
+    "Lot 5 : Entretien des espaces verts et des espaces verts et minéralisés du Site Ilet Quinquina et du parking Aquanor de Saint Denis (Lot réservé aux SIAE)",
+    "Lot 6 : Marché réservé au SIAE Entretien des espaces verts et des espaces verts et minéralisés de la cours du siège CINOR, du parking Extérieure du CIBR et de…",
+    "Lot 7 : Marché réservé au SIAE Entretien des espaces verts et des espaces verts et minéralisés et des espaces aménager et paysagers des 5 stations du…",
+    "Lot 8 : Marché réservé au SIAE - Entretien des espaces verts et des espaces verts et minéralisés de l’école de musique, de la médiathèque de Sainte Suzanne, de…"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-109547",
+   "source": "BOAMP",
+   "source_id": "26-109547",
+   "title": "Prestations de télésurveillance et de maintenance du parc de centrale anti-intrusion des divers sites de la CARSAT Alsace-Moselle",
+   "buyer": "CARSAT ALSACE MOSELLE",
+   "published": "2026-11-12",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109547",
+   "procedure_id": "b19d7351-0820-44e9-b7f1-4939b0d68791",
+   "description": "",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "331"
+   ]
+  },
+  {
+   "id": "boamp:26-109565",
+   "source": "BOAMP",
+   "source_id": "26-109565",
+   "title": "EXPLOITATION DU PARKING RELAIS DE LA GARE DE MELUN",
+   "buyer": "Communauté d'Agglomération Melun Val de Seine",
+   "published": "2026-11-12",
+   "deadline": "2027-01-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109565",
+   "procedure_id": "b1f0c359-14c6-4784-8db0-b630bdf32da5",
+   "description": "Les prestations confiées au Titulaire sont les suivantes : - Assistance auprès de la CAMVS jusqu'à la fin des travaux de construction ; - Fourniture et pose des équipements non inclus dans le marché de construction de l'ouvrage ; - Gestion et exploitation du parking relais. Le Titulaire assure les missions qui lui sont confiées dans le respect des principes de continuité de service, d'égalité de traitement des…",
+   "departments": [
+    "77"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "63712400",
+    "98351000",
+    "98351100",
+    "90914000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2300000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-109568",
+   "source": "BOAMP",
+   "source_id": "26-109568",
+   "title": "Gardiennage des bâtiments du Conseil Départemental du Gard",
+   "buyer": "Conseil départemental du Gard",
+   "published": "2026-11-12",
+   "deadline": "2026-12-14T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109568",
+   "procedure_id": "998b17a1-30cf-43c0-a5e6-7103b294e492",
+   "description": "Accord-cadre avec montant annuel maximum exécuté par l'émission de bons de commande. Les prestations doivent permettre d'assurer la surveillance de l'accès aux bâtiments du Département du Gard, de prévenir, filtrer, intervenir et contrôler toute action suspecte sur le site et le cas échéant (SSIAP), secourir tout individu en difficulté et assurer la sécurité incendie",
+   "departments": [
+    "30"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79713000",
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-109595",
+   "source": "BOAMP",
+   "source_id": "26-109595",
+   "title": "ENTRETIEN DES VITRES INACCESSIBLES AU PERSONNEL COMMUNAL",
+   "buyer": "Ville de Grande-Synthe",
+   "published": "2026-11-12",
+   "deadline": "2026-12-14T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109595",
+   "procedure_id": "52b8f94a-3bbe-4f48-84ff-0ee662b10704",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274",
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-109603",
+   "source": "BOAMP",
+   "source_id": "26-109603",
+   "title": "Mise en propreté des locaux et espaces du Théâtre national de la Colline",
+   "buyer": "Theatre national de la Colline",
+   "published": "2026-11-12",
+   "deadline": "2026-12-10T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109603",
+   "procedure_id": "fef91885-e3d7-4a1c-b80a-ff453ab8e0ed",
+   "description": "",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-109620",
+   "source": "BOAMP",
+   "source_id": "26-109620",
+   "title": "Nettoyage des surfaces vitrées en hauteur, des façades et autres opérations acrobatiques, pavoisement et dépavoisement des bâtiments de la Région Provence-Alpes-Côte d'Azur",
+   "buyer": "Région Provence-Alpes-Côte d'Azur",
+   "published": "2026-11-12",
+   "deadline": "2027-01-04T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109620",
+   "procedure_id": "540ae8db-c3ef-4edd-8192-8aece437f45a",
+   "description": "La procédure de passation est un Appel d'offres ouvert (R2124-2 1°du code de la commande publique). La présente consultation a pour objet le nettoyage des surfaces vitrées en hauteur, façades et autres opérations acrobatiques, pavoisement et dépavoisement des bâtiments de la Région Provence-Alpes-Côte d'Azur. Les prestations feront l'objet d'un marché unique. En application de l'article L2113-11 du code de la…",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911300",
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274",
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-109896",
+   "source": "BOAMP",
+   "source_id": "26-109896",
+   "title": "Entretien des espaces verts et faucardages des roseaux des ouvrages d'assainissement Ccsb - Marché réservé",
+   "buyer": "Communaute De Communes Saône Beaujolais",
+   "published": "2026-11-12",
+   "deadline": "2027-01-15T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109896",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Le contrat est susceptible d'être reconduit dans les conditions du CCAP. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "18",
+    "116"
+   ]
+  },
+  {
    "id": "ted:786311-2026",
    "source": "TED",
    "source_id": "786311-2026",
