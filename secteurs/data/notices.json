@@ -122901,6 +122901,174 @@
    ]
   },
   {
+   "id": "boamp:26-110169",
+   "source": "BOAMP",
+   "source_id": "26-110169",
+   "title": "PRESTATION DE SERVICE DE SECURITE HUMAINE POUR LE COMPTE DES SITES DU CHU DE NICE",
+   "buyer": "Centre Hospitalier Universitaire de Nice - Hôpital de Cimiez - Établissement support du GHT06",
+   "published": "2026-11-12",
+   "deadline": "2026-12-14T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110169",
+   "procedure_id": null,
+   "description": "Référence : 2026-MAPA0100-FFPGH Justificatifs sollicités : Cf. règlement de la consultation Variantes : non Le délai de validité des offres est de 180 jours à compter de la date limite fixée pour la réception des offres. Critères de sélection : Valeur financière : 60% Valeur technique : 35% Valeur RSE : 5%",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 7430591.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-110223",
+   "source": "BOAMP",
+   "source_id": "26-110223",
+   "title": "REALISATION DU NETTOYAGE ET DE LA PROPRETE DES BATIMENTS MUNICIPAUX DE LA COMMUNE D’AULNOY-LEZ- VALENCIENNES",
+   "buyer": "Ville d’Aulnoy-Lez-Valenciennes",
+   "published": "2026-11-12",
+   "deadline": "2026-12-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110223",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-110228",
+   "source": "BOAMP",
+   "source_id": "26-110228",
+   "title": "Prestations de sûreté et de surveillance de l’entrée de la Basilique Cathédrale Saint-Denis (93)",
+   "buyer": "Centre des Monuments Nationaux",
+   "published": "2026-11-12",
+   "deadline": "2026-12-09T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110228",
+   "procedure_id": null,
+   "description": "La présente consultation a pour objet les prestations de sûreté et de surveillance de l’entrée de la Basilique Cathédrale Saint-Denis (93). Le présent marché est conclu pour une durée d’un (1) an à compter du 1er janvier 2027 sous réserve que le marché soit notifié à cette date. A défaut, le marché sera conclu à compter de sa date de notification. Il peut être reconduit tacitement 3 fois pour une durée d'un an sans…",
+   "departments": [
+    "75",
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 320000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "236"
+   ]
+  },
+  {
+   "id": "boamp:26-110238",
+   "source": "BOAMP",
+   "source_id": "26-110238",
+   "title": "Dans le cadre de ses missions d'accueil du public, d'organisation d'événements culturels et touristiques, ainsi que de la sécurisation de ses sites, l'Office de Tourisme, des Loisirs et des Congrès...",
+   "buyer": "OFFICE DE TOURISME ET DES CONGRES DE MARSEILLE",
+   "published": "2026-11-12",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110238",
+   "procedure_id": null,
+   "description": "Dans le cadre de ses missions d'accueil du public, d'organisation d'événements culturels et touristiques, ainsi que de la sécurisation de ses sites, l'Office de Tourisme, des Loisirs et des Congrès de Marseille lance un marché relatif à la mise à disposition d'agents de sécurité privée. Ce marché vise à répondre à deux types de besoins complémentaires : 1. Une présence de sécurité à l'accueil du siège de…",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
    "id": "ted:786311-2026",
    "source": "TED",
    "source_id": "786311-2026",

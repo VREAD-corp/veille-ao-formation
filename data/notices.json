@@ -107817,6 +107817,43 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-110215",
+   "source": "BOAMP",
+   "source_id": "26-110215",
+   "title": "Créativité et innovation",
+   "buyer": "ECOLE NATIONALE SUPERIEURE DE SECURITE SOCIALE",
+   "published": "2026-11-12",
+   "deadline": "2026-12-07T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110215",
+   "procedure_id": null,
+   "description": "La présente consultation concerne des prestations de formation sur le thème : Créativité et Innovation",
+   "departments": [
+    "42"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:788859-2026",
    "source": "TED",
    "source_id": "788859-2026",
