@@ -124142,6 +124142,234 @@
    ]
   },
   {
+   "id": "boamp:26-110632",
+   "source": "BOAMP",
+   "source_id": "26-110632",
+   "title": "Prestations de services pour la gestion et l'animation des jardins partagés de la commune de Meudon (92190)",
+   "buyer": "Ville de Meudon",
+   "published": "2026-11-13",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110632",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 215000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-110659",
+   "source": "BOAMP",
+   "source_id": "26-110659",
+   "title": "Surveillance et gardiennage du site de traitement des déchets du SMICTOM à Scherwiller",
+   "buyer": "SMICTOM ALSACE CENTRALE",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110659",
+   "procedure_id": null,
+   "description": "Le présent accord-cadre de prestations service a pour objet la surveillance et le gardiennage des locaux du site du SMICTOM D'Alsace Centrale de Scherwiller. Les prestations doivent permettre d'assurer la sécurité incendie, de surveiller l'accès aux locaux de l'établissement, de prévenir, intervenir, et contrôler toute action suspecte sur le site, ainsi que d'accueillir, renseigner, filtrer toute personne qui en…",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-110670",
+   "source": "BOAMP",
+   "source_id": "26-110670",
+   "title": "Marché propreté 2027 Ville de Trégastel",
+   "buyer": "Commune de Trégastel",
+   "published": "2026-11-13",
+   "deadline": "2026-12-15T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110670",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "22"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "90900000",
+    "90511000",
+    "90910000",
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "WC Publics",
+    "Propreté urbaine (Poubelles)",
+    "Entretien des bâtiments communaux",
+    "Marché réservé nettoyage de locaux communaux"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "240"
+   ]
+  },
+  {
+   "id": "boamp:26-110769",
+   "source": "BOAMP",
+   "source_id": "26-110769",
+   "title": "Contrat de maîtrise d'œuvre pour la réalisation de l'aménagement du secteur du Puy Imbert et des travaux de finitions de la rue Buck Clayton – ZAC ESTER - Limoges",
+   "buyer": "SELI - Société d'Equipement du Limousin",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110769",
+   "procedure_id": null,
+   "description": "Marché de maîtrise d'œuvre comprenant les missions de base en infrastructure pour l'aménagement du secteur du Puy Imbert et la rue Buck Clayton sur la commune de Limoges, sur une superficie d'environ 4 hectares. Les missions comprennent notamment études préliminaires, AVP, PRO-DCE, ACT, VISA/EXE partielles, DET, AOR, DOE et OPC.",
+   "departments": [
+    "87"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "366",
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-110824",
+   "source": "BOAMP",
+   "source_id": "26-110824",
+   "title": "Prestations de nettoyage pour les bâtiments et sanitaires publics",
+   "buyer": "Ville de Bastia",
+   "published": "2026-11-13",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110824",
+   "procedure_id": null,
+   "description": "Cette consultation fait suite à une précédente procédure référencée 2026/010 déclarée sans suite. Le présent avis d'appel public à concurrence porte uniquement sur les lots 1 à 3 d'une consultation décomposée en 4 lots . Le lot 4\" Nettoyage ponctuel des bâtiments communaux et prestations exceptionnelles \" sera lancé ultérieurement",
+   "departments": [],
+   "regions": [],
+   "cpv": [
+    "90911200",
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Nettoyage régulier du musée de Bastia : Salles d'exposition permanentes, sanitaires, accueil, dégagement et ascenseurs",
+    "2 : Nettoyage régulier du musée de Bastia : Salles d'exposition temporaires, escaliers, accès et sous-sol, vitres et prestations exceptionnelles",
+    "3 : Prestations d'entretien et de nettoyage des sanitaires publics"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "274",
+    "319"
+   ]
+  },
+  {
    "id": "ted:790153-2026",
    "source": "TED",
    "source_id": "790153-2026",
