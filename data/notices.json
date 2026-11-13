@@ -107895,6 +107895,49 @@
     "Formation Equipier de Première Intervention"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-110479",
+   "source": "BOAMP",
+   "source_id": "26-110479",
+   "title": "Formation pour l'obtention du permis de conduire",
+   "buyer": "Sdis de la Drôme",
+   "published": "2026-11-13",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110479",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix forfaitaires et unitaires",
+   "departments": [
+    "26"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80411000",
+    "34140000",
+    "80411200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "01 : Permis poids-lourd. Permis poids-lourd",
+    "02 : Permis remorque. Permis remorque"
+   ],
+   "updated": ""
   }
  ]
 }

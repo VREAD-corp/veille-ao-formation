@@ -123605,6 +123605,942 @@
     "nettoyage"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-109669",
+   "source": "BOAMP",
+   "source_id": "26-109669",
+   "title": "FOURNITURES ET PRESTATIONS DE SERVICES POUR L'ORGANISATION DE MIEL VERT 2027",
+   "buyer": "COMMUNE DU TAMPON",
+   "published": "2026-11-13",
+   "deadline": "2026-11-25T09:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109669",
+   "procedure_id": "a7493aaa-8524-42dd-9468-415c8ced468b",
+   "description": "Miel Vert 2027 se déroulera du vendredi 08 janvier au dimanche 17 janvier 2027. La présente consultation comprend 27 lots dont le descriptif figure au CCTP. Chaque lot fera l'objet d'une attribution séparée. Le marché donne lieu à versement d'avance pour les lots suivants : 13, 20, 24 à 27. Les modalités de l'avance sont prévues dans le CCAP Acceptation pour des variantes pour les lots 25 à 27, les modalités sont…",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79954000",
+    "79823000",
+    "45223800",
+    "44211100",
+    "03121200",
+    "39298700",
+    "32342410",
+    "31321000",
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-109338"
+   ],
+   "summary": "",
+   "lots": [
+    "Impression de 2 bâches",
+    "Location de 4 chapiteaux 12 X 12 mètres",
+    "Location de 1 chapiteau 10 X 10 mètres et 2 chapiteaux 5 X 5 mètres",
+    "Location de 7 modulaires",
+    "Réalisation de 1 200 laissez-passer",
+    "400 fleurs coupées au détail - Bouquets élection Miss Mamie Réunion",
+    "38 trophées récompensant les concours",
+    "Habillage arrière de 8 Floribus et 2 Floriana",
+    "Location de matériels de sonorisation, d'éclairage, de backline & effets",
+    "Location et mise en place de vélums décoratifs",
+    "Location d'une scène traditionnelle et structures scéniques",
+    "Ateliers culinaires"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-109732",
+   "source": "BOAMP",
+   "source_id": "26-109732",
+   "title": "Accord-cadre relatif à des prestations de désherbage et de nettoyage des voiries - marché réservé - relance des lots 2 et 4",
+   "buyer": "Mairie de Perpignan",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109732",
+   "procedure_id": "c4aee23c-1244-433e-ace5-effdc6af6acc",
+   "description": "La présente relance est issue d'un accord-cadre « composite ». Les lots 1 à 4 sont traités sous la forme d'un marché ordinaire et le lot 5 correspondant à un accord-cadre à bons de commande avec maximum. Chaque lot fera l'objet d'une attribution séparée",
+   "departments": [
+    "66"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "77312100"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur OUEST",
+    "Secteur SUD"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "240",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-109738",
+   "source": "BOAMP",
+   "source_id": "26-109738",
+   "title": "Mise en propreté des locaux et services associés au Grand Annecy",
+   "buyer": "GRAND ANNECY",
+   "published": "2026-11-13",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109738",
+   "procedure_id": "6218890f-f7e6-40b5-b85d-5ecf0ce6accf",
+   "description": "La consultation est décomposée en 3 lots : - Lot n°1 - Bâtiments des services administratifs - Lot n°2 - Bâtiments des services techniques ( Valorisation des déchets et direction de l'eau potable) - Lot n°3 - Bâtiments des pôles entrepreneuriaux - Station du Semnoz",
+   "departments": [
+    "74"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90910000",
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-97180",
+    "boamp:26-108279"
+   ],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Bâtiments des services administratifs",
+    "Lot n°2 - Bâtiments des services techniques",
+    "Lot n°3 - Bâtiments des pôles entrepreneuriaux - Station du Semnoz"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-109778",
+   "source": "BOAMP",
+   "source_id": "26-109778",
+   "title": "Marché de services d'entretien du Stade Jean Serra",
+   "buyer": "Ville de Maubeuge",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109778",
+   "procedure_id": "51756cac-24bf-4b79-9549-b5a00d402b0e",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77314000",
+    "77320000",
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "entretien terrain de rugby et des espaces verts",
+    "entretien du terrain synthétique de football"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "342"
+   ]
+  },
+  {
+   "id": "boamp:26-109780",
+   "source": "BOAMP",
+   "source_id": "26-109780",
+   "title": "Prestation d'arrachage dynamique et de collecte depuis la voie d'eau, de plantes aquatiques envahissantes sur le Canal de la Marne au Rhin Est (CMRE), selon la norme européenne CWA 17916:2022",
+   "buyer": "Voies Navigables de France DTNE",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T15:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109780",
+   "procedure_id": "1b3bdcee-7518-411f-abd3-c8f202dc38a9",
+   "description": "La consultation a pour objet les prestations d'arrachage dynamique et de collecte depuis la voie d'eau, de plantes aquatiques envahissantes sur le Canal de la Marne au Rhin Est (CMRE), selon la norme européenne CWA 17916:2022 Les prestations comprennent notamment : - l'amenée, le déchargement, l'installation et le repliement des matériels et engins nécessaires à l'exécution des prestations, - la",
+   "departments": [
+    "54"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "77312000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 209000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-109830",
+   "source": "BOAMP",
+   "source_id": "26-109830",
+   "title": "Nettoyage des locaux, du mobilier et des équipements du service de restauration et activité de plonge au sein du Collège Majicavo de Koungou.",
+   "buyer": "Rectorat de Mayotte",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109830",
+   "procedure_id": "1f2cf1a1-b747-43bb-834e-a545935a6b2d",
+   "description": "Nettoyage des locaux, du mobilier et des équipements pédagogiques, des sanitaires, nettoyage des locaux, du mobilier et des équipements du service de restauration et activité de plonge au sein du Collège Majicavo de Koungou.",
+   "departments": [
+    "974",
+    "976"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-109839",
+   "source": "BOAMP",
+   "source_id": "26-109839",
+   "title": "Elagage et abattage 2027-2030 sur la commune de Neuilly-sur-Marne",
+   "buyer": "Mairie de Neuilly sur Marne",
+   "published": "2026-11-13",
+   "deadline": "2026-12-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109839",
+   "procedure_id": "1ee8392a-7955-4186-8d32-0be97536fb40",
+   "description": "Le présent marché a pour objet les prestations d'élagage et/ou abattage des arbres, essouchage et ponctuellement divers travaux comme diagnostic sanitaire.",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77211500",
+    "77211400"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 350000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "358",
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-109841",
+   "source": "BOAMP",
+   "source_id": "26-109841",
+   "title": "Entretien et maintenance des espaces verts",
+   "buyer": "Commune de Pont-Château",
+   "published": "2026-11-13",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-109841",
+   "procedure_id": "4dec3302-a490-4643-8d32-0877189fa0af",
+   "description": "Marché d'entretien des espaces verts de la commune de Pont-Château",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000",
+    "77313000",
+    "77300000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien avec tonte Mulching",
+    "Entretien avec tonte ramassée"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-110372",
+   "source": "BOAMP",
+   "source_id": "26-110372",
+   "title": "L'Office de tourisme, des Loisirs et des Congrès de Marseille (ci-après nommé OTLCM) accueille quotidiennement du public, des partenaires institutionnels ainsi que ses collaborateurs dans des locau...",
+   "buyer": "OFFICE DE TOURISME ET DES CONGRES DE MARSEILLE",
+   "published": "2026-11-13",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110372",
+   "procedure_id": null,
+   "description": "L'Office de tourisme, des Loisirs et des Congrès de Marseille (ci-après nommé OTLCM) accueille quotidiennement du public, des partenaires institutionnels ainsi que ses collaborateurs dans des locaux répartis sur plusieurs niveaux et comprenant des espaces d'accueil, des bureaux administratifs, des salles de réunion, des espaces de convivialité, des circulations et des sanitaires. Dans le cadre du maintien d'un haut…",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 - Nettoyage et entretien",
+    "Lot 2 - Vitrerie intérieure et extérieure",
+    "Lot 3 - La Cité Radieuse - Appartement 643"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-110481",
+   "source": "BOAMP",
+   "source_id": "26-110481",
+   "title": "prestation de sécurité incendie, d’assistance aux personnes et de sureté générale au sein de l’Espace Sportif et Culturel",
+   "buyer": "Ville de Draguignan (83)",
+   "published": "2026-11-13",
+   "deadline": "2026-12-03T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110481",
+   "procedure_id": null,
+   "description": "Prestation de sécurité incendie, d'assistance aux personnes et de sureté générale au sein de l'Espace Sportif et Culturel de la commune de Draguignan",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "331",
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-110597",
+   "source": "BOAMP",
+   "source_id": "26-110597",
+   "title": "Entretien des Espaces Verts",
+   "buyer": "Mairie de Linselles",
+   "published": "2026-11-13",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110597",
+   "procedure_id": null,
+   "description": "Entretien des espaces verts pour la tonte, la taille, l’élagage, l’abattage, intervention sur le nettoyage des surfaces minérales (débroussaillage, soufflage et balayage), désherbage des inter-tombes du cimetière de la ville de Linselles.",
+   "departments": [
+    "59",
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Tonte",
+    "Elagage",
+    "Taille arbustive",
+    "Abattage",
+    "Nettoyage des surfaces minérales (débroussaillage, soufflage et balayage)",
+    "Désherbage des inter-tombes du cimetières"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "ted:790153-2026",
+   "source": "TED",
+   "source_id": "790153-2026",
+   "title": "Mise en propreté des locaux et services associés au Grand Annecy",
+   "buyer": "GRAND ANNECY",
+   "published": "2026-11-13",
+   "deadline": "2026-11-16T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/790153-2026",
+   "procedure_id": "6218890f-f7e6-40b5-b85d-5ecf0ce6accf",
+   "description": "La consultation est décomposée en 3 lots : - Lot n°1 - Bâtiments des services administratifs - Lot n°2 - Bâtiments des services techniques ( Valorisation des déchets et direction de l'eau potable) - Lot n°3 - Bâtiments des pôles entrepreneuriaux - Station du Semnoz",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90910000",
+    "90900000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Bâtiments des services administratifs",
+    "Lot n°2 - Bâtiments des services techniques",
+    "Lot n°3 - Bâtiments des pôles entrepreneuriaux - Station du Semnoz"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:790223-2026",
+   "source": "TED",
+   "source_id": "790223-2026",
+   "title": "Nettoyage des locaux, du mobilier et des équipements pédagogiques, des sanitaires, nettoyage des locaux, du mobilier et des équipements du service de restauration et activité de plonge au sein du Collège Majicavo de Koungou.",
+   "buyer": "Rectorat de Mayotte",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T11:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/790223-2026",
+   "procedure_id": "1f2cf1a1-b747-43bb-834e-a545935a6b2d",
+   "description": "Nettoyage des locaux, du mobilier et des équipements pédagogiques, des sanitaires, nettoyage des locaux, du mobilier et des équipements du service de restauration et activité de plonge au sein du Collège Majicavo de Koungou.",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:791222-2026",
+   "source": "TED",
+   "source_id": "791222-2026",
+   "title": "FOURNITURES ET PRESTATIONS DE SERVICES POUR L'ORGANISATION DE MIEL VERT 2027",
+   "buyer": "COMMUNE DU TAMPON",
+   "published": "2026-11-13",
+   "deadline": "2026-11-25T09:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/791222-2026",
+   "procedure_id": "a7493aaa-8524-42dd-9468-415c8ced468b",
+   "description": "Miel Vert 2027 se déroulera du vendredi 08 janvier au dimanche 17 janvier 2027. La présente consultation comprend 27 lots dont le descriptif figure au CCTP. Chaque lot fera l'objet d'une attribution séparée. Le marché donne lieu à versement d'avance pour les lots suivants : 13, 20, 24 à 27. Les modalités de l'avance sont prévues dans le CCAP Acceptation pour des variantes pour les lots 25 à 27, les modalités sont…",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79954000",
+    "79823000",
+    "45223800",
+    "44211100",
+    "03121200",
+    "39298700",
+    "32342410",
+    "31321000",
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Impression de 2 bâches",
+    "Location de 4 chapiteaux 12 X 12 mètres",
+    "Location de 1 chapiteau 10 X 10 mètres et 2 chapiteaux 5 X 5 mètres",
+    "Location de 7 modulaires",
+    "Réalisation de 1 200 laissez-passer",
+    "400 fleurs coupées au détail - Bouquets élection Miss Mamie Réunion",
+    "38 trophées récompensant les concours",
+    "Habillage arrière de 8 Floribus et 2 Floriana",
+    "Location de matériels de sonorisation, d'éclairage, de backline & effets",
+    "Location et mise en place de vélums décoratifs",
+    "Location d'une scène traditionnelle et structures scéniques",
+    "Ateliers culinaires"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:791521-2026",
+   "source": "TED",
+   "source_id": "791521-2026",
+   "title": "Marché de services d'entretien du Stade Jean Serra",
+   "buyer": "Ville de Maubeuge",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/791521-2026",
+   "procedure_id": "51756cac-24bf-4b79-9549-b5a00d402b0e",
+   "description": "Marché de services d'entretien du Stade Jean Serra",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77314000",
+    "77320000",
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "entretien terrain de rugby et des espaces verts",
+    "entretien du terrain synthétique de football"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:792010-2026",
+   "source": "TED",
+   "source_id": "792010-2026",
+   "title": "2602_Entretien et maintenance des espaces verts",
+   "buyer": "COMMUNE DE PONTCHATEAU",
+   "published": "2026-11-13",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/792010-2026",
+   "procedure_id": "4dec3302-a490-4643-8d32-0877189fa0af",
+   "description": "Marché d'entretien des espaces verts de la commune de Pont-Château",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000",
+    "77313000",
+    "77300000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien avec tonte Mulching",
+    "Entretien avec tonte ramassée"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:792238-2026",
+   "source": "TED",
+   "source_id": "792238-2026",
+   "title": "Patrimoine de LogemLoiret - prestation d'entretien ménager des logements et de traitement des encombrants",
+   "buyer": "LogemLoiret",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T23:59",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/792238-2026",
+   "procedure_id": "e196ab6f-9960-454b-a702-297a2dfe1451",
+   "description": "Le présent avenant a pour objet des prestations d'entretien ménager des logements et de traitement des encombrants pour le patrimoine de LogemLoiret. La forme retenue pour l'exécution du contrat est mono-attributaire sans minimum et avec un maximum en application des articles R2162-2, R2162-4 2° et R2162-13 à R2162-14 du Code de la commande publique (voir CCAP)",
+   "departments": [],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Entretien ménager des logements - Giennois - Secteur 1",
+    "Lot n°2 - Entretien ménager des logements - Giennois - Secteur 2",
+    "Lot n°3 - Entretien ménager des logements - Montargois - Secteur 1",
+    "Lot n°4 - Entretien ménager des logements - Montargois - Secteur 2",
+    "Lot n°5 - Entretien ménager des logements - Pithiverais - Secteur 1",
+    "Lot n°6 - Entretien ménager des logements - Pithiverais - Secteur 2",
+    "Lot n°7 - Entretien ménager des logements - Pithiverais - Secteur 3",
+    "Lot n°8 - Entretien ménager des logements - Loire et Sologne - Secteur 1",
+    "Lot n°9 - Entretien ménager des logements - Loire et Sologne - Secteur 2",
+    "Lot n°10 - Entretien ménager des logements - Loire et Sologne - Secteur 3",
+    "Lot n°11 - Entretien ménager des logements - Val et Forêt - Secteur 1",
+    "Lot n°12 - Entretien ménager des logements - Val et Forêt - Secteur 2"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:792269-2026",
+   "source": "TED",
+   "source_id": "792269-2026",
+   "title": "Prestation d'arrachage dynamique et de collecte depuis la voie d'eau, de plantes aquatiques envahissantes sur le Canal de la Marne au Rhin Est (CMRE), selon la norme européenne CWA 17916:2022",
+   "buyer": "Voies Navigables de France DTNE",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T15:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/792269-2026",
+   "procedure_id": "1b3bdcee-7518-411f-abd3-c8f202dc38a9",
+   "description": "La consultation a pour objet les prestations d'arrachage dynamique et de collecte depuis la voie d'eau, de plantes aquatiques envahissantes sur le Canal de la Marne au Rhin Est (CMRE), selon la norme européenne CWA 17916:2022 Les prestations comprennent notamment : - l'amenée, le déchargement, l'installation et le repliement des matériels et engins nécessaires à l'exécution des prestations, - la",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "77312000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 209000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:792323-2026",
+   "source": "TED",
+   "source_id": "792323-2026",
+   "title": "Accord-cadre relatif à des prestations de désherbage et de nettoyage des voiries - marché réservé - relance des lots 2 et 4",
+   "buyer": "Mairie de Perpignan",
+   "published": "2026-11-13",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/792323-2026",
+   "procedure_id": "c4aee23c-1244-433e-ace5-effdc6af6acc",
+   "description": "La présente relance est issue d'un accord-cadre « composite ». Les lots 1 à 4 sont traités sous la forme d'un marché ordinaire et le lot 5 correspondant à un accord-cadre à bons de commande avec maximum. Chaque lot fera l'objet d'une attribution séparée",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "77312100"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur OUEST",
+    "Secteur SUD"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:792704-2026",
+   "source": "TED",
+   "source_id": "792704-2026",
+   "title": "Elagage et abattage 2027-2030 sur la commune de Neuilly-sur-Marne",
+   "buyer": "Mairie de Neuilly sur Marne",
+   "published": "2026-11-13",
+   "deadline": "2026-12-17T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/792704-2026",
+   "procedure_id": "1ee8392a-7955-4186-8d32-0be97536fb40",
+   "description": "Le présent marché a pour objet les prestations d'élagage et/ou abattage des arbres, essouchage et ponctuellement divers travaux comme diagnostic sanitaire.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77211500",
+    "77211400"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 350000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
   }
  ]
 }
