@@ -124769,6 +124769,164 @@
     "espaces-verts"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-110249",
+   "source": "BOAMP",
+   "source_id": "26-110249",
+   "title": "Prestations de nettoyage des vitres pour les parties communes et bureaux du siège social du Groupe BRL et ses annexes",
+   "buyer": "BRL - DJRSE",
+   "published": "2026-11-14",
+   "deadline": "2026-11-26T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110249",
+   "procedure_id": "b2253510-412b-44c4-bc0a-01af1abf954d",
+   "description": "BRL lance une consultation pour la passation d'un accord-cadre ayant pour objet des prestations de nettoyage des vitres pour les parties communes et bureaux du siège social du Groupe BRL et ses annexes. Il n'est pas alloti et n'est pas décomposé en tranches.",
+   "departments": [
+    "13",
+    "30",
+    "34"
+   ],
+   "regions": [
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-97946"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-110250",
+   "source": "BOAMP",
+   "source_id": "26-110250",
+   "title": "Marché crèches",
+   "buyer": "Préfecture des Hauts-de-Seine",
+   "published": "2026-11-14",
+   "deadline": "2027-01-06T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110250",
+   "procedure_id": "b7bafc9c-8839-4d4b-a33c-e71650bebe2c",
+   "description": "Marché de réservation de places en crèches pour le compte des fonctionnaires du Ministère de l’Intérieur auprès d’opérateurs agréés par la protection maternelle infantile et conventionnés auprès de la caisse d’allocations familiales (CAF). Les besoins de places en crèches sont situés dans certaines communes ou groupement de communes du département des Hauts-de-Seine (92).",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "85312110"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 400000.0,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Commune d'Antony",
+    "Commune d'Asnières",
+    "Commune de Courbevoie",
+    "Commune d'Issy-les-Moulineaux",
+    "Commune de Levallois-Perret",
+    "Commune de Nanterre",
+    "Commune de Rueil-Malmaison",
+    "Chatenay-Malabry/Sceaux",
+    "Meudon/Clamart"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-110285",
+   "source": "BOAMP",
+   "source_id": "26-110285",
+   "title": "Marché n°26.AO.BA.056: Gestion d espaces verts et manutention/déménagements dans les équipements d’Est Ensemble",
+   "buyer": "Etablissement Public Territorial Est Ensemble",
+   "published": "2026-11-14",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110285",
+   "procedure_id": "2476a5a4-206c-4c23-8ab8-2c4a4b39891b",
+   "description": "L'Établissement public territorial Est Ensemble recherche, au travers de cet accord-cadre, des prestataires capables d'assurer, d'une part, la gestion d'espaces verts des équipements du territoire (Lot 1) et, d'autre part, les prestations de manutention et de déménagement dans les différents équipements de l'Etablissement (Lot 2).",
+   "departments": [
+    "75",
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "60000000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Gestion d’espaces verts des équipements",
+    "Manutention et déménagements dans les équipements d’Est Ensemble"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "237",
+    "86"
+   ]
   }
  ]
 }
