@@ -125234,6 +125234,145 @@
    "descriptors": [
     "240"
    ]
+  },
+  {
+   "id": "boamp:26-110623",
+   "source": "BOAMP",
+   "source_id": "26-110623",
+   "title": "PRESTATIONS DE NETTOYAGE DES BASSINS ET LOCAUX DES PISCINES MUNICIPALES DE LA VILLE DE NANTES",
+   "buyer": "VILLE DE NANTES",
+   "published": "2026-11-15",
+   "deadline": "2026-12-15T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110623",
+   "procedure_id": "aec69852-833d-48d3-9b15-99bacc30d093",
+   "description": "",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "265",
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-110630",
+   "source": "BOAMP",
+   "source_id": "26-110630",
+   "title": "Prestations de nettoyage de locaux pour l'université Jean Moulin Lyon3",
+   "buyer": "UNIVERSITE JEAN MOULIN LYON3",
+   "published": "2026-11-15",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110630",
+   "procedure_id": "6df79985-1099-4e3e-951d-9297e5947691",
+   "description": "",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-110712",
+   "source": "BOAMP",
+   "source_id": "26-110712",
+   "title": "Prestations d'entretien des espaces verts de la commune de Décines-Charpieu",
+   "buyer": "Ville de Décines-Charpieu",
+   "published": "2026-11-15",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110712",
+   "procedure_id": "9f8a6f7c-ea87-455e-8310-15f536a010bd",
+   "description": "La présente consultation porte sur des prestations d'entretien des espaces verts de la commune de Décines-Charpieu. Le marché est divisé en trois lots : Lot 1 : Entretien des espaces horticoles Lot 2 : Entretien des espaces naturels Lot 3 : Entretien des terrains de sport L'accord-cadre est passé selon la procédure d'appel d'offres ouvert (article L.2124-2 et R.2124-2 du Code de la commande publique). Il s'agit d'un…",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000",
+    "77300000",
+    "77320000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 268200.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces horticoles",
+    "Entretien des espaces naturels",
+    "Entretien des terrains de sport"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "342",
+    "240"
+   ]
   }
  ]
 }

@@ -107938,6 +107938,151 @@
     "02 : Permis remorque. Permis remorque"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-110593",
+   "source": "BOAMP",
+   "source_id": "26-110593",
+   "title": "PRESTATIONS D'ANIMATIONS PREVENTION SANTE : PROMOTION DE L'ACTIVITE PHYSIQUE, LUTTE CONTRE LA SEDENTARITE ET PREVENTION BUCCO-DENTAIRE A DESTINATION DES ASSURES DE LA CPRPF",
+   "buyer": "Caisse de prévoyance et de retraite du personnel ferroviaire CPRPF",
+   "published": "2026-11-15",
+   "deadline": "2026-12-10T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110593",
+   "procedure_id": "fbb4078e-9644-495c-83ce-9aa83b9973f5",
+   "description": "Le présent accord-cadre a pour objet la réalisation d'animations de prévention en santé, comprenant notamment : - La prévention de la sédentarité et la promotion de l'activité physique adaptée auprès des assurés et de leurs ayants droit de la CPR, au moyen de prestations de services prenant la forme d'ateliers ou de programmes d'activité physique, organisés en présentiel (lots n°1 à 4) ; - La prévention…",
+   "departments": [
+    "13",
+    "29",
+    "33",
+    "75"
+   ],
+   "regions": [
+    "Bretagne",
+    "Nouvelle-Aquitaine",
+    "Provence-Alpes-Côte d'Azur",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80561000",
+    "92620000",
+    "85130000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 521698.68,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-109109"
+   ],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Prestations d'animations prévention santé relatives à la lutte contre la sédentarité et à la promotion de l'activité physique adaptée Zone Sud-Ouest",
+    "Prestations d'animations prévention santé relatives à la lutte contre la sédentarité et à la promotion de l'activité physique adaptée et prévention…",
+    "Lot 2 : Prestations d'animations prévention santé relatives à la lutte contre la sédentarité et à la promotion de l'activité physique adaptée Zone Sud-Est",
+    "Lot 3 : Prestations d'animations prévention santé relatives à la lutte contre la sédentarité et à la promotion de l'activité physique adaptée – Zone Nord-Ouest…",
+    "Lot 4 : Prestations d'animations prévention santé relatives à la lutte contre la sédentarité et à la promotion de l'activité physique adaptée - Zone Nord-Est…",
+    "Prestations d'animations santé relatives à la prévention bucco-dentaire (Tout le territoire hexagonal)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-110622",
+   "source": "BOAMP",
+   "source_id": "26-110622",
+   "title": "Mission de préventeur pour le chantier de la nouvelle unité de production industrielle FRAMATOME sur la commune des Pieux (50).",
+   "buyer": "SHEMA",
+   "published": "2026-11-15",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110622",
+   "procedure_id": "514a612b-5828-47d2-8989-e85c8be622a3",
+   "description": "Nature et étendue des prestations : - Assurer une prévention pendant la durée du chantier opérationnelle et rigoureuse - Garantir la conformité réglementaire et documentaire des matériels, équipements, et veiller à ce que les personnels de chantier interviennent dans le respect des règles de sécurité. - Réduire les risques et prévenir les accidents, en menant notamment des opérations de prévention et de formation et…",
+   "departments": [
+    "14",
+    "50"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "71317000",
+    "71317210",
+    "80540000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-110827",
+   "source": "BOAMP",
+   "source_id": "26-110827",
+   "title": "Catalogue de formation à destination des personnels des Organismes publics et coopératifs de l'habitat social",
+   "buyer": "Uniformation",
+   "published": "2026-11-15",
+   "deadline": "2026-12-01T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110827",
+   "procedure_id": "d89957ff-8848-4af4-8f8c-0e36bb15e38f",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3555000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-104712"
+   ],
+   "summary": "",
+   "lots": [
+    "Le logement social : de l'histoire à nos jours",
+    "Les fondamentaux du droit de la copropriété",
+    "Vente HLM",
+    "Prévention, connaissance des aides et traitement social de l'impayé",
+    "Appréhender les troubles du comportement dans le logement social",
+    "Comprendre les cultures étrangères pour mieux communiquer",
+    "La gestion des incivilités avec les locataires et accédants",
+    "Les syndromes de Diogène et de Noé : savoir intervenir",
+    "Tout savoir sur les charges récupérables",
+    "Actualités des attributions de logements sociaux",
+    "Actualité de la gestion locative à partir de la signature du bail",
+    "Pratique des procédures civiles d'exécution"
+   ],
+   "updated": ""
   }
  ]
 }
