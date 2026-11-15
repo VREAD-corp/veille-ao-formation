@@ -124927,6 +124927,313 @@
     "237",
     "86"
    ]
+  },
+  {
+   "id": "boamp:26-110313",
+   "source": "BOAMP",
+   "source_id": "26-110313",
+   "title": "FOURNITURES ET PRESTATIONS DE SERVICES POUR L'ORGANISATION DE MIEL VERT 2027",
+   "buyer": "COMMUNE DU TAMPON",
+   "published": "2026-11-15",
+   "deadline": "2026-11-25T09:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110313",
+   "procedure_id": "a7493aaa-8524-42dd-9468-415c8ced468b",
+   "description": "Miel Vert 2027 se déroulera du vendredi 08 janvier au dimanche 17 janvier 2027. La présente consultation comprend 27 lots dont le descriptif figure au CCTP. Chaque lot fera l'objet d'une attribution séparée. Le marché donne lieu à versement d'avance pour les lots suivants : 13, 20, 24 à 27. Les modalités de l'avance sont prévues dans le CCAP Acceptation pour des variantes pour les lots 25 à 27, les modalités sont…",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79954000",
+    "79823000",
+    "45223800",
+    "44211100",
+    "03121200",
+    "39298700",
+    "32342410",
+    "31321000",
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-109669",
+    "boamp:26-109338"
+   ],
+   "summary": "",
+   "lots": [
+    "Impression de 2 bâches",
+    "Location de 4 chapiteaux 12 X 12 mètres",
+    "Location de 1 chapiteau 10 X 10 mètres et 2 chapiteaux 5 X 5 mètres",
+    "Location de 7 modulaires",
+    "Réalisation de 1 200 laissez-passer",
+    "400 fleurs coupées au détail - Bouquets élection Miss Mamie Réunion",
+    "38 trophées récompensant les concours",
+    "Habillage arrière de 8 Floribus et 2 Floriana",
+    "Location de matériels de sonorisation, d'éclairage, de backline & effets",
+    "Location et mise en place de vélums décoratifs",
+    "Location d'une scène traditionnelle et structures scéniques",
+    "Location d'une ligne 100 volts"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-110421",
+   "source": "BOAMP",
+   "source_id": "26-110421",
+   "title": "Accord cadre à bons de commande de prestation d’entretien (nettoyage courant) des locaux des sites départementaux du secteur Est de la Réunion pour la période 2026 à 2030",
+   "buyer": "DEPARTEMENT DE LA REUNION",
+   "published": "2026-11-15",
+   "deadline": "2026-12-15T15:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110421",
+   "procedure_id": "749e14c9-879f-4cd8-aaa8-87081b22908e",
+   "description": "Le présent accord cadre a pour objet les prestations de nettoyage pour maintenir l’hygiène et la propreté des sites départementaux du secteur Est de la Réunion",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-110442",
+   "source": "BOAMP",
+   "source_id": "26-110442",
+   "title": "Accord-cadre portant sur des prestations de nettoyage de locaux",
+   "buyer": "Université de Lorraine",
+   "published": "2026-11-15",
+   "deadline": "2026-12-22T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110442",
+   "procedure_id": "f1eace23-7545-4d0a-93e9-f1f507fdf416",
+   "description": "",
+   "departments": [
+    "54",
+    "57"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "BRABOIS INGÉNIERIE",
+    "IAE METZ"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-110499",
+   "source": "BOAMP",
+   "source_id": "26-110499",
+   "title": "STC26.22V Accord-cadre de prestations d'entretien des espaces verts de la ville d'Erstein",
+   "buyer": "Ville d'Erstein",
+   "published": "2026-11-15",
+   "deadline": "2026-12-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110499",
+   "procedure_id": "f25a7667-2ffa-4350-bff2-0296e524b1e6",
+   "description": "Accord-cadre de prestations d'entretien des espaces verts de la ville d'Erstein",
+   "departments": [
+    "67",
+    "68"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "77310000",
+    "77320000",
+    "77311000",
+    "77312100"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Tontes des terrains de football",
+    "Prestations mécaniques et fertilisation",
+    "Entretien du terrain de football synthétique (Zone de loisirs)",
+    "Tontes diverses",
+    "Désherbage thermique, mécanique et manuel MARCHE RESERVE"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-110512",
+   "source": "BOAMP",
+   "source_id": "26-110512",
+   "title": "ACCORD-CADRE DE FOURNITURES COURANTES ET DE SERVICES -Entretien des Espaces verts du Patrimoine du Campus de l'Espace à VERNON (27)",
+   "buyer": "CAMPUS DE L'ESPACE",
+   "published": "2026-11-15",
+   "deadline": "2027-01-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110512",
+   "procedure_id": "017de6a3-66a6-4a5a-92bb-cbd8f3782fa1",
+   "description": "Entretien des Espaces verts du Patrimoine du Campus de l'Espace à VERNON (27) Visite obligatoire : Campus de l'Espace 27200 Vernon Les visites ne se dérouleront que les mercredis matin de 11h00 à 12h00 aux dates suivantes : - 25 novembre 2026 - 02 décembre 2026 - 09 décembre 2026 Avec Clauses sociales et environnementales 2 lots : Patrimoine Paysager et Patrimoine Arboré",
+   "departments": [
+    "27"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "77310000",
+    "45112711",
+    "77311000",
+    "77340000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Patrimoine Paysager",
+    "Patrimoine Arboré"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-110525",
+   "source": "BOAMP",
+   "source_id": "26-110525",
+   "title": "Relance Marché de prestations de propreté urbaine des espaces extérieurs et de nettoyage des marchés forains et alimentaires de la commune de Choisy-le-Roi",
+   "buyer": "Mairie de Choisy-le-Roi",
+   "published": "2026-11-15",
+   "deadline": "2027-01-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110525",
+   "procedure_id": "2f063f11-a625-4c73-b57d-926f652ae34e",
+   "description": "Relance Marché de prestations de propreté urbaine des espaces extérieurs et de nettoyage des marchés forains et alimentaires de la commune de Choisy-le-Roi suite à une déclaration sans suite pour motif d'intérêt général",
+   "departments": [
+    "93",
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 5200000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-102153"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "240"
+   ]
   }
  ]
 }
