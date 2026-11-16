@@ -108083,6 +108083,123 @@
     "Pratique des procédures civiles d'exécution"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-111115",
+   "source": "BOAMP",
+   "source_id": "26-111115",
+   "title": "Supervision de l'équipe de thérapie cognitive et comportementale (TCC) de l'EPSM du Loiret G. DAUMEZON",
+   "buyer": "45 CHR",
+   "published": "2026-11-16",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111115",
+   "procedure_id": null,
+   "description": "Prestations de supervision de l'équipe de thérapie cognitive et comportementale (TCC) de l'EPSM du Loiret G. DAUMEZON",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "85312320"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:793309-2026",
+   "source": "TED",
+   "source_id": "793309-2026",
+   "title": "PRESTATIONS D'ANIMATIONS PREVENTION SANTE : PROMOTION DE L'ACTIVITE PHYSIQUE, LUTTE CONTRE LA SEDENTARITE ET PREVENTION BUCCO-DENTAIRE A DESTINATION DES ASSURES DE LA CPRPF",
+   "buyer": "Caisse de prévoyance et de retraite du personnel ferroviaire CPRPF",
+   "published": "2026-11-16",
+   "deadline": "2026-12-10T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/793309-2026",
+   "procedure_id": "fbb4078e-9644-495c-83ce-9aa83b9973f5",
+   "description": "Le présent accord-cadre a pour objet la réalisation d'animations de prévention en santé, comprenant notamment : - La prévention de la sédentarité et la promotion de l'activité physique adaptée auprès des assurés et de leurs ayants droit de la CPR, au moyen de prestations de services prenant la forme d'ateliers ou de programmes d'activité physique, organisés en présentiel (lots n°1 à 4) ; - La prévention…",
+   "departments": [],
+   "regions": [
+    "Bretagne",
+    "Nouvelle-Aquitaine",
+    "Provence-Alpes-Côte d'Azur",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80561000",
+    "92620000",
+    "85130000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 521698.68,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 : Prestations d'animations prévention santé relatives à la lutte contre la sédentarité et à la promotion de l'activité physique adaptée Zone Sud-Ouest",
+    "Lot 2 : Prestations d'animations prévention santé relatives à la lutte contre la sédentarité et à la promotion de l'activité physique adaptée Zone Sud-Est",
+    "Lot 3 : Prestations d'animations prévention santé relatives à la lutte contre la sédentarité et à la promotion de l'activité physique adaptée – Zone Nord-Ouest…",
+    "Lot 4 : Prestations d'animations prévention santé relatives à la lutte contre la sédentarité et à la promotion de l'activité physique adaptée - Zone Nord-Est…",
+    "Prestations d'animations santé relatives à la prévention bucco-dentaire (Tout le territoire hexagonal)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:794791-2026",
+   "source": "TED",
+   "source_id": "794791-2026",
+   "title": "Mission de préventeur pour le chantier de la nouvelle unité de production industrielle FRAMATOME sur la commune des Pieux (50).",
+   "buyer": "SHEMA",
+   "published": "2026-11-16",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/794791-2026",
+   "procedure_id": "514a612b-5828-47d2-8989-e85c8be622a3",
+   "description": "Nature et étendue des prestations : - Assurer une prévention pendant la durée du chantier opérationnelle et rigoureuse - Garantir la conformité réglementaire et documentaire des matériels, équipements, et veiller à ce que les personnels de chantier interviennent dans le respect des règles de sécurité. - Réduire les risques et prévenir les accidents, en menant notamment des opérations de prévention et de formation et…",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "71317000",
+    "71317210",
+    "80540000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }
