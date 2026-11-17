@@ -108121,6 +108121,49 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-111268",
+   "source": "BOAMP",
+   "source_id": "26-111268",
+   "title": "Prestations d’étude, d’accompagnement et de suivi de projets sociaux ou économiques, dans le cadre du retour et de la réinsertion de migrants à l’Ile Maurice",
+   "buyer": "OFFICE IMMIGRATION INTEGRATION",
+   "published": "2026-11-16",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111268",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75",
+    "974"
+   ],
+   "regions": [
+    "Outre-mer",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "75231240"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 545200.0,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations d’accompagnement pour une aide à la réinsertion sociale",
+    "Prestations d’accompagnement pour une aide à la réinsertion par l’emploi ou la formation professionnelle",
+    "Prestations d’accompagnement pour une aide à la réinsertion par la création d’une entreprise"
+   ],
+   "updated": ""
+  },
+  {
    "id": "ted:793309-2026",
    "source": "TED",
    "source_id": "793309-2026",
@@ -108199,6 +108242,170 @@
    "supersedes": [],
    "summary": "",
    "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:797543-2026",
+   "source": "TED",
+   "source_id": "797543-2026",
+   "title": "Définition, mise en oeuvre et déploiement opérationnel de la stratégie d'intelligence artificielle du groupe ALTEMED",
+   "buyer": "ALTEMED",
+   "published": "2026-11-17",
+   "deadline": "2026-11-18T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/797543-2026",
+   "procedure_id": "af06c3da-480f-42e1-8d3b-b70b6f0673ed",
+   "description": "Le marché est alloti. Lot n° 1 : Assistance à maîtrise d'ouvrage IA pour la définition, la mise en oeuvre et le déploiement opérationnel de la stratégie Nature et étendue des prestations : Poste 1: Définition et mise en oeuvre opérationnelle de la feuille de route IA (prix global et forfaitaire) Poste 2: Prestations d'expertise et d'accompagnement à la demande (prix unitaires avec émission de bons de commande) Poste…",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "72222000",
+    "80510000",
+    "72220000",
+    "72224000",
+    "72268000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Assistance à maîtrise d'ouvrage IA pour la définition, la mise en oeuvre et le déploiement opérationnel de la stratégie",
+    "La fourniture et la gestion des licences IA"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:798016-2026",
+   "source": "TED",
+   "source_id": "798016-2026",
+   "title": "Catalogue de formation à destination des personnels des Organismes publics et coopératifs de l'habitat social",
+   "buyer": "Uniformation",
+   "published": "2026-11-17",
+   "deadline": "2026-12-01T14:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/798016-2026",
+   "procedure_id": "d89957ff-8848-4af4-8f8c-0e36bb15e38f",
+   "description": "Catalogue de formation à destination des personnels des Organismes publics et coopératifs de l'habitat social",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3555000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Le logement social : de l'histoire à nos jours",
+    "Les fondamentaux du droit de la copropriété",
+    "Vente HLM",
+    "Prévention, connaissance des aides et traitement social de l'impayé",
+    "Appréhender les troubles du comportement dans le logement social",
+    "Comprendre les cultures étrangères pour mieux communiquer",
+    "La gestion des incivilités avec les locataires et accédants",
+    "Les syndromes de Diogène et de Noé : savoir intervenir",
+    "Tout savoir sur les charges récupérables",
+    "Actualités des attributions de logements sociaux",
+    "Actualité de la gestion locative à partir de la signature du bail",
+    "Pratique des procédures civiles d'exécution"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:799341-2026",
+   "source": "TED",
+   "source_id": "799341-2026",
+   "title": "Mission d’accompagnement des managers d’Espacil : MANAG’LAB 2",
+   "buyer": "ESPACIL HABITAT, ESPACIL ACCESSION",
+   "published": "2026-11-17",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/799341-2026",
+   "procedure_id": "754d815a-856b-4fce-b749-72b4b54a8a66",
+   "description": "Mission d’accompagnement des managers d’Espacil : MANAG’LAB 2",
+   "departments": [],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:799986-2026",
+   "source": "TED",
+   "source_id": "799986-2026",
+   "title": "Prestations d'analyse des pratiques professionnelles et de supervision au bénéfice des agents de la direction des solidarités départementales",
+   "buyer": "DEPARTEMENT DU LOT",
+   "published": "2026-11-17",
+   "deadline": "2026-12-18T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/799986-2026",
+   "procedure_id": "24a3e855-2aec-4b21-8505-6bf7c7650600",
+   "description": "Prestations d'analyse des pratiques professionnelles et de supervision au bénéfice des agents de la direction des solidarités départementales",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Prestations d'analyse des pratiques professionnelles au bénéfice des équipes des services territoriaux des solidarités - GAPP STS",
+    "Lot n°2 - Prestations de supervision au bénéfice des équipes des services territoriaux des solidarités - Supervision STS",
+    "Lot n°3 - Prestations d'analyse des pratiques professionnelles au bénéfice des assistants familiaux - GAPP Assistants familiaux",
+    "Lot n°4 - Prestations de supervision au bénéfice des assistants familiaux - Supervision Assistants familiaux",
+    "Lot n°5 - Prestations d'analyse des pratiques professionnelles au bénéfice des équipes du centre départemental de l'enfance - GAPP CDE",
+    "Lot n°6 - Prestations de supervision au bénéfice des équipes du centre départemental de l'enfance - Supervision CDE"
+   ],
    "updated": ""
   }
  ]

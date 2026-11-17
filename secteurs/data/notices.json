@@ -112751,7 +112751,7 @@
    "title": "Prestations de gardiennage et accueil au CINES",
    "buyer": "CINES",
    "published": "2026-11-03",
-   "deadline": "2026-11-16T14:30",
+   "deadline": "2026-11-16T15:30",
    "url": "https://ted.europa.eu/fr/notice/-/detail/763508-2026",
    "procedure_id": "faac90a6-59e3-44d9-b87b-c3f50e847ff7",
    "description": "La présente consultation a pour objet : • D’une part, le gardiennage et la surveillance du site du CINES, • D’autre part, l’accueil physique et téléphonique sur le site du CINES, L’objectif de ce marché est d’assurer une présence humaine sur le site du CINES 24h/24 tous les jours de l’année comme suit : • Un accueil physique et téléphonique au sein du CINES de 07h30 à 17h45 du lundi au vendred",
@@ -125375,6 +125375,54 @@
    ]
   },
   {
+   "id": "boamp:26-111305",
+   "source": "BOAMP",
+   "source_id": "26-111305",
+   "title": "Entretien des locaux de la Communauté de Communes du Territoire de Lunéville à Baccarat-.",
+   "buyer": "Communauté de Communes du Territoire de Luneville à Baccarat",
+   "published": "2026-11-16",
+   "deadline": "2026-12-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111305",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "54"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des locaux de la médiathèque de l'Orangerie à Lunéville",
+    "Entretien des locaux de la médiathèque Elise Fischer à Baccarat",
+    "Entretien des locaux de la CCTLB"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
    "id": "ted:792956-2026",
    "source": "TED",
    "source_id": "792956-2026",
@@ -125885,6 +125933,674 @@
    "updated": "",
    "niches": [
     "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:796668-2026",
+   "source": "TED",
+   "source_id": "796668-2026",
+   "title": "PRESTATIONS DE NETTOYAGE ET D'ENTRETIEN DES LOCAUX ADMINISTRATIFS OCCUPÉS PAR LE PERSONNEL D'ALLIADE HABITAT - AO",
+   "buyer": "ALLIADE RESSOURCES ET ORGANISATION GIE",
+   "published": "2026-11-17",
+   "deadline": "2026-11-25T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/796668-2026",
+   "procedure_id": "6cb28459-d245-4153-97a0-6a7869c076ed",
+   "description": "Le présent marché concerne des prestations de nettoyage des locaux administratifs occupés par le personnel d'Alliade Habitat, en région AUVERGNE-RHONE-ALPES. La présente consultation porte sur le lot 1 et le lot 2 sur le département du Rhône. Une visite des sites est obligatoire. Durée : 12 mois à compter de l'ordre de service de démarrage, reconductible 3 fois par période d'un an, par tacite reconduction. La date…",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90919200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 - LE GRAND AXE (Siège)",
+    "Lot 2 - AGENCES METROPOLE NORD ET SUD & AGENCE BEAUJOLAIS VAL DE SAONE"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:796777-2026",
+   "source": "TED",
+   "source_id": "796777-2026",
+   "title": "Marchés de prestations de nettoyage des véhicules et installations de la Semitan - Lot 2",
+   "buyer": "SEMITAN",
+   "published": "2026-11-17",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/796777-2026",
+   "procedure_id": "4e06cd6e-0e88-433a-ac54-372d6886e605",
+   "description": "Le marché a pour objet la réalisation de prestations de nettoyage au siège social de la SEMITAN, situé au 3 rue Bellier à Nantes (44000). Les prestations seront exécutées au sein des bâtiments et espaces suivants : - Bâtiment administratif - Bâtiment social - Espace 500 - Zenbox - Réfectoire - Circulation extérieure et locaux vélos (cheminements piétons aux abords des bâtiments cités ci-dessus, espaces fumeurs…",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90919200",
+    "90911300",
+    "90910000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux administratifs",
+    "Nettoyage espace 400",
+    "Nettoyage des bâtiments de prise de service conducteurs et des sanitaires en ligne",
+    "Nettoyage ateliers et tramways : Dalby, Trocardière et Babinière"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:797122-2026",
+   "source": "TED",
+   "source_id": "797122-2026",
+   "title": "Marché de surveillance et de gardiennage",
+   "buyer": "Commune de Bievres",
+   "published": "2026-11-17",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/797122-2026",
+   "procedure_id": "d9c1e68b-2108-42f6-8f34-6d4e3a85f5e4",
+   "description": "Surveillance et gardiennage des sites communaux et lors de manifestations.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000",
+    "79714000",
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de surveillance et de gardiennage des sites communaux",
+    "Prestations de surveillance lors des manifestations et évènements ponctuels"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:797313-2026",
+   "source": "TED",
+   "source_id": "797313-2026",
+   "title": "Accord-cadre de maîtrise de la végétation sur le Réseau Ferré Portuaire",
+   "buyer": "Port autonome de Strasbourg",
+   "published": "2026-11-17",
+   "deadline": "2027-01-20T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/797313-2026",
+   "procedure_id": "89472f63-6f48-4f29-b385-b84632202f7e",
+   "description": "Montant HT minimum pour la durée totale du contrat : 70000.0 Euro(s) H.T. Montant HT maximum pour la durée totale du contrat: 600 000,00 Euros(s) H.T. L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Le présent accord-cadre concerne le désherbage, le débroussaillage et l'élagage des voies ferrées du port autonome de Strasbourg, ainsi que les voies…",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "77312100",
+    "50225000",
+    "77211500",
+    "77312000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:797411-2026",
+   "source": "TED",
+   "source_id": "797411-2026",
+   "title": "Entretien des espaces verts des patrimoines de SIA Habitat - SIGH et SA60",
+   "buyer": "Société de coordination Petram",
+   "published": "2026-11-17",
+   "deadline": "2026-12-16T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/797411-2026",
+   "procedure_id": "3a7c6e45-1983-484a-9cd7-54a2ef3c6bde",
+   "description": "Entretien des espaces verts des patrimoines de SIA Habitat - SIGH et SA60",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77311000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3500000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "ARRAS - SIGH",
+    "Saint-SAULVE",
+    "Condé",
+    "Denain",
+    "Douchy",
+    "Le QUESNOY",
+    "Saint-Amand",
+    "Valenciennes (Aulnoy - Chasse royale)",
+    "Somain \"sud\"",
+    "Douai - secteur Nord",
+    "Douai - Centre & Sud",
+    "MEL - Centre avec Lille"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:797598-2026",
+   "source": "TED",
+   "source_id": "797598-2026",
+   "title": "Prestations d'entretien des espaces verts de la commune de Décines-Charpieu",
+   "buyer": "Ville de Décines-Charpieu",
+   "published": "2026-11-17",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/797598-2026",
+   "procedure_id": "9f8a6f7c-ea87-455e-8310-15f536a010bd",
+   "description": "La présente consultation porte sur des prestations d'entretien des espaces verts de la commune de Décines-Charpieu. Le marché est divisé en trois lots : Lot 1 : Entretien des espaces horticoles Lot 2 : Entretien des espaces naturels Lot 3 : Entretien des terrains de sport L'accord-cadre est passé selon la procédure d'appel d'offres ouvert (article L.2124-2 et R.2124-2 du Code de la commande publique). Il s'agit d'un…",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000",
+    "77300000",
+    "77320000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 268200.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces horticoles",
+    "Entretien des espaces naturels",
+    "Entretien des terrains de sport"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:797714-2026",
+   "source": "TED",
+   "source_id": "797714-2026",
+   "title": "Obligations Légales de Débroussaillages (OLD) aux abords des postes HTA/BT",
+   "buyer": "Enedis SA",
+   "published": "2026-11-17",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/797714-2026",
+   "procedure_id": "c7f7ab76-5f32-4c03-9ea1-2b866606799c",
+   "description": "Réalisation de travaux de débroussaillage dans le cadre des OLD, aux abords des postes HTA/BT (Hors réseaux), avec 5 lots dont un de référencement.",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "45111220"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 35666000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:797954-2026",
+   "source": "TED",
+   "source_id": "797954-2026",
+   "title": "Entretien et maintenance des espaces verts des patrimoines de DFRH et de DFLH",
+   "buyer": "SAC Au Fil des Deux Fleuves",
+   "published": "2026-11-17",
+   "deadline": "2026-12-16T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/797954-2026",
+   "procedure_id": "3da31b21-2b2a-4e4a-878b-5813d69edf15",
+   "description": "Entretien et maintenance des espaces verts des patrimoines de DFRH et de DFLH alloti en 15 lots. prestations à prix mixte pour les lots 1 à 11, à prix forfaitaires pour les lots 12 à 14 et unitaires pour le lot 15. décomposition en tranches pour les lots 1,2,3,6 et 7",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000",
+    "77211400"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "DFLH FOREZ NORD ET SUD",
+    "DFLH SUD EST",
+    "DFLH JACQUARD EST ET OUEST",
+    "DFLH ROANNAIS NORD",
+    "DFLH ROANNAIS SUD",
+    "DFLH ONDAINE CENTRE ET PERIPHERIE",
+    "DFLH PLAINE NORD ET SUD",
+    "DFLH INSERTION",
+    "DFRH Agence de Villefranche hors réservé insertion",
+    "DFRH Agence de Tarare hors réservé insertion",
+    "DFRH Agence de Brignais hors réservé insertion",
+    "DFRH 12 Insertion Villefranche sur Saône"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:798034-2026",
+   "source": "TED",
+   "source_id": "798034-2026",
+   "title": "Contrat d'entretien et de maintenance des espaces verts du patrimoine locatif de LOGEAL IMMOBILIERE pour la période du 1er avril 2027 au 31 mars 2031",
+   "buyer": "LOGEAL IMMOBILIERE",
+   "published": "2026-11-17",
+   "deadline": "2027-01-18T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/798034-2026",
+   "procedure_id": "025806aa-a328-4fa8-973f-2f1347889a59",
+   "description": "Entretien et maintenance des espaces verts du parc locatif de LOGEAL IMMOBILIERE conformément à l'article 2 du C.C.T.P. et aux différentes annexes techniques du dossier de consultation des entreprises.",
+   "departments": [],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "AGENCE D'YVEOT ET SUCCURSALE LE HAVRE",
+    "AGENCE DE SOTTEVILLE LES ROUEN",
+    "AGENCE DE PAVILLY"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:798646-2026",
+   "source": "TED",
+   "source_id": "798646-2026",
+   "title": "Le contrat a pour objet le nettoyage des locaux de l'IMFPA",
+   "buyer": "IMFPA",
+   "published": "2026-11-17",
+   "deadline": "2026-12-14T13:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/798646-2026",
+   "procedure_id": "d0d31afc-92d6-43fe-8351-2b82c10dc6fa",
+   "description": "Le titulaire devra assurer les prestations de nettoyage, d'entretien, d'hygiène et de maintien en état de propreté des locaux et espaces concernés par le marché, sur l'ensemble des sites de l'IMFPA. Les prestations devront permettre de maintenir les locaux dans un état constant de propreté, d'hygiène, de salubrité et de présentation compatible avec leur destination, leur fréquentation et leur utilisation. Le…",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:799094-2026",
+   "source": "TED",
+   "source_id": "799094-2026",
+   "title": "Prestation de nettoyage et de veille technique dans certains immeubles du patrimoine d'HABITAT 08",
+   "buyer": "Habitat 08 - OPH des Ardennes",
+   "published": "2026-11-17",
+   "deadline": "2026-12-17T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/799094-2026",
+   "procedure_id": "a0c341b9-6b4d-493d-b247-6dcafa5247db",
+   "description": "Prestation de nettoyage dans les logements et les parties communes, et de veille technique dans certains immeubles du patrimoine d'HABITAT 08",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1600000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des parties communes et veille technique",
+    "Nettoyage de logements avant mise en location et renforcement ponctuel pour le nettoyage des parties communes"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:799148-2026",
+   "source": "TED",
+   "source_id": "799148-2026",
+   "title": "Marché de nettoyage des bâtiments communaux de la ville de Raismes",
+   "buyer": "Mairie de Raismes",
+   "published": "2026-11-17",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/799148-2026",
+   "procedure_id": "451be22d-a30c-497d-bfc8-29e8501bee9f",
+   "description": "Marché de nettoyage des bâtiments communaux de la ville de Raismes",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:799311-2026",
+   "source": "TED",
+   "source_id": "799311-2026",
+   "title": "Prestation de nettoyage des sites gérés par La Rochelle Tourisme et Evénements",
+   "buyer": "LA ROCHELLE TOURISME EVENEMENTS",
+   "published": "2026-11-17",
+   "deadline": "2027-01-05T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/799311-2026",
+   "procedure_id": "82ed815a-e75b-4975-8408-3e762cf8ad12",
+   "description": "Le présent appel d'offre ouvert a pour objet la réalisation de prestations de nettoyage et d'entretien des bâtiments, bureaux et espaces événementiels gérés par La Rochelle Tourisme & Événements (LRTE), ainsi que de prestations de nettoyage de la vitrerie",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300",
+    "90919200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 168000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Espace Encan",
+    "Centre de congrès Georges Pernoud",
+    "Office de Tourisme",
+    "Bureaux Espace Encan",
+    "Vitrerie",
+    "Esnandes"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:799338-2026",
+   "source": "TED",
+   "source_id": "799338-2026",
+   "title": "Accueil et maintenance de l'espace de glisse parisien (Paris 18e arrondissement)",
+   "buyer": "VILLE de PARIS - DFA - SDA",
+   "published": "2026-11-17",
+   "deadline": "2027-01-12T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/799338-2026",
+   "procedure_id": "8623ffbf-94f8-4bec-b939-96e9a202f4b9",
+   "description": "Gestion de l'espace de glisse parisien (accueil et maintenance (lot1) et nettoyage (lot 2) situé dans le 18e arrondissement de Paris.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "92610000",
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Accueil et maintenance multi technique de l'espace de glisse parisien ( Paris 18e)",
+    "nettoyage de l’Espace de Glisse Parisien (Paris 18e)"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:799679-2026",
+   "source": "TED",
+   "source_id": "799679-2026",
+   "title": "Marché d'entretien des itinéraires de randonnée, circuits VTT labellisés, chemins d'accès à des sites de pratique des activités de pleine nature et aires d'accueil d'intérêt communautaire Accord cadre à bon de commande avec maximum",
+   "buyer": "Communauté de Communes de la Haute Ariège",
+   "published": "2026-11-17",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/799679-2026",
+   "procedure_id": "37165674-9eab-4af7-8d24-ed34637bd688",
+   "description": "La procédure de passation utilisée est l'appel d'offres ouvert. Elle est soumise aux dispositions des articles L. 2124-2, R. 2124-2 1° et R. 2161-2 à R. 2161-5 du Code de la commande publique. L'accord-cadre avec maximum est passé en application des articles L2125-1 1°, R. 2162-1 à R. 2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Il fixe les conditions d'exécution des prestations et s'exécute au…",
+   "departments": [],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "77310000",
+    "34928471"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Tous travaux hors balisage sur les sentiers de la « Vallée du Vicdessos »",
+    "Balisage et pose de la signalétique sur les sentiers de la « Vallée du Vicdessos »",
+    "Tous travaux sur les sentiers de « haute montagne du Vicdessos »",
+    "Tous travaux hors balisage sur les sentiers de la « Basse Vallée d'Ax »",
+    "Tous travaux hors balisage sur les sentiers de la « Hautes Vallées d'Ax »",
+    "Balisage et pose de la signalétique sur les sentiers de la « Basse Vallée d'Ax » et de « Hautes Vallées d'Ax »",
+    "Tous travaux sur les sentiers de la « Haute Montagne en Vallées d'Ax »",
+    "Tous travaux sur les sentiers de la « Vallée du Donezan »",
+    "Tous travaux sur les sentiers de la « Haute Montagne du Donezan »",
+    "Fourniture de visuels de signalétique directionnelle"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
    ],
    "descriptors": []
   }
