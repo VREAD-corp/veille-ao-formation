@@ -108543,6 +108543,154 @@
     "Lot n°6 - Prestations de supervision au bénéfice des équipes du centre départemental de l'enfance - Supervision CDE"
    ],
    "updated": ""
+  },
+  {
+   "id": "ted:801452-2026",
+   "source": "TED",
+   "source_id": "801452-2026",
+   "title": "Achat de prestations de formation Aide-soignant modulaire pour l'Agence Autonomy",
+   "buyer": "Conseil Départemental des Yvelines",
+   "published": "2026-11-18",
+   "deadline": "2026-12-08T23:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/801452-2026",
+   "procedure_id": "02628f2c-9b2f-4409-a7cc-a86376409dcb",
+   "description": "Achat de prestations de formation Aide-soignant modulaire Article R2123-1 3° - Services sociaux et autres services spécifiques - Code de la commande publique La forme retenue pour l'exécution du contrat est à bons de commande sans minimum et avec maximum en application des articles R2162-4 1° et R2162-13 et 14 du Code de la commande publique",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 320000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur Yvelines Nord",
+    "Secteur Yvelines Sud",
+    "Secteur Hauts-de-Seine"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:802383-2026",
+   "source": "TED",
+   "source_id": "802383-2026",
+   "title": "Prestations de formation aux techniques professionnelles de nettoyage et au management de la propreté à destination des collaborateurs du groupe CDC Habitat",
+   "buyer": "GIE Expertise et Support",
+   "published": "2026-11-18",
+   "deadline": "2026-12-15T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/802383-2026",
+   "procedure_id": "a554d1ae-eaaa-44d0-b3ec-148b9aa8f2f5",
+   "description": "La présente consultation porte sur l'attribution d'un accord-cadre ayant pour objet la conception, l'organisation, l'animation et le suivi de prestations de formation relatives aux techniques professionnelles de nettoyage, à l'utilisation des produits et des petits équipements d'entretien, ainsi qu'au management de la propreté, au bénéfice des collaborateurs du groupe CDC Habitat.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:802827-2026",
+   "source": "TED",
+   "source_id": "802827-2026",
+   "title": "MARCHE DE PRESTATION D 'ACCOMPAGNEMENT A LA MOBILITE GEOGRAPHIQUE DANS LE CADRE DU PROJET ERASMUS+ AU BENEFICE DES DEMANDEURS D'EMPLOI DE LA REGION MARTINIQUE",
+   "buyer": "FRANCE TRAVAIL MARTINQUE",
+   "published": "2026-11-18",
+   "deadline": "2026-12-16T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/802827-2026",
+   "procedure_id": "cf4ace6e-24d9-42d3-bc31-34a21c68f144",
+   "description": "Le marché a pour objet la préparation et l’accompagnement à la mobilité des demandeurs d'emploi dans un autre pays de l'Union Européenne ou un pays associé dans le cadre de la mise en œuvre des programmes européens « Erasmus+ » par France Travail.",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79998000",
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:802835-2026",
+   "source": "TED",
+   "source_id": "802835-2026",
+   "title": "Productions pédagogiques dans le cadre des parcours de formation de l’Ecole des Territoires",
+   "buyer": "Caisse des dépôts",
+   "published": "2026-11-18",
+   "deadline": "2026-12-15T11:30",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/802835-2026",
+   "procedure_id": "e991cbff-a189-4aae-8e86-f6b5d0c80d13",
+   "description": "Productions pédagogiques dans le cadre des parcours de formation de l’Ecole des Territoires",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Productions pédagogiques dans le cadre des parcours de formation de l’Ecole des Territoires",
+    "Animation sous forme de théâtre d’entreprise",
+    "Elaboration et animation d’études de cas"
+   ],
+   "updated": ""
   }
  ]
 }
