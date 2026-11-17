@@ -125937,6 +125937,862 @@
    "descriptors": []
   },
   {
+   "id": "boamp:26-110922",
+   "source": "BOAMP",
+   "source_id": "26-110922",
+   "title": "Accueil et maintenance de l'espace de glisse parisien (Paris 18e arrondissement)",
+   "buyer": "VILLE de PARIS - DFA - SDA",
+   "published": "2026-11-17",
+   "deadline": "2027-01-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110922",
+   "procedure_id": "8623ffbf-94f8-4bec-b939-96e9a202f4b9",
+   "description": "Gestion de l'espace de glisse parisien (accueil et maintenance (lot1) et nettoyage (lot 2) situé dans le 18e arrondissement de Paris.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "92610000",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Accueil et maintenance multi technique de l'espace de glisse parisien ( Paris 18e)",
+    "nettoyage de l’Espace de Glisse Parisien (Paris 18e)"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274",
+    "113",
+    "342"
+   ]
+  },
+  {
+   "id": "boamp:26-110946",
+   "source": "BOAMP",
+   "source_id": "26-110946",
+   "title": "PRESTATIONS RELATIVES AU NETTOYAGE DES BUREAUX, DES LOGEMENTS ET DES PARTIES COMMUNES DES IMMEUBLES, AINSI QUE LA SORTIE DES CONTENEURS",
+   "buyer": "CRETEIL HABITAT",
+   "published": "2026-11-17",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110946",
+   "procedure_id": "73cf667d-32d4-4e6a-b6bd-83b5b7bcf704",
+   "description": "Le marché a pour objet la réalisation de prestations de nettoyage et d’entretien sur le patrimoine géré par Créteil Habitat. Il comprend notamment l’entretien des parties communes des immeubles, du siège social, des bureaux et des locaux administratifs, la sortie et la rentrée des conteneurs, le nettoyage ponctuel de logements, les interventions urgentes, les astreintes ainsi que les prestations relevant du…",
+   "departments": [
+    "75",
+    "77",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "240"
+   ]
+  },
+  {
+   "id": "boamp:26-110951",
+   "source": "BOAMP",
+   "source_id": "26-110951",
+   "title": "Marché de nettoyage des bâtiments communaux de la ville de Raismes",
+   "buyer": "Mairie de Raismes",
+   "published": "2026-11-17",
+   "deadline": "2026-11-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110951",
+   "procedure_id": "451be22d-a30c-497d-bfc8-29e8501bee9f",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-110963",
+   "source": "BOAMP",
+   "source_id": "26-110963",
+   "title": "Marché de surveillance et de gardiennage",
+   "buyer": "Commune de Bievres",
+   "published": "2026-11-17",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-110963",
+   "procedure_id": "d9c1e68b-2108-42f6-8f34-6d4e3a85f5e4",
+   "description": "Surveillance et gardiennage des sites communaux et lors de manifestations.",
+   "departments": [
+    "75",
+    "78",
+    "91",
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000",
+    "79714000",
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de surveillance et de gardiennage des sites communaux",
+    "Prestations de surveillance lors des manifestations et évènements ponctuels"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-111002",
+   "source": "BOAMP",
+   "source_id": "26-111002",
+   "title": "Prestation de nettoyage des sites gérés par La Rochelle Tourisme et Evénements",
+   "buyer": "LA ROCHELLE TOURISME EVENEMENTS",
+   "published": "2026-11-17",
+   "deadline": "2027-01-05T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111002",
+   "procedure_id": "82ed815a-e75b-4975-8408-3e762cf8ad12",
+   "description": "Le présent appel d'offre ouvert a pour objet la réalisation de prestations de nettoyage et d'entretien des bâtiments, bureaux et espaces événementiels gérés par La Rochelle Tourisme & Événements (LRTE), ainsi que de prestations de nettoyage de la vitrerie",
+   "departments": [
+    "17"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300",
+    "90919200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 168000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Espace Encan",
+    "Centre de congrès Georges Pernoud",
+    "Office de Tourisme",
+    "Bureaux Espace Encan",
+    "Vitrerie",
+    "Esnandes"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111028",
+   "source": "BOAMP",
+   "source_id": "26-111028",
+   "title": "Marchés de prestations de nettoyage des véhicules et installations de la Semitan - Lot 2",
+   "buyer": "SEMITAN",
+   "published": "2026-11-17",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111028",
+   "procedure_id": "4e06cd6e-0e88-433a-ac54-372d6886e605",
+   "description": "Le marché a pour objet la réalisation de prestations de nettoyage au siège social de la SEMITAN, situé au 3 rue Bellier à Nantes (44000). Les prestations seront exécutées au sein des bâtiments et espaces suivants : - Bâtiment administratif - Bâtiment social - Espace 500 - Zenbox - Réfectoire - Circulation extérieure et locaux vélos (cheminements piétons aux abords des bâtiments cités ci-dessus, espaces fumeurs…",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "90919200",
+    "90911300",
+    "90910000"
+   ],
+   "procedure": "Procédure Négociée",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-105583",
+    "boamp:26-106742"
+   ],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux administratifs",
+    "Nettoyage espace 400",
+    "Nettoyage des bâtiments de prise de service conducteurs et des sanitaires en ligne",
+    "Nettoyage ateliers et tramways : Dalby, Trocardière et Babinière"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111050",
+   "source": "BOAMP",
+   "source_id": "26-111050",
+   "title": "Mise en culture de suspensions et jardinières pour la ville de COLOMBES",
+   "buyer": "Mairie de Colombes",
+   "published": "2026-11-17",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111050",
+   "procedure_id": "76026204-642e-4168-b173-d91770ebb4c2",
+   "description": "Mise en culture de contenants fournis par la ville de COLOMBES comprenant : - enlèvement des contenants : suspensions, jardinières, colonnes et city-murs… - désinfection des contenants - mise en culture sous serre - livraison des contenants et des cultures",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77300000",
+    "03100000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "200",
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111051",
+   "source": "BOAMP",
+   "source_id": "26-111051",
+   "title": "Le contrat a pour objet le nettoyage des locaux de l'IMFPA",
+   "buyer": "IMFPA",
+   "published": "2026-11-17",
+   "deadline": "2026-12-14T13:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111051",
+   "procedure_id": "d0d31afc-92d6-43fe-8351-2b82c10dc6fa",
+   "description": "Le titulaire devra assurer les prestations de nettoyage, d'entretien, d'hygiène et de maintien en état de propreté des locaux et espaces concernés par le marché, sur l'ensemble des sites de l'IMFPA. Les prestations devront permettre de maintenir les locaux dans un état constant de propreté, d'hygiène, de salubrité et de présentation compatible avec leur destination, leur fréquentation et leur utilisation. Le…",
+   "departments": [
+    "972"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111056",
+   "source": "BOAMP",
+   "source_id": "26-111056",
+   "title": "Marché d'entretien des itinéraires de randonnée, circuits VTT labellisés, chemins d'accès à des sites de pratique des activités de pleine nature et aires d'accueil d'intérêt communautaire Accord",
+   "buyer": "Communauté de Communes de la Haute Ariège",
+   "published": "2026-11-17",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111056",
+   "procedure_id": "37165674-9eab-4af7-8d24-ed34637bd688",
+   "description": "La procédure de passation utilisée est l'appel d'offres ouvert. Elle est soumise aux dispositions des articles L. 2124-2, R. 2124-2 1° et R. 2161-2 à R. 2161-5 du Code de la commande publique. L'accord-cadre avec maximum est passé en application des articles L2125-1 1°, R. 2162-1 à R. 2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Il fixe les conditions d'exécution des prestations et s'exécute au…",
+   "departments": [
+    "09"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "77310000",
+    "34928471"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Tous travaux hors balisage sur les sentiers de la « Vallée du Vicdessos »",
+    "Balisage et pose de la signalétique sur les sentiers de la « Vallée du Vicdessos »",
+    "Tous travaux sur les sentiers de « haute montagne du Vicdessos »",
+    "Tous travaux hors balisage sur les sentiers de la « Basse Vallée d'Ax »",
+    "Tous travaux hors balisage sur les sentiers de la « Hautes Vallées d'Ax »",
+    "Balisage et pose de la signalétique sur les sentiers de la « Basse Vallée d'Ax » et de « Hautes Vallées d'Ax »",
+    "Tous travaux sur les sentiers de la « Haute Montagne en Vallées d'Ax »",
+    "Tous travaux sur les sentiers de la « Vallée du Donezan »",
+    "Tous travaux sur les sentiers de la « Haute Montagne du Donezan »",
+    "Fourniture de visuels de signalétique directionnelle"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111072",
+   "source": "BOAMP",
+   "source_id": "26-111072",
+   "title": "Accord-cadre de maîtrise de la végétation sur le Réseau Ferré Portuaire",
+   "buyer": "Port autonome de Strasbourg",
+   "published": "2026-11-17",
+   "deadline": "2027-01-20T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111072",
+   "procedure_id": "89472f63-6f48-4f29-b385-b84632202f7e",
+   "description": "Montant HT minimum pour la durée totale du contrat : 70000.0 Euro(s) H.T. Montant HT maximum pour la durée totale du contrat: 600 000,00 Euros(s) H.T. L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Le présent accord-cadre concerne le désherbage, le débroussaillage et l'élagage des voies ferrées du port autonome de Strasbourg, ainsi que les voies…",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "77312100",
+    "50225000",
+    "77211500",
+    "77312000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274",
+    "364"
+   ]
+  },
+  {
+   "id": "boamp:26-111392",
+   "source": "BOAMP",
+   "source_id": "26-111392",
+   "title": "Prestation De Proprete Et D'Hygiene Des Locaux Du Sittomat",
+   "buyer": "S.I.T.T.O.M.A.T",
+   "published": "2026-11-17",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111392",
+   "procedure_id": null,
+   "description": "La présente consultation a pour objet la propreté et l'hygiène des locaux du SITTOMAT",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90900000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274",
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111411",
+   "source": "BOAMP",
+   "source_id": "26-111411",
+   "title": "L’entretien des espaces verts pour l’ensemble des établissements du GHT Grand Paris Nord-Est",
+   "buyer": "GHT GPNE",
+   "published": "2026-11-17",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111411",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n° 1 –Marché réservé - Entretien des espaces verts du GHILRM et ses annexes",
+    "Lot n° 2 – Marché réservé - Entretien des espaces verts des Ormes",
+    "Lot n° 3 – Marché réservé - Entretien des espaces verts du CHIAG"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111413",
+   "source": "BOAMP",
+   "source_id": "26-111413",
+   "title": "Marché de prestations d'entretien ménager des toilettes publiques de la Ville",
+   "buyer": "VILLE DE WISSEMBOURG",
+   "published": "2026-11-17",
+   "deadline": "2026-12-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111413",
+   "procedure_id": null,
+   "description": "Le présent marché a pour objet la conclusion d’un marché à procédure adaptée relatif aux prestations d’entretien ménager des toilettes publiques situées sur le territoire communal de la Ville de Wissembourg, dans les conditions techniques, administratives et juridiques définies aux termes des Cahier des Charges – CCAP et CCTP.",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "466",
+    "239",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-111445",
+   "source": "BOAMP",
+   "source_id": "26-111445",
+   "title": "Marché réservé d'entretien des espaces verts de la Caf de Paris",
+   "buyer": "75 - CAF de Paris",
+   "published": "2026-11-17",
+   "deadline": "2027-01-07T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111445",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 120000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces verts des sites de Finlay et Nationale de la Caf de Paris",
+    "Entretien des espaces verts des sites de Jaurès, La Chapelle et le centre social d’Annam de la Caf de Paris"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111452",
+   "source": "BOAMP",
+   "source_id": "26-111452",
+   "title": "Prestations de sécurité pour le Centre Communal d'Action Sociale de Montpellier",
+   "buyer": "Ccas de Montpellier",
+   "published": "2026-11-17",
+   "deadline": "2026-12-10T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111452",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Le contrat est susceptible d'être reconduit dans les conditions du cahier des charges. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions)",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-111510",
+   "source": "BOAMP",
+   "source_id": "26-111510",
+   "title": "Marché réservé à l'insertion professionnelle par des prestations d'entretien, de réfection et de nettoyage de divers lieux sur le territoire de la Ville de la Garde. 3 Lots",
+   "buyer": "Ville de La Garde",
+   "published": "2026-11-17",
+   "deadline": "2026-12-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111510",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77310000",
+    "77313000",
+    "98371111"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : La colline du Thouars",
+    "2 : Les calades du Rocher",
+    "3 : Le cimetière"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "240",
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111625",
+   "source": "BOAMP",
+   "source_id": "26-111625",
+   "title": "Entretien Des Espaces Verts Et Desherbage Voirie",
+   "buyer": "Commune De Montlhery",
+   "published": "2026-11-17",
+   "deadline": "2026-12-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111625",
+   "procedure_id": null,
+   "description": "La présente consultation concerne l'entretien des espaces verts et le désherbage de la voirie de la Commune de Montlhéry. La consultation est lancée sous forme de marché à procédure adaptée de service et d'accord-cadre à bons de commande prévue aux articles R. 2123-1 alinéa 1°et R. 2162-1 à 6 et R. 2162-13 à 14 du Code de la commande publique. L'entretien des espaces verts et de désherbage de la voirie est un marché…",
+   "departments": [
+    "91"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111631",
+   "source": "BOAMP",
+   "source_id": "26-111631",
+   "title": "Services sylvicoles pour broyage de végétation sur 21,69 ha, fourniture et mise en place de 17 440 plants et dégagement",
+   "buyer": "Ville de Saint Aubin",
+   "published": "2026-11-17",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111631",
+   "procedure_id": null,
+   "description": "AVIS D'APPEL PUBLIC A LA CONCURRENCE Maître d'ouvrage : Commune de SAINT-AUBIN 13A grande rue 39410 SAINT-AUBIN Procédure : Marché public en procédure adaptée - variante autorisée - marché constitué de deux lots : lot 01 broyage et lot 02 plantation Objet du marché : Services sylvicoles pour broyage de végétation sur 21,69 ha, fourniture et mise en place de 17 440 plants et dégagement Date d'envoi de la publication…",
+   "departments": [
+    "39"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "77230000",
+    "77200000",
+    "77231600"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Travaux De Broyage. Travaux de broyage en forêt communale de Saint-Aubin",
+    "2 : Travaux De Plantation . Fourniture et plantation de plants forestiers"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
    "id": "ted:796668-2026",
    "source": "TED",
    "source_id": "796668-2026",

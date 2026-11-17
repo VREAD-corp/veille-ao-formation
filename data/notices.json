@@ -108245,6 +108245,142 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-111009",
+   "source": "BOAMP",
+   "source_id": "26-111009",
+   "title": "Définition, mise en oeuvre et déploiement opérationnel de la stratégie d'intelligence artificielle du groupe ALTEMED",
+   "buyer": "ALTEMED",
+   "published": "2026-11-17",
+   "deadline": "2026-11-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111009",
+   "procedure_id": "af06c3da-480f-42e1-8d3b-b70b6f0673ed",
+   "description": "Le marché est alloti. Lot n° 1 : Assistance à maîtrise d'ouvrage IA pour la définition, la mise en oeuvre et le déploiement opérationnel de la stratégie Nature et étendue des prestations : Poste 1: Définition et mise en oeuvre opérationnelle de la feuille de route IA (prix global et forfaitaire) Poste 2: Prestations d'expertise et d'accompagnement à la demande (prix unitaires avec émission de bons de commande) Poste…",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "72222000",
+    "80510000",
+    "72220000",
+    "72224000",
+    "72268000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-100942"
+   ],
+   "summary": "",
+   "lots": [
+    "Assistance à maîtrise d'ouvrage IA pour la définition, la mise en oeuvre et le déploiement opérationnel de la stratégie",
+    "La fourniture et la gestion des licences IA"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-111033",
+   "source": "BOAMP",
+   "source_id": "26-111033",
+   "title": "Prestations d'analyse des pratiques professionnelles et de supervision au bénéfice des agents de la direction des solidarités départementales",
+   "buyer": "DEPARTEMENT DU LOT",
+   "published": "2026-11-17",
+   "deadline": "2026-12-18T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111033",
+   "procedure_id": "24a3e855-2aec-4b21-8505-6bf7c7650600",
+   "description": "",
+   "departments": [
+    "46"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Prestations d'analyse des pratiques professionnelles au bénéfice des équipes des services territoriaux des solidarités - GAPP STS",
+    "Lot n°2 - Prestations de supervision au bénéfice des équipes des services territoriaux des solidarités - Supervision STS",
+    "Lot n°3 - Prestations d'analyse des pratiques professionnelles au bénéfice des assistants familiaux - GAPP Assistants familiaux",
+    "Lot n°4 - Prestations de supervision au bénéfice des assistants familiaux - Supervision Assistants familiaux",
+    "Lot n°5 - Prestations d'analyse des pratiques professionnelles au bénéfice des équipes du centre départemental de l'enfance - GAPP CDE",
+    "Lot n°6 - Prestations de supervision au bénéfice des équipes du centre départemental de l'enfance - Supervision CDE"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-111500",
+   "source": "BOAMP",
+   "source_id": "26-111500",
+   "title": "Marché public de formations.",
+   "buyer": "Régie Parcs d'Azur (06)",
+   "published": "2026-11-17",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111500",
+   "procedure_id": null,
+   "description": "Le présent marché a pour objet la conception et l’animation de sessions de formation (intra- et interentreprises) à destination du personnel du pouvoir adjudicateur, pour permettre de développer et d’adapter les compétences du personnel aux besoins actuels et futurs de l’entreprise.",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1.Eléctricité",
+    "2.Incendie",
+    "3.Sauveteur secouriste du travail",
+    "4.Sécurité, qualité et hygiène au travail",
+    "5.Amiante",
+    "6.Management",
+    "7.Bureautique",
+    "8.Anglais"
+   ],
+   "updated": ""
+  },
+  {
    "id": "ted:797543-2026",
    "source": "TED",
    "source_id": "797543-2026",
