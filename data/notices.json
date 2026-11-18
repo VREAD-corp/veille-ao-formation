@@ -108545,6 +108545,282 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-111237",
+   "source": "BOAMP",
+   "source_id": "26-111237",
+   "title": "Le marché a pour objet la préparation et l’accompagnement à la mobilité des demandeurs d'emploi dans un autre pays de l'Union Européenne ou un pays associé.",
+   "buyer": "FRANCE TRAVAIL MARTINIQUE",
+   "published": "2026-11-18",
+   "deadline": "2026-12-16T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111237",
+   "procedure_id": "cf4ace6e-24d9-42d3-bc31-34a21c68f144",
+   "description": "Le marché a pour objet la préparation et l’accompagnement à la mobilité des demandeurs d'emploi dans un autre pays de l'Union Européenne ou un pays associé dans le cadre de la mise en œuvre des programmes européens « Erasmus+ » par France Travail.",
+   "departments": [
+    "972"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79998000",
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-111267",
+   "source": "BOAMP",
+   "source_id": "26-111267",
+   "title": "Productions pédagogiques dans le cadre des parcours de formation de l’Ecole des Territoires",
+   "buyer": "Caisse des dépôts",
+   "published": "2026-11-18",
+   "deadline": "2026-12-15T11:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111267",
+   "procedure_id": "e991cbff-a189-4aae-8e86-f6b5d0c80d13",
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Productions pédagogiques dans le cadre des parcours de formation de l’Ecole des Territoires",
+    "Animation sous forme de théâtre d’entreprise",
+    "Elaboration et animation d’études de cas"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-111321",
+   "source": "BOAMP",
+   "source_id": "26-111321",
+   "title": "Achat de prestations de formation Aide-soignant modulaire pour l'Agence Autonomy",
+   "buyer": "Conseil Départemental des Yvelines",
+   "published": "2026-11-18",
+   "deadline": "2026-12-08T23:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111321",
+   "procedure_id": "02628f2c-9b2f-4409-a7cc-a86376409dcb",
+   "description": "Achat de prestations de formation Aide-soignant modulaire Article R2123-1 3° - Services sociaux et autres services spécifiques - Code de la commande publique La forme retenue pour l'exécution du contrat est à bons de commande sans minimum et avec maximum en application des articles R2162-4 1° et R2162-13 et 14 du Code de la commande publique",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 320000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur Yvelines Nord",
+    "Secteur Yvelines Sud",
+    "Secteur Hauts-de-Seine"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-111937",
+   "source": "BOAMP",
+   "source_id": "26-111937",
+   "title": "Formation des assistants de service social à la prévention des actes suicidaires",
+   "buyer": "BAMAC",
+   "published": "2026-11-18",
+   "deadline": "2027-01-05T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111937",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80561000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-111952",
+   "source": "BOAMP",
+   "source_id": "26-111952",
+   "title": "PRESTATIONS DE FORMATION POUR LES SALARIES DE LA MSA NORD PAS DE CALAIS",
+   "buyer": "MSA NORD - PAS DE CALAIS",
+   "published": "2026-11-18",
+   "deadline": "2026-12-10T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111952",
+   "procedure_id": null,
+   "description": "Réalisation de prestations de formation pour les salariés de la MSA. Différents domaines sont concernés (cf allotissement dans le RC et le CCP).",
+   "departments": [
+    "59",
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "lot n° 1 - Parcours managérial",
+    "Lot n° 2 - Formation Management et coordination (ateliers managériaux, formation des animateurs d'équipe, coaching, formation de formateurs)",
+    "Lot n° 3 - Formation Analyse de pratique professionnelle",
+    "Lot n° 4 - Formation Sécurité routière",
+    "Lot n° 5 - Formation Sécurité incendie",
+    "Lot n° 6 - Formation Secourisme (recyclage, initiale)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-111970",
+   "source": "BOAMP",
+   "source_id": "26-111970",
+   "title": "Prestation d'animation, d'accompagnement et de valorisation des conseils municipaux des enfants de la Ville de Marseille",
+   "buyer": "Ville de Marseille",
+   "published": "2026-11-18",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111970",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-111978",
+   "source": "BOAMP",
+   "source_id": "26-111978",
+   "title": "Codéveloppement",
+   "buyer": "ECOLE NATIONALE SUPERIEURE DE SECURITE SOCIALE",
+   "published": "2026-11-18",
+   "deadline": "2026-12-18T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111978",
+   "procedure_id": null,
+   "description": "La présente consultation concerne des prestations de formation sur le thème : XXX",
+   "departments": [
+    "42"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80500000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:801452-2026",
    "source": "TED",
    "source_id": "801452-2026",

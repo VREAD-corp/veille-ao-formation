@@ -127506,6 +127506,662 @@
    "descriptors": []
   },
   {
+   "id": "boamp:26-111141",
+   "source": "BOAMP",
+   "source_id": "26-111141",
+   "title": "DEBROUSSAILLEMENT DES ABORDS DES ROUTES DEPARTEMENTALES ET DES TERRAINS PRIVES DES UT DU DEPARTEMENT DU GARD EN 2027 - RELANCE DU LOT 1 UT D'ALES",
+   "buyer": "Conseil départemental du Gard",
+   "published": "2026-11-18",
+   "deadline": "2026-12-16T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111141",
+   "procedure_id": "d08861e9-5c56-4416-b921-53ddf74c8f4f",
+   "description": "Marché à tranches optionnelles définies au cahier des charges concernant le débroussaillement manuel et mécanique des abords des routes départementales et des terrains privés de l'Unité Territoriale d'ALES du département du GARD",
+   "departments": [
+    "30"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274",
+    "365",
+    "366"
+   ]
+  },
+  {
+   "id": "boamp:26-111182",
+   "source": "BOAMP",
+   "source_id": "26-111182",
+   "title": "Prestations de nettoyage des locaux",
+   "buyer": "CPAM DES YVELINES",
+   "published": "2026-11-18",
+   "deadline": "2026-12-17T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111182",
+   "procedure_id": "4319ae42-154e-434a-9091-e7b9f4402891",
+   "description": "Le présent marché a pour objet la réalisation de prestations de nettoyage et d'entretien des sites de la Caisse Primaire d'Assurance Maladie des Yvelines (CPAM des Yvelines), ainsi que la fourniture et la gestion des consommables sanitaires nécessaires au fonctionnement des sites.",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111203",
+   "source": "BOAMP",
+   "source_id": "26-111203",
+   "title": "DAG2026-76MAPAPRESTASURETE",
+   "buyer": "CHU ANGERS",
+   "published": "2026-11-18",
+   "deadline": "2026-12-15T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111203",
+   "procedure_id": "3b387c6f-f153-4905-b29d-3eb617d276ae",
+   "description": "PRESTATIONS DE SURETE ET SECURITE POUR LES ETABLISSEMENTS DU GHT DE MAINE-ET-LOIRE",
+   "departments": [
+    "49"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-111207",
+   "source": "BOAMP",
+   "source_id": "26-111207",
+   "title": "Prestations de nettoyage des locaux de l’université de Savoie Mont-Blanc (USMB) pour les locaux du campus de Jacob-Bellecombette et du siège administratif de Chambéry",
+   "buyer": "Université Savoie Mont Blanc",
+   "published": "2026-11-18",
+   "deadline": "2027-01-15T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111207",
+   "procedure_id": "f82d6379-3579-4c83-8093-8368a09f87d2",
+   "description": "Prestations de nettoyage des locaux de l’université de Savoie Mont-Blanc (USMB) pour les locaux du campus de Jacob-Bellecombette et du siège administratif de Chambéry / Relance du lot n°3 de la consultation n°2026-09S",
+   "departments": [
+    "73"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90910000",
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111288",
+   "source": "BOAMP",
+   "source_id": "26-111288",
+   "title": "MISSION DE MAITRISE D'OEUVRE (PAYSAGISTE - CONCEPTEUR) POUR UN AMENAGEMENT PAYSAGER D' ESPACES PUBLICS A NOISY-LE-SEC",
+   "buyer": "Ville de Noisy-le-Sec",
+   "published": "2026-11-18",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111288",
+   "procedure_id": "9e65f788-1a8b-4e52-9d38-a49782201878",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Le détail des missions confiées au titulaire figure au cahier des charges. Les prestations sont réglées par des prix forfaitaires et des prix unitaires La présente mission a pour objet la réalisation de prestations de maîtrise d'oeuvre - conception paysagère portant sur des opérations d'aménagement paysager d'espaces extérieurs, pouvant inclure…",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "71420000",
+    "45112700",
+    "71300000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1600000.0,
+   "status": "rectificatif",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-102105"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "118",
+    "197",
+    "274",
+    "455"
+   ]
+  },
+  {
+   "id": "boamp:26-111292",
+   "source": "BOAMP",
+   "source_id": "26-111292",
+   "title": "NETTOYAGE DES LOCAUX ET DES VITRES POUR LES BATIMENTS DE VAL DE GARONNE AGGLOMERATION",
+   "buyer": "Val de Garonne Agglomération",
+   "published": "2026-11-18",
+   "deadline": "2026-11-25T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111292",
+   "procedure_id": "2733708d-8e74-4353-a4c0-0f5ba7b7e083",
+   "description": "Les prestations sont réglées par des prix unitaires et forfaitaires",
+   "departments": [
+    "47"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-102357",
+    "boamp:26-106152"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-111315",
+   "source": "BOAMP",
+   "source_id": "26-111315",
+   "title": "Accord cadre de prestations de supervision du tunnel TCSP, de sécurité incendie, de sureté et de gardiennage de la gare de Saint Quentin en Yvelines à Montigny-le-Bretonneux",
+   "buyer": "Saint-Quentin-en-Yvelines - Communauté d'agglomération",
+   "published": "2026-11-18",
+   "deadline": "2026-12-16T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111315",
+   "procedure_id": "5dd2f4e6-f036-4b51-b492-7b42a79a7896",
+   "description": "La présente consultation a pour objet des prestations de supervision du tunnel TCSP, de sécurité incendie, de sureté et de gardiennage de la gare de Saint Quentin en Yvelines à Montigny-le-Bretonneux. Les prestations objet de l'accord-cadre comprennent notamment : - La mise en place d'un service d'agents d'exploitation en charge pendant les jours et horaires spécifiés dans le CCTP ; - la sécurité incendie des zones…",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000",
+    "75251110",
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "332",
+    "331"
+   ]
+  },
+  {
+   "id": "boamp:26-111346",
+   "source": "BOAMP",
+   "source_id": "26-111346",
+   "title": "Entretien et le nettoyage des pôles d'échanges multimodaux, des gares routières et des locaux sociaux de MARTINIQUE TRANSPORT - Lot n°2 : Nettoyage de locaux sociaux",
+   "buyer": "Martinique Transport",
+   "published": "2026-11-18",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111346",
+   "procedure_id": "cd5e2dd5-a448-469b-8935-a7bb87abd228",
+   "description": "Nettoyage de locaux sociaux situés sur le pôle d'échanges multimodal de MAHAULT et sur la gare multimodale de la Pointe Simon et autres sites",
+   "departments": [
+    "972"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90910000",
+    "90919200",
+    "90511100"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111427",
+   "source": "BOAMP",
+   "source_id": "26-111427",
+   "title": "Nettoiement du centre commercial Jeanne Hachette - Marat - Voltaire et de ses abords à Ivry-sur-Seine",
+   "buyer": "Mairie d'ivry-sur-seine",
+   "published": "2026-11-18",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111427",
+   "procedure_id": "4383e8a6-eada-4658-ab3c-f2a8f3b7694d",
+   "description": "La présente consultation a pour objet la prestation de nettoiement du centre commercial Jeanne Hachette / Marat / Voltaire et de ses abords, à Ivry-sur-Seine. Le marché se présente sous la forme d’un marché à prix global et forfaitaire.",
+   "departments": [
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000",
+    "90900000",
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "240",
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111546",
+   "source": "BOAMP",
+   "source_id": "26-111546",
+   "title": "entretien des espaces verts",
+   "buyer": "Grand Port Maritime de la Guyane",
+   "published": "2026-11-18",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111546",
+   "procedure_id": "d51c316d-8b5b-45dc-a79b-3f982dc4d4cf",
+   "description": "Le présent marché a pour objet la réalisation de prestations d’entretien des clôtures, des espaces verts et fossés et canaux d’assainissement (fossés en herbe et canaux bétonnés) sur la totalité de l’assise foncière de GPMPG, hormis les espaces intérieurs du terminal à conteneurs La description précise du besoin ainsi que les conditions d’exécution figurent au CCTP.",
+   "departments": [
+    "973"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 60000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111578",
+   "source": "BOAMP",
+   "source_id": "26-111578",
+   "title": "Entretien et veille des sentiers intercommunautaires",
+   "buyer": "Cté de Cnes Coeur de Tarentaise",
+   "published": "2026-11-18",
+   "deadline": "2027-01-05T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111578",
+   "procedure_id": "2fd6d686-0e9a-4a6c-849f-f7eff9923e4e",
+   "description": "",
+   "departments": [
+    "73"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Bas de vallée / Moûtiers et ses sommets",
+    "Les Belleville - secteur Saint-Jean-de-Belleville",
+    "Les Belleville - Saint-Martin-de-Belleville, Les Menuires et Val Thorens"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111608",
+   "source": "BOAMP",
+   "source_id": "26-111608",
+   "title": "Nettoyage et entretien des locaux et des vitres du Centre IRD de Guyane à Cayenne",
+   "buyer": "I.R.D",
+   "published": "2026-11-18",
+   "deadline": "2026-12-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111608",
+   "procedure_id": "6fa58d12-0a75-4f93-9abd-7bdfbd54538e",
+   "description": "Le marché a pour objet de confier à un prestataire extérieur, la prestation de nettoyage et d'entretien des locaux, des vitres intérieures et extérieures du centre IRD de Guyane à Cayenne",
+   "departments": [
+    "13",
+    "75",
+    "973"
+   ],
+   "regions": [
+    "Outre-mer",
+    "Provence-Alpes-Côte d'Azur",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111619",
+   "source": "BOAMP",
+   "source_id": "26-111619",
+   "title": "Nettoyage des locaux, vitreries et mobilier urbain",
+   "buyer": "Roche aux Fées Communauté",
+   "published": "2026-11-18",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111619",
+   "procedure_id": "7a09bd43-90d8-4a5d-89e4-acd71614c312",
+   "description": "Nettoyage des locaux, vitreries et mobilier urbain de Roche aux Fées Communauté",
+   "departments": [
+    "35"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux",
+    "Entretien des vitreries"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "240"
+   ]
+  },
+  {
+   "id": "boamp:26-112098",
+   "source": "BOAMP",
+   "source_id": "26-112098",
+   "title": "Prestations de services de surveillance et de sécurité des sites de la Ville d'Avrillé (49)",
+   "buyer": "Commune d'Avrillé",
+   "published": "2026-11-18",
+   "deadline": "2026-12-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112098",
+   "procedure_id": null,
+   "description": "Le lot 01, Télésurveillance des systèmes de détection d'intrusion et le lot 03, Sécurisation des accès aux sites sont des marchés ordinaires Le lot 02, Interventions et gardiennage est un accord cadre à bon de commande à montant maximal, passé en application des articles L2125-1 1°, R. 2162-1 à R. 2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Il donnera lieu à l'émission de bons de commande…",
+   "departments": [
+    "49"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "79710000",
+    "35120000",
+    "79715000",
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 173520.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "01 : Télésurveillance des systèmes de détection d'intrusion. Télésurveillance des systèmes de détection d'intrusion",
+    "02 : Interventions et gardiennage. Interventions et gardiennage",
+    "03 : Sécurisation des accès aux sites. Sécurisation des accès aux sites"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "331",
+    "415"
+   ]
+  },
+  {
    "id": "ted:800314-2026",
    "source": "TED",
    "source_id": "800314-2026",
@@ -128136,6 +128792,512 @@
    "match": [
     "cpv",
     "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:803858-2026",
+   "source": "TED",
+   "source_id": "803858-2026",
+   "title": "Nettoyage des locaux et de la vitrerie des bâtiments administratifs et techniques de l'OPH de la Meuse",
+   "buyer": "OPH de la Meuse",
+   "published": "2026-11-19",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/803858-2026",
+   "procedure_id": "f70b0be2-099f-4c20-b392-20142c02b457",
+   "description": "Le marché concerne le marché de nettoyage des locaux administratifs et techniques de l'OPH de la Meuse. Les deux lots de la présente consultation porte uniquement sur le nettoyage des locaux. Les lots relatifs à la vitrerie seront lancés ultérieurement car le terme contractuel de ces lots sont décalés. Le lot 1 porte sur le nettoyage des locaux des bâtiments administratifs et techniques de l'OPH de la Meuse situés…",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90919200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1 - Nettoyage des locaux des bâtiments situés Secteur Meuse Sud",
+    "LOT 2 - Nettoyage des locaux des bâtiments situés Secteur Meuse Nord"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:804116-2026",
+   "source": "TED",
+   "source_id": "804116-2026",
+   "title": "Marché de nettoyage des parties communes et de prestations d'ordures ménagères des ensembles immobiliers de la SEMIR",
+   "buyer": "SEMIR",
+   "published": "2026-11-19",
+   "deadline": "2026-12-04T14:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/804116-2026",
+   "procedure_id": "c9a0e617-ce5f-4afc-94f5-aece65cf1626",
+   "description": "Exécution de prestations de nettoyage et d'entretien des parties communes et abords, de manipulation (sortie-rentrée) et nettoyage des containers d'ordures ménagères et tri sélectif du patrimoine de la SEMIR, du nettoyage/entretien des bureaux de la SEMIR, et de manipulation des encombrants sur certaines résidences.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:804159-2026",
+   "source": "TED",
+   "source_id": "804159-2026",
+   "title": "PRESTATIONS D’ENTRETIEN EN GESTION DURABLE ET PAR L’ECO-PATURAGE DES ESPACES VERTS DE CY CERGY PARIS UNIVERSITE",
+   "buyer": "CY CERGY PARIS UNIVERSITE",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/804159-2026",
+   "procedure_id": "f778605a-dc17-4852-82be-1b121bbba4b6",
+   "description": "La présente consultation a pour objet la réalisation de prestations de services relatives à l’entretien des espaces verts de CY Cergy Paris Université (lots 1,2 et 3) et de prestations d’entretien des espaces verts de CY Cergy Paris Université par de l’éco-pâturage (lot 4).",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Sites de l’agglomération de Cergy-Pontoise (Chênes, CY Tech, Saint Martin, Cerclades, Neuville), Argenteuil, Sarcelles et Gennevilliers",
+    "Lot n°2 : Sites de Saint-Germain-En-Laye Pasteur et PNEI",
+    "Lot n°3 : Site d’Antony Jouhaux",
+    "Lot n°4 : Eco-pâturage site de Gennevilliers"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:804275-2026",
+   "source": "TED",
+   "source_id": "804275-2026",
+   "title": "Accord-cadre portant sur Entretien des espaces verts et libres du patrimoine de meurthe et moselle habitat",
+   "buyer": "Meurthe et Moselle Habitat",
+   "published": "2026-11-19",
+   "deadline": "2026-11-25T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/804275-2026",
+   "procedure_id": "7a0636ce-1935-4f3f-9796-50ff8be34eda",
+   "description": "-La présente consultation se scinde en 3 lots",
+   "departments": [],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Sud et Centre",
+    "Nord (Longwy et Briey)",
+    "Insertion Nord (Agence Longwy)"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:805001-2026",
+   "source": "TED",
+   "source_id": "805001-2026",
+   "title": "Le marché a pour objet l'entretien des toitures-terrasses, chéneaux et descentes de gouttières du patrimoine de la Société Immobilière Picarde (SIP). Le périmètre précis, les prestations attendues, les fréquences, les délais d'intervention et les modalités de compte rendu sont définis dans le CCP et ses annexes",
+   "buyer": "Société immobilière picarde d'HLM",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/805001-2026",
+   "procedure_id": "0f8c94fe-e199-4218-a446-97ae99f3a68a",
+   "description": "Entretien des toitures-terrasses, chéneaux et descentes de gouttières du patrimoine de la SIP",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911200",
+    "45261920"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 800000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:805159-2026",
+   "source": "TED",
+   "source_id": "805159-2026",
+   "title": "Accord-cadre relatif à l'entretien des espaces verts EDF des sites tertiaires de la DIR IDF : LIEUSAINT et LES RENARDIERES",
+   "buyer": "EDF SA",
+   "published": "2026-11-19",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/805159-2026",
+   "procedure_id": "16318bf2-400e-48e2-afef-86abafa398a9",
+   "description": "Les prestations comprennent notamment : - Tonte, fauchage et entretien des surfaces végétalisées, - Taille, entretien et désherbage des haies, massifs et talus, - Entretien des espaces naturels, sous-bois et abords d'ouvrages hydrauliques, - Nettoyage et désherbage des voiries, allées piétonnes et surfaces minérales, - Entretien des installations techniques et périmètres clôturés, - Gestion des chenilles…",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Autre procédure (plusieurs étapes)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:805211-2026",
+   "source": "TED",
+   "source_id": "805211-2026",
+   "title": "Elagage, Abattage et dessouchage des arbres La présente consultation concerne l'exécution des prestations d'élagage, d'abattage et de dessouchage des arbres dans les espaces verts, parcs, jardins, squares publics, jardins scolaires ou autres propriétés communales de la Commune de MIRAMAS",
+   "buyer": "Commune de Miramas",
+   "published": "2026-11-19",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/805211-2026",
+   "procedure_id": "a34a6abf-5b7d-4b1f-9298-906b72fe616a",
+   "description": "La procédure de passation utilisée est l'appel d'offres ouvert. Elle est soumise aux dispositions des articles L. 2124-2, R. 2124-2 1° et R. 2161-2 à R. 2161-5 du Code de la commande publique. L'accord-cadre avec maximum est passé en application des articles L2125-1 1°, R. 2162-1 à R. 2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Il donnera lieu à l'émission de bons de commande",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77211400",
+    "77341000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 70000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:805225-2026",
+   "source": "TED",
+   "source_id": "805225-2026",
+   "title": "Maintenance des installations et matériels de la restauration collective et buanderie de la Ville de Joué-lès-Tours",
+   "buyer": "Commune de Joué-lès-Tours",
+   "published": "2026-11-19",
+   "deadline": "2026-12-21T23:55",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/805225-2026",
+   "procedure_id": "4dec2811-4b50-4740-80a1-db4d9907c2b9",
+   "description": "Le marché concerne la maintenance des installations et matériels du service de restauration de la Ville de Joué-Lès-Tours, la maintenance préventive et curative des installations et matériels de cuisine (chaud, froid, laverie, ventilation, préparation, adoucisseurs) de la cuisine centrale, des sites satellites, des crèches, bâtiments incluant une cuisine relais.",
+   "departments": [],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "50883000",
+    "90910000",
+    "50532000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Maintenance des équipements de cuisson, laverie, ventilation, hottes, extraction, préparation, adoucisseurs et consommables associés, maintenance des…",
+    "Maintenance des équipements de buanderie, crèche et accueil petite enfance (lave-linge et sèche-linge) et consommables associés",
+    "Dégraissage et nettoyage des hottes d'extraction",
+    "Maintenance des nettoyeurs vapeurs avec fourniture des pièces détachées et des consommables associés"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:805315-2026",
+   "source": "TED",
+   "source_id": "805315-2026",
+   "title": "ACQUISITION DE MATERIELS DE MANUTENTION, DE MAINTENANCE ET D’ENTRETIEN DES ESPACES EXTERIEURS POUR LES AGENTS REGIONAUX DES LYCEES PUBLICS",
+   "buyer": "Région des Pays de la Loire",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/805315-2026",
+   "procedure_id": "f661d3fb-4e64-435a-a88a-a638f5e15f86",
+   "description": "Le présent accord-cadre a pour objet la fourniture, la formation à l’utilisation le cas échéant, et la mise en service de matériels de manutention, de maintenance et d’entretien des espaces extérieurs pour les lycées de la Région Pays de la Loire. Tous les établissements de la Région sont concernés par l’exécution de cet accord-cadre (5 départements). Ces équipements vont permettre le renouvellement et le complément…",
+   "departments": [],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000",
+    "42410000",
+    "43800000",
+    "39100000",
+    "39150000",
+    "42600000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services",
+    "Supplies"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "OUTILLAGES MANUELS ET ELECTROPORTATIFS",
+    "ENTRETIEN DES ESPACES EXTERIEURS",
+    "MANUTENTION",
+    "EQUIPEMENTS D'ATELIER ET MOYEN D'ACCES EN HAUTEUR",
+    "MOBILIERS DE SECURITE ET DE RETENTION"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:805380-2026",
+   "source": "TED",
+   "source_id": "805380-2026",
+   "title": "Inspection Filtrage des Passagers et des bagages de cabine (IFPBC) pour l'aéroport Guadeloupe Maryse Condé",
+   "buyer": "Société Aéroportuaire Guadeloupe Pôle Caraibes (SAGPC)",
+   "published": "2026-11-19",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/805380-2026",
+   "procedure_id": "e9c482ad-39af-40fd-aecb-a0b1e0b5cc65",
+   "description": "Le présent marché passé entre le Titulaire et la SAGPC concerne des prestations de services portant sur : - L'inspection filtrage de passagers et de leurs bagages à main et effets personnels. - L'inspection filtrage de personnes autres que les passagers, aux points de contrôle désignés (d'autres postes pourront être exploités par des entreprises tierces) - L'inspection des fournitures, approvisionnements et autres…",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:805647-2026",
+   "source": "TED",
+   "source_id": "805647-2026",
+   "title": "Accord-cadre à bons de commande - Marchés réservés pour l'entretien, la propreté des espaces publics naturels et la surveillance des cours d'eau (8 lots)",
+   "buyer": "Communauté Urbaine d'Arras",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T11:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/805647-2026",
+   "procedure_id": "9898e44e-6ab2-4a47-9195-4da0bcb1a9d3",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "75231240",
+    "77310000",
+    "90600000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2580000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien et surveillance des cours d'eau",
+    "Entretien des espaces verts de la Zone Industrielle Est",
+    "Entretien des espaces verts des chemins de randonnée et entretien mécanisé des espaces verts sur divers sites communautaires",
+    "Entretien des espaces verts et propreté de la Citadelle d'Arras, des emprises militaires et de Floralpina",
+    "Entretien des espaces verts et propreté de la Scarpe canalisée",
+    "Entretien des espaces verts des salles de sport, des piscines communautaires et des bassins d'eaux pluviales",
+    "Entretien des espaces verts du Jardin de la Paix et entretien non mécanisé des espaces verts sur divers sites communautaires",
+    "Propreté de la Zone Industrielle Est et gestion des dépôts sauvages communautaires"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:806492-2026",
+   "source": "TED",
+   "source_id": "806492-2026",
+   "title": "PRESTATIONS DE SECURITE INCENDIE DES PERSONNES ET DES BIENS DU CENTRE HOSPITALIER D’EMBRUN – SSIAP26",
+   "buyer": "05 CHICAS",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/806492-2026",
+   "procedure_id": "d7e43903-8b35-4572-97ee-f70bc9d3f409",
+   "description": "Le présent marché a pour objet la réalisation de prestations de sécurité incendie des personnes et des biens par la présence de deux agents SSIAP1 au Centre hospitalier d’Embrun dans les Hautes-Alpes, pendant la durée des travaux de construction / rénovation.",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Autre procédure (une étape)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
    ],
    "alt_urls": {},
    "supersedes": [],
