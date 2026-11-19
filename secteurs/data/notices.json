@@ -129325,6 +129325,148 @@
    ]
   },
   {
+   "id": "boamp:26-112509",
+   "source": "BOAMP",
+   "source_id": "26-112509",
+   "title": "Prestations de téléassistance aux personnes handicapées ou âgées pour le Centre Communal d'Action Sociale de la ville de Puteaux",
+   "buyer": "Centre Communal d'Action Sociale de Puteaux",
+   "published": "2026-11-19",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112509",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79711000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-101939"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "331",
+    "5"
+   ]
+  },
+  {
+   "id": "boamp:26-112697",
+   "source": "BOAMP",
+   "source_id": "26-112697",
+   "title": "Prestations de nettoyage de locaux pour les membres du groupement de commandes",
+   "buyer": "CC DU PAYS DE SAVERNE",
+   "published": "2026-11-19",
+   "deadline": "2026-12-10T18:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112697",
+   "procedure_id": null,
+   "description": "Prestations de nettoyage de locaux pour les membres du groupement de commandes (Communauté de Communes du Pays de Saverne et SIVOS \"Autour du Sternenberg\")",
+   "departments": [
+    "54",
+    "57",
+    "67",
+    "68",
+    "88"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 174000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des locaux du Groupe scolaire et Périscolaire \"Les Abeilles\"",
+    "Nettoyage des locaux de la Maison des Services du Pays de Saverne",
+    "Nettoyage des locaux de la Maison des Entrepreneurs"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-112700",
+   "source": "BOAMP",
+   "source_id": "26-112700",
+   "title": "Entretien des terrains de sport - Site de Chemeau",
+   "buyer": "Ville de Saint Denis en Val",
+   "published": "2026-11-19",
+   "deadline": "2026-12-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112700",
+   "procedure_id": null,
+   "description": "Travaux d'entretien annuel des terrains de sport du site de Chemeau, situé rue de Chemeau à SAINT DENIS EN VAL. Ces prestations comprennent notamment l'entretien régulier des terrains, la tonte et le traçage des terrains, la taille de végétaux, l'entretien du système d'irrigation, telles que décrites dans le CCTP",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "77320000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "342",
+    "274",
+    "116"
+   ]
+  },
+  {
    "id": "ted:803858-2026",
    "source": "TED",
    "source_id": "803858-2026",
