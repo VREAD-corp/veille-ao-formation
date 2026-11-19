@@ -128804,6 +128804,527 @@
    "descriptors": []
   },
   {
+   "id": "boamp:26-111627",
+   "source": "BOAMP",
+   "source_id": "26-111627",
+   "title": "Accord-cadre à bons de commande - Marchés réservés pour l'entretien, la propreté des espaces publics naturels et la surveillance des cours d'eau (8 lots)",
+   "buyer": "Communauté Urbaine d'Arras",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111627",
+   "procedure_id": "9898e44e-6ab2-4a47-9195-4da0bcb1a9d3",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires et forfaitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "75231240",
+    "77310000",
+    "90600000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2580000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien et surveillance des cours d'eau",
+    "Entretien des espaces verts de la Zone Industrielle Est",
+    "Entretien des espaces verts des chemins de randonnée et entretien mécanisé des espaces verts sur divers sites communautaires",
+    "Entretien des espaces verts et propreté de la Citadelle d'Arras, des emprises militaires et de Floralpina",
+    "Entretien des espaces verts et propreté de la Scarpe canalisée",
+    "Entretien des espaces verts des salles de sport, des piscines communautaires et des bassins d'eaux pluviales",
+    "Entretien des espaces verts du Jardin de la Paix et entretien non mécanisé des espaces verts sur divers sites communautaires",
+    "Propreté de la Zone Industrielle Est et gestion des dépôts sauvages communautaires"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "240"
+   ]
+  },
+  {
+   "id": "boamp:26-111679",
+   "source": "BOAMP",
+   "source_id": "26-111679",
+   "title": "PRESTATIONS D’ENTRETIEN EN GESTION DURABLE ET PAR L’ECO-PATURAGE DES ESPACES VERTS DE CY CERGY PARIS UNIVERSITE",
+   "buyer": "CY CERGY PARIS UNIVERSITE",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111679",
+   "procedure_id": "f778605a-dc17-4852-82be-1b121bbba4b6",
+   "description": "La présente consultation a pour objet la réalisation de prestations de services relatives à l’entretien des espaces verts de CY Cergy Paris Université (lots 1,2 et 3) et de prestations d’entretien des espaces verts de CY Cergy Paris Université par de l’éco-pâturage (lot 4).",
+   "departments": [
+    "75",
+    "92",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Sites de l’agglomération de Cergy-Pontoise (Chênes, CY Tech, Saint Martin, Cerclades, Neuville), Argenteuil, Sarcelles et Gennevilliers",
+    "Lot n°2 : Sites de Saint-Germain-En-Laye Pasteur et PNEI",
+    "Lot n°3 : Site d’Antony Jouhaux",
+    "Lot n°4 : Eco-pâturage site de Gennevilliers"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111696",
+   "source": "BOAMP",
+   "source_id": "26-111696",
+   "title": "Elagage, Abattage et dessouchage des arbres La présente consultation concerne l'exécution des prestations d'élagage, d'abattage et de dessouchage des arbres dans les espaces verts, parcs, jardin",
+   "buyer": "Commune de Miramas",
+   "published": "2026-11-19",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111696",
+   "procedure_id": "a34a6abf-5b7d-4b1f-9298-906b72fe616a",
+   "description": "La procédure de passation utilisée est l'appel d'offres ouvert. Elle est soumise aux dispositions des articles L. 2124-2, R. 2124-2 1° et R. 2161-2 à R. 2161-5 du Code de la commande publique. L'accord-cadre avec maximum est passé en application des articles L2125-1 1°, R. 2162-1 à R. 2162-6, R. 2162-13 et R. 2162-14 du Code de la commande publique. Il donnera lieu à l'émission de bons de commande",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77211400",
+    "77341000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 70000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111721",
+   "source": "BOAMP",
+   "source_id": "26-111721",
+   "title": "Maintenance des installations et matériels de la restauration collective et buanderie de la Ville de Joué-lès-Tours",
+   "buyer": "Commune de Joué-lès-Tours",
+   "published": "2026-11-19",
+   "deadline": "2026-12-21T23:55",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111721",
+   "procedure_id": "4dec2811-4b50-4740-80a1-db4d9907c2b9",
+   "description": "Le marché concerne la maintenance des installations et matériels du service de restauration de la Ville de Joué-Lès-Tours, la maintenance préventive et curative des installations et matériels de cuisine (chaud, froid, laverie, ventilation, préparation, adoucisseurs) de la cuisine centrale, des sites satellites, des crèches, bâtiments incluant une cuisine relais.",
+   "departments": [
+    "37"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "50883000",
+    "90910000",
+    "50532000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Maintenance des équipements de cuisson, laverie, ventilation, hottes, extraction, préparation, adoucisseurs et consommables associés, maintenance des…",
+    "Maintenance des équipements de buanderie, crèche et accueil petite enfance (lave-linge et sèche-linge) et consommables associés",
+    "Dégraissage et nettoyage des hottes d'extraction",
+    "Maintenance des nettoyeurs vapeurs avec fourniture des pièces détachées et des consommables associés"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "196"
+   ]
+  },
+  {
+   "id": "boamp:26-111743",
+   "source": "BOAMP",
+   "source_id": "26-111743",
+   "title": "Marché de nettoyage des parties communes et de prestations d'ordures ménagères des ensembles immobiliers de la SEMIR",
+   "buyer": "SEMIR",
+   "published": "2026-11-19",
+   "deadline": "2026-12-04T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111743",
+   "procedure_id": "c9a0e617-ce5f-4afc-94f5-aece65cf1626",
+   "description": "Exécution de prestations de nettoyage et d'entretien des parties communes et abords, de manipulation (sortie-rentrée) et nettoyage des containers d'ordures ménagères et tri sélectif du patrimoine de la SEMIR, du nettoyage/entretien des bureaux de la SEMIR, et de manipulation des encombrants sur certaines résidences.",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-111756",
+   "source": "BOAMP",
+   "source_id": "26-111756",
+   "title": "PRESTATIONS DE SECURITE INCENDIE DES PERSONNES ET DES BIENS DU CENTRE HOSPITALIER D’EMBRUN – SSIA",
+   "buyer": "05 CHICAS",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111756",
+   "procedure_id": "d7e43903-8b35-4572-97ee-f70bc9d3f409",
+   "description": "Le présent marché a pour objet la réalisation de prestations de sécurité incendie des personnes et des biens par la présence de deux agents SSIAP1 au Centre hospitalier d’Embrun dans les Hautes-Alpes, pendant la durée des travaux de construction / rénovation.",
+   "departments": [
+    "05"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-111802",
+   "source": "BOAMP",
+   "source_id": "26-111802",
+   "title": "ACQUISITION DE MATERIELS DE MANUTENTION, DE MAINTENANCE ET D’ENTRETIEN DES ESPACES EXTERIEURS POUR LES AGENTS REGIONAUX DES LYCEES PUBLICS",
+   "buyer": "Région des Pays de la Loire",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111802",
+   "procedure_id": "f661d3fb-4e64-435a-a88a-a638f5e15f86",
+   "description": "Le présent accord-cadre a pour objet la fourniture, la formation à l’utilisation le cas échéant, et la mise en service de matériels de manutention, de maintenance et d’entretien des espaces extérieurs pour les lycées de la Région Pays de la Loire. Tous les établissements de la Région sont concernés par l’exécution de cet accord-cadre (5 départements). Ces équipements vont permettre le renouvellement et le complément…",
+   "departments": [
+    "44",
+    "49",
+    "53",
+    "72",
+    "85"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "77310000",
+    "42410000",
+    "43800000",
+    "39100000",
+    "39150000",
+    "42600000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "OUTILLAGES MANUELS ET ELECTROPORTATIFS",
+    "ENTRETIEN DES ESPACES EXTERIEURS",
+    "MANUTENTION",
+    "EQUIPEMENTS D'ATELIER ET MOYEN D'ACCES EN HAUTEUR",
+    "MOBILIERS DE SECURITE ET DE RETENTION"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "237",
+    "208",
+    "196",
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111816",
+   "source": "BOAMP",
+   "source_id": "26-111816",
+   "title": "Inspection Filtrage des Passagers et des bagages de cabine (IFPBC) pour l'aéroport Guadeloupe Maryse Condé",
+   "buyer": "Société Aéroportuaire Guadeloupe Pôle Caraibes (SAGPC)",
+   "published": "2026-11-19",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111816",
+   "procedure_id": "e9c482ad-39af-40fd-aecb-a0b1e0b5cc65",
+   "description": "Le présent marché passé entre le Titulaire et la SAGPC concerne des prestations de services portant sur : - L'inspection filtrage de passagers et de leurs bagages à main et effets personnels. - L'inspection filtrage de personnes autres que les passagers, aux points de contrôle désignés (d'autres postes pourront être exploités par des entreprises tierces) - L'inspection des fournitures, approvisionnements et autres…",
+   "departments": [
+    "971"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Négociée",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "81",
+    "331"
+   ]
+  },
+  {
+   "id": "boamp:26-111817",
+   "source": "BOAMP",
+   "source_id": "26-111817",
+   "title": "Le marché a pour objet l'entretien des toitures-terrasses, chéneaux et descentes de gouttières du patrimoine de la Société Immobilière Picarde (SIP). Le périmètre précis, les prestations attendue",
+   "buyer": "Société immobilière picarde d'HLM",
+   "published": "2026-11-19",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111817",
+   "procedure_id": "0f8c94fe-e199-4218-a446-97ae99f3a68a",
+   "description": "Entretien des toitures-terrasses, chéneaux et descentes de gouttières du patrimoine de la SIP",
+   "departments": [
+    "80"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911200",
+    "45261920"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 800000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "145"
+   ]
+  },
+  {
+   "id": "boamp:26-112312",
+   "source": "BOAMP",
+   "source_id": "26-112312",
+   "title": "Marché de prestations de gardiennage et de sécurité",
+   "buyer": "Commune de Neuilly-Plaisance",
+   "published": "2026-11-19",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112312",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Gardiennage de sites sportifs",
+    "Surveillance de manifestations événementielles"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-112341",
+   "source": "BOAMP",
+   "source_id": "26-112341",
+   "title": "PRESTATIONS DE NETTOYAGE POUR LA VILLE DE LAXOU ET LE CCAS DE LAXOU-.",
+   "buyer": "Commune de LAXOU",
+   "published": "2026-11-19",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112341",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "54"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-103516"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
    "id": "ted:803858-2026",
    "source": "TED",
    "source_id": "803858-2026",

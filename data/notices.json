@@ -108967,6 +108967,42 @@
     "Elaboration et animation d’études de cas"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-112325",
+   "source": "BOAMP",
+   "source_id": "26-112325",
+   "title": "Action visant à lever les freins liés à la santé mentale grâce à un accompagnement par un psychologue, amenant à la prise de conscience de la problématique santé et à l’accès aux soins du bénéficiaire",
+   "buyer": "Département de la Marne",
+   "published": "2026-11-19",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112325",
+   "procedure_id": null,
+   "description": "Action visant à lever les freins liés à la santé mentale, grâce à un accompagnement par un psychologue diplômé, amenant à la prise de conscience de la problématique santé et à l’accès aux soins du bénéficiaire.",
+   "departments": [
+    "51"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "85300000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }
