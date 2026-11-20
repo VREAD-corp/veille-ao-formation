@@ -109255,6 +109255,160 @@
     "2 : Lot n°2 : \"les ateliers culinaires\" pour les départements de l'Isère, de la Drôme et de l'Ardèche. Lot n°2 : \"les ateliers culinaires\" pour les…"
    ],
    "updated": ""
+  },
+  {
+   "id": "ted:809763-2026",
+   "source": "TED",
+   "source_id": "809763-2026",
+   "title": "Prestations d’assurances - Déplacements professionnels (lot 1) - Décès – Invalidité (lot 2)",
+   "buyer": "Caisse des dépôts",
+   "published": "2026-11-20",
+   "deadline": "2026-12-07T11:30",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/809763-2026",
+   "procedure_id": "789c1e2e-f5a8-47df-927a-83b57872e6e0",
+   "description": "Prestations d’assurances - Déplacements professionnels (lot 1) - Décès – Invalidité (lot 2)",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000",
+    "66510000"
+   ],
+   "procedure": "Autre procédure (une étape)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:810051-2026",
+   "source": "TED",
+   "source_id": "810051-2026",
+   "title": "Réalisation d'actions de formation dans le cadre de la formation initiale obligatoire des assistantes et assistants familiaux organisées pour le compte de la délégation Ile-de-France du CNFPT - département des Yvelines - Relance du lot n°50",
+   "buyer": "CNFPT - Direction de l'achat public",
+   "published": "2026-11-20",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/810051-2026",
+   "procedure_id": "9a8bd23c-827b-47be-b0fa-06902d00718c",
+   "description": "Relance du lot n°50 de la consultation ACH26055 Accord-cadre à bons de commande mono attributaire sans montant minimum et avec montant maximum de 230 400 euros HT sur 4 ans; Durée de 4 ans ferme à compter de la date de notification",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 230400.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:810349-2026",
+   "source": "TED",
+   "source_id": "810349-2026",
+   "title": "Marché ayant pour objet la préparation et l’accompagnement à la mobilité des demandeurs d’emploi dans un autre pays de l’Union européenne ou un pays associé dans le cadre de la mise en œuvre des programmes européens ERASMUS+",
+   "buyer": "FRANCE TRAVAIL - GUYANE",
+   "published": "2026-11-20",
+   "deadline": "2026-12-30T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/810349-2026",
+   "procedure_id": "36e4db8e-34b3-46ec-88f8-6626dbb89342",
+   "description": "Le marché prend la forme d’un accord-cadre exécuté par émission de bons de commande, conclu avec un unique Titulaire, sans minimum et avec un maximum en quantité, défini en nombre de bénéficiaires à prendre en charge au titre de la période ferme, fixé à 6 pour les bourses EFP, et 8 pour les Bourses EDA. Les prestations comprennent une phase de sélection des candidats, un module de formation linguistique et…",
+   "departments": [
+    "973"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:810871-2026",
+   "source": "TED",
+   "source_id": "810871-2026",
+   "title": "Achat de services de formation professionnelle au bénéfice des agents du Département-Région de Mayotte",
+   "buyer": "Département-Région de Mayotte",
+   "published": "2026-11-20",
+   "deadline": "2026-12-22T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/810871-2026",
+   "procedure_id": "ab79f867-8bc2-4325-88e8-b84bc4eb09bc",
+   "description": "Achat de services de formation professionnelle au bénéfice des agents du Département-Région de Mayotte",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "80530000",
+    "80500000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 11 Ingénierie de projet et financements européens",
+    "Lot 4 Ressources humaines et compétences sociales",
+    "Lot 2 Droit administratif et gestion juridique",
+    "Lot 3 Gestion financière et budgétaire",
+    "Lot 1 Management, pilotage et communication stratégique",
+    "Lot 5 Compétences numériques, bureautiques et gestion documentaire",
+    "Lot 6 Formation gestion de crise et service technique",
+    "Lot 7 Formation sécurité habilitation et prestations techniques spécialisées",
+    "Lot 8 Développement territorial, environnement et secteurs spécialisés",
+    "Lot 9 commande publique",
+    "Lot 10 Conservation et valorisation du patrimoine culturel"
+   ],
+   "updated": ""
   }
  ]
 }
