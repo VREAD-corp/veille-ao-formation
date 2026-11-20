@@ -129971,6 +129971,425 @@
     "securite"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-111906",
+   "source": "BOAMP",
+   "source_id": "26-111906",
+   "title": "Entretien des espaces verts des 3 Cimetières de Wattrelos",
+   "buyer": "Commune de WATTRELOS",
+   "published": "2026-11-20",
+   "deadline": "2027-01-04T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111906",
+   "procedure_id": "2de09d9e-0e6c-45fc-8828-bb1ac8a1f0b7",
+   "description": "La Ville de Wattrelos attribue un accord-cadre à bons de commande, d'une durée d'un an renouvelable trois fois, portant sur l'entretien et la propreté des espaces verts de ses trois cimetières : Cimetière du Centre (rue de Leers) Cimetière du Crétinier (rue des Patriotes) Cimetière Métropolitain (rue de Leers) Les prestations d'entretien courant comprennent tous les soins et réparations qu'exige le maintien des…",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces verts des cimetières du Centre et du Crétinier",
+    "Entretien des espaces verts du Cimetière Métropolitain"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-111948",
+   "source": "BOAMP",
+   "source_id": "26-111948",
+   "title": "Relance du lot n° 3 - Prestations cynotechniques de détection d'explosifs - du marché \"Prestations de sécurité privée et de sécurité incendie\".",
+   "buyer": "Palais des Festivals et des Congrès de Cannes (06)",
+   "published": "2026-11-20",
+   "deadline": "2026-12-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-111948",
+   "procedure_id": "cdfe1157-7bc6-4852-afbf-131c7add260c",
+   "description": "Prestations cynotechniques de détection d'explosifs.",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79710000",
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 341905.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "331",
+    "445"
+   ]
+  },
+  {
+   "id": "boamp:26-112072",
+   "source": "BOAMP",
+   "source_id": "26-112072",
+   "title": "Entretien, maintenance et nettoyage des aires de jeux de la ville d'Olivet",
+   "buyer": "Mairie d'Olivet - Service Commande Publique",
+   "published": "2026-11-20",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112072",
+   "procedure_id": "b19df0fd-e953-4a69-843e-7263545461f6",
+   "description": "Le présent marché porte sur les prestations d'entretien, de maintenance préventive et curative, et de nettoyage des aires de jeux et des sols souples situés sur la commune d'Olivet. Ces aires de jeux sont situées soit sur l'espace public, soit au sein des équipements de la ville (écoles, accueils de loisirs et crèches). Le présent marché s'applique : 1/ aux jeux fixés aux sols des aires de jeux 2/ aux sols souples…",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "50870000",
+    "43325000",
+    "50324200",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 240000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "400"
+   ]
+  },
+  {
+   "id": "boamp:26-112180",
+   "source": "BOAMP",
+   "source_id": "26-112180",
+   "title": "Maintenance des systèmes intrusion, contrôle d'accès et vidéosurveillance, et télésurveillance des sites du Département et du SDIS",
+   "buyer": "Département du Puy-de-Dôme",
+   "published": "2026-11-20",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112180",
+   "procedure_id": "de55dc21-2583-4b4e-aaf7-a994e0c9f56a",
+   "description": "Consultation lancée par un groupement de commandes. L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires",
+   "departments": [
+    "63"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "50324100",
+    "35120000",
+    "79711000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Maintenance des systèmes intrusion, contrôle d'accès et vidéosurveillance",
+    "Télésurveillance des sites du Département et du SDIS"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "415"
+   ]
+  },
+  {
+   "id": "boamp:26-112215",
+   "source": "BOAMP",
+   "source_id": "26-112215",
+   "title": "PRESTATIONS DE PROPRETE DES PARCS, JARDINS, BERGES ET RIVIERE.",
+   "buyer": "Ville de Bourg-en-Bresse",
+   "published": "2026-11-20",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112215",
+   "procedure_id": "718b5d48-f602-4c6a-a2f1-74d1db4e8935",
+   "description": "La présente consultation concerne : PRESTATIONS DE PROPRETE DES PARCS, JARDINS, BERGES ET RIVIERE.",
+   "departments": [
+    "01"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90600000",
+    "90511300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Propreté des parcs, jardins et espaces publics associés",
+    "Services de collecte des déchets sauvages"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "240",
+    "116",
+    "35",
+    "310"
+   ]
+  },
+  {
+   "id": "boamp:26-112249",
+   "source": "BOAMP",
+   "source_id": "26-112249",
+   "title": "ENTRETIEN ET PRESTATIONS SUR LE PATRIMOINE ARBORE DE LA VILLE DE VALENCIENNES",
+   "buyer": "Mairie de Valenciennes",
+   "published": "2026-11-20",
+   "deadline": "2026-12-22T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112249",
+   "procedure_id": "22fb0233-dba8-4d27-a06a-7b7c8994b3cd",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77341000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "469"
+   ]
+  },
+  {
+   "id": "boamp:26-112366",
+   "source": "BOAMP",
+   "source_id": "26-112366",
+   "title": "Prestations de propreté et d’entretien des espaces de la Cité internationale de la langue française – Château de Villers-Cotterêts",
+   "buyer": "Centre des monuments nationaux",
+   "published": "2026-11-20",
+   "deadline": "2027-01-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112366",
+   "procedure_id": "8e122ad8-3d8e-4ce6-bc8a-2de61e8d7faa",
+   "description": "",
+   "departments": [
+    "02"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 800000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "236",
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-112377",
+   "source": "BOAMP",
+   "source_id": "26-112377",
+   "title": "MAINTENANCE DES INSTALLATIONS D'ALARME ANTI-INTRUSION MAINTENANCE ET INSTALLATION DES SYSTÈMES D'ALARME ANTI-INTRUSION, CONTRÔLES D'ACCÈS, BORNES D'APPELS D'URGENCE ET SYSTÈME D'ALERTE D'INFORMAT...",
+   "buyer": "Mairie de Salon de Provence",
+   "published": "2026-11-20",
+   "deadline": "2027-01-04T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112377",
+   "procedure_id": "90f4d9eb-bc0a-4454-88f2-a402b73e0557",
+   "description": "Le présent contrat a pour objet la vérification, l'entretien, le maintien en bon état de fonctionnement et la remise en état des différentes installations d'alarmes anti-intrusion, contrôles d'accès des bâtiments municipaux et du Centre Communal d'Action Sociale (CCAS), bornes d'appels d'urgence et système d'alerte d'information des populations de la ville de Salon de Provence.",
+   "departments": [
+    "13",
+    "26",
+    "30",
+    "34"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79711000",
+    "50610000",
+    "35121700",
+    "45312000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "163"
+   ]
+  },
+  {
+   "id": "boamp:26-112985",
+   "source": "BOAMP",
+   "source_id": "26-112985",
+   "title": "Entretien des espaces verts communaux - Année 2027",
+   "buyer": "Commune d'Yffiniac",
+   "published": "2026-11-20",
+   "deadline": "2026-12-16T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112985",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "22"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur du bourg – Fil de l’Eau",
+    "Secteur des Jearnottes",
+    "Secteur de l’Écluse – Saint-René – la Gare",
+    "Secteur de la Croix Bertrand",
+    "Secteur des Villes Hervé"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
   }
  ]
 }
