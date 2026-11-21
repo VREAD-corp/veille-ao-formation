@@ -109409,6 +109409,135 @@
     "Lot 10 Conservation et valorisation du patrimoine culturel"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-112555",
+   "source": "BOAMP",
+   "source_id": "26-112555",
+   "title": "Prestations de formations",
+   "buyer": "La Régie Eau du Grand Lyon",
+   "published": "2026-11-21",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112555",
+   "procedure_id": "d44f098a-e46b-4bc6-9861-1a001b877ab9",
+   "description": "Depuis sa création, Eau du Grand Lyon s'attache à mettre en oeuvre une forte politique de maintien et développement des compétences pour ses collaborateurs, en proposant des actions de formation collectives et individuelles qui soient au plus proche des actualités, projets et axes d'évolution de l'activité et des équipes de la Régie. Ceci permet notamment à chacune et chacun d'acquérir ou développer une expertise et…",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "80511000",
+    "80533100",
+    "79111000",
+    "80330000",
+    "80411200",
+    "80510000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 5040000.0,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-107072"
+   ],
+   "summary": "",
+   "lots": [
+    "Formation sur le management",
+    "Formations IT et IA",
+    "Formations sur le Droit, la Commande publique, la gestion financière et foncière",
+    "Formations en matière de maintenance et d'intervention techniques",
+    "Formations Santé Sécurité au Travail et Qualité Sécurité Environnement",
+    "Formations sur le développement personnel, la communication, la relation usagers et les langues",
+    "Formations sur la Conduite et le pilotage d'engins",
+    "Formations sur les Métiers de l'Eau"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-112600",
+   "source": "BOAMP",
+   "source_id": "26-112600",
+   "title": "Acquisition, maintenance de défibrillateurs",
+   "buyer": "Agglomération Roissy Pays de France",
+   "published": "2026-11-21",
+   "deadline": "2027-01-06T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112600",
+   "procedure_id": "4967f924-eb4e-4376-9f3a-afe25171193a",
+   "description": "Les stipulations de la présente consultation concernent l'acquisition de défibrillateurs automatisés externes ou semi automatiques, dont leur installation concerne les bâtiments intercommunaux et municipaux ou sur la voie publique, incluant leur mise en service et la formation associée, ainsi que leur maintenance ou remplacement dans le respect légal du décret n°2018-1186 du 19 décembre 2018 relatif aux…",
+   "departments": [
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "50324200",
+    "33182100"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 726000.0,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-112677",
+   "source": "BOAMP",
+   "source_id": "26-112677",
+   "title": "Prestations de coaching pour les managers",
+   "buyer": "Comité de concertation et de coordination de l'apprentissage du BTP",
+   "published": "2026-11-21",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112677",
+   "procedure_id": "3b6db6da-ea5d-464c-855b-8356cd3c5d0a",
+   "description": "Le présent accord-cadre a pour objet de définir les conditions dans lesquelles le Titulaire est appelé à accompagner les managers du Comité de concertation et de coordination de l'apprentissage du bâtiment et des travaux publics",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79632000",
+    "80500000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 800000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }

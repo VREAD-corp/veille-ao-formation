@@ -130866,6 +130866,249 @@
     "espaces-verts"
    ],
    "descriptors": []
+  },
+  {
+   "id": "boamp:26-112520",
+   "source": "BOAMP",
+   "source_id": "26-112520",
+   "title": "SERVICE - ORGANISATION D'EVENEMENT - NOUVEAU FESTIVAL 2027-2030 (9 LOTS)",
+   "buyer": "Région Nouvelle-Aquitaine",
+   "published": "2026-11-21",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112520",
+   "procedure_id": "510b3004-7fdf-488d-b1a1-210eef16ee83",
+   "description": "La Région Nouvelle-Aquitaine organise depuis 2017 un événementiel destiné aux lycéens et apprentis de son territoire, le Nouveau Festival. Depuis la troisième édition au printemps 2019, le Nouveau Festival a pris la forme d’un rassemblement unique sur deux jours. Depuis 2022, 2000 à 3000 jeunes sont accueillis chaque année sur le site du rocher de Palmer et bénéficient d’un suivi et d’un accompagnement tout au long…",
+   "departments": [
+    "33"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "79952000",
+    "71700000",
+    "71317200",
+    "90500000",
+    "79710000",
+    "55520000",
+    "55521200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOCATION ET INSTALLATION DE TENTES/CHAPITEAUX, BARRIERAGE ET PETIT MATERIEL",
+    "MISE A DISPOSITION DE MATERIEL TECHNIQUE, SON, LUMIERE, VIDEO ET BACK LINE",
+    "GESTION DE LA SECURITE ET DES PARKINGS",
+    "GESTION DES DECHETS – SENSIBILISATION AU TRI",
+    "MISE A DISPOSITION, INSTALLATION ET MAINTENANCE DE TOILETTES SECHES",
+    "VERIFICATIONS ELECTRIQUES DU SITE",
+    "MISSIONS DE SECOURISME",
+    "RESTAURATION D’EQUIPE",
+    "LIVRAISON DE REPAS ET DE MATERIELS POUR LA BUVETTE"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "445",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-112533",
+   "source": "BOAMP",
+   "source_id": "26-112533",
+   "title": "La consultation a pour objet des prestations de nettoyage des locaux des bâtiments de la commune de Pérols.",
+   "buyer": "ville de Pérols",
+   "published": "2026-11-21",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112533",
+   "procedure_id": "be25b7ab-317d-4544-b923-1910a664ffa6",
+   "description": "",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-112547",
+   "source": "BOAMP",
+   "source_id": "26-112547",
+   "title": "Entretien et aménagement des espaces verts",
+   "buyer": "Communauté d'agglomération du Cotentin",
+   "published": "2026-11-21",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112547",
+   "procedure_id": "80e2bd10-1aef-4f59-bf8c-bf8abc2c0e5e",
+   "description": "Les prestations consistent en l'entretien et aux aménagements paysagers (sauf pour le lot 7, uniquement l'entretien) des espaces verts des sites et zones gérés par l'agglomération du Cotentin Il s'agit des espaces verts naturels et/ou aménagés situés dans les zones d'activités et dans les sites dont l'activité est liée notamment aux compétences dans les domaines du cycle de l'eau, des déchets ménagers, des réserves…",
+   "departments": [
+    "50"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "77314000",
+    "77310000",
+    "77311000",
+    "77340000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3258400.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Commune nouvelle de Cherbourg-en-Cotentin (Querqueville, Equeurdreville-Hainneville, Cherbourg-Octeville",
+    "Commune nouvelle de Cherbourg-en-Cotentin (La Glacerie, Tourlaville) et le pôle de proximité de Douve et Divette",
+    "Commune nouvelle de La Hague",
+    "Pôles de proximité de La Saire, Saint-Pierre-Eglise, Val-de-Saire, Montebourg",
+    "Pôle de proximité de Coeur du Cotentin",
+    "Pôles de proximité de la Côtes des Isles et de la Vallée de l'Ouve",
+    "Faucardage sur le territoire du Cotentin"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-112702",
+   "source": "BOAMP",
+   "source_id": "26-112702",
+   "title": "Prestations de mise à disposition de personnel SSIAP pour les besoins de l'aéroport Figari Sud Corse",
+   "buyer": "Etablissement Public du Commerce et de l'Industrie de Corse",
+   "published": "2026-11-21",
+   "deadline": "2026-12-21T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112702",
+   "procedure_id": "997ef19b-0640-4811-ad6b-4c2cac8ee99c",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [],
+   "regions": [],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 2500000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-112719",
+   "source": "BOAMP",
+   "source_id": "26-112719",
+   "title": "SERVICES D'ASSISTANCE À LA SÉCURITÉ INCENDIE ET AU GARDIENNAGE DES LOCAUX DE L'OPÉRA DE LILLE",
+   "buyer": "OPERA DE LILLE",
+   "published": "2026-11-21",
+   "deadline": "2026-12-19T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112719",
+   "procedure_id": "ef9bcebf-166c-4b4a-abdd-785be1aae3d8",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
   }
  ]
 }
