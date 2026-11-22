@@ -131268,6 +131268,412 @@
     "239",
     "363"
    ]
+  },
+  {
+   "id": "boamp:26-112893",
+   "source": "BOAMP",
+   "source_id": "26-112893",
+   "title": "Prestations d'entretien du patrimoine arboricole pour les établissements du GHT 78 Sud et d’entretien des espaces verts pour le Centre Hospitalier de Plaisir",
+   "buyer": "CENTRE HOSPITALIER DE VERSAILLES",
+   "published": "2026-11-22",
+   "deadline": "2027-01-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112893",
+   "procedure_id": "ecb4c237-eb29-4f95-9cc4-2cbb547d5374",
+   "description": "",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77341000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations d'entretien du patrimoine arboricole pour les établissements du GHT 78 Sud",
+    "Prestations d’entretien des espaces verts pour le Centre Hospitalier de Plaisir"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-112933",
+   "source": "BOAMP",
+   "source_id": "26-112933",
+   "title": "Entretien et aménagement des espaces verts pour la Chambre de métiers et de l'artisanat Hauts-de-France",
+   "buyer": "CMAR Hauts de France",
+   "published": "2026-11-22",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112933",
+   "procedure_id": "a93939e4-fc0e-4527-957e-3fcd2ace65e6",
+   "description": "La présente consultation a pour objet l'entretien et l'aménagement des espaces verts pour certains sites de la Chambre de métiers et de l'artisanat Hauts-de-France",
+   "departments": [
+    "02",
+    "59",
+    "60",
+    "62",
+    "80"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Sites de Lille et Tourcoing",
+    "Sites de Calais et Saint-Martin-Boulogne",
+    "Sites de Dunkerque",
+    "Sites d'Arras",
+    "Sites de Rouvignies et Saint-Saulve",
+    "Sites de Beauvais et Compiègne",
+    "Sites d'Amiens (IREAM) et Boves",
+    "Site de Caudry",
+    "Site de Château-Thierry"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-113007",
+   "source": "BOAMP",
+   "source_id": "26-113007",
+   "title": "Prestation d'entretien des espaces verts",
+   "buyer": "Mairie de Seclin",
+   "published": "2026-11-22",
+   "deadline": "2026-12-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113007",
+   "procedure_id": "1445d210-d21a-467b-9498-548fc514a7f4",
+   "description": "Prestations d'entretien des espaces verts",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77211500",
+    "77211400",
+    "77314000",
+    "77312000",
+    "77311000",
+    "77320000",
+    "77342000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Tonte",
+    "Taille et entretien des massifs d’arbustes, couvre sols et haies",
+    "Désherbage des zones minérales",
+    "Fauchage",
+    "Entretien des terrains sportifs",
+    "Entretien des espaces verts du quartier des Aviateurs (lot réservé)",
+    "Entretien du patrimoine arboricole"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-113036",
+   "source": "BOAMP",
+   "source_id": "26-113036",
+   "title": "Prestations de sécurisation et gardiennage des piscines Jean Bron, les Dauphins et Bulle d'O",
+   "buyer": "VILLE DE GRENOBLE",
+   "published": "2026-11-22",
+   "deadline": "2026-12-23T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113036",
+   "procedure_id": "946389ae-f83f-4044-a351-6f53fad1fe62",
+   "description": "Le présent marché a pour objet la réalisation de prestations de gardiennage, de surveillance, de sécurisation et d'assistance aux personnes au sein des piscines municipales Jean Bron, Bulle d'O et Les Dauphins. Les prestations confiées au titulaire ont notamment pour finalité d'assurer la sécurité des usagers, des personnels et des installations, de contribuer au maintien de la tranquillité au sein des…",
+   "departments": [
+    "38"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79714000",
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 640000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestations de sécurisation et gardiennage de la piscine Jean Bron",
+    "Prestations de sécurisation et gardiennage des piscines Dauphin et Bulle d'O"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-113039",
+   "source": "BOAMP",
+   "source_id": "26-113039",
+   "title": "Prestations de nettoyage des locaux du siège social de Loir&Cher Logement",
+   "buyer": "Loir&Cher Logement",
+   "published": "2026-11-22",
+   "deadline": "2026-12-21T10:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113039",
+   "procedure_id": "679bb16b-d1d3-46d8-89be-d43bd58b4b9e",
+   "description": "Montant HT maximum des prestations à bon de commande : 400 000,00 Euro(s) H.T. Montant HT maximum pour la durée totale du contrat : 400 000,00 euro(s) Euro(s) H.T. L'accord-cadre est \"composite\". Il comprend une partie \"marché ordinaire\" et une partie \"accord-cadre à bons de commande\". Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Le présent marché a pour objet de…",
+   "departments": [
+    "41"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-113103",
+   "source": "BOAMP",
+   "source_id": "26-113103",
+   "title": "Marché de Facility Management - Maintenance Multitechnique et prestations de Multiservice",
+   "buyer": "Communauté d'agglomération Seine Eure",
+   "published": "2026-11-22",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113103",
+   "procedure_id": "d23aa021-4d7a-4c68-9527-3759f1376712",
+   "description": "Le montant HT maximum des prestations renseigné dans la présente publicité correspond à la partie à bon de commande, toutes périodes confondues, pour les 2 lots : 660 000 Euro(s) H.T. L'accord-cadre est \"composite\". Il comprend une partie \"marché ordinaire\" et une partie \"accord-cadre à bons de commande\". Chaque lot fera l'objet d'une attribution séparée. Les montants estimatifs sont indicatifs et comprennent les…",
+   "departments": [
+    "27",
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "79993100",
+    "90919200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Maintenance multitechnique du site",
+    "Prestations de multiservice du site"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "196",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-113110",
+   "source": "BOAMP",
+   "source_id": "26-113110",
+   "title": "ACCORD-CADRE A BONS DE COMMANDE DE TELESURVEILLANCE ET DE MAINTENANCE DES INSTALLATIONS ANTI-INTRUSION",
+   "buyer": "Bordeaux Métropole",
+   "published": "2026-11-22",
+   "deadline": "2026-12-22T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113110",
+   "procedure_id": "d5815f31-e8ee-4d7a-a160-28d8331ad97a",
+   "description": "Consultation lancée par un groupement de commandes. L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Les prestations techniques concernent?: 1. La maintenance préventive 2. La maintenance curative et la maintenance palliative 3. La télésurveillance par transmission téléphonique RTC, GSM, ADSL ou IP 4. Les levées de doute vidéo et physique 5. Le…",
+   "departments": [
+    "33"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "79711000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 6200000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "196",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-113208",
+   "source": "BOAMP",
+   "source_id": "26-113208",
+   "title": "Nettoyage et entretien des locaux des sites du Pôle Guadeloupe de l'université des Antilles",
+   "buyer": "Université des Antilles",
+   "published": "2026-11-22",
+   "deadline": "2026-12-21T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113208",
+   "procedure_id": "17d272c9-5a53-4769-982d-a4711efa13c3",
+   "description": "",
+   "departments": [
+    "971"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90911000",
+    "90911200",
+    "90919200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "campus de Fouillole",
+    "campus du Camp Jacob",
+    "campus du Morne Ferret"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
   }
  ]
 }
