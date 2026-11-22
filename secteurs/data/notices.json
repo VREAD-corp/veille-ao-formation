@@ -131109,6 +131109,165 @@
    "descriptors": [
     "138"
    ]
+  },
+  {
+   "id": "boamp:26-112784",
+   "source": "BOAMP",
+   "source_id": "26-112784",
+   "title": "Entretien des espaces verts de résidences du patrimoine.",
+   "buyer": "AVEYRON HABITAT SOCIETE ANONYME D'HLM",
+   "published": "2026-11-22",
+   "deadline": "2027-01-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112784",
+   "procedure_id": "a128b7a1-0af7-421f-91a4-5a80c4154f44",
+   "description": "Prestations d'entretien des espaces verts de résidences appartenant au patrimoine d'Aveyron Habitat.",
+   "departments": [
+    "12",
+    "15",
+    "30",
+    "31",
+    "34",
+    "46",
+    "48",
+    "81",
+    "82"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Occitanie"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1A : AGENCE EST – ZONE MILLAU – Marché réservé.",
+    "Lot n°1B : AGENCE EST – ZONE MILLAU – Prestations minorées. Marché réservé.",
+    "Lot n°1C : AGENCE EST – CAMARES / NANT / RIVIERE SUR TARN.",
+    "Lot n°1D : AGENCE EST – FLAVIN / GAGES.",
+    "Lot n°1E : AGENCE EST – SEVERAC D’AVEYRON / ST GENIEZ D’OLT ET D’AUBRAC / LAISSAC.",
+    "Lot n°1F : AGENCE EST – ESPALION / ENTRAYGUES SUR TRUYERE / SAINTE GENEVIEVE / LAGUIOLE.",
+    "Lot n°2A : AGENCE OUEST – DECAZEVILLE / CAPDENAC / VIVIEZ – Marché réservé.",
+    "Lot n°2B : AGENCE OUEST – DECAZEVILLE / AUBIN / BOISSE PENCHOT / CRANSAC.",
+    "Lot n°2C : AGENCE OUEST – VILLEFRANCHE DE ROUERGUE / LA FOUILLADE / NAJAC / VILLENEUVE D’AVEYRON.",
+    "Lot n°2D : AGENCE OUEST – BARAQUEVILLE / CASSAGNES BEGONHES / NAUCELLE / LA PRIMAUBE.",
+    "Lot n°2E : AGENCE OUEST – MARCILLAC VALLON / SALLES LA SOURCE / RIGNAC."
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-112786",
+   "source": "BOAMP",
+   "source_id": "26-112786",
+   "title": "Amélioration du fonctionnement hydraulique des prairies tourbeuses inondables de la Ferme du Zuidbrouck à Clairmarais (62)",
+   "buyer": "PNRCMO",
+   "published": "2026-11-22",
+   "deadline": "2027-01-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112786",
+   "procedure_id": "97eb3abd-5756-4e79-86ed-b73a29c12f2c",
+   "description": "La préservation et l’amélioration de la biodiversité, en particulier dans les \"cœurs de biodiversité\" définis par le Plan de Parc, constituent une priorité essentielle de la charte 2013-2028 du Parc. L’orientation 1 de cette charte se traduit par des actions visant à renforcer la biodiversité et à mettre en œuvre une trame verte et bleue exemplaire. Parmi ces actions, la restauration des zones humides nécessite des…",
+   "departments": [
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "51112000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "255",
+    "118",
+    "141",
+    "116",
+    "349"
+   ]
+  },
+  {
+   "id": "boamp:26-112830",
+   "source": "BOAMP",
+   "source_id": "26-112830",
+   "title": "ACCORD-CADRE POUR LE NETTOYAGE DES LOCAUX , DES SURFACES VITREES INTERIEURES, DES PRESTATIONS SPECIFIQUES ET PONCTUELLES ET NETTOYAGE DES FACADES VITREES EXTERIEURES DE L'IMMEUBLE PHOCEA A MARSEILLE",
+   "buyer": "Conseil Départemental des Bouches du Rhône",
+   "published": "2026-11-22",
+   "deadline": "2026-12-22T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-112830",
+   "procedure_id": "25900e13-5073-412d-9d8b-0c05eebab5a1",
+   "description": "Accord-cadre pour le nettoyage des locaux, des surfaces vitrées intérieures, des prestations spécifiques et ponctuelles et nettoyage des façades vitrées extérieures de l'immeuble PHOCEA à Marseille. Il s’agit d’une relance après déclaration sans suite d’une première procédure en appel d’offres ouvert. Cet accord-cadre est conclu avec un montant minimum annuel de 200 000 euros HT et un montant maximum annuel de 700…",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911300",
+    "90900000",
+    "90919000",
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1304891.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "363"
+   ]
   }
  ]
 }
