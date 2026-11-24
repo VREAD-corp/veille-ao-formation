@@ -132541,6 +132541,465 @@
     "nettoyage"
    ],
    "descriptors": []
+  },
+  {
+   "id": "ted:815011-2026",
+   "source": "TED",
+   "source_id": "815011-2026",
+   "title": "Marché de prestations de nettoyage et d'entretien des espaces verts du patrimoine d'Agen Habitat",
+   "buyer": "AGEN HABITAT",
+   "published": "2026-11-24",
+   "deadline": "2027-01-05T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/815011-2026",
+   "procedure_id": "570a0abc-e295-4aef-b698-0f4b439c9a28",
+   "description": "La présente consultation a pour objet toutes prestations de nettoyage des logements et parties communes du patrimoine d'Agen Habitat, le nettoyage des conteneurs et locaux poubelles et l'entretien des espaces verts.",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "90911000",
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "nettoyage des parties communes",
+    "entretien des espaces verts",
+    "Nettoyage des logements",
+    "Nettoyage des conteneurs et locaux poubelles"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage",
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:815033-2026",
+   "source": "TED",
+   "source_id": "815033-2026",
+   "title": "Marché de prestations de propreté des matériels roulants, espaces et équipements du CDG Express",
+   "buyer": "Hello Paris Services",
+   "published": "2026-11-24",
+   "deadline": "2026-12-14T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/815033-2026",
+   "procedure_id": "feebf899-13f9-436b-b870-8385df9252c3",
+   "description": "La présente consultation a pour objet de définir les conditions de participation à l'appel à candidatures préalable à la passation d'un marché de prestations de propreté pour le service CDG Express, exploité par Hello Paris Services. Le futur marché couvrira principalement les prestations de nettoyage, d'entretien, de désinfection et de maintien en état de propreté.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90900000",
+    "90910000"
+   ],
+   "procedure": "Autre procédure (une étape)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:815776-2026",
+   "source": "TED",
+   "source_id": "815776-2026",
+   "title": "PRESTATIONS DE GARDIENNAGE DU SITE DE L'ISDND DE BAGNOLS EN FORET - 83",
+   "buyer": "SPL Le Vallon des Pins (83)",
+   "published": "2026-11-24",
+   "deadline": "2026-12-28T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/815776-2026",
+   "procedure_id": "dba2c364-0d41-4c61-aead-1d5f45d4db1c",
+   "description": "Prestations de gardiennage du site de l installation de Stockage des Dechets Non Dangereux (ISDND) du Vallon des Pins sur la commune de Bagnols en Foret La consultation donnera lieu à un accord-cadre à bon de commande mono attributaire , avec un minimum de 30 000 EUR HT et un maximum de 120 000 EUR HT par an.",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:816089-2026",
+   "source": "TED",
+   "source_id": "816089-2026",
+   "title": "Nettoyage de divers bâtiments intercommunaux",
+   "buyer": "COMMUNAUTE D'AGGLOMERATION DE MONTELIMAR AGGLOMERATION",
+   "published": "2026-11-24",
+   "deadline": "2027-01-04T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/816089-2026",
+   "procedure_id": "5b2ef238-8ffd-480c-aa83-74baccdf64a6",
+   "description": "Conditions de participation : En cas d'attribution du contrat à un groupement, celui-ci-devra revêtir la forme d'un groupement solidaire pour les motifs suivants : La bonne exécution de l'accord-cadre nécessite la solidarité des membres pour des raisons liées aux prestations d'entretien du matériel et à la simplification des chaînes de responsabilité",
+   "departments": [],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 788000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Locaux de Cléon d'Andran : Maison de l'agriculture et des syndicats mixtes des eaux",
+    "Lot n°2 - Médiathèque intercommunale",
+    "Lot n°3 - Bâtiments culturels",
+    "Lot n°4 - Musée d'art contemporain",
+    "Lot n°5 - Archives",
+    "Lot n°6 - Occitan",
+    "Lot n°7 - Septan"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:816217-2026",
+   "source": "TED",
+   "source_id": "816217-2026",
+   "title": "SERVICES D'ASSISTANCE À LA SÉCURITÉ INCENDIE ET AU GARDIENNAGE DES LOCAUX DE L'OPÉRA DE LILLE",
+   "buyer": "OPERA DE LILLE",
+   "published": "2026-11-24",
+   "deadline": "2026-12-21T14:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/816217-2026",
+   "procedure_id": "ef9bcebf-166c-4b4a-abdd-785be1aae3d8",
+   "description": "SERVICES D'ASSISTANCE À LA SÉCURITÉ INCENDIE ET AU GARDIENNAGE DES LOCAUX DE L'OPÉRA DE LILLE",
+   "departments": [],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:816582-2026",
+   "source": "TED",
+   "source_id": "816582-2026",
+   "title": "PRESTATION DE NETTOYAGE DES BASES VIES ET SANITAIRES DU PROJET RJH",
+   "buyer": "COMMISSARIAT A L'ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES",
+   "published": "2026-11-24",
+   "deadline": "2026-12-24T15:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/816582-2026",
+   "procedure_id": "79752bde-06b4-491c-862b-b3c15d14fa17",
+   "description": "Le présent Marché a pour objet de définir les conditions suivant lesquelles le CEA confie au Titulaire, qui accepte, une prestation de nettoyage des bases-vie et sanitaire du chantier RJH . Cette prestation est réalisée pour le compte du Projet RJH du CEA Cadarache. Le présent marché est un accord-cadre mixte dont les prestations seront exécutées par bons de commande ou marchés subséquents. La prestation se…",
+   "departments": [],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 620000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:816621-2026",
+   "source": "TED",
+   "source_id": "816621-2026",
+   "title": "Marché de prestation de sureté_ RELANCE",
+   "buyer": "Aéroport de La Réunion Roland Garros (974)",
+   "published": "2026-11-24",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/816621-2026",
+   "procedure_id": "592402a5-4da1-495b-bdff-3b0c9f86ca22",
+   "description": "Le présent marché constitue la relance de la consultation 2026EXP020, précédemment engagée pour les prestations de sûreté aéroportuaire de l'Aéroport de La Réunion Roland Garros. Cette relance fait suite à la déclaration sans suite de la consultation précédente, motivée notamment par des irrégularités affectant les demandes formulées au titre des candidatures, des incohérences et insuffisances des documents de la…",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79713000",
+    "71631000"
+   ],
+   "procedure": "Procédure négociée avec mise en concurrence",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestation cynotechnique",
+    "Lot 02 – Prestation sureté inspection filtrage bagages de soute (IFBS)",
+    "Prestation sureté inspection filtrage passagers et bagages de cabine (IFPBC)",
+    "Prestation de sûreté de Surveillance des accès communs (Parif - Fret - Accès communs- Rondes et Patrouilles - Vidéosurveillance)"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:816947-2026",
+   "source": "TED",
+   "source_id": "816947-2026",
+   "title": "Entretien du patrimoine espaces verts et abords de voiries sur la commune",
+   "buyer": "MAIRIE DE FOUESNANT",
+   "published": "2026-11-24",
+   "deadline": "2026-12-23T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/816947-2026",
+   "procedure_id": "e60962c9-564f-4e44-84e2-e7776fd95dd7",
+   "description": "Entretien du patrimoine espaces verts et abords de voiries sur la commune",
+   "departments": [],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:817009-2026",
+   "source": "TED",
+   "source_id": "817009-2026",
+   "title": "ENTRETIEN DES TERRAINS DE SPORT ET DES ESPACES VERTS DES EQUIPEMENTS SPORTIFS",
+   "buyer": "Commune de Brunoy",
+   "published": "2026-11-24",
+   "deadline": "2027-01-04T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/817009-2026",
+   "procedure_id": "b1c796ab-a216-43e6-b84e-dabdc47cf53a",
+   "description": "ENTRETIEN DES TERRAINS DE SPORT ET DES ESPACES VERTS DES EQUIPEMENTS SPORTIFS",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77314000",
+    "77312100",
+    "77342000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:817078-2026",
+   "source": "TED",
+   "source_id": "817078-2026",
+   "title": "Nettoyage et entretien des locaux des sites du Pôle Guadeloupe de l'université des Antilles",
+   "buyer": "Université des Antilles",
+   "published": "2026-11-24",
+   "deadline": "2026-12-21T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/817078-2026",
+   "procedure_id": "17d272c9-5a53-4769-982d-a4711efa13c3",
+   "description": "Nettoyage et entretien des locaux des sites du Pôle Guadeloupe de l'université des Antilles",
+   "departments": [],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90911000",
+    "90911200",
+    "90919200"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "campus de Fouillole",
+    "campus du Camp Jacob",
+    "campus du Morne Ferret"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
+  },
+  {
+   "id": "ted:817187-2026",
+   "source": "TED",
+   "source_id": "817187-2026",
+   "title": "Prestations d'entretien et de nettoyage des équipements relevant de la compétence de l'Etablissement Public Territorial Paris Est Marne et Bois",
+   "buyer": "EPT 10 Paris Est Marne et Bois",
+   "published": "2026-11-24",
+   "deadline": "2026-12-29T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/817187-2026",
+   "procedure_id": "5c224ef7-c17c-4ea6-a4eb-46c13859cde1",
+   "description": "Prestations d'entretien et de nettoyage des équipements relevant de la compétence de l'Etablissement Public Territorial Paris Est Marne et Bois",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des sites de baignades, équipements sportifs et espaces extérieurs relevant de la compétence de l'Etablissement Public Territorial Paris Est Marne et…",
+    "Nettoyage des marchés, équipements culturels et sanitaires publics relevant de la compétence de l'Etablissement Public Territorial Paris Est Marne et Bois",
+    "Nettoyage des équipements de collecte, déchetterie et ressourcerie relevant de la compétence de l'Etablissement Publics Territorial Paris Est Marne et Bois"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": []
   }
  ]
 }

@@ -109947,6 +109947,134 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "ted:815341-2026",
+   "source": "TED",
+   "source_id": "815341-2026",
+   "title": "Accord Cadre pour des prestations liées aux risques psychosociaux et à l’ergonomie (l’ergonomie concerne les Troubles Musculo-Squelettiques) pour l’ensemble du groupe EDF.",
+   "buyer": "EDF SA",
+   "published": "2026-11-24",
+   "deadline": null,
+   "url": "https://ted.europa.eu/fr/notice/-/detail/815341-2026",
+   "procedure_id": "73832b17-21b7-42df-b5ef-cb70748d4e15",
+   "description": "Cet Appel d’offres fera l’objet de marchés d’une durée longue de 8 ans : 4 ans ferme avec 4 années optionnelles (4 X 1 an). Cet Appel d'offre est décomposé en 3 plaques. Plaque M – Métropole/Corse/Saint Pierre et Miquelon: o Lot M1 : RPS : Réaliser un diagnostic flash sur les démarches RPS/QVCT-- Métropole/Corse/Saint Pierre et Miquelon o Lot M2 : RPS : Former les unités et transférer les méthodologies…",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79414000",
+    "85121270",
+    "80561000"
+   ],
+   "procedure": "Autre procédure (plusieurs étapes)",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot M1 - RPS - Réaliser un diagnostic flash sur les démarches RPS - QVCT",
+    "Lot M2 : RPS – Former les unités et transférer les méthodologies",
+    "Lot M3 : RPS – Favoriser le retour au travail dans de bonnes conditions",
+    "Lot M4 : RPS – Accompagner les unités en cas de situation post traumatique",
+    "Lot M5 : RPS – Accompagner un collectif (les équipe ou les individus) en cas de difficultés",
+    "Lot M6 : RPS – Accompagnement de salariés exprimant une situation de mal-être au travail dont l’origine semble être en lien avec leur activité professionnelle",
+    "Lot M7 : RPS – Investiguer et accompagner dans le cadre d'une alerte éthique",
+    "Lot M8 : Ergonomie – Etude ergonomie et analyse de poste de travail tertiaire et industriel",
+    "Lot M9 : Ergonomie – Actions collectives de prévention des TMS (Ateliers, routines collectives, sensibilisation)",
+    "Lot M10 : Ergonomie – Suivi individuel personnalisé de la santé physique (solution digitale et accompagnement professionnel)",
+    "Lot A1: RPS: Diagnostic & formation & Favoriser le retour au travail dans de bonnes conditions – Antilles/Guyane",
+    "Lot A2: RPS: Accompagnements des individus et des collectifs – Antilles/Guyane"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:816609-2026",
+   "source": "TED",
+   "source_id": "816609-2026",
+   "title": "Achat de prestations de formation Aide-soignant modulaire pour l'Agence Autonomy",
+   "buyer": "Conseil Départemental des Yvelines",
+   "published": "2026-11-24",
+   "deadline": "2026-12-08T23:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/816609-2026",
+   "procedure_id": "02628f2c-9b2f-4409-a7cc-a86376409dcb",
+   "description": "Achat de prestations de formation Aide-soignant modulaire Article R2123-1 3° - Services sociaux et autres services spécifiques - Code de la commande publique La forme retenue pour l'exécution du contrat est à bons de commande sans minimum et avec maximum en application des articles R2162-4 1° et R2162-13 et 14 du Code de la commande publique",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80511000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 320000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Secteur Yvelines Nord",
+    "Secteur Yvelines Sud",
+    "Secteur Hauts-de-Seine"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "ted:817270-2026",
+   "source": "TED",
+   "source_id": "817270-2026",
+   "title": "ACCOMPAGNEMENT À LA CONCEPTION, AU DÉVELOPPEMENT ET À L’ÉVOLUTION DES DISPOSITIFS ET RESSOURCES PÉDAGOGIQUES",
+   "buyer": "AFLD Agence francaise de lutte contre le dopage",
+   "published": "2026-11-24",
+   "deadline": "2026-12-29T17:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/817270-2026",
+   "procedure_id": "f9f4cf37-0a3f-4ea7-8472-7fc32cb20fcb",
+   "description": "ACCOMPAGNEMENT À LA CONCEPTION, AU DÉVELOPPEMENT ET À L’ÉVOLUTION DES DISPOSITIFS ET RESSOURCES PÉDAGOGIQUES",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79822500",
+    "80530000",
+    "80420000",
+    "92111100"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }
