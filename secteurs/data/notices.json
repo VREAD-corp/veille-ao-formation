@@ -132543,6 +132543,714 @@
    "descriptors": []
   },
   {
+   "id": "boamp:26-113223",
+   "source": "BOAMP",
+   "source_id": "26-113223",
+   "title": "Prestations de gardiennage du site de l’Installation de Stockage des Déchets Non Dangereux (ISDND) du Vallon des Pins sur la commune de Bagnols en Forêt (83).",
+   "buyer": "SPL Le Vallon des Pins (83)",
+   "published": "2026-11-24",
+   "deadline": "2026-12-28T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113223",
+   "procedure_id": "dba2c364-0d41-4c61-aead-1d5f45d4db1c",
+   "description": "Prestations de gardiennage du site de l installation de Stockage des Dechets Non Dangereux (ISDND) du Vallon des Pins sur la commune de Bagnols en Foret La consultation donnera lieu à un accord-cadre à bon de commande mono attributaire , avec un minimum de 30 000 EUR HT et un maximum de 120 000 EUR HT par an.",
+   "departments": [
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-113252",
+   "source": "BOAMP",
+   "source_id": "26-113252",
+   "title": "Marchés réservés de prestations de service (3 lots)",
+   "buyer": "Ville de Mainvilliers (28)",
+   "published": "2026-11-24",
+   "deadline": "2026-12-14T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113252",
+   "procedure_id": "52543096-bddc-4033-bd51-4bd1a6fb21cd",
+   "description": "",
+   "departments": [
+    "28"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "75200000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des containers enterrés, désherbage des cimetières, taille de haies",
+    "Nettoyage des locaux communaux",
+    "Distribution de documents municipaux et installation d’affiches de mobiliers urbains"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage",
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-113266",
+   "source": "BOAMP",
+   "source_id": "26-113266",
+   "title": "Nettoyage de divers bâtiments intercommunaux",
+   "buyer": "COMMUNAUTE D'AGGLOMERATION DE MONTELIMAR AGGLOMERATION",
+   "published": "2026-11-24",
+   "deadline": "2027-01-04T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113266",
+   "procedure_id": "5b2ef238-8ffd-480c-aa83-74baccdf64a6",
+   "description": "Conditions de participation : En cas d'attribution du contrat à un groupement, celui-ci-devra revêtir la forme d'un groupement solidaire pour les motifs suivants : La bonne exécution de l'accord-cadre nécessite la solidarité des membres pour des raisons liées aux prestations d'entretien du matériel et à la simplification des chaînes de responsabilité",
+   "departments": [
+    "26"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 788000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - Locaux de Cléon d'Andran : Maison de l'agriculture et des syndicats mixtes des eaux",
+    "Lot n°2 - Médiathèque intercommunale",
+    "Lot n°3 - Bâtiments culturels",
+    "Lot n°4 - Musée d'art contemporain",
+    "Lot n°5 - Archives",
+    "Lot n°6 - Occitan",
+    "Lot n°7 - Septan"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-113274",
+   "source": "BOAMP",
+   "source_id": "26-113274",
+   "title": "SERVICES D'ASSISTANCE À LA SÉCURITÉ INCENDIE ET AU GARDIENNAGE DES LOCAUX DE L'OPÉRA DE LILLE",
+   "buyer": "OPERA DE LILLE",
+   "published": "2026-11-24",
+   "deadline": "2026-12-21T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113274",
+   "procedure_id": "ef9bcebf-166c-4b4a-abdd-785be1aae3d8",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-112719"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-113299",
+   "source": "BOAMP",
+   "source_id": "26-113299",
+   "title": "Prestations d'entretien et de nettoyage des équipements relevant de la compétence de l'Etablissement Public Territorial Paris Est Marne et Bois",
+   "buyer": "EPT 10 Paris Est Marne et Bois",
+   "published": "2026-11-24",
+   "deadline": "2026-12-29T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113299",
+   "procedure_id": "5c224ef7-c17c-4ea6-a4eb-46c13859cde1",
+   "description": "",
+   "departments": [
+    "94"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Nettoyage des sites de baignades, équipements sportifs et espaces extérieurs relevant de la compétence de l'Etablissement Public Territorial Paris Est Marne et…",
+    "Nettoyage des marchés, équipements culturels et sanitaires publics relevant de la compétence de l'Etablissement Public Territorial Paris Est Marne et Bois",
+    "Nettoyage des équipements de collecte, déchetterie et ressourcerie relevant de la compétence de l'Etablissement Publics Territorial Paris Est Marne et Bois"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-113304",
+   "source": "BOAMP",
+   "source_id": "26-113304",
+   "title": "ENTRETIEN DES TERRAINS DE SPORT ET DES ESPACES VERTS DES EQUIPEMENTS SPORTIFS",
+   "buyer": "Commune de Brunoy",
+   "published": "2026-11-24",
+   "deadline": "2027-01-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113304",
+   "procedure_id": "b1c796ab-a216-43e6-b84e-dabdc47cf53a",
+   "description": "",
+   "departments": [
+    "45",
+    "75",
+    "77",
+    "91"
+   ],
+   "regions": [
+    "Centre-Val de Loire",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77314000",
+    "77312100",
+    "77342000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-113340",
+   "source": "BOAMP",
+   "source_id": "26-113340",
+   "title": "Entretien du patrimoine espaces verts et abords de voiries sur la commune",
+   "buyer": "Ville de Fouesnant",
+   "published": "2026-11-24",
+   "deadline": "2026-12-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113340",
+   "procedure_id": "e60962c9-564f-4e44-84e2-e7776fd95dd7",
+   "description": "",
+   "departments": [
+    "29"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 600000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-113438",
+   "source": "BOAMP",
+   "source_id": "26-113438",
+   "title": "Marché de prestation de sureté_ RELANCE",
+   "buyer": "Aéroport de La Réunion Roland Garros (974)",
+   "published": "2026-11-24",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113438",
+   "procedure_id": "592402a5-4da1-495b-bdff-3b0c9f86ca22",
+   "description": "Le présent marché constitue la relance de la consultation 2026EXP020, précédemment engagée pour les prestations de sûreté aéroportuaire de l'Aéroport de La Réunion Roland Garros. Cette relance fait suite à la déclaration sans suite de la consultation précédente, motivée notamment par des irrégularités affectant les demandes formulées au titre des candidatures, des incohérences et insuffisances des documents de la…",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79713000",
+    "71631000"
+   ],
+   "procedure": "Procédure Négociée",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Prestation cynotechnique",
+    "Lot 02 – Prestation sureté inspection filtrage bagages de soute (IFBS)",
+    "Prestation sureté inspection filtrage passagers et bagages de cabine (IFPBC)",
+    "Prestation de sûreté de Surveillance des accès communs (Parif - Fret - Accès communs- Rondes et Patrouilles - Vidéosurveillance)"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "331",
+    "415",
+    "5",
+    "4",
+    "81"
+   ]
+  },
+  {
+   "id": "boamp:26-113841",
+   "source": "BOAMP",
+   "source_id": "26-113841",
+   "title": "Prestations de gardiennage et de sécurité pour des installations et des équipements de la Ville de Nice",
+   "buyer": "Commune de Nice",
+   "published": "2026-11-24",
+   "deadline": "2026-12-21T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113841",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "79714000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-113855",
+   "source": "BOAMP",
+   "source_id": "26-113855",
+   "title": "Gardiennage et prestations de surveillance des sites d'Eau du Grand Lyon",
+   "buyer": "La Régie Eau du Grand Lyon",
+   "published": "2026-11-24",
+   "deadline": "2026-12-28T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113855",
+   "procedure_id": null,
+   "description": "Le présent marché a pour objet les prestations de gardiennage et de surveillance des sites exploités par la Régie Eau du Grand Lyon. Le marché est concerné par une obligation de reprise du personnel. Les prestations comportent des conditions particulière d'exécution : clause sociale. En application de l'article L2112-2 du Code de la Commande Publique du 1er Avril 2019, il est fixé dans ce marché un niveau minimal…",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-113993",
+   "source": "BOAMP",
+   "source_id": "26-113993",
+   "title": "Prestations de gardiennage, surveillance et sécurité du barrage d’Arzal (Morbihan)",
+   "buyer": "EPTB Eaux et Vilaine",
+   "published": "2026-11-24",
+   "deadline": "2027-01-06T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113993",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "56"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-114054",
+   "source": "BOAMP",
+   "source_id": "26-114054",
+   "title": "NETTOYAGE DES VITRERIES DANS LES BATIMENTS COMMUNAUX",
+   "buyer": "Ville de Stains",
+   "published": "2026-11-24",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114054",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-44291"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-114061",
+   "source": "BOAMP",
+   "source_id": "26-114061",
+   "title": "Prestations de nettoyage du siège du SYMADREM",
+   "buyer": "SYMADREM : Syndicat Mixte Interrégional d'Aménagement des Digues du Delta du Rhône et de la Mer (13)",
+   "published": "2026-11-24",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114061",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "13",
+    "30"
+   ],
+   "regions": [
+    "Occitanie",
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-114099",
+   "source": "BOAMP",
+   "source_id": "26-114099",
+   "title": "Prestations de services divers dans les bâtiments de la Métropole du Grand Nancy.-.",
+   "buyer": "Métropole du Grand Nancy",
+   "published": "2026-11-24",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114099",
+   "procedure_id": null,
+   "description": "Le marché est composé de 17 lots et, les caractéristiques techniques des prestations sont détaillées au CCTP de chacun des lots.-.",
+   "departments": [
+    "54"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "50711000",
+    "50750000",
+    "71700000",
+    "50882000",
+    "50413200",
+    "79714000",
+    "79713000",
+    "90650000",
+    "90921000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Installations électriques",
+    "Paratonnerres",
+    "Appareils élévateurs",
+    "Levage assurage",
+    "Contrôle EPI",
+    "Systèmes de détection incendie",
+    "Installations de désenfumage",
+    "Contrôle portes et portails",
+    "Équipement de stations relevage fosses bacs et tampons",
+    "Appareils sous pression",
+    "Solidité fixations portes et portails",
+    "Télésurveillance"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "196"
+   ]
+  },
+  {
+   "id": "boamp:26-114102",
+   "source": "BOAMP",
+   "source_id": "26-114102",
+   "title": "Entretien de la ripisylve et des abords des cours d’eau de la CAV",
+   "buyer": "Communauté d'Agglomération de Vesoul (70)",
+   "published": "2026-11-24",
+   "deadline": "2026-12-17T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114102",
+   "procedure_id": null,
+   "description": "La présente consultation concerne l'entretien de la ripisylve et des abords des cours d'eau de la Communauté d'Agglomération de Vesoul. La présente procédure adaptée ouverte est soumise aux dispositions des articles L. 2123-1, R. 2123-1 1°du Code de la commande publique. Les prestations feront l'objet d'un accord-cadre à bons de commande mono-attributaire sans minimum et avec maximum passé en application des…",
+   "departments": [
+    "70"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "77211400"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "310"
+   ]
+  },
+  {
    "id": "ted:815011-2026",
    "source": "TED",
    "source_id": "815011-2026",
