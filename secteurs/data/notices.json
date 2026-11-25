@@ -133710,6 +133710,808 @@
    "descriptors": []
   },
   {
+   "id": "boamp:26-113570",
+   "source": "BOAMP",
+   "source_id": "26-113570",
+   "title": "Prestations de gardiennage de jour au Centre de Soins du Gravier pour le compte du CHD La Candélie",
+   "buyer": "CH AGEN-NERAC",
+   "published": "2026-11-25",
+   "deadline": "2026-12-30T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113570",
+   "procedure_id": "3bab5cb0-0fd3-409e-bb66-f2ebca470e79",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires et forfaitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. Les prestations doivent permettre d'assurer la sécurité incendie, de surveiller…",
+   "departments": [
+    "47"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "79713000",
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 285000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-113607",
+   "source": "BOAMP",
+   "source_id": "26-113607",
+   "title": "Prestations de nettoyage dans les crèches de la Communauté d’agglomération du Pays de Grasse",
+   "buyer": "Communauté d'Agglomération du Pays de Grasse (06)",
+   "published": "2026-11-25",
+   "deadline": "2027-01-05T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113607",
+   "procedure_id": "02d144e3-eda8-4185-86fc-05d45d7072b8",
+   "description": "La présente consultation a pour objet l'exécution de prestations de nettoyage dans les crèches de la Communauté d'agglomération du Pays de Grasse (Maison multi-accueil « La Voie Lactée » au Tignet, Sma Etoile des Pioupious à Saint-Cezaire-sur-siagne et Relais petite enfance à Spéracedes)",
+   "departments": [
+    "06"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-113610",
+   "source": "BOAMP",
+   "source_id": "26-113610",
+   "title": "Prestations de gardiennage et accueil au CINES",
+   "buyer": "CINES",
+   "published": "2026-11-25",
+   "deadline": "2026-11-30T12:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113610",
+   "procedure_id": "31a0256b-41e5-4ab9-933f-3e58add66515",
+   "description": "Le présent marché a pour objet : • D’une part, le gardiennage et la surveillance du site du CINES, • D’autre part, l’accueil physique et téléphonique sur le site du CINES",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "79713000",
+    "79511000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-113641",
+   "source": "BOAMP",
+   "source_id": "26-113641",
+   "title": "Accord-cadre à bons de commande pour l'entretien des sentiers Oisans sentiers labellisés au Plan Départemental des Itinéraires de Promenade et de Randonnée (PDIPR)",
+   "buyer": "Communauté de communes de l'Oisans",
+   "published": "2026-11-25",
+   "deadline": "2027-01-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113641",
+   "procedure_id": "1d8df9fb-8bff-43f0-a01a-1a50f1e66551",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande",
+   "departments": [
+    "38"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77314000",
+    "45233160",
+    "34928472"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1240000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot 1 - Entretien + signalétique",
+    "Lot 3 - Entretien + signalétique",
+    "Lot 4 - Entretien + signalétique",
+    "Lot 5 - Entretien + signalétique",
+    "Lot 6 - Signalétique",
+    "Lot 9 - Entretien + signalétique",
+    "Lot 10 - Entretien + signalétique"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-113642",
+   "source": "BOAMP",
+   "source_id": "26-113642",
+   "title": "Prestation de nettoyage des locaux du Siège de l'EPCI de Corse",
+   "buyer": "Etablissement Public du Commerce et de l'Industrie de Corse",
+   "published": "2026-11-25",
+   "deadline": "2026-12-28T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113642",
+   "procedure_id": "733033f8-3240-4945-8b84-a86b50acb8b7",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [],
+   "regions": [],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-113652",
+   "source": "BOAMP",
+   "source_id": "26-113652",
+   "title": "Services de sécurité incendie pour l'université Paris 1 Panthéon-Sorbonne",
+   "buyer": "Université Paris 1 Panthéon-Sorbonne",
+   "published": "2026-11-25",
+   "deadline": "2026-12-23T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113652",
+   "procedure_id": "904dad9d-fbe5-41af-9b48-fa6e625b5b78",
+   "description": "La consultation concerne les prestations de services de sécurité incendie sur tous les sites de l'université Paris 1 Panthéon-Sorbonne",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1600000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "332"
+   ]
+  },
+  {
+   "id": "boamp:26-113678",
+   "source": "BOAMP",
+   "source_id": "26-113678",
+   "title": "PRESTATIONS D’INSERTION SOCIALE ET PROFESSIONNELLE POUR LA REALISATION D’ACTIVITES LIEES A LA PRESERVATION DES ESPACES PUBLICS DE PLAINE COMMUNE",
+   "buyer": "Etablissement Public Territorial Plaine Commune",
+   "published": "2026-11-25",
+   "deadline": "2026-12-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113678",
+   "procedure_id": "38c95151-744b-4c32-b53b-1ff72e0a2ccc",
+   "description": "La consultation a pour objet l'achat de prestations d’insertion sociale et professionnelle pour la réalisation d’activités liées à la préservation des espaces publics de Plaine Commune.",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "85300000",
+    "77310000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-103505"
+   ],
+   "summary": "",
+   "lots": [
+    "Prestation d'insertion de travailleurs handicapés pour des activités de propreté dans les espaces verts (dont cimetière, cités et berges du canal)…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces publics et des espaces verts (hors espaces à caractère naturel…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces à caractère naturel (friches, délaissés et talus ferroviaires)…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces verts (dont cimetières et hors espaces à caractère naturel et…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces publics sur le territoire de Saint-Denis, Saint-Ouen et…",
+    "Prestation d'insertion de travailleurs défavorisés pour l'entretien et la propreté des espaces publics sur le territoire d'Aubervilliers, La Courneuve et Stains",
+    "Prestation d'insertion de travailleurs défavorisés pour la propreté des espaces publics et des espaces verts le week-end sur le territoire de Plaine Commune"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-113679",
+   "source": "BOAMP",
+   "source_id": "26-113679",
+   "title": "Accord-cadre pour la réalisation des obligations légales de débroussaillement du Département des Bouches-du-Rhône – 4 lots géographiques",
+   "buyer": "Conseil Départemental des Bouches du Rhône",
+   "published": "2026-11-25",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113679",
+   "procedure_id": "148898a1-8900-4da2-aedd-ac8cebdbccf8",
+   "description": "",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "77314000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3467000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-104402"
+   ],
+   "summary": "",
+   "lots": [
+    "secteur Sud-Est",
+    "secteur Nord-Est",
+    "secteur Nord-Ouest",
+    "secteur Sud-Ouest"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "350",
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-113695",
+   "source": "BOAMP",
+   "source_id": "26-113695",
+   "title": "Prestations d'élagage/taille des arbres et désherbage des surfaces minérales",
+   "buyer": "MAIRIE DE VILLEPINTE",
+   "published": "2026-11-25",
+   "deadline": "2026-12-28T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113695",
+   "procedure_id": "bc339897-f399-4f79-ae8e-84240ba3c125",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Le présent accord-cadre comprend l'ensemble des interventions nécessaires à l'entretien des arbres, à la maîtrise de la végétation spontanée et au maintien de la propreté des espaces communaux, dans les conditions techniques définies par les cahiers…",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77312100",
+    "77211500",
+    "71700000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "PRESTATION D'ELAGAGE / TAILLE DES ARBRES",
+    "PRESTATION DE DEHERBAGE DES SURFACES MINERALES"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-113698",
+   "source": "BOAMP",
+   "source_id": "26-113698",
+   "title": "Prestations de services par drones pour le compte des adhérents de CADI",
+   "buyer": "Centrale d'Achats Durables et Innovants",
+   "published": "2026-11-25",
+   "deadline": "2027-01-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113698",
+   "procedure_id": "87caa404-7f16-4393-8951-9529b2194e6c",
+   "description": "",
+   "departments": [
+    "974"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "79961200",
+    "90911200",
+    "60420000",
+    "92312000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 900000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Prestations de capture et d'analyse d'images par drones",
+    "Lot n°2 : Prestations de de nettoyage par drones",
+    "Lot n°3 : Prestations de transport et de levage de charges par drones",
+    "Lot n°4 : Conception et réalisation de spectacles par drones"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-113718",
+   "source": "BOAMP",
+   "source_id": "26-113718",
+   "title": "Prestations de service pour la propreté urbaine de la Ville de Romainville",
+   "buyer": "MAIRIE DE ROMAINVILLE",
+   "published": "2026-11-25",
+   "deadline": "2027-01-08T14:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113718",
+   "procedure_id": "068e75a0-1db7-4de3-b441-2348ed1d211e",
+   "description": "",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "240"
+   ]
+  },
+  {
+   "id": "boamp:26-113756",
+   "source": "BOAMP",
+   "source_id": "26-113756",
+   "title": "Nettoyage des locaux de la Ville de Cuers",
+   "buyer": "MAIRIE DE CUERS",
+   "published": "2026-11-25",
+   "deadline": "2026-12-28T11:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113756",
+   "procedure_id": "2365badc-2b09-4926-948d-02d2ff0912c5",
+   "description": "La présente consultation est passée selon la procédure formalisée de l'appel d'offres (procédure ouverte), en application de l'article L. 2124-2 du code de la commande publique",
+   "departments": [
+    "06",
+    "13",
+    "83"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 160000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-113758",
+   "source": "BOAMP",
+   "source_id": "26-113758",
+   "title": "Prestations de nettoyage des locaux et vitrerie de la Ville de Marcq-en-Baroeul",
+   "buyer": "Commune de Marcq En Baroeul",
+   "published": "2026-11-25",
+   "deadline": "2027-01-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113758",
+   "procedure_id": "879e40ea-496b-41ba-adbf-703d04a9f6aa",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "90911200",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 970000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des bâtiments sportifs et de l'Hippodrome",
+    "Entretien des bâtiments jeunesse, petite enfance et culturels",
+    "Entretien des bâtiments administratifs",
+    "Entretien des vitreries"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-113827",
+   "source": "BOAMP",
+   "source_id": "26-113827",
+   "title": "Prestations de nettoyage et d'entretien de La Boussole",
+   "buyer": "CA de Saint Dié des Vosges",
+   "published": "2026-11-25",
+   "deadline": "2027-01-04T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113827",
+   "procedure_id": "382641d5-9600-4c82-a90f-6e0660856a9b",
+   "description": "Prestations d'entretien et de nettoyage quotidien et occasionnel d'un bâtiment de 4600m2 appartenant à la Communauté d'agglomération de Saint-Dié-des-Vosges, regroupant l'Office de tourisme, la Médiathèque et des salles à usage partagé.",
+   "departments": [
+    "88"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90911200",
+    "90919200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-113888",
+   "source": "BOAMP",
+   "source_id": "26-113888",
+   "title": "Mise en oeuvre du 3ème plan de gestion de l'ENS Forêt de la Comté : 2027-2031",
+   "buyer": "Département du Puy-de-Dôme",
+   "published": "2026-11-25",
+   "deadline": "2026-12-28T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113888",
+   "procedure_id": "01b3935c-bc17-4d20-ac09-9483ed781821",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires",
+   "departments": [
+    "63"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77314000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-114243",
+   "source": "BOAMP",
+   "source_id": "26-114243",
+   "title": "La présente consultation concerne a pour objet de confier au prestataire le nettoyage des vitres des bâtiments communaux de Balaruc-les-Bains",
+   "buyer": "Ville de Balaruc-Les-Bains",
+   "published": "2026-11-25",
+   "deadline": "2027-01-06T13:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114243",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande pour un montant maximum de commandes de 30 000,00 euro(s) HT par an identique pour chaque période de reconduction. Le contrat est susceptible d'être reconduit dans les conditions du CCAP. Le contrat est conclu pour une durée d'un an reconductible 3 fois. La durée maximale est de 4 ans toutes périodes confondues Les prestations sont réglées par des prix…",
+   "departments": [
+    "34"
+   ],
+   "regions": [
+    "Occitanie"
+   ],
+   "cpv": [
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "274",
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-114527",
+   "source": "BOAMP",
+   "source_id": "26-114527",
+   "title": "Prestations de sécurité incendie et sûreté pour les lieux exploités par la Spl S2e (société publique locale Seine-Eure évènements) La Spl Seine-Eure Evènements (S2e) a été cré",
+   "buyer": "Communauté d'agglomération Seine Eure",
+   "published": "2026-11-25",
+   "deadline": "2027-01-06T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114527",
+   "procedure_id": null,
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Chaque lot fera l'objet d'une attribution séparée. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction. La SPL recherche une entreprise de sécurité…",
+   "departments": [
+    "27",
+    "76"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "79710000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "01 : Le Hub (Louviers) / Le Carré Saint-Cyr (Le Vaudreuil). Le Hub (Louviers) / Le Carré Saint-Cyr (Le Vaudreuil)<br/>",
+    "02 : Le Moulin (Louviers). Le Moulin (Louviers)<br/>"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "274",
+    "331",
+    "332"
+   ]
+  },
+  {
    "id": "ted:817576-2026",
    "source": "TED",
    "source_id": "817576-2026",

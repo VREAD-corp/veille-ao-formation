@@ -110288,6 +110288,82 @@
    "updated": ""
   },
   {
+   "id": "boamp:26-113498",
+   "source": "BOAMP",
+   "source_id": "26-113498",
+   "title": "POEC Formation aux métiers de l'industrie",
+   "buyer": "OPCO 2i - Direction Appui aux branches et action prospective",
+   "published": "2026-11-25",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113498",
+   "procedure_id": "ddb24100-047f-4a2f-8138-20a67b856f8c",
+   "description": "Le marché porte sur les prestation détaillées dans le DCE, à savoir : POEC Métiers de l'industrie",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 475200.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-113745",
+   "source": "BOAMP",
+   "source_id": "26-113745",
+   "title": "Prestations de production d’une collection de podcasts audio et de vidéos à caractère scientifique et pédagogique",
+   "buyer": "SG-SAAM-Mission des achats",
+   "published": "2026-11-25",
+   "deadline": "2026-12-11T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-113745",
+   "procedure_id": "4f8d6a35-e79a-411f-83e9-1905f839a4ed",
+   "description": "Prestations de production d’une collection de podcasts audio et de vidéos à caractère scientifique et pédagogique pour les besoins du ministère chargé de l’enseignement supérieur, de la recherche et de l’espace.",
+   "departments": [
+    "75"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80590000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-101293"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
    "id": "ted:818342-2026",
    "source": "TED",
    "source_id": "818342-2026",
