@@ -110286,6 +110286,75 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "ted:818342-2026",
+   "source": "TED",
+   "source_id": "818342-2026",
+   "title": "Prestations de production d’une collection de podcasts audio et de vidéos à caractère scientifique et pédagogique",
+   "buyer": "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace, Secrétariat général, Service de l'action administrative et des moyens, Sous-direction des achats pour la Direction générale de la recherche et de l’innovation, l’Institut des Hautes études par les Sciences et la Technologie",
+   "published": "2026-11-25",
+   "deadline": "2026-12-11T16:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/818342-2026",
+   "procedure_id": "4f8d6a35-e79a-411f-83e9-1905f839a4ed",
+   "description": "Prestations de production d’une collection de podcasts audio et de vidéos à caractère scientifique et pédagogique pour les besoins du ministère chargé de l’enseignement supérieur, de la recherche et de l’espace.",
+   "departments": [],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80590000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 200000.0,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "ted:819027-2026",
+   "source": "TED",
+   "source_id": "819027-2026",
+   "title": "POEC Formation aux métiers de l'industrie",
+   "buyer": "OPCO 2i - Direction Appui aux branches et action prospective",
+   "published": "2026-11-25",
+   "deadline": "2026-12-02T12:00",
+   "url": "https://ted.europa.eu/fr/notice/-/detail/819027-2026",
+   "procedure_id": "ddb24100-047f-4a2f-8138-20a67b856f8c",
+   "description": "Le marché porte sur les prestation détaillées dans le DCE, à savoir : POEC Métiers de l'industrie",
+   "departments": [],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure ouverte",
+   "family": "Marchés européens (TED)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 475200.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
   }
  ]
 }
