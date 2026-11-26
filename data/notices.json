@@ -110431,6 +110431,176 @@
    "summary": "",
    "lots": [],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-114648",
+   "source": "BOAMP",
+   "source_id": "26-114648",
+   "title": "Formation AIPR",
+   "buyer": "Département de l'Isère",
+   "published": "2026-11-26",
+   "deadline": "2026-12-22T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114648",
+   "procedure_id": null,
+   "description": "Formation et tests pour l'obtention de l'attestation de compétences permettant l'autorisation d'intervention à proximité des réseaux (AIPR) pour les agents du Département de l'Isère",
+   "departments": [
+    "38"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-114672",
+   "source": "BOAMP",
+   "source_id": "26-114672",
+   "title": "FORMATIONS AUX COMPETENCES DE BASE « ORIENTES METIER » ET ADOSSES A UNE FORMATION PRE QUALIFIANTE _ Secteur Mobilité et Transport interurbain 2026-2027",
+   "buyer": "GIP CARIF OREF (976)",
+   "published": "2026-11-26",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114672",
+   "procedure_id": null,
+   "description": "Il s’agit d'une action de formation sur les compétences de base adossées à un métieren prenant soins de les associer aux modules / certificat de compétences professionnelles tout en suivant le référentiel officiel en vigueur. Les actions de formation portent sur l’apprentissage des compétences de base axées sur un métier afin de favoriser l’accès en formation certifiante: 1. Secteur Mobilité et Transport interurbain…",
+   "departments": [
+    "976"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "80400000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "LOT 1_TP Agent de médiation, information, services (RNCP37722, niveau 3)",
+    "LOT 2_TP Conseiller(ère) de vente (RNCP37098, niveau 4)"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-114741",
+   "source": "BOAMP",
+   "source_id": "26-114741",
+   "title": "Realisation D Actions De Formation Sur Le Theme Hygiene Et Proprete Des Locaux E3c Pour Le Compte De La Delegation Auvergne Rhone Alpes",
+   "buyer": "Cnfpt - Direction de l'achat public",
+   "published": "2026-11-26",
+   "deadline": "2027-01-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114741",
+   "procedure_id": null,
+   "description": "La valeur estimée indiquée dans le présent avis correspond aux montants maximum cumulés des lots sur la durée totale potentielle du marché (période initiale ainsi qu'éventuelles périodes de reconduction)",
+   "departments": [
+    "38",
+    "63",
+    "69",
+    "75"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Lot n°1 : Techniques de propreté et d'hygiène des locaux administratifs, des locaux et les surfaces spécifiques, tout en intégrant les impacts…",
+    "2 : Lot n°2 : Encadrement des équipes, mise en oeuvre d'une organisation, tout en s'assurant de la santé, de la sécurité au travail et du bienêtre des agents…"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-114796",
+   "source": "BOAMP",
+   "source_id": "26-114796",
+   "title": "Accompagnement Educatif Scolaire Et Periscolaire Des Enfants De 3 A 18 Ans Pour Le Compte La Delegation Auvergne Rhone Alpes",
+   "buyer": "Cnfpt - Direction de l'achat public",
+   "published": "2026-11-26",
+   "deadline": "2027-01-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114796",
+   "procedure_id": null,
+   "description": "La valeur estimée indiquée dans le présent avis correspond au cumul des montants maximum des lots sur la durée totale potentielle (période initiale et périodes de reconductions) en l'occurrence 3 ans",
+   "departments": [
+    "38",
+    "63",
+    "69",
+    "75"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes",
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1 : Lot n°1 : Soins à l'école et périscolaire - Allier, Cantal, Loire, Haute-Loire, Puy-de-Dôme, Ain, Rhône. Lot n°1 : Soins à l'école et périscolaire…",
+    "2 : Lot n°2 : Soins à l'école et périscolaire - Ardèche, Drôme, Isère, Savoie, Haute-Savoie. Lot n°2 : Soins à l'école et périscolaire - Ardèche, Drôme, Isère…",
+    "3 : Lot n°3 : Connaissance et accompagnement éducatif des enfants (3 à 18 ans) Allier, Cantal, Loire, Haute-Loire, Puy-de-Dôme, Ain, Rhône. Lot n°3…",
+    "4 : Lot n°4 : Connaissance et accompagnement éducatif des enfants (3 à 18 ans) Ardèche, Drôme, Isère, Savoie, Haute-Savoie. Lot n°4 : Connaissance et…",
+    "5 : Lot n°5 : Formations destinées à la fonction d'Atsem - Allier, Cantal, Loire, Haute-Loire, Puy-de-Dôme, Ain, Rhône. Lot n°5 : Formations destinées à la…",
+    "6 : Lot n°6 : Formations destinées à la fonction d'Atsem - Ardèche, Drôme, Isère, Savoie et Haute-Savoie. Lot n°6 : Formations destinées à la fonction d'Atsem…"
+   ],
+   "updated": ""
   }
  ]
 }
