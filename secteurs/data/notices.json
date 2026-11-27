@@ -136418,6 +136418,1037 @@
    "descriptors": []
   },
   {
+   "id": "boamp:26-114489",
+   "source": "BOAMP",
+   "source_id": "26-114489",
+   "title": "PRESTATIONS DE NETTOYAGE DES LOCAUX ET DE LA VITRERIE DE LA GRANDE CHANCELLERIE DE LA LÉGION D’HONNEUR (75007) ET DE LA MAISON D’ÉDUCATION DE LA LÉGION D’HONNEUR DE SAINT-DENIS (93200)",
+   "buyer": "GRANDE CHANCELLERIE DE LA LEGION D HONNEUR",
+   "published": "2026-11-27",
+   "deadline": "2027-01-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114489",
+   "procedure_id": "0b7a4a7f-d622-452e-bf24-9df2db61c1e7",
+   "description": "",
+   "departments": [
+    "75",
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1060000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "nettoyage et entretien des locaux de la grande chancellerie de la Légion d’honneur (75007) et de la maison d’éducation de la légion d’honneur située au 5 rue…",
+    "nettoyage et entretien de la vitrerie de la grande chancellerie de la Légion d’honneur (75007) et de la maison d’éducation de la Légion d’honneur située au 5…"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-114497",
+   "source": "BOAMP",
+   "source_id": "26-114497",
+   "title": "ENTRETIEN DES ESPACES VERTS – SALAGE / DENEIGEMENT POUR LE C.H.U D’ORLEANS (LOT 1) ET TRAVAUX DE VALORISATION DES ARBRES AU PROFIT DE L’EPSM DU LOIRET G. DAUMEZON. (LOT 2)",
+   "buyer": "CHU ORLEANS",
+   "published": "2026-11-27",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114497",
+   "procedure_id": "d1de54ef-7a2e-42c8-9f3c-df4d66c1eaa3",
+   "description": "ENTRETIEN DES ESPACES VERTS – SALAGE / DENEIGEMENT POUR LE C.H.U D’ORLEANS (LOT 1) ET TRAVAUX DE VALORISATION DES ARBRES AU PROFIT DE L’EPSM DU LOIRET G. DAUMEZON. (LOT 2) - 2026-48",
+   "departments": [
+    "45"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "ENTRETIEN DES ESPACES VERTS – SALAGE / DENEIGEMENT POUR LE C.H.U D’ORLEANS - 2026-48",
+    "TRAVAUX DE VALORISATION DES ARBRES AU PROFIT DE L’EPSM DU LOIRET G. DAUMEZON. (LOT 2) - 2026-48"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "98"
+   ]
+  },
+  {
+   "id": "boamp:26-114500",
+   "source": "BOAMP",
+   "source_id": "26-114500",
+   "title": "ENTRETIEN DES ESPACES VERTS ET RECHARGEMENT DES TERRAINS SYNTHETIQUES",
+   "buyer": "COMMUNE DE LA MADELEINE",
+   "published": "2026-11-27",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114500",
+   "procedure_id": "6d683eb2-7349-476a-85f9-f029fc3c51a7",
+   "description": "",
+   "departments": [
+    "59"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77314000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "ENTRETIEN DES ESPACES VERTS",
+    "RECHARGEMENT DES TERRAINS SYNTHETIQUES",
+    "ENTRETIEN DES ESPACES VERTS (LOT RESERVE)"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "342"
+   ]
+  },
+  {
+   "id": "boamp:26-114529",
+   "source": "BOAMP",
+   "source_id": "26-114529",
+   "title": "ENTRETIEN DES ESPACES VERTS DE LA VILLE",
+   "buyer": "Mairie de Gonesse",
+   "published": "2026-11-27",
+   "deadline": "2027-01-07T23:59",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114529",
+   "procedure_id": "ca39dd1b-b74c-4d96-88a4-ac89bb6caad4",
+   "description": "Il s'agit d'un accord-cadre mono-attributaire à bons de commande dont, conformément aux articles R2162-2, R2162-13, R2162-14 et R2162-4 du Code de la Commande Publique dont les montants annuels sont compris entre : Montant minimum : 500 000.00 euro(s) HT Montant maximum : 1 500 000.00 euro(s) HT L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Les…",
+   "departments": [
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 6000000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-114541",
+   "source": "BOAMP",
+   "source_id": "26-114541",
+   "title": "MARCHE DE NETTOYAGE COURANT DES LOCAUX DU CCAS D AIX EN PROVENCE",
+   "buyer": "CCAS d'Aix en Provence",
+   "published": "2026-11-27",
+   "deadline": "2027-01-07T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114541",
+   "procedure_id": "0455f570-6040-4e03-b9ef-c7e064964f6b",
+   "description": "NETTOYAGE COURANT DES LOCAUX DU CCAS D'AIX EN PROVENCE",
+   "departments": [
+    "13"
+   ],
+   "regions": [
+    "Provence-Alpes-Côte d'Azur"
+   ],
+   "cpv": [
+    "90919200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-114604",
+   "source": "BOAMP",
+   "source_id": "26-114604",
+   "title": "Marché de surveillance et de gardiennage",
+   "buyer": "Commune de Bievres",
+   "published": "2026-11-27",
+   "deadline": "2026-12-14T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114604",
+   "procedure_id": "d9c1e68b-2108-42f6-8f34-6d4e3a85f5e4",
+   "description": "Surveillance et gardiennage des sites communaux et lors de manifestations.",
+   "departments": [
+    "75",
+    "78",
+    "91",
+    "92"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "79710000",
+    "79714000",
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-110963"
+   ],
+   "summary": "",
+   "lots": [
+    "Prestations de surveillance et de gardiennage des sites communaux",
+    "Prestations de surveillance lors des manifestations et évènements ponctuels"
+   ],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "332",
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-114605",
+   "source": "BOAMP",
+   "source_id": "26-114605",
+   "title": "Nettoyage des locaux, de la vitrerie, ainsi que la fourniture des équipements et des consommables sanitaires et gestion interne des déchets des sites de l’Urssaf Ile de France",
+   "buyer": "URSSAF ILE DE FRANCE",
+   "published": "2026-11-27",
+   "deadline": "2026-12-04T17:30",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114605",
+   "procedure_id": "3f2c6f6b-1f4f-4657-8ac1-e98cc97d7778",
+   "description": "Le marché a pour objet l’exécution des prestations de nettoyage des locaux, de nettoyage de la vitrerie, de fourniture, installation, approvisionnement et suivi des équipements et consommables sanitaires, ainsi que de gestion interne des déchets des sites de l’Urssaf Île-de-France. Les prestations comprennent une partie forfaitaire et des prestations à la demande.",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "93",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90919200",
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 3520000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-99873"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-114613",
+   "source": "BOAMP",
+   "source_id": "26-114613",
+   "title": "PRESTATIONS DE NETTOYAGE ET D'ENTRETIEN DES LOCAUX DE LA COLLECTIVITÉ DE SAINT-MARTIN",
+   "buyer": "Collectivité de Saint Martin (978)",
+   "published": "2026-11-27",
+   "deadline": "2026-12-09T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114613",
+   "procedure_id": "c57daa69-8384-4ac9-8c4e-fc645fa0b972",
+   "description": "La consultation a pour objet les prestations de nettoyage et d'entretien des locaux de la Collectivité de Saint-Martin : locaux administratifs et techniques, établissements scolaires (écoles, collèges et lycées relevant de la Collectivité) et sanitaires publics.",
+   "departments": [
+    "978"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "90910000",
+    "90911200",
+    "90919300",
+    "90911300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-99377"
+   ],
+   "summary": "",
+   "lots": [
+    "Nettoyage et entretien des locaux administratifs et techniques",
+    "Nettoyage et entretien des locaux scolaires",
+    "Nettoyage et entretien des sanitaires publics"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-114640",
+   "source": "BOAMP",
+   "source_id": "26-114640",
+   "title": "ACCORD-CADRE A BON DE COMMANDE DE SERVICES ENTRETIEN PAYSAGER DES ESPACES PUBLICS DE LA COLLECTIVITE DE SAINT-MARTIN",
+   "buyer": "Collectivité de Saint Martin (978)",
+   "published": "2026-11-27",
+   "deadline": "2026-12-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114640",
+   "procedure_id": "18725e46-eca3-42dd-8fda-f3b4b3507853",
+   "description": "",
+   "departments": [
+    "978"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77000000",
+    "77211500",
+    "77211400",
+    "77211300"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-107694"
+   ],
+   "summary": "",
+   "lots": [
+    "FAUCHAGE ET DEBROUSSAILLAGE DES ACCOTEMENTS",
+    "ELAGAGE, TAILLE ET ABATTAGE"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "404",
+    "116",
+    "365",
+    "240",
+    "348"
+   ]
+  },
+  {
+   "id": "boamp:26-114643",
+   "source": "BOAMP",
+   "source_id": "26-114643",
+   "title": "Prestations d’entretien des espaces verts et des espaces arborés pour les FAZSOI, les résidences gérées par le Ministère des armées et des anciens combattants et des RSMA à La Réunion et à Mayotte",
+   "buyer": "DICOM FAZSOI",
+   "published": "2026-11-27",
+   "deadline": "2026-12-14T09:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114643",
+   "procedure_id": "b4b8dd67-bc5d-44be-8d46-c7f42587f167",
+   "description": "La présente consultation concerne les prestations d’entretien des espaces verts et des espaces arborés au profit de divers organismes des Forces armées dans la zone sud de l’océan Indien (FAZSOI), des résidences gérées par le Ministère des armées et des anciens combattants et des Régiments du service militaire adapté (RSMA) à La Réunion et à Mayotte",
+   "departments": [
+    "974",
+    "976"
+   ],
+   "regions": [
+    "Outre-mer"
+   ],
+   "cpv": [
+    "77310000",
+    "77341000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-95111"
+   ],
+   "summary": "",
+   "lots": [
+    "Entretien des espaces verts - Zone nord – La Réunion",
+    "Entretien des espaces verts - Zone Gillot – La Réunion (lot réservé)",
+    "Entretien des espaces verts - Zone est– La Réunion (zone sensible)",
+    "Entretien des espaces verts - Zone ouest – La Réunion",
+    "Entretien des espaces verts - Zone sud et Plaine des Cafres – La Réunion",
+    "Entretien des espaces verts - Dépôts de munition – La Réunion (zone sensible)",
+    "Entretien des espaces verts - Champs de tir et site annexe – La Réunion",
+    "Entretien des espaces verts résidences domaniales - Zone nord et ouest – La Réunion",
+    "Entretien des espaces verts résidences domaniales - Zone Sud – La Réunion",
+    "Entretien des espaces arborés - Zone Nord et Est – La Réunion",
+    "Entretien des espaces arborés - résidences domaniales - Zone Nord et Ouest – La Réunion",
+    "Entretien des espaces arborés - Zone Ouest – La Réunion"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-114714",
+   "source": "BOAMP",
+   "source_id": "26-114714",
+   "title": "Marché de nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires et l’évacuation des déchets",
+   "buyer": "FRANCE TRAVAIL - BFC",
+   "published": "2026-11-27",
+   "deadline": "2027-01-03T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114714",
+   "procedure_id": "21814f72-f38f-4e93-b703-6904fe8a35b1",
+   "description": "Marché de nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires et l’évacuation des déchets pour les sites de la direction régionale Bourgogne – Franche-Comté de France Travail",
+   "departments": [
+    "21",
+    "25",
+    "39",
+    "58",
+    "70",
+    "71",
+    "89",
+    "90"
+   ],
+   "regions": [
+    "Bourgogne-Franche-Comté"
+   ],
+   "cpv": [
+    "90911200"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Marché de nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires et l’évacuation des déchets pour les sites bourguignons de…",
+    "Marché de nettoyage des locaux, de la vitrerie ainsi que la fourniture des consommables sanitaires et l’évacuation des déchets pour les sites francs-comtois de…"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-114733",
+   "source": "BOAMP",
+   "source_id": "26-114733",
+   "title": "Marché public de réalisation de prestations de services de sécurité, sûreté, surveillance et gardiennage dans les bâtiments et dans le parc du Musée du Louvre-Lens et du CCL",
+   "buyer": "Musée du Louvre-Lens",
+   "published": "2026-11-27",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114733",
+   "procedure_id": "d64ed49c-5e54-4c29-8650-2ee727001ae7",
+   "description": "Prestations de sécurité, sûreté, surveillance et gardiennage du Musée du Louvre Lens :  Prestation de sécurité incendie, sûreté, accueil et surveillance sur un site comprenant un ERP de 1ère catégorie de 27 000 m² et un parc de 20 hectares.  Prestation de sécurité incendie par des agents SSIAP 2 et SSIAP 1, pendant et hors présence public. Certains agents SSIAP participent également à la surveillance des œuvres. …",
+   "departments": [
+    "62"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [
+    "79713000",
+    "79714000"
+   ],
+   "procedure": "Procédure Restreinte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "332",
+    "274",
+    "138",
+    "331"
+   ]
+  },
+  {
+   "id": "boamp:26-114738",
+   "source": "BOAMP",
+   "source_id": "26-114738",
+   "title": "Entretien des accotements de voirie : fauchage, entretien des fossés et accotements sur le territoire de la Communauté de Communes de la Vallée du Garon",
+   "buyer": "Communauté de communes de la Vallée du Garon",
+   "published": "2026-11-27",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114738",
+   "procedure_id": "55405cb4-4e09-4173-879e-9bb8d97e9d4c",
+   "description": "L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. La prestation à réaliser comprend notamment : - Le fauchage ou le débroussaillage mécanique incluant les finitions manuelles notamment liées aux émergences du domaine public de voirie. - Le fauchage manuel. - Le nettoiement des fossés, talus et accotements. - La réalisation de prestations…",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "77314000",
+    "45233229"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-114792",
+   "source": "BOAMP",
+   "source_id": "26-114792",
+   "title": "Entretien des espaces verts de la commune de Chevreuse",
+   "buyer": "Ville de Chevreuse",
+   "published": "2026-11-27",
+   "deadline": "2027-01-04T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114792",
+   "procedure_id": "f1f64fc4-85c2-4bec-99e6-ef4d86c50241",
+   "description": "Prestations de services d'entretien des espaces verts: - Lot 1: Entretien - Lot 2: Taille et soin des arbres d'ornement",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "77310000",
+    "77313000",
+    "77341000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien",
+    "Taille et soins des arbres d'ornement"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-114793",
+   "source": "BOAMP",
+   "source_id": "26-114793",
+   "title": "Prestations de surveillance, gardiennage et sécurisation des sites de SYTRAL Mobilités",
+   "buyer": "SYTRAL Mobilités - TRANSPORT",
+   "published": "2026-11-27",
+   "deadline": "2027-01-04T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114793",
+   "procedure_id": "356d8811-734d-41ff-860c-38cda22ad1da",
+   "description": "La présente consultation concerne les besoins de SYTRAL mobilités en termes de sécurisation de son patrimoine immobilier. Afin de préserver la sécurité de ces sites, SYTRAL Mobilités entend confier à un prestataire la réalisation de missions de mise en sécurité et de gardiennage par le biais de ces dispositifs : - Le gardiennage des biens par la mise en place de systèmes type télésurveillance et vidéosurveillance…",
+   "departments": [
+    "69"
+   ],
+   "regions": [
+    "Auvergne-Rhône-Alpes"
+   ],
+   "cpv": [
+    "79713000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "securite"
+   ],
+   "descriptors": [
+    "138"
+   ]
+  },
+  {
+   "id": "boamp:26-114794",
+   "source": "BOAMP",
+   "source_id": "26-114794",
+   "title": "Prestations de nettoyage des locaux de la Ville et de l'Eurométropole de Strasbourg",
+   "buyer": "Ville de Strasbourg",
+   "published": "2026-11-27",
+   "deadline": "2027-01-12T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114794",
+   "procedure_id": "6bd78306-6769-4340-be5d-94be2374f1f1",
+   "description": "Consultation lancée par un groupement de commandes. L'accord-cadre sera exécuté par l'émission de bons de commande. Les prestations sont réglées par des prix unitaires. Les montants estimatifs sont indicatifs et comprennent les options (prestations similaires et reconductions). Les montants estimatifs sont indicatifs et comprennent la totalité des périodes de reconduction",
+   "departments": [
+    "67"
+   ],
+   "regions": [
+    "Grand Est"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 1400000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "274"
+   ]
+  },
+  {
+   "id": "boamp:26-114814",
+   "source": "BOAMP",
+   "source_id": "26-114814",
+   "title": "Prestation de service liée à du nettoyage",
+   "buyer": "SIVOM de la Région de Chevreuse (78)",
+   "published": "2026-11-27",
+   "deadline": "2027-01-22T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114814",
+   "procedure_id": "09aa37a8-d332-4b0a-877f-ccd5b9fd4ab7",
+   "description": "",
+   "departments": [
+    "78"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239"
+   ]
+  },
+  {
+   "id": "boamp:26-114828",
+   "source": "BOAMP",
+   "source_id": "26-114828",
+   "title": "Accord-cadre pour les prestations de nettoyage des locaux et des vitres de la ville de Viarmes",
+   "buyer": "Mairie de Viarmes",
+   "published": "2026-11-27",
+   "deadline": "2027-01-15T17:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114828",
+   "procedure_id": "dd0b09ae-3a6d-4dc0-8eb5-48d1975bd826",
+   "description": "Le présent accord-cadre est un marché de prestations de services et de fournitures. Il a pour objet l'entretien des locaux et le nettoyage des vitres des bâtiments administratifs culturels et sportifs de la ville de Viarmes",
+   "departments": [
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90910000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Entretien des locaux",
+    "Vitrerie"
+   ],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "239",
+    "363"
+   ]
+  },
+  {
+   "id": "boamp:26-114855",
+   "source": "BOAMP",
+   "source_id": "26-114855",
+   "title": "ACCORD CADRE POUR L'ENTRETIEN DU PATRIMOINE ARBORÉ DE LA VILLE D'ANDERNOS-LES-BAINS",
+   "buyer": "Mairie Andernos-les-Bains",
+   "published": "2026-11-27",
+   "deadline": "2027-01-08T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-114855",
+   "procedure_id": "50c74b6c-7fb6-4cfd-98c6-5147c97c7e5d",
+   "description": "",
+   "departments": [
+    "33"
+   ],
+   "regions": [
+    "Nouvelle-Aquitaine"
+   ],
+   "cpv": [
+    "77211500",
+    "77211400"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-115180",
+   "source": "BOAMP",
+   "source_id": "26-115180",
+   "title": "Entretien des Espaces Verts",
+   "buyer": "Ville de Saint-Avertin",
+   "published": "2026-11-27",
+   "deadline": "2026-12-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-115180",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "37"
+   ],
+   "regions": [
+    "Centre-Val de Loire"
+   ],
+   "cpv": [
+    "77300000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Equipements sportifs",
+    "Cimetière"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116"
+   ]
+  },
+  {
+   "id": "boamp:26-115456",
+   "source": "BOAMP",
+   "source_id": "26-115456",
+   "title": "Opérations d'entretien de la Réserve naturelle nationale du domaine de Beauguillot",
+   "buyer": "PNR Marais du Cotentin et du Bessin",
+   "published": "2026-11-27",
+   "deadline": "2027-01-18T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-115456",
+   "procedure_id": null,
+   "description": "Confier la réalisation des travaux de restauration des milieux humides à des prestataires compétents et qualifiés, qui travailleront en étroite collaboration avec le maître d'ouvrage, le Parc naturel régional des marais du Cotentin et du Bessin. Le marché est décomposé en 3 lots : - Lot n° 1 : Travaux sur les buses et les mares - Lot n° 2 : Ramassage des déchets - Lot n° 3 : Entretien de la ripisylve",
+   "departments": [
+    "50"
+   ],
+   "regions": [
+    "Normandie"
+   ],
+   "cpv": [
+    "77314000",
+    "45232130",
+    "90680000",
+    "77200000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "1-Travaux sur les buses et les mares (remplacement ou réfection de buses - restauration de mares)",
+    "2- Ramassage des déchets (littoral)",
+    "3- Entretien de la ripisylve (abattage - élagage d'arbres sur berges de fossé)"
+   ],
+   "updated": "",
+   "niches": [
+    "espaces-verts"
+   ],
+   "descriptors": [
+    "116",
+    "341",
+    "404",
+    "40"
+   ]
+  },
+  {
    "id": "ted:824890-2026",
    "source": "TED",
    "source_id": "824890-2026",

@@ -110601,6 +110601,210 @@
     "6 : Lot n°6 : Formations destinées à la fonction d'Atsem - Ardèche, Drôme, Isère, Savoie et Haute-Savoie. Lot n°6 : Formations destinées à la fonction d'Atsem…"
    ],
    "updated": ""
+  },
+  {
+   "id": "boamp:26-115127",
+   "source": "BOAMP",
+   "source_id": "26-115127",
+   "title": "Accord-cadre de prestations de formation dans le domaine de l'hygiène alimentaire / HACCP pour le compte de la CCI Seine-et-Marne",
+   "buyer": "Chambre de Commerce et d'Industrie Seine-et-Marne",
+   "published": "2026-11-27",
+   "deadline": "2027-01-11T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-115127",
+   "procedure_id": null,
+   "description": "La consultation a pour objet un accord-cadre multi-attributaire portant sur la réalisation de prestations de formation dans le domaine de l’hygiène alimentaire et méthode HACCP à destination d’entreprises et de particuliers, pour le compte de la CCI Seine-et-Marne. Elle concerne des prestations de services d’enseignement et de formation visées à l’annexe n°3 du code de la commande publique relat",
+   "departments": [
+    "75",
+    "77",
+    "78",
+    "91",
+    "92",
+    "93",
+    "94",
+    "95"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80530000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": 80000.0,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-115232",
+   "source": "BOAMP",
+   "source_id": "26-115232",
+   "title": "Prestations d'accompagnement linguistique (parcours vers l'emploi, la citoyenneté, l'autonomie sociale et familiale, la consolidation des compétences et la préparation aux évaluations linguistiques...",
+   "buyer": "Etablissement public territorial Grand Paris Grand Est",
+   "published": "2026-11-27",
+   "deadline": "2026-12-21T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-115232",
+   "procedure_id": null,
+   "description": "L' EPT Grand Paris Grand Est développe une offre de prestations venant compléter les dispositifs proposés en interne par la Plateforme linguistique. L'objectif est de favoriser l'insertion sociale, citoyenne et professionnelle des habitants du Territoire, en priorité ceux de Clichy-sous-Bois et de Montfermeil par la mise en oeuvre de parcours linguistiques visant à renforcer les compétences en français des…",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "80400000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 : Parcours linguistique vers l'emploi",
+    "Lot n°2 : Parcours linguistique de citoyenneté",
+    "Lot n°3 : Parcours linguistique d'autonomie sociale et familiale",
+    "Lot n°4 : Parcours linguistique de consolidation et préparation aux évaluations"
+   ],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-115313",
+   "source": "BOAMP",
+   "source_id": "26-115313",
+   "title": "Accompagnement à la mobilité des publics en insertion professionnelle de Saint-Nazaire Agglomération - La Carene (permis B, permis Am quadricycle à moteur)",
+   "buyer": "Saint-Nazaire Agglomération - la Carene",
+   "published": "2026-11-27",
+   "deadline": "2027-01-13T12:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-115313",
+   "procedure_id": null,
+   "description": "Accord cadre de services mono-attributaire donnant lieu à l'émission de bons de commande. Procédure non allotie Ce contrat fait l'objet de demande de financement du Fonds Social Européen. Le contrat est reconductible 3 fois de manière tacite pour les mêmes montants et dans les mêmes termes par périodes successives de 12 mois (1 an)",
+   "departments": [
+    "44"
+   ],
+   "regions": [
+    "Pays de la Loire"
+   ],
+   "cpv": [
+    "79998000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-115364",
+   "source": "BOAMP",
+   "source_id": "26-115364",
+   "title": "Achat de prestations de formation sur le thème « Magasinage » pour la délégation Hauts-de-France du CNFPT",
+   "buyer": "CNFPT - Délégation Hauts de France",
+   "published": "2026-11-27",
+   "deadline": "2027-01-15T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-115364",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "02",
+    "59",
+    "60",
+    "62",
+    "80"
+   ],
+   "regions": [
+    "Hauts-de-France"
+   ],
+   "cpv": [],
+   "procedure": "Procédure Adaptée",
+   "family": "Marchés <90 k€ (MAPA)",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [],
+   "updated": ""
+  },
+  {
+   "id": "boamp:26-115441",
+   "source": "BOAMP",
+   "source_id": "26-115441",
+   "title": "Formation aux Premiers Secours Citoyen (PSC) des bénévoles des associations sportives finistériennes",
+   "buyer": "Département du Finistère",
+   "published": "2026-11-27",
+   "deadline": "2027-01-05T16:00",
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-115441",
+   "procedure_id": null,
+   "description": "Formation aux Premiers Secours Citoyen (PSC) à destination des bénévoles présents des associations sportives finistériennes",
+   "departments": [
+    "29"
+   ],
+   "regions": [
+    "Bretagne"
+   ],
+   "cpv": [
+    "80562000"
+   ],
+   "procedure": "Procédure Ouverte",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "initial",
+   "match": [
+    "cpv",
+    "descripteur",
+    "mot-cle"
+   ],
+   "alt_urls": {},
+   "supersedes": [],
+   "summary": "",
+   "lots": [
+    "Lot n°1 - arrondissement de Brest",
+    "Lot n°2 - arrondissement de Châteaulin",
+    "Lot n°3 - arrondissement de Morlaix",
+    "Lot n°4 - arrondissement de Quimper"
+   ],
+   "updated": ""
   }
  ]
 }
