@@ -137449,6 +137449,50 @@
    ]
   },
   {
+   "id": "boamp:26-115504",
+   "source": "BOAMP",
+   "source_id": "26-115504",
+   "title": "NETTOYAGE DES VITRERIES DANS LES BATIMENTS COMMUNAUX",
+   "buyer": "Ville de Stains",
+   "published": "2026-11-27",
+   "deadline": null,
+   "url": "https://www.boamp.fr/pages/avis/?q=idweb:26-115504",
+   "procedure_id": null,
+   "description": "",
+   "departments": [
+    "93"
+   ],
+   "regions": [
+    "Île-de-France"
+   ],
+   "cpv": [
+    "90911000"
+   ],
+   "procedure": "Procédure NC",
+   "family": "Marchés entre 90 k€ et seuils européens",
+   "contract_types": [
+    "Services"
+   ],
+   "estimated_value": null,
+   "status": "rectificatif",
+   "match": [
+    "cpv"
+   ],
+   "alt_urls": {},
+   "supersedes": [
+    "boamp:26-114054"
+   ],
+   "summary": "",
+   "lots": [],
+   "updated": "",
+   "niches": [
+    "nettoyage"
+   ],
+   "descriptors": [
+    "363"
+   ]
+  },
+  {
    "id": "ted:824890-2026",
    "source": "TED",
    "source_id": "824890-2026",
